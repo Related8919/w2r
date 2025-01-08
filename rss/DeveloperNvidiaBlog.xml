@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>DeveloperNvidiaBlog</title>
+    <link>https://developer.nvidia.com/zh-cn/blog/recent-posts/</link>
+    <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Wed, 08 Jan 2025 02:44:05 +0000</lastBuildDate>
+    <item>
+      <title>借助新的小语言模型，在 NVIDIA RTX AI PC 上部署智能体、助理和虚拟形象</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/deploy-agents-assistants-and-avatars-on-nvidia-rtx-ai-pcs-with-new-small-language-models/</link>
+      <description>2024年 12月 17日借助新的小语言模型，在 NVIDIA RTX AI PC 上部署智能体、助理和虚拟形象NVIDIA 刚刚发布了一系列小语言模型 (SLMs)，可增加数字人用于增强响应能力的信息量和类型。1 MIN READ</description>
+    </item>
+    <item>
+      <title>微调小型语言模型以提高代码审查准确性</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/fine-tuning-small-language-models-to-optimize-code-review-accuracy/</link>
+      <description>2024年 12月 17日微调小型语言模型以提高代码审查准确性生成式 AI 通过 推动众多 应用的创新和提高效率，正在改变企业。然而，采用大型 基础模型 会带来一些挑战，包括高成本、慢性能、5 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA TensorRT-LLM 现支持 Recurrent Drafting，实现 LLM 推理优化</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-tensorrt-llm-now-supports-recurrent-drafting-for-optimizing-llm-inference/</link>
+      <description>2024年 12月 18日NVIDIA TensorRT-LLM 现支持 Recurrent Drafting，实现 LLM 推理优化Recurrent Drafting (简称 ReDrafter) 是苹果公司为大语言模型 (LLM) 推理开发并开源的一种新型推测解码技术，2 MIN READ</description>
+    </item>
+    <item>
+      <title>利用 XGBoost 中的 CUDA 加速同态加密实现联邦学习数据隐私安全性</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/security-for-data-privacy-in-federated-learning-with-cuda-accelerated-homomorphic-encryption-in-xgboost/</link>
+      <description>2024年 12月 18日利用 XGBoost 中的 CUDA 加速同态加密实现联邦学习数据隐私安全性XGBoost 是一种广泛用于表格数据建模的机器学习算法。为了将 XGBoost 模型从单站点学习扩展到多站点协作训练，3 MIN READ</description>
+    </item>
+    <item>
+      <title>AEC 检索增强生成技术指南</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/a-guide-to-retrieval-augmented-generation-for-aec/</link>
+      <description>2024年 12月 18日AEC 检索增强生成技术指南大语言模型 (LLMs) 正在迅速改变业务格局，为自然语言处理 (NLP)、内容生成和数据分析提供新功能。3 MIN READ</description>
+    </item>
+    <item>
+      <title>2024 年 NVIDIA 6G 开发者日的 5 大关键收获</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/five-takeaways-from-nvidia-6g-developer-day-2024/</link>
+      <description>2024年 12月 18日2024 年 NVIDIA 6G 开发者日的 5 大关键收获2024 年 NVIDIA 6G 开发者日让 6G 研发社区成员共聚一堂 ，分享见解，并学习使用 NVIDIA 6G 研究工具的新方式。3 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 NVIDIA NeMo Curator 新分类器模型增强您的训练数据</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/enhance-your-training-data-with-new-nvidia-nemo-curator-classifier-models/</link>
+      <description>2024年 12月 19日使用 NVIDIA NeMo Curator 新分类器模型增强您的训练数据分类器模型专门用于将数据分类为预定义的组或类，在优化数据处理流程以微调和预训练生成式 AI 模型方面发挥着关键作用。3 MIN READ</description>
+    </item>
+    <item>
+      <title>RAPIDS 24.12 推出基于 PyPI 的 cuDF、适用于 Polar 的 CUDA 统一内存和更快的 GNN</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/rapids-24-12-introduces-cudf-on-pypi-cuda-unified-memory-for-polars-and-faster-gnns/</link>
+      <description>2024年 12月 19日RAPIDS 24.12 推出基于 PyPI 的 cuDF、适用于 Polar 的 CUDA 统一内存和更快的 GNNRAPIDS 24.12 将 cuDF 包引入 PyPI，加快了 聚合和从 AWS S3 读取文件的速度，3 MIN READ</description>
+    </item>
+    <item>
+      <title>AI 视觉技术助力绿色回收工厂智能化</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/ai-vision-helps-green-recycling-plants/</link>
+      <description>2024年 12月 19日AI 视觉技术助力绿色回收工厂智能化全球每年仅回收约 13% 的 20 多亿吨城市垃圾。到 2050 年，全球每年的城市废弃物量将达到 3.88 亿吨。1 MIN READ</description>
+    </item>
+    <item>
+      <title>借助 Dell AI Factory 和 NVIDIA 加速电影制作</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/accelerating-film-production-with-dell-ai-factory-and-nvidia/</link>
+      <description>2024年 12月 19日借助 Dell AI Factory 和 NVIDIA 加速电影制作电影制作是一个复杂而复杂的过程，涉及艺术家、作家、视觉效果专业人员、技术人员和无数其他专家组成的多元化团队。2 MIN READ</description>
+    </item>
+    <item>
+      <title>聚焦：Stone Ridge Technology 利用 AWS 上的 NVIDIA Modulus 加速油藏模拟工作流</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/spotlight-stone-ridge-technology-accelerates-reservoir-simulation-workflows-with-nvidia-modulus-on-aws/</link>
+      <description>2024年 12月 19日聚焦：Stone Ridge Technology 利用 AWS 上的 NVIDIA Modulus 加速油藏模拟工作流能源勘探中固有的风险和不确定性包括未知的地质参数、流体和岩石属性的变化、边界条件和噪声观测数据。3 MIN READ</description>
+    </item>
+    <item>
+      <title>利用 RAPIDS 和 Ray 加速 GPU 数据分析</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/accelerating-gpu-analytics-using-rapids-and-ray/</link>
+      <description>2024年 12月 20日利用 RAPIDS 和 Ray 加速 GPU 数据分析RAPIDS 是一套开源 GPU 加速的数据科学和 AI 库，可通过 Spark 和 Dask 等分布式引擎进行横向扩展。2 MIN READ</description>
+    </item>
+    <item>
+      <title>利用 NVIDIA NIM 微服务构建生成式 AI 医疗设备训练助手</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/build-a-generative-ai-medical-device-training-assistant-with-nvidia-nim-microservices/</link>
+      <description>2024年 12月 20日利用 NVIDIA NIM 微服务构建生成式 AI 医疗设备训练助手医疗设备创新不断加速，每年获得 FDA 批准的数量都创下新高。向临床医生和患者介绍这些全新或更新的设备时，他们需要接受培训，以正确、2 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA 黑客松获奖者分享 RAPIDS 加速机器学习工作流程的策略</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-hackathon-winners-share-strategies-for-rapids-accelerated-ml-workflows/</link>
+      <description>2024年 12月 20日NVIDIA 黑客松获奖者分享 RAPIDS 加速机器学习工作流程的策略今年，大约 220 个团队齐聚开放数据科学大会 (ODSC) 西部，参加 NVIDIA 黑客松竞赛，这是一场 24 小时机器学习 (ML)…3 MIN READ</description>
+    </item>
+    <item>
+      <title>TensorRT-LLM：LLM API 精简指令畅享卓越性能！</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/tensorrt-llm-api/</link>
+      <description>2025年 1月 2日TensorRT-LLM：LLM API 精简指令畅享卓越性能！NVIDIA TensorRT-LLM 是一个专为 优化大语言模型 (LLM) 推理而设计的库。它提供了多种先进的优化技术 ，2 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA TensorRT-LLM Roadmap 现已在 GitHub 上公开发布！</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-tensorrt-llm-roadmap-github/</link>
+      <description>2025年 1月 2日NVIDIA TensorRT-LLM Roadmap 现已在 GitHub 上公开发布！感谢众多用户及合作伙伴一直以来对 NVIDIA TensorRT-LLM 的支持。TensorRT-LLM 的 Roadmap 现已在…1 MIN READ</description>
+    </item>
+  </channel>
+</rss>

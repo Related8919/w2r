@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>XbowBlog</title>
+    <link>https://xbow.com/blog/</link>
+    <description>Latest posts from https://xbow.com/blog/. follow.is: feedId:91496472796537856+userId:43946731810334720</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Wed, 08 Jan 2025 02:43:54 +0000</lastBuildDate>
+    <item>
+      <title>Introducing XBOW</title>
+      <link>https://xbow.com/blog/introducing-xbow/</link>
+      <description>XBOW brings AI to offensive security. Today we’re announcing the results of testing XBOW on hundreds of web security benchmarks. Without any human intervention, XBOW correctly finds and exploits the vulnerabilities in most of them.</description>
+    </item>
+    <item>
+      <title>Breaking Crypto with XBOW</title>
+      <link>https://xbow.com/blog/breaking-crypto-with-xbow/</link>
+      <description>When I taught Offensive Security at NYU, padding oracles were the hardest attack we covered in our two-week unit on breaking cryptography. So it shocked me when XBOW managed to successfully build an exploit for this vulnerability in one of our novel benchmarks “Bad Captcha”, using it to decrypt a cookie set by the server and bypass its authentication.</description>
+    </item>
+    <item>
+      <title>Sequoia Capital leads $20M seed round in XBOW</title>
+      <link>https://xbow.com/blog/xbow-seed-investment/</link>
+      <description>XBOW scales offensive security through AI, boosting the work of pentesters, bug hunters and offensive security researchers. It autonomously solves 75% of web app security benchmarks. Sequoia Capital is leading a $20M seed round in XBOW.</description>
+    </item>
+    <item>
+      <title>XBOW now matches the capabilities of a top human pentester</title>
+      <link>https://xbow.com/blog/xbow-vs-humans/</link>
+      <description>Five professional pentesters were asked to find and exploit the vulnerabilities in 104 realistic web security benchmarks. The most senior of them, with over twenty years of experience, solved 85% during 40 hours, while others scored 59% or less. XBOW also scored 85%, doing so in 28 minutes. This illustrates how XBOW can boost offensive security teams, freeing them to focus on the most interesting and challenging parts of their job.</description>
+    </item>
+    <item>
+      <title>XBOW validation benchmarks: show me the numbers!</title>
+      <link>https://xbow.com/blog/benchmarks/</link>
+      <description>XBOW is currently making 104 benchmarks available to the public. This allows other security products, tools, and researchers to use and explore these benchmarks.</description>
+    </item>
+    <item>
+      <title>How XBOW found a Scoold authentication bypass</title>
+      <link>https://xbow.com/blog/xbow-scoold-vuln/</link>
+      <description>As we shift our focus from benchmarks to real world applications, we will be sharing some of the most interesting vulnerabilities XBOW has found in real-world, open-source targets. The first of these is an authentication bypass in Scoold, a popular open-source Q&amp;A platform.</description>
+    </item>
+    <item>
+      <title>SSRF &amp; URI validation bypass in 2FAuth</title>
+      <link>https://xbow.com/blog/xbow-2fauth-ssrf/</link>
+      <description>XBOW discovered a Server-Side Request Forgery (SSRF) vulnerability in the OTP preview feature of the open-source project, 2FAuth.</description>
+    </item>
+    <item>
+      <title>LabsAI’s EDDI project path traversal</title>
+      <link>https://xbow.com/blog/xbow-eddi-path/</link>
+      <description>XBOW discovered a Path Traversal vulnerability in the open-source project, LabsAI’s EDDI.</description>
+    </item>
+    <item>
+      <title>Stored Cross-Site Scripting (XSS) in 2FAuth</title>
+      <link>https://xbow.com/blog/xbow-2fauth-xss/</link>
+      <description>XBOW discovered a Cross-Site Scripting (XSS) vulnerability in the open-source project, 2FAuth.</description>
+    </item>
+    <item>
+      <title>The Nightmare Before Christmas: An arbitrary file download on Zoo-Project</title>
+      <link>https://xbow.com/blog/xbow-zoo-project-arb/</link>
+      <description>XBOW discovered an arbitrary file download vulnerability on the WPS open source app Zoo-Project.</description>
+    </item>
+  </channel>
+</rss>

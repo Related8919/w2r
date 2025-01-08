@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>splunk_blog</title>
+    <link>https://www.splunk.com/en_us/blog</link>
+    <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Wed, 08 Jan 2025 02:43:32 +0000</lastBuildDate>
+    <item>
+      <title>Splunk AppDynamics 24.10 Accelerates Deployment And MTTR</title>
+      <link>https://www.splunk.com/en_us/blog/observability/splunk-appdynamics-accelerates-deployment-and-mttr.html</link>
+      <description>Splunk AppDynamics, now part of the Splunk Observability portfolio, provides critical observability for traditional 3-tier/n-tier applications and helps IT Operations teams quickly discover root causes of issues before end-users even notice.</description>
+    </item>
+    <item>
+      <title>Website Security: Tips &amp; Best Practices for Securing Websites</title>
+      <link>https://www.splunk.com/en_us/blog/learn/website-security.html</link>
+      <description>Protect your website with essential security tips and best practices. Learn how to defend against cyber threats, safeguard data, and build customer trust.</description>
+    </item>
+    <item>
+      <title>Scaling Anomaly Detection with MLTK 5.5</title>
+      <link>https://www.splunk.com/en_us/blog/artificial-intelligence/scaling-anomaly-detection-with-mltk-5-5.html</link>
+      <description>Who doesn’t love a bit of anomaly detection with Splunk? As someone who has spent far too long talking about cyclical statistical forecasts and anomalies, you’ll be relieved that this is a topic that we don’t get tired of here at Splunk! In this blog post we will be taking you through some of the recent changes to the Machine Learning Toolkit, where we have released a more scalable version of our users most favorite algorithm.</description>
+    </item>
+    <item>
+      <title>Top 6 Data Analysis Techniques Used by Pro Data Analysts</title>
+      <link>https://www.splunk.com/en_us/blog/learn/data-analysis-techniques.html</link>
+      <description>Data analysis is important, but how do you get started? These top techniques, used by professional data analysts, will help you get the most value out of your data.</description>
+    </item>
+    <item>
+      <title>IT/ITIL Problem Management</title>
+      <link>https://www.splunk.com/en_us/blog/learn/problem-management.html</link>
+      <description>Discover ITIL Problem Management: Learn how to reduce incidents, improve service, and boost IT maturity with proactive problem-solving strategies.</description>
+    </item>
+    <item>
+      <title>Data Science vs. Data Analytics: Key Differences</title>
+      <link>https://www.splunk.com/en_us/blog/learn/data-science-vs-data-analytics.html</link>
+      <description>Don’t be confused! Data science and data analytics are different concepts. Learn all about it here, so you’ll know exactly how they can work together.</description>
+    </item>
+    <item>
+      <title>Models for Time Series Forecasting</title>
+      <link>https://www.splunk.com/en_us/blog/learn/time-series-forecasting.html</link>
+      <description>Understand time series forecasting — a way to or predict behaviors based on historical, timestamped data — with anomaly detection to prevent IT problems.</description>
+    </item>
+    <item>
+      <title>Business Intelligence (BI): What It Means for Your Organization</title>
+      <link>https://www.splunk.com/en_us/blog/learn/business-intelligence.html</link>
+      <description>Learn how BI transforms raw data into actionable insights to drive decisions, boost efficiency, and enhance ROI.</description>
+    </item>
+    <item>
+      <title>Learn SPL command types: Efficient search execution order and how to investigate them</title>
+      <link>https://www.splunk.com/en_us/blog/tips-and-tricks/learn-spl-command-types-efficient-search-execution-order-and-how-to-investigate-them.html</link>
+      <description>When performing searches, Splunk uses its own language, SPL (Search Processing Language). In this article, we will explain each type of SPL and show you the efficient order in which to run searches and how to use the Search Job Inspector, an investigative tool.</description>
+    </item>
+    <item>
+      <title>What is Observability? An Introduction</title>
+      <link>https://www.splunk.com/en_us/blog/learn/observability.html</link>
+      <description>In this blog post, we'll look at definitions, best practices, and key concepts around Observability in IT.</description>
+    </item>
+    <item>
+      <title>What are SaaS, PaaS, &amp; IaaS?</title>
+      <link>https://www.splunk.com/en_us/blog/learn/cloud-service-models-saas-vs-paas-vs-iaas.html</link>
+      <description>Yes, the cloud makes work better. But which cloud model is right for you? Understand how SaaS, PaaS, and IaaS works in this ultimate guide.</description>
+    </item>
+    <item>
+      <title>Telemetry 101: An Introduction To Telemetry</title>
+      <link>https://www.splunk.com/en_us/blog/learn/what-is-telemetry.html</link>
+      <description>Telemetry is powerful data that can tell you all sorts of important information. Know what you can do with this useful data — get the full telemetry 101 here.</description>
+    </item>
+    <item>
+      <title>What Are SLMs? Small Language Models, Explained</title>
+      <link>https://www.splunk.com/en_us/blog/learn/small-language-models-slms.html</link>
+      <description>Large language models have changed the world. What about small language models? Learn what SLMs are, how they differ from LLMs, and why SLMs are the future.</description>
+    </item>
+    <item>
+      <title>IT and Technology Spending &amp; Budgets for 2025: Trends &amp; Forecasts</title>
+      <link>https://www.splunk.com/en_us/blog/learn/it-tech-spending.html</link>
+      <description>Tech &amp; IT spending is on the rise in 2025 across the globe. Read more on investment trends and see which regions will spend the most.</description>
+    </item>
+    <item>
+      <title>SIEM: Security Information &amp; Event Management Explained</title>
+      <link>https://www.splunk.com/en_us/blog/learn/siem-security-information-event-management.html</link>
+      <description>SIEM is a cybersecurity game-changer, especially for large organizations. Learn key SIEM features and functions &amp; how to choose the right SIEM tool.</description>
+    </item>
+    <item>
+      <title>What is Observability? An Introduction</title>
+      <link>https://www.splunk.com/en_us/blog/learn/observability.html</link>
+      <description>In this blog post, we'll look at definitions, best practices, and key concepts around Observability in IT.</description>
+    </item>
+    <item>
+      <title>What are SaaS, PaaS, &amp; IaaS?</title>
+      <link>https://www.splunk.com/en_us/blog/learn/cloud-service-models-saas-vs-paas-vs-iaas.html</link>
+      <description>Yes, the cloud makes work better. But which cloud model is right for you? Understand how SaaS, PaaS, and IaaS works in this ultimate guide.</description>
+    </item>
+    <item>
+      <title>Telemetry 101: An Introduction To Telemetry</title>
+      <link>https://www.splunk.com/en_us/blog/learn/what-is-telemetry.html</link>
+      <description>Telemetry is powerful data that can tell you all sorts of important information. Know what you can do with this useful data — get the full telemetry 101 here.</description>
+    </item>
+    <item>
+      <title>What Are SLMs? Small Language Models, Explained</title>
+      <link>https://www.splunk.com/en_us/blog/learn/small-language-models-slms.html</link>
+      <description>Large language models have changed the world. What about small language models? Learn what SLMs are, how they differ from LLMs, and why SLMs are the future.</description>
+    </item>
+    <item>
+      <title>IT and Technology Spending &amp; Budgets for 2025: Trends &amp; Forecasts</title>
+      <link>https://www.splunk.com/en_us/blog/learn/it-tech-spending.html</link>
+      <description>Tech &amp; IT spending is on the rise in 2025 across the globe. Read more on investment trends and see which regions will spend the most.</description>
+    </item>
+    <item>
+      <title>SIEM: Security Information &amp; Event Management Explained</title>
+      <link>https://www.splunk.com/en_us/blog/learn/siem-security-information-event-management.html</link>
+      <description>SIEM is a cybersecurity game-changer, especially for large organizations. Learn key SIEM features and functions &amp; how to choose the right SIEM tool.</description>
+    </item>
+    <item>
+      <title>What is Observability? An Introduction</title>
+      <link>https://www.splunk.com/en_us/blog/learn/observability.html</link>
+      <description>In this blog post, we'll look at definitions, best practices, and key concepts around Observability in IT.</description>
+    </item>
+    <item>
+      <title>What are SaaS, PaaS, &amp; IaaS?</title>
+      <link>https://www.splunk.com/en_us/blog/learn/cloud-service-models-saas-vs-paas-vs-iaas.html</link>
+      <description>Yes, the cloud makes work better. But which cloud model is right for you? Understand how SaaS, PaaS, and IaaS works in this ultimate guide.</description>
+    </item>
+    <item>
+      <title>Telemetry 101: An Introduction To Telemetry</title>
+      <link>https://www.splunk.com/en_us/blog/learn/what-is-telemetry.html</link>
+      <description>Telemetry is powerful data that can tell you all sorts of important information. Know what you can do with this useful data — get the full telemetry 101 here.</description>
+    </item>
+    <item>
+      <title>Unify and Automate TDIR Workflows with Splunk SOAR 6.3 and Splunk Enterprise Security 8.0</title>
+      <link>https://www.splunk.com/en_us/blog/security/unify-and-automate-tdir-workflows-with-splunk-soar-6-3-and-splunk-enterprise-security-8-0.html</link>
+      <description>Splunk SOAR 6.3 and Enterprise Security 8.0 make it easier to unify and automate your threat detection, investigation, and response workflows.</description>
+    </item>
+    <item>
+      <title>Splunk Named a Leader in the 2024 IDC MarketScape for SIEM for Enterprise</title>
+      <link>https://www.splunk.com/en_us/blog/security/splunk-named-a-leader-in-the-2024-idc-marketscape-for-siem-for-enterprise.html</link>
+      <description>Splunk is ranked #1 for the fourth year in a row in the IDC Worldwide Security Information and Event Management Market Shares, 2023: The Leaders in SIEM City report!</description>
+    </item>
+    <item>
+      <title>Cybersecurity Awareness Month Spotlight: Insights from the Cisco Talos &amp; SURGe Teams</title>
+      <link>https://www.splunk.com/en_us/blog/security/cybersecurity-awareness-month-spotlight-insights-from-the-cisco-talos-surge-teams.html</link>
+      <description>The Cisco Talos and SURGe by Splunk teams gathered for a special episode of Talos Takes filled with engaging cybersecurity discussions and candid opinions.</description>
+    </item>
+    <item>
+      <title>Federated Analytics: Analyze Data Wherever It Resides for Rapid and Holistic Security Visibility</title>
+      <link>https://www.splunk.com/en_us/blog/security/federated-analytics-analyze-data-wherever-it-resides-for-rapid-and-holistic-security-visibility.html</link>
+      <description>Federated Analytics is now generally available as a premium add-on feature for Splunk Cloud Platform and Splunk Enterprise Security.</description>
+    </item>
+    <item>
+      <title>Security Staff Picks To Read This Month, Handpicked by Splunk Experts</title>
+      <link>https://www.splunk.com/en_us/blog/security/cybersecurity-recent-articles.html</link>
+      <description>Every month, our Splunk staff of security experts share their favorite reads of the month — this way, you can follow the most interesting, news-worthy, and innovative stories coming from the wide world of cybersecurity.</description>
+    </item>
+    <item>
+      <title>Announcing the General Availability of Splunk® Enterprise Security 8.0</title>
+      <link>https://www.splunk.com/en_us/blog/security/announcing-the-general-availability-of-splunk-enterprise-security-8-0.html</link>
+      <description>We are thrilled to announce Splunk Enterprise Security 8.0 is now generally available.</description>
+    </item>
+    <item>
+      <title>Unify and Automate TDIR Workflows with Splunk SOAR 6.3 and Splunk Enterprise Security 8.0</title>
+      <link>https://www.splunk.com/en_us/blog/security/unify-and-automate-tdir-workflows-with-splunk-soar-6-3-and-splunk-enterprise-security-8-0.html</link>
+      <description>Splunk SOAR 6.3 and Enterprise Security 8.0 make it easier to unify and automate your threat detection, investigation, and response workflows.</description>
+    </item>
+    <item>
+      <title>Splunk Named a Leader in the 2024 IDC MarketScape for SIEM for Enterprise</title>
+      <link>https://www.splunk.com/en_us/blog/security/splunk-named-a-leader-in-the-2024-idc-marketscape-for-siem-for-enterprise.html</link>
+      <description>Splunk is ranked #1 for the fourth year in a row in the IDC Worldwide Security Information and Event Management Market Shares, 2023: The Leaders in SIEM City report!</description>
+    </item>
+    <item>
+      <title>Cybersecurity Awareness Month Spotlight: Insights from the Cisco Talos &amp; SURGe Teams</title>
+      <link>https://www.splunk.com/en_us/blog/security/cybersecurity-awareness-month-spotlight-insights-from-the-cisco-talos-surge-teams.html</link>
+      <description>The Cisco Talos and SURGe by Splunk teams gathered for a special episode of Talos Takes filled with engaging cybersecurity discussions and candid opinions.</description>
+    </item>
+    <item>
+      <title>Federated Analytics: Analyze Data Wherever It Resides for Rapid and Holistic Security Visibility</title>
+      <link>https://www.splunk.com/en_us/blog/security/federated-analytics-analyze-data-wherever-it-resides-for-rapid-and-holistic-security-visibility.html</link>
+      <description>Federated Analytics is now generally available as a premium add-on feature for Splunk Cloud Platform and Splunk Enterprise Security.</description>
+    </item>
+    <item>
+      <title>Security Staff Picks To Read This Month, Handpicked by Splunk Experts</title>
+      <link>https://www.splunk.com/en_us/blog/security/cybersecurity-recent-articles.html</link>
+      <description>Every month, our Splunk staff of security experts share their favorite reads of the month — this way, you can follow the most interesting, news-worthy, and innovative stories coming from the wide world of cybersecurity.</description>
+    </item>
+    <item>
+      <title>Announcing the General Availability of Splunk® Enterprise Security 8.0</title>
+      <link>https://www.splunk.com/en_us/blog/security/announcing-the-general-availability-of-splunk-enterprise-security-8-0.html</link>
+      <description>We are thrilled to announce Splunk Enterprise Security 8.0 is now generally available.</description>
+    </item>
+    <item>
+      <title>Unify and Automate TDIR Workflows with Splunk SOAR 6.3 and Splunk Enterprise Security 8.0</title>
+      <link>https://www.splunk.com/en_us/blog/security/unify-and-automate-tdir-workflows-with-splunk-soar-6-3-and-splunk-enterprise-security-8-0.html</link>
+      <description>Splunk SOAR 6.3 and Enterprise Security 8.0 make it easier to unify and automate your threat detection, investigation, and response workflows.</description>
+    </item>
+    <item>
+      <title>Splunk Named a Leader in the 2024 IDC MarketScape for SIEM for Enterprise</title>
+      <link>https://www.splunk.com/en_us/blog/security/splunk-named-a-leader-in-the-2024-idc-marketscape-for-siem-for-enterprise.html</link>
+      <description>Splunk is ranked #1 for the fourth year in a row in the IDC Worldwide Security Information and Event Management Market Shares, 2023: The Leaders in SIEM City report!</description>
+    </item>
+    <item>
+      <title>Cybersecurity Awareness Month Spotlight: Insights from the Cisco Talos &amp; SURGe Teams</title>
+      <link>https://www.splunk.com/en_us/blog/security/cybersecurity-awareness-month-spotlight-insights-from-the-cisco-talos-surge-teams.html</link>
+      <description>The Cisco Talos and SURGe by Splunk teams gathered for a special episode of Talos Takes filled with engaging cybersecurity discussions and candid opinions.</description>
+    </item>
+    <item>
+      <title>Put Your Issue Detection and Response on Fast-Forward With GenAI</title>
+      <link>https://www.splunk.com/en_us/blog/devops/put-your-issue-detection-and-response-on-fast-forward-with-genai.html</link>
+      <description>In this blog, Splunkers Joanna Zouhour and Umang Agarwal cover three use cases the AI Assistant can unlock: accelerated troubleshooting, deeper visibility of your tech stack, and faster daily operations.</description>
+    </item>
+    <item>
+      <title>Splunk Now Generally Available on Microsoft Azure</title>
+      <link>https://www.splunk.com/en_us/blog/partners/splunk-now-generally-available-on-microsoft-azure.html</link>
+      <description>Splunk arrives on Microsoft Azure, giving the vast majority of Fortune 2000 companies an easier way to enable enterprise-grade security and observability.</description>
+    </item>
+    <item>
+      <title>State of Observability 2024 Reveals How Leaders Outpace Their Peers</title>
+      <link>https://www.splunk.com/en_us/blog/devops/state-of-observability-2024-reveals-how-leaders-outpace-their-peers.html</link>
+      <description>In the State of Observability 2024, we identify organizations that are outperforming their peers and share their key characteristics and outcomes achieved.</description>
+    </item>
+    <item>
+      <title>Reflections from Cisco Partner Summit 2024: Building the Future as One</title>
+      <link>https://www.splunk.com/en_us/blog/partners/reflections-from-cisco-partner-summit-2024-building-the-future-as-one.html</link>
+      <description>Cisco Partner Summit 2024 highlighted the growing recognition of Splunk’s critical role in addressing enterprise security and observability challenges.</description>
+    </item>
+    <item>
+      <title>Bridging the Cyber Confidence Gap: Digital Resilience in the Public Sector</title>
+      <link>https://www.splunk.com/en_us/blog/industries/bridging-the-cyber-confidence-gap-digital-resilience-in-the-public-sector.html</link>
+      <description>Mick Baccio shares the findings of Splunk's report – conducted in collaboration with Foundry – on bridging the resilience gap across public and private sectors.</description>
+    </item>
+    <item>
+      <title>Digital Resilience Powers Your Mission: GovSummit 2024 in Review</title>
+      <link>https://www.splunk.com/en_us/blog/industries/digital-resilience-powers-your-mission-govsummit-2024-in-review.html</link>
+      <description>Splunk's VP of Public Sector, Bill Rowan shares his three key takeaways from Splunk GovSummit 2024.</description>
+    </item>
+    <item>
+      <title>Cisco Intends to Acquire Threat Detection and Defense Company SnapAttack, Driving Further Splunk Innovation to Power the SOC of the Future</title>
+      <link>https://www.splunk.com/en_us/blog/security/cisco-intends-to-acquire-threat-detection-and-defense-company-snapattack.html</link>
+      <description>Cisco announces it intent to acquire threat detection and defense company SnapAttack, driving further Splunk innovation to power the SOC of the future.</description>
+    </item>
+    <item>
+      <title>Put Your Issue Detection and Response on Fast-Forward With GenAI</title>
+      <link>https://www.splunk.com/en_us/blog/devops/put-your-issue-detection-and-response-on-fast-forward-with-genai.html</link>
+      <description>In this blog, Splunkers Joanna Zouhour and Umang Agarwal cover three use cases the AI Assistant can unlock: accelerated troubleshooting, deeper visibility of your tech stack, and faster daily operations.</description>
+    </item>
+    <item>
+      <title>Splunk Now Generally Available on Microsoft Azure</title>
+      <link>https://www.splunk.com/en_us/blog/partners/splunk-now-generally-available-on-microsoft-azure.html</link>
+      <description>Splunk arrives on Microsoft Azure, giving the vast majority of Fortune 2000 companies an easier way to enable enterprise-grade security and observability.</description>
+    </item>
+    <item>
+      <title>State of Observability 2024 Reveals How Leaders Outpace Their Peers</title>
+      <link>https://www.splunk.com/en_us/blog/devops/state-of-observability-2024-reveals-how-leaders-outpace-their-peers.html</link>
+      <description>In the State of Observability 2024, we identify organizations that are outperforming their peers and share their key characteristics and outcomes achieved.</description>
+    </item>
+    <item>
+      <title>Reflections from Cisco Partner Summit 2024: Building the Future as One</title>
+      <link>https://www.splunk.com/en_us/blog/partners/reflections-from-cisco-partner-summit-2024-building-the-future-as-one.html</link>
+      <description>Cisco Partner Summit 2024 highlighted the growing recognition of Splunk’s critical role in addressing enterprise security and observability challenges.</description>
+    </item>
+    <item>
+      <title>Bridging the Cyber Confidence Gap: Digital Resilience in the Public Sector</title>
+      <link>https://www.splunk.com/en_us/blog/industries/bridging-the-cyber-confidence-gap-digital-resilience-in-the-public-sector.html</link>
+      <description>Mick Baccio shares the findings of Splunk's report – conducted in collaboration with Foundry – on bridging the resilience gap across public and private sectors.</description>
+    </item>
+    <item>
+      <title>Digital Resilience Powers Your Mission: GovSummit 2024 in Review</title>
+      <link>https://www.splunk.com/en_us/blog/industries/digital-resilience-powers-your-mission-govsummit-2024-in-review.html</link>
+      <description>Splunk's VP of Public Sector, Bill Rowan shares his three key takeaways from Splunk GovSummit 2024.</description>
+    </item>
+    <item>
+      <title>Cisco Intends to Acquire Threat Detection and Defense Company SnapAttack, Driving Further Splunk Innovation to Power the SOC of the Future</title>
+      <link>https://www.splunk.com/en_us/blog/security/cisco-intends-to-acquire-threat-detection-and-defense-company-snapattack.html</link>
+      <description>Cisco announces it intent to acquire threat detection and defense company SnapAttack, driving further Splunk innovation to power the SOC of the future.</description>
+    </item>
+    <item>
+      <title>Put Your Issue Detection and Response on Fast-Forward With GenAI</title>
+      <link>https://www.splunk.com/en_us/blog/devops/put-your-issue-detection-and-response-on-fast-forward-with-genai.html</link>
+      <description>In this blog, Splunkers Joanna Zouhour and Umang Agarwal cover three use cases the AI Assistant can unlock: accelerated troubleshooting, deeper visibility of your tech stack, and faster daily operations.</description>
+    </item>
+    <item>
+      <title>Splunk Now Generally Available on Microsoft Azure</title>
+      <link>https://www.splunk.com/en_us/blog/partners/splunk-now-generally-available-on-microsoft-azure.html</link>
+      <description>Splunk arrives on Microsoft Azure, giving the vast majority of Fortune 2000 companies an easier way to enable enterprise-grade security and observability.</description>
+    </item>
+    <item>
+      <title>State of Observability 2024 Reveals How Leaders Outpace Their Peers</title>
+      <link>https://www.splunk.com/en_us/blog/devops/state-of-observability-2024-reveals-how-leaders-outpace-their-peers.html</link>
+      <description>In the State of Observability 2024, we identify organizations that are outperforming their peers and share their key characteristics and outcomes achieved.</description>
+    </item>
+  </channel>
+</rss>

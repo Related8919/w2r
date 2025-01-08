@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>sonarsource_blog</title>
+    <link>https://www.sonarsource.com/blog/tag/security/</link>
+    <description>Latest posts from https://www.sonarsource.com/blog/tag/security/. follow.is: feedId:91489273007230976+userId:43946731810334720</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Wed, 08 Jan 2025 02:43:37 +0000</lastBuildDate>
+    <item>
+      <title>Securing Developer Tools: Unpatched Code Vulnerabilities in Gogs (1/2)</title>
+      <link>https://www.sonarsource.com/blog/securing-developer-tools-unpatched-code-vulnerabilities-in-gogs-1/</link>
+      <description>We discovered 4 critical code vulnerabilities in Gogs, a source code hosting solution, which are still unpatched. Read about the details and how to protect yourself.</description>
+    </item>
+    <item>
+      <title>Securing Developer Tools: Unpatched Code Vulnerabilities in Gogs (2/2)</title>
+      <link>https://www.sonarsource.com/blog/securing-developer-tools-unpatched-code-vulnerabilities-in-gogs-2/</link>
+      <description>Learn about critical code vulnerabilities we discovered in Gogs, a source code hosting solution. This follow-up covers how less severe flaws can still have a critical impact.</description>
+    </item>
+    <item>
+      <title>Encoding Differentials: Why Charset Matters</title>
+      <link>https://www.sonarsource.com/blog/encoding-differentials-why-charset-matters/</link>
+      <description>The absence of charset information seems to be a minor issue for a web application. This blog post explains why this is a false assumption and highlights the critical security implications.</description>
+    </item>
+    <item>
+      <title>Government Emails at Risk: Critical Cross-Site Scripting Vulnerability in Roundcube Webmail</title>
+      <link>https://www.sonarsource.com/blog/government-emails-at-risk-critical-cross-site-scripting-vulnerability-in-roundcube-webmail/</link>
+      <description>Sonar’s R&amp;D team discovered a Cross-Site Scripting vulnerability in Roundcube. Similar vulnerabilities in Roundcube have been used by APTs to steal government emails.</description>
+    </item>
+    <item>
+      <title>Front-End Frameworks: When Bypassing Built-in Sanitization Might Backfire</title>
+      <link>https://www.sonarsource.com/blog/front-end-frameworks-when-bypassing-built-in-sanitization-might-backfire/</link>
+      <description>Modern JavaScript front-end frameworks protect your application from XSS vulnerabilities by automatically escaping untrusted content. This built-in feature can be bypassed intentionally, which should be taken with great care.</description>
+    </item>
+    <item>
+      <title>Basic HTTP Authentication Risk: Uncovering pyspider Vulnerabilities</title>
+      <link>https://www.sonarsource.com/blog/basic-http-authentication-risk-uncovering-pyspider-vulnerabilities/</link>
+      <description>pyspider uses the convenient “basic HTTP authentication” method, but browsers don’t take the extra step to protect users from CSRF attacks. Learn more on how SonarQube Cloud detected 2 vulnerabilities in this open-source project.</description>
+    </item>
+    <item>
+      <title>ISO 27001 Importance</title>
+      <link>https://www.sonarsource.com/blog/iso-27001-importance/</link>
+      <description>Security standards such as ISO 27001 are crucial for businesses as they offer a structured framework for managing and safeguarding sensitive information.</description>
+    </item>
+    <item>
+      <title>Top Security Flaws hiding in your code right now - and how to fix them</title>
+      <link>https://www.sonarsource.com/blog/top-security-flaws-hiding-in-your-code-right-now-and-how-to-fix-them/</link>
+      <description>Let's examine the three most common injection attack types—SQL injection, Deserialization Injection, and Logging Injection—and discuss ways to prevent them.</description>
+    </item>
+    <item>
+      <title>Why Code Security Matters - Even in Hardened Environments</title>
+      <link>https://www.sonarsource.com/blog/why-code-security-matters-even-in-hardened-environments/</link>
+      <description>This blog post showcases why fundamental code security is essential for an application despite all hardening measures applied in the underlying infrastructure.</description>
+    </item>
+    <item>
+      <title>The Power of Taint Analysis: Uncovering Critical Code Vulnerability in OpenAPI Generator</title>
+      <link>https://www.sonarsource.com/blog/the-power-of-taint-analysis-uncovering-critical-code-vulnerability-in-openapi-generator/</link>
+      <description>This blog post explains how taint analysis tracks all data flows in an application’s source code to unveil deeply hidden vulnerabilities and showcases a critical vulnerability in the OpenAPI Generator discovered by SonarQube Cloud.</description>
+    </item>
+    <item>
+      <title>Sanitize Client-Side: Why Server-Side HTML Sanitization is Doomed to Fail</title>
+      <link>https://www.sonarsource.com/blog/sanitize-client-side-why-server-side-html-sanitization-is-doomed-to-fail/</link>
+      <description>HTML sanitization has long been touted as a solution to prevent malicious content injection. However, this approach faces numerous challenges. In this blog post, we'll explore the limitations of server-side HTML sanitization and discuss why client-side sanitization is the better approach.</description>
+    </item>
+    <item>
+      <title>Never Underestimate CSRF: Why Origin Reflection is a Bad Idea</title>
+      <link>https://www.sonarsource.com/blog/never-underestimate-csrf-why-origin-reflection-is-a-bad-idea/</link>
+      <description>CORS misconfigurations are often overlooked, but they can have severe consequences. We demonstrate how reflecting the origin header leads to code execution in Whistle.</description>
+    </item>
+  </channel>
+</rss>

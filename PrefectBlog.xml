@@ -1,0 +1,476 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>PrefectBlog</title>
+    <link>https://www.prefect.io/blog</link>
+    <description>Latest posts from https://www.prefect.io/blog. follow.is: feedId:91496891568160768+userId:43946731810334720</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Wed, 08 Jan 2025 02:44:04 +0000</lastBuildDate>
+    <item>
+      <title>Prefect ProductThe Golden SpikeJanuary 2019</title>
+      <link>https://www.prefect.io/blog/golden-spike</link>
+      <description>Prefect ProductThe Golden SpikeJanuary 2019</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationWhy Not Airflow?April 2019</title>
+      <link>https://www.prefect.io/blog/why-not-airflow</link>
+      <description>Workflow OrchestrationWhy Not Airflow?April 2019</description>
+    </item>
+    <item>
+      <title>PressDon't Panic: The Prefect Guide to Building a High Performance TeamApril 2021</title>
+      <link>https://www.prefect.io/blog/dont-panic-the-prefect-guide-to-building-a-high-performance-team</link>
+      <description>PressDon't Panic: The Prefect Guide to Building a High Performance TeamApril 2021</description>
+    </item>
+    <item>
+      <title>Prefect ProductOur Second-Generation Workflow EngineOctober 2021</title>
+      <link>https://www.prefect.io/blog/second-generation-workflow-engine</link>
+      <description>Prefect ProductOur Second-Generation Workflow EngineOctober 2021</description>
+    </item>
+    <item>
+      <title>Case StudiesWashington Nationals and PrefectFebruary 2022</title>
+      <link>https://www.prefect.io/blog/nationals-prefect</link>
+      <description>Case StudiesWashington Nationals and PrefectFebruary 2022</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationA Brief History of Workflow OrchestrationApril 2022</title>
+      <link>https://www.prefect.io/blog/brief-history-of-workflow-orchestration</link>
+      <description>Workflow OrchestrationA Brief History of Workflow OrchestrationApril 2022</description>
+    </item>
+    <item>
+      <title>Case StudiesRTR Struts the Data Runway with PrefectMay 2022</title>
+      <link>https://www.prefect.io/blog/rtr-struts-the-data-runway-with-prefect</link>
+      <description>Case StudiesRTR Struts the Data Runway with PrefectMay 2022</description>
+    </item>
+    <item>
+      <title>Prefect Product(Re)Introducing PrefectJuly 2022</title>
+      <link>https://www.prefect.io/blog/prefect-global-coordination-plane</link>
+      <description>Prefect Product(Re)Introducing PrefectJuly 2022</description>
+    </item>
+    <item>
+      <title>Case StudiesWhy Dyvenia Adopted PrefectAugust 2022</title>
+      <link>https://www.prefect.io/blog/why-dyvenia-adopted-prefect</link>
+      <description>Case StudiesWhy Dyvenia Adopted PrefectAugust 2022</description>
+    </item>
+    <item>
+      <title>Prefect ProductIf You Give a Data Engineer a JobSeptember 2022</title>
+      <link>https://www.prefect.io/blog/give-a-data-engineer-a-job</link>
+      <description>Prefect ProductIf You Give a Data Engineer a JobSeptember 2022</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationThe Workflow Coordination SpectrumSeptember 2022</title>
+      <link>https://www.prefect.io/blog/workflow-coordination-spectrum</link>
+      <description>Workflow OrchestrationThe Workflow Coordination SpectrumSeptember 2022</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationWhy Not Cron?October 2022</title>
+      <link>https://www.prefect.io/blog/why-not-cron</link>
+      <description>Workflow OrchestrationWhy Not Cron?October 2022</description>
+    </item>
+    <item>
+      <title>Case StudiesAnaconda and PrefectDecember 2022</title>
+      <link>https://www.prefect.io/blog/anaconda-prefect</link>
+      <description>Case StudiesAnaconda and PrefectDecember 2022</description>
+    </item>
+    <item>
+      <title>Prefect ProductExpect the UnexpectedJanuary 2023</title>
+      <link>https://www.prefect.io/blog/expect-unexpected-automations-and-observability</link>
+      <description>Prefect ProductExpect the UnexpectedJanuary 2023</description>
+    </item>
+    <item>
+      <title>Prefect ProductWorkflow Design PatternsJanuary 2023</title>
+      <link>https://www.prefect.io/blog/workflow-design-patterns</link>
+      <description>Prefect ProductWorkflow Design PatternsJanuary 2023</description>
+    </item>
+    <item>
+      <title>Prefect ProductFreezing Legacy Prefect Cloud 1 AccountsJanuary 2023</title>
+      <link>https://www.prefect.io/blog/freezing-legacy-prefect-cloud-1-accounts</link>
+      <description>Prefect ProductFreezing Legacy Prefect Cloud 1 AccountsJanuary 2023</description>
+    </item>
+    <item>
+      <title>AIKeeping Your Eyes On AI ToolsMarch 2023</title>
+      <link>https://www.prefect.io/blog/keeping-your-eyes-on-ai-tools</link>
+      <description>AIKeeping Your Eyes On AI ToolsMarch 2023</description>
+    </item>
+    <item>
+      <title>Prefect ProductIntroducing Prefect Workers and ProjectsApril 2023</title>
+      <link>https://www.prefect.io/blog/introducing-prefect-workers-projects</link>
+      <description>Prefect ProductIntroducing Prefect Workers and ProjectsApril 2023</description>
+    </item>
+    <item>
+      <title>EngineeringMore Memory, More ProblemsMay 2023</title>
+      <link>https://www.prefect.io/blog/more-memory-more-problems</link>
+      <description>EngineeringMore Memory, More ProblemsMay 2023</description>
+    </item>
+    <item>
+      <title>Prefect ProductBeyond SchedulingJuly 2023</title>
+      <link>https://www.prefect.io/blog/event-driven-flows-with-prefect</link>
+      <description>Prefect ProductBeyond SchedulingJuly 2023</description>
+    </item>
+    <item>
+      <title>Case StudiesCrumbl and Prefect: A Five Star RecipeJuly 2023</title>
+      <link>https://www.prefect.io/blog/crumbl-prefect</link>
+      <description>Case StudiesCrumbl and Prefect: A Five Star RecipeJuly 2023</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationAn Introduction to Workflow OrchestrationAugust 2023</title>
+      <link>https://www.prefect.io/blog/intro-to-workflow-orchestration</link>
+      <description>Workflow OrchestrationAn Introduction to Workflow OrchestrationAugust 2023</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationYou Probably Don’t Need a DAGAugust 2023</title>
+      <link>https://www.prefect.io/blog/you-probably-dont-need-a-dag</link>
+      <description>Workflow OrchestrationYou Probably Don’t Need a DAGAugust 2023</description>
+    </item>
+    <item>
+      <title>Prefect ProductGlue it all together with PrefectAugust 2023</title>
+      <link>https://www.prefect.io/blog/glue-it-all-together-with-prefect</link>
+      <description>Prefect ProductGlue it all together with PrefectAugust 2023</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationNo Flow is an IslandAugust 2023</title>
+      <link>https://www.prefect.io/blog/no-flow-is-an-island</link>
+      <description>Workflow OrchestrationNo Flow is an IslandAugust 2023</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationWhat is a Data Pipeline?September 2023</title>
+      <link>https://www.prefect.io/blog/what-is-a-data-pipeline</link>
+      <description>Workflow OrchestrationWhat is a Data Pipeline?September 2023</description>
+    </item>
+    <item>
+      <title>Prefect ProductAutomatically Respond to GitHub Issues with Prefect and MarvinSeptember 2023</title>
+      <link>https://www.prefect.io/blog/github-issues-prefect-marvin</link>
+      <description>Prefect ProductAutomatically Respond to GitHub Issues with Prefect and MarvinSeptember 2023</description>
+    </item>
+    <item>
+      <title>Prefect ProductSchedule your Python code quickly with .serve()September 2023</title>
+      <link>https://www.prefect.io/blog/schedule-your-code-quickly-with-flow-dot-serve</link>
+      <description>Prefect ProductSchedule your Python code quickly with .serve()September 2023</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationData is Mail, Not WaterSeptember 2023</title>
+      <link>https://www.prefect.io/blog/data-mail-not-water</link>
+      <description>Workflow OrchestrationData is Mail, Not WaterSeptember 2023</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationThe Implications of Scaling AirflowSeptember 2023</title>
+      <link>https://www.prefect.io/blog/implications-of-scaling-airflow</link>
+      <description>Workflow OrchestrationThe Implications of Scaling AirflowSeptember 2023</description>
+    </item>
+    <item>
+      <title>Case StudiesRec Room: From Workflow Chaos to Orchestrated BlissSeptember 2023</title>
+      <link>https://www.prefect.io/blog/rec-room-case-study</link>
+      <description>Case StudiesRec Room: From Workflow Chaos to Orchestrated BlissSeptember 2023</description>
+    </item>
+    <item>
+      <title>Prefect ProductIntroducing Error Summaries by Marvin AISeptember 2023</title>
+      <link>https://www.prefect.io/blog/introducing-error-summaries</link>
+      <description>Prefect ProductIntroducing Error Summaries by Marvin AISeptember 2023</description>
+    </item>
+    <item>
+      <title>Case StudiesAustin FC Scores Big with Data: A Strategic Play with PrefectOctober 2023</title>
+      <link>https://www.prefect.io/blog/austin-fc-scores-big-with-data</link>
+      <description>Case StudiesAustin FC Scores Big with Data: A Strategic Play with PrefectOctober 2023</description>
+    </item>
+    <item>
+      <title>Prefect Productdbt and Prefect: A quick tutorialOctober 2023</title>
+      <link>https://www.prefect.io/blog/dbt-and-prefect</link>
+      <description>Prefect Productdbt and Prefect: A quick tutorialOctober 2023</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationWhen to Run Python on Serverless ArchitectureOctober 2023</title>
+      <link>https://www.prefect.io/blog/run-python-serverless-architecture</link>
+      <description>Workflow OrchestrationWhen to Run Python on Serverless ArchitectureOctober 2023</description>
+    </item>
+    <item>
+      <title>EngineeringBuilding resilient data pipelines in minutesOctober 2023</title>
+      <link>https://www.prefect.io/blog/building-resilient-data-pipelines-in-minutes-with-dlt-prefect</link>
+      <description>EngineeringBuilding resilient data pipelines in minutesOctober 2023</description>
+    </item>
+    <item>
+      <title>EngineeringDatabase Partitioning Best PracticesNovember 2023</title>
+      <link>https://www.prefect.io/blog/database-partitioning-prod-postgres-without-downtime</link>
+      <description>EngineeringDatabase Partitioning Best PracticesNovember 2023</description>
+    </item>
+    <item>
+      <title>Prefect ProductIntroducing access controls and team managementNovember 2023</title>
+      <link>https://www.prefect.io/blog/introducing-access-controls-and-team-management</link>
+      <description>Prefect ProductIntroducing access controls and team managementNovember 2023</description>
+    </item>
+    <item>
+      <title>Prefect ProductMonitoring Serverless Functions: A TutorialNovember 2023</title>
+      <link>https://www.prefect.io/blog/monitoring-serverless-functions-tutorial</link>
+      <description>Prefect ProductMonitoring Serverless Functions: A TutorialNovember 2023</description>
+    </item>
+    <item>
+      <title>Case StudiesBuilding a HIPAA compliant self-serve data platformNovember 2023</title>
+      <link>https://www.prefect.io/blog/modern-health-hipaa</link>
+      <description>Case StudiesBuilding a HIPAA compliant self-serve data platformNovember 2023</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationA platform approach to workflow orchestrationNovember 2023</title>
+      <link>https://www.prefect.io/blog/a-platform-approach-to-workflow-orchestration</link>
+      <description>Workflow OrchestrationA platform approach to workflow orchestrationNovember 2023</description>
+    </item>
+    <item>
+      <title>Prefect ProductBuilding an Application with Hashboard and PrefectNovember 2023</title>
+      <link>https://www.prefect.io/blog/application-hashboard-prefect-snow-leaderboard</link>
+      <description>Prefect ProductBuilding an Application with Hashboard and PrefectNovember 2023</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationSuccessfully Deploying a Task QueueDecember 2023</title>
+      <link>https://www.prefect.io/blog/successfully-deploying-task-queue</link>
+      <description>Workflow OrchestrationSuccessfully Deploying a Task QueueDecember 2023</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationWhy You Need an Observability PlatformDecember 2023</title>
+      <link>https://www.prefect.io/blog/why-you-need-an-observability-platform</link>
+      <description>Workflow OrchestrationWhy You Need an Observability PlatformDecember 2023</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationOrchestrating Event Driven Serverless Data PipelinesJanuary 2024</title>
+      <link>https://www.prefect.io/blog/orchestrating-event-driven-serverless-data-pipelines-prefect-pulumi-aws</link>
+      <description>Workflow OrchestrationOrchestrating Event Driven Serverless Data PipelinesJanuary 2024</description>
+    </item>
+    <item>
+      <title>Prefect ProductReducing the Workflow Hangover in 2023January 2024</title>
+      <link>https://www.prefect.io/blog/reducing-the-workflow-hangover-2023</link>
+      <description>Prefect ProductReducing the Workflow Hangover in 2023January 2024</description>
+    </item>
+    <item>
+      <title>Prefect ProductSchedule Python ScriptsJanuary 2024</title>
+      <link>https://www.prefect.io/blog/schedule-python-scripts-solving-five-problems-scaling</link>
+      <description>Prefect ProductSchedule Python ScriptsJanuary 2024</description>
+    </item>
+    <item>
+      <title>Prefect ProductProduct updates: incident management, managed compute, and much moreJanuary 2024</title>
+      <link>https://www.prefect.io/blog/incident-management-managed-compute-and-more</link>
+      <description>Prefect ProductProduct updates: incident management, managed compute, and much moreJanuary 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationScalable Microservices Orchestration with Prefect and DockerJanuary 2024</title>
+      <link>https://www.prefect.io/blog/scalable-microservices-orchestration-with-prefect-and-docker</link>
+      <description>Workflow OrchestrationScalable Microservices Orchestration with Prefect and DockerJanuary 2024</description>
+    </item>
+    <item>
+      <title>Prefect ProductUnveiling Interactive WorkflowsJanuary 2024</title>
+      <link>https://www.prefect.io/blog/unveiling-interactive-workflows</link>
+      <description>Prefect ProductUnveiling Interactive WorkflowsJanuary 2024</description>
+    </item>
+    <item>
+      <title>PressHow Jeremiah Lowin Turned a Life-Long Question Into an Industry-Leading Startup Based in D.C.February 2024</title>
+      <link>https://www.prefect.io/blog/how-jeremiah-lowin-turned-a-life-long-question-into-an-industry-leading-startup</link>
+      <description>PressHow Jeremiah Lowin Turned a Life-Long Question Into an Industry-Leading Startup Based in D.C.February 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationEvent-Driven Versus Scheduled Data PipelinesFebruary 2024</title>
+      <link>https://www.prefect.io/blog/event-driven-versus-scheduled-data-pipelines</link>
+      <description>Workflow OrchestrationEvent-Driven Versus Scheduled Data PipelinesFebruary 2024</description>
+    </item>
+    <item>
+      <title>EngineeringWhat is Pydantic? Validating Data in PythonFebruary 2024</title>
+      <link>https://www.prefect.io/blog/what-is-pydantic-validating-data-in-python</link>
+      <description>EngineeringWhat is Pydantic? Validating Data in PythonFebruary 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationWorkflow Observability: Finding and Resolving Failures FastFebruary 2024</title>
+      <link>https://www.prefect.io/blog/workflow-observability-finding-and-resolving-failures-fast</link>
+      <description>Workflow OrchestrationWorkflow Observability: Finding and Resolving Failures FastFebruary 2024</description>
+    </item>
+    <item>
+      <title>Prefect ProductOrchestrating dbt on Snowflake with PrefectFebruary 2024</title>
+      <link>https://www.prefect.io/blog/orchestrating-dbt-on-snowflake-with-prefect</link>
+      <description>Prefect ProductOrchestrating dbt on Snowflake with PrefectFebruary 2024</description>
+    </item>
+    <item>
+      <title>EngineeringPydantic Enums: An IntroductionMarch 2024</title>
+      <link>https://www.prefect.io/blog/pydantic-enums-introduction</link>
+      <description>EngineeringPydantic Enums: An IntroductionMarch 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationData Pipeline Monitoring: Best Practices for Full ObservabilityMarch 2024</title>
+      <link>https://www.prefect.io/blog/data-pipeline-monitoring-best-practices</link>
+      <description>Workflow OrchestrationData Pipeline Monitoring: Best Practices for Full ObservabilityMarch 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationObservability Metrics: Put Your Log Data to UseMarch 2024</title>
+      <link>https://www.prefect.io/blog/observability-metrics-put-your-log-data-to-use</link>
+      <description>Workflow OrchestrationObservability Metrics: Put Your Log Data to UseMarch 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationGlue Code: How to Implement &amp; Manage at ScaleApril 2024</title>
+      <link>https://www.prefect.io/blog/glue-code-implement-and-manage-at-scale</link>
+      <description>Workflow OrchestrationGlue Code: How to Implement &amp; Manage at ScaleApril 2024</description>
+    </item>
+    <item>
+      <title>EngineeringData Validation with PydanticApril 2024</title>
+      <link>https://www.prefect.io/blog/data-validation-with-pydantic</link>
+      <description>EngineeringData Validation with PydanticApril 2024</description>
+    </item>
+    <item>
+      <title>EngineeringDockerizing Your Python Applications: How ToApril 2024</title>
+      <link>https://www.prefect.io/blog/dockerizing-python-applications</link>
+      <description>EngineeringDockerizing Your Python Applications: How ToApril 2024</description>
+    </item>
+    <item>
+      <title>EngineeringThe Role of Infrastructure Cleanup JobsMay 2024</title>
+      <link>https://www.prefect.io/blog/the-role-of-infrastructure-cleanup-jobs</link>
+      <description>EngineeringThe Role of Infrastructure Cleanup JobsMay 2024</description>
+    </item>
+    <item>
+      <title>Prefect Product5 Reasons You Can't Miss Prefect Summit 2024June 2024</title>
+      <link>https://www.prefect.io/blog/five-reasons-you-cant-miss-prefect-summit-2024</link>
+      <description>Prefect Product5 Reasons You Can't Miss Prefect Summit 2024June 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationWork Pools and Workers: Deploy Python SecurelyJune 2024</title>
+      <link>https://www.prefect.io/blog/work-pools-and-workers-deploy-python-securely</link>
+      <description>Workflow OrchestrationWork Pools and Workers: Deploy Python SecurelyJune 2024</description>
+    </item>
+    <item>
+      <title>AIIntroducing ControlFlowJune 2024</title>
+      <link>https://www.prefect.io/blog/controlflow-intro</link>
+      <description>AIIntroducing ControlFlowJune 2024</description>
+    </item>
+    <item>
+      <title>Prefect ProductIntroducing Prefect 3.0June 2024</title>
+      <link>https://www.prefect.io/blog/introducing-prefect-3-0</link>
+      <description>Prefect ProductIntroducing Prefect 3.0June 2024</description>
+    </item>
+    <item>
+      <title>EngineeringManaging Efficient Technical and Data TeamsJuly 2024</title>
+      <link>https://www.prefect.io/blog/managing-efficient-technical-and-data-teams</link>
+      <description>EngineeringManaging Efficient Technical and Data TeamsJuly 2024</description>
+    </item>
+    <item>
+      <title>Case StudiesCash App Gains Flexibility in Machine Learning Workflows with PrefectJuly 2024</title>
+      <link>https://www.prefect.io/blog/cash-app-gains-flexibility-in-machine-learning-workflows-with-prefect</link>
+      <description>Case StudiesCash App Gains Flexibility in Machine Learning Workflows with PrefectJuly 2024</description>
+    </item>
+    <item>
+      <title>Prefect ProductBackground Tasks: Why They Matter in PrefectJuly 2024</title>
+      <link>https://www.prefect.io/blog/background-tasks-why-they-matter-in-prefect</link>
+      <description>Prefect ProductBackground Tasks: Why They Matter in PrefectJuly 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationWhen That Adhoc Script Turns Into a Production Data PipelineJuly 2024</title>
+      <link>https://www.prefect.io/blog/when-that-adhoc-script-turns-into-a-production-data-pipeline</link>
+      <description>Workflow OrchestrationWhen That Adhoc Script Turns Into a Production Data PipelineJuly 2024</description>
+    </item>
+    <item>
+      <title>Case StudiesCox Automotive Meets Dynamic Demands with Workforce Analytics Solutions Powered by PrefectJuly 2024</title>
+      <link>https://www.prefect.io/blog/cox-automotive-meets-dynamic-demands-with-workforce-analytics-solutions-powered-by-prefect</link>
+      <description>Case StudiesCox Automotive Meets Dynamic Demands with Workforce Analytics Solutions Powered by PrefectJuly 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationOrchestration Tools: Choose the Right Tool for the JobAugust 2024</title>
+      <link>https://www.prefect.io/blog/orchestration-tools-choose-the-right-tool-for-the-job</link>
+      <description>Workflow OrchestrationOrchestration Tools: Choose the Right Tool for the JobAugust 2024</description>
+    </item>
+    <item>
+      <title>Case StudiesHow One Education Travel Company Unblocks Data Science Teams With PrefectSeptember 2024</title>
+      <link>https://www.prefect.io/blog/how-one-education-travel-company-unblocks-data-science-teams-with-prefect</link>
+      <description>Case StudiesHow One Education Travel Company Unblocks Data Science Teams With PrefectSeptember 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationWhat I Talk About When I Talk About OrchestrationSeptember 2024</title>
+      <link>https://www.prefect.io/blog/what-i-talk-about-when-i-talk-about-orchestration</link>
+      <description>Workflow OrchestrationWhat I Talk About When I Talk About OrchestrationSeptember 2024</description>
+    </item>
+    <item>
+      <title>AIControlFlow 0.9: Take Control of your AgentsSeptember 2024</title>
+      <link>https://www.prefect.io/blog/controlflow-0-9-take-control-of-your-agents</link>
+      <description>AIControlFlow 0.9: Take Control of your AgentsSeptember 2024</description>
+    </item>
+    <item>
+      <title>OSSPrefect's Commitment to Open Source: Launching Our Sponsorship InitiativeSeptember 2024</title>
+      <link>https://www.prefect.io/blog/prefect-s-commitment-to-open-source-launching-our-sponsorship-initiative</link>
+      <description>OSSPrefect's Commitment to Open Source: Launching Our Sponsorship InitiativeSeptember 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationPrefect on the lakehouse: write-audit-publish pattern with BauplanSeptember 2024</title>
+      <link>https://www.prefect.io/blog/prefect-on-the-lakehouse-write-audit-publish-pattern-with-bauplan</link>
+      <description>Workflow OrchestrationPrefect on the lakehouse: write-audit-publish pattern with BauplanSeptember 2024</description>
+    </item>
+    <item>
+      <title>Prefect ProductBreak It, Fix It, Reverse It: Transactional ML Pipelines with Prefect 3.0September 2024</title>
+      <link>https://www.prefect.io/blog/transactional-ml-pipelines-with-prefect-3-0</link>
+      <description>Prefect ProductBreak It, Fix It, Reverse It: Transactional ML Pipelines with Prefect 3.0September 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationEvery Company is a Data Processing CompanyOctober 2024</title>
+      <link>https://www.prefect.io/blog/every-company-is-a-data-processing-company</link>
+      <description>Workflow OrchestrationEvery Company is a Data Processing CompanyOctober 2024</description>
+    </item>
+    <item>
+      <title>Eventsdbt Coalesce 2024 TakewaysOctober 2024</title>
+      <link>https://www.prefect.io/blog/dbt-coalesce-2024-takeways</link>
+      <description>Eventsdbt Coalesce 2024 TakewaysOctober 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationThe Hidden Factory of Long Tail Data WorkOctober 2024</title>
+      <link>https://www.prefect.io/blog/the-hidden-factory-of-long-tail-data-work</link>
+      <description>Workflow OrchestrationThe Hidden Factory of Long Tail Data WorkOctober 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationMicroservices Orchestration: What It Is, How to Use ItOctober 2024</title>
+      <link>https://www.prefect.io/blog/microservices-orchestration-what-it-is-how-to-use-it</link>
+      <description>Workflow OrchestrationMicroservices Orchestration: What It Is, How to Use ItOctober 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationBuilt to Fail: Design Patterns for Resilient Data PipelinesNovember 2024</title>
+      <link>https://www.prefect.io/blog/built-to-fail-design-patterns-for-resilient-data-pipelines</link>
+      <description>Workflow OrchestrationBuilt to Fail: Design Patterns for Resilient Data PipelinesNovember 2024</description>
+    </item>
+    <item>
+      <title>Prefect ProductFrom Chaos to Clarity: Managing Data Lakes with PrefectNovember 2024</title>
+      <link>https://www.prefect.io/blog/from-chaos-to-clarity-managing-data-lakes-with-prefect</link>
+      <description>Prefect ProductFrom Chaos to Clarity: Managing Data Lakes with PrefectNovember 2024</description>
+    </item>
+    <item>
+      <title>EventsBuilding a Modular Data ArchitectureNovember 2024</title>
+      <link>https://www.prefect.io/blog/building-a-modular-data-architecture</link>
+      <description>EventsBuilding a Modular Data ArchitectureNovember 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationThe Importance of Idempotent Data Pipelines for ResilienceNovember 2024</title>
+      <link>https://www.prefect.io/blog/the-importance-of-idempotent-data-pipelines-for-resilience</link>
+      <description>Workflow OrchestrationThe Importance of Idempotent Data Pipelines for ResilienceNovember 2024</description>
+    </item>
+    <item>
+      <title>Case StudiesOrchestrating Fashion's Data Runway: Inside Rent the Runway's Data Stack with Prefect and dbtNovember 2024</title>
+      <link>https://www.prefect.io/blog/orchestrating-fashions-data-runway</link>
+      <description>Case StudiesOrchestrating Fashion's Data Runway: Inside Rent the Runway's Data Stack with Prefect and dbtNovember 2024</description>
+    </item>
+    <item>
+      <title>Case StudiesModern Orchestration: Endpoint’s evolution from Airflow to PrefectNovember 2024</title>
+      <link>https://www.prefect.io/blog/modern-orchestration-endpoint-s-evolution-from-airflow-to-prefect</link>
+      <description>Case StudiesModern Orchestration: Endpoint’s evolution from Airflow to PrefectNovember 2024</description>
+    </item>
+    <item>
+      <title>EventsFour Infrastructure Trends Reshaping Modern SystemsNovember 2024</title>
+      <link>https://www.prefect.io/blog/four-infrastructure-trends-reshaping-modern-systems</link>
+      <description>EventsFour Infrastructure Trends Reshaping Modern SystemsNovember 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationPush and Pull Architecture: Event Triggers Vs. Sensors in Data PipelinesDecember 2024</title>
+      <link>https://www.prefect.io/blog/push-and-pull-architecture-event-triggers-vs-sensors-in-data-pipelines</link>
+      <description>Workflow OrchestrationPush and Pull Architecture: Event Triggers Vs. Sensors in Data PipelinesDecember 2024</description>
+    </item>
+    <item>
+      <title>PressExperimenting with Remote First: Humans Shouldn't Be Your Only Strategic HiresDecember 2024</title>
+      <link>https://www.prefect.io/blog/experimenting-with-remote-first-humans-shouldn-t-be-your-only-strategic-hires</link>
+      <description>PressExperimenting with Remote First: Humans Shouldn't Be Your Only Strategic HiresDecember 2024</description>
+    </item>
+    <item>
+      <title>EventsSupercharging dbt: 3 Ways Prefect Enhances Your Data WorkflowsDecember 2024</title>
+      <link>https://www.prefect.io/blog/supercharging-dbt-3-ways-prefect-enhances-your-data-workflows</link>
+      <description>EventsSupercharging dbt: 3 Ways Prefect Enhances Your Data WorkflowsDecember 2024</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationDon’t Buy a Fancy Cron ToolJanuary 2025</title>
+      <link>https://www.prefect.io/blog/don-t-buy-a-fancy-cron-tool</link>
+      <description>Workflow OrchestrationDon’t Buy a Fancy Cron ToolJanuary 2025</description>
+    </item>
+  </channel>
+</rss>

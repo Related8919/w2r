@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Google Cloud Blog</title>
+    <link>https://cloud.google.com/blog</link>
+    <description>Latest posts from https://cloud.google.com/blog. feedId:91496300592943104+userId:43946731810334720</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Tue, 05 Nov 2024 07:34:30 +0000</lastBuildDate>
+    <item>
+      <title>The overwhelmed person’s guide to Google Cloud: week of October 24</title>
+      <link>https://cloud.google.com/blog/products/gcp/the-overwhelmed-persons-guide-to-google-cloud</link>
+      <description>Google CloudThe overwhelmed person’s guide to Google Cloud: week of October 24By Richard Seroter • 4-minute read</description>
+    </item>
+    <item>
+      <title>Unlocking the power of Spanner: 10 partners to revolutionize your data</title>
+      <link>https://cloud.google.com/blog/products/databases/unlocking-the-power-of-spanner</link>
+      <description>DatabasesUnlocking the power of Spanner: 10 partners to revolutionize your dataBy Nitin Sagar • 8-minute read</description>
+    </item>
+    <item>
+      <title>PyTorch/XLA 2.5: vLLM support and an improved developer experience</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/whats-new-with-pytorchxla-2-5</link>
+      <description>AI &amp; Machine LearningPyTorch/XLA 2.5: vLLM support and an improved developer experienceBy Manfei Bai • 4-minute read</description>
+    </item>
+    <item>
+      <title>Accelerate retail media success with EPAM and Google Cloud</title>
+      <link>https://cloud.google.com/blog/topics/partners/epam-retail-media-orchestration-toolkit-on-google-cloud</link>
+      <description>PartnersAccelerate retail media success with EPAM and Google CloudBy Diana Abebrese • 7-minute read</description>
+    </item>
+    <item>
+      <title>Arize, Vertex AI API: Evaluation workflows to accelerate generative app development and AI ROI</title>
+      <link>https://cloud.google.com/blog/topics/partners/benefits-of-arize-ai-in-tandem-with-vertex-ai-api-for-gemini</link>
+      <description>PartnersArize, Vertex AI API: Evaluation workflows to accelerate generative app development and AI ROIBy Gabe Barcelos • 9-minute read</description>
+    </item>
+    <item>
+      <title>Delfingen accelerates a cloud-first strategy with Google</title>
+      <link>https://cloud.google.com/blog/products/chrome-enterprise/delfingen-accelerates-a-cloud-first-strategy-with-google</link>
+      <description>Chrome EnterpriseDelfingen accelerates a cloud-first strategy with GoogleBy Etienne Grivelet • 4-minute read</description>
+    </item>
+    <item>
+      <title>How AlloyDB unifies OLTP and OLAP workloads for Tricent</title>
+      <link>https://cloud.google.com/blog/products/databases/tricent-standardizes-on-alloydb-for-olap-and-oltp-workloads</link>
+      <description>DatabasesHow AlloyDB unifies OLTP and OLAP workloads for TricentBy Jakob Tolstrup Bech • 4-minute read</description>
+    </item>
+    <item>
+      <title>Elia Group helps businesses and consumers reduce carbon emissions with Vertex AI</title>
+      <link>https://cloud.google.com/blog/topics/customers/how-elia-group-helps-businesses-cut-carbon-emissions-with-vertex-ai</link>
+      <description>CustomersElia Group helps businesses and consumers reduce carbon emissions with Vertex AIBy Oz Ural • 5-minute read</description>
+    </item>
+    <item>
+      <title>Can AI eliminate manual processing for insurance claims? Loadsure built a solution to find</title>
+      <link>https://cloud.google.com/blog/topics/financial-services/loadsure-data-drive-insurance-claims-ai-eliminates-manual-processing</link>
+      <description>Financial ServicesCan AI eliminate manual processing for insurance claims? Loadsure built a solution to findBy Maria Alonso Garcia • 4-minute read</description>
+    </item>
+    <item>
+      <title>A practical guide to synthetic data generation with Gretel and BigQuery DataFrames</title>
+      <link>https://cloud.google.com/blog/products/data-analytics/synthetic-data-generation-with-gretel-and-bigquery-dataframes</link>
+      <description>Data AnalyticsA practical guide to synthetic data generation with Gretel and BigQuery DataFramesBy Jiaxun Wu • 4-minute read</description>
+    </item>
+  </channel>
+</rss>

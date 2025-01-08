@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+feedgen
+pyyaml
+selenium
+webdriver-manager

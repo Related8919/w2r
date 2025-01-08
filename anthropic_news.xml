@@ -1,0 +1,441 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>anthropic_news</title>
+    <link>https://www.anthropic.com/news</link>
+    <description>Latest posts from https://www.anthropic.com/news. follow.is: feedId:91495922321320960+userId:43946731810334720</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Fri, 03 Jan 2025 02:46:11 +0000</lastBuildDate>
+    <item>
+      <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
+      <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
+      <description>AnnouncementsAnthropic raises $124 million to build more reliable, general AI systemsMay 28, 2021</description>
+    </item>
+    <item>
+      <title>Anthropic Raises Series B to Build Steerable, Interpretable, Robust AI Systems</title>
+      <link>https://www.anthropic.com/news/anthropic-raises-series-b-to-build-safe-reliable-ai</link>
+      <description>AnnouncementsAnthropic Raises Series B to Build Steerable, Interpretable, Robust AI SystemsApr 29, 2022</description>
+    </item>
+    <item>
+      <title>Anthropic Partners with Google Cloud</title>
+      <link>https://www.anthropic.com/news/anthropic-partners-with-google-cloud</link>
+      <description>AnnouncementsAnthropic Partners with Google CloudFeb 3, 2023</description>
+    </item>
+    <item>
+      <title>Core Views on AI Safety: When, Why, What, and How</title>
+      <link>https://www.anthropic.com/news/core-views-on-ai-safety</link>
+      <description>AnnouncementsCore Views on AI Safety: When, Why, What, and HowMar 8, 2023</description>
+    </item>
+    <item>
+      <title>Introducing Claude</title>
+      <link>https://www.anthropic.com/news/introducing-claude</link>
+      <description>AnnouncementsIntroducing ClaudeMar 14, 2023</description>
+    </item>
+    <item>
+      <title>Claude, now in Slack</title>
+      <link>https://www.anthropic.com/news/claude-now-in-slack</link>
+      <description>AnnouncementsClaude, now in SlackMar 30, 2023</description>
+    </item>
+    <item>
+      <title>An AI Policy Tool for Today: Ambitiously Invest in NIST</title>
+      <link>https://www.anthropic.com/news/an-ai-policy-tool-for-today-ambitiously-invest-in-nist</link>
+      <description>AnnouncementsAn AI Policy Tool for Today: Ambitiously Invest in NISTApr 20, 2023</description>
+    </item>
+    <item>
+      <title>Partnering with Scale to Bring Generative AI to Enterprises</title>
+      <link>https://www.anthropic.com/news/partnering-with-scale</link>
+      <description>AnnouncementsPartnering with Scale to Bring Generative AI to EnterprisesApr 26, 2023</description>
+    </item>
+    <item>
+      <title>Claude’s Constitution</title>
+      <link>https://www.anthropic.com/news/claudes-constitution</link>
+      <description>AnnouncementsClaude’s ConstitutionMay 9, 2023</description>
+    </item>
+    <item>
+      <title>Introducing 100K Context Windows</title>
+      <link>https://www.anthropic.com/news/100k-context-windows</link>
+      <description>AnnouncementsIntroducing 100K Context WindowsMay 11, 2023</description>
+    </item>
+    <item>
+      <title>Zoom Partnership and Investment in Anthropic</title>
+      <link>https://www.anthropic.com/news/zoom-partnership-and-investment</link>
+      <description>AnnouncementsZoom Partnership and Investment in AnthropicMay 16, 2023</description>
+    </item>
+    <item>
+      <title>Anthropic Raises $450 Million in Series C Funding to Scale Reliable AI Products</title>
+      <link>https://www.anthropic.com/news/anthropic-series-c</link>
+      <description>AnnouncementsAnthropic Raises $450 Million in Series C Funding to Scale Reliable AI ProductsMay 23, 2023</description>
+    </item>
+    <item>
+      <title>Charting a Path to AI Accountability</title>
+      <link>https://www.anthropic.com/news/charting-a-path-to-ai-accountability</link>
+      <description>AnnouncementsCharting a Path to AI AccountabilityJun 13, 2023</description>
+    </item>
+    <item>
+      <title>Claude 2</title>
+      <link>https://www.anthropic.com/news/claude-2</link>
+      <description>AnnouncementsClaude 2Jul 11, 2023</description>
+    </item>
+    <item>
+      <title>Frontier Model Security</title>
+      <link>https://www.anthropic.com/news/frontier-model-security</link>
+      <description>AnnouncementsFrontier Model SecurityJul 25, 2023</description>
+    </item>
+    <item>
+      <title>Frontier Threats Red Teaming for AI Safety</title>
+      <link>https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety</link>
+      <description>AnnouncementsFrontier Threats Red Teaming for AI SafetyJul 26, 2023</description>
+    </item>
+    <item>
+      <title>Releasing Claude Instant 1.2</title>
+      <link>https://www.anthropic.com/news/releasing-claude-instant-1-2</link>
+      <description>AnnouncementsReleasing Claude Instant 1.2Aug 9, 2023</description>
+    </item>
+    <item>
+      <title>SKT Partnership Announcement</title>
+      <link>https://www.anthropic.com/news/skt-partnership-announcement</link>
+      <description>AnnouncementsSKT Partnership AnnouncementAug 15, 2023</description>
+    </item>
+    <item>
+      <title>Claude 2 on Amazon Bedrock</title>
+      <link>https://www.anthropic.com/news/claude-2-amazon-bedrock</link>
+      <description>ProductClaude 2 on Amazon BedrockAug 23, 2023</description>
+    </item>
+    <item>
+      <title>Introducing Claude Pro</title>
+      <link>https://www.anthropic.com/news/claude-pro</link>
+      <description>AnnouncementsIntroducing Claude ProSep 7, 2023</description>
+    </item>
+    <item>
+      <title>Anthropic partners with BCG</title>
+      <link>https://www.anthropic.com/news/anthropic-bcg</link>
+      <description>AnnouncementsAnthropic partners with BCGSep 14, 2023</description>
+    </item>
+    <item>
+      <title>The Long-Term Benefit Trust</title>
+      <link>https://www.anthropic.com/news/the-long-term-benefit-trust</link>
+      <description>AnnouncementsThe Long-Term Benefit TrustSep 19, 2023</description>
+    </item>
+    <item>
+      <title>Anthropic's Responsible Scaling Policy</title>
+      <link>https://www.anthropic.com/news/anthropics-responsible-scaling-policy</link>
+      <description>AnnouncementsAnthropic's Responsible Scaling PolicySep 19, 2023</description>
+    </item>
+    <item>
+      <title>Prompt engineering for Claude's long context window</title>
+      <link>https://www.anthropic.com/news/prompting-long-context</link>
+      <description>ProductPrompt engineering for Claude's long context windowSep 23, 2023</description>
+    </item>
+    <item>
+      <title>Expanding access to safer AI with Amazon</title>
+      <link>https://www.anthropic.com/news/anthropic-amazon</link>
+      <description>AnnouncementsExpanding access to safer AI with AmazonSep 25, 2023</description>
+    </item>
+    <item>
+      <title>Claude on Amazon Bedrock now available to every AWS customer</title>
+      <link>https://www.anthropic.com/news/amazon-bedrock-general-availability</link>
+      <description>AnnouncementsClaude on Amazon Bedrock now available to every AWS customerSep 28, 2023</description>
+    </item>
+    <item>
+      <title>Dario Amodei’s prepared remarks from the AI Safety Summit on Anthropic’s Responsible Scaling Policy</title>
+      <link>https://www.anthropic.com/news/uk-ai-safety-summit</link>
+      <description>PolicyDario Amodei’s prepared remarks from the AI Safety Summit on Anthropic’s Responsible Scaling PolicyNov 1, 2023</description>
+    </item>
+    <item>
+      <title>Thoughts on the US Executive Order, G7 Code of Conduct, and Bletchley Park Summit</title>
+      <link>https://www.anthropic.com/news/policy-recap-q4-2023</link>
+      <description>PolicyThoughts on the US Executive Order, G7 Code of Conduct, and Bletchley Park SummitNov 5, 2023</description>
+    </item>
+    <item>
+      <title>Introducing Claude 2.1</title>
+      <link>https://www.anthropic.com/news/claude-2-1</link>
+      <description>ProductIntroducing Claude 2.1Nov 21, 2023</description>
+    </item>
+    <item>
+      <title>Long context prompting for Claude 2.1</title>
+      <link>https://www.anthropic.com/news/claude-2-1-prompting</link>
+      <description>ProductLong context prompting for Claude 2.1Dec 6, 2023</description>
+    </item>
+    <item>
+      <title>Expanded legal protections and improvements to our API</title>
+      <link>https://www.anthropic.com/news/expanded-legal-protections-api-improvements</link>
+      <description>AnnouncementsExpanded legal protections and improvements to our APIDec 19, 2023</description>
+    </item>
+    <item>
+      <title>Preparing for global elections in 2024</title>
+      <link>https://www.anthropic.com/news/preparing-for-global-elections-in-2024</link>
+      <description>PolicyPreparing for global elections in 2024Feb 16, 2024</description>
+    </item>
+    <item>
+      <title>Prompt engineering for business performance</title>
+      <link>https://www.anthropic.com/news/prompt-engineering-for-business-performance</link>
+      <description>ProductPrompt engineering for business performanceFeb 29, 2024</description>
+    </item>
+    <item>
+      <title>Introducing the next generation of Claude</title>
+      <link>https://www.anthropic.com/news/claude-3-family</link>
+      <description>AnnouncementsIntroducing the next generation of ClaudeMar 4, 2024</description>
+    </item>
+    <item>
+      <title>Claude 3 Haiku: our fastest model yet</title>
+      <link>https://www.anthropic.com/news/claude-3-haiku</link>
+      <description>AnnouncementsClaude 3 Haiku: our fastest model yetMar 13, 2024</description>
+    </item>
+    <item>
+      <title>Claude 3 models on Vertex AI</title>
+      <link>https://www.anthropic.com/news/google-vertex-general-availability</link>
+      <description>AnnouncementsClaude 3 models on Vertex AIMar 19, 2024</description>
+    </item>
+    <item>
+      <title>Anthropic, AWS, and Accenture team up to build trusted solutions for enterprises</title>
+      <link>https://www.anthropic.com/news/accenture-aws-anthropic</link>
+      <description>AnnouncementsAnthropic, AWS, and Accenture team up to build trusted solutions for enterprisesMar 20, 2024</description>
+    </item>
+    <item>
+      <title>Third-party testing as a key ingredient of AI policy</title>
+      <link>https://www.anthropic.com/news/third-party-testing</link>
+      <description>PolicyThird-party testing as a key ingredient of AI policyMar 25, 2024</description>
+    </item>
+    <item>
+      <title>Many-shot jailbreaking</title>
+      <link>https://www.anthropic.com/research/many-shot-jailbreaking</link>
+      <description>AlignmentMany-shot jailbreakingApr 2, 2024</description>
+    </item>
+    <item>
+      <title>Aligning on child safety principles</title>
+      <link>https://www.anthropic.com/news/child-safety-principles</link>
+      <description>AnnouncementsAligning on child safety principlesApr 23, 2024</description>
+    </item>
+    <item>
+      <title>Introducing the Claude Team plan and iOS app</title>
+      <link>https://www.anthropic.com/news/team-plan-and-ios</link>
+      <description>Product·AnnouncementsIntroducing the Claude Team plan and iOS appMay 1, 2024</description>
+    </item>
+    <item>
+      <title>Updating our Usage Policy</title>
+      <link>https://www.anthropic.com/news/updating-our-usage-policy</link>
+      <description>AnnouncementsUpdating our Usage PolicyMay 10, 2024</description>
+    </item>
+    <item>
+      <title>Claude is now available in Europe</title>
+      <link>https://www.anthropic.com/news/claude-europe</link>
+      <description>AnnouncementsClaude is now available in EuropeMay 14, 2024</description>
+    </item>
+    <item>
+      <title>Mike Krieger joins Anthropic as Chief Product Officer</title>
+      <link>https://www.anthropic.com/news/mike-krieger-joins-anthropic</link>
+      <description>AnnouncementsMike Krieger joins Anthropic as Chief Product OfficerMay 15, 2024</description>
+    </item>
+    <item>
+      <title>Reflections on our Responsible Scaling Policy</title>
+      <link>https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy</link>
+      <description>PolicyReflections on our Responsible Scaling PolicyMay 20, 2024</description>
+    </item>
+    <item>
+      <title>Generate better prompts in the developer console</title>
+      <link>https://www.anthropic.com/news/prompt-generator</link>
+      <description>ProductGenerate better prompts in the developer consoleMay 20, 2024</description>
+    </item>
+    <item>
+      <title>Mapping the Mind of a Large Language Model</title>
+      <link>https://www.anthropic.com/research/mapping-mind-language-model</link>
+      <description>InterpretabilityMapping the Mind of a Large Language ModelMay 21, 2024</description>
+    </item>
+    <item>
+      <title>Krishna Rao joins Anthropic as Chief Financial Officer</title>
+      <link>https://www.anthropic.com/news/krishna-rao-joins-anthropic</link>
+      <description>AnnouncementsKrishna Rao joins Anthropic as Chief Financial OfficerMay 21, 2024</description>
+    </item>
+    <item>
+      <title>Golden Gate Claude</title>
+      <link>https://www.anthropic.com/news/golden-gate-claude</link>
+      <description>ProductGolden Gate ClaudeMay 23, 2024</description>
+    </item>
+    <item>
+      <title>Jay Kreps appointed to Anthropic's Board of Directors</title>
+      <link>https://www.anthropic.com/news/jay-kreps-appointed-to-board-of-directors</link>
+      <description>AnnouncementsJay Kreps appointed to Anthropic's Board of DirectorsMay 29, 2024</description>
+    </item>
+    <item>
+      <title>Claude can now use tools</title>
+      <link>https://www.anthropic.com/news/tool-use-ga</link>
+      <description>ProductClaude can now use toolsMay 30, 2024</description>
+    </item>
+    <item>
+      <title>Introducing Claude to Canada</title>
+      <link>https://www.anthropic.com/news/introducing-claude-to-canada</link>
+      <description>AnnouncementsIntroducing Claude to CanadaJun 5, 2024</description>
+    </item>
+    <item>
+      <title>Testing and mitigating elections-related risks</title>
+      <link>https://www.anthropic.com/news/testing-and-mitigating-elections-related-risks</link>
+      <description>Policy·Societal ImpactsTesting and mitigating elections-related risksJun 6, 2024</description>
+    </item>
+    <item>
+      <title>Challenges in red teaming AI systems</title>
+      <link>https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems</link>
+      <description>PolicyChallenges in red teaming AI systemsJun 12, 2024</description>
+    </item>
+    <item>
+      <title>Claude 3.5 Sonnet</title>
+      <link>https://www.anthropic.com/news/claude-3-5-sonnet</link>
+      <description>AnnouncementsClaude 3.5 SonnetJun 21, 2024</description>
+    </item>
+    <item>
+      <title>Collaborate with Claude on Projects</title>
+      <link>https://www.anthropic.com/news/projects</link>
+      <description>ProductCollaborate with Claude on ProjectsJun 25, 2024</description>
+    </item>
+    <item>
+      <title>Expanding access to Claude for government</title>
+      <link>https://www.anthropic.com/news/expanding-access-to-claude-for-government</link>
+      <description>AnnouncementsExpanding access to Claude for governmentJun 26, 2024</description>
+    </item>
+    <item>
+      <title>A new initiative for developing third-party model evaluations</title>
+      <link>https://www.anthropic.com/news/a-new-initiative-for-developing-third-party-model-evaluations</link>
+      <description>AnnouncementsA new initiative for developing third-party model evaluationsJul 1, 2024</description>
+    </item>
+    <item>
+      <title>Evaluate prompts in the developer console</title>
+      <link>https://www.anthropic.com/news/evaluate-prompts</link>
+      <description>ProductEvaluate prompts in the developer consoleJul 9, 2024</description>
+    </item>
+    <item>
+      <title>Fine-tune Claude 3 Haiku in Amazon Bedrock</title>
+      <link>https://www.anthropic.com/news/fine-tune-claude-3-haiku</link>
+      <description>ProductFine-tune Claude 3 Haiku in Amazon BedrockJul 11, 2024</description>
+    </item>
+    <item>
+      <title>Claude Android app</title>
+      <link>https://www.anthropic.com/news/android-app</link>
+      <description>ProductClaude Android appJul 16, 2024</description>
+    </item>
+    <item>
+      <title>Anthropic partners with Menlo Ventures to launch Anthology Fund</title>
+      <link>https://www.anthropic.com/news/anthropic-partners-with-menlo-ventures-to-launch-anthology-fund</link>
+      <description>AnnouncementsAnthropic partners with Menlo Ventures to launch Anthology FundJul 17, 2024</description>
+    </item>
+    <item>
+      <title>Claude is now available in Brazil</title>
+      <link>https://www.anthropic.com/news/claude-brazil</link>
+      <description>AnnouncementsClaude is now available in BrazilAug 1, 2024</description>
+    </item>
+    <item>
+      <title>Expanding our model safety bug bounty program</title>
+      <link>https://www.anthropic.com/news/model-safety-bug-bounty</link>
+      <description>AnnouncementsExpanding our model safety bug bounty programAug 8, 2024</description>
+    </item>
+    <item>
+      <title>Prompt caching with Claude</title>
+      <link>https://www.anthropic.com/news/prompt-caching</link>
+      <description>ProductPrompt caching with ClaudeAug 14, 2024</description>
+    </item>
+    <item>
+      <title>Artifacts are now generally available</title>
+      <link>https://www.anthropic.com/news/artifacts</link>
+      <description>AnnouncementsArtifacts are now generally availableAug 27, 2024</description>
+    </item>
+    <item>
+      <title>Salesforce teams up with Anthropic to enhance Einstein capabilities with Claude</title>
+      <link>https://www.anthropic.com/news/salesforce-partnership</link>
+      <description>AnnouncementsSalesforce teams up with Anthropic to enhance Einstein capabilities with ClaudeSep 3, 2024</description>
+    </item>
+    <item>
+      <title>Claude for Enterprise</title>
+      <link>https://www.anthropic.com/news/claude-for-enterprise</link>
+      <description>ProductClaude for EnterpriseSep 4, 2024</description>
+    </item>
+    <item>
+      <title>Workspaces in the Anthropic API Console</title>
+      <link>https://www.anthropic.com/news/workspaces</link>
+      <description>ProductWorkspaces in the Anthropic API ConsoleSep 10, 2024</description>
+    </item>
+    <item>
+      <title>Introducing Contextual Retrieval</title>
+      <link>https://www.anthropic.com/news/contextual-retrieval</link>
+      <description>Product·AnnouncementsIntroducing Contextual RetrievalSep 19, 2024</description>
+    </item>
+    <item>
+      <title>Introducing the Message Batches API</title>
+      <link>https://www.anthropic.com/news/message-batches-api</link>
+      <description>ProductIntroducing the Message Batches APIOct 8, 2024</description>
+    </item>
+    <item>
+      <title>U.S. Elections Readiness</title>
+      <link>https://www.anthropic.com/news/us-elections-readiness</link>
+      <description>Societal ImpactsU.S. Elections ReadinessOct 8, 2024</description>
+    </item>
+    <item>
+      <title>Announcing our updated Responsible Scaling Policy</title>
+      <link>https://www.anthropic.com/news/announcing-our-updated-responsible-scaling-policy</link>
+      <description>AnnouncementsAnnouncing our updated Responsible Scaling PolicyOct 15, 2024</description>
+    </item>
+    <item>
+      <title>Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku</title>
+      <link>https://www.anthropic.com/news/3-5-models-and-computer-use</link>
+      <description>AnnouncementsIntroducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 HaikuOct 22, 2024</description>
+    </item>
+    <item>
+      <title>Developing a computer use model</title>
+      <link>https://www.anthropic.com/news/developing-computer-use</link>
+      <description>Announcements·ProductDeveloping a computer use modelOct 22, 2024</description>
+    </item>
+    <item>
+      <title>Introducing the analysis tool in Claude.ai</title>
+      <link>https://www.anthropic.com/news/analysis-tool</link>
+      <description>ProductIntroducing the analysis tool in Claude.aiOct 24, 2024</description>
+    </item>
+    <item>
+      <title>Claude 3.5 Sonnet on GitHub Copilot</title>
+      <link>https://www.anthropic.com/news/github-copilot</link>
+      <description>AnnouncementsClaude 3.5 Sonnet on GitHub CopilotOct 29, 2024</description>
+    </item>
+    <item>
+      <title>Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet</title>
+      <link>https://www.anthropic.com/research/swe-bench-sonnet</link>
+      <description>ProductRaising the bar on SWE-bench Verified with Claude 3.5 SonnetOct 30, 2024</description>
+    </item>
+    <item>
+      <title>The case for targeted regulation</title>
+      <link>https://www.anthropic.com/news/the-case-for-targeted-regulation</link>
+      <description>PolicyThe case for targeted regulationOct 31, 2024</description>
+    </item>
+    <item>
+      <title>Improve your prompts in the developer console</title>
+      <link>https://www.anthropic.com/news/prompt-improver</link>
+      <description>ProductImprove your prompts in the developer consoleNov 14, 2024</description>
+    </item>
+    <item>
+      <title>Powering the next generation of AI development with AWS</title>
+      <link>https://www.anthropic.com/news/anthropic-amazon-trainium</link>
+      <description>AnnouncementsPowering the next generation of AI development with AWSNov 22, 2024</description>
+    </item>
+    <item>
+      <title>Introducing the Model Context Protocol</title>
+      <link>https://www.anthropic.com/news/model-context-protocol</link>
+      <description>AnnouncementsIntroducing the Model Context ProtocolNov 25, 2024</description>
+    </item>
+    <item>
+      <title>Tailor Claude’s responses to your personal style</title>
+      <link>https://www.anthropic.com/news/styles</link>
+      <description>ProductTailor Claude’s responses to your personal styleNov 26, 2024</description>
+    </item>
+    <item>
+      <title>Claude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon Bedrock</title>
+      <link>https://www.anthropic.com/news/trainium2-and-distillation</link>
+      <description>ProductClaude 3.5 Haiku on AWS Trainium2 and model distillation in Amazon BedrockDec 3, 2024</description>
+    </item>
+    <item>
+      <title>Elections and AI in 2024: observations and learnings</title>
+      <link>https://www.anthropic.com/news/elections-ai-2024</link>
+      <description>Societal ImpactsElections and AI in 2024: observations and learningsDec 12, 2024</description>
+    </item>
+    <item>
+      <title>Alignment faking in large language models</title>
+      <link>https://www.anthropic.com/research/alignment-faking</link>
+      <description>AlignmentAlignment faking in large language modelsDec 18, 2024</description>
+    </item>
+  </channel>
+</rss>

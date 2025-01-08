@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>GoogleCloudBlog</title>
+    <link>https://cloud.google.com/blog</link>
+    <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Wed, 08 Jan 2025 02:43:54 +0000</lastBuildDate>
+    <item>
+      <title>Google Cloud's commitment to responsible AI is now ISO/IEC certified</title>
+      <link>https://cloud.google.com/blog/products/identity-security/google-clouds-commitment-to-responsible-ai-is-now-iso-iec-certified</link>
+      <description>Security &amp; IdentityGoogle Cloud's commitment to responsible AI is now ISO/IEC certifiedBy Jeanette Manfra  • 3-minute read</description>
+    </item>
+    <item>
+      <title>Google Cloud and SAP: Powering AI with enterprise data</title>
+      <link>https://cloud.google.com/blog/products/sap-google-cloud/the-case-for-running-rise-with-sap-on-google-cloud</link>
+      <description>SAP on Google CloudGoogle Cloud and SAP: Powering AI with enterprise dataBy Dinesh Vandayar • 7-minute read</description>
+    </item>
+    <item>
+      <title>Optimizing RAG retrieval: Test, tune, succeed</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval</link>
+      <description>AI &amp; Machine LearningOptimizing RAG retrieval: Test, tune, succeedBy Hugo Selbie • 9-minute read</description>
+    </item>
+    <item>
+      <title>What’s new for Google Cloud databases — December 2024</title>
+      <link>https://cloud.google.com/blog/products/databases/whats-new-for-databases-december-2024</link>
+      <description>DatabasesWhat’s new for Google Cloud databases — December 2024By Joey Lynne Hernandez • 9-minute read</description>
+    </item>
+    <item>
+      <title>Spanner in 2024: A year of innovation</title>
+      <link>https://cloud.google.com/blog/products/databases/spanner-innovations-in-2024</link>
+      <description>DatabasesSpanner in 2024: A year of innovationBy Piyush Mathur • 6-minute read</description>
+    </item>
+    <item>
+      <title>Database Center: Now with support for Bigtable, Firestore, and Memorystore</title>
+      <link>https://cloud.google.com/blog/products/databases/database-centers-supports-bigtable-memorystore-and-firestore</link>
+      <description>DatabasesDatabase Center: Now with support for Bigtable, Firestore, and MemorystoreBy Kiran Shenoy • 3-minute read</description>
+    </item>
+    <item>
+      <title>What’s new with Google Cloud</title>
+      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
+      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 13-minute read</description>
+    </item>
+    <item>
+      <title>Cloud CISO Perspectives: From gen AI to threat intelligence: 2024 in review</title>
+      <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-from-gen-AI-to-threat-intelligence-2024-in-review</link>
+      <description>Security &amp; IdentityCloud CISO Perspectives: From gen AI to threat intelligence: 2024 in reviewBy Phil Venables • 5-minute read</description>
+    </item>
+    <item>
+      <title>The overwhelmed person’s guide to Google Cloud: week of December 19</title>
+      <link>https://cloud.google.com/blog/products/gcp/the-overwhelmed-persons-guide-to-google-cloud</link>
+      <description>Google CloudThe overwhelmed person’s guide to Google Cloud: week of December 19By Richard Seroter • 4-minute read</description>
+    </item>
+    <item>
+      <title>A Look Back at the AI Innovations Transforming the Public Sector</title>
+      <link>https://cloud.google.com/blog/topics/public-sector/a-look-back-at-the-ai-innovations-transforming-the-public-sector</link>
+      <description>Public SectorA Look Back at the AI Innovations Transforming the Public SectorBy Karen Dahut • 4-minute read</description>
+    </item>
+  </channel>
+</rss>

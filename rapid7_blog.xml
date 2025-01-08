@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>rapid7_blog</title>
+    <link>https://www.rapid7.com/blog/posts/</link>
+    <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Wed, 08 Jan 2025 02:43:38 +0000</lastBuildDate>
+    <item>
+      <title>Black Basta Ransomware Campaign Drops Zbot, DarkGate, and Custom Malware</title>
+      <link>https://www.rapid7.com/blog/post/2024/12/04/black-basta-ransomware-campaign-drops-zbot-darkgate-and-custom-malware/</link>
+      <description>Beginning in early October, Rapid7 has observed a resurgence of activity related to the ongoing social engineering campaign being conducted by Black Basta ransomware operators.</description>
+    </item>
+    <item>
+      <title>Rapid7 Extends Cloud Security Capabilities with Updates to Exposure Command</title>
+      <link>https://www.rapid7.com/blog/post/2024/12/06/rapid7-extends-cloud-security-capabilities-with-updates-to-exposure-command/</link>
+      <description>With purpose-built harvesting technology providing real-time visibility into everything running across multi-cloud environments, Exposure Command from Rapid7 ensures teams have an up-to-date inventory, mapping their cloud attack surface and enriching asset data with risk and business context.</description>
+    </item>
+    <item>
+      <title>Metasploit Weekly Wrap-Up 12/06/2024</title>
+      <link>https://www.rapid7.com/blog/post/2024/12/06/metasploit-weekly-wrap-up-44/</link>
+      <description>Post-Thanksgiving Big Release
+This week's release is an impressive one. It adds 9 new modules, which will get
+you remote code execution on products such as Ivanti Connect Secure, VMware
+vCenter Server, Asterisk, Fortinet FortiManager and Acronis Cyber Protect. It
+also includes an account takeover on Wordpress, a local privilege escalation on
+Windows and a X11 keylogger module. Finally, this release improves the
+fingerprinting logic for the TeamCity login module and adds instructions about
+the in</description>
+    </item>
+    <item>
+      <title>Widespread Exploitation of Cleo File Transfer Software (CVE-2024-55956)</title>
+      <link>https://www.rapid7.com/blog/post/2024/12/10/etr-widespread-exploitation-of-cleo-file-transfer-software-cve-2024-50623/</link>
+      <description>On Monday, December 9, multiple security firms began privately circulating
+reports of in-the-wild exploitation targeting Cleo file transfer software. Late
+the evening of December 9, security firm Huntress published a blog
+ 
+on active exploitation of three different Cleo products (docs
+
+):
+
+ *</description>
+    </item>
+    <item>
+      <title>Patch Tuesday - December 2024</title>
+      <link>https://www.rapid7.com/blog/post/2024/12/10/patch-tuesday-december-2024/</link>
+      <description>1 zero-day. CLFS EoP. 16 critical RCEs. Hyper-V container escape. Multiple Remote Desktop Services RCE.</description>
+    </item>
+    <item>
+      <title>Modular Java Backdoor Dropped in Cleo Exploitation Campaign</title>
+      <link>https://www.rapid7.com/blog/post/2024/12/11/etr-modular-java-backdoor-dropped-in-cleo-exploitation-campaign/</link>
+      <description>While investigating incidents related to Cleo software exploitation, Rapid7 Labs and MDR team discovered a novel, multi-stage attack that deploys an encoded Java Archive (JAR) payload.</description>
+    </item>
+    <item>
+      <title>Navigating Choppy Waters: Top Security Predictions from Rapid7's 2025 Webinar</title>
+      <link>https://www.rapid7.com/blog/post/2024/12/12/navigating-choppy-waters-top-security-predictions-from-rapid7s-2025-webinar/</link>
+      <description>Hosted by industry heavy hitter Brian Honan, CEO of BH Consulting, the webinar brought together Rapid7 security and policy experts Raj Samani, Chief Scientist, and Sabeen Malik, VP of Global Government Affairs and Public Policy.</description>
+    </item>
+    <item>
+      <title>Metasploit Weekly Wrap-Up 12/13/2024</title>
+      <link>https://www.rapid7.com/blog/post/2024/12/13/metasploit-weekly-wrap-up-12-13-2024/</link>
+      <description>It’s raining RCEs!
+It's the second week of December and the weather forecast announced another
+storm of RCEs in Metasploit-Framework land. This weekly release includes RCEs
+for Moodle e-Learning platform, Primefaces, WordPress Really Simple SSL and
+CyberPanel along with two modules to change password through LDAP and SMB
+protocol.
+
+New module content (7)
+Change Password
+Author: smashery
+Type: Auxiliary
+Pull request: #19671  
+contributed</description>
+    </item>
+    <item>
+      <title>2024 Threat Landscape Statistics: Ransomware Activity, Vulnerability Exploits, and Attack Trends</title>
+      <link>https://www.rapid7.com/blog/post/2024/12/16/2024-threat-landscape-statistics-ransomware-activity-vulnerability-exploits-and-attack-trends/</link>
+      <description>In this blog, the global experts across our Rapid7 Labs and Managed Services teams share real-time vulnerability insights and threat intelligence so that our customers can anticipate and prevent breaches, pinpoint critical threats, and confidently take command of their attack surface.</description>
+    </item>
+    <item>
+      <title>Take Command of Your Career: Practicing Self-Advocacy as a Woman in Tech</title>
+      <link>https://www.rapid7.com/blog/post/2024/12/17/take-command-of-your-career-practicing-self-advocacy-as-a-woman-in-tech/</link>
+      <description>As the year draws to a close, it’s essential—and often expected—to reflect on our achievements and lessons learned in preparation for annual performance reviews and setting future goals.</description>
+    </item>
+    <item>
+      <title>What’s New in Rapid7 Products &amp; Services: Q4 2024 in Review</title>
+      <link>https://www.rapid7.com/blog/post/2024/12/18/whats-new-in-rapid7-products-services-q4-2024-in-review/</link>
+      <description>Below, we’ve highlighted key releases and updates from the quarter across our products and services, including the new Platform Home Navigation experience, extensibility enhancements to Exposure Command and Surface Command, expanded MXDR support, and 2024 threat landscape trends from Rapid7 Labs.</description>
+    </item>
+    <item>
+      <title>Metasploit Weekly Wrap-Up 12/20/2024</title>
+      <link>https://www.rapid7.com/blog/post/2024/12/20/metasploit-weekly-wrap-up-12-20-2024/</link>
+      <description>New module content (4)
+GameOver(lay) Privilege Escalation and Container Escape
+Authors: bwatters-r7, g1vi, gardnerapp, and h00die
+Type: Exploit
+Pull request: #19460  
+contributed by gardnerapp 
+Path: linux/local/gameoverlay_privesc
+AttackerKB reference: CVE-2023-2640
+
+
+Description: Adds a module for CVE-2023-2640 and CVE-2023-32629, a local
+privil</description>
+    </item>
+    <item>
+      <title>Metasploit 2024 Annual Wrap-Up</title>
+      <link>https://www.rapid7.com/blog/post/2025/01/03/metasploit-2024-annual-wrap-up/</link>
+      <description>Another year has come and gone, and the Metasploit team has taken some time to
+review the year’s notable additions. This year saw some great new features
+added, Metasploit 6.4 released
+ 
+and a slew of new modules. We’re grateful to the community members new and old
+that have submitted modules and issues this year. The real privilege escalation
+was the privilege of working with the contributors and friends we made alo</description>
+    </item>
+    <item>
+      <title>Out With the Old, In With the New: Securely Disposing of Smart Devices</title>
+      <link>https://www.rapid7.com/blog/post/2025/01/06/out-with-the-old-in-with-the-new-securely-disposing-of-smart-devices/</link>
+      <description>Hopefully you received some cool smart technology, or maybe you just upgraded your smart camera or voice assistant to a newer model or version. If you upgraded to a new model or version, what is your plan for the old device? Is it still working or is it broken?</description>
+    </item>
+    <item>
+      <title>Rapid7 Recognized with Top Score of 100 in 2025 Corporate Equality Index</title>
+      <link>https://www.rapid7.com/blog/post/2025/01/07/rapid7-recognized-with-top-score-of-100-in-2025-corporate-equality-index/</link>
+      <description>On January 7, the Human Rights Campaign Foundation released their 2025 Corporate Equality Index (CEI), where Rapid7 earned a top score of 100.</description>
+    </item>
+  </channel>
+</rss>

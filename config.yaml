@@ -1,0 +1,109 @@
+sites:
+  - name: splunk_blog
+    follow_desc: feedId:91056610732250112+userId:43946731810334720
+    url: "https://www.splunk.com/en_us/blog"
+    block_css: ".card"  # 父元素的 CSS 选择器
+    title_css: "a h3.splunk2-h4"  # 在父元素内部的标题选择器
+    description_css: ".splunk-body.shorter-height"  # 在父元素内部的描述选择器
+    link_css: "a.headline"  # 在父元素内部的链接选择器
+    use_headless_browser: true
+
+  - name: sonarsource_blog
+    follow_desc: feedId:91489273007230976+userId:43946731810334720
+    url: https://www.sonarsource.com/blog/tag/security/
+    block_css: a.css-w2zjnb.e1yv2nyc5
+    title_css: h3
+    description_css: p.css-k9llvm.e1yv2nyc3
+    link_css: 
+    use_headless_browser: true
+
+  - name: rapid7_blog
+    follow_desc: feedId:91495107664785408+userId:43946731810334720
+    url: https://www.rapid7.com/blog/posts/
+    block_css: a.blog-all-posts__wrapper--item
+    title_css: h3
+    description_css: p
+    link_css: 
+    use_headless_browser: false
+
+  - name: github_trending
+    follow_desc: feedId:91495667982848000+userId:43946731810334720
+    url: https://github.com/trending
+    block_css: article.Box-row
+    title_css: h2
+    description_css: p
+    link_css: h2 a
+    use_headless_browser: false
+
+  - name: anthropic_news
+    follow_desc: feedId:91495922321320960+userId:43946731810334720
+    url: https://www.anthropic.com/news
+    block_css: a.PostCard_post-card___tQ6w
+    title_css: h3
+    description_css: .PostCard_post-info__gybiy
+    link_css: 
+    use_headless_browser: true
+
+  - name: cve_news
+    follow_desc: feedId:91496105774919680+userId:43946731810334720
+    url: https://www.cve.org/Media/News/AllNews
+    block_css: article
+    title_css: h2
+    description_css: .content
+    link_css: a
+    use_headless_browser: true
+
+  - name: GoogleCloudBlog
+    follow_desc: feedId:91496300592943104+userId:43946731810334720
+    url: https://cloud.google.com/blog
+    block_css: .u2M0Kb
+    title_css: h5
+    description_css: a
+    link_css: a
+    use_headless_browser: true
+
+  - name: XbowBlog
+    follow_desc: feedId:91496472796537856+userId:43946731810334720
+    url: https://xbow.com/blog/
+    block_css: article
+    title_css: h3
+    description_css: .font-medium
+    link_css: a
+    use_headless_browser: false
+
+  - name: deeplearning
+    follow_desc: feedId:91496692463707136+userId:43946731810334720
+    url: https://www.deeplearning.ai/the-batch/
+    block_css: article
+    title_css: h2
+    description_css: .text-sm
+    link_css: a:last-of-type
+    use_headless_browser: true
+
+  - name: PrefectBlog
+    follow_desc: feedId:91496891568160768+userId:43946731810334720
+    url: https://www.prefect.io/blog
+    block_css: a.ease.flex.flex-col.overflow-hidden.rounded-20.bg-space.transition-colors.duration-500
+    title_css: div.flex.flex-1.flex-col
+    description_css: div.flex.flex-1.flex-col
+    link_css: 
+    use_headless_browser: true
+    
+  - name: DeveloperNvidiaBlog
+    follow_desc: feedId:91497053095844864+userId:43946731810334720
+    url: https://developer.nvidia.com/zh-cn/blog/recent-posts/
+    block_css: div.carousel-row__slide.js-post-card
+    title_css: div.carousel-row-slide__title
+    description_css: div.carousel-row-slide__content
+    link_css: a.carousel-row-slide__link
+    use_headless_browser: false
+
+      
+  - name: VulnersBlog
+    follow_desc: feedId:91497191414827008+userId:43946731810334720
+    url: https://vulners.com/blog/
+    block_css: div.rounded.shadow-md.h-full.v-postcard
+    title_css: div.font-semibold.text-lg.mb-2
+    description_css: div.px-6.py-5.v-postcard-body
+    link_css: a
+    use_headless_browser: false

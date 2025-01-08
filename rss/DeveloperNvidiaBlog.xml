@@ -6,17 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 08 Jan 2025 02:44:05 +0000</lastBuildDate>
-    <item>
-      <title>借助新的小语言模型，在 NVIDIA RTX AI PC 上部署智能体、助理和虚拟形象</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/deploy-agents-assistants-and-avatars-on-nvidia-rtx-ai-pcs-with-new-small-language-models/</link>
-      <description>2024年 12月 17日借助新的小语言模型，在 NVIDIA RTX AI PC 上部署智能体、助理和虚拟形象NVIDIA 刚刚发布了一系列小语言模型 (SLMs)，可增加数字人用于增强响应能力的信息量和类型。1 MIN READ</description>
-    </item>
-    <item>
-      <title>微调小型语言模型以提高代码审查准确性</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/fine-tuning-small-language-models-to-optimize-code-review-accuracy/</link>
-      <description>2024年 12月 17日微调小型语言模型以提高代码审查准确性生成式 AI 通过 推动众多 应用的创新和提高效率，正在改变企业。然而，采用大型 基础模型 会带来一些挑战，包括高成本、慢性能、5 MIN READ</description>
-    </item>
+    <lastBuildDate>Wed, 08 Jan 2025 07:56:03 +0000</lastBuildDate>
     <item>
       <title>NVIDIA TensorRT-LLM 现支持 Recurrent Drafting，实现 LLM 推理优化</title>
       <link>https://developer.nvidia.com/zh-cn/blog/nvidia-tensorrt-llm-now-supports-recurrent-drafting-for-optimizing-llm-inference/</link>
@@ -86,6 +76,16 @@
       <title>NVIDIA TensorRT-LLM Roadmap 现已在 GitHub 上公开发布！</title>
       <link>https://developer.nvidia.com/zh-cn/blog/nvidia-tensorrt-llm-roadmap-github/</link>
       <description>2025年 1月 2日NVIDIA TensorRT-LLM Roadmap 现已在 GitHub 上公开发布！感谢众多用户及合作伙伴一直以来对 NVIDIA TensorRT-LLM 的支持。TensorRT-LLM 的 Roadmap 现已在…1 MIN READ</description>
+    </item>
+    <item>
+      <title>借助 NVIDIA Launchables 实现出色 NVIDIA AI 的一键式部署</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/one-click-deployments-for-the-best-of-nvidia-ai-with-nvidia-launchables/</link>
+      <description>2025年 1月 6日借助 NVIDIA Launchables 实现出色 NVIDIA AI 的一键式部署AI 开发已成为现代软件工程的核心部分，NVIDIA 致力于寻找方法，为所有希望开始使用 AI 的开发者提供优化的加速计算。 为解决这一问题，1 MIN READ</description>
+    </item>
+    <item>
+      <title>利用 NVIDIA NeMo 框架新功能加速自定义视频基础模型管道</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/accelerate-custom-video-foundation-model-pipelines-with-new-nvidia-nemo-framework-capabilities/</link>
+      <description>2025年 1月 7日利用 NVIDIA NeMo 框架新功能加速自定义视频基础模型管道生成式 AI 已经从基于文本的模型发展为多模态模型，最近扩展到视频领域，为各行各业开辟了新的潜在用途。视频模型可以为用户创造新体验，3 MIN READ</description>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,7 @@
     <description>Latest posts from https://www.sonarsource.com/blog/tag/security/. follow.is: feedId:91489273007230976+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 08 Jan 2025 07:55:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2025 07:57:57 +0000</lastBuildDate>
     <item>
       <title>Securing Developer Tools: Unpatched Code Vulnerabilities in Gogs (1/2)</title>
       <link>https://www.sonarsource.com/blog/securing-developer-tools-unpatched-code-vulnerabilities-in-gogs-1/</link>

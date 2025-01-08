@@ -6,7 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 08 Jan 2025 07:55:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2025 07:58:11 +0000</lastBuildDate>
     <item>
       <title>Google Cloud's commitment to responsible AI is now ISO/IEC certified</title>
       <link>https://cloud.google.com/blog/products/identity-security/google-clouds-commitment-to-responsible-ai-is-now-iso-iec-certified</link>

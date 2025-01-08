@@ -129,30 +129,30 @@ asyncio.run(orch.start_problem(max_steps=10))
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="999693">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115760">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Event Series</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum" data-bi-cN="Microsoft Research Forum" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MRF-24_WebImage_1400x788.png" alt="various abstract 3D shapes on a light blue background" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/neurips-2024-the-co-evolution-of-ai-and-systems-with-lidong-zhou/" aria-label="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" data-bi-cN="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Lidong-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Lidong Zhou and Eliza Strickland" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Microsoft Research Forum</h2>
+									<h2 class="h4">NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou</h2>
 				
-								<p class="large">Join us for a continuous exchange of ideas about research in the era of general AI. Watch the first four episodes on demand.</p>
+								<p class="large">Just after his NeurIPS 2024 keynote on the co-evolution of systems and AI, Microsoft CVP Lidong Zhou joins the podcast to discuss how rapidly advancing AI impacts the systems supporting it and the opportunities to use AI to enhance systems engineering itself.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum" target="_blank">
-							Watch on-demand						</a>
+						<a href="https://www.microsoft.com/en-us/research/podcast/neurips-2024-the-co-evolution-of-ai-and-systems-with-lidong-zhou/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" target="_blank">
+							Listen now						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -1132,30 +1132,30 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="670821">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="999693">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Microsoft research newsletter</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Event Series</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://info.microsoft.com/ww-landing-microsoft-research-newsletter.html" aria-label="Microsoft Research Newsletter" data-bi-cN="Microsoft Research Newsletter" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2019/09/Newsletter_Banner_08_2019_v1_1920x1080.png" alt="" />
+				<a class="bg-gray-300" href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum" data-bi-cN="Microsoft Research Forum" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MRF-24_WebImage_1400x788.png" alt="various abstract 3D shapes on a light blue background" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Microsoft Research Newsletter</h2>
+									<h2 class="h4">Microsoft Research Forum</h2>
 				
-								<p class="large">Stay connected to the research community at Microsoft.</p>
+								<p class="large">Join us for a continuous exchange of ideas about research in the era of general AI. Watch the first four episodes on demand.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
-					<div class="wp-block-button is-style-fill-chevron">
-						<a href="https://info.microsoft.com/ww-landing-microsoft-research-newsletter.html" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Microsoft Research Newsletter" data-bi-cN="Microsoft Research Newsletter" target="_blank">
-							Subscribe today						</a>
+					<div class="wp-block-button">
+						<a href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum" target="_blank">
+							Watch on-demand						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -1774,30 +1774,27 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115766">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1061244">
 		
 
-		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research blog</span>
-	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" aria-label="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1.png" alt="A diagram illustrating the joint optimization process of instructions and in-context examples in PromptWizard. The figure demonstrates how the framework iteratively refines both components, integrating feedback to enhance the overall prompt effectiveness and adaptability across tasks." />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/about-microsoft-research/" aria-label="About Microsoft Research" data-bi-cN="About Microsoft Research" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/07/About-page-promo_1066x600.jpg" alt="" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts</h2>
+									<h2 class="h4">About Microsoft Research</h2>
 				
-								<p class="large">PromptWizard from Microsoft Research is now open source. It is designed to automate and simplify AI prompt optimization, combining iterative LLM feedback with efficient exploration and refinement techniques to create highly effective prompts in minutes.</p>
+								<p class="large">Advancing science and technology to benefit humanity</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
-							Read more						</a>
+						<a href="https://www.microsoft.com/en-us/research/about-microsoft-research/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="View our story" data-bi-cN="About Microsoft Research" target="_blank">
+							View our story						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -1940,29 +1937,37 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115766">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115754">
 		
 
-		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research blog</span>
-	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" aria-label="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1.png" alt="A diagram illustrating the joint optimization process of instructions and in-context examples in PromptWizard. The figure demonstrates how the framework iteratively refines both components, integrating feedback to enhance the overall prompt effectiveness and adaptability across tasks." />
+				<a
+					class="bg-gray-300"
+					href="https://www.microsoft.com/en-us/research/story/microsoft-research-2024-a-year-in-review/"
+					aria-label="<strong>Research at Microsoft 2024: Meeting the challenge of a changing world</strong>&#8221;
+					data-bi-cN=&#8221;<strong>Research at Microsoft 2024: Meeting the challenge of a changing world</strong>&#8221;
+					target=&#8221;_blank&#8221;
+				>
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Year-in-review-2024_Stories_Hero_Feature-1400x788-1.jpg" alt="Research at Microsoft 2024 - Year in Review" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts</h2>
+									<h2 class="h4"><strong>Research at Microsoft 2024: Meeting the challenge of a changing world</strong></h2>
 				
-								<p class="large">PromptWizard from Microsoft Research is now open source. It is designed to automate and simplify AI prompt optimization, combining iterative LLM feedback with efficient exploration and refinement techniques to create highly effective prompts in minutes.</p>
+								<p class="large">In this new AI era, technology is changing even faster than before, and the transition from research to reality, from concept to solution, now takes days or weeks rather than months or years.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
+						<a
+							href="https://www.microsoft.com/en-us/research/story/microsoft-research-2024-a-year-in-review/"
+							class="btn btn-brand glyph-append glyph-append-chevron-right"
+							aria-label="Read more"							aria-label="<strong>Research at Microsoft 2024: Meeting the challenge of a changing world</strong>&#8221;
+							data-bi-cN=&#8221;<strong>Research at Microsoft 2024: Meeting the challenge of a changing world</strong>&#8221;
+							target=&#8221;_blank&#8221;>
 							Read more						</a>
 					</div>
 				</div>

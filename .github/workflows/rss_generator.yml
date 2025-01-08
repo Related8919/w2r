@@ -3,7 +3,7 @@ name: Generate RSS Feed
 on:
   push:
     branches:
-      - master  # 或你想要的分支
+      - main  # 或你想要的分支
     paths:
       - '.github/workflows/rss_generator.yml'
       - 'rss_generator.py'
@@ -47,5 +47,5 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add rss/*
         git commit -m "Update RSS feeds"
-        git remote set-url --push origin https://Related8919:$GITHUB_TOKEN@github.com/Related8919/w2s
-        git push origin master
+        git remote set-url --push origin https://Related8919:$GITHUB_TOKEN@github.com/Related8919/w2r
+        git push origin main

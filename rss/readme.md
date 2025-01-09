@@ -5,11 +5,6 @@
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/splunk_blog.xml
 - Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/splunk_blog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/splunk_blog.xml)
 
-## sonarsource_blog
-- 原网址：https://www.sonarsource.com/blog/tag/security/
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/sonarsource_blog.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/sonarsource_blog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/sonarsource_blog.xml)
-
 ## rapid7_blog
 - 原网址：https://www.rapid7.com/blog/posts/
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/rapid7_blog.xml

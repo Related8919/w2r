@@ -6,22 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 08 Jan 2025 07:58:11 +0000</lastBuildDate>
-    <item>
-      <title>Google Cloud's commitment to responsible AI is now ISO/IEC certified</title>
-      <link>https://cloud.google.com/blog/products/identity-security/google-clouds-commitment-to-responsible-ai-is-now-iso-iec-certified</link>
-      <description>Security &amp; IdentityGoogle Cloud's commitment to responsible AI is now ISO/IEC certifiedBy Jeanette Manfra  • 3-minute read</description>
-    </item>
-    <item>
-      <title>Google Cloud and SAP: Powering AI with enterprise data</title>
-      <link>https://cloud.google.com/blog/products/sap-google-cloud/the-case-for-running-rise-with-sap-on-google-cloud</link>
-      <description>SAP on Google CloudGoogle Cloud and SAP: Powering AI with enterprise dataBy Dinesh Vandayar • 7-minute read</description>
-    </item>
-    <item>
-      <title>Optimizing RAG retrieval: Test, tune, succeed</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/optimizing-rag-retrieval</link>
-      <description>AI &amp; Machine LearningOptimizing RAG retrieval: Test, tune, succeedBy Hugo Selbie • 9-minute read</description>
-    </item>
+    <lastBuildDate>Thu, 09 Jan 2025 03:26:28 +0000</lastBuildDate>
     <item>
       <title>What’s new for Google Cloud databases — December 2024</title>
       <link>https://cloud.google.com/blog/products/databases/whats-new-for-databases-december-2024</link>
@@ -56,6 +41,21 @@
       <title>A Look Back at the AI Innovations Transforming the Public Sector</title>
       <link>https://cloud.google.com/blog/topics/public-sector/a-look-back-at-the-ai-innovations-transforming-the-public-sector</link>
       <description>Public SectorA Look Back at the AI Innovations Transforming the Public SectorBy Karen Dahut • 4-minute read</description>
+    </item>
+    <item>
+      <title>Ivanti Connect Secure VPN Targeted in New Zero-Day Exploitation</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/ivanti-connect-secure-vpn-zero-day</link>
+      <description>Threat IntelligenceIvanti Connect Secure VPN Targeted in New Zero-Day ExploitationBy Mandiant  • 25-minute read</description>
+    </item>
+    <item>
+      <title>Supporting women founders innovating with AI</title>
+      <link>https://cloud.google.com/blog/topics/startups/google-for-startups-accelerator-for-women-led-tech-startups</link>
+      <description>StartupsSupporting women founders innovating with AIBy Joelle Barral • 2-minute read</description>
+    </item>
+    <item>
+      <title>Distributed data preprocessing with GKE and Ray: Scaling for the enterprise</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/preprocessing-large-datasets-with-ray-and-gke</link>
+      <description>AI &amp; Machine LearningDistributed data preprocessing with GKE and Ray: Scaling for the enterpriseBy Kavitha Rajendran • 5-minute read</description>
     </item>
   </channel>
 </rss>

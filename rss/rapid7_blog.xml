@@ -6,17 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 08 Jan 2025 07:57:58 +0000</lastBuildDate>
-    <item>
-      <title>Black Basta Ransomware Campaign Drops Zbot, DarkGate, and Custom Malware</title>
-      <link>https://www.rapid7.com/blog/post/2024/12/04/black-basta-ransomware-campaign-drops-zbot-darkgate-and-custom-malware/</link>
-      <description>Beginning in early October, Rapid7 has observed a resurgence of activity related to the ongoing social engineering campaign being conducted by Black Basta ransomware operators.</description>
-    </item>
-    <item>
-      <title>Rapid7 Extends Cloud Security Capabilities with Updates to Exposure Command</title>
-      <link>https://www.rapid7.com/blog/post/2024/12/06/rapid7-extends-cloud-security-capabilities-with-updates-to-exposure-command/</link>
-      <description>With purpose-built harvesting technology providing real-time visibility into everything running across multi-cloud environments, Exposure Command from Rapid7 ensures teams have an up-to-date inventory, mapping their cloud attack surface and enriching asset data with risk and business context.</description>
-    </item>
+    <lastBuildDate>Thu, 09 Jan 2025 03:26:14 +0000</lastBuildDate>
     <item>
       <title>Metasploit Weekly Wrap-Up 12/06/2024</title>
       <link>https://www.rapid7.com/blog/post/2024/12/06/metasploit-weekly-wrap-up-44/</link>
@@ -125,6 +115,16 @@ was the privilege of working with the contributors and friends we made alo</desc
       <title>Rapid7 Recognized with Top Score of 100 in 2025 Corporate Equality Index</title>
       <link>https://www.rapid7.com/blog/post/2025/01/07/rapid7-recognized-with-top-score-of-100-in-2025-corporate-equality-index/</link>
       <description>On January 7, the Human Rights Campaign Foundation released their 2025 Corporate Equality Index (CEI), where Rapid7 earned a top score of 100.</description>
+    </item>
+    <item>
+      <title>CVE-2025-0282: Ivanti Connect Secure zero-day exploited in the wild</title>
+      <link>https://www.rapid7.com/blog/post/2025/01/08/etr-cve-2025-0282-ivanti-connect-secure-zero-day-exploited-in-the-wild/</link>
+      <description>Two stack-based buffer overflow issues were disclosed in Ivanti Connect Secure, Policy Secure, and Neurons for ZTA. CVE-2025-0282, the more severe of the two issues, has been exploited in the wild against Ivanti Connect Secure devices.</description>
+    </item>
+    <item>
+      <title>New Research: Enhancing Botnet Detection with AI using LLMs and Similarity Search</title>
+      <link>https://www.rapid7.com/blog/post/2025/01/08/new-research-enhancing-botnet-detection-with-ai-using-llms-and-similarity-search/</link>
+      <description>As botnets continue to evolve, so do the techniques required to detect them.</description>
     </item>
   </channel>
 </rss>

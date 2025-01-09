@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.deeplearning.ai/the-batch/. follow.is: feedId:91496692463707136+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 08 Jan 2025 07:58:15 +0000</lastBuildDate>
-    <item>
-      <title>Models Built for Reasoning, High Gear for Llama 3.1, Brains for Warehouse Robots, Stopping LLMs From Plagiarizing</title>
-      <link>https://www.deeplearning.ai/the-batch/issue-267/</link>
-      <description>The Batch AI News and Insights: Years ago, when I was working at a large tech company, I was responsible for the data warehouse.</description>
-    </item>
+    <lastBuildDate>Thu, 09 Jan 2025 03:26:32 +0000</lastBuildDate>
     <item>
       <title>Hollywood Embraces Video Gen, New Restrictions on Deepfakes, More Open Source Models, Robot Server</title>
       <link>https://www.deeplearning.ai/the-batch/issue-268/</link>
@@ -84,8 +79,13 @@
     </item>
     <item>
       <title>Happy New Year! Hopes For 2025 With Mustafa Suleyman, Audrey Tang, Albert Gu, Hanno Basse, Joseph Gonzalez, David Ding</title>
-      <link>https://www.deeplearning.ai/the-batch/tag/jan-01-2025/</link>
+      <link>https://www.deeplearning.ai/the-batch/issue-282/</link>
       <description>The Batch AI News and Insights: Despite having worked on AI since I was a teenager, I’m now more excited than ever about what we can do with it, especially in building AI applications.</description>
+    </item>
+    <item>
+      <title>When Good Models Do Bad Things, What Users Really Want, More Training Data!, Better Model Merging</title>
+      <link>https://www.deeplearning.ai/the-batch/tag/jan-08-2025/</link>
+      <description>The Batch AI News and Insights: Using AI-assisted coding to build software prototypes is an important way to quickly explore many ideas and invent new things.</description>
     </item>
   </channel>
 </rss>

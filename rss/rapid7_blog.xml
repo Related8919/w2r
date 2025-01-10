@@ -6,19 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 09 Jan 2025 03:26:14 +0000</lastBuildDate>
-    <item>
-      <title>Metasploit Weekly Wrap-Up 12/06/2024</title>
-      <link>https://www.rapid7.com/blog/post/2024/12/06/metasploit-weekly-wrap-up-44/</link>
-      <description>Post-Thanksgiving Big Release
-This week's release is an impressive one. It adds 9 new modules, which will get
-you remote code execution on products such as Ivanti Connect Secure, VMware
-vCenter Server, Asterisk, Fortinet FortiManager and Acronis Cyber Protect. It
-also includes an account takeover on Wordpress, a local privilege escalation on
-Windows and a X11 keylogger module. Finally, this release improves the
-fingerprinting logic for the TeamCity login module and adds instructions about
-the in</description>
-    </item>
+    <lastBuildDate>Fri, 10 Jan 2025 03:00:08 +0000</lastBuildDate>
     <item>
       <title>Widespread Exploitation of Cleo File Transfer Software (CVE-2024-55956)</title>
       <link>https://www.rapid7.com/blog/post/2024/12/10/etr-widespread-exploitation-of-cleo-file-transfer-software-cve-2024-50623/</link>
@@ -125,6 +113,11 @@ was the privilege of working with the contributors and friends we made alo</desc
       <title>New Research: Enhancing Botnet Detection with AI using LLMs and Similarity Search</title>
       <link>https://www.rapid7.com/blog/post/2025/01/08/new-research-enhancing-botnet-detection-with-ai-using-llms-and-similarity-search/</link>
       <description>As botnets continue to evolve, so do the techniques required to detect them.</description>
+    </item>
+    <item>
+      <title>Built In Honors Rapid7 with “2025 Best Places To Work” Award</title>
+      <link>https://www.rapid7.com/blog/post/2025/01/09/built-in-honors-rapid7-with-2025-best-places-to-work-award/</link>
+      <description>3 Rapid7 Offices Included in Built In’s “Best Places to Work” Lists.</description>
     </item>
   </channel>
 </rss>

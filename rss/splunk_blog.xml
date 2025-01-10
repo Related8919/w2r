@@ -6,32 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 09 Jan 2025 03:26:09 +0000</lastBuildDate>
-    <item>
-      <title>Splunk AppDynamics 24.10 Accelerates Deployment And MTTR</title>
-      <link>https://www.splunk.com/en_us/blog/observability/splunk-appdynamics-accelerates-deployment-and-mttr.html</link>
-      <description>Splunk AppDynamics, now part of the Splunk Observability portfolio, provides critical observability for traditional 3-tier/n-tier applications and helps IT Operations teams quickly discover root causes of issues before end-users even notice.</description>
-    </item>
-    <item>
-      <title>Website Security: Tips &amp; Best Practices for Securing Websites</title>
-      <link>https://www.splunk.com/en_us/blog/learn/website-security.html</link>
-      <description>Protect your website with essential security tips and best practices. Learn how to defend against cyber threats, safeguard data, and build customer trust.</description>
-    </item>
-    <item>
-      <title>Scaling Anomaly Detection with MLTK 5.5</title>
-      <link>https://www.splunk.com/en_us/blog/artificial-intelligence/scaling-anomaly-detection-with-mltk-5-5.html</link>
-      <description>Who doesn’t love a bit of anomaly detection with Splunk? As someone who has spent far too long talking about cyclical statistical forecasts and anomalies, you’ll be relieved that this is a topic that we don’t get tired of here at Splunk! In this blog post we will be taking you through some of the recent changes to the Machine Learning Toolkit, where we have released a more scalable version of our users most favorite algorithm.</description>
-    </item>
-    <item>
-      <title>Top 6 Data Analysis Techniques Used by Pro Data Analysts</title>
-      <link>https://www.splunk.com/en_us/blog/learn/data-analysis-techniques.html</link>
-      <description>Data analysis is important, but how do you get started? These top techniques, used by professional data analysts, will help you get the most value out of your data.</description>
-    </item>
-    <item>
-      <title>IT/ITIL Problem Management</title>
-      <link>https://www.splunk.com/en_us/blog/learn/problem-management.html</link>
-      <description>Discover ITIL Problem Management: Learn how to reduce incidents, improve service, and boost IT maturity with proactive problem-solving strategies.</description>
-    </item>
+    <lastBuildDate>Fri, 10 Jan 2025 03:00:03 +0000</lastBuildDate>
     <item>
       <title>Data Science vs. Data Analytics: Key Differences</title>
       <link>https://www.splunk.com/en_us/blog/learn/data-science-vs-data-analytics.html</link>
@@ -48,9 +23,34 @@
       <description>Learn how BI transforms raw data into actionable insights to drive decisions, boost efficiency, and enhance ROI.</description>
     </item>
     <item>
+      <title>Business Continuity vs. Business Resilience: What's The Difference?</title>
+      <link>https://www.splunk.com/en_us/blog/learn/business-continuity-vs-business-resilience.html</link>
+      <description>Business resilience is a key trend this year, so let’s outline the differences between business continuity and resilience. Hint: one’s a process, one is much more.</description>
+    </item>
+    <item>
       <title>Learn SPL command types: Efficient search execution order and how to investigate them</title>
       <link>https://www.splunk.com/en_us/blog/tips-and-tricks/learn-spl-command-types-efficient-search-execution-order-and-how-to-investigate-them.html</link>
       <description>When performing searches, Splunk uses its own language, SPL (Search Processing Language). In this article, we will explain each type of SPL and show you the efficient order in which to run searches and how to use the Search Job Inspector, an investigative tool.</description>
+    </item>
+    <item>
+      <title>The Modern SIEM has come a long way from your Grandmother’s SIEM</title>
+      <link>https://www.splunk.com/en_us/blog/security/the-modern-siem.html</link>
+      <description>Explore how modern SIEM solutions tackle scalability, alert fatigue, and advanced threat detection with automation, machine learning, and real-time insights for efficient SOC workflows.</description>
+    </item>
+    <item>
+      <title>Threat Detection, Explained</title>
+      <link>https://www.splunk.com/en_us/blog/learn/threat-detection.html</link>
+      <description>Threat detection is fundamental to any cybersecurity practice. Learn what this term means and how to get started with it in this article.</description>
+    </item>
+    <item>
+      <title>Leading or Lagging? Three Things That Will Move Observability for Financial Services Forward</title>
+      <link>https://www.splunk.com/en_us/blog/partners/observability-for-financial-services.html</link>
+      <description>Boost IT efficiency, scale faster, and enhance customer experiences with insights from Evolutio and Splunk Observability.</description>
+    </item>
+    <item>
+      <title>APAC in 2025: A Harder Look at AI, Data and Cybersecurity Standards</title>
+      <link>https://www.splunk.com/en_us/blog/leadership/apac-in-2025-a-harder-look-at-ai-data-and-cybersecurity-standards.html</link>
+      <description>Splunk's Simon Davies dives into our Splunk Predictions 2025 report and breaks down three key trends that will be pertinent to the APAC region in the year ahead.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

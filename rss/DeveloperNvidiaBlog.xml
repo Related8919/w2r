@@ -6,47 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 10 Jan 2025 03:00:34 +0000</lastBuildDate>
-    <item>
-      <title>微调小型语言模型以提高代码审查准确性</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/fine-tuning-small-language-models-to-optimize-code-review-accuracy/</link>
-      <description>2024年 12月 17日微调小型语言模型以提高代码审查准确性生成式 AI 通过 推动众多 应用的创新和提高效率，正在改变企业。然而，采用大型 基础模型 会带来一些挑战，包括高成本、慢性能、5 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA TensorRT-LLM 现支持 Recurrent Drafting，实现 LLM 推理优化</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-tensorrt-llm-now-supports-recurrent-drafting-for-optimizing-llm-inference/</link>
-      <description>2024年 12月 18日NVIDIA TensorRT-LLM 现支持 Recurrent Drafting，实现 LLM 推理优化Recurrent Drafting (简称 ReDrafter) 是苹果公司为大语言模型 (LLM) 推理开发并开源的一种新型推测解码技术，2 MIN READ</description>
-    </item>
-    <item>
-      <title>利用 XGBoost 中的 CUDA 加速同态加密实现联邦学习数据隐私安全性</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/security-for-data-privacy-in-federated-learning-with-cuda-accelerated-homomorphic-encryption-in-xgboost/</link>
-      <description>2024年 12月 18日利用 XGBoost 中的 CUDA 加速同态加密实现联邦学习数据隐私安全性XGBoost 是一种广泛用于表格数据建模的机器学习算法。为了将 XGBoost 模型从单站点学习扩展到多站点协作训练，3 MIN READ</description>
-    </item>
-    <item>
-      <title>AEC 检索增强生成技术指南</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/a-guide-to-retrieval-augmented-generation-for-aec/</link>
-      <description>2024年 12月 18日AEC 检索增强生成技术指南大语言模型 (LLMs) 正在迅速改变业务格局，为自然语言处理 (NLP)、内容生成和数据分析提供新功能。3 MIN READ</description>
-    </item>
-    <item>
-      <title>2024 年 NVIDIA 6G 开发者日的 5 大关键收获</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/five-takeaways-from-nvidia-6g-developer-day-2024/</link>
-      <description>2024年 12月 18日2024 年 NVIDIA 6G 开发者日的 5 大关键收获2024 年 NVIDIA 6G 开发者日让 6G 研发社区成员共聚一堂 ，分享见解，并学习使用 NVIDIA 6G 研究工具的新方式。3 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA NeMo Curator 新分类器模型增强您的训练数据</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/enhance-your-training-data-with-new-nvidia-nemo-curator-classifier-models/</link>
-      <description>2024年 12月 19日使用 NVIDIA NeMo Curator 新分类器模型增强您的训练数据分类器模型专门用于将数据分类为预定义的组或类，在优化数据处理流程以微调和预训练生成式 AI 模型方面发挥着关键作用。3 MIN READ</description>
-    </item>
-    <item>
-      <title>RAPIDS 24.12 推出基于 PyPI 的 cuDF、适用于 Polar 的 CUDA 统一内存和更快的 GNN</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/rapids-24-12-introduces-cudf-on-pypi-cuda-unified-memory-for-polars-and-faster-gnns/</link>
-      <description>2024年 12月 19日RAPIDS 24.12 推出基于 PyPI 的 cuDF、适用于 Polar 的 CUDA 统一内存和更快的 GNNRAPIDS 24.12 将 cuDF 包引入 PyPI，加快了 聚合和从 AWS S3 读取文件的速度，3 MIN READ</description>
-    </item>
-    <item>
-      <title>AI 视觉技术助力绿色回收工厂智能化</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/ai-vision-helps-green-recycling-plants/</link>
-      <description>2024年 12月 19日AI 视觉技术助力绿色回收工厂智能化全球每年仅回收约 13% 的 20 多亿吨城市垃圾。到 2050 年，全球每年的城市废弃物量将达到 3.88 亿吨。1 MIN READ</description>
-    </item>
+    <lastBuildDate>Sat, 11 Jan 2025 02:55:31 +0000</lastBuildDate>
     <item>
       <title>借助 Dell AI Factory 和 NVIDIA 加速电影制作</title>
       <link>https://developer.nvidia.com/zh-cn/blog/accelerating-film-production-with-dell-ai-factory-and-nvidia/</link>
@@ -86,6 +46,46 @@
       <title>借助 NVIDIA Launchables 实现出色 NVIDIA AI 的一键式部署</title>
       <link>https://developer.nvidia.com/zh-cn/blog/one-click-deployments-for-the-best-of-nvidia-ai-with-nvidia-launchables/</link>
       <description>2025年 1月 6日借助 NVIDIA Launchables 实现出色 NVIDIA AI 的一键式部署AI 开发已成为现代软件工程的核心部分，NVIDIA 致力于寻找方法，为所有希望开始使用 AI 的开发者提供优化的加速计算。 为解决这一问题，1 MIN READ</description>
+    </item>
+    <item>
+      <title>利用最新的 NVIDIA Isaac 版本推进机器人学习、感知和操控技术</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/advancing-robot-learning-perception-and-manipulation-with-latest-nvidia-isaac-release/</link>
+      <description>2025年 1月 6日利用最新的 NVIDIA Isaac 版本推进机器人学习、感知和操控技术在 CES 2025 上，NVIDIA 宣布了对 NVIDIA Isaac 的重要更新。NVIDIA Isaac 是一个由加速库、3 MIN READ</description>
+    </item>
+    <item>
+      <title>利用 NVIDIA Omniverse 空间流，在 XR 中体验数字孪生技术</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/experience-digital-twins-in-xr-with-nvidia-omniverse-spatial-streaming/</link>
+      <description>2025年 1月 6日利用 NVIDIA Omniverse 空间流，在 XR 中体验数字孪生技术空间计算 体验正在转变我们与数据的交互方式，通过 扩展现实 (XR) 和 数字孪生 等技术连接物理和数字世界。2 MIN READ</description>
+    </item>
+    <item>
+      <title>人形机器人学习的合成运动生成管道构建</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/building-a-synthetic-motion-generation-pipeline-for-humanoid-robot-learning/</link>
+      <description>2025年 1月 6日人形机器人学习的合成运动生成管道构建通用型类人型机器人旨在快速适应现有的以人为中心的城市和工业工作空间，处理繁琐、重复或对身体要求苛刻的任务。2 MIN READ</description>
+    </item>
+    <item>
+      <title>如何为基于感知的物理 AI 构建支持生成式 AI 的合成数据管道</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/how-to-build-a-generative-ai-enabled-synthetic-data-pipeline-for-perception-ai/</link>
+      <description>2025年 1月 6日如何为基于感知的物理 AI 构建支持生成式 AI 的合成数据管道训练用于为机器人和自动驾驶汽车等自主机器提供动力支持的 物理 AI 模型 需要大量数据。获取大量不同的训练数据可能十分困难、耗时且昂贵。2 MIN READ</description>
+    </item>
+    <item>
+      <title>Llama Nemotron 模型提升智能体 AI 工作流的准确性和效率</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/llama-nemotron-models-accelerate-agentic-ai-workflows-with-accuracy-and-efficiency/</link>
+      <description>2025年 1月 6日Llama Nemotron 模型提升智能体 AI 工作流的准确性和效率Agentic AI 是新一波生成式 AI 浪潮，是一种范式转变，通过使 AI 系统能够自主行动并实现复杂的目标，具有变革行业的潜力。2 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA RTX 神经渲染引领 AI 图形创新新时代</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-rtx-neural-rendering-introduces-next-era-of-ai-powered-graphics-innovation/</link>
+      <description>2025年 1月 6日NVIDIA RTX 神经渲染引领 AI 图形创新新时代NVIDIA 今天发布了面向游戏玩家、创作者和开发者的新一代硬件 – GeForce RTX 50 系列台式机和笔记本电脑 GPU。3 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA Cosmos World 基础模型平台助力物理 AI 进步</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/advancing-physical-ai-with-nvidia-cosmos-world-foundation-model-platform/</link>
+      <description>2025年 1月 9日NVIDIA Cosmos World 基础模型平台助力物理 AI 进步随着机器人和 自动驾驶汽车 的发展，加速 物理 AI 的发展变得至关重要，而物理 AI 使自主机器能够感知、理解并在现实世界中执行复杂的操作。4 MIN READ</description>
+    </item>
+    <item>
+      <title>宣布推出 Nemotron-CC：用于 LLM 预训练的万亿级英语语言数据集</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/announcing-nemotron-cc-a-trillion-token-english-language-dataset-for-llm-pretraining/</link>
+      <description>2025年 1月 9日宣布推出 Nemotron-CC：用于 LLM 预训练的万亿级英语语言数据集NVIDIA 很高兴地宣布发布 Nemotron-CC，这是一种包含 6.3 万亿个令牌的 英语语言 Common Crawl 数据集 ，1 MIN READ</description>
     </item>
   </channel>
 </rss>

@@ -6,21 +6,16 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 10 Jan 2025 03:00:24 +0000</lastBuildDate>
-    <item>
-      <title>Database Center: Now with support for Bigtable, Firestore, and Memorystore</title>
-      <link>https://cloud.google.com/blog/products/databases/database-centers-supports-bigtable-memorystore-and-firestore</link>
-      <description>DatabasesDatabase Center: Now with support for Bigtable, Firestore, and MemorystoreBy Kiran Shenoy • 3-minute read</description>
-    </item>
-    <item>
-      <title>What’s new with Google Cloud</title>
-      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
-      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 13-minute read</description>
-    </item>
+    <lastBuildDate>Sat, 11 Jan 2025 02:55:20 +0000</lastBuildDate>
     <item>
       <title>Cloud CISO Perspectives: From gen AI to threat intelligence: 2024 in review</title>
       <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-from-gen-AI-to-threat-intelligence-2024-in-review</link>
       <description>Security &amp; IdentityCloud CISO Perspectives: From gen AI to threat intelligence: 2024 in reviewBy Phil Venables • 5-minute read</description>
+    </item>
+    <item>
+      <title>Google is a Leader, positioned furthest in vision in the 2024 Gartner Magic Quadrant for Cloud Database Management Systems</title>
+      <link>https://cloud.google.com/blog/products/databases/2024-gartner-magic-quadrant-for-cloud-database-management-systems</link>
+      <description>DatabasesGoogle is a Leader, positioned furthest in vision in the 2024 Gartner Magic Quadrant for Cloud Database Management SystemsBy Andi Gutmans • 8-minute read</description>
     </item>
     <item>
       <title>The overwhelmed person’s guide to Google Cloud: week of December 19</title>
@@ -33,9 +28,14 @@
       <description>Public SectorA Look Back at the AI Innovations Transforming the Public SectorBy Karen Dahut • 4-minute read</description>
     </item>
     <item>
+      <title>What’s new with Google Cloud - 2024</title>
+      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud-2024</link>
+      <description>Inside Google CloudWhat’s new with Google Cloud - 2024By Google Cloud Content &amp; Editorial  • 13-minute read</description>
+    </item>
+    <item>
       <title>Toward faster incident resolution at Palo Alto Networks with Personalized Service Health</title>
       <link>https://cloud.google.com/blog/products/management-tools/personalized-service-health-at-palo-alto-networks</link>
-      <description>Management ToolsToward faster incident resolution at Palo Alto Networks with Personalized Service HealthBy Sabitha Muppuri • 4-minute read</description>
+      <description>Management ToolsToward faster incident resolution at Palo Alto Networks with Personalized Service HealthBy Sabitha Muppuri • 5-minute read</description>
     </item>
     <item>
       <title>Google Cloud expands its support for founders through partnerships with 300 accelerators worldwide</title>
@@ -43,9 +43,9 @@
       <description>StartupsGoogle Cloud expands its support for founders through partnerships with 300 accelerators worldwideBy James Lee • 7-minute read</description>
     </item>
     <item>
-      <title>Ivanti Connect Secure VPN Targeted in New Zero-Day Exploitation</title>
-      <link>https://cloud.google.com/blog/topics/threat-intelligence/ivanti-connect-secure-vpn-zero-day</link>
-      <description>Threat IntelligenceIvanti Connect Secure VPN Targeted in New Zero-Day ExploitationBy Mandiant  • 28-minute read</description>
+      <title>Enhance viewer engagement with gen AI-powered scene detection for ads</title>
+      <link>https://cloud.google.com/blog/topics/developers-practitioners/use-ai-powered-scene-detection-for-more-effective-ad-placement</link>
+      <description>Developers &amp; PractitionersEnhance viewer engagement with gen AI-powered scene detection for adsBy Amir Meimand • 7-minute read</description>
     </item>
     <item>
       <title>Supporting women founders innovating with AI</title>
@@ -53,9 +53,9 @@
       <description>StartupsSupporting women founders innovating with AIBy Joelle Barral • 2-minute read</description>
     </item>
     <item>
-      <title>Distributed data preprocessing with GKE and Ray: Scaling for the enterprise</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/preprocessing-large-datasets-with-ray-and-gke</link>
-      <description>AI &amp; Machine LearningDistributed data preprocessing with GKE and Ray: Scaling for the enterpriseBy Kavitha Rajendran • 5-minute read</description>
+      <title>What’s new with Google Cloud</title>
+      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
+      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 2-minute read</description>
     </item>
   </channel>
 </rss>

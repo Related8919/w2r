@@ -6,30 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 10 Jan 2025 03:00:08 +0000</lastBuildDate>
-    <item>
-      <title>Widespread Exploitation of Cleo File Transfer Software (CVE-2024-55956)</title>
-      <link>https://www.rapid7.com/blog/post/2024/12/10/etr-widespread-exploitation-of-cleo-file-transfer-software-cve-2024-50623/</link>
-      <description>On Monday, December 9, multiple security firms began privately circulating
-reports of in-the-wild exploitation targeting Cleo file transfer software. Late
-the evening of December 9, security firm Huntress published a blog
- 
-on active exploitation of three different Cleo products (docs
-
-):
-
- *</description>
-    </item>
-    <item>
-      <title>Patch Tuesday - December 2024</title>
-      <link>https://www.rapid7.com/blog/post/2024/12/10/patch-tuesday-december-2024/</link>
-      <description>1 zero-day. CLFS EoP. 16 critical RCEs. Hyper-V container escape. Multiple Remote Desktop Services RCE.</description>
-    </item>
-    <item>
-      <title>Modular Java Backdoor Dropped in Cleo Exploitation Campaign</title>
-      <link>https://www.rapid7.com/blog/post/2024/12/11/etr-modular-java-backdoor-dropped-in-cleo-exploitation-campaign/</link>
-      <description>While investigating incidents related to Cleo software exploitation, Rapid7 Labs and MDR team discovered a novel, multi-stage attack that deploys an encoded Java Archive (JAR) payload.</description>
-    </item>
+    <lastBuildDate>Sat, 11 Jan 2025 02:55:06 +0000</lastBuildDate>
     <item>
       <title>Navigating Choppy Waters: Top Security Predictions from Rapid7's 2025 Webinar</title>
       <link>https://www.rapid7.com/blog/post/2024/12/12/navigating-choppy-waters-top-security-predictions-from-rapid7s-2025-webinar/</link>
@@ -105,7 +82,7 @@ was the privilege of working with the contributors and friends we made alo</desc
       <description>On January 7, the Human Rights Campaign Foundation released their 2025 Corporate Equality Index (CEI), where Rapid7 earned a top score of 100.</description>
     </item>
     <item>
-      <title>CVE-2025-0282: Ivanti Connect Secure zero-day exploited in the wild</title>
+      <title>CVE-2025-0282: Ivanti Connect Secure Zero-Day Exploited in the Wild</title>
       <link>https://www.rapid7.com/blog/post/2025/01/08/etr-cve-2025-0282-ivanti-connect-secure-zero-day-exploited-in-the-wild/</link>
       <description>Two stack-based buffer overflow issues were disclosed in Ivanti Connect Secure, Policy Secure, and Neurons for ZTA. CVE-2025-0282, the more severe of the two issues, has been exploited in the wild against Ivanti Connect Secure devices.</description>
     </item>
@@ -118,6 +95,32 @@ was the privilege of working with the contributors and friends we made alo</desc
       <title>Built In Honors Rapid7 with “2025 Best Places To Work” Award</title>
       <link>https://www.rapid7.com/blog/post/2025/01/09/built-in-honors-rapid7-with-2025-best-places-to-work-award/</link>
       <description>3 Rapid7 Offices Included in Built In’s “Best Places to Work” Lists.</description>
+    </item>
+    <item>
+      <title>Unlocking the Power of AI in Cybersecurity: Key Takeaways from Our Latest Webinar</title>
+      <link>https://www.rapid7.com/blog/post/2025/01/10/unlocking-the-power-of-ai-in-cybersecurity-key-takeaways-from-our-latest-webinar/</link>
+      <description>In our recent webinar, "Enhancing MDR with AI: Real-World Use Cases &amp; Security Insights," cybersecurity and AI experts shared their perspectives on how advancements in artificial intelligence are reshaping security operations.</description>
+    </item>
+    <item>
+      <title>Securing Success: Stories from the SOC Webinar Series</title>
+      <link>https://www.rapid7.com/blog/post/2025/01/10/securing-success-stories-from-the-soc-webinar-series/</link>
+      <description>Cyberattacks are evolving, threat volumes are skyrocketing, and attackers are exploiting vulnerabilities faster than ever. To navigate these challenges, Rapid7 has launched the "Securing Success: Stories from the SOC" webinar series.</description>
+    </item>
+    <item>
+      <title>Metasploit Wrap-Up 01/10/2025</title>
+      <link>https://www.rapid7.com/blog/post/2025/01/10/metasploit-wrap-up-01-10-2025/</link>
+      <description>New module content (5)
+OneDev Unauthenticated Arbitrary File Read
+Authors: Siebene and vultza
+Type: Auxiliary
+Pull request: #19614  
+contributed by vultza 
+Path: gather/onedev_arbitrary_file_read
+AttackerKB reference: CVE-2024-45309
+
+
+Description: This adds an exploit module for an unauthenticated arbitrary file
+read vulnerability, tracked as CVE-202</description>
     </item>
   </channel>
 </rss>

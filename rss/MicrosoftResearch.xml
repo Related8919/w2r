@@ -1132,30 +1132,30 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115766">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085526">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research blog</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" aria-label="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1.png" alt="A diagram illustrating the joint optimization process of instructions and in-context examples in PromptWizard. The figure demonstrates how the framework iteratively refines both components, integrating feedback to enhance the overall prompt effectiveness and adaptability across tasks." />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" aria-label="What’s Your Story: Lex Story" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/08/Lex-Story_WYS_Hero_Feature_1400x788.jpg" alt="photo of Lex Story for the What's Your Story episode of the Microsoft Research podcast" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts</h2>
+									<h2 class="h4">What’s Your Story: Lex Story</h2>
 				
-								<p class="large">PromptWizard from Microsoft Research is now open source. It is designed to automate and simplify AI prompt optimization, combining iterative LLM feedback with efficient exploration and refinement techniques to create highly effective prompts in minutes.</p>
+								<p class="large">Model maker and fabricator Lex Story helps bring research to life through prototyping. He discusses his take on failure; the encouragement and advice that has supported his pursuit of art and science; and the sabbatical that might inspire his next career move.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
-							Read more						</a>
+						<a href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
+							Listen now						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -1940,27 +1940,30 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1061244">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085526">
 		
 
+		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
+	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/about-microsoft-research/" aria-label="About Microsoft Research" data-bi-cN="About Microsoft Research" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/07/About-page-promo_1066x600.jpg" alt="" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" aria-label="What’s Your Story: Lex Story" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/08/Lex-Story_WYS_Hero_Feature_1400x788.jpg" alt="photo of Lex Story for the What's Your Story episode of the Microsoft Research podcast" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">About Microsoft Research</h2>
+									<h2 class="h4">What’s Your Story: Lex Story</h2>
 				
-								<p class="large">Advancing science and technology to benefit humanity</p>
+								<p class="large">Model maker and fabricator Lex Story helps bring research to life through prototyping. He discusses his take on failure; the encouragement and advice that has supported his pursuit of art and science; and the sabbatical that might inspire his next career move.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/about-microsoft-research/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="View our story" data-bi-cN="About Microsoft Research" target="_blank">
-							View our story						</a>
+						<a href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
+							Listen now						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -2634,37 +2637,41 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 		
 			</item>
 		<item>
-		<title>Abstracts: NeurIPS 2024 with Dylan Foster</title>
-		<link>https://www.microsoft.com/en-us/research/podcast/abstracts-neurips-2024-with-dylan-foster/</link>
+		<title>Abstracts: NeurIPS 2024 with Pranjal Chitale</title>
+		<link>https://www.microsoft.com/en-us/research/podcast/abstracts-neurips-2024-with-pranjal-chitale/</link>
 		
 		<dc:creator><![CDATA[Brenda Potts]]></dc:creator>
 		<pubDate>Fri, 06 Dec 2024 14:00:00 +0000</pubDate>
 				<category><![CDATA[Microsoft Research Podcast]]></category>
-		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1107372</guid>
+		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1107426</guid>
 
-					<description><![CDATA[<p>Can existing algorithms designed for simple reinforcement learning problems be used to solve more complex RL problems? Researcher Dylan Foster discusses the modular approach he and his coauthors explored in their 2024 NeurIPS paper on RL under latent dynamics.</p>
-<p>The post <a href="https://www.microsoft.com/en-us/research/podcast/abstracts-neurips-2024-with-dylan-foster/">Abstracts: NeurIPS 2024 with Dylan Foster</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+					<description><![CDATA[<p>Pranjal Chitale discusses the 2024 NeurIPS work CVQA. Spanning 31 languages and the cultures of 30 countries, this VQA benchmark was created with native speakers and cultural experts to evaluate model performance across diverse linguistic and cultural contexts.</p>
+<p>The post <a href="https://www.microsoft.com/en-us/research/podcast/abstracts-neurips-2024-with-pranjal-chitale/">Abstracts: NeurIPS 2024 with Pranjal Chitale</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated image of Dylan Foster for the Abstracts series on the Microsoft Research Podcast." class="wp-image-1108887" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Pranjal_Abstracts_Hero_Feature_No_Text_1400x788.jpg" alt="diagram" class="wp-image-1108932" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Pranjal_Abstracts_Hero_Feature_No_Text_1400x788.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Pranjal_Abstracts_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Pranjal_Abstracts_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Pranjal_Abstracts_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Pranjal_Abstracts_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Pranjal_Abstracts_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Pranjal_Abstracts_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Pranjal_Abstracts_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Pranjal_Abstracts_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Pranjal_Abstracts_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
 
 
 <div class="wp-block-msr-podcast-container my-4">
-	<iframe loading="lazy" src="https://player.blubrry.com/?podcast_id=139303363&modern=1" class="podcast-player" frameborder="0" height="164px" width="100%" scrolling="no" title="Podcast Player"></iframe>
+	<iframe loading="lazy" src="https://player.blubrry.com/?podcast_id=139311215&modern=1" class="podcast-player" frameborder="0" height="164px" width="100%" scrolling="no" title="Podcast Player"></iframe>
 </div>
 
 
 
-<p>Members of the research community at Microsoft work continuously to advance their respective fields.<em> Abstracts&nbsp;</em>brings its audience to the cutting edge with them through short, compelling conversations about new and noteworthy achievements.&nbsp;</p>
+<p>Members of the research community at Microsoft work continuously to advance their respective fields.<em> Abstracts </em>brings its audience to the cutting edge with them through short, compelling conversations about new and noteworthy achievements. </p>
 
 
 
-<p>In this episode, Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/dylanfoster/">Dylan Foster</a> joins host Amber Tingle to discuss the paper <a href="https://www.microsoft.com/en-us/research/publication/reinforcement-learning-under-latent-dynamics-toward-statistical-and-algorithmic-modularity/">“Reinforcement Learning Under Latent Dynamics: Toward Statistical and Algorithmic Modularity,”</a> an oral presentation at this year’s <a href="https://www.microsoft.com/en-us/research/event/neurips-2024/">Conference on Neural Information Processing Systems</a> <a href="https://www.microsoft.com/en-us/research/event/neurips-2024/">(NeurIPS)</a>. In the paper, Foster and his coauthors explore whether well-studied RL algorithms for simple problems can be leveraged to solve RL problems with high-dimensional observations and latent dynamics, part of larger efforts to identify algorithm design principles that can enable agents to learn quickly via trial and error in unfamiliar environments.</p>
+<p>In this episode, Research Fellow <a href="https://www.microsoft.com/en-us/research/people/t-pchitale/?msockid=35739e94ab6c69d41b738b93aa076831">Pranjal Chitale</a> joins host Gretchen Huizinga to discuss&nbsp;the paper <a href="https://www.microsoft.com/en-us/research/publication/cvqa-culturally-diverse-multilingual-visual-question-answering-benchmark/">“CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark,”</a> an oral presentation at this year’s <a href="https://www.microsoft.com/en-us/research/event/neurips-2024/">Conference on Neural Information Processing Systems (NeurIPS)</a>. CVQA, which comprises questions and images representative of 31 languages and the cultures of 30 countries, was created in collaboration with native speakers and cultural experts to evaluate how well models perform across diverse linguistic and cultural contexts, an important step toward improving model inclusivity.</p>
 
 
 
 <div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/reinforcement-learning-under-latent-dynamics-toward-statistical-and-algorithmic-modularity/">Read the paper</a></div>
+<div class="wp-block-button"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/cvqa-culturally-diverse-multilingual-visual-question-answering-benchmark/">Read the paper</a></div>
+
+
+
+<div class="wp-block-button is-style-fill-download"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://huggingface.co/datasets/afaji/cvqa" target="_blank" rel="noreferrer noopener">Get the dataset</a></div>
 </div>
 
 
@@ -2683,7 +2690,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-<p><strong>AMBER TINGLE:</strong> Welcome to <em>Abstracts</em>, a Microsoft Research Podcast that puts the spotlight on world-class research <em>in brief</em>. I’m Amber Tingle. In this series, members of the research community at Microsoft give us a quick snapshot—or a <em>podcast abstract</em>—of their new and noteworthy papers.</p>
+<p><strong>GRETCHEN HUIZINGA:</strong> Welcome to <em>Abstracts</em>, a Microsoft Research Podcast that puts the spotlight on world-class research in brief. I’m Gretchen Huizinga. In this series, members of the research community at Microsoft give us a quick snapshot—or a <em>podcast abstract</em>— of their new and noteworthy papers.</p>
 
 
 
@@ -2691,7 +2698,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-<p>Our guest today is Dylan Foster. He is a principal researcher at Microsoft Research and coauthor of a paper called “Reinforcement Learning Under Latent Dynamics: Toward Statistical and Algorithmic Modularity.” The work is among the oral presentations at this year&#8217;s Conference on Neural Information Processing Systems, or <em>NeurIPS</em>, in Vancouver. Dylan, welcome and thank you for joining us on the podcast!</p>
+<p>Today I&#8217;m talking to Pranjal Chitale, a research fellow at Microsoft Research India. Pranjal is coauthor of a paper called “CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark,” and this paper is an oral presentation at this week&#8217;s 38th annual Conference on Neural Information Processing Systems, or NeurIPS, in Vancouver, BC. Pranjal, thanks for joining us today on <em>Abstracts</em>!<s></s></p>
 
 
 
@@ -2701,59 +2708,67 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-<p><strong>DYLAN FOSTER:</strong> Thanks for having me.</p>
+<p><strong>PRANJAL CHITALE:</strong> Hi, Gretchen. Thanks for having me.</p>
 
 
 
-<p><strong>TINGLE: </strong>Let&#8217;s start with a brief overview of this paper. Tell us about the problem this work addresses and why the research community should know about it.</p>
+<p><strong>HUIZINGA:</strong> So, Pranjal, give us an overview of this paper. In a couple sentences, what problem are you trying to solve, and why should people care about it?</p>
 
 
 
-<p><strong>FOSTER:</strong> So this is a, kind of, a theoretical work on reinforcement learning, or RL. When I say reinforcement learning, broadly speaking, this is talking about the question of how can we design AI agents that are capable of, like, interacting with unknown environments and learning how to solve problems through trial and error. So this is part of some broader agenda we&#8217;ve been doing on, kind of, theoretical foundations of RL. And the key questions we&#8217;re looking at here are what are called, like, exploration and sample efficiency. So this just means we&#8217;re trying to understand, like, what are the algorithm design principles that can allow you to explore an unknown environment and learn as quickly as possible? What we&#8217;re doing in this paper is we&#8217;re, kind of, looking at, how can you most efficiently solve reinforcement learning problems where you&#8217;re faced with very high-dimensional observations, but the underlying dynamics of the system you&#8217;re interacting with are simple? So this is a setting that occurs in a lot of natural reinforcement learning and control problems, especially in the context of, like, say, embodied decision-making. So if you think about, say, games like Pong, you know, the state of the game, like, the state of, like, Pong, is extremely simple. It&#8217;s just, you know, what is the position and velocity of the ball, and, like, where are the paddles? But what we&#8217;d like to be able to do is learn to, you know, like, control or, like, solve games like this from raw pixels or, like, images kind of in the same way that a human would, like, just solve them from vision. So if you look at these types of problems, you know, we call these, like, <em>RL with rich observations</em> or RL with <em>latent dynamics</em>. You know, these are interesting because they, kind of, require you to explore the system, but they also require, you know, representation learning. Like, you want to be able to use neural nets to learn a mapping from, say, the images you see to the latent state of the system. This is a pretty interesting and nontrivial algorithmic problem. And, kind of, what we do in this work is we take a first step towards something like a unified understanding for how to solve these sorts of, like, rich-observation, or latent dynamics, RL problems.</p>
+<p><strong>CHITALE:</strong> So we are witnessing some exciting times as LLMs are rapidly evolving as tools for countless use cases. While most of these LLMs were initially leveraged for natural language processing tasks, they are now expanded across languages and modalities. However, a major gap lies in the availability of multimodal data for non-English languages. Therefore, most multimodal models might not have coverage for non-English languages altogether or might just heavily rely on translations of the associated text in English-centric datasets so as to support multiple languages. The drawback of this approach is that it often misses the cultural nuances of local languages. And another reason why this is not optimal is the images are mostly Western-centric [and] therefore would not be well reflective of the local culture of a lot of regions. So this kind of bias can skew these models towards a Western perspective, raising concerns about inclusivity and safety of the content which they generate when serving a global population, which involves multicultural and multilingual users. Therefore, for a truly inclusive AI ecosystem, models must demonstrate cultural understanding to ensure that the generated content is safe, respectful for diverse communities. Evaluating cultural awareness, though, is extremely challenging because how to define culture itself is an unsolved problem. However, in this work, we are trying to take a step towards having a proxy which could measure cultural understanding.</p>
 
 
 
-<p><strong>TINGLE:</strong> So how did you go about developing this theoretical framework?</p>
+<p><strong>HUIZINGA:</strong> Well, talk about how you did this. What methodology did you use for this paper, and what were your major findings?</p>
 
 
 
-<p><strong>FOSTER: </strong>Yeah, so if you look at these sort of RL problems with latent dynamics, this is something that&#8217;s actually received a lot of investigation in theory. And a lot of this goes back to, kind of, early work from our lab from, like, 2016, 2017 or so. There&#8217;s some really interesting results here, but progress was largely on a, like, case-by-case basis, meaning, you know, there are many different ways that you can try to model the latent dynamics of your problem, and, you know, each of these somehow leads to a different algorithm, right. So, like, you know, you think very hard about this modeling assumption. You think about, what would an optimal algorithm look like? And you end up, you know, writing an entire paper about it. And there&#8217;s nothing wrong with that per se, but if you want to be able to iterate quickly and, kind of, try different modeling assumptions and see what works in practice, you know, this is not really tenable. It&#8217;s just too slow. And so the starting point for this work was to, kind of, try to take a different and more modular approach. So the idea is, you know, there are many, many different types of, sort of, systems or modeling assumptions for the dynamics that have been already studied extensively and have entire papers about them for the simpler setting in which you can directly see the state of the system. And so what we wanted to ask here is, is it possible to use these existing results in more of, like, a modular fashion? Like, if someone has already written a paper on how to optimally solve a particular type of MDP, or <em>Markov decision process</em>, can we just take their algorithm as is and perhaps plug it into some kind of meta-algorithm that can directly, kind of, combine this with representation learning and use it to solve the corresponding rich-observation, or latent dynamics, RL problem?</p>
+<p><strong>CHITALE:</strong> Now that we have defined our broader problem, it is important to decide the scope of our solution because, as we discussed, culture is an umbrella term. So we need to define a smaller scope for this problem. We chose visual question answering, which is a multimodal task, and it is one of the most critical multimodal tasks for the scope of this work. So recognizing the limitations of existing VQA benchmarks, which often rely on translations and lack cultural representation, we developed CVQA, which is <em>Culturally-diverse multilingual VQA</em> benchmark. CVQA spans 30 countries, 31 languages, and has over 10,000 culturally nuanced questions, which were crafted by native speakers and cultural experts. So our focus was on creating questions which required what we term as <em>cultural common sense</em> to answer. For instance, with just the image, it is not possible to answer the question. You need some cultural awareness about the local culture to be able to answer the question. So these questions draw inspiration from knowledge of local culture. So one important aspect of this dataset is that we include both local language as well as English variants of the same question to allow robust testing of models across linguistic concepts. I would say the crux of this effort is that while most of the prior efforts may be small in terms of language—it could be language-group specific or country specific for most—but we wanted this to be a much larger global-scale collaborative effort. So this covers 31 languages across 30 countries. So to build CVQA, we worked with qualified volunteers from diverse age group and genders, ensuring that the questions authentically represented their cultures. So images which were collected, those were ensured to be copyright free, grounded in culture, and safe for work with strict guidelines to ensure that we avoid images which reflect some stereotypes or privacy violations. And we also had 10 categories, which involved topics ranging from daily life, sports, cuisine to history of the region, so a holistic view of the culture of the region. So each question was crafted as a multiple-choice task with challenging answer options which required both the image as well as cultural knowledge to solve. We also employed a maker-checker approach to ensure quality and consistency.</p>
 
 
 
-<p><strong>TINGLE: </strong>What were your major findings? What did you learn during this process?</p>
+<p><strong>HUIZINGA:</strong> So you&#8217;ve created the benchmark. You&#8217;ve tested it. What were your major findings?</p>
 
 
 
-<p><strong>FOSTER:</strong> We started by asking the question sort of exactly the way that I just posed it, right. Like, can we take existing algorithms and use them to solve rich-observation RL problems in a modular fashion? And this turned out to be really tricky. Like, there&#8217;s a lot of natural algorithms you might try that seem promising at first but don&#8217;t exactly work out. And what this, kind of, led us to and, sort of, the first main result in this paper is actually a <em>negative</em> result. So what we actually showed is most, sort of, well-studied types of systems or, like, MDPs that have been studied in, like, the prior literature on RL, even if they&#8217;re tractable when you&#8217;re able to directly see the state of the system, they can become statistically intractable once you add, sort of, high-dimensional observations to the picture. And statistically tractable here means the amount of interaction that you need, like the amount of, sort of, attempts to explore the system that you need, in order to learn a good decision-making policy becomes, like, very, very large, like much, much larger than the corresponding, sort of, complexity if you were able to directly see the states of the system. You know, you could look at this and say, I guess we&#8217;re out of luck. You know, maybe there&#8217;s just no hope of solving these sorts of problems. But that&#8217;s perhaps a little too pessimistic. You know, really the way you should interpret this result is just that you need <em>more assumptions</em>. And that&#8217;s precisely what the, sort of, second result we have in this paper is. So our second result shows that you can, sort of, bypass this impossibility result and, you know, achieve truly modular algorithms under a couple different types of additional assumptions.</p>
+<p><strong>CHITALE:</strong> Now that we have created a benchmark, the next step is to evaluate how these multimodal models are performing on this benchmark. So we benchmark several state-of-the-art multimodal models, which include both open-source offerings like CLIP, BLIP, LLaVA-1.5, and proprietary offerings like GPT-4o or Gemini 1.5 Flash. So what we observed is there is a huge gap when it comes … in performance when we compare these proprietary offerings versus the open-source models. So GPT-4o was the highest-performing model with 75.4% accuracy on English prompts and 74.3% accuracy on local prompts. However, the story is completely different when we go to open-source models. These open-source models significantly lag behind the proprietary models. And one key finding over these open-source models is that these models perform even worse when prompted in the native language when we compare it to prompting in English. This potentially highlights that these models lack multilingual understanding capabilities, which may be because multilingual training data is pretty scarce.</p>
 
 
 
-<p><strong>TINGLE: </strong>Dylan, I&#8217;d like to know—and I&#8217;m sure our audience would, too—what this work means when it comes to real-world application. What impact will this have on the research community?</p>
+<p><strong>HUIZINGA:</strong> Yeah.</p>
 
 
 
-<p><strong>FOSTER:</strong> Yeah, so maybe I&#8217;ll answer that, um, with two different points. The first one is a broader point, which is, why is it important to understand this problem of exploration and sample efficiency in reinforcement learning? If you look at the, sort of, setting we study in this paper—you know, this, like, RL or decision-making with high-dimensional observations—on the empirical side, people have made a huge amount of progress on this problem through deep reinforcement learning. This was what kind of led to these amazing breakthroughs in solving games like Atari in the last decade. But if you look at these results, the gains are somehow more coming from the, like, inductive bias or the, like, generalization abilities of deep learning and not necessarily from the specific algorithms. So, like, current algorithms do not actually explore very deliberately, and so their sample efficiency is very high. Like, it&#8217;s hard to draw a one-to-one comparison, but you can argue they need, like, far more experience than a human would to solve these sorts of problems. So it&#8217;s not clear that we&#8217;re really anywhere near the ceiling of what can be achieved in terms of, like, how efficiently can you have, you know, an agent learn to solve new problems from trial and error. And I think better algorithms here could potentially be, like, transformative in a lot of different domains. To get into this specific work, I think there&#8217;s a couple of important takeaways for researchers. One is that by giving this impossibility result that shows that RL with latent dynamics is impossible without further assumptions, we&#8217;re kind of narrowing down the search space where other researchers can look for efficient algorithms. The second takeaway is, you know, we are showing that this problem becomes tractable when you make additional assumptions. But I view these more as, like, a proof of concept. Like, we&#8217;re kind of, showing for the first time that it <em>is</em> possible to do something nontrivial, but I think a lot more work and research will be required in order to like, you know, build on this and take this to something that can lead to, like, practical algorithms.<s></s></p>
+<p><strong>CHITALE:</strong> So LLaVA-1.5 turned out to be the best open-source model. So one thing to notice, LLaVA-1.5 performs well across a large set of English VQA benchmarks, but when it comes to cultural understanding, it is a pretty weak model. Further, we also did some ablations to understand if adding location-specific information to the textual prompts has some impact or not, but we identified that it does not result in any significant performance improvements. Further, we also conducted a category-wise analysis. So, as we had mentioned, there are 10 categories to which these images belong. So what we observed is that certain categories, like people and everyday life, consistently saw higher accuracy across a large set of models. This may be likely due to abundance of human activity data in training datasets. However, when it comes to niche categories like cooking and food, pop culture, which are much more challenging, especially in local languages, these models struggle. Therefore, these are the kind of highly diverse cultural contexts which need improvement.</p>
 
 
 
-<p><strong>TINGLE: </strong>Well, Dylan Foster, thank you for joining us today to discuss your paper on reinforcement learning under latent dynamics. We certainly appreciate it.</p>
+<p><strong>HUIZINGA:</strong> How&#8217;s this work going to make an impact outside the lab and in the real world?</p>
 
 
 
-<p><strong>FOSTER: </strong>Thanks a lot. Thanks for having me.</p>
+<p><strong>CHITALE:</strong> CVQA is significant because it addresses a fundamental gap in how we evaluate vision-language and multimodal models today. While proprietary models are making impressive strides, open-source models, which are more accessible and easier to deploy, significantly lag behind in terms of cultural awareness and safety. So CVQA fills this gap and provides a much-needed benchmark to help us identify these gaps in the first place. So as to fix them, we first need to identify the gaps, and whether we are progressing or not can be captured by this benchmark. So for the real world, this benchmark does have some far-reaching implications. Models which understand culture are not just technically better, but they would create interactions which are far more engaging, natural, and safe for users from diverse backgrounds. So this benchmark offers entirely new axis for improvement, cultural awareness, and linguistic diversity. Therefore, by improving a model&#8217;s ability to handle culturally nuanced questions, CVQA ensures researchers and developers think beyond accuracy and also focus on cultural awareness and inclusivity before shipping these models into production.</p>
 
 
 
-<p>[MUSIC]</p>
+<p><strong>HUIZINGA:</strong> Pranjal, what are the unanswered questions or unsolved problems in this field, and what do you plan to do about it?</p>
 
 
 
-<p><strong>TINGLE: </strong>And to our listeners, thank you all for tuning in. If you&#8217;d like to read Dylan&#8217;s paper, you may find a link at aka.ms/abstracts. You can also find the paper on arXiv and on the NeurIPS conference website. I&#8217;m Amber Tingle from Microsoft Research, and we hope you&#8217;ll join us next time on <em>Abstracts</em>!</p>
+<p><strong>CHITALE:</strong> So while CVQA makes some strides in addressing cultural and linguistic diversity, there is still much more to explore in this space. So this dataset only covers 31 languages and cultures, but this is just, like, a subset of the incredible diversity that exists globally. Many languages and cultures remain underrepresented, especially some of them are endangered or have limited digital resources. So expanding CVQA to include more of these languages would be a natural next step. Secondly, CVQA just focuses on single-turn question-answer pairs. But in reality, human interaction is often multi-turn and conversational in nature. So a multi-turn version of CVQA could better simulate real-world use cases and challenge models to maintain cultural and contextual awareness over extended dialogues. Another interesting area is personalization. So it would be very interesting if we could teach models to adapt to a user&#8217;s cultural background, preferences, or even regional nuances in real time. This remains a significant challenge, although this benchmark could help us move a step towards our broader goal.</p>
 
 
 
-<p>[MUSIC FADES]</p>
+<p>[MUSIC]<s></s></p>
+
+
+
+<p><strong>HUIZINGA:</strong> Well, Pranjal Chitale, this is super important research, and thank you for joining us today. To our listeners, thanks for tuning in. If you&#8217;re interested in learning more about this paper, you can find it at aka.ms/abstracts. You can also find it on arXiv and on the NeurIPS website. And if you&#8217;re at NeurIPS, you can also go hear about it. See you next time on <em>Abstracts</em>!</p>
+
+
+
+<p>[MUSIC FADES]<s></s></p>
 
 				</span>
 			</div>
@@ -2769,7 +2784,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 		</div>
 	</div>
 </div>
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/podcast/abstracts-neurips-2024-with-dylan-foster/">Abstracts: NeurIPS 2024 with Dylan Foster</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/podcast/abstracts-neurips-2024-with-pranjal-chitale/">Abstracts: NeurIPS 2024 with Pranjal Chitale</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></content:encoded>
 					
 		

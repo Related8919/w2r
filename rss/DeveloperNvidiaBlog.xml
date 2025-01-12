@@ -6,7 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 11 Jan 2025 02:55:31 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2025 03:05:25 +0000</lastBuildDate>
     <item>
       <title>借助 Dell AI Factory 和 NVIDIA 加速电影制作</title>
       <link>https://developer.nvidia.com/zh-cn/blog/accelerating-film-production-with-dell-ai-factory-and-nvidia/</link>

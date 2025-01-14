@@ -6,12 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 13 Jan 2025 03:02:51 +0000</lastBuildDate>
-    <item>
-      <title>Google is a Leader, positioned furthest in vision in the 2024 Gartner Magic Quadrant for Cloud Database Management Systems</title>
-      <link>https://cloud.google.com/blog/products/databases/2024-gartner-magic-quadrant-for-cloud-database-management-systems</link>
-      <description>DatabasesGoogle is a Leader, positioned furthest in vision in the 2024 Gartner Magic Quadrant for Cloud Database Management SystemsBy Andi Gutmans • 8-minute read</description>
-    </item>
+    <lastBuildDate>Tue, 14 Jan 2025 02:37:57 +0000</lastBuildDate>
     <item>
       <title>The overwhelmed person’s guide to Google Cloud: week of December 19</title>
       <link>https://cloud.google.com/blog/products/gcp/the-overwhelmed-persons-guide-to-google-cloud</link>
@@ -48,14 +43,19 @@
       <description>StartupsSupporting women founders innovating with AIBy Joelle Barral • 2-minute read</description>
     </item>
     <item>
+      <title>Get ready for a unique, immersive security experience at Next ‘25</title>
+      <link>https://cloud.google.com/blog/products/identity-security/unique-immersive-security-experience-coming-to-next-25</link>
+      <description>Security &amp; IdentityGet ready for a unique, immersive security experience at Next ‘25By Robert Sadowski • 5-minute read</description>
+    </item>
+    <item>
       <title>What’s new with Google Cloud</title>
       <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
       <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 2-minute read</description>
     </item>
     <item>
-      <title>Empowering retailers with AI for commerce, marketing, supply chains, and more</title>
-      <link>https://cloud.google.com/blog/topics/retail/retail-cpg-ai-partner-ecosystem-nrf-2025</link>
-      <description>RetailEmpowering retailers with AI for commerce, marketing, supply chains, and moreBy Paul Tepfenhart • 6-minute read</description>
+      <title>Announcing Mistral AI’s Mistral Large 24.11 and Codestral 25.01 models on Vertex AI</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/announcing-new-mistral-large-model-on-vertex-ai</link>
+      <description>AI &amp; Machine LearningAnnouncing Mistral AI’s Mistral Large 24.11 and Codestral 25.01 models on Vertex AIBy Nenshad Bardoliwalla • 4-minute read</description>
     </item>
   </channel>
 </rss>

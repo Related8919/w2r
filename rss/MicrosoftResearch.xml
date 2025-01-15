@@ -12,7 +12,7 @@
 	<atom:link href="https://www.microsoft.com/en-us/research/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.microsoft.com/en-us/research/</link>
 	<description></description>
-	<lastBuildDate>Mon, 06 Jan 2025 19:12:29 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 14 Jan 2025 15:55:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,208 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.7.1</generator>
 	<item>
+		<title>AutoGen v0.4: Reimagining the foundation of agentic AI for scale, extensibility, and robustness</title>
+		<link>https://www.microsoft.com/en-us/research/blog/autogen-v0-4-reimagining-the-foundation-of-agentic-ai-for-scale-extensibility-and-robustness/</link>
+		
+		<dc:creator><![CDATA[Alyssa Hughes (2ADAPTIVE LLC dba 2A Consulting)]]></dc:creator>
+		<pubDate>Tue, 14 Jan 2025 14:33:09 +0000</pubDate>
+				<category><![CDATA[Research Blog]]></category>
+		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1116288</guid>
+
+					<description><![CDATA[<p>Announcing AutoGen 0.4, fully reimagined library for building advanced agentic AI systems, developed to improve code quality and robustness. Its asynchronous, event-driven architecture is designed to support dynamic, scalable workflows.</p>
+<p>The post <a href="https://www.microsoft.com/en-us/research/blog/autogen-v0-4-reimagining-the-foundation-of-agentic-ai-for-scale-extensibility-and-robustness/">AutoGen v0.4: Reimagining the foundation of agentic AI for scale, extensibility, and robustness</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="576" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/AutoGen-0.4-BlogHeroFeature-1400x788-1-1024x576.jpg" alt="The v0.4 update introduces a cohesive AutoGen ecosystem that includes the framework, developer tools, and applications. The framework’s layered architecture clearly defines each layer’s functionality. It supports both first-party and third-party applications and extensions." class="wp-image-1120017" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/AutoGen-0.4-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/AutoGen-0.4-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/AutoGen-0.4-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/AutoGen-0.4-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/AutoGen-0.4-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/AutoGen-0.4-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/AutoGen-0.4-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/AutoGen-0.4-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/AutoGen-0.4-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/AutoGen-0.4-BlogHeroFeature-1400x788-1.jpg 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Over the past year, our work on <a href="https://www.microsoft.com/en-us/research/project/autogen/" target="_blank" rel="noreferrer noopener">AutoGen</a> has highlighted the transformative potential of agentic AI and multi-agent applications. Today, we are excited to announce AutoGen v0.4, a significant milestone informed by insights from our community of users and developers. This update represents a complete redesign of the AutoGen library, developed to improve code quality, robustness, generality, and scalability in agentic workflows.&nbsp;</p>
+
+
+
+<p>The initial release of <a href="https://www.microsoft.com/en-us/research/publication/autogen-enabling-next-gen-llm-applications-via-multi-agent-conversation-framework/" target="_blank" rel="noreferrer noopener">AutoGen</a> generated widespread interest in agentic technologies. At the same time, users struggled with architectural constraints, an inefficient API compounded by rapid growth, and limited debugging and intervention functionality. Feedback highlighted the need for stronger observability and control, more flexible multi-agent collaboration patterns, and reusable components. AutoGen v0.4 addresses these issues with its <strong>asynchronous, event-driven architecture</strong>.&nbsp;</p>
+
+
+
+<p>This update makes AutoGen more robust and extensible, enabling a broader range of agentic scenarios. The new framework includes the following features, inspired by feedback from both within and outside Microsoft.&nbsp;&nbsp;</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Asynchronous messaging</strong>: Agents communicate through asynchronous messages, supporting both event-driven and request/response interaction patterns.&nbsp;</li>
+
+
+
+<li><strong>Modular and extensible</strong>: Users can easily customize systems with pluggable components, including custom agents, tools, memory, and models. They can also build proactive and long-running agents using event-driven patterns.&nbsp;</li>
+
+
+
+<li><strong>Observability and debugging</strong>: Built-in metric tracking, message tracing, and debugging tools provide monitoring and control over agent interactions and workflows, with support for OpenTelemetry for industry-standard observability.&nbsp;</li>
+
+
+
+<li><strong>Scalable and distributed</strong>: Users can design complex, distributed agent networks that operate seamlessly across organizational boundaries.&nbsp;</li>
+
+
+
+<li><strong>Built-in and community extensions</strong>: The extensions module enhances the framework’s functionality with advanced model clients, agents, multi-agent teams, and tools for agentic workflows. Community support allows open-source developers to manage their own extensions.&nbsp;</li>
+
+
+
+<li><strong>Cross-language support</strong>: This update enables interoperability between agents built in different programming languages, with current support for Python and .NET and additional languages in development.&nbsp;</li>
+
+
+
+<li><strong>Full type support</strong>: Interfaces enforce type checks at build time, improving robustness and maintaining code quality.</li>
+</ul>
+
+
+
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085526">
+		
+
+		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
+	</p>
+	
+	<div class="row pt-3 pb-4 align-items-center">
+						<div class="msr-promo__media col-12 col-md-5">
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" aria-label="What’s Your Story: Lex Story" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/08/Lex-Story_WYS_Hero_Feature_1400x788.jpg" alt="photo of Lex Story for the What's Your Story episode of the Microsoft Research podcast" />
+				</a>
+			</div>
+			
+			<div class="msr-promo__content p-3 px-5 col-12 col-md">
+
+									<h2 class="h4">What’s Your Story: Lex Story</h2>
+				
+								<p class="large">Model maker and fabricator Lex Story helps bring research to life through prototyping. He discusses his take on failure; the encouragement and advice that has supported his pursuit of art and science; and the sabbatical that might inspire his next career move.</p>
+				
+								<div class="wp-block-buttons justify-content-center justify-content-md-start">
+					<div class="wp-block-button">
+						<a href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
+							Listen now						</a>
+					</div>
+				</div>
+							</div><!--/.msr-promo__content-->
+	</div><!--/.msr-promo__inner-wrap-->
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
+	
+
+
+<h2 class="wp-block-heading" id="new-autogen-framework">New AutoGen framework</h2>
+
+
+
+<p>As shown in Figure 1, the AutoGen framework features a layered architecture with clearly defined responsibilities across the framework, developer tools, and applications. The framework comprises three layers: core, agent chat, and first-party extensions.&nbsp;&nbsp;</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Core: </strong>The foundational building blocks for an event-driven agentic system.</li>
+
+
+
+<li><strong>AgentChat:</strong>&nbsp;A task-driven, high-level API built on the core layer, featuring group chat, code execution, pre-built agents, and more. This layer is most similar to <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/autogen/tree/0.2">AutoGen v0.2<span class="sr-only"> (opens in new tab)</span></a>, making it the easiest API to migrate to.</li>
+
+
+
+<li><strong>Extensions:</strong> Implementations of core interfaces and third-party integrations, such as the Azure code executor and OpenAI model client.</li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><img decoding="async" width="865" height="530" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Fig1-v0.4.png" alt="Figure 1. The v0.4 update introduces a cohesive AutoGen ecosystem that includes the framework, developer tools, and applications. The framework’s layered architecture clearly defines each layer’s functionality. It supports both first-party and third-party applications and extensions." class="wp-image-1116330" style="width:649px;height:auto" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Fig1-v0.4.png 865w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Fig1-v0.4-300x184.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Fig1-v0.4-768x471.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Fig1-v0.4-240x147.png 240w" sizes="(max-width: 865px) 100vw, 865px" /><figcaption class="wp-element-caption">Figure 1. The v0.4 update introduces a cohesive AutoGen ecosystem that includes the framework, developer tools, and applications. The framework’s layered architecture clearly defines each layer’s functionality. It supports both first-party and third-party applications and extensions.&nbsp;</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading" id="developer-tools">Developer tools</h2>
+
+
+
+<p>In addition to the framework, AutoGen 0.4 includes upgraded programming tools and applications, designed to support developers in building and experimenting with AutoGen.&nbsp;</p>
+
+
+
+<p><strong>AutoGen Bench: </strong>Enables developers to benchmark their agents by measuring and comparing performance across tasks and environments.&nbsp;</p>
+
+
+
+<p><strong>AutoGen Studio: </strong>Rebuilt on the v0.4 AgentChat API, this low-code interface enables rapid prototyping of AI agents. It introduces several new capabilities:&nbsp;</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Real-time agent updates: </strong>View agent action streams in real time with asynchronous, event-driven messages.&nbsp;&nbsp;</li>
+
+
+
+<li><strong>Mid-execution control:</strong> Pause conversations, redirect agent actions, and adjust team composition. Then seamlessly resume tasks.&nbsp;</li>
+
+
+
+<li><strong>Interactive feedback through the UI: </strong>Add a UserProxyAgent to enable user input and guidance during team runs in real time.&nbsp;</li>
+
+
+
+<li><strong>Message flow visualization:</strong> Understand agent communication through an intuitive visual interface that maps message paths and dependencies.&nbsp;</li>
+
+
+
+<li><strong>Drag-and-drop team builder:</strong> Design agent teams visually using an interface for dragging components into place and configuring their relationships and properties.&nbsp;</li>
+
+
+
+<li><strong>Third-party component galleries:</strong> Import and use custom agents, tools, and workflows from external galleries to extend functionality.&nbsp;</li>
+</ul>
+
+
+
+<p><strong><a href="https://www.microsoft.com/en-us/research/articles/magentic-one-a-generalist-multi-agent-system-for-solving-complex-tasks/">Magentic-One</a>:</strong> A new generalist multi-agent application to solve open-ended web and file-based tasks across various domains. This tool marks a significant step toward creating agents capable of completing tasks commonly encountered in both work and personal contexts.</p>
+
+
+
+<h2 class="wp-block-heading" id="migrating-to-autogen-v0-4">Migrating to AutoGen v0.4</h2>
+
+
+
+<p>We implemented several measures to facilitate a smooth upgrade from the previous v0.2 API, addressing core differences in the underlying architecture.&nbsp;</p>
+
+
+
+<p>First, the AgentChat API maintains the same level of abstraction as v0.2, making it easy to migrate existing code to v0.4. For example, AgentChat offers an AssistantAgent and UserProxy agent with similar behaviors to those in v0.2. It also provides a team interface with implementations like RoundRobinGroupChat and SelectorGroupChat, which cover all the capabilities of the GroupChat class in v0.2. Additionally, v0.4 introduces many new functionalities, such as streaming messages, improved observability, saving and restoring task progress, and resuming paused actions where they left off. &nbsp;</p>
+
+
+
+<p>For detailed guidance, refer to the <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://aka.ms/autogen-migrate" target="_blank" rel="noreferrer noopener">migration guide<span class="sr-only"> (opens in new tab)</span></a>.</p>
+
+
+
+<h2 class="wp-block-heading" id="looking-forward">Looking forward</h2>
+
+
+
+<p>This new release sets the stage for a robust ecosystem and strong foundation to drive advances in agentic AI application and research. Our roadmap includes releasing .NET support, introducing built-in, well-designed applications and extensions for challenging domains, and fostering a community-driven ecosystem. We remain committed to the responsible development of AutoGen and its evolving capabilities.&nbsp;</p>
+
+
+
+<p>We encourage you to engage with us on <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://aka.ms/autogen-discord" target="_blank" rel="noreferrer noopener">AutoGen’s Discord server<span class="sr-only"> (opens in new tab)</span></a> and share feedback on the official <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/autogen" target="_blank" rel="noreferrer noopener">AutoGen repository<span class="sr-only"> (opens in new tab)</span></a> via GitHub Issues.  Stay up to date with frequent AutoGen updates via <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://x.com/pyautogen?t=1Zp7y4T18NCrGP9TuLZoJg&s=09" target="_blank" rel="noreferrer noopener">X<span class="sr-only"> (opens in new tab)</span></a>. </p>
+
+
+
+<h2 class="wp-block-heading" id="acknowledgments">Acknowledgments</h2>
+
+
+
+<p>We would like to thank the many individuals whose ideas and insights helped formalize the concepts introduced in this release, including <a href="https://www.microsoft.com/en-us/research/people/ranaras/" target="_blank" rel="noreferrer noopener">Rajan Chari</a>, <a href="https://www.microsoft.com/en-us/research/people/eckamar/" target="_blank" rel="noreferrer noopener">Ece Kamar</a>, <a href="https://www.microsoft.com/en-us/research/people/jcl/" target="_blank" rel="noreferrer noopener">John Langford</a>, <a href="https://www.microsoft.com/en-us/research/people/chinganc/" target="_blank" rel="noreferrer noopener">Ching-An Chen</a>, Bob West, Paul Minero, Safoora Yousefi, Will Epperson, Grace Proebsting, Enhao Zhang, and Andrew Ng.&nbsp;</p>
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/autogen-v0-4-reimagining-the-foundation-of-agentic-ai-for-scale-extensibility-and-robustness/">AutoGen v0.4: Reimagining the foundation of agentic AI for scale, extensibility, and robustness</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>AIOpsLab: Building AI agents for autonomous clouds</title>
 		<link>https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/</link>
 		
@@ -32,7 +234,7 @@
 <p>The post <a href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/">AIOpsLab: Building AI agents for autonomous clouds</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1.png" alt="graphical user interface, application, icon" class="wp-image-1112118" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1.png 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-300x169.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-1024x576.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-768x432.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-1066x600.png 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-655x368.png 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-240x135.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-640x360.png 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-960x540.png 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-1280x720.png 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+<figure class="wp-block-image size-full"><img decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1.png" alt="graphical user interface, application, icon" class="wp-image-1112118" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1.png 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-300x169.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-1024x576.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-768x432.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-1066x600.png 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-655x368.png 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-240x135.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-640x360.png 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-960x540.png 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-1280x720.png 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
 
 
 
@@ -48,7 +250,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="1400" height="612" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400.jpg" alt="Flowchart of an AIOpsLab system. The chart is divided into four main sections: AIOps Tasks, Orchestrator, Problem Cache, and Service. AIOps Tasks list various applications like SocialNetwork, HotelReservation, E-Commerce, and others, each with associated Data, Actions, Metrics. These tasks connect to the Orchestrator. The Orchestrator is the central element and interacts with various components: it receives a Problem Query Q, detailing Problem, Task T, Workload W, Fault F, and Solution S. It is responsible for deploying or running the workload and injecting faults, as well as taking actions based on the Service State relayed by an Agent. The Problem Cache connects to a Workload Generator and a Fault Generator, creating Workload W for the Service. The Service component shows observability through Traces, Metrics, and Logs. It communicates with the Orchestrator to provide service state updates. The components are connected with arrows that indicate the flow of data and control between each part of the system. " class="wp-image-1106274" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400-300x131.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400-1024x448.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400-768x336.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400-240x105.jpg 240w" sizes="(max-width: 1400px) 100vw, 1400px" /><figcaption class="wp-element-caption">Figure 1. System architecture of AIOpsLab.&nbsp;</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1400" height="612" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400.jpg" alt="Flowchart of an AIOpsLab system. The chart is divided into four main sections: AIOps Tasks, Orchestrator, Problem Cache, and Service. AIOps Tasks list various applications like SocialNetwork, HotelReservation, E-Commerce, and others, each with associated Data, Actions, Metrics. These tasks connect to the Orchestrator. The Orchestrator is the central element and interacts with various components: it receives a Problem Query Q, detailing Problem, Task T, Workload W, Fault F, and Solution S. It is responsible for deploying or running the workload and injecting faults, as well as taking actions based on the Service State relayed by an Agent. The Problem Cache connects to a Workload Generator and a Fault Generator, creating Workload W for the Service. The Service component shows observability through Traces, Metrics, and Logs. It communicates with the Orchestrator to provide service state updates. The components are connected with arrows that indicate the flow of data and control between each part of the system. " class="wp-image-1106274" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400-300x131.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400-1024x448.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400-768x336.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400-240x105.jpg 240w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /><figcaption class="wp-element-caption">Figure 1. System architecture of AIOpsLab.&nbsp;</figcaption></figure>
 
 
 
@@ -129,30 +331,30 @@ asyncio.run(orch.start_problem(max_steps=10))
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115757">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115763">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft Research Blog</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/" aria-label="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" data-bi-cN="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Ginny Badanes, Madeleine Daepp and Robert Ness" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/" aria-label="AIOpsLab: Building AI agents for autonomous clouds" data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1.png" alt="White outline illustrations for AIOps on a blue and green gradient background." />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness</h2>
+									<h2 class="h4">AIOpsLab: Building AI agents for autonomous clouds</h2>
 				
-								<p class="large">As the “biggest election year in history” comes to an end, researchers Madeleine Daepp and Robert Osazuwa Ness and Democracy Forward GM Ginny Badanes discuss AI’s impact on democracy, including the tech’s use in Taiwan and India.</p>
+								<p class="large">AIOpsLab is an open-source framework designed to evaluate and improve AI agents for cloud operations, offering standardized, scalable benchmarks for real-world testing, enhancing cloud system reliability.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" target="_blank">
-							Listen now						</a>
+						<a href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds" target="_blank">
+							Read more						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -249,7 +451,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 <p>The post <a href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/">Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img decoding="async" width="1401" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Ginny Badanes, Madeleine Daepp and Robert Osazuwa Ness" class="wp-image-1114101" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788.jpg 1401w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w" sizes="(max-width: 1401px) 100vw, 1401px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1401" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Ginny Badanes, Madeleine Daepp and Robert Osazuwa Ness" class="wp-image-1114101" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788.jpg 1401w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w" sizes="auto, (max-width: 1401px) 100vw, 1401px" /></figure>
 
 
 <div class="wp-block-msr-podcast-container my-4">
@@ -1132,7 +1334,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085508">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085496">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
@@ -1141,20 +1343,20 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" aria-label="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/MedFuzz-BlogHeroFeature-1400x788-1.jpg" alt="MedFuzz blog hero (decorative)" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" aria-label="Eureka: Evaluating and understanding progress in AI" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/NEWEureka-2024-BlogHeroFeature-1400x788-1-66e90c195464d.jpg" alt="White icons representing the Eureka Experiment Pipeline -- PromptProcessing, Inference, PromptProcessing, Inference, DataProcessing, EvalReporting -- on blue to green gradient background." />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">MedFuzz: Exploring the robustness of LLMs on medical challenge problems</h2>
+									<h2 class="h4">Eureka: Evaluating and understanding progress in AI</h2>
 				
-								<p class="large">Medfuzz tests LLMs by breaking benchmark assumptions, exposing vulnerabilities to bolster real-world accuracy.</p>
+								<p class="large">How can we rigorously evaluate and understand state-of-the-art progress in AI? Eureka is an open-source framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. Learn more about the extended findings. </p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
+						<a href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
 							Read more						</a>
 					</div>
 				</div>
@@ -1774,7 +1976,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085496">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085508">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
@@ -1783,20 +1985,20 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" aria-label="Eureka: Evaluating and understanding progress in AI" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/NEWEureka-2024-BlogHeroFeature-1400x788-1-66e90c195464d.jpg" alt="White icons representing the Eureka Experiment Pipeline -- PromptProcessing, Inference, PromptProcessing, Inference, DataProcessing, EvalReporting -- on blue to green gradient background." />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" aria-label="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/MedFuzz-BlogHeroFeature-1400x788-1.jpg" alt="MedFuzz blog hero (decorative)" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Eureka: Evaluating and understanding progress in AI</h2>
+									<h2 class="h4">MedFuzz: Exploring the robustness of LLMs on medical challenge problems</h2>
 				
-								<p class="large">How can we rigorously evaluate and understand state-of-the-art progress in AI? Eureka is an open-source framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. Learn more about the extended findings. </p>
+								<p class="large">Medfuzz tests LLMs by breaking benchmark assumptions, exposing vulnerabilities to bolster real-world accuracy.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
+						<a href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
 							Read more						</a>
 					</div>
 				</div>
@@ -1940,30 +2142,30 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115763">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115760">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft Research Blog</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/" aria-label="AIOpsLab: Building AI agents for autonomous clouds" data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1.png" alt="White outline illustrations for AIOps on a blue and green gradient background." />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/neurips-2024-the-co-evolution-of-ai-and-systems-with-lidong-zhou/" aria-label="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" data-bi-cN="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Lidong-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Lidong Zhou and Eliza Strickland" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">AIOpsLab: Building AI agents for autonomous clouds</h2>
+									<h2 class="h4">NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou</h2>
 				
-								<p class="large">AIOpsLab is an open-source framework designed to evaluate and improve AI agents for cloud operations, offering standardized, scalable benchmarks for real-world testing, enhancing cloud system reliability.</p>
+								<p class="large">Just after his NeurIPS 2024 keynote on the co-evolution of systems and AI, Microsoft CVP Lidong Zhou joins the podcast to discuss how rapidly advancing AI impacts the systems supporting it and the opportunities to use AI to enhance systems engineering itself.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds" target="_blank">
-							Read more						</a>
+						<a href="https://www.microsoft.com/en-us/research/podcast/neurips-2024-the-co-evolution-of-ai-and-systems-with-lidong-zhou/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" target="_blank">
+							Listen now						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -2631,148 +2833,6 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 	</div>
 </div>
 <span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/podcast/abstracts-neurips-2024-with-weizhu-chen/">Abstracts: NeurIPS 2024 with Weizhu Chen</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Abstracts: NeurIPS 2024 with Dylan Foster</title>
-		<link>https://www.microsoft.com/en-us/research/podcast/abstracts-neurips-2024-with-dylan-foster/</link>
-		
-		<dc:creator><![CDATA[Brenda Potts]]></dc:creator>
-		<pubDate>Fri, 06 Dec 2024 14:00:00 +0000</pubDate>
-				<category><![CDATA[Microsoft Research Podcast]]></category>
-		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1107372</guid>
-
-					<description><![CDATA[<p>Can existing algorithms designed for simple reinforcement learning problems be used to solve more complex RL problems? Researcher Dylan Foster discusses the modular approach he and his coauthors explored in their 2024 NeurIPS paper on RL under latent dynamics.</p>
-<p>The post <a href="https://www.microsoft.com/en-us/research/podcast/abstracts-neurips-2024-with-dylan-foster/">Abstracts: NeurIPS 2024 with Dylan Foster</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated image of Dylan Foster for the Abstracts series on the Microsoft Research Podcast." class="wp-image-1108887" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/Dylan-Foster_Abstracts_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
-
-
-<div class="wp-block-msr-podcast-container my-4">
-	<iframe loading="lazy" src="https://player.blubrry.com/?podcast_id=139303363&modern=1" class="podcast-player" frameborder="0" height="164px" width="100%" scrolling="no" title="Podcast Player"></iframe>
-</div>
-
-
-
-<p>Members of the research community at Microsoft work continuously to advance their respective fields.<em> Abstracts&nbsp;</em>brings its audience to the cutting edge with them through short, compelling conversations about new and noteworthy achievements.&nbsp;</p>
-
-
-
-<p>In this episode, Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/dylanfoster/">Dylan Foster</a> joins host Amber Tingle to discuss the paper <a href="https://www.microsoft.com/en-us/research/publication/reinforcement-learning-under-latent-dynamics-toward-statistical-and-algorithmic-modularity/">“Reinforcement Learning Under Latent Dynamics: Toward Statistical and Algorithmic Modularity,”</a> an oral presentation at this year’s <a href="https://www.microsoft.com/en-us/research/event/neurips-2024/">Conference on Neural Information Processing Systems</a> <a href="https://www.microsoft.com/en-us/research/event/neurips-2024/">(NeurIPS)</a>. In the paper, Foster and his coauthors explore whether well-studied RL algorithms for simple problems can be leveraged to solve RL problems with high-dimensional observations and latent dynamics, part of larger efforts to identify algorithm design principles that can enable agents to learn quickly via trial and error in unfamiliar environments.</p>
-
-
-
-<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/reinforcement-learning-under-latent-dynamics-toward-statistical-and-algorithmic-modularity/">Read the paper</a></div>
-</div>
-
-
-<div class="wp-block-msr-show-more">
-	<div class="bg-neutral-100 p-5">
-		<div class="show-more-show-less" data-mount="show-more-show-less">
-			<div>
-				<span>
-					
-
-<h2 class="wp-block-heading" id="transcript">Transcript</h2>
-
-
-
-<p>[MUSIC]</p>
-
-
-
-<p><strong>AMBER TINGLE:</strong> Welcome to <em>Abstracts</em>, a Microsoft Research Podcast that puts the spotlight on world-class research <em>in brief</em>. I’m Amber Tingle. In this series, members of the research community at Microsoft give us a quick snapshot—or a <em>podcast abstract</em>—of their new and noteworthy papers.</p>
-
-
-
-<p>[MUSIC FADES]</p>
-
-
-
-<p>Our guest today is Dylan Foster. He is a principal researcher at Microsoft Research and coauthor of a paper called “Reinforcement Learning Under Latent Dynamics: Toward Statistical and Algorithmic Modularity.” The work is among the oral presentations at this year&#8217;s Conference on Neural Information Processing Systems, or <em>NeurIPS</em>, in Vancouver. Dylan, welcome and thank you for joining us on the podcast!</p>
-
-
-
-				</span>
-				<span id="show-more-show-less-toggle-11" class="show-more-show-less-toggleable-content">
-					
-
-
-
-<p><strong>DYLAN FOSTER:</strong> Thanks for having me.</p>
-
-
-
-<p><strong>TINGLE: </strong>Let&#8217;s start with a brief overview of this paper. Tell us about the problem this work addresses and why the research community should know about it.</p>
-
-
-
-<p><strong>FOSTER:</strong> So this is a, kind of, a theoretical work on reinforcement learning, or RL. When I say reinforcement learning, broadly speaking, this is talking about the question of how can we design AI agents that are capable of, like, interacting with unknown environments and learning how to solve problems through trial and error. So this is part of some broader agenda we&#8217;ve been doing on, kind of, theoretical foundations of RL. And the key questions we&#8217;re looking at here are what are called, like, exploration and sample efficiency. So this just means we&#8217;re trying to understand, like, what are the algorithm design principles that can allow you to explore an unknown environment and learn as quickly as possible? What we&#8217;re doing in this paper is we&#8217;re, kind of, looking at, how can you most efficiently solve reinforcement learning problems where you&#8217;re faced with very high-dimensional observations, but the underlying dynamics of the system you&#8217;re interacting with are simple? So this is a setting that occurs in a lot of natural reinforcement learning and control problems, especially in the context of, like, say, embodied decision-making. So if you think about, say, games like Pong, you know, the state of the game, like, the state of, like, Pong, is extremely simple. It&#8217;s just, you know, what is the position and velocity of the ball, and, like, where are the paddles? But what we&#8217;d like to be able to do is learn to, you know, like, control or, like, solve games like this from raw pixels or, like, images kind of in the same way that a human would, like, just solve them from vision. So if you look at these types of problems, you know, we call these, like, <em>RL with rich observations</em> or RL with <em>latent dynamics</em>. You know, these are interesting because they, kind of, require you to explore the system, but they also require, you know, representation learning. Like, you want to be able to use neural nets to learn a mapping from, say, the images you see to the latent state of the system. This is a pretty interesting and nontrivial algorithmic problem. And, kind of, what we do in this work is we take a first step towards something like a unified understanding for how to solve these sorts of, like, rich-observation, or latent dynamics, RL problems.</p>
-
-
-
-<p><strong>TINGLE:</strong> So how did you go about developing this theoretical framework?</p>
-
-
-
-<p><strong>FOSTER: </strong>Yeah, so if you look at these sort of RL problems with latent dynamics, this is something that&#8217;s actually received a lot of investigation in theory. And a lot of this goes back to, kind of, early work from our lab from, like, 2016, 2017 or so. There&#8217;s some really interesting results here, but progress was largely on a, like, case-by-case basis, meaning, you know, there are many different ways that you can try to model the latent dynamics of your problem, and, you know, each of these somehow leads to a different algorithm, right. So, like, you know, you think very hard about this modeling assumption. You think about, what would an optimal algorithm look like? And you end up, you know, writing an entire paper about it. And there&#8217;s nothing wrong with that per se, but if you want to be able to iterate quickly and, kind of, try different modeling assumptions and see what works in practice, you know, this is not really tenable. It&#8217;s just too slow. And so the starting point for this work was to, kind of, try to take a different and more modular approach. So the idea is, you know, there are many, many different types of, sort of, systems or modeling assumptions for the dynamics that have been already studied extensively and have entire papers about them for the simpler setting in which you can directly see the state of the system. And so what we wanted to ask here is, is it possible to use these existing results in more of, like, a modular fashion? Like, if someone has already written a paper on how to optimally solve a particular type of MDP, or <em>Markov decision process</em>, can we just take their algorithm as is and perhaps plug it into some kind of meta-algorithm that can directly, kind of, combine this with representation learning and use it to solve the corresponding rich-observation, or latent dynamics, RL problem?</p>
-
-
-
-<p><strong>TINGLE: </strong>What were your major findings? What did you learn during this process?</p>
-
-
-
-<p><strong>FOSTER:</strong> We started by asking the question sort of exactly the way that I just posed it, right. Like, can we take existing algorithms and use them to solve rich-observation RL problems in a modular fashion? And this turned out to be really tricky. Like, there&#8217;s a lot of natural algorithms you might try that seem promising at first but don&#8217;t exactly work out. And what this, kind of, led us to and, sort of, the first main result in this paper is actually a <em>negative</em> result. So what we actually showed is most, sort of, well-studied types of systems or, like, MDPs that have been studied in, like, the prior literature on RL, even if they&#8217;re tractable when you&#8217;re able to directly see the state of the system, they can become statistically intractable once you add, sort of, high-dimensional observations to the picture. And statistically tractable here means the amount of interaction that you need, like the amount of, sort of, attempts to explore the system that you need, in order to learn a good decision-making policy becomes, like, very, very large, like much, much larger than the corresponding, sort of, complexity if you were able to directly see the states of the system. You know, you could look at this and say, I guess we&#8217;re out of luck. You know, maybe there&#8217;s just no hope of solving these sorts of problems. But that&#8217;s perhaps a little too pessimistic. You know, really the way you should interpret this result is just that you need <em>more assumptions</em>. And that&#8217;s precisely what the, sort of, second result we have in this paper is. So our second result shows that you can, sort of, bypass this impossibility result and, you know, achieve truly modular algorithms under a couple different types of additional assumptions.</p>
-
-
-
-<p><strong>TINGLE: </strong>Dylan, I&#8217;d like to know—and I&#8217;m sure our audience would, too—what this work means when it comes to real-world application. What impact will this have on the research community?</p>
-
-
-
-<p><strong>FOSTER:</strong> Yeah, so maybe I&#8217;ll answer that, um, with two different points. The first one is a broader point, which is, why is it important to understand this problem of exploration and sample efficiency in reinforcement learning? If you look at the, sort of, setting we study in this paper—you know, this, like, RL or decision-making with high-dimensional observations—on the empirical side, people have made a huge amount of progress on this problem through deep reinforcement learning. This was what kind of led to these amazing breakthroughs in solving games like Atari in the last decade. But if you look at these results, the gains are somehow more coming from the, like, inductive bias or the, like, generalization abilities of deep learning and not necessarily from the specific algorithms. So, like, current algorithms do not actually explore very deliberately, and so their sample efficiency is very high. Like, it&#8217;s hard to draw a one-to-one comparison, but you can argue they need, like, far more experience than a human would to solve these sorts of problems. So it&#8217;s not clear that we&#8217;re really anywhere near the ceiling of what can be achieved in terms of, like, how efficiently can you have, you know, an agent learn to solve new problems from trial and error. And I think better algorithms here could potentially be, like, transformative in a lot of different domains. To get into this specific work, I think there&#8217;s a couple of important takeaways for researchers. One is that by giving this impossibility result that shows that RL with latent dynamics is impossible without further assumptions, we&#8217;re kind of narrowing down the search space where other researchers can look for efficient algorithms. The second takeaway is, you know, we are showing that this problem becomes tractable when you make additional assumptions. But I view these more as, like, a proof of concept. Like, we&#8217;re kind of, showing for the first time that it <em>is</em> possible to do something nontrivial, but I think a lot more work and research will be required in order to like, you know, build on this and take this to something that can lead to, like, practical algorithms.<s></s></p>
-
-
-
-<p><strong>TINGLE: </strong>Well, Dylan Foster, thank you for joining us today to discuss your paper on reinforcement learning under latent dynamics. We certainly appreciate it.</p>
-
-
-
-<p><strong>FOSTER: </strong>Thanks a lot. Thanks for having me.</p>
-
-
-
-<p>[MUSIC]</p>
-
-
-
-<p><strong>TINGLE: </strong>And to our listeners, thank you all for tuning in. If you&#8217;d like to read Dylan&#8217;s paper, you may find a link at aka.ms/abstracts. You can also find the paper on arXiv and on the NeurIPS conference website. I&#8217;m Amber Tingle from Microsoft Research, and we hope you&#8217;ll join us next time on <em>Abstracts</em>!</p>
-
-
-
-<p>[MUSIC FADES]</p>
-
-				</span>
-			</div>
-			<button
-				class="action-trigger glyph-prepend mt-2 mb-0 show-more-show-less-toggle"
-				aria-expanded="false"
-				data-show-less-text="Show less"
-				type="button"
-				aria-controls="show-more-show-less-toggle-11"
-				aria-label="Show more content"
-				data-alternate-aria-label="Show less content">
-				Show more			</button>
-		</div>
-	</div>
-</div>
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/podcast/abstracts-neurips-2024-with-dylan-foster/">Abstracts: NeurIPS 2024 with Dylan Foster</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></content:encoded>
 					
 		

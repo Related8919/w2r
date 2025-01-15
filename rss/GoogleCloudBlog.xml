@@ -6,32 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 14 Jan 2025 02:37:57 +0000</lastBuildDate>
-    <item>
-      <title>The overwhelmed person’s guide to Google Cloud: week of December 19</title>
-      <link>https://cloud.google.com/blog/products/gcp/the-overwhelmed-persons-guide-to-google-cloud</link>
-      <description>Google CloudThe overwhelmed person’s guide to Google Cloud: week of December 19By Richard Seroter • 4-minute read</description>
-    </item>
-    <item>
-      <title>A Look Back at the AI Innovations Transforming the Public Sector</title>
-      <link>https://cloud.google.com/blog/topics/public-sector/a-look-back-at-the-ai-innovations-transforming-the-public-sector</link>
-      <description>Public SectorA Look Back at the AI Innovations Transforming the Public SectorBy Karen Dahut • 4-minute read</description>
-    </item>
-    <item>
-      <title>What’s new with Google Cloud - 2024</title>
-      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud-2024</link>
-      <description>Inside Google CloudWhat’s new with Google Cloud - 2024By Google Cloud Content &amp; Editorial  • 13-minute read</description>
-    </item>
-    <item>
-      <title>Toward faster incident resolution at Palo Alto Networks with Personalized Service Health</title>
-      <link>https://cloud.google.com/blog/products/management-tools/personalized-service-health-at-palo-alto-networks</link>
-      <description>Management ToolsToward faster incident resolution at Palo Alto Networks with Personalized Service HealthBy Sabitha Muppuri • 5-minute read</description>
-    </item>
-    <item>
-      <title>Google Cloud expands its support for founders through partnerships with 300 accelerators worldwide</title>
-      <link>https://cloud.google.com/blog/topics/startups/google-cloud-supports-next-generation-startups</link>
-      <description>StartupsGoogle Cloud expands its support for founders through partnerships with 300 accelerators worldwideBy James Lee • 7-minute read</description>
-    </item>
+    <lastBuildDate>Wed, 15 Jan 2025 02:40:18 +0000</lastBuildDate>
     <item>
       <title>Enhance viewer engagement with gen AI-powered scene detection for ads</title>
       <link>https://cloud.google.com/blog/topics/developers-practitioners/use-ai-powered-scene-detection-for-more-effective-ad-placement</link>
@@ -41,6 +16,11 @@
       <title>Supporting women founders innovating with AI</title>
       <link>https://cloud.google.com/blog/topics/startups/google-for-startups-accelerator-for-women-led-tech-startups</link>
       <description>StartupsSupporting women founders innovating with AIBy Joelle Barral • 2-minute read</description>
+    </item>
+    <item>
+      <title>How retailers are accelerating AI into production with NVIDIA and Google Cloud</title>
+      <link>https://cloud.google.com/blog/topics/retail/how-retailers-are-accelerating-ai-with-nvidia-and-google-cloud</link>
+      <description>RetailHow retailers are accelerating AI into production with NVIDIA and Google CloudBy Paul Tepfenhart • 4-minute read</description>
     </item>
     <item>
       <title>Get ready for a unique, immersive security experience at Next ‘25</title>
@@ -53,9 +33,29 @@
       <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 2-minute read</description>
     </item>
     <item>
+      <title>Empowering retailers with AI for commerce, marketing, supply chains, and more</title>
+      <link>https://cloud.google.com/blog/topics/retail/retail-cpg-ai-partner-ecosystem-nrf-2025</link>
+      <description>RetailEmpowering retailers with AI for commerce, marketing, supply chains, and moreBy Paul Tepfenhart • 6-minute read</description>
+    </item>
+    <item>
+      <title>How inference at the edge unlocks new AI use cases for retailers</title>
+      <link>https://cloud.google.com/blog/topics/retail/ai-for-retailers-boost-roi-without-straining-budget-or-resources</link>
+      <description>RetailHow inference at the edge unlocks new AI use cases for retailersBy Mike Ensor • 6-minute read</description>
+    </item>
+    <item>
       <title>Announcing Mistral AI’s Mistral Large 24.11 and Codestral 25.01 models on Vertex AI</title>
       <link>https://cloud.google.com/blog/products/ai-machine-learning/announcing-new-mistral-large-model-on-vertex-ai</link>
       <description>AI &amp; Machine LearningAnnouncing Mistral AI’s Mistral Large 24.11 and Codestral 25.01 models on Vertex AIBy Nenshad Bardoliwalla • 4-minute read</description>
+    </item>
+    <item>
+      <title>Backscatter: Automated Configuration Extraction</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/backscatter-automated-configuration-extraction</link>
+      <description>Threat IntelligenceBackscatter: Automated Configuration ExtractionBy Mandiant  • 4-minute read</description>
+    </item>
+    <item>
+      <title>Trading in the Cloud: Lessons from Deutsche Börse Group’s cloud-native trading engine</title>
+      <link>https://cloud.google.com/blog/topics/financial-services/lessons-from-deutsche-borse-groups-cloud-native-trading-engine</link>
+      <description>Financial ServicesTrading in the Cloud: Lessons from Deutsche Börse Group’s cloud-native trading engineBy Ferudun Oezdemir • 6-minute read</description>
     </item>
   </channel>
 </rss>

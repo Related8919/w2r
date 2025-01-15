@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.cve.org/Media/News/AllNews. follow.is: feedId:91496105774919680+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 14 Jan 2025 02:37:53 +0000</lastBuildDate>
-    <item>
-      <title>Automox Added as CVE Numbering Authority (CNA)</title>
-      <link>https://www.cve.org/Media/News/item/news/2024/12/17/Automox-Added-as-CNA</link>
-      <description>Automox Added as CVE Numbering Authority (CNA)newsDecember 17, 2024Automox Inc.is now aCVE Numbering Authority (CNA)for all products created by Automox.</description>
-    </item>
+    <lastBuildDate>Wed, 15 Jan 2025 02:40:14 +0000</lastBuildDate>
     <item>
       <title>Delinea Added as CVE Numbering Authority (CNA)</title>
       <link>https://www.cve.org/Media/News/item/news/2024/12/17/Delinea-Added-as-CNA</link>
@@ -56,6 +51,11 @@
       <title>CVE Program Expands Partnership with Thales Group</title>
       <link>https://www.cve.org/Media/News/item/blog/2025/01/07/CVE-Program-Expands-Partnership-with-Thales-Group</link>
       <description>CVE Program Expands Partnership with Thales GroupblogBy CVE Program|January 7, 2025TheCVE® Programis expanding its partnership withThales Groupfor managing the assignment ofCVE Identifiers (CVE IDs)and publication ofCVE Recordsfor the CVE Program.</description>
+    </item>
+    <item>
+      <title>Vulnerability Data Enrichment for CVE Records: 236 CNAs on the Enrichment Recognition List for January 13, 2025</title>
+      <link>https://www.cve.org/Media/News/item/blog/2025/01/14/CNA-Enrichment-Recognition-List-Update</link>
+      <description>Vulnerability Data Enrichment for CVE Records: 236 CNAs on the Enrichment Recognition List for January 13, 2025blogBy CVE Program|January 14, 2025The “CNA Enrichment Recognition List” for January 13, 2025, is now available with 236 CNAs listed. Published every two weeks on the CVE website, the list recognizes thoseCVE Numbering Authorities (CNAs)that are actively providing enhanced vulnerability data in theirCVE Records. CNAs are added to the list if they provideCommon Vulnerability Scoring System (CVSS)andCommon Weakness Enumeration (CWE™)information 98% of the time or more within the two-week period of their last published CVE Record.</description>
     </item>
   </channel>
 </rss>

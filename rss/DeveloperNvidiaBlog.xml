@@ -6,32 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 15 Jan 2025 02:40:28 +0000</lastBuildDate>
-    <item>
-      <title>借助 Dell AI Factory 和 NVIDIA 加速电影制作</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/accelerating-film-production-with-dell-ai-factory-and-nvidia/</link>
-      <description>2024年 12月 19日借助 Dell AI Factory 和 NVIDIA 加速电影制作电影制作是一个复杂而复杂的过程，涉及艺术家、作家、视觉效果专业人员、技术人员和无数其他专家组成的多元化团队。2 MIN READ</description>
-    </item>
-    <item>
-      <title>聚焦：Stone Ridge Technology 利用 AWS 上的 NVIDIA Modulus 加速油藏模拟工作流</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/spotlight-stone-ridge-technology-accelerates-reservoir-simulation-workflows-with-nvidia-modulus-on-aws/</link>
-      <description>2024年 12月 19日聚焦：Stone Ridge Technology 利用 AWS 上的 NVIDIA Modulus 加速油藏模拟工作流能源勘探中固有的风险和不确定性包括未知的地质参数、流体和岩石属性的变化、边界条件和噪声观测数据。3 MIN READ</description>
-    </item>
-    <item>
-      <title>利用 RAPIDS 和 Ray 加速 GPU 数据分析</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/accelerating-gpu-analytics-using-rapids-and-ray/</link>
-      <description>2024年 12月 20日利用 RAPIDS 和 Ray 加速 GPU 数据分析RAPIDS 是一套开源 GPU 加速的数据科学和 AI 库，可通过 Spark 和 Dask 等分布式引擎进行横向扩展。2 MIN READ</description>
-    </item>
-    <item>
-      <title>利用 NVIDIA NIM 微服务构建生成式 AI 医疗设备训练助手</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/build-a-generative-ai-medical-device-training-assistant-with-nvidia-nim-microservices/</link>
-      <description>2024年 12月 20日利用 NVIDIA NIM 微服务构建生成式 AI 医疗设备训练助手医疗设备创新不断加速，每年获得 FDA 批准的数量都创下新高。向临床医生和患者介绍这些全新或更新的设备时，他们需要接受培训，以正确、2 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA 黑客松获奖者分享 RAPIDS 加速机器学习工作流程的策略</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-hackathon-winners-share-strategies-for-rapids-accelerated-ml-workflows/</link>
-      <description>2024年 12月 20日NVIDIA 黑客松获奖者分享 RAPIDS 加速机器学习工作流程的策略今年，大约 220 个团队齐聚开放数据科学大会 (ODSC) 西部，参加 NVIDIA 黑客松竞赛，这是一场 24 小时机器学习 (ML)…3 MIN READ</description>
-    </item>
+    <lastBuildDate>Thu, 16 Jan 2025 01:46:22 +0000</lastBuildDate>
     <item>
       <title>TensorRT-LLM：LLM API 精简指令畅享卓越性能！</title>
       <link>https://developer.nvidia.com/zh-cn/blog/tensorrt-llm-api/</link>
@@ -86,6 +61,31 @@
       <title>宣布推出 Nemotron-CC：用于 LLM 预训练的万亿级英语语言数据集</title>
       <link>https://developer.nvidia.com/zh-cn/blog/announcing-nemotron-cc-a-trillion-token-english-language-dataset-for-llm-pretraining/</link>
       <description>2025年 1月 9日宣布推出 Nemotron-CC：用于 LLM 预训练的万亿级英语语言数据集NVIDIA 很高兴地宣布发布 Nemotron-CC，这是一种包含 6.3 万亿个令牌的 英语语言 Common Crawl 数据集 ，1 MIN READ</description>
+    </item>
+    <item>
+      <title>借助 NVIDIA DOCA 平台框架，助力新一代 DPU 加速云基础设施</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/powering-the-next-wave-of-dpu-accelerated-cloud-infrastructures-with-nvidia-doca-platform-framework/</link>
+      <description>2025年 1月 13日借助 NVIDIA DOCA 平台框架，助力新一代 DPU 加速云基础设施越来越多的企业组织开始采用加速计算来满足生成式 AI、5G 电信和主权云的需求。NVIDIA 发布了 DOCA 平台框架 (DPF)，2 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 NVIDIA NeMo Curator 提高生成式 AI 模型的准确性</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/enhancing-generative-ai-model-accuracy-with-nvidia-nemo-curator/</link>
+      <description>2025年 1月 13日使用 NVIDIA NeMo Curator 提高生成式 AI 模型的准确性在快速发展的人工智能领域，用于训练模型的数据质量至关重要。高质量数据可确保模型准确、可靠，并且能够在各种应用中很好地泛化。1 MIN READ</description>
+    </item>
+    <item>
+      <title>评估 GenMol 作为用于分子生成的通用基础模型</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/evaluating-genmol-as-a-generalist-foundation-model-for-molecular-generation/</link>
+      <description>2025年 1月 13日评估 GenMol 作为用于分子生成的通用基础模型传统的计算药物研发几乎完全依赖于高度特定于任务的计算模型来识别命中率和优化潜在客户。使这些专业模型适应新任务需要大量的时间、2 MIN READ</description>
+    </item>
+    <item>
+      <title>借助 NVIDIA BioNeMo Blueprint 加速蛋白质工程中的生成式蛋白质粘结剂设计</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/accelerate-protein-engineering-with-the-nvidia-bionemo-blueprint-for-generative-protein-binder-design/</link>
+      <description>2025年 1月 13日借助 NVIDIA BioNeMo Blueprint 加速蛋白质工程中的生成式蛋白质粘结剂设计设计一种能在药物研发中专门结合标的治疗性蛋白质是一项艰巨的挑战。传统工作流程通常是一个艰苦的试错过程，需要对数千个候选项进行迭代，1 MIN READ</description>
+    </item>
+    <item>
+      <title>将数据中心转变为 AI 工厂，迎接第 5 次工业革命</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/transforming-data-centers-into-ai-factories-for-the-5th-industrial-revolution/</link>
+      <description>2025年 1月 14日将数据中心转变为 AI 工厂，迎接第 5 次工业革命在最近的 DC Anti-Conference Live 演示中，NVIDIA 首席数据中心杰出工程师 Wade Vinson 分享了基于…1 MIN READ</description>
     </item>
   </channel>
 </rss>

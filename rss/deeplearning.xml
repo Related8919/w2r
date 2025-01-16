@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.deeplearning.ai/the-batch/. follow.is: feedId:91496692463707136+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 15 Jan 2025 02:40:22 +0000</lastBuildDate>
-    <item>
-      <title>Hollywood Embraces Video Gen, New Restrictions on Deepfakes, More Open Source Models, Robot Server</title>
-      <link>https://www.deeplearning.ai/the-batch/issue-268/</link>
-      <description>The Batch AI News and Insights: Last week I spoke at Coursera Connect, the company’s annual conference in Las Vegas, where a major topic was AI and education.</description>
-    </item>
+    <lastBuildDate>Thu, 16 Jan 2025 01:46:16 +0000</lastBuildDate>
     <item>
       <title>Llama Goes Multimodal, Pros Embrace Generative Video, Military AI Guidelines, LLMs That Read Spreadsheets</title>
       <link>https://www.deeplearning.ai/the-batch/issue-269/</link>
@@ -84,8 +79,13 @@
     </item>
     <item>
       <title>When Good Models Do Bad Things, What Users Really Want, More Training Data!, Better Model Merging</title>
-      <link>https://www.deeplearning.ai/the-batch/tag/jan-08-2025/</link>
+      <link>https://www.deeplearning.ai/the-batch/issue-283/</link>
       <description>The Batch AI News and Insights: Using AI-assisted coding to build software prototypes is an important way to quickly explore many ideas and invent new things.</description>
+    </item>
+    <item>
+      <title>Tumbling Training Costs, Desktop AI Supercomputer, Tighter AI Export Restrictions, Improved Contrastive Loss</title>
+      <link>https://www.deeplearning.ai/the-batch/tag/jan-15-2024/</link>
+      <description>The Batch AI News and Insights: Writing software, especially prototypes, is becoming cheaper. This will lead to increased demand for people who can decide what to build. AI Product Management has a bright future!</description>
     </item>
   </channel>
 </rss>

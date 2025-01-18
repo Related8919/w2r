@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 17 Jan 2025 01:45:29 +0000</lastBuildDate>
-    <item>
-      <title>Take Command of Your Career: Practicing Self-Advocacy as a Woman in Tech</title>
-      <link>https://www.rapid7.com/blog/post/2024/12/17/take-command-of-your-career-practicing-self-advocacy-as-a-woman-in-tech/</link>
-      <description>As the year draws to a close, it’s essential—and often expected—to reflect on our achievements and lessons learned in preparation for annual performance reviews and setting future goals.</description>
-    </item>
+    <lastBuildDate>Sat, 18 Jan 2025 01:42:49 +0000</lastBuildDate>
     <item>
       <title>What’s New in Rapid7 Products &amp; Services: Q4 2024 in Review</title>
       <link>https://www.rapid7.com/blog/post/2024/12/18/whats-new-in-rapid7-products-services-q4-2024-in-review/</link>
@@ -101,7 +96,7 @@ read vulnerability, tracked as CVE-202</description>
       <description>Eight 0-days. Access: triple zero-day RCE; Hyper-V NT Kernel Integration VSP: triple zero-day EoP; Windows Themes: zero-day NTLM disclosure; Windows Installer: zero-day EoP; PGM: critical RCE; OLE: critical RCE.</description>
     </item>
     <item>
-      <title>Fortinet firewalls hit with new zero-day attack, older data leak</title>
+      <title>Fortinet Firewalls Hit with New Zero-Day Attack, Older Data Leak</title>
       <link>https://www.rapid7.com/blog/post/2025/01/16/etr-fortinet-firewalls-hit-with-new-zero-day-attack-older-data-leak/</link>
       <description>Rapid7 is responding to two separate events affecting Fortinet firewall customers: Zero-day exploitation of CVE-2024-55591 in FortiOS, and a large-scale data leak of older FortiGate firewall IPs, passwords, and configs.</description>
     </item>
@@ -109,6 +104,11 @@ read vulnerability, tracked as CVE-202</description>
       <title>Perfect Fit or Business Threat? How to Mitigate the Risk of Rogue Employees</title>
       <link>https://www.rapid7.com/blog/post/2025/01/16/perfect-fit-or-business-threat-how-to-mitigate-the-risk-of-rogue-employees/</link>
       <description>Recruitment fraud is an expensive and time-consuming threat to business. The risk of malware deployment and data exfiltration is high from threat actors trained to bypass each stage of a typical recruitment process. This blog outlines how an organization can secure the hiring process weak points.</description>
+    </item>
+    <item>
+      <title>Metasploit Wrap-Up 01/17/2025</title>
+      <link>https://www.rapid7.com/blog/post/2025/01/17/metasploit-wrap-up-01-17-2025/</link>
+      <description>Three new Metasploit exploit modules released, including a module targeting Cleo File Transfer Software (CVE-2024-55956)</description>
     </item>
   </channel>
 </rss>

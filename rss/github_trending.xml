@@ -6,56 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 17 Jan 2025 01:45:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jan 2025 01:42:50 +0000</lastBuildDate>
     <item>
       <title>facebook /folly</title>
       <link>https://github.com/facebook/folly</link>
       <description>An open-source C++ library developed and used at Facebook.</description>
     </item>
     <item>
-      <title>pixelfed /pixelfed</title>
-      <link>https://github.com/pixelfed/pixelfed</link>
-      <description>Photo Sharing. For Everyone.</description>
+      <title>f /awesome-chatgpt-prompts</title>
+      <link>https://github.com/f/awesome-chatgpt-prompts</link>
+      <description>This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.</description>
     </item>
     <item>
-      <title>marimo-team /marimo</title>
-      <link>https://github.com/marimo-team/marimo</link>
-      <description>A reactive notebook for Python — run reproducible experiments, execute as a script, deploy as an app, and version with git.</description>
+      <title>public-apis /public-apis</title>
+      <link>https://github.com/public-apis/public-apis</link>
+      <description>A collective list of free APIs</description>
     </item>
     <item>
-      <title>iBotPeaches /Apktool</title>
-      <link>https://github.com/iBotPeaches/Apktool</link>
-      <description>A tool for reverse engineering Android apk files</description>
-    </item>
-    <item>
-      <title>strimzi /strimzi-kafka-operator</title>
-      <link>https://github.com/strimzi/strimzi-kafka-operator</link>
-      <description>Apache Kafka® running on Kubernetes</description>
-    </item>
-    <item>
-      <title>microsoft /winget-pkgs</title>
-      <link>https://github.com/microsoft/winget-pkgs</link>
-      <description>The Microsoft community Windows Package Manager manifest repository</description>
-    </item>
-    <item>
-      <title>frappe /frappe</title>
-      <link>https://github.com/frappe/frappe</link>
-      <description>Low code web framework for real world applications, in Python and Javascript</description>
-    </item>
-    <item>
-      <title>RealKai42 /qwerty-learner</title>
-      <link>https://github.com/RealKai42/qwerty-learner</link>
-      <description>为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件 / Words learning and English muscle memory training software designed for keyboard workers</description>
-    </item>
-    <item>
-      <title>automatisch /automatisch</title>
-      <link>https://github.com/automatisch/automatisch</link>
-      <description>The open source Zapier alternative. Build workflow automation without spending time and money.</description>
-    </item>
-    <item>
-      <title>spree /spree</title>
-      <link>https://github.com/spree/spree</link>
-      <description>An open source eCommerce platform giving you full control and customizability. Modular and API-first. Multi-vendor, multi-tenant, multi-store, multi-currency, multi-language. Built using Ruby on Rails. Developed by@vendo-dev</description>
+      <title>metabase /metabase</title>
+      <link>https://github.com/metabase/metabase</link>
+      <description>The simplest, fastest way to get business intelligence and analytics to everyone in your company 😋</description>
     </item>
     <item>
       <title>KoljaB /RealtimeSTT</title>
@@ -63,19 +33,34 @@
       <description>A robust, efficient, low-latency speech-to-text library with advanced voice activity detection, wake word activation and instant transcription.</description>
     </item>
     <item>
+      <title>Chainlit /chainlit</title>
+      <link>https://github.com/Chainlit/chainlit</link>
+      <description>Build Conversational AI in minutes ⚡️</description>
+    </item>
+    <item>
+      <title>spree /spree</title>
+      <link>https://github.com/spree/spree</link>
+      <description>An open source eCommerce platform giving you full control and customizability. Modular and API-first. Multi-vendor, multi-tenant, multi-store, multi-currency, multi-language. Built using Ruby on Rails. Developed by@vendo-dev</description>
+    </item>
+    <item>
+      <title>hashicorp /terraform</title>
+      <link>https://github.com/hashicorp/terraform</link>
+      <description>Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.</description>
+    </item>
+    <item>
+      <title>mlabonne /llm-course</title>
+      <link>https://github.com/mlabonne/llm-course</link>
+      <description>Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.</description>
+    </item>
+    <item>
       <title>fluentassertions /fluentassertions</title>
       <link>https://github.com/fluentassertions/fluentassertions</link>
       <description>A very extensive set of extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style unit tests. Targets .NET Framework 4.7, as well as .NET Core 2.1, .NET Core 3.0, .NET 6, .NET Standard 2.0 and 2.1. Supports the unit test frameworks MSTest2, NUnit3, XUnit2, MSpec, and NSpec3.</description>
     </item>
     <item>
-      <title>Freika /dawarich</title>
-      <link>https://github.com/Freika/dawarich</link>
-      <description>Self-hosted alternative to Google Location History (Google Maps Timeline)</description>
-    </item>
-    <item>
-      <title>ton-blockchain /ton</title>
-      <link>https://github.com/ton-blockchain/ton</link>
-      <description>Main TON monorepo</description>
+      <title>nextcloud /server</title>
+      <link>https://github.com/nextcloud/server</link>
+      <description>☁️ Nextcloud server, a safe home for all your data</description>
     </item>
     <item>
       <title>TabbyML /tabby</title>

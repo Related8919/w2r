@@ -12,7 +12,7 @@
 	<atom:link href="https://www.microsoft.com/en-us/research/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.microsoft.com/en-us/research/</link>
 	<description></description>
-	<lastBuildDate>Thu, 16 Jan 2025 16:12:37 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 17 Jan 2025 17:38:05 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,304 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.7.1</generator>
 	<item>
+		<title>Research Focus: Week of January 13, 2025</title>
+		<link>https://www.microsoft.com/en-us/research/blog/research-focus-week-of-january-13-2025/</link>
+		
+		<dc:creator><![CDATA[Brenda Potts]]></dc:creator>
+		<pubDate>Fri, 17 Jan 2025 17:37:58 +0000</pubDate>
+				<category><![CDATA[Research Blog]]></category>
+		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1116780</guid>
+
+					<description><![CDATA[<p>In this edition: Privacy enhancements for multiparty deep learning; using smaller, open-source models to provide relevance judgments; new tool uses AI, data to automate innovation and development; Yasuyuki Matsushita named IEEE 2025 Computer Society Fellow.</p>
+<p>The post <a href="https://www.microsoft.com/en-us/research/blog/research-focus-week-of-january-13-2025/">Research Focus: Week of January 13, 2025</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-center"><strong>In this edition:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>We introduce privacy enhancements for multiparty deep learning, a framework using smaller, open-source models to provide relevance judgments, and other notable new research.</li>
+
+
+
+<li>We congratulate Yasuyuki Matsushita, who was named an IEEE Computer Society Fellow.</li>
+
+
+
+<li>We’ve included a recap of the extraordinary, far-reaching work done by researchers at Microsoft in 2024.&nbsp;&nbsp;</li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img fetchpriority="high" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1.jpg" alt="Decorative graphic with wavy shapes in the background in blues and purples. Text overlay in center left reads: “Research Focus: January 17, 2024”" class="wp-image-1122399" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+
+
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<p class="has-blue-color has-text-color has-link-color wp-elements-8d9d7d4143e56f533f8c36e4237c1c8d">NEW RESEARCH</p>
+
+
+
+<h3 class="wp-block-heading h2" id="ai-meets-materials-discovery">AI meets materials discovery</h3>
+
+
+
+<p>Two of the transformative tools that play a central role in Microsoft’s work on AI for science are MatterGen and MatterSim. In the world of materials discovery, each plays a distinct yet complementary role in reshaping how researchers design and validate new materials.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/story/ai-meets-materials-discovery/">Read the story</a></div>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+
+
+
+<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
+
+
+
+<h3 class="wp-block-heading h2" id="heading">Communication Efficient Secure and Private Multi-Party Deep Learning</h3>
+
+
+
+<p>Distributed training enables multiple parties to jointly train a machine learning model on their respective datasets, which can help address the challenges posed by requirements in modern machine learning for large volumes of diverse data. However, this can raise security and privacy issues – protecting each party’s data <em>during</em> training and preventing leakage of private information from the model <em>after</em> training through various inference attacks.&nbsp;&nbsp;</p>
+
+
+
+<p>In a recent paper, <a href="https://www.microsoft.com/en-us/research/publication/communication-efficient-secure-and-private-multi-party-deep-learning/" target="_blank" rel="noreferrer noopener">Communication Efficient Secure and Private Multi-Party Deep Learning</a>, researchers from Microsoft address these concerns simultaneously by designing efficient Differentially Private, secure Multiparty Computation (DP-MPC) protocols for jointly training a model on data distributed among multiple parties. This DP-MPC protocol in the two-party setting is 56-to-794 times more communication-efficient and 16-to-182 times faster than previous such protocols. This work simplifies and improves on previous attempts to combine techniques from secure multiparty computation and differential privacy, especially in the context of training machine learning models.&nbsp;</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--1"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/communication-efficient-secure-and-private-multi-party-deep-learning/">Read the paper</a></div>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+</div>
+
+
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
+
+
+
+<h3 class="wp-block-heading h2" id="heading">JudgeBlender: Ensembling Judgments for Automatic Relevance Assessment</h3>
+
+
+
+<p>Training and evaluating retrieval systems requires significant relevance judgments, which are traditionally collected from human assessors. This process is both costly and time-consuming. Large language models (LLMs) have shown promise in generating relevance labels for search tasks, offering a potential alternative to manual assessments. Current approaches often rely on a single LLM. While effective, this approach can be expensive and prone to intra-model biases that can favor systems leveraging similar models.</p>
+
+
+
+<p>In a recent paper: <a href="https://www.microsoft.com/en-us/research/publication/judgeblender-ensembling-judgments-for-automatic-relevance-assessment/">JudgeBlender: Ensembling Judgments for Automatic Relevance Assessment</a>, researchers from Microsoft we introduce a framework that employs smaller, open-source models to provide relevance judgments by combining evaluations across multiple LLMs (LLMBlender) or multiple prompts (PromptBlender). By leveraging the LLMJudge benchmark, they compare JudgeBlender with state-of-the-art methods and the top performers in the LLMJudge challenge. This research shows that JudgeBlender achieves competitive performance, demonstrating that very large models are often unnecessary for reliable relevance assessments.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-3 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--2"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/judgeblender-ensembling-judgments-for-automatic-relevance-assessment/">Read the paper</a></div>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+</div>
+
+
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
+
+
+
+<h3 class="wp-block-heading h2" id="heading">Convergence to Equilibrium of No-regret Dynamics in Congestion Games</h3>
+
+
+
+<p>Congestion games are used to describe the behavior of agents who share a set of resources. Each player chooses a combination of resources, which may become congested, decreasing utility for the players who choose them. Players can avoid congestion by choosing combinations that are less popular. This is useful for modeling a range of real-world scenarios, such as traffic flow, data routing, and wireless communication networks.</p>
+
+
+
+<p>In a recent paper: <a href="https://www.microsoft.com/en-us/research/publication/convergence-to-equilibrium-of-no-regret-dynamics-in-congestion-games/">Convergence to Equilibrium of No-regret Dynamics in Congestion Games</a>; researchers from Microsoft and external colleagues propose CongestEXP, a decentralized algorithm based on the classic exponential weights method. They evaluate CongestEXP in a traffic congestion game setting. As more drivers use a particular route, congestion increases, leading to higher travel times and lower utility. Players can choose a different route every day to optimize their utility, but the observed utility by each player may be subject to randomness due to uncertainty (e.g., bad weather). The researchers show that this approach provides both regret guarantees and convergence to Nash Equilibrium, where no player can unilaterally improve their outcome by changing their strategy.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-4 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--3"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/convergence-to-equilibrium-of-no-regret-dynamics-in-congestion-games/">Read the paper</a></div>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+</div>
+
+
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
+
+
+
+<h3 class="wp-block-heading h2" id="heading">RD-Agent: An open-source solution for smarter R&D</h3>
+
+
+
+<p>Research and development (R&D) plays a pivotal role in boosting industrial productivity. However, the rapid advance of AI has exposed the limitations of traditional R&D automation. Current methods often lack the intelligence needed to support innovative research and complex development tasks, underperforming human experts with deep knowledge.</p>
+
+
+
+<p>LLMs trained on vast datasets spanning many subjects are equipped with extensive knowledge and reasoning capabilities that support complex decision-making in diverse workflows. By autonomously performing tasks and analyzing data, LLMs can significantly increase the efficiency and precision of R&D processes.</p>
+
+
+
+<p>In a <a href="https://www.microsoft.com/en-us/research/articles/rd-agent-an-open-source-solution-for-smarter-rd/">recent article</a>, researchers from Microsoft introduce RD-Agent, a tool that integrates data-driven R&D systems and harnesses advanced AI to automate innovation and development.</p>
+
+
+
+<p>At the heart of RD-Agent is an autonomous agent framework with two key components: a) Research and b) Development. Research focuses on actively exploring and generating new ideas, while Development implements these ideas. Both components improve through an iterative process, illustrated in Figure 1 of the article, ensures the system becomes increasingly effective over time.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-5 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--4"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/articles/rd-agent-an-open-source-solution-for-smarter-rd/">Read the article</a></div>
+</div>
+</div>
+
+
+
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085496">
+		
+
+		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
+	</p>
+	
+	<div class="row pt-3 pb-4 align-items-center">
+						<div class="msr-promo__media col-12 col-md-5">
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" aria-label="Eureka: Evaluating and understanding progress in AI" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/NEWEureka-2024-BlogHeroFeature-1400x788-1-66e90c195464d.jpg" alt="White icons representing the Eureka Experiment Pipeline -- PromptProcessing, Inference, PromptProcessing, Inference, DataProcessing, EvalReporting -- on blue to green gradient background." />
+				</a>
+			</div>
+			
+			<div class="msr-promo__content p-3 px-5 col-12 col-md">
+
+									<h2 class="h4">Eureka: Evaluating and understanding progress in AI</h2>
+				
+								<p class="large">How can we rigorously evaluate and understand state-of-the-art progress in AI? Eureka is an open-source framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. Learn more about the extended findings. </p>
+				
+								<div class="wp-block-buttons justify-content-center justify-content-md-start">
+					<div class="wp-block-button">
+						<a href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
+							Read more						</a>
+					</div>
+				</div>
+							</div><!--/.msr-promo__content-->
+	</div><!--/.msr-promo__inner-wrap-->
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
+	
+
+
+<div style="padding-bottom:64px; padding-top:64px" class="wp-block-msr-immersive-section alignfull row wp-block-msr-immersive-section">
+	
+	<div class="container">
+		<div class="wp-block-msr-immersive-section__inner">
+			<div class="wp-block-msr-cards msr-cards msr-cards--default mt-4 has-text-align-left" data-bi-aN="microsoft-research-in-case-you-missed-it">
+	<div class="msr-cards__inner">
+					<div class="heading-wrapper">
+				<h2 class="mb-5 ">Microsoft Research | In case you missed it</h2>
+			</div>
+		
+		<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+	<div class="msr-cards__card msr-cards__card--default col">
+	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
+
+		
+		<div class="card-body bg-white p-4 pt-3">
+							<h3 class="h5">
+					<a
+						class="text-decoration-none text-black"
+						data-bi-cN="Microsoft Research 2024: A year in review"
+						href="https://www.microsoft.com/en-us/research/story/microsoft-research-2024-a-year-in-review/"
+					>
+						<span>Microsoft Research 2024: A year in review</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
+					</a>
+				</h3>
+										<div class="card__description card__citation small">
+					<p>December 20, 2024</p><p>Microsoft Research did extraordinary work this year, using AI and scientific research to make progress on real-world challenges like climate change, food security, global health, and human trafficking. Here’s a look back at the broad range of accomplishments and advances in 2024.</p>				</div>
+			
+					</div>
+	</div>
+</div>
+<div class="msr-cards__card msr-cards__card--default col">
+	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
+
+		
+		<div class="card-body bg-white p-4 pt-3">
+							<h3 class="h5">
+					<a
+						class="text-decoration-none text-black"
+						data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds"
+						href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/"
+					>
+						<span>AIOpsLab: Building AI agents for autonomous clouds</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
+					</a>
+				</h3>
+										<div class="card__description card__citation small">
+					<p>December 20, 2024</p><p>AIOpsLab is a holistic evaluation framework for researchers and developers, to enable the design, development, evaluation, and enhancement of AIOps agents, which also serves the purpose of reproducible, standardized, interoperable, and scalable benchmarks.</p>				</div>
+			
+					</div>
+	</div>
+</div>
+<div class="msr-cards__card msr-cards__card--default col">
+	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
+
+		
+		<div class="card-body bg-white p-4 pt-3">
+							<h3 class="h5">
+					<a
+						class="text-decoration-none text-black"
+						data-bi-cN="Yasuyuki Matsushita, IEEE Computer Society 2025 Fellow"
+						href="https://www.computer.org/press-room/2025-class-fellows"
+					>
+						<span>Yasuyuki Matsushita, IEEE Computer Society 2025 Fellow</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
+					</a>
+				</h3>
+										<div class="card__description card__citation small">
+					<p>December 19, 2024</p><p>Congratulations to Yasuyuki Matsushita, Senior Principal Research Manager at Microsoft Research, who was named a 2025 IEEE Computer Society Fellow. Matsushita was recognized for contributions to photometric 3D modeling and computational photography.</p>				</div>
+			
+					</div>
+	</div>
+</div>
+</div>
+
+					<div class="justify-content-center text-center mb-4">
+				<a
+					href="https://www.microsoft.com/en-us/research/news-and-awards/"
+					class="btn btn-outline-primary glyph-append glyph-append-small glyph-append-chevron-right msr-cards__cta"
+					data-bi-cN="View more news and awards"
+					data-bi-type="button"
+				>
+					View more news and awards				</a>
+			</div>
+			</div>
+</div>		</div>
+	</div>
+
+	</div>
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/research-focus-week-of-january-13-2025/">Research Focus: Week of January 13, 2025</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Ideas: AI for materials discovery with Tian Xie and Ziheng Lu</title>
 		<link>https://www.microsoft.com/en-us/research/podcast/ideas-ai-for-materials-discovery-with-tian-xie-and-ziheng-lu/</link>
 		
@@ -32,7 +330,7 @@
 <p>The post <a href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-for-materials-discovery-with-tian-xie-and-ziheng-lu/">Ideas: AI for materials discovery with Tian Xie and Ziheng Lu</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788.jpg" alt="Ideas podcast | illustration of Tian Xie and Ziheng Lu" class="wp-image-1120947" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+<figure class="wp-block-image size-full"><img decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788.jpg" alt="Ideas podcast | illustration of Tian Xie and Ziheng Lu" class="wp-image-1120947" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
 
 
 <div class="wp-block-msr-podcast-container my-4">
@@ -169,7 +467,7 @@
 
 
 				</span>
-				<span id="show-more-show-less-toggle-1" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-5" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -403,7 +701,7 @@
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-1"
+				aria-controls="show-more-show-less-toggle-5"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -437,7 +735,7 @@
 <p>The post <a href="https://www.microsoft.com/en-us/research/blog/mattergen-a-new-paradigm-of-materials-design-with-generative-ai/">MatterGen: A new paradigm of materials design with generative AI </a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1.jpg" alt="A grid of colorful, abstract shapes on a black background. Each cell in the grid features a unique three-dimensional geometric pattern, showcasing a variety of colors including green, red, blue, and purple." class="wp-image-1120326" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1.jpg" alt="A grid of colorful, abstract shapes on a black background. Each cell in the grid features a unique three-dimensional geometric pattern, showcasing a variety of colors including green, red, blue, and purple." class="wp-image-1120326" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/MatterGen-Technical-MSR-BLG-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
 
 
 
@@ -651,29 +949,29 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1116360">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085508">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft Research Blog</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/story/microsoft-research-2024-a-year-in-review/" aria-label="Research at Microsoft 2024: Meeting the challenge of a changing world" data-bi-cN="Research at Microsoft 2024: Meeting the challenge of a changing world" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Year-in-review-2024_Stories_Hero_Feature-1400x788-1.jpg" alt="Research at Microsoft 2024 - Year in Review" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" aria-label="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/MedFuzz-BlogHeroFeature-1400x788-1.jpg" alt="MedFuzz blog hero (decorative)" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Research at Microsoft 2024: Meeting the challenge of a changing world</h2>
+									<h2 class="h4">MedFuzz: Exploring the robustness of LLMs on medical challenge problems</h2>
 				
-								<p class="large">In this new AI era, technology is changing even faster than before, and the transition from research to reality, from concept to solution, now takes days or weeks rather than months or years.</p>
+								<p class="large">Medfuzz tests LLMs by breaking benchmark assumptions, exposing vulnerabilities to bolster real-world accuracy.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/story/microsoft-research-2024-a-year-in-review/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="Research at Microsoft 2024: Meeting the challenge of a changing world" target="_blank">
+						<a href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
 							Read more						</a>
 					</div>
 				</div>
@@ -904,7 +1202,7 @@ asyncio.run(orch.start_problem(max_steps=10))
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115760">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085526">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
@@ -913,20 +1211,20 @@ asyncio.run(orch.start_problem(max_steps=10))
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/neurips-2024-the-co-evolution-of-ai-and-systems-with-lidong-zhou/" aria-label="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" data-bi-cN="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Lidong-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Lidong Zhou and Eliza Strickland" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" aria-label="What’s Your Story: Lex Story" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/08/Lex-Story_WYS_Hero_Feature_1400x788.jpg" alt="photo of Lex Story for the What's Your Story episode of the Microsoft Research podcast" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou</h2>
+									<h2 class="h4">What’s Your Story: Lex Story</h2>
 				
-								<p class="large">Just after his NeurIPS 2024 keynote on the co-evolution of systems and AI, Microsoft CVP Lidong Zhou joins the podcast to discuss how rapidly advancing AI impacts the systems supporting it and the opportunities to use AI to enhance systems engineering itself.</p>
+								<p class="large">Model maker and fabricator Lex Story helps bring research to life through prototyping. He discusses his take on failure; the encouragement and advice that has supported his pursuit of art and science; and the sabbatical that might inspire his next career move.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/podcast/neurips-2024-the-co-evolution-of-ai-and-systems-with-lidong-zhou/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" target="_blank">
+						<a href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
 							Listen now						</a>
 					</div>
 				</div>
@@ -1153,7 +1451,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 				</span>
-				<span id="show-more-show-less-toggle-2" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-6" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -1807,7 +2105,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-2"
+				aria-controls="show-more-show-less-toggle-6"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -1864,8 +2162,8 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--3"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/neomem-hardware-software-co-design-for-cxl-native-memory-tiering/">Read the paper</a></div>
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-6 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--7"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/neomem-hardware-software-co-design-for-cxl-native-memory-tiering/">Read the paper</a></div>
 </div>
 
 
@@ -1896,8 +2194,8 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--4"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/chimera-accurate-retrosynthesis-prediction-by-ensembling-models-with-diverse-inductive-biases/">Read the paper</a></div>
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-7 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--8"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/chimera-accurate-retrosynthesis-prediction-by-ensembling-models-with-diverse-inductive-biases/">Read the paper</a></div>
 </div>
 
 
@@ -1907,30 +2205,30 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1002645">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115757">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: AI-POWERED EXPERIENCE</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://aka.ms/research-copilot/?OCID=msr_researchforum_Copilot_MCR_Blog_Promo" aria-label="Microsoft research copilot experience" data-bi-cN="Microsoft research copilot experience" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MSR-Chat-Promo.png" alt="" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/" aria-label="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" data-bi-cN="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Ginny Badanes, Madeleine Daepp and Robert Ness" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Microsoft research copilot experience</h2>
+									<h2 class="h4">Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness</h2>
 				
-								<p class="large">Discover more about research at Microsoft through our AI-powered experience</p>
+								<p class="large">As the “biggest election year in history” comes to an end, researchers Madeleine Daepp and Robert Osazuwa Ness and Democracy Forward GM Ginny Badanes discuss AI’s impact on democracy, including the tech’s use in Taiwan and India.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://aka.ms/research-copilot/?OCID=msr_researchforum_Copilot_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Microsoft research copilot experience" data-bi-cN="Microsoft research copilot experience" target="_blank">
-							Start now						</a>
+						<a href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" target="_blank">
+							Listen now						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -1960,8 +2258,8 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-3 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--5"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/the-ga4gh-task-execution-application-programming-interface-enabling-easy-multicloud-task-execution/">Read the paper</a></div>
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-8 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--9"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/the-ga4gh-task-execution-application-programming-interface-enabling-easy-multicloud-task-execution/">Read the paper</a></div>
 </div>
 
 
@@ -1996,8 +2294,8 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-4 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--6"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/redcode-multi-dimensional-safety-benchmark-for-code-agents/">Read the paper</a></div>
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-9 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--10"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/redcode-multi-dimensional-safety-benchmark-for-code-agents/">Read the paper</a></div>
 </div>
 </div>
 
@@ -2024,8 +2322,8 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-5 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--7"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/towards-foundation-models-for-learning-on-tabular-data/">Read the paper</a></div>
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-10 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--11"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/towards-foundation-models-for-learning-on-tabular-data/">Read the paper</a></div>
 </div>
 </div>
 
@@ -2250,7 +2548,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 				</span>
-				<span id="show-more-show-less-toggle-8" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-12" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -2412,7 +2710,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-8"
+				aria-controls="show-more-show-less-toggle-12"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -2549,27 +2847,30 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1061244">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085508">
 		
 
+		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
+	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/about-microsoft-research/" aria-label="About Microsoft Research" data-bi-cN="About Microsoft Research" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/07/About-page-promo_1066x600.jpg" alt="" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" aria-label="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/MedFuzz-BlogHeroFeature-1400x788-1.jpg" alt="MedFuzz blog hero (decorative)" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">About Microsoft Research</h2>
+									<h2 class="h4">MedFuzz: Exploring the robustness of LLMs on medical challenge problems</h2>
 				
-								<p class="large">Advancing science and technology to benefit humanity</p>
+								<p class="large">Medfuzz tests LLMs by breaking benchmark assumptions, exposing vulnerabilities to bolster real-world accuracy.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/about-microsoft-research/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="View our story" data-bi-cN="About Microsoft Research" target="_blank">
-							View our story						</a>
+						<a href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
+							Read more						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -2712,30 +3013,30 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085496">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1002645">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: AI-POWERED EXPERIENCE</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" aria-label="Eureka: Evaluating and understanding progress in AI" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/NEWEureka-2024-BlogHeroFeature-1400x788-1-66e90c195464d.jpg" alt="White icons representing the Eureka Experiment Pipeline -- PromptProcessing, Inference, PromptProcessing, Inference, DataProcessing, EvalReporting -- on blue to green gradient background." />
+				<a class="bg-gray-300" href="https://aka.ms/research-copilot/?OCID=msr_researchforum_Copilot_MCR_Blog_Promo" aria-label="Microsoft research copilot experience" data-bi-cN="Microsoft research copilot experience" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MSR-Chat-Promo.png" alt="" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Eureka: Evaluating and understanding progress in AI</h2>
+									<h2 class="h4">Microsoft research copilot experience</h2>
 				
-								<p class="large">How can we rigorously evaluate and understand state-of-the-art progress in AI? Eureka is an open-source framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. Learn more about the extended findings. </p>
+								<p class="large">Discover more about research at Microsoft through our AI-powered experience</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
-							Read more						</a>
+						<a href="https://aka.ms/research-copilot/?OCID=msr_researchforum_Copilot_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Microsoft research copilot experience" data-bi-cN="Microsoft research copilot experience" target="_blank">
+							Start now						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -2802,291 +3103,6 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 <p>We continue to refine the codebase and investigate architectural changes that will enable users to use their own language model APIs, storage providers, and vector stores. We’re excited about this major milestone, and the foundation that this refactoring lays for our continued research in the GraphRAG space.</p>
 <span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/moving-to-graphrag-1-0-streamlining-ergonomics-for-developers-and-users/">Moving to GraphRAG 1.0 &#8211; Streamlining ergonomics for developers and users</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>NeurIPS 2024: AI for Science with Chris Bishop</title>
-		<link>https://www.microsoft.com/en-us/research/podcast/neurips-2024-ai-for-science-with-chris-bishop/</link>
-		
-		<dc:creator><![CDATA[Brenda Potts]]></dc:creator>
-		<pubDate>Sat, 14 Dec 2024 01:47:28 +0000</pubDate>
-				<category><![CDATA[Microsoft Research Podcast]]></category>
-		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1112202</guid>
-
-					<description><![CDATA[<p>From the Microsoft Booth at NeurIPS 2024, Microsoft Research AI for Science Director Chris Bishop discusses how AI is changing approaches to scientific advancement—from drug discovery to weather forecasting—and the profound impact it can have on the world.</p>
-<p>The post <a href="https://www.microsoft.com/en-us/research/podcast/neurips-2024-ai-for-science-with-chris-bishop/">NeurIPS 2024: AI for Science with Chris Bishop</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Chris-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Chris Bishop and Eliza Strickland." class="wp-image-1112250" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Chris-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Chris-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Chris-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Chris-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Chris-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Chris-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Chris-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Chris-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Chris-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Chris-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
-
-
-<div class="wp-block-msr-podcast-container my-4">
-	<iframe loading="lazy" src="https://player.blubrry.com/?podcast_id=139712350&modern=1" class="podcast-player" frameborder="0" height="164px" width="100%" scrolling="no" title="Podcast Player"></iframe>
-</div>
-
-
-
-<p>The Microsoft Research Podcast offers its audience a unique view into the technical advances being pursued at Microsoft through the insights and personal experiences of the people committed to those pursuits.&nbsp;</p>
-
-
-
-<p>In this special edition of the podcast, Technical Fellow and Microsoft Research AI for Science Director <a href="https://www.microsoft.com/en-us/research/people/cmbishop/?msockid=35739e94ab6c69d41b738b93aa076831" target="_blank" rel="noreferrer noopener">Chris Bishop</a> joins guest host Eliza Strickland of <em>IEEE Spectrum</em> at the 38th annual Conference on Neural Information Processing Systems (NeurIPS) to talk about deep learning’s potential to improve the speed and scale at which scientific advancements can be made. Bishop discusses the factors considered when choosing which scientific challenges to tackle with AI; the impact foundation models are having right now in areas such as drug discovery and weather forecasting; and the work at NeurIPS that he’s excited about.</p>
-
-
-
-<p><strong>Learn more</strong>:</p>
-
-
-
-<p><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://news.microsoft.com/source/features/ai/from-forecasting-storms-to-designing-molecules-how-new-ai-foundation-models-can-speed-up-scientific-discovery/?msockid=35739e94ab6c69d41b738b93aa076831" target="_blank" rel="noreferrer noopener">From forecasting storms to designing molecules: How new AI foundation models can speed up scientific discovery<span class="sr-only"> (opens in new tab)</span></a><br>Microsoft Source blog, October 2024&nbsp;</p>
-
-
-
-<p><a href="https://www.microsoft.com/en-us/research/blog/introducing-aurora-the-first-large-scale-foundation-model-of-the-atmosphere/?msockid=35739e94ab6c69d41b738b93aa076831">Introducing Aurora: The first large-scale foundation model of the atmosphere</a><br>Microsoft Research blog, June 2024&nbsp;</p>
-
-
-
-<p><a href="https://www.microsoft.com/en-us/research/blog/ghddi-and-microsoft-research-use-ai-technology-to-achieve-significant-progress-in-discovering-new-drugs-to-treat-global-infectious-diseases/?msockid=35739e94ab6c69d41b738b93aa076831">GHDDI and Microsoft Research use AI technology to achieve significant progress in discovering new drugs to treat global infectious diseases</a>&nbsp;<br>Microsoft Research blog, January 2024&nbsp;</p>
-
-
-
-<p><a href="https://www.microsoft.com/en-us/research/podcast/ai-frontiers-a-deep-dive-into-deep-learning-with-ashley-llorens-and-chris-bishop/">AI Frontiers: A deep dive into deep learning with Ashley Llorens and Chris Bishop&nbsp;</a><br>Microsoft Research Podcast, December 2023&nbsp;</p>
-
-
-
-<p><a href="https://www.microsoft.com/en-us/research/blog/ai4science-to-empower-the-fifth-paradigm-of-scientific-discovery/?msockid=35739e94ab6c69d41b738b93aa076831">AI4Science to empower the fifth paradigm of scientific discovery</a>&nbsp;<br>Microsoft Research blog, July 2022&nbsp;</p>
-
-
-
-<p><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://news.microsoft.com/source/features/digital-transformation/novartis-empowers-scientists-ai-speed-discovery-development-breakthrough-medicines/?msockid=35739e94ab6c69d41b738b93aa076831" target="_blank" rel="noreferrer noopener">Novartis empowers scientists with AI to speed the discovery and development of breakthrough medicines<span class="sr-only"> (opens in new tab)</span></a>&nbsp;<br>Microsoft Source, November 2021&nbsp;</p>
-
-
-
-<p><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://blogs.microsoft.com/blog/2019/10/01/bringing-together-deep-bioscience-and-ai-to-help-patients-worldwide-novartis-and-microsoft-work-to-reinvent-treatment-discovery-and-development/" target="_blank" rel="noreferrer noopener">Bringing together deep bioscience and AI to help patients worldwide: Novartis and Microsoft work to reinvent treatment discovery and development<span class="sr-only"> (opens in new tab)</span></a>&nbsp;<br>Official Microsoft Blog, October 2019&nbsp;</p>
-
-
-
-<section class="wp-block-msr-subscribe-to-podcast subscribe-to-podcast">
-	<div class="subscribe-to-podcast__inner border-top border-bottom border-width-2">
-		<h2 class="h5 subscribe-to-podcast__heading">
-			Subscribe to the <a href="https://www.microsoft.com/en-us/research/podcast">Microsoft Research Podcast</a>:		</h2>
-		<ul class="subscribe-to-podcast__list list-unstyled">
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://itunes.apple.com/us/podcast/microsoft-research-a-podcast/id1318021537?mt=2" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 32 32">  <path d="M7.12 0c-3.937-0.011-7.131 3.183-7.12 7.12v17.76c-0.011 3.937 3.183 7.131 7.12 7.12h17.76c3.937 0.011 7.131-3.183 7.12-7.12v-17.76c0.011-3.937-3.183-7.131-7.12-7.12zM15.817 3.421c3.115 0 5.932 1.204 8.079 3.453 1.631 1.693 2.547 3.489 3.016 5.855 0.161 0.787 0.161 2.932 0.009 3.817-0.5 2.817-2.041 5.339-4.317 7.063-0.812 0.615-2.797 1.683-3.115 1.683-0.12 0-0.129-0.12-0.077-0.615 0.099-0.792 0.192-0.953 0.64-1.141 0.713-0.296 1.932-1.167 2.677-1.911 1.301-1.303 2.229-2.932 2.677-4.719 0.281-1.1 0.244-3.543-0.063-4.672-0.969-3.595-3.907-6.385-7.5-7.136-1.041-0.213-2.943-0.213-4 0-3.636 0.751-6.647 3.683-7.563 7.371-0.245 1.004-0.245 3.448 0 4.448 0.609 2.443 2.188 4.681 4.255 6.015 0.407 0.271 0.896 0.547 1.1 0.631 0.447 0.192 0.547 0.355 0.629 1.14 0.052 0.485 0.041 0.62-0.072 0.62-0.073 0-0.62-0.235-1.199-0.511l-0.052-0.041c-3.297-1.62-5.407-4.364-6.177-8.016-0.187-0.943-0.224-3.187-0.036-4.052 0.479-2.323 1.396-4.135 2.921-5.739 2.199-2.319 5.027-3.543 8.172-3.543zM16 7.172c0.541 0.005 1.068 0.052 1.473 0.14 3.715 0.828 6.344 4.543 5.833 8.229-0.203 1.489-0.713 2.709-1.619 3.844-0.448 0.573-1.537 1.532-1.729 1.532-0.032 0-0.063-0.365-0.063-0.803v-0.808l0.552-0.661c2.093-2.505 1.943-6.005-0.339-8.296-0.885-0.896-1.912-1.423-3.235-1.661-0.853-0.161-1.031-0.161-1.927-0.011-1.364 0.219-2.417 0.744-3.355 1.672-2.291 2.271-2.443 5.791-0.348 8.296l0.552 0.661v0.813c0 0.448-0.037 0.807-0.084 0.807-0.036 0-0.349-0.213-0.683-0.479l-0.047-0.016c-1.109-0.885-2.088-2.453-2.495-3.995-0.244-0.932-0.244-2.697 0.011-3.625 0.672-2.505 2.521-4.448 5.079-5.359 0.547-0.193 1.509-0.297 2.416-0.281zM15.823 11.156c0.417 0 0.828 0.084 1.131 0.24 0.645 0.339 1.183 0.989 1.385 1.677 0.62 2.104-1.609 3.948-3.631 3.005h-0.015c-0.953-0.443-1.464-1.276-1.475-2.36 0-0.979 0.541-1.828 1.484-2.328 0.297-0.156 0.709-0.235 1.125-0.235zM15.812 17.464c1.319-0.005 2.271 0.463 2.625 1.291 0.265 0.62 0.167 2.573-0.292 5.735-0.307 2.208-0.479 2.765-0.905 3.141-0.589 0.52-1.417 0.667-2.209 0.385h-0.004c-0.953-0.344-1.157-0.808-1.553-3.527-0.452-3.161-0.552-5.115-0.285-5.735 0.348-0.823 1.296-1.285 2.624-1.291z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Apple Podcasts</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://subscribebyemail.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.4 6a2.392 2.392 0 00-2.372 2.119L16 15.6l11.972-7.481A2.392 2.392 0 0025.6 6H6.4zM4 10.502V22.8a2.4 2.4 0 002.4 2.4h19.2a2.4 2.4 0 002.4-2.4V10.502l-11.365 7.102a1.2 1.2 0 01-1.27 0L4 10.502z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Email</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://subscribeonandroid.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M12.414 4.02c-.062.012-.126.023-.18.06a.489.489 0 00-.12.675L13.149 6.3c-1.6.847-2.792 2.255-3.18 3.944h13.257c-.388-1.69-1.58-3.097-3.179-3.944l1.035-1.545a.489.489 0 00-.12-.675.492.492 0 00-.675.135l-1.14 1.68a7.423 7.423 0 00-2.55-.45c-.899 0-1.758.161-2.549.45l-1.14-1.68a.482.482 0 00-.494-.195zm1.545 3.824a.72.72 0 110 1.44.72.72 0 010-1.44zm5.278 0a.719.719 0 110 1.44.719.719 0 110-1.44zM8.44 11.204A1.44 1.44 0 007 12.644v6.718c0 .795.645 1.44 1.44 1.44.168 0 .33-.036.48-.09v-9.418a1.406 1.406 0 00-.48-.09zm1.44 0V21.76c0 .793.646 1.44 1.44 1.44h10.557c.793 0 1.44-.647 1.44-1.44V11.204H9.878zm14.876 0c-.169 0-.33.035-.48.09v9.418c.15.052.311.09.48.09a1.44 1.44 0 001.44-1.44v-6.719a1.44 1.44 0 00-1.44-1.44zM11.8 24.16v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84zm5.759 0v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Android</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://open.spotify.com/show/4ndjUXyL0hH1FXHgwIiTWU" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M16 4C9.383 4 4 9.383 4 16s5.383 12 12 12 12-5.383 12-12S22.617 4 16 4zm5.08 17.394a.781.781 0 01-1.086.217c-1.29-.86-3.477-1.434-5.303-1.434-1.937.002-3.389.477-3.403.482a.782.782 0 11-.494-1.484c.068-.023 1.71-.56 3.897-.562 1.826 0 4.365.492 6.171 1.696.36.24.457.725.217 1.085zm1.56-3.202a.895.895 0 01-1.234.286c-2.338-1.457-4.742-1.766-6.812-1.747-2.338.02-4.207.466-4.239.476a.895.895 0 11-.488-1.723c.145-.041 2.01-.5 4.564-.521 2.329-.02 5.23.318 7.923 1.995.419.26.547.814.286 1.234zm1.556-3.745a1.043 1.043 0 01-1.428.371c-2.725-1.6-6.039-1.94-8.339-1.942h-.033c-2.781 0-4.923.489-4.944.494a1.044 1.044 0 01-.474-2.031c.096-.023 2.385-.55 5.418-.55h.036c2.558.004 6.264.393 9.393 2.23.497.292.663.931.371 1.428z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Spotify</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.667 4a2.676 2.676 0 00-2.612 2.13v.003c-.036.172-.055.35-.055.534v18.666c0 .183.019.362.055.534v.003a2.676 2.676 0 002.076 2.075h.002c.172.036.35.055.534.055h18.666A2.676 2.676 0 0028 25.333V6.667a2.676 2.676 0 00-2.13-2.612h-.003A2.623 2.623 0 0025.333 4H6.667zM8 8h1.333C17.42 8 24 14.58 24 22.667V24h-2.667v-1.333c0-6.618-5.382-12-12-12H8V8zm0 5.333h1.333c5.146 0 9.334 4.188 9.334 9.334V24H16v-1.333A6.674 6.674 0 009.333 16H8v-2.667zM10 20a2 2 0 11-.001 4.001A2 2 0 0110 20z"/></svg>
-						<span class="subscribe-to-podcast__link-text">RSS Feed</span>
-					</a>
-				</li>
-					</ul>
-	</div>
-</section>
-
-
-<div class="wp-block-msr-show-more">
-	<div class="bg-neutral-100 p-5">
-		<div class="show-more-show-less" data-mount="show-more-show-less">
-			<div>
-				<span>
-					
-
-<h2 class="wp-block-heading" id="transcript">Transcript</h2>
-
-
-
-<p>[MUSIC]&nbsp;</p>
-
-
-
-<p><strong>ELIZA STRICKLAND: </strong>Welcome to the Microsoft Research Podcast, where Microsoft&#8217;s leading researchers bring you to the cutting edge. This series of conversations showcases the technical advances being pursued at Microsoft through the insights and experiences of the people driving them.&nbsp;&nbsp;</p>
-
-
-
-<p>I&#8217;m Eliza Strickland, a senior editor at IEEE Spectrum and your guest host for a special edition of the podcast.&nbsp;&nbsp;</p>
-
-
-
-<p>[MUSIC FADES]&nbsp;</p>
-
-
-
-<p>Joining me today in the Microsoft Booth at the 38th annual Conference on Neural Information Processing Systems, <em>or NeurIPS</em>, is Chris Bishop. Chris is a Microsoft technical fellow and the director of Microsoft Research AI for Science. Chris is with me for one of our two on-site conversations that we’re having here at the conference.&nbsp;&nbsp;</p>
-
-
-
-<p>Chris, welcome to the podcast.</p>
-
-
-
-				</span>
-				<span id="show-more-show-less-toggle-9" class="show-more-show-less-toggleable-content">
-					
-
-
-
-<p><strong>CHRIS BISHOP: </strong>Thanks, Eliza. Really great to join you.&nbsp;</p>
-
-
-
-<p><strong>STRICKLAND: </strong>How did your long career in machine learning lead you to this focus on AI for Science, and were there any pivotal moments when you started to think that, hey, this deep learning thing, it&#8217;s going to change the way scientific discovery happens?&nbsp;</p>
-
-
-
-<p><strong>BISHOP: </strong>Oh, that&#8217;s such a great question. I think this is like my career coming full circle, really. I started out studying physics at Oxford, and then I did a PhD in quantum field theory. And then I moved into the fusion program. I wanted to do something of practical value, [LAUGHTER] so I worked on nuclear fusion for about seven or eight years doing theoretical physics, and then that was about the time that Geoff Hinton published his backprop paper.<strong> </strong>And it really caught my imagination as an exciting approach to artificial intelligence that might actually yield some progress. So that was, kind of, 35 years ago, and I moved into the field of machine learning. And, actually, the way I made that transition was by applying neural networks to fusion. I was working at the JET experiment, which was the world&#8217;s largest fusion experiment.<strong> </strong>It was sort of big data in its day. And so I had to, first of all, teach myself to program.&nbsp;&nbsp;</p>
-
-
-
-<p><strong>STRICKLAND: </strong>[LAUGHS]<strong> </strong>Right.&nbsp;&nbsp;</p>
-
-
-
-<p><strong>BISHOP: </strong>I was a pencil-and-paper theoretician up to that point. Persuade my boss to buy me a workstation and then started to play with these neural nets. So right from the get-go, I was applying machine learning 35 years ago to data from science experiments. And that was a great on-ramp for me. And then, eventually, I just got so distracted, I decided I wanted to build my career in machine learning. Spent a few years as a research professor and then joined Microsoft 27 years ago, when Microsoft opened its first research lab outside the US in Cambridge, UK, and have been there very happily ever since. Went on to become lab director. But about three or four years ago, I realized that not only was deep learning transforming so many different things, but I felt it was especially relevant to scientific discovery. And so I had an opportunity to pitch to our chief technology officer to go start a new team. And he was very excited by this. So just over two and a half years ago now, we set up Microsoft Research AI for Science, and it&#8217;s a global team, and it, sort of, does what it says on the tin.&nbsp;</p>
-
-
-
-<p><strong>STRICKLAND: </strong>So you’ve said that AI could usher in a <em>fifth</em> paradigm of scientific discovery, which builds upon the ideas of Turing Award–winner Jim Gray, who described four stages in the evolution of science. Can you briefly explain the four prior paradigms and then tell us about what makes this stage different?&nbsp;</p>
-
-
-
-<p><strong>BISHOP: </strong>Yeah, sure. So it was a nice insight by Jim. He said, well, of course, the first paradigm of scientific discovery was really the empirical one. I tend to think of some cave dweller picking up a big rock and a small rock and letting go of them at the same time and thinking the big rock will hit the ground first …&nbsp;</p>
-
-
-
-<p><strong>STRICKLAND:</strong> [LAUGHS] Right …&nbsp;</p>
-
-
-
-<p><strong>BISHOP: </strong>… discovering they land together. And this is interesting. They&#8217;ve discovered a, sort of, pattern irregularity in nature, and even today, the first paradigm is in a sense the <em>prime</em> paradigm. It’s the most important one because at the end of the day, it&#8217;s experimental results that determine the truth, if you like. So that&#8217;s the first paradigm. And it continues to be of critical importance today. And then the second paradigm really emerged in the 17th century. When Newton discovered the laws of motion and the law of gravity, and not only did he discover the equations but this, sort of, remarkable fact that nature can even be described by equations, right. It&#8217;s not obvious that this would be true, but it turns out that, you know, the world around us can be described by very simple equations that you can write on a T-shirt. And so in the 19th century, James Clerk Maxwell discovered some simple equations that describe the whole of electricity and magnetism, electromagnetic waves, and so on. And then very importantly, the beginning of the 20th century, we had this remarkable breakthrough in quantum physics. So again down at the molecular—the <em>atomic</em>—level, the world is described with exquisite precision by Schrödinger&#8217;s equation. And so this was the second paradigm, the theoretical. That the world is described with incredible precision of a huge range of length and time by very simple equations.&nbsp;&nbsp;</p>
-
-
-
-<p>But of course, there&#8217;s a catch, which is those equations are very hard to solve. And so the third paradigm really began, I guess, sort of, in the ’50s and ’60s, the development of digital computers. And, actually, the very first use of digital computers was to simulate physics, and it&#8217;s been at the core of digital computing right up to the present day. And so what you&#8217;re doing there is using a computer to go with a numerical algorithm to solve those very simple equations but solve them in a practical setting. And so that&#8217;s, I’ll refer to that as <em>simulation</em>. That&#8217;s the third paradigm. And that&#8217;s proven to be tremendously powerful. If you look up the weather forecast on your phone today, it&#8217;s done by numerical weather forecasting, solving in those case Navier-Stokes equations using big numerical simulators. What Jim Gray observed, though, really emerging at the beginning of the 21st century was what he called the fourth paradigm, or data-intensive scientific discovery. So this is the era of big data. Think of particle physics at the CERN accelerator, for example, generating colossal amounts of data in real time. And that data can then be processed and filtered. We can do statistics on it. But of course, we can do machine learning on that data. And so machine learning feeds off large data. And so the fourth paradigm really is dominated today by machine learning. And again that remains tremendously important.&nbsp;&nbsp;</p>
-
-
-
-<p>What I noticed, though, is that there&#8217;s again another framework. We call it the fifth paradigm. Again, it goes back to those fundamental equations. But again, it&#8217;s driven by computation, and it&#8217;s the idea that we can train machine learning systems not using the empirical data of the fourth paradigm but instead using the results of simulation. So the output of the third paradigm. So think of it this way. You want to predict the property of some molecule, let&#8217;s say. You could in principle solve Schrödinger&#8217;s equation on a digital computer; it’d be very expensive. And let&#8217;s say you want to screen hundreds of millions of molecules. That&#8217;s going to get far too costly. So instead, what you can do is have a mindset shift. You can think of that simulator not as a tool to predict the molecule’s properties directly but instead as a way of generating synthetic training data. And then you use that training data to train a deep learning system to give what I like to call an <em>emulator</em>, an <em>emulator</em> of the simulator. Once it&#8217;s trained, that emulator is fast. It&#8217;s usually three to four orders of magnitude faster than the simulator. So if you&#8217;re going to do something over and over again, that three-to-four-order-of-magnitude acceleration is tremendously disruptive. And what&#8217;s really interesting is we see that fifth paradigm occur in many, many different places. The idea goes back a long way. The, actually, the last project that I worked on before I left the fusion program was to do what was the world&#8217;s first-ever real-time control of a tokamak fusion plasma using a neural net and the computers of the day. But the processors were just far too slow, long before GPUs, and so on. And so it wasn&#8217;t possible to solve the equations. In that case, it was called the Grad-Shafranov equation. Again, a simple differential equation you could write on a T-shirt, but solving it was expensive on a computer. We were about a million times too slow to solve it directly in real time. And so instead, we generated lots and lots of solutions. We used those solutions to train a very simple neural network, not a deep network, just a simple two-layer network back in the day, and then we implemented that in special hardware and did real-time feedback control. So that was an example of the fifth paradigm from, you know, a quarter of a century ago. But of course, deep learning just tremendously expands the range of applicability. So today we&#8217;re using the fifth paradigm in many, many different scenarios. And time and time again, we see these four-orders-of-magnitude acceleration. So I think it&#8217;s worthy of thinking of that as a new paradigm because it&#8217;s so pervasive and so ubiquitous. </p>
-
-
-
-<p><strong>STRICKLAND: </strong>So how do you identify fields of science and particular problems that are amenable to this kind of AI assistance? Is it all about availability of data or the need for that kind of speed up?&nbsp;</p>
-
-
-
-<p><strong>BISHOP: </strong>So there are lots of factors that go into this. And when I think about AI for Science actually, the space of opportunity is colossal because science is, science is really just understanding more about the world around us. And so the range of possibilities is daunting really. So in choosing what to work on, I think there are several factors. Yes, of course, data is important, but very interestingly, we can use experimental data or we can generate synthetic data by running simulators. So we&#8217;re a big fan of the fifth paradigm. But I think another factor—and this is particularly at Microsoft—is thinking about, how can we have real-world impact at scale? Because that&#8217;s our job, is to make the world a better place and to do so at a planetary scale. And so we&#8217;ve settled on, for the most part, working at the molecular level. So if you think about the number of different ways of combining atoms together to make new stable configurations of atoms, it’s gargantuan. I mean, the number of just small molecules, small organic molecules, that are potential drug candidates is about 10<sup>60</sup>. It&#8217;s about the same as the number of atoms in the solar system. The number of proteins, maybe the fourth power of the number of atoms in the universe, or something crazy. So you&#8217;ve got this gargantuan space to search, and within that space, for sure, there&#8217;ll be all sorts of interesting molecules, materials, new drugs, new therapies, new materials for carbon capture, new kinds of batteries, new photovoltaics. The list is endless because everything around us is made of atoms, including our own bodies. So the potential <em>just</em> in the molecular space is gargantuan. And so that&#8217;s why we focus there.&nbsp;</p>
-
-
-
-<p><strong>STRICKLAND: </strong>It&#8217;s a big focus. [LAUGHTER]&nbsp;</p>
-
-
-
-<p><strong>BISHOP: </strong>It&#8217;s a broad focus, still, yes.&nbsp;</p>
-
-
-
-<p><strong>STRICKLAND: </strong>So let&#8217;s take one of these case studies then. In a project on drug discovery, you worked with the Global Health Drug Discovery Institute on molecules that would interact with tuberculosis and coronaviruses, I think. And you found, I think, candidate molecules in five months instead of several years. Can you talk about what models you used in this work and how they helped you get this vastly sped up process?&nbsp;</p>
-
-
-
-<p><strong>BISHOP: </strong>Sure. Yes. We&#8217;re very proud of this project. We&#8217;re working with the Gates Foundation and the Global Health Drug Discovery Institute to look at particularly diseases that affect low-income countries like tuberculosis. And in terms of the models we use, I think we&#8217;re all familiar with a large language model. We train it on a sequence of words or sequence of word tokens, and it&#8217;s trained to predict the next token. We can do a similar thing, but instead of learning the language of humans, we can learn the language of nature. So in particular, what we&#8217;re looking for here is a small organic molecule that we could synthesize in a laboratory that will bind with a particular target protein. It&#8217;s called ClpP. And by interfering with that protein, we can arrest the process of tuberculosis. So the goal is to search that space of 10<sup>60</sup> molecules and find a new one that has the right properties. Now, the way we do this is to train something that&#8217;s essentially a transformer. So it looks like a language model, but the language it&#8217;s trained on is a thing called SMILES strings. It&#8217;s an idea that&#8217;s been around in chemistry for a long time. It&#8217;s just a way of taking a three-dimensional molecule and representing it as a one-dimensional sequence of characters. So this is perfect for feeding into a language model. So we take a transformer and we train it on a large database of small organic molecules that are, sort of, typical of the kinds of things you might see in the space of drug molecules. Once that&#8217;s been trained, we can now run it generatively. And it will output new molecules. Now, we don&#8217;t just want to generate molecules at random because that doesn&#8217;t help. We want to generate molecules that <em>bind</em> to this particular binding site on this particular protein. So the next step is we have to tell the model about the protein and the protein binding site. And we do that by giving it information about not actually—well, we do tell it about the whole protein, but we especially give it information about the three-dimensional geometry of the binding site. So we tell about the locations of the atoms that are in the binding site. And we do this in a way that satisfies certain physics constraints, sort of, equivariance properties, it&#8217;s called. So if you think about a molecule, if I rotate the molecule in space, the positions of all the atoms change in a complicated way. But it&#8217;s the same molecule; it has the same energy and other properties and so on. So we need the right kind of representation. That&#8217;s then fed into this transformer using a technique called cross-attention. So internally, the transformer uses self-attention to look at the history of tokens, but it can now use cross-attention to look at another model that understands the proteins. But even that&#8217;s not enough. Because in discovering drugs and exploring this gargantuan space and looking for these needles in a haystack, what typically happens [is] you find a hit, a molecule that binds, but now you want to optimize it. You want to make lots of small variations of that molecule in order to make it better and better at binding. So the third piece of the architecture is another module, a thing called a variational autoencoder,<strong> </strong>that again uses deep learning.<strong> </strong>But this time, it can take as input an organic molecule that is already known, a hit that&#8217;s already known to bind to the site, and that again is fed in through cross-attention. And now the SMILES autoregressive model can now generate a molecule that&#8217;s an improvement on the starting molecule and knows about the protein binding. And so what we do is, we start off with the state-of-the-art molecule. And the best example we found is one that&#8217;s more than two orders of magnitude stronger binding affinity to the binding pocket, which is a tremendous advance; it’s the state of the art in addressing tuberculosis. And of course, the exciting thing is that this is tested in the laboratory. So this is not just a computer experiment in some sort of benchmark or whatever. We sent a description of the molecule to the laboratories at GHDDI. They synthesized a molecule, characterized it, measured its binding property, and said, well, hey, this is a new state of the art for this target protein. So we&#8217;re continuing to work with them to further refine this. There are obviously quite a few more steps. If you know about the drug discovery process, there’s a lot of hurdles you have to get through, including, of course, very important clinical trials, before you have something that can actually be used in humans. But we&#8217;re already <em>hugely</em> excited about the fact that we were able to make such a big advance so quickly, in such a short amount of time, compared to the usual drug discovery process.&nbsp;</p>
-
-
-
-<p><strong>STRICKLAND: </strong>And while you were looking for that molecule that had the proper characteristics, were you also determining whether it could be manufactured easily, like trying to think about practical realities of bringing this thing out of the computer and into the lab?&nbsp;</p>
-
-
-
-<p><strong>BISHOP: </strong>Great question. I mean, you&#8217;re hinting there at the fact the discovery process, of course, is a long pipeline. You start with the protein. You have to find a molecule that binds. You then refine the molecule. Now you have to look at ADMET, you know, the absorption, metabolism, and excretion and so on of the molecule. Also make sure that it&#8217;s not toxic. But then you need to be able to synthesize it. It&#8217;s no good if nobody can make this molecule. So you have to look at that. So, actually, in the AI for Science team, we look at all of these aspects of that drug discovery process. And we find particular areas, especially where there’s, sort of, low-hanging fruit where we can see that deep learning can make a big impact. It doesn&#8217;t necessarily help much to take a very easy, fast piece of the pipeline and go work on that. You want to understand, what are the bottlenecks, and can we really unlock those with deep learning? So we&#8217;re very interested in that whole process.<strong> </strong>It’s<strong> </strong>a fascinating problem. You&#8217;ve got a gargantuan search space, and yet you have so many different constraints that need to be met. And deep learning just feels like the perfect tool to go after this problem.&nbsp;</p>
-
-
-
-<p><strong>STRICKLAND: </strong>When you talk to the scientists that you collaborate with, is AI changing the kinds of questions that they are able to ask? That they want to ask?&nbsp;</p>
-
-
-
-<p><strong>BISHOP: </strong>Oh, for sure. And it&#8217;s really empowering. It&#8217;s enabling those working in the drug discovery space to, I think, to think in a much more expansive way. If you think about just the kind of acceleration that I talked about from the fifth paradigm, if you go to four-order-of-magnitude acceleration, OK, it may not sound like much of a dent onto the 10<sup>60</sup> space, but now when you&#8217;re exploring variants of molecules and so on, the ability to explore that space orders of magnitude faster allows you to think much more creatively, allows you to think in a more expansive way about how much of that space you can explore and how efficiently you can explore it. So I think it really is opening up new horizons, and certainly, we have an exciting partnership with Novartis. We&#8217;ve been working with them for the last five years, and they&#8217;ve been deploying some of our techniques and models in practice for their drug discovery pipeline. We get a lot of great feedback from them about how exciting they&#8217;re finding these techniques to use in practice because it is changing the way they go about doing the drug discovery process.&nbsp;</p>
-
-
-
-<p><strong>STRICKLAND: </strong>To jump to one other case study, we don&#8217;t have to go into great detail on it, but I&#8217;m very curious about your Project Aurora, this foundation model for state-of-the-art weather forecasting that, I believe, is 5,000 times faster than traditional physics-based methods. Can you talk a little bit about how that project is evolving, how you imagine these AI forecasting models working <em>with</em> traditional forecasting models, perhaps, or replacing them?&nbsp;</p>
-
-
-
-<p><strong>BISHOP: </strong>Yes. So I said most of what we do is down at the molecular level. So this is one of the exceptions. So this is really at the global level, the planetary level. Again, it&#8217;s a beautiful example of the fifth paradigm because the way forecasting has been done for a number of decades now and the way most forecasting is done at the moment is through what&#8217;s called numerical weather prediction. So again, you have these simple equations. It&#8217;s no longer Schrödinger’s equation of atomic physics. It&#8217;s now Navier–Stokes equations of fluid flows and a whole bunch of other equations that describe moisture in the atmosphere and the weather and so on. And those equations are solved on a supercomputer. And again, we can think of that numerical simulator now not just as the way you&#8217;re going to do the forecasting but actually as the way to generate training data for a deep learning emulator. So several groups have been exploring this over the last couple of years. And again, we see this very robust three-to-four-order-of-magnitude acceleration. But what&#8217;s really interesting about Aurora,<strong> </strong>it&#8217;s the world&#8217;s first foundation model, so instead of just building an emulator of a particular numerical weather simulator, which is already very interesting, we trained Aurora on a much more diverse set of data and really trying to force it not just to emulate a particular simulator but really, as it were, understand or model the fundamental equations of fluid flows in the Earth&#8217;s atmosphere. And then the reason we want to do this is because we now want to take that foundation model and fine-tune it to other downstream applications where there’s much less data. So one example would be pollution flow. So obviously the flow of pollution around the atmosphere is extremely important. But the data is far more sparse.<strong> </strong>There are far fewer sensors for pollution than there are for, sort of, wind and rain and temperature and so on. And so we were able to achieve state-of-the-art performance in modeling the flow of pollution by leveraging huge data and building this foundation model and then using relatively little data, our pollution monitoring, to build that downstream fine-tuned model. So beautiful example of a foundation model.&nbsp;</p>
-
-
-
-<p><strong>STRICKLAND: </strong>That is a cool example. And finally, just to wrap up, what have you seen or heard at NeurIPS that’s gotten you excited? What kind of trends are in the air? What’s the buzz?&nbsp;</p>
-
-
-
-<p><strong>BISHOP: </strong>Oh, that’s a great question. I mean, it&#8217;s such a huge conference. There&#8217;s something like 17,000 people or so here this year, I&#8217;ve heard. I think, you know, one of the things that&#8217;s happened so far that&#8217;s actually given me an enormous amount of energy wasn’t just a technical talk. It was actually an event we had on the first day called Women in Machine Learning. And I was a mentor on one of the mentorship tables, and I found it very energizing just to meet so many people, early-career-stage people, who were very excited about AI for Science and realizing that, you know, it&#8217;s not just that I think AI for Science is important. A lot of people are moving into this field now. It is a big frontier for AI. I&#8217;m a little biased, perhaps. I think that it&#8217;s <em>the</em> most important application area. Intellectually, it&#8217;s very exciting because we get to deal with science as well as machine learning. But also if you think about [it], science is really about learning more about the world. And once we learn more about the world, we can then develop aquaculture; we can develop the steam engine; we can develop silicon chips; we can change the world. We can save lives and make the world a better place. And so I think it&#8217;s the most fundamental undertaking we have in AI for Science and the thing I loved about the Women in Machine Learning event is that the AI for Science table was just completely swamped with all of these people at early stages of their career, either already working in this field and doing PhDs or wanting to get into it. That was very exciting.&nbsp;</p>
-
-
-
-<p><strong>STRICKLAND: </strong>That is really exciting and inspiring, and it gives me a lot of hope. Well, Chris Bishop, thank you so much for joining us today and thanks for a great conversation.&nbsp;</p>
-
-
-
-<p><strong>BISHOP: </strong>Thank you. I really appreciate it.&nbsp;</p>
-
-
-
-<p>[MUSIC]&nbsp;</p>
-
-
-
-<p><strong>STRICKLAND: </strong>And to our listeners, thanks for tuning in. If you want to learn more about research at Microsoft, you can check out the Microsoft Research website at microsoft.com/research. Until next time.&nbsp;&nbsp;</p>
-
-
-
-<p>[MUSIC FADES]</p>
-
-				</span>
-			</div>
-			<button
-				class="action-trigger glyph-prepend mt-2 mb-0 show-more-show-less-toggle"
-				aria-expanded="false"
-				data-show-less-text="Show less"
-				type="button"
-				aria-controls="show-more-show-less-toggle-9"
-				aria-label="Show more content"
-				data-alternate-aria-label="Show less content">
-				Show more			</button>
-		</div>
-	</div>
-</div>
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/podcast/neurips-2024-ai-for-science-with-chris-bishop/">NeurIPS 2024: AI for Science with Chris Bishop</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></content:encoded>
 					
 		

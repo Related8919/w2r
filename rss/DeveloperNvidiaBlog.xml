@@ -6,12 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 20 Jan 2025 01:48:45 +0000</lastBuildDate>
-    <item>
-      <title>TensorRT-LLM：LLM API 精简指令畅享卓越性能！</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/tensorrt-llm-api/</link>
-      <description>2025年 1月 2日TensorRT-LLM：LLM API 精简指令畅享卓越性能！NVIDIA TensorRT-LLM 是一个专为 优化大语言模型 (LLM) 推理而设计的库。它提供了多种先进的优化技术 ，2 MIN READ</description>
-    </item>
+    <lastBuildDate>Tue, 21 Jan 2025 01:46:15 +0000</lastBuildDate>
     <item>
       <title>NVIDIA TensorRT-LLM Roadmap 现已在 GitHub 上公开发布！</title>
       <link>https://developer.nvidia.com/zh-cn/blog/nvidia-tensorrt-llm-roadmap-github/</link>
@@ -86,6 +81,11 @@
       <title>将数据中心转变为 AI 工厂，迎接第 5 次工业革命</title>
       <link>https://developer.nvidia.com/zh-cn/blog/transforming-data-centers-into-ai-factories-for-the-5th-industrial-revolution/</link>
       <description>2025年 1月 14日将数据中心转变为 AI 工厂，迎接第 5 次工业革命在最近的 DC Anti-Conference Live 演示中，NVIDIA 首席数据中心杰出工程师 Wade Vinson 分享了基于…1 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA TensorRT-LLM 在推荐广告及搜索广告的生成式召回的加速实践</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-tensorrt-llm-ad-generation/</link>
+      <description>2025年 1月 20日NVIDIA TensorRT-LLM 在推荐广告及搜索广告的生成式召回的加速实践推荐系统的主要任务是根据用户的历史行为预测其兴趣点，并向其推荐相应的商品。传统的推荐系统在处理用户请求时，2 MIN READ</description>
     </item>
   </channel>
 </rss>

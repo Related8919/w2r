@@ -6,21 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 20 Jan 2025 01:48:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jan 2025 01:45:50 +0000</lastBuildDate>
     <item>
-      <title>Chainlit /chainlit</title>
-      <link>https://github.com/Chainlit/chainlit</link>
-      <description>Build Conversational AI in minutes ⚡️</description>
-    </item>
-    <item>
-      <title>henrygd /beszel</title>
-      <link>https://github.com/henrygd/beszel</link>
-      <description>Lightweight server monitoring hub with historical data, docker stats, and alerts.</description>
-    </item>
-    <item>
-      <title>freqtrade /freqtrade</title>
-      <link>https://github.com/freqtrade/freqtrade</link>
-      <description>Free, open source crypto trading bot</description>
+      <title>unclecode /crawl4ai</title>
+      <link>https://github.com/unclecode/crawl4ai</link>
+      <description>🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper</description>
     </item>
     <item>
       <title>echasnovski /mini.nvim</title>
@@ -28,64 +18,39 @@
       <description>Library of 40+ independent Lua modules improving overall Neovim (version 0.8 and higher) experience with minimal effort</description>
     </item>
     <item>
-      <title>bytedance /monolith</title>
-      <link>https://github.com/bytedance/monolith</link>
-      <description>A Lightweight Recommendation System</description>
+      <title>koreader /koreader</title>
+      <link>https://github.com/koreader/koreader</link>
+      <description>An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices</description>
     </item>
     <item>
-      <title>web-infra-dev /midscene</title>
-      <link>https://github.com/web-infra-dev/midscene</link>
-      <description>AI-Driven Browser Automation with Chrome Extensions, JavaScript, and YAML Scripts.</description>
+      <title>yorukot /superfile</title>
+      <link>https://github.com/yorukot/superfile</link>
+      <description>Pretty fancy and modern terminal file manager</description>
     </item>
     <item>
-      <title>emcie-co /parlant</title>
-      <link>https://github.com/emcie-co/parlant</link>
-      <description>The behavior guidance framework for customer-facing LLM agents</description>
+      <title>linera-io /linera-protocol</title>
+      <link>https://github.com/linera-io/linera-protocol</link>
+      <description>Main repository for the Linera protocol</description>
     </item>
     <item>
-      <title>emmabostian /developer-portfolios</title>
-      <link>https://github.com/emmabostian/developer-portfolios</link>
-      <description>A list of developer portfolios for your inspiration</description>
+      <title>OpenBMB /MiniCPM-o</title>
+      <link>https://github.com/OpenBMB/MiniCPM-o</link>
+      <description>MiniCPM-o 2.6: A GPT-4o Level MLLM for Vision, Speech and Multimodal Live Streaming on Your Phone</description>
     </item>
     <item>
-      <title>KoljaB /RealtimeSTT</title>
-      <link>https://github.com/KoljaB/RealtimeSTT</link>
-      <description>A robust, efficient, low-latency speech-to-text library with advanced voice activity detection, wake word activation and instant transcription.</description>
+      <title>freqtrade /freqtrade</title>
+      <link>https://github.com/freqtrade/freqtrade</link>
+      <description>Free, open source crypto trading bot</description>
     </item>
     <item>
-      <title>nextcloud /server</title>
-      <link>https://github.com/nextcloud/server</link>
-      <description>☁️ Nextcloud server, a safe home for all your data</description>
+      <title>uutils /coreutils</title>
+      <link>https://github.com/uutils/coreutils</link>
+      <description>Cross-platform Rust rewrite of the GNU coreutils</description>
     </item>
     <item>
-      <title>OpenBB-finance /OpenBB</title>
-      <link>https://github.com/OpenBB-finance/OpenBB</link>
-      <description>Investment Research for Everyone, Everywhere.</description>
-    </item>
-    <item>
-      <title>Dokploy /dokploy</title>
-      <link>https://github.com/Dokploy/dokploy</link>
-      <description>Open Source Alternative to Vercel, Netlify and Heroku.</description>
-    </item>
-    <item>
-      <title>frappe /helpdesk</title>
-      <link>https://github.com/frappe/helpdesk</link>
-      <description>Modern, Streamlined, Free and Open Source Customer Service Software</description>
-    </item>
-    <item>
-      <title>siyuan-note /siyuan</title>
-      <link>https://github.com/siyuan-note/siyuan</link>
-      <description>A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.</description>
-    </item>
-    <item>
-      <title>PathOfBuildingCommunity /PathOfBuilding</title>
-      <link>https://github.com/PathOfBuildingCommunity/PathOfBuilding</link>
-      <description>Offline build planner for Path of Exile.</description>
-    </item>
-    <item>
-      <title>CopilotKit /CopilotKit</title>
-      <link>https://github.com/CopilotKit/CopilotKit</link>
-      <description>React UI + elegant infrastructure for AI Copilots, in-app AI agents, AI chatbots, and AI-powered Textareas 🪁</description>
+      <title>getmaxun /maxun</title>
+      <link>https://github.com/getmaxun/maxun</link>
+      <description>🔥 Open-source no-code web data extraction platform. Turn websites to APIs and spreadsheets with no-code robots in minutes [In Beta]</description>
     </item>
     <item>
       <title>mlabonne /llm-course</title>
@@ -93,9 +58,39 @@
       <description>Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.</description>
     </item>
     <item>
-      <title>OpenBMB /MiniCPM-o</title>
-      <link>https://github.com/OpenBMB/MiniCPM-o</link>
-      <description>MiniCPM-o 2.6: A GPT-4o Level MLLM for Vision, Speech and Multimodal Live Streaming on Your Phone</description>
+      <title>benbusby /whoogle-search</title>
+      <link>https://github.com/benbusby/whoogle-search</link>
+      <description>A self-hosted, ad-free, privacy-respecting metasearch engine</description>
+    </item>
+    <item>
+      <title>PatrickJS /awesome-cursorrules</title>
+      <link>https://github.com/PatrickJS/awesome-cursorrules</link>
+      <description>📄 A curated list of awesome .cursorrules files</description>
+    </item>
+    <item>
+      <title>jingyaogong /minimind</title>
+      <link>https://github.com/jingyaogong/minimind</link>
+      <description>🚀🚀 「大模型」3小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 3 hours!</description>
+    </item>
+    <item>
+      <title>danielmiessler /fabric</title>
+      <link>https://github.com/danielmiessler/fabric</link>
+      <description>fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.</description>
+    </item>
+    <item>
+      <title>mudler /LocalAI</title>
+      <link>https://github.com/mudler/LocalAI</link>
+      <description>🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P inference</description>
+    </item>
+    <item>
+      <title>CopilotKit /CopilotKit</title>
+      <link>https://github.com/CopilotKit/CopilotKit</link>
+      <description>React UI + elegant infrastructure for AI Copilots, in-app AI agents, AI chatbots, and AI-powered Textareas 🪁</description>
+    </item>
+    <item>
+      <title>Dokploy /dokploy</title>
+      <link>https://github.com/Dokploy/dokploy</link>
+      <description>Open Source Alternative to Vercel, Netlify and Heroku.</description>
     </item>
   </channel>
 </rss>

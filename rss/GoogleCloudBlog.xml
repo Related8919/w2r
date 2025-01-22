@@ -6,12 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 21 Jan 2025 01:46:03 +0000</lastBuildDate>
-    <item>
-      <title>Get ready for a unique, immersive security experience at Next ‘25</title>
-      <link>https://cloud.google.com/blog/products/identity-security/unique-immersive-security-experience-coming-to-next-25</link>
-      <description>Security &amp; IdentityGet ready for a unique, immersive security experience at Next ‘25By Robert Sadowski • 5-minute read</description>
-    </item>
+    <lastBuildDate>Wed, 22 Jan 2025 01:49:29 +0000</lastBuildDate>
     <item>
       <title>Empowering retailers with AI for commerce, marketing, supply chains, and more</title>
       <link>https://cloud.google.com/blog/topics/retail/retail-cpg-ai-partner-ecosystem-nrf-2025</link>
@@ -56,6 +51,11 @@
       <title>What’s new with Google Cloud</title>
       <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
       <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 2-minute read</description>
+    </item>
+    <item>
+      <title>Securing Cryptocurrency Organizations</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/securing-cryptocurrency-organizations</link>
+      <description>Threat IntelligenceSecuring Cryptocurrency OrganizationsBy Mandiant  • 27-minute read</description>
     </item>
   </channel>
 </rss>

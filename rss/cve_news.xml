@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.cve.org/Media/News/AllNews. follow.is: feedId:91496105774919680+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 21 Jan 2025 01:45:59 +0000</lastBuildDate>
-    <item>
-      <title>Delinea Added as CVE Numbering Authority (CNA)</title>
-      <link>https://www.cve.org/Media/News/item/news/2024/12/17/Delinea-Added-as-CNA</link>
-      <description>Delinea Added as CVE Numbering Authority (CNA)newsDecember 17, 2024Delinea, Inc.is now aCVE Numbering Authority (CNA)for vulnerabilities in Delinea products or services listed ondelinea.com, or vulnerabilities in third-party products or services discovered by or reported to Delinea, unless covered by the scope of another CNA. Read the Delinea news release: “Delinea Joins CVE Numbering Authority Program.”</description>
-    </item>
+    <lastBuildDate>Wed, 22 Jan 2025 01:49:24 +0000</lastBuildDate>
     <item>
       <title>Cepheid Added as CVE Numbering Authority (CNA)</title>
       <link>https://www.cve.org/Media/News/item/news/2024/12/17/CEPHEID-Added-as-CNA</link>
@@ -43,9 +38,9 @@
       <description>PTC Added as CVE Numbering Authority (CNA)newsJanuary 7, 2025PTC Inc.is now aCVE Numbering Authority (CNA)for all currently supported PTC software products and cloud/SaaS services.</description>
     </item>
     <item>
-      <title>VulnCon 2025Call for Papers Closes January 15</title>
+      <title>VulnCon 2025Call for Papers Closes January 15 (EXTENDED TO JANUARY 31)</title>
       <link>https://www.cve.org/Media/News/item/blog/2025/01/07/VulnCon-2025-Call-Papers-Closes-January-15</link>
-      <description>VulnCon 2025Call for Papers Closes January 15blogBy CVE Program|January 7, 2025TheCVE ProgramandFIRSTwill co-hostVulnCon 2025at the McKimmon Center in Raleigh, North Carolina, USA, on April 7-10, 2025. TheCall for Paperscloses on January 15, 2025. See detailshere.</description>
+      <description>VulnCon 2025Call for Papers Closes January 15 (EXTENDED TO JANUARY 31)blogBy CVE Program|January 7, 2025TheCVE ProgramandFIRSTwill co-hostVulnCon 2025at the McKimmon Center in Raleigh, North Carolina, USA, on April 7-10, 2025. TheCall for Paperscloses on January 15, 2025 (EXTENDED TO JANUARY 31). See detailshere.IMPORTANT:The VulnCon 2025 Call for Papersdeadline has been extended until January 31, 2025.</description>
     </item>
     <item>
       <title>CVE Program Expands Partnership with Thales Group</title>
@@ -56,6 +51,11 @@
       <title>Vulnerability Data Enrichment for CVE Records: 236 CNAs on the Enrichment Recognition List for January 13, 2025</title>
       <link>https://www.cve.org/Media/News/item/blog/2025/01/14/CNA-Enrichment-Recognition-List-Update</link>
       <description>Vulnerability Data Enrichment for CVE Records: 236 CNAs on the Enrichment Recognition List for January 13, 2025blogBy CVE Program|January 14, 2025The “CNA Enrichment Recognition List” for January 13, 2025, is now available with 236 CNAs listed. Published every two weeks on the CVE website, the list recognizes thoseCVE Numbering Authorities (CNAs)that are actively providing enhanced vulnerability data in theirCVE Records. CNAs are added to the list if they provideCommon Vulnerability Scoring System (CVSS)andCommon Weakness Enumeration (CWE™)information 98% of the time or more within the two-week period of their last published CVE Record.</description>
+    </item>
+    <item>
+      <title>New Call for Papers Deadline forVulnCon 2025— January 31, 2025</title>
+      <link>https://www.cve.org/Media/News/item/blog/2025/01/21/VulnCon-2025-Call-Papers-Closes-January-31</link>
+      <description>New Call for Papers Deadline forVulnCon 2025— January 31, 2025blogBy CVE Program|January 21, 2025TheCVE ProgramandFIRSTwill co-hostVulnCon 2025at the McKimmon Center in Raleigh, North Carolina, USA, on April 7-10, 2025. TheCall for Papersdeadlinehas been extended until January 31, 2025. See detailshere.</description>
     </item>
   </channel>
 </rss>

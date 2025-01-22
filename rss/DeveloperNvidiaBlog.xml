@@ -6,7 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 21 Jan 2025 01:46:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jan 2025 01:49:41 +0000</lastBuildDate>
     <item>
       <title>NVIDIA TensorRT-LLM Roadmap 现已在 GitHub 上公开发布！</title>
       <link>https://developer.nvidia.com/zh-cn/blog/nvidia-tensorrt-llm-roadmap-github/</link>

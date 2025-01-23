@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.deeplearning.ai/the-batch/. follow.is: feedId:91496692463707136+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 22 Jan 2025 01:49:33 +0000</lastBuildDate>
-    <item>
-      <title>Llama Goes Multimodal, Pros Embrace Generative Video, Military AI Guidelines, LLMs That Read Spreadsheets</title>
-      <link>https://www.deeplearning.ai/the-batch/issue-269/</link>
-      <description>The Batch AI News and Insights: We won! California’s anti-innovation bill SB 1047 was vetoed by Governor Newsom over the weekend.</description>
-    </item>
+    <lastBuildDate>Thu, 23 Jan 2025 01:47:11 +0000</lastBuildDate>
     <item>
       <title>How Meta’s Movie Gen Does It, AI’s Criminal Underground, Court Says LAION is Legal, OpenAI’s New Voice API</title>
       <link>https://www.deeplearning.ai/the-batch/issue-270/</link>
@@ -84,8 +79,13 @@
     </item>
     <item>
       <title>Tumbling Training Costs, Desktop AI Supercomputer, Tighter AI Export Restrictions, Improved Contrastive Loss</title>
-      <link>https://www.deeplearning.ai/the-batch/tag/jan-15-2025/</link>
+      <link>https://www.deeplearning.ai/the-batch/issue-284/</link>
       <description>The Batch AI News and Insights: Writing software, especially prototypes, is becoming cheaper. This will lead to increased demand for people who can decide what to build. AI Product Management has a bright future!</description>
+    </item>
+    <item>
+      <title>DeepSeek’s Open Reasoning Model, Affordable Humanoid Robots, Texas’ Restrictive AI Law, GenAI for Electronics</title>
+      <link>https://www.deeplearning.ai/the-batch/tag/jan-22-2025/</link>
+      <description>The Batch AI News and Insights: Greetings from Davos, Switzerland! Many business and government leaders are gathered here again for the annual World Economic Forum to discuss tech, climate, geopolitics, and economic growth.</description>
     </item>
   </channel>
 </rss>

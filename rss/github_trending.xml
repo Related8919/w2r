@@ -6,61 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 22 Jan 2025 01:49:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2025 01:46:53 +0000</lastBuildDate>
     <item>
-      <title>solana-labs /solana</title>
-      <link>https://github.com/solana-labs/solana</link>
-      <description>Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces.</description>
-    </item>
-    <item>
-      <title>OpenBMB /MiniCPM-o</title>
-      <link>https://github.com/OpenBMB/MiniCPM-o</link>
-      <description>MiniCPM-o 2.6: A GPT-4o Level MLLM for Vision, Speech and Multimodal Live Streaming on Your Phone</description>
-    </item>
-    <item>
-      <title>getmaxun /maxun</title>
-      <link>https://github.com/getmaxun/maxun</link>
-      <description>🔥 Open-source no-code web data extraction platform. Turn websites to APIs and spreadsheets with no-code robots in minutes [In Beta]</description>
-    </item>
-    <item>
-      <title>emcie-co /parlant</title>
-      <link>https://github.com/emcie-co/parlant</link>
-      <description>The behavior guidance framework for customer-facing LLM agents</description>
-    </item>
-    <item>
-      <title>karpathy /minGPT</title>
-      <link>https://github.com/karpathy/minGPT</link>
-      <description>A minimal PyTorch re-implementation of the OpenAI GPT (Generative Pretrained Transformer) training</description>
-    </item>
-    <item>
-      <title>danielmiessler /fabric</title>
-      <link>https://github.com/danielmiessler/fabric</link>
-      <description>fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.</description>
-    </item>
-    <item>
-      <title>livekit /agents</title>
-      <link>https://github.com/livekit/agents</link>
-      <description>Build real-time multimodal AI applications 🤖🎙️📹</description>
-    </item>
-    <item>
-      <title>vllm-project /vllm</title>
-      <link>https://github.com/vllm-project/vllm</link>
-      <description>A high-throughput and memory-efficient inference and serving engine for LLMs</description>
-    </item>
-    <item>
-      <title>open-mmlab /Amphion</title>
-      <link>https://github.com/open-mmlab/Amphion</link>
-      <description>Amphion (/æmˈfaɪən/) is a toolkit for Audio, Music, and Speech Generation. Its purpose is to support reproducible research and help junior researchers and engineers get started in the field of audio, music, and speech generation research and development.</description>
-    </item>
-    <item>
-      <title>web-infra-dev /midscene</title>
-      <link>https://github.com/web-infra-dev/midscene</link>
-      <description>AI-Driven Browser Automation with Chrome Extensions, JavaScript, and YAML Scripts.</description>
-    </item>
-    <item>
-      <title>linera-io /linera-protocol</title>
-      <link>https://github.com/linera-io/linera-protocol</link>
-      <description>Main repository for the Linera protocol</description>
+      <title>DataExpert-io /data-engineer-handbook</title>
+      <link>https://github.com/DataExpert-io/data-engineer-handbook</link>
+      <description>This is a repo with links to everything you'd ever want to learn about data engineering</description>
     </item>
     <item>
       <title>codecrafters-io /build-your-own-x</title>
@@ -68,24 +18,14 @@
       <description>Master programming by recreating your favorite technologies from scratch.</description>
     </item>
     <item>
-      <title>yamadashy /repomix</title>
-      <link>https://github.com/yamadashy/repomix</link>
-      <description>📦 Repomix (formerly Repopack) is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, and Gemini.</description>
+      <title>infiniflow /ragflow</title>
+      <link>https://github.com/infiniflow/ragflow</link>
+      <description>RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.</description>
     </item>
     <item>
-      <title>freqtrade /freqtrade</title>
-      <link>https://github.com/freqtrade/freqtrade</link>
-      <description>Free, open source crypto trading bot</description>
-    </item>
-    <item>
-      <title>bytedance /monolith</title>
-      <link>https://github.com/bytedance/monolith</link>
-      <description>A Lightweight Recommendation System</description>
-    </item>
-    <item>
-      <title>Dokploy /dokploy</title>
-      <link>https://github.com/Dokploy/dokploy</link>
-      <description>Open Source Alternative to Vercel, Netlify and Heroku.</description>
+      <title>hacksider /Deep-Live-Cam</title>
+      <link>https://github.com/hacksider/Deep-Live-Cam</link>
+      <description>real time face swap and one-click video deepfake with only a single image</description>
     </item>
     <item>
       <title>PatrickJS /awesome-cursorrules</title>
@@ -93,9 +33,49 @@
       <description>📄 A curated list of awesome .cursorrules files</description>
     </item>
     <item>
-      <title>mlabonne /llm-course</title>
-      <link>https://github.com/mlabonne/llm-course</link>
-      <description>Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.</description>
+      <title>mudler /LocalAI</title>
+      <link>https://github.com/mudler/LocalAI</link>
+      <description>🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more models architectures. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P inference</description>
+    </item>
+    <item>
+      <title>linera-io /linera-protocol</title>
+      <link>https://github.com/linera-io/linera-protocol</link>
+      <description>Main repository for the Linera protocol</description>
+    </item>
+    <item>
+      <title>getmaxun /maxun</title>
+      <link>https://github.com/getmaxun/maxun</link>
+      <description>🔥 Open-source no-code web data extraction platform. Turn websites to APIs and spreadsheets with no-code robots in minutes [In Beta]</description>
+    </item>
+    <item>
+      <title>jingyaogong /minimind</title>
+      <link>https://github.com/jingyaogong/minimind</link>
+      <description>🚀🚀 「大模型」3小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 3 hours!</description>
+    </item>
+    <item>
+      <title>shadps4-emu /shadPS4</title>
+      <link>https://github.com/shadps4-emu/shadPS4</link>
+      <description>PlayStation 4 emulator for Windows, Linux and macOS written in C++</description>
+    </item>
+    <item>
+      <title>Dokploy /dokploy</title>
+      <link>https://github.com/Dokploy/dokploy</link>
+      <description>Open Source Alternative to Vercel, Netlify and Heroku.</description>
+    </item>
+    <item>
+      <title>yorukot /superfile</title>
+      <link>https://github.com/yorukot/superfile</link>
+      <description>Pretty fancy and modern terminal file manager</description>
+    </item>
+    <item>
+      <title>teableio /teable</title>
+      <link>https://github.com/teableio/teable</link>
+      <description>✨ The Next Gen Airtable Alternative: No-Code Postgres</description>
+    </item>
+    <item>
+      <title>exo-explore /exo</title>
+      <link>https://github.com/exo-explore/exo</link>
+      <description>Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚</description>
     </item>
   </channel>
 </rss>

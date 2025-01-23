@@ -6,52 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 22 Jan 2025 01:49:41 +0000</lastBuildDate>
-    <item>
-      <title>NVIDIA TensorRT-LLM Roadmap 现已在 GitHub 上公开发布！</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-tensorrt-llm-roadmap-github/</link>
-      <description>2025年 1月 2日NVIDIA TensorRT-LLM Roadmap 现已在 GitHub 上公开发布！感谢众多用户及合作伙伴一直以来对 NVIDIA TensorRT-LLM 的支持。TensorRT-LLM 的 Roadmap 现已在…1 MIN READ</description>
-    </item>
-    <item>
-      <title>借助 NVIDIA Launchables 实现出色 NVIDIA AI 的一键式部署</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/one-click-deployments-for-the-best-of-nvidia-ai-with-nvidia-launchables/</link>
-      <description>2025年 1月 6日借助 NVIDIA Launchables 实现出色 NVIDIA AI 的一键式部署AI 开发已成为现代软件工程的核心部分，NVIDIA 致力于寻找方法，为所有希望开始使用 AI 的开发者提供优化的加速计算。 为解决这一问题，1 MIN READ</description>
-    </item>
-    <item>
-      <title>利用最新的 NVIDIA Isaac 版本推进机器人学习、感知和操控技术</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/advancing-robot-learning-perception-and-manipulation-with-latest-nvidia-isaac-release/</link>
-      <description>2025年 1月 6日利用最新的 NVIDIA Isaac 版本推进机器人学习、感知和操控技术在 CES 2025 上，NVIDIA 宣布了对 NVIDIA Isaac 的重要更新。NVIDIA Isaac 是一个由加速库、3 MIN READ</description>
-    </item>
-    <item>
-      <title>利用 NVIDIA Omniverse 空间流，在 XR 中体验数字孪生技术</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/experience-digital-twins-in-xr-with-nvidia-omniverse-spatial-streaming/</link>
-      <description>2025年 1月 6日利用 NVIDIA Omniverse 空间流，在 XR 中体验数字孪生技术空间计算 体验正在转变我们与数据的交互方式，通过 扩展现实 (XR) 和 数字孪生 等技术连接物理和数字世界。2 MIN READ</description>
-    </item>
-    <item>
-      <title>人形机器人学习的合成运动生成管道构建</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/building-a-synthetic-motion-generation-pipeline-for-humanoid-robot-learning/</link>
-      <description>2025年 1月 6日人形机器人学习的合成运动生成管道构建通用型类人型机器人旨在快速适应现有的以人为中心的城市和工业工作空间，处理繁琐、重复或对身体要求苛刻的任务。2 MIN READ</description>
-    </item>
-    <item>
-      <title>如何为基于感知的物理 AI 构建支持生成式 AI 的合成数据管道</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/how-to-build-a-generative-ai-enabled-synthetic-data-pipeline-for-perception-ai/</link>
-      <description>2025年 1月 6日如何为基于感知的物理 AI 构建支持生成式 AI 的合成数据管道训练用于为机器人和自动驾驶汽车等自主机器提供动力支持的 物理 AI 模型 需要大量数据。获取大量不同的训练数据可能十分困难、耗时且昂贵。2 MIN READ</description>
-    </item>
-    <item>
-      <title>Llama Nemotron 模型提升智能体 AI 工作流的准确性和效率</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/llama-nemotron-models-accelerate-agentic-ai-workflows-with-accuracy-and-efficiency/</link>
-      <description>2025年 1月 6日Llama Nemotron 模型提升智能体 AI 工作流的准确性和效率Agentic AI 是新一波生成式 AI 浪潮，是一种范式转变，通过使 AI 系统能够自主行动并实现复杂的目标，具有变革行业的潜力。2 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA RTX 神经渲染引领 AI 图形创新新时代</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-rtx-neural-rendering-introduces-next-era-of-ai-powered-graphics-innovation/</link>
-      <description>2025年 1月 6日NVIDIA RTX 神经渲染引领 AI 图形创新新时代NVIDIA 今天发布了面向游戏玩家、创作者和开发者的新一代硬件 – GeForce RTX 50 系列台式机和笔记本电脑 GPU。3 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA Cosmos World 基础模型平台助力物理 AI 进步</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/advancing-physical-ai-with-nvidia-cosmos-world-foundation-model-platform/</link>
-      <description>2025年 1月 9日NVIDIA Cosmos World 基础模型平台助力物理 AI 进步随着机器人和 自动驾驶汽车 的发展，加速 物理 AI 的发展变得至关重要，而物理 AI 使自主机器能够感知、理解并在现实世界中执行复杂的操作。4 MIN READ</description>
-    </item>
+    <lastBuildDate>Thu, 23 Jan 2025 01:47:18 +0000</lastBuildDate>
     <item>
       <title>宣布推出 Nemotron-CC：用于 LLM 预训练的万亿级英语语言数据集</title>
       <link>https://developer.nvidia.com/zh-cn/blog/announcing-nemotron-cc-a-trillion-token-english-language-dataset-for-llm-pretraining/</link>
@@ -83,9 +38,54 @@
       <description>2025年 1月 14日将数据中心转变为 AI 工厂，迎接第 5 次工业革命在最近的 DC Anti-Conference Live 演示中，NVIDIA 首席数据中心杰出工程师 Wade Vinson 分享了基于…1 MIN READ</description>
     </item>
     <item>
+      <title>利用 AI 驱动的洪水建模和 3D 可视化技术增强气候韧性</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/strengthening-climate-resilience-with-ai-powered-flood-modeling-and-3d-visualizations/</link>
+      <description>2025年 1月 15日利用 AI 驱动的洪水建模和 3D 可视化技术增强气候韧性AI 驱动的洪水建模和 3D 可视化工具正在改变社区应对气候风险的方式。在这场 NVIDIA GTC 2024 会议中，1 MIN READ</description>
+    </item>
+    <item>
+      <title>提升 AI 性能的 GPU 内存基础知识</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/gpu-memory-essentials-for-ai-performance/</link>
+      <description>2025年 1月 15日提升 AI 性能的 GPU 内存基础知识生成式 AI 彻底改变了人们将想法变为现实的方式，而代理 AI 代表着这一技术变革的下一次飞跃。通过利用复杂的自主推理和迭代规划，2 MIN READ</description>
+    </item>
+    <item>
+      <title>在 NVIDIA TensorRT-LLM 中引入新型 KV 缓存重用优化策略</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/introducing-new-kv-cache-reuse-optimizations-in-nvidia-tensorrt-llm/</link>
+      <description>2025年 1月 16日在 NVIDIA TensorRT-LLM 中引入新型 KV 缓存重用优化策略语言模型通过预测下一个令牌 (给定所有先前的令牌，包括输入文本令牌) 来生成文本。在 LLM 服务中，先前令牌的键和值元素用作历史语境，2 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA JetPack 6.2 为 NVIDIA Jetson Orin Nano 和 Jetson Orin NX 模块引入超级模式</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-jetpack-6-2-brings-super-mode-to-nvidia-jetson-orin-nano-and-jetson-orin-nx-modules/</link>
+      <description>2025年 1月 16日NVIDIA JetPack 6.2 为 NVIDIA Jetson Orin Nano 和 Jetson Orin NX 模块引入超级模式NVIDIA Jetson Orin Nano 超级开发者套件 的推出为小型边缘设备开启了 生成式 AI 的新时代。7 MIN READ</description>
+    </item>
+    <item>
+      <title>AI 揭露被遗忘的潜在有害油气井</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/ai-uncovers-potentially-hazardous-forgotten-oil-and-gas-wells/</link>
+      <description>2025年 1月 16日AI 揭露被遗忘的潜在有害油气井劳伦斯伯克利国家实验室（Lawrence Berkeley National Laboratory） 的研究人员在美国各地散布着多达 80…1 MIN READ</description>
+    </item>
+    <item>
+      <title>利用 RAPIDS cuML 加速时间序列预测</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/accelerating-time-series-forecasting-with-rapids-cuml/</link>
+      <description>2025年 1月 16日利用 RAPIDS cuML 加速时间序列预测时间序列预测是一种强大的数据科学技术，用于根据过去的数据点预测未来值 借助 skforecast 等开源 Python 库，2 MIN READ</description>
+    </item>
+    <item>
+      <title>如何使用 NVIDIA NeMo Guardrails 为客户服务保护 AI 智能体</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/how-to-safeguard-ai-agents-for-customer-service-with-nvidia-nemo-guardrails/</link>
+      <description>2025年 1月 16日如何使用 NVIDIA NeMo Guardrails 为客户服务保护 AI 智能体AI 代理为 企业扩展和提升客户服务以及支持交互提供了重要机会。这些客服人员可自动处理日常查询并缩短响应时间，从而提高效率和客户满意度，5 MIN READ</description>
+    </item>
+    <item>
+      <title>借助 iGenius 和 NVIDIA DGX 云，继续为主权 AI 和受监管行业预训练先进的 LLM</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/continued-pretraining-of-state-of-the-art-llms-for-sovereign-ai-and-regulated-industries-with-igenius-and-nvidia-dgx-cloud/</link>
+      <description>2025年 1月 16日借助 iGenius 和 NVIDIA DGX 云，继续为主权 AI 和受监管行业预训练先进的 LLM近年来，大语言模型（LLMs）在推理、代码生成、机器翻译和摘要等领域取得了非凡的进步。然而，尽管基础模型具有先进的功能，4 MIN READ</description>
+    </item>
+    <item>
       <title>NVIDIA TensorRT-LLM 在推荐广告及搜索广告的生成式召回的加速实践</title>
       <link>https://developer.nvidia.com/zh-cn/blog/nvidia-tensorrt-llm-ad-generation/</link>
       <description>2025年 1月 20日NVIDIA TensorRT-LLM 在推荐广告及搜索广告的生成式召回的加速实践推荐系统的主要任务是根据用户的历史行为预测其兴趣点，并向其推荐相应的商品。传统的推荐系统在处理用户请求时，2 MIN READ</description>
+    </item>
+    <item>
+      <title>构建 AI 销售助理的经验教训</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/lessons-learned-from-building-an-ai-sales-assistant/</link>
+      <description>2025年 1月 21日构建 AI 销售助理的经验教训在 NVIDIA，销售运营团队为销售团队提供将先进的硬件和软件推向市场所需的工具和资源。3 MIN READ</description>
     </item>
   </channel>
 </rss>

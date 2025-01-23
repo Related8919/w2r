@@ -6,17 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 22 Jan 2025 01:49:06 +0000</lastBuildDate>
-    <item>
-      <title>Edge AI Explained: A Complete Introduction</title>
-      <link>https://www.splunk.com/en_us/blog/learn/edge-ai.html</link>
-      <description>Edge AI revolutionizes tech by processing data locally on devices, ensuring faster responses, enhanced privacy, and reduced internet reliance.</description>
-    </item>
-    <item>
-      <title>What is Security Automation?</title>
-      <link>https://www.splunk.com/en_us/blog/learn/security-automation.html</link>
-      <description>In this article, we’ll talk about the basics of security automation, discuss its value for organizations of all types and sizes and explore how you can get started using a security automation platform.</description>
-    </item>
+    <lastBuildDate>Thu, 23 Jan 2025 01:46:48 +0000</lastBuildDate>
     <item>
       <title>ITSM Today: IT Service Management Frameworks, Trends, and Do’s &amp; Don’ts</title>
       <link>https://www.splunk.com/en_us/blog/learn/itsm-it-service-management.html</link>
@@ -51,6 +41,16 @@
       <title>Network Optimization: How To Optimize Network Performance</title>
       <link>https://www.splunk.com/en_us/blog/learn/network-optimization.html</link>
       <description>Making sure your IT networks perform great is no easy task. Learn how to optimize your networks in this in-depth guide.</description>
+    </item>
+    <item>
+      <title>What Is Disinformation Security?</title>
+      <link>https://www.splunk.com/en_us/blog/learn/disinformation-security.html</link>
+      <description>Disinformation security is an emerging technology, coined by Gartner, that is a specific approach to understanding and detecting disinformation of all types.</description>
+    </item>
+    <item>
+      <title>What’s CTF? Capture The Flag Competitions for Cybersecurity</title>
+      <link>https://www.splunk.com/en_us/blog/learn/capture-the-flag-ctf.html</link>
+      <description>Capture the flag, but for security! Yes, the game you know from childhood is an important cybersecurity practice across the world. Learn more here.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

@@ -6,27 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 23 Jan 2025 01:47:06 +0000</lastBuildDate>
-    <item>
-      <title>Announcing Mistral AI’s Mistral Large 24.11 and Codestral 25.01 models on Vertex AI</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/announcing-new-mistral-large-model-on-vertex-ai</link>
-      <description>AI &amp; Machine LearningAnnouncing Mistral AI’s Mistral Large 24.11 and Codestral 25.01 models on Vertex AIBy Nenshad Bardoliwalla • 4-minute read</description>
-    </item>
-    <item>
-      <title>Backscatter: Automated Configuration Extraction</title>
-      <link>https://cloud.google.com/blog/topics/threat-intelligence/backscatter-automated-configuration-extraction</link>
-      <description>Threat IntelligenceBackscatter: Automated Configuration ExtractionBy Mandiant  • 4-minute read</description>
-    </item>
-    <item>
-      <title>Trading in the Cloud: Lessons from Deutsche Börse Group’s cloud-native trading engine</title>
-      <link>https://cloud.google.com/blog/topics/financial-services/lessons-from-deutsche-borse-groups-cloud-native-trading-engine</link>
-      <description>Financial ServicesTrading in the Cloud: Lessons from Deutsche Börse Group’s cloud-native trading engineBy Ferudun Oezdemir • 6-minute read</description>
-    </item>
-    <item>
-      <title>Unlock multimodal search at scale: Combine text &amp; image power with Vertex AI</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/combine-text-image-power-with-vertex-ai</link>
-      <description>AI &amp; Machine LearningUnlock multimodal search at scale: Combine text &amp; image power with Vertex AIBy Hemanth Boinpally • 6-minute read</description>
-    </item>
+    <lastBuildDate>Fri, 24 Jan 2025 01:46:52 +0000</lastBuildDate>
     <item>
       <title>Your Single-Page Applications Are Vulnerable: Here's How to Fix Them</title>
       <link>https://cloud.google.com/blog/topics/threat-intelligence/single-page-applications-vulnerable</link>
@@ -36,6 +16,11 @@
       <title>Get started with Google Cloud's built-in tokenization for sensitive data protection</title>
       <link>https://cloud.google.com/blog/products/identity-security/get-started-with-built-in-tokenization-for-sensitive-data-protection</link>
       <description>Security &amp; IdentityGet started with Google Cloud's built-in tokenization for sensitive data protectionBy Scott Ellis • 4-minute read</description>
+    </item>
+    <item>
+      <title>Bitly: Protecting users from malicious links with Web Risk</title>
+      <link>https://cloud.google.com/blog/topics/partners/bitly-ensuring-real-time-link-safety-with-web-risk-to-protect-people</link>
+      <description>PartnersBitly: Protecting users from malicious links with Web RiskBy Badr Salmi • 4-minute read</description>
     </item>
     <item>
       <title>Cloud CISO Perspectives: Talk cyber in business terms to win allies</title>
@@ -56,6 +41,21 @@
       <title>Announcing the 2025 Google for Startups Accelerator: AI First UK</title>
       <link>https://cloud.google.com/blog/topics/startups/announcing-the-2025-google-for-startups-accelerator-ai-first-uk</link>
       <description>StartupsAnnouncing the 2025 Google for Startups Accelerator: AI First UKBy Dr. Rebeca Santamaria-Fernandez • 2-minute read</description>
+    </item>
+    <item>
+      <title>Boost Productivity and Security with the New Chrome Web Store for Enterprises</title>
+      <link>https://cloud.google.com/blog/products/chrome-enterprise/boost-productivity-and-security-with-the-new-chrome-web-store-for-enterprises</link>
+      <description>Chrome EnterpriseBoost Productivity and Security with the New Chrome Web Store for EnterprisesBy Hafsah Ismail • 2-minute read</description>
+    </item>
+    <item>
+      <title>Safer automated deployments with new Cloud Deploy features</title>
+      <link>https://cloud.google.com/blog/products/devops-sre/new-cloud-deploy-features-for-automated-deployments</link>
+      <description>DevOps &amp; SRESafer automated deployments with new Cloud Deploy featuresBy Minna Howell • 3-minute read</description>
+    </item>
+    <item>
+      <title>How L’Oréal Tech Accelerator built its end-to-end MLOps platform</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/how-loreals-tech-accelerator-built-its-end-to-end-mlops-platform</link>
+      <description>AI &amp; Machine LearningHow L’Oréal Tech Accelerator built its end-to-end MLOps platformBy Moutia Khatiri • 9-minute read</description>
     </item>
   </channel>
 </rss>

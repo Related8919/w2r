@@ -12,7 +12,7 @@
 	<atom:link href="https://www.microsoft.com/en-us/research/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.microsoft.com/en-us/research/</link>
 	<description></description>
-	<lastBuildDate>Wed, 22 Jan 2025 19:25:45 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 23 Jan 2025 17:07:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,715 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.7.1</generator>
 	<item>
+		<title>Ideas: Bug hunting with Shan Lu</title>
+		<link>https://www.microsoft.com/en-us/research/podcast/ideas-bug-hunting-with-shan-lu/</link>
+		
+		<dc:creator><![CDATA[Alyssa Hughes (2ADAPTIVE LLC dba 2A Consulting)]]></dc:creator>
+		<pubDate>Thu, 23 Jan 2025 17:07:54 +0000</pubDate>
+				<category><![CDATA[Microsoft Research Podcast]]></category>
+		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1122786</guid>
+
+					<description><![CDATA[<p>Struggles with programming languages helped research manager Shan Lu find her calling as a bug hunter. She discusses one bug that really haunted her, the thousands she’s identified since, and how she’s turning to LLMs to help make software more reliable.</p>
+<p>The post <a href="https://www.microsoft.com/en-us/research/podcast/ideas-bug-hunting-with-shan-lu/">Ideas: Bug hunting with Shan Lu</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1401" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788.jpg" alt="Ideas podcast | illustration of Shan Lu" class="wp-image-1123245" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788.jpg 1401w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w" sizes="(max-width: 1401px) 100vw, 1401px" /></figure>
+
+
+<div class="wp-block-msr-podcast-container my-4">
+	<iframe src="https://player.blubrry.com/?podcast_id=141329016&modern=1" class="podcast-player" frameborder="0" height="164px" width="100%" scrolling="no" title="Podcast Player"></iframe>
+</div>
+
+
+
+<p>Behind every emerging technology is a great idea propelling it forward. In the Microsoft Research Podcast series <em>Ideas</em>, members of the research community at Microsoft discuss the beliefs that animate their research, the experiences and thinkers that inform it, and the positive human impact it targets.</p>
+
+
+
+<p>In this episode, host Gretchen Huizinga talks with <a href="https://www.microsoft.com/en-us/research/people/shanlu/?msockid=35739e94ab6c69d41b738b93aa076831">Shan Lu</a>, a senior principal research manager at Microsoft. As a college student studying computer science, Lu saw classmates seemingly learn and navigate one new programming language after another with ease while she struggled. She felt like she just wasn’t meant to be a programmer. But this perceived lack of skill turned out to be, as an early mentor pointed out when she began grad school, what made Lu an ideal bug hunter. It’s a path she’s pursued since. After studying bugs in concurrent systems for more than 15 years—she and her coauthors built a tool that identified over a thousand in a <a href="https://www.microsoft.com/en-us/research/publication/efficient-and-scalable-thread-safety-violation-detection-finding-thousands-of-concurrency-bugs-during-testing/?msockid=35739e94ab6c69d41b738b93aa076831">2019 award-winning paper</a>—Lu is focusing on other types of code defects. Recently, Lu and collaborators combined traditional program analysis and large language models in the search for retry bugs, and she’s now exploring the potential role of LLMs in verifying the correctness of large software systems.</p>
+
+
+
+<p><strong>Learn more:</strong></p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/research/publication/if-at-first-you-dont-succeed-try-try-again-insights-and-llm-informed-tooling-for-detecting-retry-bugs-in-software-systems/?msockid=35739e94ab6c69d41b738b93aa076831">If at First You Don’t Succeed, Try, Try, Again&#8230;? Insights and LLM-informed Tooling for Detecting Retry Bugs in Software Systems</a><br>Publication, November 2024</p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/research/podcast/abstracts-november-4-2024/">Abstracts: November 4, 2024</a><br>Microsoft Research Podcast, November 2024</p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/research/publication/automated-proof-generation-for-rust-code-via-self-evolution/" target="_blank" rel="noreferrer noopener">Automated Proof Generation for Rust Code via Self-Evolution</a>&nbsp;<br>Publication, October 2024</p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/research/publication/autoverus-automated-proof-generation-for-rust-code/">AutoVerus: Automated Proof Generation for Rust Code</a><br>Publication, September 2024</p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/research/publication/efficient-and-scalable-thread-safety-violation-detection-finding-thousands-of-concurrency-bugs-during-testing/?msockid=35739e94ab6c69d41b738b93aa076831">Efficient and Scalable Thread-Safety Violation Detection &#8211; Finding thousands of concurrency bugs during testing</a><br>Publication, October 2019</p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/research/publication/learning-from-mistakes-a-comprehensive-study-on-real-world-concurrency-bug-characteristics/">Learning from Mistakes: A Comprehensive Study on Real World Concurrency Bug Characteristics</a><br>Publication, March 2008&nbsp;</p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/research/publication/verus-a-practical-foundation-for-systems-verification/?msockid=35739e94ab6c69d41b738b93aa076831">Verus: A Practical Foundation for Systems Verification</a><br>Publication, November 2024</p>
+
+
+
+<section class="wp-block-msr-subscribe-to-podcast subscribe-to-podcast">
+	<div class="subscribe-to-podcast__inner border-top border-bottom border-width-2">
+		<h2 class="h5 subscribe-to-podcast__heading">
+			Subscribe to the <a href="https://www.microsoft.com/en-us/research/podcast">Microsoft Research Podcast</a>:		</h2>
+		<ul class="subscribe-to-podcast__list list-unstyled">
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://itunes.apple.com/us/podcast/microsoft-research-a-podcast/id1318021537?mt=2" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 32 32">  <path d="M7.12 0c-3.937-0.011-7.131 3.183-7.12 7.12v17.76c-0.011 3.937 3.183 7.131 7.12 7.12h17.76c3.937 0.011 7.131-3.183 7.12-7.12v-17.76c0.011-3.937-3.183-7.131-7.12-7.12zM15.817 3.421c3.115 0 5.932 1.204 8.079 3.453 1.631 1.693 2.547 3.489 3.016 5.855 0.161 0.787 0.161 2.932 0.009 3.817-0.5 2.817-2.041 5.339-4.317 7.063-0.812 0.615-2.797 1.683-3.115 1.683-0.12 0-0.129-0.12-0.077-0.615 0.099-0.792 0.192-0.953 0.64-1.141 0.713-0.296 1.932-1.167 2.677-1.911 1.301-1.303 2.229-2.932 2.677-4.719 0.281-1.1 0.244-3.543-0.063-4.672-0.969-3.595-3.907-6.385-7.5-7.136-1.041-0.213-2.943-0.213-4 0-3.636 0.751-6.647 3.683-7.563 7.371-0.245 1.004-0.245 3.448 0 4.448 0.609 2.443 2.188 4.681 4.255 6.015 0.407 0.271 0.896 0.547 1.1 0.631 0.447 0.192 0.547 0.355 0.629 1.14 0.052 0.485 0.041 0.62-0.072 0.62-0.073 0-0.62-0.235-1.199-0.511l-0.052-0.041c-3.297-1.62-5.407-4.364-6.177-8.016-0.187-0.943-0.224-3.187-0.036-4.052 0.479-2.323 1.396-4.135 2.921-5.739 2.199-2.319 5.027-3.543 8.172-3.543zM16 7.172c0.541 0.005 1.068 0.052 1.473 0.14 3.715 0.828 6.344 4.543 5.833 8.229-0.203 1.489-0.713 2.709-1.619 3.844-0.448 0.573-1.537 1.532-1.729 1.532-0.032 0-0.063-0.365-0.063-0.803v-0.808l0.552-0.661c2.093-2.505 1.943-6.005-0.339-8.296-0.885-0.896-1.912-1.423-3.235-1.661-0.853-0.161-1.031-0.161-1.927-0.011-1.364 0.219-2.417 0.744-3.355 1.672-2.291 2.271-2.443 5.791-0.348 8.296l0.552 0.661v0.813c0 0.448-0.037 0.807-0.084 0.807-0.036 0-0.349-0.213-0.683-0.479l-0.047-0.016c-1.109-0.885-2.088-2.453-2.495-3.995-0.244-0.932-0.244-2.697 0.011-3.625 0.672-2.505 2.521-4.448 5.079-5.359 0.547-0.193 1.509-0.297 2.416-0.281zM15.823 11.156c0.417 0 0.828 0.084 1.131 0.24 0.645 0.339 1.183 0.989 1.385 1.677 0.62 2.104-1.609 3.948-3.631 3.005h-0.015c-0.953-0.443-1.464-1.276-1.475-2.36 0-0.979 0.541-1.828 1.484-2.328 0.297-0.156 0.709-0.235 1.125-0.235zM15.812 17.464c1.319-0.005 2.271 0.463 2.625 1.291 0.265 0.62 0.167 2.573-0.292 5.735-0.307 2.208-0.479 2.765-0.905 3.141-0.589 0.52-1.417 0.667-2.209 0.385h-0.004c-0.953-0.344-1.157-0.808-1.553-3.527-0.452-3.161-0.552-5.115-0.285-5.735 0.348-0.823 1.296-1.285 2.624-1.291z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Apple Podcasts</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://subscribebyemail.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.4 6a2.392 2.392 0 00-2.372 2.119L16 15.6l11.972-7.481A2.392 2.392 0 0025.6 6H6.4zM4 10.502V22.8a2.4 2.4 0 002.4 2.4h19.2a2.4 2.4 0 002.4-2.4V10.502l-11.365 7.102a1.2 1.2 0 01-1.27 0L4 10.502z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Email</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://subscribeonandroid.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M12.414 4.02c-.062.012-.126.023-.18.06a.489.489 0 00-.12.675L13.149 6.3c-1.6.847-2.792 2.255-3.18 3.944h13.257c-.388-1.69-1.58-3.097-3.179-3.944l1.035-1.545a.489.489 0 00-.12-.675.492.492 0 00-.675.135l-1.14 1.68a7.423 7.423 0 00-2.55-.45c-.899 0-1.758.161-2.549.45l-1.14-1.68a.482.482 0 00-.494-.195zm1.545 3.824a.72.72 0 110 1.44.72.72 0 010-1.44zm5.278 0a.719.719 0 110 1.44.719.719 0 110-1.44zM8.44 11.204A1.44 1.44 0 007 12.644v6.718c0 .795.645 1.44 1.44 1.44.168 0 .33-.036.48-.09v-9.418a1.406 1.406 0 00-.48-.09zm1.44 0V21.76c0 .793.646 1.44 1.44 1.44h10.557c.793 0 1.44-.647 1.44-1.44V11.204H9.878zm14.876 0c-.169 0-.33.035-.48.09v9.418c.15.052.311.09.48.09a1.44 1.44 0 001.44-1.44v-6.719a1.44 1.44 0 00-1.44-1.44zM11.8 24.16v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84zm5.759 0v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Android</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://open.spotify.com/show/4ndjUXyL0hH1FXHgwIiTWU" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M16 4C9.383 4 4 9.383 4 16s5.383 12 12 12 12-5.383 12-12S22.617 4 16 4zm5.08 17.394a.781.781 0 01-1.086.217c-1.29-.86-3.477-1.434-5.303-1.434-1.937.002-3.389.477-3.403.482a.782.782 0 11-.494-1.484c.068-.023 1.71-.56 3.897-.562 1.826 0 4.365.492 6.171 1.696.36.24.457.725.217 1.085zm1.56-3.202a.895.895 0 01-1.234.286c-2.338-1.457-4.742-1.766-6.812-1.747-2.338.02-4.207.466-4.239.476a.895.895 0 11-.488-1.723c.145-.041 2.01-.5 4.564-.521 2.329-.02 5.23.318 7.923 1.995.419.26.547.814.286 1.234zm1.556-3.745a1.043 1.043 0 01-1.428.371c-2.725-1.6-6.039-1.94-8.339-1.942h-.033c-2.781 0-4.923.489-4.944.494a1.044 1.044 0 01-.474-2.031c.096-.023 2.385-.55 5.418-.55h.036c2.558.004 6.264.393 9.393 2.23.497.292.663.931.371 1.428z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Spotify</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.667 4a2.676 2.676 0 00-2.612 2.13v.003c-.036.172-.055.35-.055.534v18.666c0 .183.019.362.055.534v.003a2.676 2.676 0 002.076 2.075h.002c.172.036.35.055.534.055h18.666A2.676 2.676 0 0028 25.333V6.667a2.676 2.676 0 00-2.13-2.612h-.003A2.623 2.623 0 0025.333 4H6.667zM8 8h1.333C17.42 8 24 14.58 24 22.667V24h-2.667v-1.333c0-6.618-5.382-12-12-12H8V8zm0 5.333h1.333c5.146 0 9.334 4.188 9.334 9.334V24H16v-1.333A6.674 6.674 0 009.333 16H8v-2.667zM10 20a2 2 0 11-.001 4.001A2 2 0 0110 20z"/></svg>
+						<span class="subscribe-to-podcast__link-text">RSS Feed</span>
+					</a>
+				</li>
+					</ul>
+	</div>
+</section>
+
+
+<div class="wp-block-msr-show-more">
+	<div class="bg-neutral-100 p-5">
+		<div class="show-more-show-less" data-mount="show-more-show-less">
+			<div>
+				<span>
+					
+
+<h2 class="wp-block-heading" id="transcript">Transcript</h2>
+
+
+
+<p>[TEASER]</p>
+
+
+
+<p>[MUSIC PLAYS UNDER DIALOGUE]</p>
+
+
+
+<p><strong>SHAN LU:</strong> I remember, you know, those older days myself, right. That is really, like, I have this struggle that I feel like I can do better. I feel like I have ideas to contribute. But just for whatever reason, right, it took me forever to learn something which I feel like it&#8217;s a very mechanical thing, but it just takes me forever to learn, right. And then now actually, I see this hope, right, with AI. You know, a lot of mechanical things that can actually now be done in a much more automated way, you know, by AI, right. So then now truly, you know, my daughter, many girls, many kids out there, right, whatever, you know, they are good at, their creativity, it&#8217;ll be much easier, right, for them to contribute their creativity to whatever discipline they are passionate about.</p>
+
+
+
+<p>[TEASER ENDS]</p>
+
+
+
+<p><strong>GRETCHEN HUIZINGA:</strong><strong> </strong>You’re listening to <em>Ideas</em>, a Microsoft Research Podcast that dives deep into the world of technology research and the profound questions behind the code. I&#8217;m Gretchen Huizinga. In this series, we&#8217;ll explore the technologies that are shaping our future and the big ideas that propel them forward.<strong></strong></p>
+
+
+
+<p>[MUSIC FADES]</p>
+
+
+
+<p>Today I&#8217;m talking to Shan Lu, a senior principal research manager at Microsoft Research and a computer science professor at the University of Chicago. Part of the Systems Research Group, Shan and her colleagues are working to make our computer systems, and I quote, “secure, scalable, fault tolerant, manageable, fast, and efficient.” That&#8217;s no small order, so I&#8217;m excited to explore the big ideas behind Shan&#8217;s influential research and find out more about her reputation as a bug bounty hunter. Shan Lu, welcome to <em>Ideas</em>!</p>
+
+
+
+				</span>
+				<span id="show-more-show-less-toggle-1" class="show-more-show-less-toggleable-content">
+					
+
+
+
+<p><strong>SHAN LU:</strong> Thank you.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> So I like to start these episodes with what I&#8217;ve been calling the “research origin story,” and you have a unique, almost counterintuitive, story about what got you started in the field of systems research. Would you share that story with our listeners?</p>
+
+
+
+<p><strong>LU:</strong> Sure, sure. Yeah. I grew up fascinating that I will become mathematician. I think I was good at math, and at some point, actually, until, I think, I entered college, I was still, you know, thinking about, should I do math? Should I do computer science? For whatever reason, I think someone told me, you know, doing computer science will help you; it&#8217;s easier to get a job. And I reluctantly pick up computer science major. And then there was a few years in my college, I had a really difficult time for programming. And I also remember that there was, like, I spent a lot of time learning one language—we started with Pascal—and I feel like I finally know what to do and then there&#8217;s yet another language, C, and another class, <em>Java</em>. And I remember, like, the teacher will ask us to do a programming project, and there are times I don&#8217;t even, I just don&#8217;t know how to get started. And I remember, at that time, in my class, I think there were … we only had like four girls taking this class that requires programming in Java, and none of us have learned Java before. And when we ask our classmates, when we ask the boys, they just naturally know what to do. It was really, really humiliating. Embarrassing. I had the feeling that, I felt like I&#8217;m just not born to be a programmer. And then, I came to graduate school. I was thinking about, you know, what kind of research direction I should do. And I was thinking that, oh, maybe I should do <em>theory</em> research, like, you know, complexity theory or something. You know, after a lot of back and forth, I met my eventual adviser. She was a great, great mentor to me, and she told me that, hey, Shan, you know, my group is doing research about finding bugs in software. And she said her group is doing system research, and she said a lot of current team members are all great programmers, and as a result, they are not really well-motivated [LAUGHS] by finding bugs in software!</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Interesting.</p>
+
+
+
+<p><strong>LU:</strong> And then she said, you are really motivated, right, by, you know, getting help to developers, to help developers finding bugs in their software, so maybe that&#8217;s the research project for you. So that&#8217;s how I got started.<s></s></p>
+
+
+
+<p><strong>HUIZINGA:</strong> Well, let&#8217;s go a little bit further on this mentor and mentors in general. As Dr. Seuss might say, every “what” has a “who.” So by that I mean an inspirational person or people behind every successful researcher&#8217;s career. And most often, they&#8217;re kind of big names and meaningful relationships, but you have another unique story on who has influenced you in your career, so why don&#8217;t you tell us about the spectrum of people who&#8217;ve been influential in your life and your career?</p>
+
+
+
+<p><strong>LU:</strong> Mm-hmm. Yeah, I mean, I think I mentioned my adviser, and she&#8217;s just so supportive. And I remember, when I started doing research, I just felt like I seemed to be so far behind everyone else. You know, I felt like, how come everybody else knows how to ask, you know, insightful questions? And they, like, they know how to program really fast, bug free. And my adviser really encouraged me, saying, you know, there are background knowledge that you can pick up; you just need to be patient. But then there are also, like, you know how to do research, you know how to think about things, problem solving. And she encouraged me saying, Shan, you&#8217;re good at that!</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Interesting!</p>
+
+
+
+<p><strong>LU:</strong> Well, I don&#8217;t know how she found out, and anyway, so she was super, super helpful.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> OK, so go a little further on this because I know you have others that have influence you, as well.</p>
+
+
+
+<p><strong>LU:</strong> Yes. Yes, yes. And I think those, to be honest, I&#8217;m a very emotional, sensitive person. I would just, you know, move the timeline to be, kind of, more recent. So I joined Microsoft Research as a manager, and there&#8217;s something called Connect that, you know, people write down twice every year talking about what it is they’ve been doing. So I was just checking, you know, my members in my team to see what they have been doing over the years just to just get myself familiar with them. And I remember I read several of them. I felt like I almost have tears in my eyes! Like, I realized, wow, like … And just to give example, for Chris, Chris Hawblitzel, I read his Connect, and I saw that he&#8217;s working on something called program verification. It&#8217;s a very, very difficult problem, and [as an] outsider, you know, I&#8217;ve read many of his papers, but when I read, you know, his own writing, and I realized, wow, you know, it&#8217;s almost two decades, right. Like, he just keeps doing these very difficult things. And I read his words about, you know, how his old approach has problems, how he’s thinking about how to address that problem. <em>Oh, I have an idea</em>, right. And then spend multiple years to implement that idea and get improvement; find a new problem and then just find new solutions. And I really feel like, wow, I&#8217;m really, really, like, I feel like this is, kind of, like a, you know, there&#8217;s, how to say, a <em>hero-ish</em> story behind this, you know, this kind of goal, and you&#8217;re willing to spend many years to keep tackling this challenging problem. And I just feel like, wow, I&#8217;m so honored, you know, to be in the same group with a group of fighters, you know, determined to tackle difficult research problems.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Yeah. And I think when you talk about it, it&#8217;s like this is a person that was working <em>for you</em>, a direct report. [LAUGHTER] And often, we think about our heroes as being the ones who mentored us, who taught us, who managed us, but yours is kind of 360! It’s like …</p>
+
+
+
+<p><strong>LU:</strong> True!</p>
+
+
+
+<p><strong>HUIZINGA:</strong> … your heroes [are] above, beside and below.</p>
+
+
+
+<p><strong>LU:</strong> Right. And I would just say that I have many other, you know, direct reports in my group, and I have, you know, for example, say a couple other … my colleagues, my direct reports, Dan Ports and Jacob Nelson. And again, this is something like their story really inspired me. Like, they were, again, spent five or six years on something, and it looks like, oh, it&#8217;s close to the success of tech transfer, and then something out of their control happened. It happened because Intel decided to stop manufacturing a chip that their research relied on. And it&#8217;s, kind of, like the end of the world to them, …</p>
+
+
+
+<p><strong>HUIZINGA: </strong>Yeah.</p>
+
+
+
+<p><strong>LU: </strong>… and then they did not give up. And then, you know, like, one year later, they found a solution, you know, together with their product team collaborators.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Wow.</p>
+
+
+
+<p><strong>LU:</strong> And I still feel like, wow, you know, I feel so … I feel like I&#8217;m inspired every day! Like, I&#8217;m so happy to be working together with, you know, all these great people, great researchers in my team.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Yeah. Wow. So much of your work centers on this idea of concurrent systems and I want you to talk about some specific examples of this work next, but I think it warrants a little explication upfront for those people in the audience who don&#8217;t spend all their time working on concurrent systems themselves. So give us a short “101” on concurrent systems and explain why the work you do matters to both the people who make it and the people who use it.</p>
+
+
+
+<p><strong>LU:</strong> Sure. Yeah. So I think a lot of people may not realize … so actually, the software we&#8217;re using every day, almost every software we use these days are concurrent. So the meaning of <em>concurrent</em> is that you have multiple threads of execution going on at the same time, in parallel. And then, when we go to a web browser, right, so it&#8217;s not just one rendering that is going on. There are actually multiple concurrent renderings that is going on. So the problem of writing … for software developers to develop this type of concurrent system, a challenge is the timing. So because you have multiple concurrent things going on, it&#8217;s very difficult to manage and reason about, you know, what may happen first, what may happen second. And also, it’s, like, there&#8217;s an inherent non-determinism in it. What happened first this time may happen second next time. So as a result, a lot of bugs are introduced by this. And it was a very challenging problem because I would say about 20 years ago, there was a shift. Like, in the older days, actually most of our software is written in a sequential way instead of a concurrent way. So, you know, a lot of developers also have a difficult time to shift their mindset from the sequential way of reasoning to this concurrent way of reasoning.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Right. Well, and I think, from a user&#8217;s perspective, all you experience is what I like to call the <em>spinning beachball of doom</em>. It&#8217;s like I&#8217;ve asked something, and it doesn&#8217;t want to give, so [LAUGHS] &#8230; And this is, like, behind the scenes from a reasoning perspective of, how do we keep that from happening to our users? How do we identify the bugs? Which we&#8217;ll get to in a second. Umm. Thanks for that. Your research <em>now</em> revolves around what I would call the <em>big idea</em> of learning from mistakes. And in fact, it all seems to have started with a paper that you published way back in 2008 called “Learning from Mistakes: A Comprehensive Study on Real World Concurrency Bug Characteristics,” and you say this strongly influenced your research style and approach. And by the way, I&#8217;ll note that this paper received the Most Influential Paper Award in 2022 from ASPLOS, which is the Architectural Support for Programming Languages and Operating Systems. Huge mouthful. And it also has more than a thousand citations, so I dare say it&#8217;s influenced other researchers’ approach to research, as well. Talk about the big idea behind this paper and exactly <em>how</em> it informed your research style and approach today.</p>
+
+
+
+<p><strong>LU:</strong> Mm-hmm. Yeah. So I think this, like, again, went back to the days that I, you know, my PhD days, I started working with my adviser, you know, YY (Yuanyuan Zhou). So at that time, there had been a lot of people working on bug finding, but then now when I think about it, people just magically say, hey, I want to look at <em>this</em> type of bug. Just magically, oh, I want to look at <em>that</em> type of bug. And then, my adviser at that time suggested to me, saying, hey, maybe, you know, actually take a look, right. At that time, as I mentioned, software was kind of shifting from sequential software to concurrent software, and my adviser was saying, hey, just take a look at those real systems bug databases, and see what type of concurrency bugs are actually there. You know, instead of just randomly saying, oh, I want to work on this type of bug.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Oh, yeah.</p>
+
+
+
+<p><strong>LU:</strong> And then also, of course, it&#8217;s not just look at it. It&#8217;s not just like you read a novel or something, right. [LAUGHTER] And again, my adviser said, hey, Shan, right, you have this, you have a connection, natural connection, you know, with bugs and the developers who commit …</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Who make them …</p>
+
+
+
+<p><strong>LU:</strong> Who make them! [LAUGHTER] So she said, you know, try to think about the patterns behind them, right. Try to think about whether you can generalize some …</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Interesting …</p>
+
+
+
+<p><strong>LU: </strong>… characteristics, and use that to guide people&#8217;s research in this domain. And at that time, we were actually thinking we don&#8217;t know whether, you know, we can actually write a paper about it because traditionally you publish a paper, just say, oh, I have a new tool, right, which can do <em>this</em> and <em>that</em>. At that time in system conferences, people rarely have, you know, just say, here&#8217;s a study, right. But we studied that, and indeed, you know, I had this thought that, hey, why <em>I </em>make a lot of mistakes. And when I study a lot of bugs, the more and more, I feel, you know, there&#8217;s a reason behind it, right. It&#8217;s like I&#8217;m not the only dumb person in the world, right? [LAUGHTER] There&#8217;s a reason that, you know, there&#8217;s some part of this language is difficult to use, right, and there&#8217;s a certain type of concurrent reasoning, it’s just not natural to many people, right. So because of that, there are patterns behind these bugs. And so at that time, we were surprised that the paper was actually accepted. Because I&#8217;m just happy with the learning I get. But after this paper was accepted, in the next, I would say, many years, there are more and more people realize, hey, before we actually, you know, do bug-finding things, let&#8217;s first do a study, right, to understand, and then this paper was … yeah … I was very happy that it was cited many, many times.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Yeah. And then gets the most influential paper many years later.</p>
+
+
+
+<p><strong>LU:</strong> Many years later. Yes.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Yeah, I feel like there&#8217;s a lot of things going through my head right now, one of which is what AI is, is a pattern detector, and you were doing that before AI even came on the scene. Which goes to show you that humans are pretty good at pattern detection also. We might not do as fast as …</p>
+
+
+
+<p><strong>LU:</strong> True.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> … as an AI but … so this idea of learning from mistakes is a broad theme. Another theme that I see coming through your papers and your work is persistence. [LAUGHTER] And you mentioned this about your team, right. I was like, these people are people who don&#8217;t give up. So we covered this idea in an <em>Abstracts</em> podcast recently talking about a paper which really brings this to light: “If at First You Don&#8217;t Succeed, Try, Try Again.” That&#8217;s the name of the paper. And we didn&#8217;t have time to discuss it in depth at the time because the <em>Abstracts</em> show is so quick. But we do now. So I&#8217;d like you to expand a little bit on this big idea of persistence and how large language models are not only changing the way programming and verification happens but also providing insights into detecting <em>retry</em> bugs.</p>
+
+
+
+<p><strong>LU:</strong> Yes. So I guess maybe I will, since you mentioned this persistence, you know, after that “Learning from Mistakes” paper—so that was in 2008—and in the next 10 years, a little bit more than 10 years, in terms of persistence, right, so we have continued, me and my students, my collaborators, we have continued working on, you know, finding concurrency bugs …</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Yeah.</p>
+
+
+
+<p><strong>LU:</strong> … which is related to, kind of related to, why I&#8217;m here at Microsoft Research. And we keep doing it, doing it, and then I feel like a high point was that I had a collaboration with my now colleagues here, Madan Musuvathi and Suman Nath. So we built a tool to detect concurrency bugs, and after more than 15 years of effort on this, we were able to find more than 1,000 concurrency bugs. It was built in a tool called Torch that was deployed in the company, and it won the Best Paper Award at the top system conference, SOSP, and it was actually a bittersweet moment. This paper seems to, you know, put an end …</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Oh, interesting!</p>
+
+
+
+<p><strong>LU:</strong> … to our research. And also some of the findings from that paper is that we used to do very sophisticated program analysis to reason about the timing. And in that paper, we realized actually, sometimes, if you’re a little bit fuzzy, don&#8217;t aim to do perfect analysis, the resulting tool is actually more effective. So after that paper, Madan, Suman, and me, we kind of, you know, shifted our focus to looking at other types of bugs. And at the same time, the three of us realized the traditional, very precise program analysis may not be needed for some of the bug finding. So then, for this paper, this retry bugs, after we shifted our focus away from concurrency bugs, we realized, oh, there are many other types of important bugs, such as, in this case, like retry, right, when your software goes wrong, right. Another thing we learned is that it looks like you can never eliminate <em>all</em> bugs, so something will go wrong, [LAUGHTER] and then so that&#8217;s why you need something like retry, right. So like if something goes wrong, at least you won&#8217;t give up immediately.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Right.</p>
+
+
+
+<p><strong>LU:</strong> The software will <em>retry</em>. And another thing that started from this earlier effort is we started using large language models because we realized, yeah, you know, traditional program analysis sometimes can give you a very strong guarantee, but in some other cases, like in this retry case, some kind of fuzzy analysis, you know, not so precise, offered by large language models is sometimes even more beneficial. Yeah. So that&#8217;s kind of, you know, the story behind this paper.<strong><s></s></strong></p>
+
+
+
+<p><strong>HUIZINGA:</strong> Yeah, yeah, yeah, yeah. So, Shan, we&#8217;re hearing a lot about how large language models are writing code nowadays. In fact, NVIDIA&#8217;s CEO says, mamas, don&#8217;t let your babies grow up to be coders because AI’s going to do that. I don&#8217;t know if he&#8217;s right, but one of the projects you&#8217;re most excited about right now is called Verus, and your colleague Jay Lorch recently said that he sees a lot of synergy between AI and verification, where each discipline brings something to the other, and Rafah Hosn has referred to this as “co-innovation” or “bidirectional enrichment.” I don&#8217;t know if that&#8217;s exactly what is going on here, but it seems like it is. Tell us more about this project, Verus, and how AI and software verification are helping each other out.</p>
+
+
+
+<p><strong>LU:</strong> Yes, yes, yes, yes. I&#8217;m very excited about this project now! So first of all, starting from Verus. So Verus is a tool that helps you verify the correctness of Rust code. So this is a … it’s a relatively new tool, but it’s creating a lot of, you know, excitement in the research community, and it’s created by my colleague Chris Hawblitzel and his collaborators outside Microsoft Research.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Interesting.</p>
+
+
+
+<p><strong>LU:</strong> And as I mentioned, right, this is a part that, you know, really inspired me. So traditionally to verify, right, your program is correct, it requires a lot of expertise. You actually have to write your proof typically in a special language. And, you know, so a lot of people, including me, right, who are so eager to get rid of bugs in my software, but there are people told me, saying just to learn that language—so they were referring to a language called Coq—just to learn that language, they said it takes one or two years. And then once you learn that language, right, then you have to learn about how to write proofs in that special language. So people, particularly in the bug-finding community, people know that, oh, in theory, you can verify it, but in reality, people don&#8217;t do that. OK, so now going back to this Verus tool, why it&#8217;s exciting … so it actually allows people to write proofs in Rust. So Rust is an increasingly popular language. And there are more and more people picking up Rust. It’s the first time I heard about, oh, you can, you know, write proofs in a popular language. And also, another thing is in the past, you cannot verify an implementation directly. You can only verify something written in a special language. And the proof is proving something that is in a special language. And then finally, that special language is maybe then transformed into an implementation. So it&#8217;s just, there&#8217;s just too many special languages there.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> A lot of layers.</p>
+
+
+
+<p><strong>LU:</strong> A lot of layers. So now this Verus tool allows you to write a proof in Rust to prove an implementation that is <em>in</em> Rust. So it&#8217;s very direct. I just feel like I&#8217;m just not good at learning a new language.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Interesting.</p>
+
+
+
+<p><strong>LU:</strong> So when I came here, you know, and learned about this Verus tool, you know, by Chris and his collaborators, I feel like, oh, looks like maybe I can give it a try. And surprisingly, I realized, oh, wow! I can actually write proofs using this Verus tool.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Right.</p>
+
+
+
+<p><strong>LU:</strong> And then, of course, you know, I was told, if you really want to, right, write proofs for large systems, it still takes a lot of effort. And then this idea came to me that, hey, maybe, you know, these days, like, large language models can write code, then why not let large language models write proofs, right? And of course, you know, other people actually had this idea, as well, but there&#8217;s a doubt that, you know, can large language models <em>really</em> write proofs, right? And also, people have this feeling that, you know, large language models seem not very disciplined, you know, by nature. But, you know, that&#8217;s what intrigued me, right. And also, I used to be a doubter for, say, GitHub Copilot. <em>USED</em> to! Because I feel like, yes, it can generate a lot of code, but who knows [LAUGHS] …</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Whether it&#8217;s right …</p>
+
+
+
+<p><strong>LU:</strong> What, what is … whether it&#8217;s right?</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Yeah.</p>
+
+
+
+<p><strong>LU:</strong> Right, so I feel like, wow, you know, this could be a game-changer, right? Like, if AI can write not only code but also proofs. Yeah, so that&#8217;s what I have been doing. I&#8217;ve been working on this for one year, and I gradually get more collaborators both, you know, people in Microsoft Research Asia, and, you know, expertise here, like Chris, and Jay Lorch. They all help me a lot. So we actually have made a lot of progress.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Yeah.</p>
+
+
+
+<p><strong>LU:</strong> Like, now it&#8217;s, like, we&#8217;ve tried, like, for example, for some small programs, benchmarks, and we see that actually large language models can correctly prove the majority of the benchmarks that we throw to it. Yeah. It&#8217;s very, very exciting.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Well, and so … and we&#8217;re going to talk a little bit more about some of those doubts and some of those interesting concerns in a bit. I do want you to address what I think Jay was getting at, which is that somehow the two help each other. The verification improves the AI. The AI improves the verification.</p>
+
+
+
+<p><strong>LU:</strong> Yes, yes.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> How?</p>
+
+
+
+<p><strong>LU:</strong> Yes. My feeling is that a lot of people, if they&#8217;re concerned with using AI, it’s because they feel like there&#8217;s no guarantee for the content generated by AI, right. And then we also all heard about, you know, hallucination. And I tried myself. Like, I remember, at some point, if I ask AI, say, you know, which is bigger: is it three times three or eight? And the AI will tell me eight is bigger. And … [LAUGHTER]</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Like, <em>what</em>?</p>
+
+
+
+<p><strong>LU:</strong> So I feel like verification can really help AI …</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Get better …</p>
+
+
+
+<p><strong>LU:</strong> … because now you can give, you know, kind of, add in mathematical rigors into whatever that is generated by AI, right. And I say it would help AI. It will also help people who use AI, right, so that they know what can be trusted, right.</p>
+
+
+
+<p><strong>HUIZINGA: </strong>Right.</p>
+
+
+
+<p><strong>LU: </strong>What is guaranteed by this content generated by AI?</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Yeah, yeah, yeah.</p>
+
+
+
+<p><strong>LU:</strong> Yeah, and now of course AI can help verification because, you know, verification, you know, it&#8217;s hard. There is a lot of mathematical reasoning behind it. [LAUGHS] And so now with AI, it will enable verification to be picked up by more and more developers so that we can get higher-quality software.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Yeah.</p>
+
+
+
+<p><strong>LU:</strong> Yeah.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Yeah. And we&#8217;ll get to that, too, about what I would call the democratization of things. But before that, I want to, again, say an observation that I had based on your work and my conversations with you is that you&#8217;ve basically dedicated your career to hunting bugs.</p>
+
+
+
+<p><strong>LU:</strong> Yes.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> And maybe that&#8217;s partly due to a personal story about how a tiny mistake became a bug that haunted you for years. Tell us the story.</p>
+
+
+
+<p><strong>LU:</strong> Yes.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> And explain why and how it launched a lifelong quest to understand, detect, and expose bugs of all kinds.</p>
+
+
+
+<p><strong>LU:</strong> Yes. So before I came here, I already had multiple times, you know, interacting with Microsoft Research. So I was a summer intern at Microsoft Research Redmond almost 20 years ago.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Oh, wow!</p>
+
+
+
+<p><strong>LU:</strong> I think it was in the summer of 2005. And I remember I came here, you know, full of ambition. And I thought, OK, you know, I will implement some smart algorithm. I will deliver some useful tools. So at that time, I had just finished two years of my PhD, so I, kind of, just started my research on bug finding and so on. And I remember I came here, and I was told that I need to program in C#. And, you know, I just naturally have a fear of learning a new language. But anyway, I remember, I thought, oh, the task I was assigned was very straightforward. And I think I went ahead of myself. I was thinking, oh, I want to quickly finish this, and I want to do something more novel, you know, that can be more creative. But then this simple task I was assigned, I ended up spending the whole summer on it. So the tool that I wrote was supposed to process very huge logs. And then the problem is my software is, like, you run it initially … So, like, I can only run it for 10 minutes because my software used so much memory and it will crash. And then, I spent a lot of time … I was thinking, oh, my software is just using too much memory. Let me optimize it, right. And then so, I, you know, I try to make sure to use memory in a very efficient way, but then as a result, instead of crashing every 10 minutes, it will just crash after one hour. And I know there&#8217;s a bug at that time. So there&#8217;s a type of bug called memory leak. I know there&#8217;s a bug in my code, and I spent a lot of time and there was an engineer helping me checking my code. We spent a lot of time. We were just not able to find that bug. And at the end, we … the solution is I was just sitting in front of my computer waiting for my program to crash and restart. [LAUGHTER] And at that time, because there was very little remote working option, so in order to finish processing all those logs, it&#8217;s like, you know, after dinner, I …</p>
+
+
+
+<p><strong>HUIZINGA:</strong> You have to stay all night!</p>
+
+
+
+<p><strong>LU:</strong> I have to stay all night! And all my intern friends, they were saying, oh, Shan, you work really hard! And I&#8217;m just feeling like, you know what I&#8217;m doing is just sitting in front of my computer waiting [LAUGHTER]&nbsp;for my program to crash so that I can restart it! And near the end of my internship, I finally find the bug. It turns out that I missed a pair of brackets in one line of code.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> That&#8217;s it.</p>
+
+
+
+<p><strong>LU:</strong> That&#8217;s it.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Oh, my goodness.</p>
+
+
+
+<p><strong>LU:</strong> And it turns out, because I was used to C, and in C, when you want to free, which means deallocate, an array, you just say “free array.” And if I remember correctly, in this language, C#, you have to say, “free <em>this array name</em>” and you put a bracket behind it. Otherwise, it will only free the first element. And I … it was a nightmare. And I also felt like, the most frustrating thing is, if it&#8217;s a clever bug, right … [LAUGHS]</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Sure.</p>
+
+
+
+<p><strong>LU:</strong> &#8230; then you feel like at least I&#8217;m defeated by something complicated …</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Smart.</p>
+
+
+
+<p><strong>LU:</strong> Something smart. And then it&#8217;s like, you know, also all this ambition I had about, you know, doing creative work, right, with all these smart researchers in MSR (Microsoft Research), I feel like I ended up achieving very little in my summer internship.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> But maybe the humility of making a stupid mistake is the kind of thing that somebody who&#8217;s good at hunting bugs … It&#8217;s like missing an error in the headline of an article, because the print is so big [LAUGHTER] that you&#8217;re looking for the little things in the … I know that&#8217;s a journalist&#8217;s problem. Actually, I actually love that story. And it, kind of, presents a big picture of you, Shan, as a person who has a realistic, self-awareness of … and <em>humility</em>, which I think is rare at times in the software world. So thanks for sharing that. So moving on. When we talked before, you mentioned the large variety of programming languages and how that can be a barrier to entry or at least a big hurdle to overcome in software programming and verification. But you also talked about, as we just mentioned, how LLMs have been a democratizing force …</p>
+
+
+
+<p><strong>LU:</strong> Yes.</p>
+
+
+
+<p><strong>HUIZINGA: </strong>…<strong> </strong>in this field. So going back to when you first started …</p>
+
+
+
+<p><strong>LU:</strong> Yes.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> … and what you see now with the advent of tools like GitHub Copilot, …</p>
+
+
+
+<p><strong>LU:</strong> Yes.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> … what … what&#8217;s changed?</p>
+
+
+
+<p><strong>LU:</strong> Oh, so much has changed. Well, I don&#8217;t even know how to start. Like, I used to be really scared about programming. You know, when I tell this story, a lot of people say, no, I don&#8217;t believe you. And I feel like it&#8217;s a trauma, you know.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Sure.</p>
+
+
+
+<p><strong>LU:</strong> I almost feel like it&#8217;s like, you know, the college-day <em>me</em>, right, who was scared of starting any programming project. Somehow, I felt humiliated when asking those very, I feel like, stupid questions to my classmates. It almost changed my personality! It’s like … for a long time, whenever someone introduced me to a new software tool, my first reaction is, uh, I probably will not be able to successfully even install it. Like whenever, you know, there&#8217;s a new language, my first reaction is, uh, no, I&#8217;m not good at it. And then, like, for example, this GitHub Copilot thing, actually, I did not try it until I joined Microsoft. And then I, actually, I haven&#8217;t programmed for a long time. And then I started collaborating with people in Microsoft Research Asia, and he writes programs in Python, right. And I have never written a single line of Python code before. And also, this Verus tool. It helps you to verify code in Rust, but I have never learned Rust before. So I thought, OK, maybe let me just try GitHub Copilot. And wow! You know, it&#8217;s like I realized, wow! Like … [LAUGHS]</p>
+
+
+
+<p><strong>HUIZINGA:</strong> I can do this!</p>
+
+
+
+<p><strong>LU:</strong> I can do this! And, of course, sometimes I feel like my colleagues may sometimes be surprised because on one hand it looks like I&#8217;m able to just finish, you know, write a Rust function. But on some other days, I ask very basic questions, [LAUGHTER] and I have those questions because, you know, the GitHub Copilot just helps me finish! [LAUGHS]</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Right.</p>
+
+
+
+<p><strong>LU:</strong> You know, I’m just starting something to start it, and then it just helps me finish. And I wish, when I started my college, if at that time there was GitHub Copilot, I feel like, you know, my mindset towards programming and towards computer science might be different. So it does make me feel very positive, you know, about, you know, what future we have, you know, with AI, with computer science.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> OK, <em>usually,</em> I ask researchers at this time, what could possibly go wrong if you got everything right? And I was thinking about this question in a different way until just this minute. I want to ask you … what do you think that it means to have a tool that can do things <em>for you</em> that you don&#8217;t have to struggle with? And maybe, is there anything good about the struggle? Because you&#8217;re framing it as it sapped your confidence.</p>
+
+
+
+<p><strong>LU:</strong> [LAUGHS] Yes.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> And at the same time, I see a woman who emerged stronger because of this struggle with an amazing career, a huge list of publications, influential papers, citations, leadership role. [LAUGHTER] So in light of that …</p>
+
+
+
+<p><strong>LU:</strong> Right.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> … what do you see as the tension between struggling to learn a new language versus having this tool that can just do it that makes you look amazing? And maybe the truth of it is you <em>don&#8217;t</em> know!</p>
+
+
+
+<p><strong>LU:</strong> Yeah. That&#8217;s a very good point. I guess you need some kind of balance. And on one hand, yes, I feel like, again, right, this goes back to like my internship. I left with the frustration that I felt like I have so much creativity to contribute, and yet I could not because of this language barrier. You know, I feel positive in the sense that just from GitHub Copilot, right, how it has enabled me to just bravely try something new. I feel like this goes beyond just computer science, right. I can imagine it&#8217;ll help people to truly unleash their creativity, not being bothered by some challenges in learning the tool. But on the other hand, you made a very good point. My adviser told me she feels like, you know, I write code slowly, but I tend to make fewer mistakes. And the difficulty of learning, right, and all these nightmares I had definitely made me more … more cautious? I pay more respect to the task that is given to me, so there is definitely the other side of AI, right, which is, you feel like everything is easy and maybe you do not have the experience of those bugs, right, that a software can bring to you and you have overreliance, right, on this tool.</p>
+
+
+
+<p><strong>HUIZINGA: </strong>Yeah!</p>
+
+
+
+<p><strong>LU: </strong>So hopefully, you know, some of the things we we&#8217;re doing now, right, like for example, say verification, right, like bringing this mathematical rigor to AI, hopefully that can help.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Yeah. You know, even as you unpack the nuances there, it strikes me that both are good. Both having to struggle and learning languages and understanding …</p>
+
+
+
+<p><strong>LU:</strong> Yeah.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> … the core of it <em>and</em> the idea that in natural language, you could just say, here&#8217;s what I want to happen, and the AI does the code, the verification, etc. That said, do we trust it? And this was where I was going with the first “what could possibly go wrong?” question. How do we know that it is really as clever as it appears to be? [LAUGHS]</p>
+
+
+
+<p><strong>LU:</strong> Yeah, I think I would just use the research problem we are working on now, right. Like, I think on one hand, I can use AI to generate a proof, right, to prove the code generated by AI is correct. But having said that, even if we&#8217;re wildly successful, you know, in this thing, human beings’ expertise is still needed because just take this as an example. What do you mean by “correct,” right?</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Sure.</p>
+
+
+
+<p><strong>LU:</strong> And so someone first has to define what correctness means. And then so far, the experience shows that you can&#8217;t just define it using natural language because our natural language is inherently imprecise.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Sure.</p>
+
+
+
+<p><strong>LU:</strong> So you still need to translate it to a formal specification in a programming language. It could be in a popular language like in Rust, right, which is what Verus is aiming at. And then we are, like, for example, some of the research we do is showing that, yes, you know, I can also use AI to do this translation from natural language to specification. But again, then, who to verify <em>that</em>, right? So at the end of the day, I think we still do need to have humans in the loop. But what we can do is to lower the burden and make the interface not so complicated, right. So that it&#8217;ll be easy for human beings to check what AI has been doing.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Yeah. You know, everything we&#8217;re talking about just reinforces this idea that we&#8217;re living in a time where the advances in computer science that seemed unrealistic or impossible, unattainable even a few years ago are now so common that we take it for granted. And they don&#8217;t even seem outrageous, but they are. So I&#8217;m interested to know what, if anything, you would classify now as “blue sky” research in your field. Maybe something in systems research today that looks like a moonshot. You&#8217;ve actually anchored this in the fact that you, kind of, have, you know, blinders on for the work you&#8217;re doing—head down in the in the work you&#8217;re doing—but even as you peek up from the work that might be outrageous, is there anything else? I just like to get this out there that, you know, what&#8217;s going on 10 years down the line?</p>
+
+
+
+<p><strong>LU:</strong> You know, sometimes I feel like I&#8217;m just now so much into my own work, but, you know, occasionally, like, say, when I had a chat with my daughter and I explained to her, you know, oh, I&#8217;m working on, you know, not only having AI to generate code but also having AI to prove, right, the code is correct. And she would feel, wow, that sounds amazing! [LAUGHS] So I don&#8217;t know whether that is, you know, a moonshot thing, but that&#8217;s a thing that I&#8217;m super excited about …</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Yeah.</p>
+
+
+
+<p><strong>LU:</strong> … about the potential. And then there also have, you know, my colleagues, we spend a lot of time building systems, and it&#8217;s not just about correctness, right. Like, the verification thing I&#8217;m doing now is related to automatically verify it’s correct. But also, you need to do a lot of performance tuning, right. Just so that your system can react fast, right. It can have good utilization of computer resources. And my colleagues are also working on using AI, right, to automatically do performance tuning. And I know what they are doing, so I don&#8217;t particularly feel that&#8217;s a <em>moonshot</em>, but I guess …</p>
+
+
+
+<p><strong>HUIZINGA:</strong> I feel like, because you are so immersed, [LAUGHTER] that you just don&#8217;t see how much <em>we</em> think …</p>
+
+
+
+<p><strong>LU:</strong> Yeah!</p>
+
+
+
+<p><strong>HUIZINGA:</strong> … it&#8217;s amazing. Well, I&#8217;m just delighted to talk to you today, Shan. As we close … and you&#8217;ve sort of just done a little vision casting, but let&#8217;s take your daughter, my daughter,&nbsp;[LAUGHTER] all of our daughters …</p>
+
+
+
+<p><strong>LU:</strong> Yes!</p>
+
+
+
+<p><strong>HUIZINGA:</strong> How does what we believe about the future in terms of these things that we could accomplish influence the work we do today as sort of a vision casting for the next “Shan Lu” who&#8217;s struggling in undergrad/grad school?</p>
+
+
+
+<p><strong>LU:</strong> Yes, yes, yes. Oh, thank you for asking that question. Yeah, I have to say, you know, I think we&#8217;re in a very interesting time, right, with all this AI thing.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Isn’t that a curse in China? “May you live in interesting times!”</p>
+
+
+
+<p><strong>LU:</strong> And I think there were times, actually, you know, before I myself fully embraced AI, I was … indeed I had my daughter in mind. I was worried when she grows up, what would happen? There will be no job for her because everything will be done by AI!</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Oh, interesting.</p>
+
+
+
+<p><strong>LU:</strong> But then now, now that I have, you know, kind of fully embraced AI myself, actually, I see this more and more positive. Like you said, I remember, you know, those older days myself, right. That is really, like, I have this struggle that I feel like I can do better. I feel like I have ideas to contribute, but just for whatever reason, right, it took me forever to learn something which I feel like it&#8217;s a very mechanical thing, but it just takes me forever to learn, right. And then now actually, I see this hope, right, with AI, you know, a lot of mechanical things that can actually now be done in a much more automated way by AI, right. So then now truly, you know, my daughter, many girls, many kids out there, right, whatever you know, they are good at, their creativity, it&#8217;ll be much easier, right, for them to contribute their creativity to whatever discipline they are passionate about. Hopefully, they don&#8217;t have to, you know, go through what I went through, right, to finally be able to contribute. But then, of course, you know, at the same time, I do feel this responsibility of me, my colleagues, MSR, we have the capability and also the responsibility, right, of building AI tools in a responsible way so that it will be used in a positive way by the next generation.</p>
+
+
+
+<p><strong>HUIZINGA:</strong> Yeah. Shan Lu, thank you so much for coming on the show today. [MUSIC] It&#8217;s been absolutely delightful, instructive, informative, wonderful.</p>
+
+
+
+<p><strong>LU:</strong> Thank you. My pleasure.</p>
+
+				</span>
+			</div>
+			<button
+				class="action-trigger glyph-prepend mt-2 mb-0 show-more-show-less-toggle"
+				aria-expanded="false"
+				data-show-less-text="Show less"
+				type="button"
+				aria-controls="show-more-show-less-toggle-1"
+				aria-label="Show more content"
+				data-alternate-aria-label="Show less content">
+				Show more			</button>
+		</div>
+	</div>
+</div>
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/podcast/ideas-bug-hunting-with-shan-lu/">Ideas: Bug hunting with Shan Lu</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Research Focus: Week of January 13, 2025</title>
 		<link>https://www.microsoft.com/en-us/research/blog/research-focus-week-of-january-13-2025/</link>
 		
@@ -50,7 +759,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img fetchpriority="high" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1.jpg" alt="Decorative graphic with wavy shapes in the background in blues and purples. Text overlay in center left reads: “Research Focus: January 17, 2024”" class="wp-image-1122399" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1.jpg" alt="Decorative graphic with wavy shapes in the background in blues and purples. Text overlay in center left reads: “Research Focus: January 17, 2024”" class="wp-image-1122399" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
 
 
 
@@ -94,7 +803,7 @@
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--1"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/communication-efficient-secure-and-private-multi-party-deep-learning/">Read the paper</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--2"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/communication-efficient-secure-and-private-multi-party-deep-learning/">Read the paper</a></div>
 </div>
 
 
@@ -122,7 +831,7 @@
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-3 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--2"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/judgeblender-ensembling-judgments-for-automatic-relevance-assessment/">Read the paper</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--3"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/judgeblender-ensembling-judgments-for-automatic-relevance-assessment/">Read the paper</a></div>
 </div>
 
 
@@ -150,7 +859,7 @@
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-4 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--3"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/convergence-to-equilibrium-of-no-regret-dynamics-in-congestion-games/">Read the paper</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--4"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/convergence-to-equilibrium-of-no-regret-dynamics-in-congestion-games/">Read the paper</a></div>
 </div>
 
 
@@ -186,36 +895,36 @@
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-5 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--4"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/articles/rd-agent-an-open-source-solution-for-smarter-rd/">Read the article</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--5"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/articles/rd-agent-an-open-source-solution-for-smarter-rd/">Read the article</a></div>
 </div>
 </div>
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085496">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="999693">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Event Series</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" aria-label="Eureka: Evaluating and understanding progress in AI" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/NEWEureka-2024-BlogHeroFeature-1400x788-1-66e90c195464d.jpg" alt="White icons representing the Eureka Experiment Pipeline -- PromptProcessing, Inference, PromptProcessing, Inference, DataProcessing, EvalReporting -- on blue to green gradient background." />
+				<a class="bg-gray-300" href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum" data-bi-cN="Microsoft Research Forum" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MRF-24_WebImage_1400x788.png" alt="various abstract 3D shapes on a light blue background" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Eureka: Evaluating and understanding progress in AI</h2>
+									<h2 class="h4">Microsoft Research Forum</h2>
 				
-								<p class="large">How can we rigorously evaluate and understand state-of-the-art progress in AI? Eureka is an open-source framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. Learn more about the extended findings. </p>
+								<p class="large">Join us for a continuous exchange of ideas about research in the era of general AI. Watch the first four episodes on demand.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
-							Read more						</a>
+						<a href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum" target="_blank">
+							Watch on-demand						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -330,11 +1039,11 @@
 <p>The post <a href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-for-materials-discovery-with-tian-xie-and-ziheng-lu/">Ideas: AI for materials discovery with Tian Xie and Ziheng Lu</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788.jpg" alt="Ideas podcast | illustration of Tian Xie and Ziheng Lu" class="wp-image-1120947" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788.jpg" alt="Ideas podcast | illustration of Tian Xie and Ziheng Lu" class="wp-image-1120947" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
 
 
 <div class="wp-block-msr-podcast-container my-4">
-	<iframe src="https://player.blubrry.com/?podcast_id=141011047&modern=1" class="podcast-player" frameborder="0" height="164px" width="100%" scrolling="no" title="Podcast Player"></iframe>
+	<iframe loading="lazy" src="https://player.blubrry.com/?podcast_id=141011047&modern=1" class="podcast-player" frameborder="0" height="164px" width="100%" scrolling="no" title="Podcast Player"></iframe>
 </div>
 
 
@@ -467,7 +1176,7 @@
 
 
 				</span>
-				<span id="show-more-show-less-toggle-5" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-6" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -701,7 +1410,7 @@
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-5"
+				aria-controls="show-more-show-less-toggle-6"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -791,30 +1500,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085508">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085520">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" aria-label="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/MedFuzz-BlogHeroFeature-1400x788-1.jpg" alt="MedFuzz blog hero (decorative)" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/collaborators-silica-in-space-with-richard-black-and-dexter-greene/" aria-label="Collaborators: Silica in space with Richard Black and Dexter Greene" data-bi-cN="Collaborators: Silica in space with Richard Black and Dexter Greene" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/Richard-and-Dexter_Collaborators_Hero_Feature_No_Text_1400x788-1.jpg" alt="Headshots of Richard Black and Dexter Greene for the Microsoft Research Podcast" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">MedFuzz: Exploring the robustness of LLMs on medical challenge problems</h2>
+									<h2 class="h4">Collaborators: Silica in space with Richard Black and Dexter Greene</h2>
 				
-								<p class="large">Medfuzz tests LLMs by breaking benchmark assumptions, exposing vulnerabilities to bolster real-world accuracy.</p>
+								<p class="large">College freshman Dexter Greene and Microsoft research manager Richard Black discuss how technology that stores data in glass is supporting students as they expand earlier efforts to communicate what it means to be human to extraterrestrials.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
-							Read more						</a>
+						<a href="https://www.microsoft.com/en-us/research/podcast/collaborators-silica-in-space-with-richard-black-and-dexter-greene/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="Collaborators: Silica in space with Richard Black and Dexter Greene" target="_blank">
+							Listen now						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -949,30 +1658,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="999693">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085496">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Event Series</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum" data-bi-cN="Microsoft Research Forum" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MRF-24_WebImage_1400x788.png" alt="various abstract 3D shapes on a light blue background" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" aria-label="Eureka: Evaluating and understanding progress in AI" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/NEWEureka-2024-BlogHeroFeature-1400x788-1-66e90c195464d.jpg" alt="White icons representing the Eureka Experiment Pipeline -- PromptProcessing, Inference, PromptProcessing, Inference, DataProcessing, EvalReporting -- on blue to green gradient background." />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Microsoft Research Forum</h2>
+									<h2 class="h4">Eureka: Evaluating and understanding progress in AI</h2>
 				
-								<p class="large">Join us for a continuous exchange of ideas about research in the era of general AI. Watch the first four episodes on demand.</p>
+								<p class="large">How can we rigorously evaluate and understand state-of-the-art progress in AI? Eureka is an open-source framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. Learn more about the extended findings. </p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum" target="_blank">
-							Watch on-demand						</a>
+						<a href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
+							Read more						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -1451,7 +2160,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 				</span>
-				<span id="show-more-show-less-toggle-6" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-7" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -2105,7 +2814,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-6"
+				aria-controls="show-more-show-less-toggle-7"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -2163,7 +2872,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-6 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--7"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/neomem-hardware-software-co-design-for-cxl-native-memory-tiering/">Read the paper</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--8"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/neomem-hardware-software-co-design-for-cxl-native-memory-tiering/">Read the paper</a></div>
 </div>
 
 
@@ -2195,7 +2904,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-7 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--8"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/chimera-accurate-retrosynthesis-prediction-by-ensembling-models-with-diverse-inductive-biases/">Read the paper</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--9"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/chimera-accurate-retrosynthesis-prediction-by-ensembling-models-with-diverse-inductive-biases/">Read the paper</a></div>
 </div>
 
 
@@ -2205,30 +2914,30 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="999693">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115763">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Event Series</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft Research Blog</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum" data-bi-cN="Microsoft Research Forum" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MRF-24_WebImage_1400x788.png" alt="various abstract 3D shapes on a light blue background" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/" aria-label="AIOpsLab: Building AI agents for autonomous clouds" data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1.png" alt="White outline illustrations for AIOps on a blue and green gradient background." />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Microsoft Research Forum</h2>
+									<h2 class="h4">AIOpsLab: Building AI agents for autonomous clouds</h2>
 				
-								<p class="large">Join us for a continuous exchange of ideas about research in the era of general AI. Watch the first four episodes on demand.</p>
+								<p class="large">AIOpsLab is an open-source framework designed to evaluate and improve AI agents for cloud operations, offering standardized, scalable benchmarks for real-world testing, enhancing cloud system reliability.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum" target="_blank">
-							Watch on-demand						</a>
+						<a href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds" target="_blank">
+							Read more						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -2259,7 +2968,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-8 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--9"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/the-ga4gh-task-execution-application-programming-interface-enabling-easy-multicloud-task-execution/">Read the paper</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--10"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/the-ga4gh-task-execution-application-programming-interface-enabling-easy-multicloud-task-execution/">Read the paper</a></div>
 </div>
 
 
@@ -2295,7 +3004,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-9 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--10"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/redcode-multi-dimensional-safety-benchmark-for-code-agents/">Read the paper</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--11"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/redcode-multi-dimensional-safety-benchmark-for-code-agents/">Read the paper</a></div>
 </div>
 </div>
 
@@ -2323,7 +3032,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-10 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--11"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/towards-foundation-models-for-learning-on-tabular-data/">Read the paper</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--12"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/towards-foundation-models-for-learning-on-tabular-data/">Read the paper</a></div>
 </div>
 </div>
 
@@ -2548,7 +3257,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 				</span>
-				<span id="show-more-show-less-toggle-12" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-13" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -2710,7 +3419,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-12"
+				aria-controls="show-more-show-less-toggle-13"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -2847,30 +3556,30 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="999693">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085508">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Event Series</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum" data-bi-cN="Microsoft Research Forum" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MRF-24_WebImage_1400x788.png" alt="various abstract 3D shapes on a light blue background" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" aria-label="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/MedFuzz-BlogHeroFeature-1400x788-1.jpg" alt="MedFuzz blog hero (decorative)" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Microsoft Research Forum</h2>
+									<h2 class="h4">MedFuzz: Exploring the robustness of LLMs on medical challenge problems</h2>
 				
-								<p class="large">Join us for a continuous exchange of ideas about research in the era of general AI. Watch the first four episodes on demand.</p>
+								<p class="large">Medfuzz tests LLMs by breaking benchmark assumptions, exposing vulnerabilities to bolster real-world accuracy.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum" target="_blank">
-							Watch on-demand						</a>
+						<a href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
+							Read more						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -2947,162 +3656,6 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 <p>&nbsp;Whether you are a researcher addressing cutting-edge challenges or an organization looking to streamline workflows, PromptWizard provides a practical, scalable, and impactful solution for enhancing model performance.</p>
 <span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/">PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Moving to GraphRAG 1.0 &#8211; Streamlining ergonomics for developers and users</title>
-		<link>https://www.microsoft.com/en-us/research/blog/moving-to-graphrag-1-0-streamlining-ergonomics-for-developers-and-users/</link>
-		
-		<dc:creator><![CDATA[Brenda Potts]]></dc:creator>
-		<pubDate>Mon, 16 Dec 2024 17:00:00 +0000</pubDate>
-				<category><![CDATA[Research Blog]]></category>
-		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1111143</guid>
-
-					<description><![CDATA[<p>GraphRAG helps advance AI use in complex domains like science. Thanks to enthusiastic adoption and community engagement, we’ve upgraded the pre-release version. Check out the major ergonomic and structural updates in GraphRAG 1.0.</p>
-<p>The post <a href="https://www.microsoft.com/en-us/research/blog/moving-to-graphrag-1-0-streamlining-ergonomics-for-developers-and-users/">Moving to GraphRAG 1.0 &#8211; Streamlining ergonomics for developers and users</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/GraphRAG-1.0-BlogHeroFeature-1400x788-1.png" alt="GraphRAG blog hero - cluster of small circular nodes on a blue/green gradient background" class="wp-image-1111170" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/GraphRAG-1.0-BlogHeroFeature-1400x788-1.png 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/GraphRAG-1.0-BlogHeroFeature-1400x788-1-300x169.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/GraphRAG-1.0-BlogHeroFeature-1400x788-1-1024x576.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/GraphRAG-1.0-BlogHeroFeature-1400x788-1-768x432.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/GraphRAG-1.0-BlogHeroFeature-1400x788-1-1066x600.png 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/GraphRAG-1.0-BlogHeroFeature-1400x788-1-655x368.png 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/GraphRAG-1.0-BlogHeroFeature-1400x788-1-240x135.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/GraphRAG-1.0-BlogHeroFeature-1400x788-1-640x360.png 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/GraphRAG-1.0-BlogHeroFeature-1400x788-1-960x540.png 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/GraphRAG-1.0-BlogHeroFeature-1400x788-1-1280x720.png 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
-
-
-
-<h2 class="wp-block-heading" id="introducing-graphrag-1-0">Introducing GraphRAG 1.0</h2>
-
-
-
-<p>Microsoft <a href="https://www.microsoft.com/en-us/research/blog/graphrag-new-tool-for-complex-data-discovery-now-on-github/" target="_blank" rel="noreferrer noopener">debuted<span class="sr-only"> (opens in new tab)</span></a> the pre-release version of <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/graphrag" target="_blank" rel="noreferrer noopener">GraphRAG<span class="sr-only"> (opens in new tab)</span></a> in July 2024 to advance AI use in complex domains. Since that time, we’ve seen incredible adoption and community engagement (over 20k stars and 2k forks on GitHub as of this writing), with numerous fixes and improvements by the core team and community contributors. We’re deeply grateful for the contributions and feedback we’ve received and are excited to share a number of major ergonomic and structural improvements that culminate in the official release of GraphRAG 1.0.&nbsp;</p>
-
-
-
-<h2 class="wp-block-heading" id="ergonomic-refactors">Ergonomic refactors</h2>
-
-
-
-<h3 class="wp-block-heading" id="easier-setup-for-new-projects">Easier setup for new projects</h3>
-
-
-
-<p>When we first launched GraphRAG, most config was done using environment variables, which could be daunting, given the many options available. We’ve reduced the friction on setup by adding an <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://microsoft.github.io/graphrag/config/init/" target="_blank" rel="noreferrer noopener">init command<span class="sr-only"> (opens in new tab)</span></a> that generates a simplified starter settings.yml file with all core required config already set. We recommend developers start here to ensure they get the clearest initial config. With this update, a minimal starting config does not require the user to have expertise with GraphRAG for a quick setup, only an OpenAI API key in their environment.&nbsp;</p>
-
-
-
-<h3 class="wp-block-heading" id="new-and-expanded-command-line-interface">New and expanded command line interface</h3>
-
-
-
-<p>We expanded the functionality and ease of use of the <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://microsoft.github.io/graphrag/cli/" target="_blank" rel="noreferrer noopener">command line interface<span class="sr-only"> (opens in new tab)</span></a> (CLI) and adopted <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/fastapi/typer" target="_blank" rel="noreferrer noopener">Typer<span class="sr-only"> (opens in new tab)</span></a> to provide better inline documentation and a richer CLI experience. The original CLI was intended as a starter demo for users to try GraphRAG on a sample dataset. We’ve since learned from the community that most people actually want to use this as their primary interaction mode for GraphRAG, so as part of this milestone release, we’ve incorporated enhancements that result in a more streamlined experience. From this work, CLI startup times dropped from an average of 148 seconds to 2 seconds. </p>
-
-
-
-<h3 class="wp-block-heading" id="consolidated-api-layer">Consolidated API layer</h3>
-
-
-
-<p>In August 2024 we introduced a standalone API layer to simplify developer usage. The original CLI contained all the code required to instantiate and execute basic indexing and query commands, which users often needed to replicate. The API layer is still considered provisional as we gather feedback, but is intended to be the primary entry point for developers who wish to integrate GraphRAG functionality into their own applications without deep pipeline or query class customization. In fact, the CLI and <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/azure-samples/graphrag-accelerator" target="_blank" rel="noreferrer noopener">Accelerator<span class="sr-only"> (opens in new tab)</span></a> are built entirely on top of the API layer, acting as a documented example of how to interact with the API. We have also added examples of how to use this API to our <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://microsoft.github.io/graphrag/query/notebooks/overview/" target="_blank" rel="noreferrer noopener">notebook collection<span class="sr-only"> (opens in new tab)</span></a> that we will continue to update as we iterate in future releases.&nbsp;</p>
-
-
-
-<h3 class="wp-block-heading" id="simplified-data-model">Simplified data model</h3>
-
-
-
-<p>GraphRAG creates several output artifacts to store the indexed knowledge model. The initial model contained a large number of files, fields, and cross-references based on experimental ideas during the early research, which can be overwhelming for both new and routine users. We performed a comprehensive review of the data model and incorporated fixes to add clarity and consistency, remove redundant or unused fields, improve storage space, and simplify the data models. Previously, the output lacked standardization, and relevant outputs could easily be confused with non-critical intermediary output files. Now with GraphRAG 1.0, the output will only include relevant outputs that are easily readable and traceable.&nbsp;</p>
-
-
-
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115766">
-		
-
-		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research blog</span>
-	</p>
-	
-	<div class="row pt-3 pb-4 align-items-center">
-						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" aria-label="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1.png" alt="A diagram illustrating the joint optimization process of instructions and in-context examples in PromptWizard. The figure demonstrates how the framework iteratively refines both components, integrating feedback to enhance the overall prompt effectiveness and adaptability across tasks." />
-				</a>
-			</div>
-			
-			<div class="msr-promo__content p-3 px-5 col-12 col-md">
-
-									<h2 class="h4">PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts</h2>
-				
-								<p class="large">PromptWizard from Microsoft Research is now open source. It is designed to automate and simplify AI prompt optimization, combining iterative LLM feedback with efficient exploration and refinement techniques to create highly effective prompts in minutes.</p>
-				
-								<div class="wp-block-buttons justify-content-center justify-content-md-start">
-					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
-							Read more						</a>
-					</div>
-				</div>
-							</div><!--/.msr-promo__content-->
-	</div><!--/.msr-promo__inner-wrap-->
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
-	
-
-
-<h3 class="wp-block-heading" id="streamlined-vector-stores">Streamlined vector stores</h3>
-
-
-
-<p>Embeddings and their vector stores are some of the primary drivers of  GraphRAG’s storage needs. Our original data model stored all embeddings within the parquet output files after data ingestion and indexing. This made the files portable, which was convenient for early research, but for many users it became unnecessary as they configured their own vector stores and the scale of data ingestion grew. We have updated the GraphRAG pipeline to create a default vector store <em>during indexing,</em> so no post-processing is needed, and the query library shares this configuration for seamless use. The benefit of this change is that those vectors (which can be quite large) no longer need to be loaded when the output files are read from disk, saving read time and memory during every query. Coupled with the simplified data model, this resulted in output parquet disk savings of 80%, and total disk space (including embeddings in the vector store) reduction of 43%. GraphRAG supports LanceDB and Azure AI Search out-of-the-box for vector stores. For simple startup, LanceDB is used as the default, and is written to a local database alongside the knowledge model artifacts. </p>
-
-
-
-<h3 class="wp-block-heading" id="flatter-clearer-code-structure">Flatter, clearer code structure</h3>
-
-
-
-<p>A key initiative on the road to version 1.0 has been to simplify the codebase so it is easier to maintain and more approachable for third-party users. We’ve removed much of the code depth from the organization to make it easier to browse, and co-located more code that our own usage patterns indicate was not required to be in separate functional areas. </p>
-
-
-
-<p>We have also found that very few users need the declarative configuration that the underlying <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/datashaper" target="_blank" rel="noreferrer noopener">DataShaper<span class="sr-only"> (opens in new tab)</span></a> engine provides, so we collapsed these 88 verbose workflow definitions into a smaller set of 11 workflows that operate in a functional versus composed manner. This makes the pipeline easier to understand and is a step toward an architecture that is better suited for our future research plans and improves performance across the board. By collapsing workflows, we now have fewer unused output artifacts, reduced data duplication, and fewer disk I/O operations. This streamlining has also reduced the in-memory footprint of the pipeline, enabling users to index and analyze larger datasets with GraphRAG.</p>
-
-
-
-<h3 class="wp-block-heading" id="incremental-ingest">Incremental ingest</h3>
-
-
-
-<p>Until now, an evolving dataset needed complete re-indexing every time new information was acquired in order to re-generate the knowledge model. In GraphRAG 1.0 we are including a new <strong>update</strong> command in the CLI that computes the deltas between an existing index and newly added content and intelligently merges the updates to minimize re-indexing. GraphRAG uses an LLM caching mechanism to save as much cost as possible when re-indexing, so re-runs over a dataset are often significantly faster and cheaper than an initial run. Adding brand new content can alter the community structure such that much of an index needs to be re-computed – the <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://microsoft.github.io/graphrag/cli/#update" target="_blank" rel="noreferrer noopener">update command<span class="sr-only"> (opens in new tab)</span></a> resolves this while also improving answer quality.&nbsp;</p>
-
-
-
-<h2 class="wp-block-heading" id="availability">Availability</h2>
-
-
-
-<p>GraphRAG version 1.0 is now available on <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/graphrag" target="_blank" rel="noreferrer noopener">GitHub<span class="sr-only"> (opens in new tab)</span></a>, and published to <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://pypi.org/project/graphrag/">PyPI<span class="sr-only"> (opens in new tab)</span></a>. Check out the <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://microsoft.github.io/graphrag/get_started/" target="_blank" rel="noreferrer noopener">Getting Started<span class="sr-only"> (opens in new tab)</span></a> guide to use GraphRAG 1.0 today. today. </p>
-
-
-
-<h3 class="wp-block-heading" id="migrating">Migrating</h3>
-
-
-
-<p>We recommend users migrate to GraphRAG 1.0, which offers a streamlined experience including multiple improvements for both users and developers. However, because of the breadth of its updates, version 1.0 is not backwards compatible. If you’ve used GraphRAG prior to version 1.0 and have existing indexes, there are a handful of breaking changes that need to be addressed, but this should be a straightforward process. To support the community in this migration, we’ve created a <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/graphrag/blob/main/v1-breaking-changes.md" target="_blank" rel="noreferrer noopener">migration guide<span class="sr-only"> (opens in new tab)</span></a> in the repository with more information. </p>
-
-
-
-<h3 class="wp-block-heading" id="future-directions">Future directions</h3>
-
-
-
-<p>We recently posted about a brand-new approach to GraphRAG called <a href="https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/" target="_blank" rel="noreferrer noopener">LazyGraphRAG</a>, which performs minimal up-front indexing to avoid LLM usage until user queries are executed. This avoids LLM-based summarization of large volumes of content that may not be interesting to users – and therefore never explored even after expensive processing. This approach shows strong performance at a fraction of the cost of GraphRAG, and will be added to the core GraphRAG codebase in the near future as a new option for users.&nbsp;</p>
-
-
-
-<p>Additionally, Microsoft has been active in exploring how GraphRAG can advance the rate of scientific progress, and is in the process of building relevant GraphRAG capabilities to align with our broader work in <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://blogs.microsoft.com/blog/2024/06/18/empowering-every-scientist-with-ai-augmented-scientific-discovery/" target="_blank" rel="noreferrer noopener">AI-enabled scientific discovery<span class="sr-only"> (opens in new tab)</span></a>.</p>
-
-
-
-<p>We continue to refine the codebase and investigate architectural changes that will enable users to use their own language model APIs, storage providers, and vector stores. We’re excited about this major milestone, and the foundation that this refactoring lays for our continued research in the GraphRAG space.</p>
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/moving-to-graphrag-1-0-streamlining-ergonomics-for-developers-and-users/">Moving to GraphRAG 1.0 &#8211; Streamlining ergonomics for developers and users</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></content:encoded>
 					
 		

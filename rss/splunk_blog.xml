@@ -6,27 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 23 Jan 2025 01:46:48 +0000</lastBuildDate>
-    <item>
-      <title>ITSM Today: IT Service Management Frameworks, Trends, and Do’s &amp; Don’ts</title>
-      <link>https://www.splunk.com/en_us/blog/learn/itsm-it-service-management.html</link>
-      <description>Discover how ITSM frameworks like ITIL streamline IT operations, improve service quality, and boost business efficiency with automation.</description>
-    </item>
-    <item>
-      <title>Data Protection: Best Ways To Protect Your Data Today</title>
-      <link>https://www.splunk.com/en_us/blog/learn/data-protection.html</link>
-      <description>Protecting your data is serious business for every business and organization today. Learn how to protect your data: it starts with understanding the risk.</description>
-    </item>
-    <item>
-      <title>What Are SLOs? Service Level Objectives Explained</title>
-      <link>https://www.splunk.com/en_us/blog/learn/service-level-objectives-slo.html</link>
-      <description>Learn about Service Level Objectives (SLOs), their role in defining service performance, key metrics, and how they ensure reliability, quality, and cost-efficiency.</description>
-    </item>
-    <item>
-      <title>Harness the Power of Cisco Talos Threat Intelligence Across Splunk Security Products</title>
-      <link>https://www.splunk.com/en_us/blog/security/cisco-talos-threat-intelligence-splunk-security.html</link>
-      <description>Leverage Cisco Talos’ threat intelligence through Cisco Talos Intelligence for Enterprise Security, the Cisco Talos Intelligence connector for Splunk SOAR, and as a globally enabled feature in Splunk Attack Analyzer.</description>
-    </item>
+    <lastBuildDate>Fri, 24 Jan 2025 01:46:33 +0000</lastBuildDate>
     <item>
       <title>Fine-Grained Authorization for Saved Searches</title>
       <link>https://www.splunk.com/en_us/blog/platform/authorization-for-saved-searches.html</link>
@@ -53,6 +33,26 @@
       <description>Capture the flag, but for security! Yes, the game you know from childhood is an important cybersecurity practice across the world. Learn more here.</description>
     </item>
     <item>
+      <title>The Power of Partnerships Between CISOs and Their Boards</title>
+      <link>https://www.splunk.com/en_us/blog/leadership/the-power-of-partnerships-between-cisos-and-their-boards.html</link>
+      <description>Splunk's CISO Report explores the gaps between CISOs and their boards, and shares best practices to help CISOs reach across the aisle.</description>
+    </item>
+    <item>
+      <title>Security Intelligence: An Introduction</title>
+      <link>https://www.splunk.com/en_us/blog/learn/security-intelligence.html</link>
+      <description>Learn how security intelligence uses real-time data, AI, and machine learning to anticipate, detect, and respond to evolving cybersecurity threats effectively.</description>
+    </item>
+    <item>
+      <title>Cloud SOAR Achieves IRAP Assessment Along With Enterprise Security 8.0, DMX Edge Processor &amp; Federated Search S3</title>
+      <link>https://www.splunk.com/en_us/blog/security/cloud-soar-achieves-irap-assessment-along-with-enterprise-security-8.html</link>
+      <description>We are delighted to announce that our Cloud SOAR solution has successfully completed the IRAP assessment.</description>
+    </item>
+    <item>
+      <title>Logs Are for Campfires: Splunk’s Asset and Risk Intelligence Leaves No Vulnerability Undiscovered!</title>
+      <link>https://www.splunk.com/en_us/blog/security/splunk-asset-risk-intelligence-no-vulnerability-undiscovered.html</link>
+      <description>Splunk's Asset and Risk Intelligence enhances security by uncovering hidden vulnerabilities, prioritizing critical threats, and offering dynamic risk scoring for proactive risk mitigation and compliance.</description>
+    </item>
+    <item>
       <title>What is Observability? An Introduction</title>
       <link>https://www.splunk.com/en_us/blog/learn/observability.html</link>
       <description>In this blog post, we'll look at definitions, best practices, and key concepts around Observability in IT.</description>
@@ -233,9 +233,9 @@
       <description>Leverage Cisco Talos’ threat intelligence through Cisco Talos Intelligence for Enterprise Security, the Cisco Talos Intelligence connector for Splunk SOAR, and as a globally enabled feature in Splunk Attack Analyzer.</description>
     </item>
     <item>
-      <title>Cisco Intends to Acquire Threat Detection and Defense Company SnapAttack, Driving Further Splunk Innovation to Power the SOC of the Future</title>
-      <link>https://www.splunk.com/en_us/blog/security/cisco-intends-to-acquire-threat-detection-and-defense-company-snapattack.html</link>
-      <description>Cisco announces it intent to acquire threat detection and defense company SnapAttack, driving further Splunk innovation to power the SOC of the future.</description>
+      <title>The Power of Partnerships Between CISOs and Their Boards</title>
+      <link>https://www.splunk.com/en_us/blog/leadership/the-power-of-partnerships-between-cisos-and-their-boards.html</link>
+      <description>Splunk's CISO Report explores the gaps between CISOs and their boards, and shares best practices to help CISOs reach across the aisle.</description>
     </item>
     <item>
       <title>Splunk Now Generally Available on Microsoft Azure</title>
@@ -268,9 +268,9 @@
       <description>Leverage Cisco Talos’ threat intelligence through Cisco Talos Intelligence for Enterprise Security, the Cisco Talos Intelligence connector for Splunk SOAR, and as a globally enabled feature in Splunk Attack Analyzer.</description>
     </item>
     <item>
-      <title>Cisco Intends to Acquire Threat Detection and Defense Company SnapAttack, Driving Further Splunk Innovation to Power the SOC of the Future</title>
-      <link>https://www.splunk.com/en_us/blog/security/cisco-intends-to-acquire-threat-detection-and-defense-company-snapattack.html</link>
-      <description>Cisco announces it intent to acquire threat detection and defense company SnapAttack, driving further Splunk innovation to power the SOC of the future.</description>
+      <title>The Power of Partnerships Between CISOs and Their Boards</title>
+      <link>https://www.splunk.com/en_us/blog/leadership/the-power-of-partnerships-between-cisos-and-their-boards.html</link>
+      <description>Splunk's CISO Report explores the gaps between CISOs and their boards, and shares best practices to help CISOs reach across the aisle.</description>
     </item>
     <item>
       <title>Splunk Now Generally Available on Microsoft Azure</title>

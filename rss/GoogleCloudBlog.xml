@@ -6,17 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 24 Jan 2025 01:46:52 +0000</lastBuildDate>
-    <item>
-      <title>Your Single-Page Applications Are Vulnerable: Here's How to Fix Them</title>
-      <link>https://cloud.google.com/blog/topics/threat-intelligence/single-page-applications-vulnerable</link>
-      <description>Threat IntelligenceYour Single-Page Applications Are Vulnerable: Here's How to Fix ThemBy Mandiant  • 9-minute read</description>
-    </item>
-    <item>
-      <title>Get started with Google Cloud's built-in tokenization for sensitive data protection</title>
-      <link>https://cloud.google.com/blog/products/identity-security/get-started-with-built-in-tokenization-for-sensitive-data-protection</link>
-      <description>Security &amp; IdentityGet started with Google Cloud's built-in tokenization for sensitive data protectionBy Scott Ellis • 4-minute read</description>
-    </item>
+    <lastBuildDate>Sat, 25 Jan 2025 01:42:28 +0000</lastBuildDate>
     <item>
       <title>Bitly: Protecting users from malicious links with Web Risk</title>
       <link>https://cloud.google.com/blog/topics/partners/bitly-ensuring-real-time-link-safety-with-web-risk-to-protect-people</link>
@@ -26,6 +16,11 @@
       <title>Cloud CISO Perspectives: Talk cyber in business terms to win allies</title>
       <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-talk-cyber-in-business-terms-to-win-allies</link>
       <description>Security &amp; IdentityCloud CISO Perspectives: Talk cyber in business terms to win alliesBy Phil Venables • 5-minute read</description>
+    </item>
+    <item>
+      <title>The EU’s DORA regulation has arrived. Google Cloud is ready to help</title>
+      <link>https://cloud.google.com/blog/products/identity-security/the-eus-dora-has-arrived-google-cloud-is-ready-to-help</link>
+      <description>Security &amp; IdentityThe EU’s DORA regulation has arrived. Google Cloud is ready to helpBy Tara Brady • 3-minute read</description>
     </item>
     <item>
       <title>What’s new with Google Cloud</title>
@@ -48,14 +43,19 @@
       <description>Chrome EnterpriseBoost Productivity and Security with the New Chrome Web Store for EnterprisesBy Hafsah Ismail • 2-minute read</description>
     </item>
     <item>
-      <title>Safer automated deployments with new Cloud Deploy features</title>
-      <link>https://cloud.google.com/blog/products/devops-sre/new-cloud-deploy-features-for-automated-deployments</link>
-      <description>DevOps &amp; SRESafer automated deployments with new Cloud Deploy featuresBy Minna Howell • 3-minute read</description>
-    </item>
-    <item>
       <title>How L’Oréal Tech Accelerator built its end-to-end MLOps platform</title>
       <link>https://cloud.google.com/blog/products/ai-machine-learning/how-loreals-tech-accelerator-built-its-end-to-end-mlops-platform</link>
       <description>AI &amp; Machine LearningHow L’Oréal Tech Accelerator built its end-to-end MLOps platformBy Moutia Khatiri • 9-minute read</description>
+    </item>
+    <item>
+      <title>New Year, New OS. Supporting your business with ChromeOS Flex</title>
+      <link>https://cloud.google.com/blog/products/chrome-enterprise/new-year-new-os-supporting-your-business-with-chromeos-flex</link>
+      <description>Chrome EnterpriseNew Year, New OS. Supporting your business with ChromeOS FlexBy Will Smith • 3-minute read</description>
+    </item>
+    <item>
+      <title>Tchibo brews up 10x faster customer insights with AlloyDB for PostgreSQL</title>
+      <link>https://cloud.google.com/blog/products/databases/tchibo-brews-up-10x-faster-customer-insights-with-alloydb-for-postgresql</link>
+      <description>DatabasesTchibo brews up 10x faster customer insights with AlloyDB for PostgreSQLBy Henning Kosmalla • 5-minute read</description>
     </item>
   </channel>
 </rss>

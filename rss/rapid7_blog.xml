@@ -6,34 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 24 Jan 2025 01:46:38 +0000</lastBuildDate>
-    <item>
-      <title>Metasploit Weekly Wrap-Up 12/20/2024</title>
-      <link>https://www.rapid7.com/blog/post/2024/12/20/metasploit-weekly-wrap-up-12-20-2024/</link>
-      <description>New module content (4)
-GameOver(lay) Privilege Escalation and Container Escape
-Authors: bwatters-r7, g1vi, gardnerapp, and h00die
-Type: Exploit
-Pull request: #19460  
-contributed by gardnerapp 
-Path: linux/local/gameoverlay_privesc
-AttackerKB reference: CVE-2023-2640
-
-
-Description: Adds a module for CVE-2023-2640 and CVE-2023-32629, a local
-privil</description>
-    </item>
-    <item>
-      <title>Metasploit 2024 Annual Wrap-Up</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/03/metasploit-2024-annual-wrap-up/</link>
-      <description>Another year has come and gone, and the Metasploit team has taken some time to
-review the year’s notable additions. This year saw some great new features
-added, Metasploit 6.4 released
- 
-and a slew of new modules. We’re grateful to the community members new and old
-that have submitted modules and issues this year. The real privilege escalation
-was the privilege of working with the contributors and friends we made alo</description>
-    </item>
+    <lastBuildDate>Sat, 25 Jan 2025 01:42:12 +0000</lastBuildDate>
     <item>
       <title>Out With the Old, In With the New: Securely Disposing of Smart Devices</title>
       <link>https://www.rapid7.com/blog/post/2025/01/06/out-with-the-old-in-with-the-new-securely-disposing-of-smart-devices/</link>
@@ -109,6 +82,24 @@ read vulnerability, tracked as CVE-202</description>
       <title>Key Takeaways: Mastering Risk Prioritization with Rapid7 Surface Command</title>
       <link>https://www.rapid7.com/blog/post/2025/01/23/key-takeaways-mastering-risk-prioritization-with-rapid7-surface-command/</link>
       <description>In our recent webinar, Cheney Edwards, Senior Security Solutions Engineer at Rapid7, shares actionable techniques to cut through noise, prioritize effectively, and command your attack surface.</description>
+    </item>
+    <item>
+      <title>The Vulnerability Vortex: Escaping the Whirlpool of Ineffective Security</title>
+      <link>https://www.rapid7.com/blog/post/2025/01/24/the-vulnerability-vortex-escaping-the-whirlpool-of-ineffective-security/</link>
+      <description>In today's interconnected digital landscape, organizations find themselves caught in a relentless torrent of security alerts and vulnerability notifications.</description>
+    </item>
+    <item>
+      <title>Metasploit Weekly Wrap-Up 01/24/2025</title>
+      <link>https://www.rapid7.com/blog/post/2025/01/24/metasploit-weekly-wrap-up-01-24-2025/</link>
+      <description>LibreNMS Authenticated RCE module and ESC15 improvements
+This week the Metasploit Framework was blessed with an authenticated RCE module
+in LibreNMS, an autodiscovering PHP/MySQL-based network monitoring system. An
+authenticated attacker can create dangerous directory names on the system and
+alter sensitive configuration parameters through the web portal. These two
+defects combined to allow arbitrary OS commands inside shell_exec() calls, thus
+achieving arbitrary code execution.
+
+Additionally, i</description>
     </item>
   </channel>
 </rss>

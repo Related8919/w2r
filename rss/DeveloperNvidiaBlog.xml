@@ -6,12 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 24 Jan 2025 01:47:03 +0000</lastBuildDate>
-    <item>
-      <title>宣布推出 Nemotron-CC：用于 LLM 预训练的万亿级英语语言数据集</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/announcing-nemotron-cc-a-trillion-token-english-language-dataset-for-llm-pretraining/</link>
-      <description>2025年 1月 9日宣布推出 Nemotron-CC：用于 LLM 预训练的万亿级英语语言数据集NVIDIA 很高兴地宣布发布 Nemotron-CC，这是一种包含 6.3 万亿个令牌的 英语语言 Common Crawl 数据集 ，1 MIN READ</description>
-    </item>
+    <lastBuildDate>Sat, 25 Jan 2025 01:42:39 +0000</lastBuildDate>
     <item>
       <title>借助 NVIDIA DOCA 平台框架，助力新一代 DPU 加速云基础设施</title>
       <link>https://developer.nvidia.com/zh-cn/blog/powering-the-next-wave-of-dpu-accelerated-cloud-infrastructures-with-nvidia-doca-platform-framework/</link>
@@ -86,6 +81,11 @@
       <title>构建 AI 销售助理的经验教训</title>
       <link>https://developer.nvidia.com/zh-cn/blog/lessons-learned-from-building-an-ai-sales-assistant/</link>
       <description>2025年 1月 21日构建 AI 销售助理的经验教训在 NVIDIA，销售运营团队为销售团队提供将先进的硬件和软件推向市场所需的工具和资源。3 MIN READ</description>
+    </item>
+    <item>
+      <title>FP8 在大模型训练中的应用、挑战及实践</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/fp8-llm-app-challenges/</link>
+      <description>2025年 1月 24日FP8 在大模型训练中的应用、挑战及实践越来越多的技术团队开始使用 FP8 进行大模型训练，这主要因为 FP8 有很多技术优势，比如在新一代的 GPU 上，3 MIN READ</description>
     </item>
   </channel>
 </rss>

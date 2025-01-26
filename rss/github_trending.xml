@@ -6,16 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 25 Jan 2025 01:42:13 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2025 01:49:37 +0000</lastBuildDate>
     <item>
-      <title>infiniflow /ragflow</title>
-      <link>https://github.com/infiniflow/ragflow</link>
-      <description>RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.</description>
+      <title>storybookjs /storybook</title>
+      <link>https://github.com/storybookjs/storybook</link>
+      <description>Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation</description>
     </item>
     <item>
-      <title>mendableai /firecrawl</title>
-      <link>https://github.com/mendableai/firecrawl</link>
-      <description>🔥 Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.</description>
+      <title>shadps4-emu /shadPS4</title>
+      <link>https://github.com/shadps4-emu/shadPS4</link>
+      <description>PlayStation 4 emulator for Windows, Linux and macOS written in C++</description>
+    </item>
+    <item>
+      <title>yassinebenaid /bunster</title>
+      <link>https://github.com/yassinebenaid/bunster</link>
+      <description>Compile shell scripts to static binaries.</description>
+    </item>
+    <item>
+      <title>DataExpert-io /data-engineer-handbook</title>
+      <link>https://github.com/DataExpert-io/data-engineer-handbook</link>
+      <description>This is a repo with links to everything you'd ever want to learn about data engineering</description>
     </item>
     <item>
       <title>nextjs /saas-starter</title>
@@ -23,14 +33,19 @@
       <description>Get started quickly with Next.js, Postgres, Stripe, and shadcn/ui.</description>
     </item>
     <item>
-      <title>ml-explore /mlx-swift-examples</title>
-      <link>https://github.com/ml-explore/mlx-swift-examples</link>
-      <description>Examples using MLX Swift</description>
+      <title>php /php-src</title>
+      <link>https://github.com/php/php-src</link>
+      <description>The PHP Interpreter</description>
     </item>
     <item>
-      <title>storybookjs /storybook</title>
-      <link>https://github.com/storybookjs/storybook</link>
-      <description>Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation</description>
+      <title>lightpanda-io /browser</title>
+      <link>https://github.com/lightpanda-io/browser</link>
+      <description>Lightpanda: the headless browser designed for AI and automation</description>
+    </item>
+    <item>
+      <title>browserbase /stagehand</title>
+      <link>https://github.com/browserbase/stagehand</link>
+      <description>An AI web browsing framework focused on simplicity and extensibility.</description>
     </item>
     <item>
       <title>AmruthPillai /Reactive-Resume</title>
@@ -41,16 +56,6 @@
       <title>CorentinTh /it-tools</title>
       <link>https://github.com/CorentinTh/it-tools</link>
       <description>Collection of handy online tools for developers, with great UX.</description>
-    </item>
-    <item>
-      <title>web-infra-dev /midscene</title>
-      <link>https://github.com/web-infra-dev/midscene</link>
-      <description>AI-Driven Browser Automation with Chrome Extensions, JavaScript, and YAML Scripts.</description>
-    </item>
-    <item>
-      <title>shadps4-emu /shadPS4</title>
-      <link>https://github.com/shadps4-emu/shadPS4</link>
-      <description>PlayStation 4 emulator for Windows, Linux and macOS written in C++</description>
     </item>
   </channel>
 </rss>

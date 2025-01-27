@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 26 Jan 2025 01:49:30 +0000</lastBuildDate>
-    <item>
-      <title>Network Optimization: How To Optimize Network Performance</title>
-      <link>https://www.splunk.com/en_us/blog/learn/network-optimization.html</link>
-      <description>Making sure your IT networks perform great is no easy task. Learn how to optimize your networks in this in-depth guide.</description>
-    </item>
+    <lastBuildDate>Mon, 27 Jan 2025 01:48:52 +0000</lastBuildDate>
     <item>
       <title>What Is Disinformation Security?</title>
       <link>https://www.splunk.com/en_us/blog/learn/disinformation-security.html</link>
@@ -51,6 +46,11 @@
       <title>Splunk and the Cisco Store demonstrate the power of digital resilience at NRF 2025</title>
       <link>https://www.splunk.com/en_us/blog/industries/splunk-and-the-cisco-store-demonstrate-the-power-of-digital-resilience.html</link>
       <description>Discover how Splunk and the Cisco Store showcase digital resilience at NRF 2025, featuring cutting-edge retail technologies like AI chatbots, Meraki Video, and real-time data analytics. Learn about personalized customer experiences and the importance of innovation and security in the evolving retail landscape.</description>
+    </item>
+    <item>
+      <title>What's new in Splunk DSDL 5.2: LLM-RAG functionalities and use cases</title>
+      <link>https://www.splunk.com/en_us/blog/artificial-intelligence/what-s-new-in-splunk-dsdl-5-2-llm-rag-functionalities-and-use-cases.html</link>
+      <description>In this version 5.2 release of Splunk DSDL, we introduce new functionalities utilizing retrieval-augmented generation with local large language models and a vector database. In this blog, we provide an overview of various use cases supported through a set of DSDL commands and dashboards.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

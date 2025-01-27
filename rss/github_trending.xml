@@ -6,46 +6,36 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 26 Jan 2025 01:49:37 +0000</lastBuildDate>
-    <item>
-      <title>storybookjs /storybook</title>
-      <link>https://github.com/storybookjs/storybook</link>
-      <description>Storybook is the industry standard workshop for building, documenting, and testing UI components in isolation</description>
-    </item>
-    <item>
-      <title>shadps4-emu /shadPS4</title>
-      <link>https://github.com/shadps4-emu/shadPS4</link>
-      <description>PlayStation 4 emulator for Windows, Linux and macOS written in C++</description>
-    </item>
-    <item>
-      <title>yassinebenaid /bunster</title>
-      <link>https://github.com/yassinebenaid/bunster</link>
-      <description>Compile shell scripts to static binaries.</description>
-    </item>
+    <lastBuildDate>Mon, 27 Jan 2025 01:48:59 +0000</lastBuildDate>
     <item>
       <title>DataExpert-io /data-engineer-handbook</title>
       <link>https://github.com/DataExpert-io/data-engineer-handbook</link>
       <description>This is a repo with links to everything you'd ever want to learn about data engineering</description>
     </item>
     <item>
-      <title>nextjs /saas-starter</title>
-      <link>https://github.com/nextjs/saas-starter</link>
-      <description>Get started quickly with Next.js, Postgres, Stripe, and shadcn/ui.</description>
+      <title>microsoft /generative-ai-for-beginners</title>
+      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
+      <description>21 Lessons, Get Started Building with Generative AI 🔗https://microsoft.github.io/generative-ai-for-beginners/</description>
     </item>
     <item>
-      <title>php /php-src</title>
-      <link>https://github.com/php/php-src</link>
-      <description>The PHP Interpreter</description>
+      <title>meta-llama /llama-stack</title>
+      <link>https://github.com/meta-llama/llama-stack</link>
+      <description>Composable building blocks to build Llama Apps</description>
     </item>
     <item>
-      <title>lightpanda-io /browser</title>
-      <link>https://github.com/lightpanda-io/browser</link>
-      <description>Lightpanda: the headless browser designed for AI and automation</description>
+      <title>maybe-finance /maybe</title>
+      <link>https://github.com/maybe-finance/maybe</link>
+      <description>The OS for your personal finances</description>
     </item>
     <item>
-      <title>browserbase /stagehand</title>
-      <link>https://github.com/browserbase/stagehand</link>
-      <description>An AI web browsing framework focused on simplicity and extensibility.</description>
+      <title>deepseek-ai /DeepSeek-Coder-V2</title>
+      <link>https://github.com/deepseek-ai/DeepSeek-Coder-V2</link>
+      <description>DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence</description>
+    </item>
+    <item>
+      <title>Bin-Huang /chatbox</title>
+      <link>https://github.com/Bin-Huang/chatbox</link>
+      <description>User-friendly Desktop Client App for AI Models/LLMs (GPT, Claude, Gemini, Ollama...)</description>
     </item>
     <item>
       <title>AmruthPillai /Reactive-Resume</title>
@@ -53,9 +43,24 @@
       <description>A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!</description>
     </item>
     <item>
-      <title>CorentinTh /it-tools</title>
-      <link>https://github.com/CorentinTh/it-tools</link>
-      <description>Collection of handy online tools for developers, with great UX.</description>
+      <title>deepseek-ai /DeepSeek-Coder</title>
+      <link>https://github.com/deepseek-ai/DeepSeek-Coder</link>
+      <description>DeepSeek Coder: Let the Code Write Itself</description>
+    </item>
+    <item>
+      <title>nextjs /saas-starter</title>
+      <link>https://github.com/nextjs/saas-starter</link>
+      <description>Get started quickly with Next.js, Postgres, Stripe, and shadcn/ui.</description>
+    </item>
+    <item>
+      <title>lightpanda-io /browser</title>
+      <link>https://github.com/lightpanda-io/browser</link>
+      <description>Lightpanda: the headless browser designed for AI and automation</description>
+    </item>
+    <item>
+      <title>onlook-dev /onlook</title>
+      <link>https://github.com/onlook-dev/onlook</link>
+      <description>The open source Cursor for Designers. Design directly in your live React app and publish your changes to code.</description>
     </item>
   </channel>
 </rss>

@@ -6,17 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 27 Jan 2025 01:49:12 +0000</lastBuildDate>
-    <item>
-      <title>Bitly: Protecting users from malicious links with Web Risk</title>
-      <link>https://cloud.google.com/blog/topics/partners/bitly-ensuring-real-time-link-safety-with-web-risk-to-protect-people</link>
-      <description>PartnersBitly: Protecting users from malicious links with Web RiskBy Badr Salmi • 4-minute read</description>
-    </item>
-    <item>
-      <title>Cloud CISO Perspectives: Talk cyber in business terms to win allies</title>
-      <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-talk-cyber-in-business-terms-to-win-allies</link>
-      <description>Security &amp; IdentityCloud CISO Perspectives: Talk cyber in business terms to win alliesBy Phil Venables • 5-minute read</description>
-    </item>
+    <lastBuildDate>Tue, 28 Jan 2025 01:46:33 +0000</lastBuildDate>
     <item>
       <title>The EU’s DORA regulation has arrived. Google Cloud is ready to help</title>
       <link>https://cloud.google.com/blog/products/identity-security/the-eus-dora-has-arrived-google-cloud-is-ready-to-help</link>
@@ -38,6 +28,11 @@
       <description>StartupsAnnouncing the 2025 Google for Startups Accelerator: AI First UKBy Dr. Rebeca Santamaria-Fernandez • 2-minute read</description>
     </item>
     <item>
+      <title>Discover and assess your database workloads migration to Google Cloud using Migration Center</title>
+      <link>https://cloud.google.com/blog/products/infrastructure-modernization/database-discovery-and-assessment-with-migration-center</link>
+      <description>Infrastructure ModernizationDiscover and assess your database workloads migration to Google Cloud using Migration CenterBy Arkapravo Banerjee • 5-minute read</description>
+    </item>
+    <item>
       <title>Boost Productivity and Security with the New Chrome Web Store for Enterprises</title>
       <link>https://cloud.google.com/blog/products/chrome-enterprise/boost-productivity-and-security-with-the-new-chrome-web-store-for-enterprises</link>
       <description>Chrome EnterpriseBoost Productivity and Security with the New Chrome Web Store for EnterprisesBy Hafsah Ismail • 2-minute read</description>
@@ -46,6 +41,11 @@
       <title>How L’Oréal Tech Accelerator built its end-to-end MLOps platform</title>
       <link>https://cloud.google.com/blog/products/ai-machine-learning/how-loreals-tech-accelerator-built-its-end-to-end-mlops-platform</link>
       <description>AI &amp; Machine LearningHow L’Oréal Tech Accelerator built its end-to-end MLOps platformBy Moutia Khatiri • 9-minute read</description>
+    </item>
+    <item>
+      <title>Using custom Org Policies to enforce the CIS benchmark for GKE</title>
+      <link>https://cloud.google.com/blog/products/identity-security/how-to-use-custom-org-policies-to-enforce-cis-benchmark-for-gke</link>
+      <description>Security &amp; IdentityUsing custom Org Policies to enforce the CIS benchmark for GKEBy Vannick Trinquier • 4-minute read</description>
     </item>
     <item>
       <title>New Year, New OS. Supporting your business with ChromeOS Flex</title>

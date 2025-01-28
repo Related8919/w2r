@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 27 Jan 2025 01:48:58 +0000</lastBuildDate>
-    <item>
-      <title>Out With the Old, In With the New: Securely Disposing of Smart Devices</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/06/out-with-the-old-in-with-the-new-securely-disposing-of-smart-devices/</link>
-      <description>Hopefully you received some cool smart technology, or maybe you just upgraded your smart camera or voice assistant to a newer model or version. If you upgraded to a new model or version, what is your plan for the old device? Is it still working or is it broken?</description>
-    </item>
+    <lastBuildDate>Tue, 28 Jan 2025 01:46:17 +0000</lastBuildDate>
     <item>
       <title>Rapid7 Recognized with Top Score of 100 in 2025 Corporate Equality Index</title>
       <link>https://www.rapid7.com/blog/post/2025/01/07/rapid7-recognized-with-top-score-of-100-in-2025-corporate-equality-index/</link>
@@ -100,6 +95,11 @@ defects combined to allow arbitrary OS commands inside shell_exec() calls, thus
 achieving arbitrary code execution.
 
 Additionally, i</description>
+    </item>
+    <item>
+      <title>The 2024 Ransomware Landscape: Looking back on another painful year</title>
+      <link>https://www.rapid7.com/blog/post/2025/01/27/the-2024-ransomware-landscape-looking-back-on-another-painful-year/</link>
+      <description>In this post, we’ll examine the latest data points, discuss notable groups, and estimate the potential impact on victims — helping security teams plan their defenses for the months ahead.</description>
     </item>
   </channel>
 </rss>

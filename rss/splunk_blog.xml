@@ -6,17 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 28 Jan 2025 01:46:11 +0000</lastBuildDate>
-    <item>
-      <title>What Is Disinformation Security?</title>
-      <link>https://www.splunk.com/en_us/blog/learn/disinformation-security.html</link>
-      <description>Disinformation security is an emerging technology, coined by Gartner, that is a specific approach to understanding and detecting disinformation of all types.</description>
-    </item>
-    <item>
-      <title>What’s CTF? Capture The Flag Competitions for Cybersecurity</title>
-      <link>https://www.splunk.com/en_us/blog/learn/capture-the-flag-ctf.html</link>
-      <description>Capture the flag, but for security! Yes, the game you know from childhood is an important cybersecurity practice across the world. Learn more here.</description>
-    </item>
+    <lastBuildDate>Wed, 29 Jan 2025 01:46:15 +0000</lastBuildDate>
     <item>
       <title>The Power of Partnerships Between CISOs and Their Boards</title>
       <link>https://www.splunk.com/en_us/blog/leadership/the-power-of-partnerships-between-cisos-and-their-boards.html</link>
@@ -51,6 +41,17 @@
       <title>What's new in Splunk DSDL 5.2: LLM-RAG functionalities and use cases</title>
       <link>https://www.splunk.com/en_us/blog/artificial-intelligence/what-s-new-in-splunk-dsdl-5-2-llm-rag-functionalities-and-use-cases.html</link>
       <description>In this version 5.2 release of Splunk DSDL, we introduce new functionalities utilizing retrieval-augmented generation with local large language models and a vector database. In this blog, we provide an overview of various use cases supported through a set of DSDL commands and dashboards.</description>
+    </item>
+    <item>
+      <title>Building Resilience with Energy Management for Industries</title>
+      <link>https://www.splunk.com/en_us/blog/industries/building-resilience-with-energy-management-for-industries.html</link>
+      <description>Energy and energy management are top of mind for all types of organizations to build resilience.
+Read on to learn about a data-driven approach by unlocking a new observability use case: reducing energy costs, increasing energy efficiency and improving the carbon footprint for buildings, data centers and factories across industries.</description>
+    </item>
+    <item>
+      <title>Idempotence &amp; Idempotent Design in IT/Tech Systems</title>
+      <link>https://www.splunk.com/en_us/blog/learn/idempotent-design.html</link>
+      <description>Idempotent design ensures that the outcome of an operation is the same whether it is executed once or multiple times. Get the full picture here.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

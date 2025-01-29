@@ -6,26 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 28 Jan 2025 01:46:18 +0000</lastBuildDate>
-    <item>
-      <title>CorentinTh /it-tools</title>
-      <link>https://github.com/CorentinTh/it-tools</link>
-      <description>Collection of handy online tools for developers, with great UX.</description>
-    </item>
-    <item>
-      <title>VikParuchuri /marker</title>
-      <link>https://github.com/VikParuchuri/marker</link>
-      <description>Convert PDF to markdown + JSON quickly with high accuracy</description>
-    </item>
+    <lastBuildDate>Wed, 29 Jan 2025 01:46:22 +0000</lastBuildDate>
     <item>
       <title>meta-llama /llama-stack</title>
       <link>https://github.com/meta-llama/llama-stack</link>
       <description>Composable building blocks to build Llama Apps</description>
-    </item>
-    <item>
-      <title>deepseek-ai /DeepSeek-LLM</title>
-      <link>https://github.com/deepseek-ai/DeepSeek-LLM</link>
-      <description>DeepSeek LLM: Let there be answers</description>
     </item>
     <item>
       <title>ollama /ollama</title>
@@ -33,19 +18,54 @@
       <description>Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models.</description>
     </item>
     <item>
-      <title>deepseek-ai /DeepSeek-Coder</title>
-      <link>https://github.com/deepseek-ai/DeepSeek-Coder</link>
-      <description>DeepSeek Coder: Let the Code Write Itself</description>
+      <title>TEN-framework /TEN-Agent</title>
+      <link>https://github.com/TEN-framework/TEN-Agent</link>
+      <description>TEN Agent is a conversational AI powered by the TEN, integrating Gemini 2.0 Live, OpenAI Realtime, RTC, and more. It delivers real-time capabilities to see, hear, and speak, while being fully compatible with popular workflow platforms like Dify and Coze.</description>
     </item>
     <item>
-      <title>onlook-dev /onlook</title>
-      <link>https://github.com/onlook-dev/onlook</link>
-      <description>The open source Cursor for Designers. Design directly in your live React app and publish your changes to code.</description>
+      <title>deepseek-ai /DreamCraft3D</title>
+      <link>https://github.com/deepseek-ai/DreamCraft3D</link>
+      <description>[ICLR 2024] Official implementation of DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior</description>
+    </item>
+    <item>
+      <title>deepseek-ai /DeepSeek-Math</title>
+      <link>https://github.com/deepseek-ai/DeepSeek-Math</link>
+      <description>DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models</description>
+    </item>
+    <item>
+      <title>deepseek-ai /DeepSeek-V2</title>
+      <link>https://github.com/deepseek-ai/DeepSeek-V2</link>
+      <description>DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model</description>
+    </item>
+    <item>
+      <title>deepseek-ai /DeepSeek-VL</title>
+      <link>https://github.com/deepseek-ai/DeepSeek-VL</link>
+      <description>DeepSeek-VL: Towards Real-World Vision-Language Understanding</description>
+    </item>
+    <item>
+      <title>deepseek-ai /Janus</title>
+      <link>https://github.com/deepseek-ai/Janus</link>
+      <description>Janus-Series: Unified Multimodal Understanding and Generation Models</description>
     </item>
     <item>
       <title>maybe-finance /maybe</title>
       <link>https://github.com/maybe-finance/maybe</link>
       <description>The OS for your personal finances</description>
+    </item>
+    <item>
+      <title>deepseek-ai /DeepSeek-LLM</title>
+      <link>https://github.com/deepseek-ai/DeepSeek-LLM</link>
+      <description>DeepSeek LLM: Let there be answers</description>
+    </item>
+    <item>
+      <title>deepseek-ai /DeepSeek-Coder-V2</title>
+      <link>https://github.com/deepseek-ai/DeepSeek-Coder-V2</link>
+      <description>DeepSeek-Coder-V2: Breaking the Barrier of Closed-Source Models in Code Intelligence</description>
+    </item>
+    <item>
+      <title>deepseek-ai /DeepSeek-Coder</title>
+      <link>https://github.com/deepseek-ai/DeepSeek-Coder</link>
+      <description>DeepSeek Coder: Let the Code Write Itself</description>
     </item>
   </channel>
 </rss>

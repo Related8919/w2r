@@ -6,17 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 29 Jan 2025 01:46:35 +0000</lastBuildDate>
-    <item>
-      <title>What’s new with Google Cloud</title>
-      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
-      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 2-minute read</description>
-    </item>
-    <item>
-      <title>The overwhelmed person’s guide to Google Cloud: week of January 16</title>
-      <link>https://cloud.google.com/blog/products/gcp/the-overwhelmed-persons-guide-to-google-cloud</link>
-      <description>Google CloudThe overwhelmed person’s guide to Google Cloud: week of January 16By Richard Seroter • 4-minute read</description>
-    </item>
+    <lastBuildDate>Thu, 30 Jan 2025 01:45:10 +0000</lastBuildDate>
     <item>
       <title>Announcing the 2025 Google for Startups Accelerator: AI First UK</title>
       <link>https://cloud.google.com/blog/topics/startups/announcing-the-2025-google-for-startups-accelerator-ai-first-uk</link>
@@ -56,6 +46,16 @@
       <title>ScatterBrain: Unmasking the Shadow of PoisonPlug's Obfuscator</title>
       <link>https://cloud.google.com/blog/topics/threat-intelligence/scatterbrain-unmasking-poisonplug-obfuscator</link>
       <description>Threat IntelligenceScatterBrain: Unmasking the Shadow of PoisonPlug's ObfuscatorBy Mandiant  • 64-minute read</description>
+    </item>
+    <item>
+      <title>Outbrain: Taking control of extension security with Chrome Enterprise</title>
+      <link>https://cloud.google.com/blog/products/chrome-enterprise/outbrain-taking-control-of-extension-security-with-chrome-enterprise</link>
+      <description>Chrome EnterpriseOutbrain: Taking control of extension security with Chrome EnterpriseBy Harel Shaked • 3-minute read</description>
+    </item>
+    <item>
+      <title>Adversarial Misuse of Generative AI</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/adversarial-misuse-generative-ai</link>
+      <description>Threat IntelligenceAdversarial Misuse of Generative AIBy Google Threat Intelligence Group  • 50-minute read</description>
     </item>
   </channel>
 </rss>

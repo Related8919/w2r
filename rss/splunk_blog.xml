@@ -6,17 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 30 Jan 2025 01:44:41 +0000</lastBuildDate>
-    <item>
-      <title>The Power of Partnerships Between CISOs and Their Boards</title>
-      <link>https://www.splunk.com/en_us/blog/leadership/the-power-of-partnerships-between-cisos-and-their-boards.html</link>
-      <description>Splunk's CISO Report explores the gaps between CISOs and their boards, and shares best practices to help CISOs reach across the aisle.</description>
-    </item>
-    <item>
-      <title>Matching AI Strengths to Blue Team Needs</title>
-      <link>https://www.splunk.com/en_us/blog/security/leveraging-ai-llms-for-cybersecurity-blue-team.html</link>
-      <description>Discover how AI and Large Language Models (LLMs) enhance cybersecurity operations for Blue Teams.</description>
-    </item>
+    <lastBuildDate>Fri, 31 Jan 2025 01:46:45 +0000</lastBuildDate>
     <item>
       <title>Security Intelligence: An Introduction</title>
       <link>https://www.splunk.com/en_us/blog/learn/security-intelligence.html</link>
@@ -52,6 +42,16 @@ Read on to learn about a data-driven approach by unlocking a new observability u
       <title>Idempotence &amp; Idempotent Design in IT/Tech Systems</title>
       <link>https://www.splunk.com/en_us/blog/learn/idempotent-design.html</link>
       <description>Idempotent design ensures that the outcome of an operation is the same whether it is executed once or multiple times. Get the full picture here.</description>
+    </item>
+    <item>
+      <title>CapEx vs. OpEx for Cloud, IT Spending, and Business Operations: The Ultimate Guide</title>
+      <link>https://www.splunk.com/en_us/blog/learn/capex-vs-opex.html</link>
+      <description>Learn about the key differences between CapEx and OpEx. Also, learn how to optimize costs and drive financial efficiency for your projects.</description>
+    </item>
+    <item>
+      <title>Data Lake vs. Data Warehouse: Definitions, Key Differences, and How to Integrate Data Storage Solutions</title>
+      <link>https://www.splunk.com/en_us/blog/learn/data-warehouse-vs-data-lake.html</link>
+      <description>Data Lake vs Data Warehouse, in this post, we are going to discuss what they are, their differences, some use cases, and more.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

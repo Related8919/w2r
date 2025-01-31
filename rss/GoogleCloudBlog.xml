@@ -6,12 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 30 Jan 2025 01:45:10 +0000</lastBuildDate>
-    <item>
-      <title>Announcing the 2025 Google for Startups Accelerator: AI First UK</title>
-      <link>https://cloud.google.com/blog/topics/startups/announcing-the-2025-google-for-startups-accelerator-ai-first-uk</link>
-      <description>StartupsAnnouncing the 2025 Google for Startups Accelerator: AI First UKBy Dr. Rebeca Santamaria-Fernandez • 2-minute read</description>
-    </item>
+    <lastBuildDate>Fri, 31 Jan 2025 01:47:05 +0000</lastBuildDate>
     <item>
       <title>Discover and assess your database workloads migration to Google Cloud using Migration Center</title>
       <link>https://cloud.google.com/blog/products/infrastructure-modernization/database-discovery-and-assessment-with-migration-center</link>
@@ -43,6 +38,11 @@
       <description>DatabasesTchibo brews up 10x faster customer insights with AlloyDB for PostgreSQLBy Henning Kosmalla • 5-minute read</description>
     </item>
     <item>
+      <title>How we’re making GKE more transparent with supply-chain attestation and SLSA</title>
+      <link>https://cloud.google.com/blog/products/identity-security/how-were-making-gke-more-secure-with-supply-chain-attestation-and-slsa</link>
+      <description>Security &amp; IdentityHow we’re making GKE more transparent with supply-chain attestation and SLSABy Abdelfettah Sghiouar • 5-minute read</description>
+    </item>
+    <item>
       <title>ScatterBrain: Unmasking the Shadow of PoisonPlug's Obfuscator</title>
       <link>https://cloud.google.com/blog/topics/threat-intelligence/scatterbrain-unmasking-poisonplug-obfuscator</link>
       <description>Threat IntelligenceScatterBrain: Unmasking the Shadow of PoisonPlug's ObfuscatorBy Mandiant  • 64-minute read</description>
@@ -53,9 +53,9 @@
       <description>Chrome EnterpriseOutbrain: Taking control of extension security with Chrome EnterpriseBy Harel Shaked • 3-minute read</description>
     </item>
     <item>
-      <title>Adversarial Misuse of Generative AI</title>
-      <link>https://cloud.google.com/blog/topics/threat-intelligence/adversarial-misuse-generative-ai</link>
-      <description>Threat IntelligenceAdversarial Misuse of Generative AIBy Google Threat Intelligence Group  • 50-minute read</description>
+      <title>Simplify the developer experience on Kubernetes with KRO</title>
+      <link>https://cloud.google.com/blog/products/containers-kubernetes/introducing-kube-resource-orchestrator</link>
+      <description>Containers &amp; KubernetesSimplify the developer experience on Kubernetes with KROBy Abdelfettah Sghiouar • 5-minute read</description>
     </item>
   </channel>
 </rss>

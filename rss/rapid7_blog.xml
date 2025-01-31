@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 30 Jan 2025 01:44:46 +0000</lastBuildDate>
-    <item>
-      <title>Rapid7 Recognized with Top Score of 100 in 2025 Corporate Equality Index</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/07/rapid7-recognized-with-top-score-of-100-in-2025-corporate-equality-index/</link>
-      <description>On January 7, the Human Rights Campaign Foundation released their 2025 Corporate Equality Index (CEI), where Rapid7 earned a top score of 100.</description>
-    </item>
+    <lastBuildDate>Fri, 31 Jan 2025 01:46:50 +0000</lastBuildDate>
     <item>
       <title>CVE-2025-0282: Ivanti Connect Secure Zero-Day Exploited in the Wild</title>
       <link>https://www.rapid7.com/blog/post/2025/01/08/etr-cve-2025-0282-ivanti-connect-secure-zero-day-exploited-in-the-wild/</link>
@@ -100,6 +95,11 @@ Additionally, i</description>
       <title>The 2024 Ransomware Landscape: Looking back on another painful year</title>
       <link>https://www.rapid7.com/blog/post/2025/01/27/the-2024-ransomware-landscape-looking-back-on-another-painful-year/</link>
       <description>In this post, we’ll examine the latest data points, discuss notable groups, and estimate the potential impact on victims — helping security teams plan their defenses for the months ahead.</description>
+    </item>
+    <item>
+      <title>Paying It Forward: Giving and Receiving Mentorship in Tech</title>
+      <link>https://www.rapid7.com/blog/post/2025/01/30/paying-it-forward-giving-and-receiving-mentorship-in-tech/</link>
+      <description>This post was adapted from the Northern Ireland Developer Conference 2024 talk of the same name.</description>
     </item>
   </channel>
 </rss>

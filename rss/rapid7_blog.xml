@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 31 Jan 2025 01:46:50 +0000</lastBuildDate>
-    <item>
-      <title>CVE-2025-0282: Ivanti Connect Secure Zero-Day Exploited in the Wild</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/08/etr-cve-2025-0282-ivanti-connect-secure-zero-day-exploited-in-the-wild/</link>
-      <description>Two stack-based buffer overflow issues were disclosed in Ivanti Connect Secure, Policy Secure, and Neurons for ZTA. CVE-2025-0282, the more severe of the two issues, has been exploited in the wild against Ivanti Connect Secure devices.</description>
-    </item>
+    <lastBuildDate>Sat, 01 Feb 2025 01:51:36 +0000</lastBuildDate>
     <item>
       <title>New Research: Enhancing Botnet Detection with AI using LLMs and Similarity Search</title>
       <link>https://www.rapid7.com/blog/post/2025/01/08/new-research-enhancing-botnet-detection-with-ai-using-llms-and-similarity-search/</link>
@@ -100,6 +95,18 @@ Additionally, i</description>
       <title>Paying It Forward: Giving and Receiving Mentorship in Tech</title>
       <link>https://www.rapid7.com/blog/post/2025/01/30/paying-it-forward-giving-and-receiving-mentorship-in-tech/</link>
       <description>This post was adapted from the Northern Ireland Developer Conference 2024 talk of the same name.</description>
+    </item>
+    <item>
+      <title>Metasploit Weekly Wrap-Up 01/31/25</title>
+      <link>https://www.rapid7.com/blog/post/2025/01/31/metasploit-weekly-wrap-up-01-31-25/</link>
+      <description>ESC4 Detection
+This week, Metasploit’s jheysel-r7  updated the
+existing ldap_esc_vulnerable_cert_finder module to include detecting template
+objects that can be written to by the authenticated user. This means the module
+can now identify instances of ESC4 from the perspective of the account that the
+Metasploit operator provided the credentials for. Metasploit has been capable of
+exploiting ESC4 for some time, but required users to know which certificate
+templates t</description>
     </item>
   </channel>
 </rss>

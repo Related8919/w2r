@@ -12,7 +12,7 @@
 	<atom:link href="https://www.microsoft.com/en-us/research/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.microsoft.com/en-us/research/</link>
 	<description></description>
-	<lastBuildDate>Tue, 28 Jan 2025 16:58:30 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 31 Jan 2025 18:29:44 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,358 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.7.1</generator>
 	<item>
+		<title>Research Focus: Week of January 27, 2025</title>
+		<link>https://www.microsoft.com/en-us/research/blog/research-focus-week-of-january-27-2025/</link>
+		
+		<dc:creator><![CDATA[Brenda Potts]]></dc:creator>
+		<pubDate>Fri, 31 Jan 2025 17:17:08 +0000</pubDate>
+				<category><![CDATA[Research Blog]]></category>
+		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1124682</guid>
+
+					<description><![CDATA[<p>In this issue: A new approach to multimodal pretraining for remote sensing; Managed-retention memory for the AI era; Improving detection of macular telangiectasia type 2; Generalizing symbolic automata.</p>
+<p>The post <a href="https://www.microsoft.com/en-us/research/blog/research-focus-week-of-january-27-2025/">Research Focus: Week of January 27, 2025</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<p class="has-text-align-center"><strong>In this edition:</strong></p>
+
+
+
+<ul class="wp-block-list">
+<li>We introduce FLAVARS, a multimodal foundation language and vision alignment model for remote sensing; Managed-retention memory, a new class of memory which is more optimized to store key data structures for AI inference workloads; and Enhanced detection of macular telangiectasia type 2 (MacTel 2) using self-supervised learning and ensemble models.</li>
+
+
+
+<li>We present a new approach to generalizing symbolic automata, which brings together a variety of classic automata and logics in a unified framework with all the necessary ingredients to support symbolic model checking modulo <em>A</em>.&nbsp;</li>
+
+
+
+<li>And we invite you to join an upcoming workshop: LLM4Eval@WSDM 2025: Large Language Models for Evaluation in Information Retrieval. LLM4Eval is a promising technique in the areas of automated judgments, natural language generation, and retrieval augmented generation (RAG) systems. Researchers from Microsoft and experts from industry and academia will explore this technique at an interactive workshop on Friday, March 14, in Hanover, Germany.&nbsp;</li>
+</ul>
+
+
+
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEWRF57-BlogHeroFeature-1400x788-1.jpg" alt="Research Focus: Week of January 31, 2025" class="wp-image-1125636" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEWRF57-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+
+
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
+
+
+
+<h3 class="wp-block-heading h2" id="heading">FLAVARS: A Multimodal Foundational Language and Vision Alignment Model for Remote Sensing</h3>
+
+
+
+<p>In the field of remote sensing, imagery is generally dense with objects and visual content which can vary regionally across the globe. This creates a need for vision-language datasets to be highly detailed when describing imagery, and for pretraining to better balance visual task performance while retaining the ability to perform zero-shot classification and image-text retrieval.</p>
+
+
+
+<p>One strategy is to combine paired satellite images and text captions for pretraining performant encoders for downstream tasks. However, while contrastive image-text methods like CLIP enable vision-language alignment and zero-shot classification ability, CLIP’s vision-only downstream performance tends to degrade compared to image-only pretraining, such as Masked Autoencoders (MAE).</p>
+
+
+
+<p>To better approach multimodal pretraining for remote sensing, researchers from Microsoft propose a pretraining method that combines the best of both contrastive learning and masked modeling, along with geospatial alignment via contrastive location encoding, in the recent paper: <a href="https://www.microsoft.com/en-us/research/publication/flavars-a-multimodal-foundational-language-and-vision-alignment-model-for-remote-sensing/">FLAVARS: A Multimodal Foundational Language and Vision Alignment Model for Remote Sensing</a>. The research shows that FLAVARS significantly outperforms a baseline of SkyCLIP for vision-only tasks such as KNN classification and semantic segmentation, +6% mIOU on SpaceNet1, while retaining the ability to perform zero-shot classification, unlike MAE pretrained methods.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--1"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/flavars-a-multimodal-foundational-language-and-vision-alignment-model-for-remote-sensing/">Read the paper</a></div>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+</div>
+
+
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
+
+
+
+<h3 class="wp-block-heading h2" id="heading">Managed-Retention Memory: A New Class of Memory for the AI Era</h3>
+
+
+
+<p>AI clusters today are one of the major uses of high bandwidth memory (HBM), a high-performance type of computer memory. However, HBM is suboptimal for AI inference workloads for several reasons. Analysis shows that HBM is overprovisioned on write performance, underprovisioned on density and read bandwidth, and has significant energy-per-bit overhead. It is also expensive, with lower yield than DRAM due to manufacturing complexity.</p>
+
+
+
+<p>In a recent paper: <a href="https://www.microsoft.com/en-us/research/publication/managed-retention-memory-a-new-class-of-memory-for-the-ai-era/">Managed-Retention Memory: A New Class of Memory for the AI Era</a>, researchers from Microsoft propose a memory class which is more optimized to store key data structures for AI inference workloads. The paper makes the case that MRM may finally provide a path to viability for technologies that were originally proposed to support storage class memory (SCM). These technologies traditionally offered long-term persistence (10+ years) but provided poor IO performance and/or endurance. MRM makes different trade-offs, and by understanding the workload IO patterns, MRM foregoes long-term data retention and write performance for better potential performance on the metrics important for AI inference.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--2"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/managed-retention-memory-a-new-class-of-memory-for-the-ai-era/">Read the paper</a></div>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+</div>
+
+
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
+
+
+
+<h3 class="wp-block-heading h2" id="heading">Enhanced Macular Telangiectasia Type 2 Detection: Leveraging Self-Supervised Learning and Ensemble Models</h3>
+
+
+
+<p>Macular telangiectasia type 2 (MacTel) is a retinal disease that is challenging to diagnose. While increased awareness has led to improved diagnostic outcomes, MacTel diagnosis relies significantly upon a multimodal image set and the expertise of clinicians familiar with the disease. Optical coherence tomography (OCT) imaging has emerged as a valuable tool for the diagnosis and monitoring of various retinal diseases. With the increasing integration of OCT into clinical practice, deep learning models may be able to achieve accurate MacTel prediction comparable to that of retinal specialists, even when working with limited data.</p>
+
+
+
+<p>Researchers from Microsoft and external colleagues address this challenge in a recent paper: <a href="https://www.microsoft.com/en-us/research/publication/enhanced-macular-telangiectasia-type-2-detection-leveraging-self-supervised-learning-and-ensemble-models/">Enhanced Macular Telangiectasia Type 2 Detection: Leveraging Self-Supervised Learning and Ensemble Models</a>. Published in the journal of Ophthalmology Science, the paper focuses on the accurate classification of macular telangiectasia type 2 using OCT images, with the overarching goal of facilitating early and precise detection of this neurodegenerative disease.</p>
+
+
+
+<p>The researchers present results leveraging self-supervised learning and ensemble models, showing their approach improves both MacTel classification accuracy and interpretability when compared to the use of individual models. Ensemble models exhibited superior agreement with the assessments of the most experienced individual human experts, as well as the ensemble of human experts.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-3 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--3"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/enhanced-macular-telangiectasia-type-2-detection-leveraging-self-supervised-learning-and-ensemble-models/">Read the paper</a></div>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+</div>
+
+
+
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1002645">
+		
+
+		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: AI-POWERED EXPERIENCE</span>
+	</p>
+	
+	<div class="row pt-3 pb-4 align-items-center">
+						<div class="msr-promo__media col-12 col-md-5">
+				<a class="bg-gray-300" href="https://aka.ms/research-copilot/?OCID=msr_researchforum_Copilot_MCR_Blog_Promo" aria-label="Microsoft research copilot experience" data-bi-cN="Microsoft research copilot experience" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MSR-Chat-Promo.png" alt="" />
+				</a>
+			</div>
+			
+			<div class="msr-promo__content p-3 px-5 col-12 col-md">
+
+									<h2 class="h4">Microsoft research copilot experience</h2>
+				
+								<p class="large">Discover more about research at Microsoft through our AI-powered experience</p>
+				
+								<div class="wp-block-buttons justify-content-center justify-content-md-start">
+					<div class="wp-block-button">
+						<a href="https://aka.ms/research-copilot/?OCID=msr_researchforum_Copilot_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Microsoft research copilot experience" data-bi-cN="Microsoft research copilot experience" target="_blank">
+							Start now						</a>
+					</div>
+				</div>
+							</div><!--/.msr-promo__content-->
+	</div><!--/.msr-promo__inner-wrap-->
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
+	
+
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
+
+
+
+<h3 class="wp-block-heading h2" id="heading">Symbolic Automata: Omega-Regularity Modulo Theories</h3>
+
+
+
+<p>Symbolic automata are finite state automata that support potentially infinite alphabets, such as the set of rational numbers, generally applied to regular expressions and languages over finite words. In symbolic automata (or automata modulo<em> A</em>), an alphabet is represented by an effective Boolean algebra <em>A</em>, supported by a decision procedure for satisfiability. Regular languages over infinite words (so called 𝜔-regular languages) have a rich history paralleling that of regular languages over finite words, with well-known applications to model checking via Büchi automata and temporal logics.</p>
+
+
+
+<p>In a recent paper: <a href="https://www.microsoft.com/en-us/research/publication/symbolic-automata-omega-regularity-modulo-theories/">Symbolic Automata: Omega-Regularity Modulo Theories</a>, researchers from Microsoft generalize symbolic automata to support 𝜔-regular languages via <em>transition terms</em> and <em>symbolic derivatives</em>. This brings together a variety of classic automata and logics in a unified framework that provides all the necessary ingredients to support symbolic model checking modulo <em>A</em>.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-4 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--4"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/symbolic-automata-omega-regularity-modulo-theories/">Read the paper</a></div>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+</div>
+
+
+
+<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
+<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-b60fbfa117bcce78e07885aa24d19fc7" id="new-research">EVENT</h2>
+
+
+
+<h3 class="wp-block-heading h2" id="heading">LLM4Eval@WSDM 2025: Large Language Models for Evaluation in Information Retrieval – March 14, 2025</h3>
+
+
+
+<p>LLMs have shown increasing task-solving abilities not present in smaller models. Using LLMs for automated evaluation (LLM4Eval) is a promising technique in the areas of automated judgments, natural language generation, and retrieval augmented generation (RAG) systems.</p>
+
+
+
+<p>Join researchers from Microsoft and experts from industry and academia for a discussion on using LLMs for evaluation in information retrieval at <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://llm4eval.github.io/WSDM2025/" target="_blank" rel="noreferrer noopener">LLM4Eval Workshop &#8211; WSDM 2025<span class="sr-only"> (opens in new tab)</span></a>, March 14, 2025, in Hanover, Germany.</p>
+
+
+
+<p>This interactive workshop will cover automated judgments, RAG pipeline evaluation, altering human evaluation, robustness, and trustworthiness of LLMs for evaluation in addition to their impact on real-world applications. The organizers believe that the information retrieval community can significantly contribute to this growing research area by designing, implementing, analyzing, and evaluating various aspects of LLMs with applications to LLM4Eval tasks.</p>
+
+
+
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-5 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--5"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://llm4eval.github.io/WSDM2025/" target="_blank" rel="noreferrer noopener">Learn more about the workshop</a></div>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
+</div>
+
+
+
+<div style="padding-bottom:64px; padding-top:64px" class="wp-block-msr-immersive-section alignfull row wp-block-msr-immersive-section">
+	
+	<div class="container">
+		<div class="wp-block-msr-immersive-section__inner">
+			<div class="wp-block-msr-cards msr-cards msr-cards--default mt-4 has-text-align-left" data-bi-aN="microsoft-research-in-case-you-missed-it">
+	<div class="msr-cards__inner">
+					<div class="heading-wrapper">
+				<h2 class="mb-5 ">Microsoft Research | In case you missed it</h2>
+			</div>
+		
+		<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+	<div class="msr-cards__card msr-cards__card--default col">
+	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
+
+		
+		<div class="card-body bg-white p-4 pt-3">
+							<h3 class="h5">
+					<a
+						class="text-decoration-none text-black"
+						data-bi-cN="Microsoft Team Uses Diffusion Model For Materials Science"
+						href="https://www.forbes.com/sites/johnwerner/2025/01/21/microsoft-team-uses-diffusion-model-for-materials-science/"
+					>
+						<span>Microsoft Team Uses Diffusion Model For Materials Science</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
+					</a>
+				</h3>
+										<div class="card__description card__citation small">
+					<p>January 21, 2025</p><p>“Finding a new material for a target application is like finding a needle in a haystack,” write the authors of a blog post at Microsoft, where they have been working on just such a program, something called, aptly, MatterGen.</p>				</div>
+			
+					</div>
+	</div>
+</div>
+<div class="msr-cards__card msr-cards__card--default col">
+	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
+
+		
+		<div class="card-body bg-white p-4 pt-3">
+							<h3 class="h5">
+					<a
+						class="text-decoration-none text-black"
+						data-bi-cN="Microsoft AutoGen v0.4: A turning point toward more intelligent AI agents for enterprise developers"
+						href="https://venturebeat.com/ai/microsoft-autogen-v0-4-a-turning-point-toward-more-intelligent-ai-agents-for-enterprise-developers/"
+					>
+						<span>Microsoft AutoGen v0.4: A turning point toward more intelligent AI agents for enterprise developers</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
+					</a>
+				</h3>
+										<div class="card__description card__citation small">
+					<p>January 18, 2025</p><p>The world of AI agents is undergoing a revolution, and Microsoft’s release of AutoGen v0.4 this week marked a significant leap forward in this journey. Positioned as a robust, scalable and extensible framework, AutoGen represents Microsoft’s latest attempt to address the challenges of building multi-agent systems for enterprise applications. </p>				</div>
+			
+					</div>
+	</div>
+</div>
+<div class="msr-cards__card msr-cards__card--default col">
+	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
+
+		
+		<div class="card-body bg-white p-4 pt-3">
+							<h3 class="h5">
+					<a
+						class="text-decoration-none text-black"
+						data-bi-cN="2 AI breakthroughs unlock new potential for health and science"
+						href="https://news.microsoft.com/source/features/ai/2-ai-breakthroughs-unlock-new-potential-for-health-and-science/"
+					>
+						<span>2 AI breakthroughs unlock new potential for health and science</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
+					</a>
+				</h3>
+										<div class="card__description card__citation small">
+					<p>January 17, 2025</p><p>Two new research papers published this week in scientific journals, one in Nature and one in Nature Machine Intelligence, show how generative AI foundation models can exponentially speed up scientific discovery of new materials and help doctors access and analyze radiology results faster.</p>				</div>
+			
+					</div>
+	</div>
+</div>
+<div class="msr-cards__card msr-cards__card--default col">
+	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
+
+		
+		<div class="card-body bg-white p-4 pt-3">
+							<h3 class="h5">
+					<a
+						class="text-decoration-none text-black"
+						data-bi-cN="ChatGPT gets proactive with 'Tasks'"
+						href="https://www.therundown.ai/p/chatgpt-gets-proactive-with-tasks"
+					>
+						<span>ChatGPT gets proactive with 'Tasks'</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
+					</a>
+				</h3>
+										<div class="card__description card__citation small">
+					<p>January 15, 2025</p><p>Good morning, AI enthusiasts. OpenAI’s AI agent era just got its unofficial start — with ChatGPT gaining the ability to schedule and manage daily tasks. With ‘Tasks’ rolling out and mysterious &#8216;Operator&#8217; whispers in the air, is OpenAI finally ready to move from chatbots to full-on autonomous assistants?</p>				</div>
+			
+					</div>
+	</div>
+</div>
+<div class="msr-cards__card msr-cards__card--default col">
+	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
+
+		
+		<div class="card-body bg-white p-4 pt-3">
+							<h3 class="h5">
+					<a
+						class="text-decoration-none text-black"
+						data-bi-cN="Mayo Clinic and Microsoft partner to advance generative AI in radiology"
+						href="https://healthimaging.com/topics/artificial-intelligence/mayo-clinic-and-microsoft-partner-advance-generative-ai-radiology"
+					>
+						<span>Mayo Clinic and Microsoft partner to advance generative AI in radiology</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
+					</a>
+				</h3>
+										<div class="card__description card__citation small">
+					<p>January 15, 2025</p><p>The Mayo Clinic is seeking to advance the use of generative artificial intelligence in imaging through a new collaboration with Microsoft Research. The duo made the announcement during the 43rd Annual J.P. Morgan Healthcare Conference taking place now in San Francisco. </p>				</div>
+			
+					</div>
+	</div>
+</div>
+</div>
+
+					<div class="justify-content-center text-center mb-4">
+				<a
+					href="https://www.microsoft.com/en-us/research/news-and-awards/"
+					class="btn btn-outline-primary glyph-append glyph-append-small glyph-append-chevron-right msr-cards__cta"
+					data-bi-cN="View more news and awards"
+					data-bi-type="button"
+				>
+					View more news and awards				</a>
+			</div>
+			</div>
+</div>		</div>
+	</div>
+
+	</div>
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/research-focus-week-of-january-27-2025/">Research Focus: Week of January 27, 2025</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Ideas: Bug hunting with Shan Lu</title>
 		<link>https://www.microsoft.com/en-us/research/podcast/ideas-bug-hunting-with-shan-lu/</link>
 		
@@ -32,7 +384,7 @@
 <p>The post <a href="https://www.microsoft.com/en-us/research/podcast/ideas-bug-hunting-with-shan-lu/">Ideas: Bug hunting with Shan Lu</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1401" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788.jpg" alt="Ideas podcast | illustration of Shan Lu" class="wp-image-1123245" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788.jpg 1401w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w" sizes="(max-width: 1401px) 100vw, 1401px" /></figure>
+<figure class="wp-block-image size-full"><img decoding="async" width="1401" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788.jpg" alt="Ideas podcast | illustration of Shan Lu" class="wp-image-1123245" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788.jpg 1401w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Shan-Lu_Ideas_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w" sizes="(max-width: 1401px) 100vw, 1401px" /></figure>
 
 
 <div class="wp-block-msr-podcast-container my-4">
@@ -165,7 +517,7 @@
 
 
 				</span>
-				<span id="show-more-show-less-toggle-1" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-6" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -715,7 +1067,7 @@
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-1"
+				aria-controls="show-more-show-less-toggle-6"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -759,7 +1111,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1.jpg" alt="Decorative graphic with wavy shapes in the background in blues and purples. Text overlay in center left reads: “Research Focus: January 17, 2024”" class="wp-image-1122399" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1.jpg" alt="Decorative graphic with wavy shapes in the background in blues and purples. Text overlay in center left reads: “Research Focus: January 17, 2024”" class="wp-image-1122399" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
 
 
 
@@ -776,7 +1128,7 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex">
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-6 wp-block-buttons-is-layout-flex">
 <div class="wp-block-button"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/story/ai-meets-materials-discovery/">Read the story</a></div>
 </div>
 
@@ -802,8 +1154,8 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--2"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/communication-efficient-secure-and-private-multi-party-deep-learning/">Read the paper</a></div>
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-7 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--7"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/communication-efficient-secure-and-private-multi-party-deep-learning/">Read the paper</a></div>
 </div>
 
 
@@ -830,8 +1182,8 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-3 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--3"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/judgeblender-ensembling-judgments-for-automatic-relevance-assessment/">Read the paper</a></div>
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-8 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--8"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/judgeblender-ensembling-judgments-for-automatic-relevance-assessment/">Read the paper</a></div>
 </div>
 
 
@@ -858,8 +1210,8 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-4 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--4"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/convergence-to-equilibrium-of-no-regret-dynamics-in-congestion-games/">Read the paper</a></div>
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-9 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--9"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/convergence-to-equilibrium-of-no-regret-dynamics-in-congestion-games/">Read the paper</a></div>
 </div>
 
 
@@ -894,37 +1246,37 @@
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-5 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--5"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/articles/rd-agent-an-open-source-solution-for-smarter-rd/">Read the article</a></div>
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-10 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--10"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/articles/rd-agent-an-open-source-solution-for-smarter-rd/">Read the article</a></div>
 </div>
 </div>
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1002645">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085508">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: AI-POWERED EXPERIENCE</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://aka.ms/research-copilot/?OCID=msr_researchforum_Copilot_MCR_Blog_Promo" aria-label="Microsoft research copilot experience" data-bi-cN="Microsoft research copilot experience" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MSR-Chat-Promo.png" alt="" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" aria-label="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/MedFuzz-BlogHeroFeature-1400x788-1.jpg" alt="MedFuzz blog hero (decorative)" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Microsoft research copilot experience</h2>
+									<h2 class="h4">MedFuzz: Exploring the robustness of LLMs on medical challenge problems</h2>
 				
-								<p class="large">Discover more about research at Microsoft through our AI-powered experience</p>
+								<p class="large">Medfuzz tests LLMs by breaking benchmark assumptions, exposing vulnerabilities to bolster real-world accuracy.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://aka.ms/research-copilot/?OCID=msr_researchforum_Copilot_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Microsoft research copilot experience" data-bi-cN="Microsoft research copilot experience" target="_blank">
-							Start now						</a>
+						<a href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
+							Read more						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -1176,7 +1528,7 @@
 
 
 				</span>
-				<span id="show-more-show-less-toggle-6" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-11" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -1410,7 +1762,7 @@
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-6"
+				aria-controls="show-more-show-less-toggle-11"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -1500,30 +1852,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="670821">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115760">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Microsoft research newsletter</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://info.microsoft.com/ww-landing-microsoft-research-newsletter.html" aria-label="Microsoft Research Newsletter" data-bi-cN="Microsoft Research Newsletter" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2019/09/Newsletter_Banner_08_2019_v1_1920x1080.png" alt="" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/neurips-2024-the-co-evolution-of-ai-and-systems-with-lidong-zhou/" aria-label="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" data-bi-cN="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Lidong-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Lidong Zhou and Eliza Strickland" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Microsoft Research Newsletter</h2>
+									<h2 class="h4">NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou</h2>
 				
-								<p class="large">Stay connected to the research community at Microsoft.</p>
+								<p class="large">Just after his NeurIPS 2024 keynote on the co-evolution of systems and AI, Microsoft CVP Lidong Zhou joins the podcast to discuss how rapidly advancing AI impacts the systems supporting it and the opportunities to use AI to enhance systems engineering itself.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
-					<div class="wp-block-button is-style-fill-chevron">
-						<a href="https://info.microsoft.com/ww-landing-microsoft-research-newsletter.html" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Microsoft Research Newsletter" data-bi-cN="Microsoft Research Newsletter" target="_blank">
-							Subscribe today						</a>
+					<div class="wp-block-button">
+						<a href="https://www.microsoft.com/en-us/research/podcast/neurips-2024-the-co-evolution-of-ai-and-systems-with-lidong-zhou/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" target="_blank">
+							Listen now						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -1658,30 +2010,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115766">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115760">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research blog</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" aria-label="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1.png" alt="A diagram illustrating the joint optimization process of instructions and in-context examples in PromptWizard. The figure demonstrates how the framework iteratively refines both components, integrating feedback to enhance the overall prompt effectiveness and adaptability across tasks." />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/neurips-2024-the-co-evolution-of-ai-and-systems-with-lidong-zhou/" aria-label="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" data-bi-cN="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Lidong-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Lidong Zhou and Eliza Strickland" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts</h2>
+									<h2 class="h4">NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou</h2>
 				
-								<p class="large">PromptWizard from Microsoft Research is now open source. It is designed to automate and simplify AI prompt optimization, combining iterative LLM feedback with efficient exploration and refinement techniques to create highly effective prompts in minutes.</p>
+								<p class="large">Just after his NeurIPS 2024 keynote on the co-evolution of systems and AI, Microsoft CVP Lidong Zhou joins the podcast to discuss how rapidly advancing AI impacts the systems supporting it and the opportunities to use AI to enhance systems engineering itself.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
-							Read more						</a>
+						<a href="https://www.microsoft.com/en-us/research/podcast/neurips-2024-the-co-evolution-of-ai-and-systems-with-lidong-zhou/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" target="_blank">
+							Listen now						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -1911,29 +2263,29 @@ asyncio.run(orch.start_problem(max_steps=10))
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085508">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115766">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research blog</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" aria-label="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/MedFuzz-BlogHeroFeature-1400x788-1.jpg" alt="MedFuzz blog hero (decorative)" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" aria-label="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1.png" alt="A diagram illustrating the joint optimization process of instructions and in-context examples in PromptWizard. The figure demonstrates how the framework iteratively refines both components, integrating feedback to enhance the overall prompt effectiveness and adaptability across tasks." />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">MedFuzz: Exploring the robustness of LLMs on medical challenge problems</h2>
+									<h2 class="h4">PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts</h2>
 				
-								<p class="large">Medfuzz tests LLMs by breaking benchmark assumptions, exposing vulnerabilities to bolster real-world accuracy.</p>
+								<p class="large">PromptWizard from Microsoft Research is now open source. It is designed to automate and simplify AI prompt optimization, combining iterative LLM feedback with efficient exploration and refinement techniques to create highly effective prompts in minutes.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
+						<a href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
 							Read more						</a>
 					</div>
 				</div>
@@ -2160,7 +2512,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 				</span>
-				<span id="show-more-show-less-toggle-7" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-12" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -2814,7 +3166,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-7"
+				aria-controls="show-more-show-less-toggle-12"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -2871,8 +3223,8 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-6 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--8"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/neomem-hardware-software-co-design-for-cxl-native-memory-tiering/">Read the paper</a></div>
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-11 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--13"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/neomem-hardware-software-co-design-for-cxl-native-memory-tiering/">Read the paper</a></div>
 </div>
 
 
@@ -2903,8 +3255,8 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-7 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--9"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/chimera-accurate-retrosynthesis-prediction-by-ensembling-models-with-diverse-inductive-biases/">Read the paper</a></div>
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-12 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--14"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/chimera-accurate-retrosynthesis-prediction-by-ensembling-models-with-diverse-inductive-biases/">Read the paper</a></div>
 </div>
 
 
@@ -2914,30 +3266,30 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="999693">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085496">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Event Series</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum" data-bi-cN="Microsoft Research Forum" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MRF-24_WebImage_1400x788.png" alt="various abstract 3D shapes on a light blue background" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" aria-label="Eureka: Evaluating and understanding progress in AI" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/NEWEureka-2024-BlogHeroFeature-1400x788-1-66e90c195464d.jpg" alt="White icons representing the Eureka Experiment Pipeline -- PromptProcessing, Inference, PromptProcessing, Inference, DataProcessing, EvalReporting -- on blue to green gradient background." />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Microsoft Research Forum</h2>
+									<h2 class="h4">Eureka: Evaluating and understanding progress in AI</h2>
 				
-								<p class="large">Join us for a continuous exchange of ideas about research in the era of general AI. Watch the first four episodes on demand.</p>
+								<p class="large">How can we rigorously evaluate and understand state-of-the-art progress in AI? Eureka is an open-source framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. Learn more about the extended findings. </p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum" target="_blank">
-							Watch on-demand						</a>
+						<a href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
+							Read more						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -2967,8 +3319,8 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-8 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--10"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/the-ga4gh-task-execution-application-programming-interface-enabling-easy-multicloud-task-execution/">Read the paper</a></div>
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-13 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--15"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/the-ga4gh-task-execution-application-programming-interface-enabling-easy-multicloud-task-execution/">Read the paper</a></div>
 </div>
 
 
@@ -3003,8 +3355,8 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-9 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--11"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/redcode-multi-dimensional-safety-benchmark-for-code-agents/">Read the paper</a></div>
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-14 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--16"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/redcode-multi-dimensional-safety-benchmark-for-code-agents/">Read the paper</a></div>
 </div>
 </div>
 
@@ -3031,8 +3383,8 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-10 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--12"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/towards-foundation-models-for-learning-on-tabular-data/">Read the paper</a></div>
+<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-15 wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--17"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/towards-foundation-models-for-learning-on-tabular-data/">Read the paper</a></div>
 </div>
 </div>
 
@@ -3257,7 +3609,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 
 				</span>
-				<span id="show-more-show-less-toggle-13" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-18" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -3419,7 +3771,7 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-13"
+				aria-controls="show-more-show-less-toggle-18"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -3427,235 +3779,6 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 	</div>
 </div>
 <span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/podcast/neurips-2024-the-co-evolution-of-ai-and-systems-with-lidong-zhou/">NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts</title>
-		<link>https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/</link>
-		
-		<dc:creator><![CDATA[Brenda Potts]]></dc:creator>
-		<pubDate>Tue, 17 Dec 2024 17:00:00 +0000</pubDate>
-				<category><![CDATA[Research Blog]]></category>
-		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1111329</guid>
-
-					<description><![CDATA[<p>PromptWizard from Microsoft Research is now open source. It is designed to automate and simplify AI prompt optimization, combining iterative LLM feedback with efficient exploration and refinement techniques to create highly effective prompts in minutes.</p>
-<p>The post <a href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/">PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1.png" alt="A diagram illustrating the joint optimization process of instructions and in-context examples in PromptWizard. The figure demonstrates how the framework iteratively refines both components, integrating feedback to enhance the overall prompt effectiveness and adaptability across tasks. " class="wp-image-1111944" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1.png 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-300x169.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-1024x576.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-768x432.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-1066x600.png 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-655x368.png 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-240x135.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-640x360.png 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-960x540.png 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-1280x720.png 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
-
-
-
-<h2 class="wp-block-heading" id="the-challenge-of-effective-prompting">The challenge of effective prompting</h2>
-
-
-
-<p>AI is reshaping industries—from education to healthcare—thanks to advancements in large language models (LLMs). These models rely on prompts, carefully crafted inputs that guide them to produce relevant and meaningful outputs. While the impact of prompts is profound, creating prompts that can help with complex tasks is a time-intensive and expertise-heavy process, often involving months of trial and error.&nbsp;</p>
-
-
-
-<p>This challenge grows as new tasks arise and models evolve rapidly, making manual methods for prompt engineering increasingly unsustainable. The question then becomes: <strong>How can we make prompt optimization faster, more accessible, and more adaptable across diverse tasks?</strong>&nbsp;</p>
-
-
-
-<div class="annotations " data-bi-aN="margin-callout">
-	<ul class="annotations__list card depth-16 bg-body p-4 annotations__list--right">
-		<li class="annotations__list-item">
-						<span class="annotations__type d-block text-uppercase font-weight-semibold text-neutral-300 small">Download</span>
-			<a href="https://github.com/microsoft/PromptWizard" target="_blank" class="annotations__link font-weight-semibold text-decoration-none" data-bi-type="annotated-link" aria-label="PromptWizard" data-bi-aN="margin-callout" data-bi-cN="PromptWizard">
-				PromptWizard&nbsp;<span class="glyph-append glyph-append-share glyph-append-xsmall"></span>
-			</a>
-					</li>
-	</ul>
-</div>
-
-
-
-<p>To address this challenge, we developed PromptWizard (PW), a research framework that automates and streamlines the process of prompt optimization. We are open sourcing the <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/PromptWizard" target="_blank" rel="noreferrer noopener">PromptWizard codebase<span class="sr-only"> (opens in new tab)</span></a> to foster collaboration and innovation within the research and development community.</p>
-
-
-
-<h2 class="wp-block-heading" id="introducing-promptwizard">Introducing PromptWizard</h2>
-
-
-
-<p>PromptWizard (PW) is designed to <strong>automate and simplify prompt optimization</strong>. It combines iterative feedback from LLMs with efficient exploration and refinement techniques to <strong>create highly effective prompts within minutes</strong>.</p>
-
-
-
-<p><strong>PromptWizard optimizes both the instruction and the in-context learning examples.</strong> Central to PW is its self-evolving and self-adaptive mechanism, where the LLM iteratively generates, critiques, and refines prompts and examples in tandem. This process ensures continuous improvement through feedback and synthesis, achieving a holistic optimization tailored to the specific task at hand. By evolving both instructions and examples simultaneously, PW ensures significant gains in task performance.&nbsp;</p>
-
-
-
-<p><strong>Three key insights behind PromptWizard</strong>:</p>
-
-
-
-<ul class="wp-block-list">
-<li><em>Feedback-driven refinement: </em>At its core, PW leverages an iterative feedback loop where the LLM generates, critiques, and refines its own prompts and examples. This continuous improvement mechanism ensures that each iteration is better than the last, leading to highly effective prompts and examples.&nbsp;</li>
-
-
-
-<li><em>Joint optimization and synthesis of diverse examples: </em>PW generates synthetic examples that are not only robust and diverse but also task-aware. By optimizing prompts and examples together, it ensures they work in tandem to address specific task requirements effectively.&nbsp;</li>
-
-
-
-<li><em>Self-generated chain-of-thought (CoT) steps</em>: Incorporating CoT reasoning improves the problem-solving capabilities of the model. By using selected few-shot examples, PW generates a detailed reasoning chain for each example, facilitating nuanced and step-by-step problem-solving approaches.</li>
-</ul>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="982" height="306" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-1.png" alt="Fig 1: A diagram providing an overview of the PromptWizard process. It illustrates the main components, including iterative prompt generation, feedback-based refinement, and joint optimization of instructions and examples. The workflow emphasizes modularity and adaptability, demonstrating how PromptWizard evolves prompts to improve performance across diverse tasks." class="wp-image-1111362" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-1.png 982w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-1-300x93.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-1-768x239.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-1-240x75.png 240w" sizes="auto, (max-width: 982px) 100vw, 982px" /><figcaption class="wp-element-caption">Figure 1. Overview of PromptWizard</figcaption></figure>
-
-
-
-<h2 class="wp-block-heading" id="how-promptwizard-works">How PromptWizard works</h2>
-
-
-
-<p>PromptWizard begins with a user input: a problem description, an initial prompt instruction, and a few training examples that serve as a foundation for the task at hand.</p>
-
-
-
-<p>Its output is a refined, optimized set of prompt instructions paired with carefully curated in-context few-shot examples. These outputs are enriched with detailed reasoning chains, task intent, and an expert profile that bridges human-like reasoning with the AI’s responses.&nbsp;</p>
-
-
-
-<p><strong>Stage 1: Refinement of prompt instruction</strong></p>
-
-
-
-<p>The first stage focuses on refining the task instructions of a prompt. PromptWizard generates multiple candidate instructions, evaluates them using feedback from the LLM, and iteratively synthesizes improved versions. This process balances <strong>exploration</strong>—trying diverse ideas—and <strong>exploitation</strong>—refining the most promising ones.</p>
-
-
-
-<p>For example, if an initial instruction yields suboptimal results, PW incorporates feedback to identify its shortcomings and generates an improved version. Over three to five iterations, this iterative cycle ensures that the instruction converges to an optimal state.&nbsp;</p>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1404" height="697" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-2.png" alt="Fig 2: A visualization of the refinement process for prompt instructions in PromptWizard. The figure highlights iterative improvements, where initial instructions are critiqued, adjusted based on feedback, and fine-tuned to achieve greater accuracy and alignment with task objectives." class="wp-image-1111365" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-2.png 1404w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-2-300x149.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-2-1024x508.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-2-768x381.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-2-240x119.png 240w" sizes="auto, (max-width: 1404px) 100vw, 1404px" /><figcaption class="wp-element-caption">Figure 2. Refinement of prompt instruction</figcaption></figure>
-
-
-
-<p><strong>Stage 2: Joint optimization of instructions and examples</strong></p>
-
-
-
-<p>The refined prompt obtained from Stage 1 is combined with carefully selected examples, and both are optimized together. Through the critique-and-synthesis mechanism, PromptWizard ensures alignment between the prompt and examples, simultaneously synthesizing new examples to enhance task performance.</p>
-
-
-
-<p>This structured approach makes PromptWizard highly versatile, adapting to tasks as varied as solving math problems or generating creative content.&nbsp;</p>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1128" height="504" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-3.png" alt="Fig 3: A diagram illustrating the joint optimization process of instructions and in-context examples in PromptWizard. The figure demonstrates how the framework iteratively refines both components, integrating feedback to enhance the overall prompt effectiveness and adaptability across tasks." class="wp-image-1111368" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-3.png 1128w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-3-300x134.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-3-1024x458.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-3-768x343.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-3-240x107.png 240w" sizes="auto, (max-width: 1128px) 100vw, 1128px" /><figcaption class="wp-element-caption">Figure 3. Joint optimization of instructions and examples</figcaption></figure>
-
-
-
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085514">
-		
-
-		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: blog post</span>
-	</p>
-	
-	<div class="row pt-3 pb-4 align-items-center">
-						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/graphrag-auto-tuning-provides-rapid-adaptation-to-new-domains/" aria-label="GraphRAG auto-tuning provides rapid adaptation to new domains" data-bi-cN="GraphRAG auto-tuning provides rapid adaptation to new domains" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/GraphRag-3-BlogHeroFeature-1400x788-1.png" alt="GraphRAG image on blue to green gradient" />
-				</a>
-			</div>
-			
-			<div class="msr-promo__content p-3 px-5 col-12 col-md">
-
-									<h2 class="h4">GraphRAG auto-tuning provides rapid adaptation to new domains</h2>
-				
-								<p class="large">GraphRAG uses LLM-generated knowledge graphs to substantially improve complex Q&A over retrieval-augmented generation (RAG). Discover automatic tuning of GraphRAG for new datasets, making it more accurate and relevant.</p>
-				
-								<div class="wp-block-buttons justify-content-center justify-content-md-start">
-					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/graphrag-auto-tuning-provides-rapid-adaptation-to-new-domains/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="GraphRAG auto-tuning provides rapid adaptation to new domains" target="_blank">
-							Read more						</a>
-					</div>
-				</div>
-							</div><!--/.msr-promo__content-->
-	</div><!--/.msr-promo__inner-wrap-->
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
-	
-
-
-<h2 class="wp-block-heading" id="results">Results</h2>
-
-
-
-<p>PromptWizard stands out for its feedback-driven refinement and systematic exploration, delivering exceptional results across a wide variety of tasks while maintaining computational efficiency.&nbsp;</p>
-
-
-
-<h3 class="wp-block-heading" id="comprehensive-evaluation-across-tasks">Comprehensive evaluation across tasks</h3>
-
-
-
-<p>PromptWizard was rigorously evaluated on over 45 tasks, spanning both general and domain-specific challenges. Benchmarked against state-of-the-art techniques—including Instinct, InstructZero, APE, PromptBreeder, EvoPrompt, DSPy, APO, and PromptAgent—PW consistently outperformed competitors in accuracy, efficiency, and adaptability. Please see detailed results in <a href="https://www.microsoft.com/en-us/research/publication/promptwizard-task-aware-agent-driven-prompt-optimization-framework/" target="_blank" rel="noreferrer noopener">our paper</a>.&nbsp;</p>
-
-
-
-<ul class="wp-block-list">
-<li><strong>Accuracy</strong>: PW consistently outperformed other methods, maintaining performance close to the best across all tasks. Figure 4 shows the performance profile curve that highlights PW’s reliability, demonstrating how frequently it achieves near-best accuracy compared to other approaches for BigBench Instruction Induction dataset (BBII).</li>
-
-
-
-<li><strong>Efficiency</strong>: Beyond accuracy, PW demonstrates its computational efficiency. Unlike many baseline methods that require extensive API calls and computational resources, PW achieves superior results with minimal overhead by striking an effective balance between exploration and exploitation. Table 1 demonstrates PW’s cost-effectiveness, with significantly reduced token usage for input and output while optimizing prompts effectively.</li>
-</ul>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="684" height="484" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-4.png" alt="Fig 4: A performance profile curve illustrating PromptWizard's reliability on the BigBench Instruction Induction (BBII) dataset. The curve demonstrates how often PromptWizard achieves accuracy levels close to the best performance when compared to other approaches, highlighting its consistency and effectiveness." class="wp-image-1111359" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-4.png 684w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-4-300x212.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard_Fig-4-240x170.png 240w" sizes="auto, (max-width: 684px) 100vw, 684px" /><figcaption class="wp-element-caption">Figure 4. Performance Profile curve on BBII dataset</figcaption></figure>
-
-
-
-<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Methods</th><th>API calls</th><th>Total tokens</th></tr></thead><tbody><tr><td>Instinct</td><td>1730</td><td>115k</td></tr><tr><td>PromptBreeder</td><td>18600</td><td>1488k</td></tr><tr><td>EvoPrompt</td><td>5000</td><td>400k</td></tr><tr><td><strong>PW</strong></td><td><strong>69</strong></td><td><strong>24k</strong></td></tr></tbody></table><figcaption class="wp-element-caption">Table 1. Cost analysis on BBII dataset</figcaption></figure>
-
-
-
-<p>We also have conducted numerous experiments to highlight PromptWizard’s efficacy with limited training data and smaller LLMs.&nbsp;</p>
-
-
-
-<h3 class="wp-block-heading" id="resilience-with-limited-data">Resilience with limited data</h3>
-
-
-
-<p>Real-world scenarios often lack abundant training data. PW excels in such conditions, requiring as few as five examples to produce effective prompts. Across five diverse datasets, PW demonstrated an average accuracy drop of only 5% when using five examples compared to 25 examples—highlighting its adaptability and efficiency (see Table 2).&nbsp;</p>
-
-
-
-<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Datasets</th><th>5 Examples</th><th>25 Examples</th></tr></thead><tbody><tr><td>MMLU</td><td>80.4</td><td>89.5</td></tr><tr><td>GSM8k</td><td>94</td><td>95.4</td></tr><tr><td>Ethos</td><td>86.4</td><td>89.4</td></tr><tr><td>PubMedQA</td><td>68</td><td>78.2</td></tr><tr><td>MedQA</td><td>80.4</td><td>82.9</td></tr><tr><td><strong>Average</strong></td><td><strong>81.9</strong></td><td><strong>87</strong></td></tr></tbody></table><figcaption class="wp-element-caption">Table 2. PW’s performance with varying number of examples</figcaption></figure>
-
-
-
-<h3 class="wp-block-heading" id="leveraging-smaller-models-for-optimization">Leveraging smaller models for optimization</h3>
-
-
-
-<p>PromptWizard also reduces computational costs by using smaller LLMs for prompt generation, reserving more powerful models for inference. For example, using Llama-70B for prompt generation resulted in negligible performance differences compared to GPT-4, while significantly lowering resource usage (see Table 3).</p>
-
-
-
-<figure class="wp-block-table"><table class="has-fixed-layout"><thead><tr><th>Dataset</th><th>Prompt Gen: Llama-70B</th><th>Prompt Gen: GPT4</th></tr></thead><tbody><tr><td>GSM8k</td><td>94.6</td><td>95.4</td></tr><tr><td>Ethos</td><td>89.2</td><td>89.4</td></tr><tr><td><strong>Average</strong></td><td><strong>91.9</strong></td><td><strong>92.4</strong></td></tr></tbody></table><figcaption class="wp-element-caption">Table 3. Performance with smaller LLMs for prompt generation&nbsp;</figcaption></figure>
-
-
-
-<p>PromptWizard shows that effective prompts combine optimized instructions refined through iterative feedback, thoughtfully chosen in-context examples, and a modular design that incorporates expert knowledge and task-specific intent. This approach enables the framework to handle a broad range of tasks, from simple to highly complex, with exceptional efficiency and flexibility.</p>
-
-
-
-<p>&nbsp;Whether you are a researcher addressing cutting-edge challenges or an organization looking to streamline workflows, PromptWizard provides a practical, scalable, and impactful solution for enhancing model performance.</p>
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/">PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></content:encoded>
 					
 		

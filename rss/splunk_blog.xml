@@ -6,38 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 31 Jan 2025 01:46:45 +0000</lastBuildDate>
-    <item>
-      <title>Security Intelligence: An Introduction</title>
-      <link>https://www.splunk.com/en_us/blog/learn/security-intelligence.html</link>
-      <description>Learn how security intelligence uses real-time data, AI, and machine learning to anticipate, detect, and respond to evolving cybersecurity threats effectively.</description>
-    </item>
-    <item>
-      <title>Cloud SOAR Achieves IRAP Assessment Along With Enterprise Security 8.0, DMX Edge Processor &amp; Federated Search S3</title>
-      <link>https://www.splunk.com/en_us/blog/security/cloud-soar-achieves-irap-assessment-along-with-enterprise-security-8.html</link>
-      <description>We are delighted to announce that our Cloud SOAR solution has successfully completed the IRAP assessment.</description>
-    </item>
-    <item>
-      <title>Logs Are for Campfires: Splunk’s Asset and Risk Intelligence Leaves No Vulnerability Undiscovered!</title>
-      <link>https://www.splunk.com/en_us/blog/security/splunk-asset-risk-intelligence-no-vulnerability-undiscovered.html</link>
-      <description>Splunk's Asset and Risk Intelligence enhances security by uncovering hidden vulnerabilities, prioritizing critical threats, and offering dynamic risk scoring for proactive risk mitigation and compliance.</description>
-    </item>
-    <item>
-      <title>Splunk and the Cisco Store demonstrate the power of digital resilience at NRF 2025</title>
-      <link>https://www.splunk.com/en_us/blog/industries/splunk-and-the-cisco-store-demonstrate-the-power-of-digital-resilience.html</link>
-      <description>Discover how Splunk and the Cisco Store showcase digital resilience at NRF 2025, featuring cutting-edge retail technologies like AI chatbots, Meraki Video, and real-time data analytics. Learn about personalized customer experiences and the importance of innovation and security in the evolving retail landscape.</description>
-    </item>
-    <item>
-      <title>What's new in Splunk DSDL 5.2: LLM-RAG functionalities and use cases</title>
-      <link>https://www.splunk.com/en_us/blog/artificial-intelligence/what-s-new-in-splunk-dsdl-5-2-llm-rag-functionalities-and-use-cases.html</link>
-      <description>In this version 5.2 release of Splunk DSDL, we introduce new functionalities utilizing retrieval-augmented generation with local large language models and a vector database. In this blog, we provide an overview of various use cases supported through a set of DSDL commands and dashboards.</description>
-    </item>
-    <item>
-      <title>Building Resilience with Energy Management for Industries</title>
-      <link>https://www.splunk.com/en_us/blog/industries/building-resilience-with-energy-management-for-industries.html</link>
-      <description>Energy and energy management are top of mind for all types of organizations to build resilience.
-Read on to learn about a data-driven approach by unlocking a new observability use case: reducing energy costs, increasing energy efficiency and improving the carbon footprint for buildings, data centers and factories across industries.</description>
-    </item>
+    <lastBuildDate>Sat, 01 Feb 2025 01:51:32 +0000</lastBuildDate>
     <item>
       <title>Idempotence &amp; Idempotent Design in IT/Tech Systems</title>
       <link>https://www.splunk.com/en_us/blog/learn/idempotent-design.html</link>
@@ -52,6 +21,36 @@ Read on to learn about a data-driven approach by unlocking a new observability u
       <title>Data Lake vs. Data Warehouse: Definitions, Key Differences, and How to Integrate Data Storage Solutions</title>
       <link>https://www.splunk.com/en_us/blog/learn/data-warehouse-vs-data-lake.html</link>
       <description>Data Lake vs Data Warehouse, in this post, we are going to discuss what they are, their differences, some use cases, and more.</description>
+    </item>
+    <item>
+      <title>Mean Time To Acknowledge: What MTTA Means and How &amp; Why To Improve It</title>
+      <link>https://www.splunk.com/en_us/blog/learn/mtta-mean-time-to-acknowledge.html</link>
+      <description>Learn about the mean time to acknowledge (MTTA) metric in IT and networking incidents, including how to improve this time along with other reliability metrics.</description>
+    </item>
+    <item>
+      <title>Common DevOps Roles and Responsibilities Today: Who’s on a DevOps Team &amp; How These Roles Work Together</title>
+      <link>https://www.splunk.com/en_us/blog/learn/devops-roles-responsibilities.html</link>
+      <description>Understand the core principles of DevOps — collaboration, automation, transparency and accountability — to see how DevOps can help you drive business value.</description>
+    </item>
+    <item>
+      <title>Rationalize and Realize: Simplifying Tools for a Leading Observability Practice</title>
+      <link>https://www.splunk.com/en_us/blog/observability/simplifying-observability-tools-rationalization.html</link>
+      <description>Discover how observability tools rationalization can streamline your workflows, reduce costs, and enhance business outcomes.</description>
+    </item>
+    <item>
+      <title>Kubernetes Monitoring: The Ultimate Guide</title>
+      <link>https://www.splunk.com/en_us/blog/learn/kubernetes-monitoring.html</link>
+      <description>Monitoring Kubernetes is a complicated but critical practice. Learn why and how you need to do it in this comprehensive, hands-on guide to K8s monitoring.</description>
+    </item>
+    <item>
+      <title>Now Available: Splunk Enterprise Security Content Update App 5.0</title>
+      <link>https://www.splunk.com/en_us/blog/security/enterprise-security-content-update-v5-0-0.html</link>
+      <description>The Splunk Threat Research Team announces the release of the Enterprise Security Content Update (ESCU) app 5.0.</description>
+    </item>
+    <item>
+      <title>Security Staff Picks To Read This Month, Handpicked by Splunk Experts</title>
+      <link>https://www.splunk.com/en_us/blog/security/cybersecurity-recent-articles.html</link>
+      <description>Every month, our Splunk staff of security experts share their favorite reads of the month — this way, you can follow the most interesting, news-worthy, and innovative stories coming from the wide world of cybersecurity.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

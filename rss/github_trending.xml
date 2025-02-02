@@ -6,36 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 01 Feb 2025 01:51:37 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2025 01:50:48 +0000</lastBuildDate>
     <item>
-      <title>astral-sh /ruff</title>
-      <link>https://github.com/astral-sh/ruff</link>
-      <description>An extremely fast Python linter and code formatter, written in Rust.</description>
+      <title>getsentry /sentry</title>
+      <link>https://github.com/getsentry/sentry</link>
+      <description>Developer-first error tracking and performance monitoring</description>
     </item>
     <item>
-      <title>google /meridian</title>
-      <link>https://github.com/google/meridian</link>
-      <description>Meridian is an MMM framework that enables advertisers to set up and run their own in-house models.</description>
+      <title>documenso /documenso</title>
+      <link>https://github.com/documenso/documenso</link>
+      <description>The Open Source DocuSign Alternative.</description>
     </item>
     <item>
-      <title>oobabooga /text-generation-webui</title>
-      <link>https://github.com/oobabooga/text-generation-webui</link>
-      <description>A Gradio web UI for Large Language Models with support for multiple inference backends.</description>
-    </item>
-    <item>
-      <title>GyulyVGC /sniffnet</title>
-      <link>https://github.com/GyulyVGC/sniffnet</link>
-      <description>Comfortably monitor your Internet traffic 🕵️‍♂️</description>
-    </item>
-    <item>
-      <title>open-webui /open-webui</title>
-      <link>https://github.com/open-webui/open-webui</link>
-      <description>User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</description>
-    </item>
-    <item>
-      <title>jef /streetmerchant</title>
-      <link>https://github.com/jef/streetmerchant</link>
-      <description>🤖 The world's easiest, most powerful stock checker</description>
+      <title>tensorflow /tensorflow</title>
+      <link>https://github.com/tensorflow/tensorflow</link>
+      <description>An Open Source Machine Learning Framework for Everyone</description>
     </item>
     <item>
       <title>juspay /hyperswitch</title>
@@ -43,34 +28,19 @@
       <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
     </item>
     <item>
-      <title>confluentinc /librdkafka</title>
-      <link>https://github.com/confluentinc/librdkafka</link>
-      <description>The Apache Kafka C/C++ library</description>
-    </item>
-    <item>
-      <title>QwenLM /Qwen2.5-Coder</title>
-      <link>https://github.com/QwenLM/Qwen2.5-Coder</link>
-      <description>Qwen2.5-Coder is the code version of Qwen2.5, the large language model series developed by Qwen team, Alibaba Cloud.</description>
-    </item>
-    <item>
-      <title>QwenLM /Qwen-Agent</title>
-      <link>https://github.com/QwenLM/Qwen-Agent</link>
-      <description>Agent framework and applications built upon Qwen&gt;=2.0, featuring Function Calling, Code Interpreter, RAG, and Chrome extension.</description>
-    </item>
-    <item>
       <title>ollama /ollama</title>
       <link>https://github.com/ollama/ollama</link>
       <description>Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models.</description>
     </item>
     <item>
-      <title>paperless-ngx /paperless-ngx</title>
-      <link>https://github.com/paperless-ngx/paperless-ngx</link>
-      <description>A community-supported supercharged version of paperless: scan, index and archive all your physical documents</description>
+      <title>MystenLabs /sui</title>
+      <link>https://github.com/MystenLabs/sui</link>
+      <description>Sui, a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language</description>
     </item>
     <item>
-      <title>QwenLM /Qwen2.5-VL</title>
-      <link>https://github.com/QwenLM/Qwen2.5-VL</link>
-      <description>Qwen2.5-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.</description>
+      <title>containers /ramalama</title>
+      <link>https://github.com/containers/ramalama</link>
+      <description>The goal of RamaLama is to make working with AI boring.</description>
     </item>
     <item>
       <title>QwenLM /Qwen</title>
@@ -78,14 +48,49 @@
       <description>The official repo of Qwen (通义千问) chat &amp; pretrained large language model proposed by Alibaba Cloud.</description>
     </item>
     <item>
-      <title>block /goose</title>
-      <link>https://github.com/block/goose</link>
-      <description>an open-source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM</description>
+      <title>open-webui /open-webui</title>
+      <link>https://github.com/open-webui/open-webui</link>
+      <description>User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</description>
     </item>
     <item>
       <title>QwenLM /Qwen2.5</title>
       <link>https://github.com/QwenLM/Qwen2.5</link>
       <description>Qwen2.5 is the large language model series developed by Qwen team, Alibaba Cloud.</description>
+    </item>
+    <item>
+      <title>google /meridian</title>
+      <link>https://github.com/google/meridian</link>
+      <description>Meridian is an MMM framework that enables advertisers to set up and run their own in-house models.</description>
+    </item>
+    <item>
+      <title>Shubhamsaboo /awesome-llm-apps</title>
+      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
+      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
+    </item>
+    <item>
+      <title>penpot /penpot</title>
+      <link>https://github.com/penpot/penpot</link>
+      <description>Penpot: The open-source design tool for design and code collaboration</description>
+    </item>
+    <item>
+      <title>github /docs</title>
+      <link>https://github.com/github/docs</link>
+      <description>The open-source repo for docs.github.com</description>
+    </item>
+    <item>
+      <title>block /goose</title>
+      <link>https://github.com/block/goose</link>
+      <description>an open-source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM</description>
+    </item>
+    <item>
+      <title>QwenLM /Qwen2.5-VL</title>
+      <link>https://github.com/QwenLM/Qwen2.5-VL</link>
+      <description>Qwen2.5-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.</description>
+    </item>
+    <item>
+      <title>oumi-ai /oumi</title>
+      <link>https://github.com/oumi-ai/oumi</link>
+      <description>Everything you need to build state-of-the-art foundation models, end-to-end.</description>
     </item>
   </channel>
 </rss>

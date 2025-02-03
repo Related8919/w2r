@@ -6,7 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 02 Feb 2025 01:51:01 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2025 01:48:13 +0000</lastBuildDate>
     <item>
       <title>How L’Oréal's tech accelerator built its end-to-end MLOps platform</title>
       <link>https://cloud.google.com/blog/products/ai-machine-learning/how-loreals-tech-accelerator-built-its-end-to-end-mlops-platform</link>

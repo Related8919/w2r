@@ -6,71 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 03 Feb 2025 01:47:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2025 01:47:31 +0000</lastBuildDate>
     <item>
-      <title>HITsz-TMG /FilmAgent</title>
-      <link>https://github.com/HITsz-TMG/FilmAgent</link>
-      <description>Resources of our paper "FilmAgent: A Multi-Agent Framework for End-to-End Film Automation in Virtual 3D Spaces". New versions in the making!</description>
-    </item>
-    <item>
-      <title>abi /screenshot-to-code</title>
-      <link>https://github.com/abi/screenshot-to-code</link>
-      <description>Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)</description>
-    </item>
-    <item>
-      <title>QwenLM /Qwen2.5</title>
-      <link>https://github.com/QwenLM/Qwen2.5</link>
-      <description>Qwen2.5 is the large language model series developed by Qwen team, Alibaba Cloud.</description>
-    </item>
-    <item>
-      <title>open-webui /open-webui</title>
-      <link>https://github.com/open-webui/open-webui</link>
-      <description>User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</description>
-    </item>
-    <item>
-      <title>QwenLM /Qwen2.5-VL</title>
-      <link>https://github.com/QwenLM/Qwen2.5-VL</link>
-      <description>Qwen2.5-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.</description>
-    </item>
-    <item>
-      <title>volcengine /verl</title>
-      <link>https://github.com/volcengine/verl</link>
-      <description>veRL: Volcano Engine Reinforcement Learning for LLM</description>
-    </item>
-    <item>
-      <title>penpot /penpot</title>
-      <link>https://github.com/penpot/penpot</link>
-      <description>Penpot: The open-source design tool for design and code collaboration</description>
-    </item>
-    <item>
-      <title>paperless-ngx /paperless-ngx</title>
-      <link>https://github.com/paperless-ngx/paperless-ngx</link>
-      <description>A community-supported supercharged version of paperless: scan, index and archive all your physical documents</description>
-    </item>
-    <item>
-      <title>yt-dlp /yt-dlp</title>
-      <link>https://github.com/yt-dlp/yt-dlp</link>
-      <description>A feature-rich command-line audio/video downloader</description>
-    </item>
-    <item>
-      <title>documenso /documenso</title>
-      <link>https://github.com/documenso/documenso</link>
-      <description>The Open Source DocuSign Alternative.</description>
-    </item>
-    <item>
-      <title>solidtime-io /solidtime</title>
-      <link>https://github.com/solidtime-io/solidtime</link>
-      <description>Modern open-source time-tracking app</description>
-    </item>
-    <item>
-      <title>excalidraw /excalidraw</title>
-      <link>https://github.com/excalidraw/excalidraw</link>
-      <description>Virtual whiteboard for sketching hand-drawn like diagrams</description>
-    </item>
-    <item>
-      <title>Ajaxy /telegram-tt</title>
-      <link>https://github.com/Ajaxy/telegram-tt</link>
-      <description>Telegram Web A, GPL v3</description>
+      <title>arendst /Tasmota</title>
+      <link>https://github.com/arendst/Tasmota</link>
+      <description>Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX. Full documentation at</description>
     </item>
     <item>
       <title>n8n-io /self-hosted-ai-starter-kit</title>
@@ -78,14 +18,69 @@
       <description>The Self-hosted AI Starter Kit is an open-source template that quickly sets up a local AI environment. Curated by n8n, it provides essential tools for creating secure, self-hosted AI workflows.</description>
     </item>
     <item>
-      <title>QwenLM /Qwen</title>
-      <link>https://github.com/QwenLM/Qwen</link>
-      <description>The official repo of Qwen (通义千问) chat &amp; pretrained large language model proposed by Alibaba Cloud.</description>
+      <title>Ajaxy /telegram-tt</title>
+      <link>https://github.com/Ajaxy/telegram-tt</link>
+      <description>Telegram Web A, GPL v3</description>
     </item>
     <item>
-      <title>2dust /v2rayN</title>
-      <link>https://github.com/2dust/v2rayN</link>
-      <description>A GUI client for Windows, Linux and macOS, support Xray and sing-box and others</description>
+      <title>GyulyVGC /sniffnet</title>
+      <link>https://github.com/GyulyVGC/sniffnet</link>
+      <description>Comfortably monitor your Internet traffic 🕵️‍♂️</description>
+    </item>
+    <item>
+      <title>Lissy93 /dashy</title>
+      <link>https://github.com/Lissy93/dashy</link>
+      <description>🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!</description>
+    </item>
+    <item>
+      <title>ToolJet /ToolJet</title>
+      <link>https://github.com/ToolJet/ToolJet</link>
+      <description>Low-code platform for building business applications. Connect to databases, cloud storages, GraphQL, API endpoints, Airtable, Google sheets, OpenAI, etc and build apps using drag and drop application builder. Built using JavaScript/TypeScript. 🚀</description>
+    </item>
+    <item>
+      <title>ossu /math</title>
+      <link>https://github.com/ossu/math</link>
+      <description>🧮 Path to a free self-taught education in Mathematics!</description>
+    </item>
+    <item>
+      <title>documenso /documenso</title>
+      <link>https://github.com/documenso/documenso</link>
+      <description>The Open Source DocuSign Alternative.</description>
+    </item>
+    <item>
+      <title>TencentCloud /tencentcloud-sdk-nodejs</title>
+      <link>https://github.com/TencentCloud/tencentcloud-sdk-nodejs</link>
+      <description>Tencent Cloud API 3.0 SDK for NodeJS</description>
+    </item>
+    <item>
+      <title>langgenius /dify</title>
+      <link>https://github.com/langgenius/dify</link>
+      <description>Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.</description>
+    </item>
+    <item>
+      <title>Mintplex-Labs /anything-llm</title>
+      <link>https://github.com/Mintplex-Labs/anything-llm</link>
+      <description>The all-in-one Desktop &amp; Docker AI application with built-in RAG, AI agents, and more.</description>
+    </item>
+    <item>
+      <title>is-a-dev /register</title>
+      <link>https://github.com/is-a-dev/register</link>
+      <description>Grab your own sweet-looking '.is-a.dev' subdomain.</description>
+    </item>
+    <item>
+      <title>blakeblackshear /frigate</title>
+      <link>https://github.com/blakeblackshear/frigate</link>
+      <description>NVR with realtime local object detection for IP cameras</description>
+    </item>
+    <item>
+      <title>lobehub /lobe-chat</title>
+      <link>https://github.com/lobehub/lobe-chat</link>
+      <description>🤯 Lobe Chat - an open-source, modern-design AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Ollama / Qwen / DeepSeek), Knowledge Base (file upload / knowledge management / RAG ), Multi-Modals (Vision/TTS/Plugins/Artifacts). One-click FREE deployment of your private ChatGPT/ Claude application.</description>
+    </item>
+    <item>
+      <title>penpot /penpot</title>
+      <link>https://github.com/penpot/penpot</link>
+      <description>Penpot: The open-source design tool for design and code collaboration</description>
     </item>
     <item>
       <title>oumi-ai /oumi</title>

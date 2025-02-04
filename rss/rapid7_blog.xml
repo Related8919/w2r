@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 03 Feb 2025 01:47:58 +0000</lastBuildDate>
-    <item>
-      <title>New Research: Enhancing Botnet Detection with AI using LLMs and Similarity Search</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/08/new-research-enhancing-botnet-detection-with-ai-using-llms-and-similarity-search/</link>
-      <description>As botnets continue to evolve, so do the techniques required to detect them.</description>
-    </item>
+    <lastBuildDate>Tue, 04 Feb 2025 01:47:30 +0000</lastBuildDate>
     <item>
       <title>Built In Honors Rapid7 with “2025 Best Places To Work” Award</title>
       <link>https://www.rapid7.com/blog/post/2025/01/09/built-in-honors-rapid7-with-2025-best-places-to-work-award/</link>
@@ -107,6 +102,11 @@ can now identify instances of ESC4 from the perspective of the account that the
 Metasploit operator provided the credentials for. Metasploit has been capable of
 exploiting ESC4 for some time, but required users to know which certificate
 templates t</description>
+    </item>
+    <item>
+      <title>Excellence in Leadership: CRN Recognizes Alex Page Among Its 2025 Channel Chiefs</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/03/excellence-in-leadership-crn-recognizes-alex-page-among-its-2025-channel-chiefs/</link>
+      <description>For the third consecutive year, Rapid7’s Alex Page has been honored as a CRN Channel Chief, a testament to his unwavering commitment to driving growth, fostering innovation, and strengthening our global channel partnerships.</description>
     </item>
   </channel>
 </rss>

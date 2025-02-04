@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 03 Feb 2025 01:47:53 +0000</lastBuildDate>
-    <item>
-      <title>Idempotence &amp; Idempotent Design in IT/Tech Systems</title>
-      <link>https://www.splunk.com/en_us/blog/learn/idempotent-design.html</link>
-      <description>Idempotent design ensures that the outcome of an operation is the same whether it is executed once or multiple times. Get the full picture here.</description>
-    </item>
+    <lastBuildDate>Tue, 04 Feb 2025 01:47:24 +0000</lastBuildDate>
     <item>
       <title>CapEx vs. OpEx for Cloud, IT Spending, and Business Operations: The Ultimate Guide</title>
       <link>https://www.splunk.com/en_us/blog/learn/capex-vs-opex.html</link>
@@ -51,6 +46,11 @@
       <title>Security Staff Picks To Read This Month, Handpicked by Splunk Experts</title>
       <link>https://www.splunk.com/en_us/blog/security/cybersecurity-recent-articles.html</link>
       <description>Every month, our Splunk staff of security experts share their favorite reads of the month — this way, you can follow the most interesting, news-worthy, and innovative stories coming from the wide world of cybersecurity.</description>
+    </item>
+    <item>
+      <title>Gretchen O’Hara Named to CRN’s 2025 50 Most Influential Channel Chiefs</title>
+      <link>https://www.splunk.com/en_us/blog/partners/gretchen-ohara-named-to-crn-2025-50-most-influential-channel-chiefs.html</link>
+      <description>Gretchen O’Hara, Splunk, a Cisco company’s Vice President of Worldwide Channels and Alliances, has been named to CRN’s prestigious 50 Most Influential Channel Chiefs list for 2025.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

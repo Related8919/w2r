@@ -6,17 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 03 Feb 2025 01:48:13 +0000</lastBuildDate>
-    <item>
-      <title>How L’Oréal's tech accelerator built its end-to-end MLOps platform</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/how-loreals-tech-accelerator-built-its-end-to-end-mlops-platform</link>
-      <description>AI &amp; Machine LearningHow L’Oréal's tech accelerator built its end-to-end MLOps platformBy Moutia Khatiri • 9-minute read</description>
-    </item>
-    <item>
-      <title>Is your platform ready for 2025? New research on platform engineering reveals the secret to success</title>
-      <link>https://cloud.google.com/blog/products/application-modernization/new-platform-engineering-research-report</link>
-      <description>Application ModernizationIs your platform ready for 2025? New research on platform engineering reveals the secret to successBy Ning Ge • 5-minute read</description>
-    </item>
+    <lastBuildDate>Tue, 04 Feb 2025 01:47:45 +0000</lastBuildDate>
     <item>
       <title>Using custom Org Policies to enforce the CIS benchmark for GKE</title>
       <link>https://cloud.google.com/blog/products/identity-security/how-to-use-custom-org-policies-to-enforce-cis-benchmark-for-gke</link>
@@ -56,6 +46,16 @@
       <title>Outbrain: Taking control of extension security with Chrome Enterprise</title>
       <link>https://cloud.google.com/blog/products/chrome-enterprise/outbrain-taking-control-of-extension-security-with-chrome-enterprise</link>
       <description>Chrome EnterpriseOutbrain: Taking control of extension security with Chrome EnterpriseBy Harel Shaked • 3-minute read</description>
+    </item>
+    <item>
+      <title>CVE-2023-6080: A Case Study on Third-Party Installer Abuse</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/cve-2023-6080-third-party-installer-abuse</link>
+      <description>Threat IntelligenceCVE-2023-6080: A Case Study on Third-Party Installer AbuseBy Mandiant  • 7-minute read</description>
+    </item>
+    <item>
+      <title>Announcing partner-delivered professional services on Google Cloud Marketplace</title>
+      <link>https://cloud.google.com/blog/topics/partners/purchase-professional-services-on-google-cloud-marketplace</link>
+      <description>PartnersAnnouncing partner-delivered professional services on Google Cloud MarketplaceBy Dai Vu • 6-minute read</description>
     </item>
   </channel>
 </rss>

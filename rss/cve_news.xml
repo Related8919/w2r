@@ -6,27 +6,7 @@
     <description>Latest posts from https://www.cve.org/Media/News/AllNews. follow.is: feedId:91496105774919680+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 04 Feb 2025 01:47:41 +0000</lastBuildDate>
-    <item>
-      <title>Roche Diagnostics Added as CVE Numbering Authority (CNA)</title>
-      <link>https://www.cve.org/Media/News/item/news/2024/12/17/Roche-Diagnostics-Added-as-CNA</link>
-      <description>Roche Diagnostics Added as CVE Numbering Authority (CNA)newsDecember 17, 2024Roche Diagnosticsis now aCVE Numbering Authority (CNA)for Roche’s medical technology products.</description>
-    </item>
-    <item>
-      <title>Minutes from CVE Board Teleconference Meeting on December 11 Now Available</title>
-      <link>https://www.cve.org/Media/News/item/news/2025/01/07/CVE-Board-Minutes-from-December-11</link>
-      <description>Minutes from CVE Board Teleconference Meeting on December 11 Now AvailablenewsJanuary 7, 2025TheCVE Boardheld a teleconference meeting on December 11, 2024. Read themeeting minutes summary.</description>
-    </item>
-    <item>
-      <title>SOCRadar Added as CVE Numbering Authority (CNA)</title>
-      <link>https://www.cve.org/Media/News/item/news/2025/01/07/SOCRadar-Added-as-CNA</link>
-      <description>SOCRadar Added as CVE Numbering Authority (CNA)newsJanuary 7, 2025SOCRadar Cyber Intelligence Inc.is now aCVE Numbering Authority (CNA)for vulnerabilities in SOCRadar products and services and vulnerabilities discovered by or reported to SOCRadar that are not in another CNA’s scope.</description>
-    </item>
-    <item>
-      <title>PTC Added as CVE Numbering Authority (CNA)</title>
-      <link>https://www.cve.org/Media/News/item/news/2025/01/07/PTC-Added-as-CNA</link>
-      <description>PTC Added as CVE Numbering Authority (CNA)newsJanuary 7, 2025PTC Inc.is now aCVE Numbering Authority (CNA)for all currently supported PTC software products and cloud/SaaS services.</description>
-    </item>
+    <lastBuildDate>Wed, 05 Feb 2025 01:48:25 +0000</lastBuildDate>
     <item>
       <title>VulnCon 2025Call for Papers Closes January 15 (EXTENDED TO JANUARY 31)</title>
       <link>https://www.cve.org/Media/News/item/blog/2025/01/07/VulnCon-2025-Call-Papers-Closes-January-15</link>
@@ -56,6 +36,26 @@
       <title>Guide for Including CPE Applicability Statements in CVE Records Now Available for CNAs</title>
       <link>https://www.cve.org/Media/News/item/blog/2025/01/28/Guide-for-Including-CPE-in-CVE-Records</link>
       <description>Guide for Including CPE Applicability Statements in CVE Records Now Available for CNAsblogBy CVE Program|January 28, 2025TheCVE® Programis pleased to announce that a “Quick Start Guide for CPE Applicability Statements in the CVE Record Format” (PDF, 3.1MB) is now available forCVE Numbering Authorities (CNAs)on the CVE website. A “live” version of this document isavailable for CNAs on Google Docs, which will be updated over time as needed.</description>
+    </item>
+    <item>
+      <title>Minutes from CVE Board Teleconference Meeting on January 8 Now Available</title>
+      <link>https://www.cve.org/Media/News/item/news/2025/02/04/CVE-Board-Minutes-from-January-8</link>
+      <description>Minutes from CVE Board Teleconference Meeting on January 8 Now AvailablenewsFebruary 4, 2025TheCVE Boardheld a teleconference meeting on January 8, 2025. Read themeeting minutes summary.</description>
+    </item>
+    <item>
+      <title>25 Years of CVE and What’s Next</title>
+      <link>https://www.cve.org/Media/News/item/podcast/2025/02/04/25-Years-of-CVE-and-Whats-Next</link>
+      <description>25 Years of CVE and What’s NextpodcastFebruary 4, 2025Host Shannon Sabens speaks with fellowCVE Boardmembers Kent Landfield and Madison Oliver andCVE ProgramLead Alec Summers about the25th anniversary of the CVE Program. Topics include the history of the program, the program today, and what’s next.</description>
+    </item>
+    <item>
+      <title>Register Now forCVE/FIRST VulnCon 2025on April 7-10, 2025!</title>
+      <link>https://www.cve.org/Media/News/item/blog/2025/02/04/Register-Now-for-CVE-FIRST-VulnCon-2025</link>
+      <description>Register Now forCVE/FIRST VulnCon 2025on April 7-10, 2025!blogBy CVE Program|February 4, 2025CVE/FIRST VulnCon 2025</description>
+    </item>
+    <item>
+      <title>HemoCue Added as CVE Numbering Authority (CNA)</title>
+      <link>https://www.cve.org/Media/News/item/news/2025/02/04/HemoCue-Added-as-CNA</link>
+      <description>HemoCue Added as CVE Numbering Authority (CNA)newsFebruary 4, 2025HemoCue ABis now aCVE Numbering Authority (CNA)for HemoCue branded products and technologies only.</description>
     </item>
   </channel>
 </rss>

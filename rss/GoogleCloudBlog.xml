@@ -6,22 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 04 Feb 2025 01:47:45 +0000</lastBuildDate>
-    <item>
-      <title>Using custom Org Policies to enforce the CIS benchmark for GKE</title>
-      <link>https://cloud.google.com/blog/products/identity-security/how-to-use-custom-org-policies-to-enforce-cis-benchmark-for-gke</link>
-      <description>Security &amp; IdentityUsing custom Org Policies to enforce the CIS benchmark for GKEBy Vannick Trinquier • 4-minute read</description>
-    </item>
-    <item>
-      <title>Migrate Oracle-based applications to Google Cloud and simplify operations</title>
-      <link>https://cloud.google.com/blog/products/databases/tips-for-migrating-oracle-based-applications-to-google-cloud</link>
-      <description>DatabasesMigrate Oracle-based applications to Google Cloud and simplify operationsBy Darren Evans • 7-minute read</description>
-    </item>
-    <item>
-      <title>New Year, New OS. Supporting your business with ChromeOS Flex</title>
-      <link>https://cloud.google.com/blog/products/chrome-enterprise/new-year-new-os-supporting-your-business-with-chromeos-flex</link>
-      <description>Chrome EnterpriseNew Year, New OS. Supporting your business with ChromeOS FlexBy Will Smith • 3-minute read</description>
-    </item>
+    <lastBuildDate>Wed, 05 Feb 2025 01:48:29 +0000</lastBuildDate>
     <item>
       <title>Tchibo brews up 10x faster customer insights with AlloyDB for PostgreSQL</title>
       <link>https://cloud.google.com/blog/products/databases/tchibo-brews-up-10x-faster-customer-insights-with-alloydb-for-postgresql</link>
@@ -36,6 +21,11 @@
       <title>How we’re making GKE more transparent with supply-chain attestation and SLSA</title>
       <link>https://cloud.google.com/blog/products/identity-security/how-were-making-gke-more-secure-with-supply-chain-attestation-and-slsa</link>
       <description>Security &amp; IdentityHow we’re making GKE more transparent with supply-chain attestation and SLSABy Abdelfettah Sghiouar • 5-minute read</description>
+    </item>
+    <item>
+      <title>Announcing smaller machine types for A3 High VMs</title>
+      <link>https://cloud.google.com/blog/products/compute/announcing-smaller-machine-types-for-a3-high-vms</link>
+      <description>ComputeAnnouncing smaller machine types for A3 High VMsBy Ishan Sharma • 5-minute read</description>
     </item>
     <item>
       <title>ScatterBrain: Unmasking the Shadow of PoisonPlug's Obfuscator</title>
@@ -56,6 +46,16 @@
       <title>Announcing partner-delivered professional services on Google Cloud Marketplace</title>
       <link>https://cloud.google.com/blog/topics/partners/purchase-professional-services-on-google-cloud-marketplace</link>
       <description>PartnersAnnouncing partner-delivered professional services on Google Cloud MarketplaceBy Dai Vu • 6-minute read</description>
+    </item>
+    <item>
+      <title>Getting started with Swift’s Alliance Connect Virtual on Google Cloud</title>
+      <link>https://cloud.google.com/blog/topics/financial-services/deploying-swifts-alliance-connect-virtual-on-google-cloud</link>
+      <description>Financial ServicesGetting started with Swift’s Alliance Connect Virtual on Google CloudBy Maria Alejandra Emmanuelli • 11-minute read</description>
+    </item>
+    <item>
+      <title>Helping our partners co-market faster with AI</title>
+      <link>https://cloud.google.com/blog/topics/partners/google-clouds-partner-marketing-studio-now-features-gemini</link>
+      <description>PartnersHelping our partners co-market faster with AIBy Aimee Catalano • 6-minute read</description>
     </item>
   </channel>
 </rss>

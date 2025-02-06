@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 05 Feb 2025 01:48:10 +0000</lastBuildDate>
-    <item>
-      <title>CapEx vs. OpEx for Cloud, IT Spending, and Business Operations: The Ultimate Guide</title>
-      <link>https://www.splunk.com/en_us/blog/learn/capex-vs-opex.html</link>
-      <description>Learn about the key differences between CapEx and OpEx. Also, learn how to optimize costs and drive financial efficiency for your projects.</description>
-    </item>
+    <lastBuildDate>Thu, 06 Feb 2025 01:48:32 +0000</lastBuildDate>
     <item>
       <title>Data Lake vs. Data Warehouse: Definitions, Key Differences, and How to Integrate Data Storage Solutions</title>
       <link>https://www.splunk.com/en_us/blog/learn/data-warehouse-vs-data-lake.html</link>
@@ -51,6 +46,11 @@
       <title>Gretchen O’Hara Named to CRN’s 2025 50 Most Influential Channel Chiefs</title>
       <link>https://www.splunk.com/en_us/blog/partners/gretchen-ohara-named-to-crn-2025-50-most-influential-channel-chiefs.html</link>
       <description>Gretchen O’Hara, Splunk, a Cisco company’s Vice President of Worldwide Channels and Alliances, has been named to CRN’s prestigious 50 Most Influential Channel Chiefs list for 2025.</description>
+    </item>
+    <item>
+      <title>Introducing DECEIVE: A Proof-of-Concept Honeypot Powered by AI</title>
+      <link>https://www.splunk.com/en_us/blog/security/deceive-ai-honeypot-concept.html</link>
+      <description>Explore DECEIVE: an AI-powered proof-of-concept honeypot by SURGe. Learn how AI simplifies cybersecurity with dynamic simulations and session summaries, paving the way for innovative security solutions.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

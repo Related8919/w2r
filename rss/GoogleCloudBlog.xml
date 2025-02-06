@@ -6,27 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 05 Feb 2025 01:48:29 +0000</lastBuildDate>
-    <item>
-      <title>Tchibo brews up 10x faster customer insights with AlloyDB for PostgreSQL</title>
-      <link>https://cloud.google.com/blog/products/databases/tchibo-brews-up-10x-faster-customer-insights-with-alloydb-for-postgresql</link>
-      <description>DatabasesTchibo brews up 10x faster customer insights with AlloyDB for PostgreSQLBy Henning Kosmalla • 5-minute read</description>
-    </item>
-    <item>
-      <title>Introducing agent evaluation in Vertex AI Gen AI evaluation service</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/introducing-agent-evaluation-in-vertex-ai-gen-ai-evaluation-service</link>
-      <description>AI &amp; Machine LearningIntroducing agent evaluation in Vertex AI Gen AI evaluation serviceBy Irina Sigler • 6-minute read</description>
-    </item>
-    <item>
-      <title>How we’re making GKE more transparent with supply-chain attestation and SLSA</title>
-      <link>https://cloud.google.com/blog/products/identity-security/how-were-making-gke-more-secure-with-supply-chain-attestation-and-slsa</link>
-      <description>Security &amp; IdentityHow we’re making GKE more transparent with supply-chain attestation and SLSABy Abdelfettah Sghiouar • 5-minute read</description>
-    </item>
-    <item>
-      <title>Announcing smaller machine types for A3 High VMs</title>
-      <link>https://cloud.google.com/blog/products/compute/announcing-smaller-machine-types-for-a3-high-vms</link>
-      <description>ComputeAnnouncing smaller machine types for A3 High VMsBy Ishan Sharma • 5-minute read</description>
-    </item>
+    <lastBuildDate>Thu, 06 Feb 2025 01:48:52 +0000</lastBuildDate>
     <item>
       <title>ScatterBrain: Unmasking the Shadow of PoisonPlug's Obfuscator</title>
       <link>https://cloud.google.com/blog/topics/threat-intelligence/scatterbrain-unmasking-poisonplug-obfuscator</link>
@@ -36,6 +16,16 @@
       <title>Outbrain: Taking control of extension security with Chrome Enterprise</title>
       <link>https://cloud.google.com/blog/products/chrome-enterprise/outbrain-taking-control-of-extension-security-with-chrome-enterprise</link>
       <description>Chrome EnterpriseOutbrain: Taking control of extension security with Chrome EnterpriseBy Harel Shaked • 3-minute read</description>
+    </item>
+    <item>
+      <title>Introducing custom rules in Workload Manager: Evaluate workloads against customized best practices</title>
+      <link>https://cloud.google.com/blog/products/compute/introducing-workload-manager-custom-rules</link>
+      <description>ComputeIntroducing custom rules in Workload Manager: Evaluate workloads against customized best practicesBy Omkar Suram • 3-minute read</description>
+    </item>
+    <item>
+      <title>Announcing the general availability of Spanner Graph</title>
+      <link>https://cloud.google.com/blog/products/databases/spanner-graph-is-now-ga</link>
+      <description>DatabasesAnnouncing the general availability of Spanner GraphBy Bei Li • 6-minute read</description>
     </item>
     <item>
       <title>CVE-2023-6080: A Case Study on Third-Party Installer Abuse</title>
@@ -56,6 +46,16 @@
       <title>Helping our partners co-market faster with AI</title>
       <link>https://cloud.google.com/blog/topics/partners/google-clouds-partner-marketing-studio-now-features-gemini</link>
       <description>PartnersHelping our partners co-market faster with AIBy Aimee Catalano • 6-minute read</description>
+    </item>
+    <item>
+      <title>5 AI trends shaping the future of the public sector in 2025</title>
+      <link>https://cloud.google.com/blog/topics/public-sector/5-ai-trends-shaping-the-future-of-the-public-sector-in-2025</link>
+      <description>Public Sector5 AI trends shaping the future of the public sector in 2025By Elizabeth Moon • 4-minute read</description>
+    </item>
+    <item>
+      <title>Empowering federal agencies with a more secure and efficient developer experience</title>
+      <link>https://cloud.google.com/blog/topics/public-sector/empowering-federal-agencies-with-a-more-secure-and-efficient-developer-experience</link>
+      <description>Public SectorEmpowering federal agencies with a more secure and efficient developer experienceBy Nate Avery • 2-minute read</description>
     </item>
   </channel>
 </rss>

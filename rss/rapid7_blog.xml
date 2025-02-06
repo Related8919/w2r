@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 05 Feb 2025 01:48:14 +0000</lastBuildDate>
-    <item>
-      <title>Unlocking the Power of AI in Cybersecurity: Key Takeaways from Our Latest Webinar</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/10/unlocking-the-power-of-ai-in-cybersecurity-key-takeaways-from-our-latest-webinar/</link>
-      <description>In our recent webinar, "Enhancing MDR with AI: Real-World Use Cases &amp; Security Insights," cybersecurity and AI experts shared their perspectives on how advancements in artificial intelligence are reshaping security operations.</description>
-    </item>
+    <lastBuildDate>Thu, 06 Feb 2025 01:48:37 +0000</lastBuildDate>
     <item>
       <title>Securing Success: Stories from the SOC Webinar Series</title>
       <link>https://www.rapid7.com/blog/post/2025/01/10/securing-success-stories-from-the-soc-webinar-series/</link>
@@ -107,6 +102,11 @@ templates t</description>
       <title>Introducing the Exposure Management Webinar Series: Commanding Your Attack Surface</title>
       <link>https://www.rapid7.com/blog/post/2025/02/04/introducing-the-exposure-management-webinar-series-commanding-your-attack-surface/</link>
       <description>The digital landscape is expanding rapidly, and with it, the complexity of managing an organization's attack surface. To help cybersecurity professionals navigate this challenge, Rapid7 presents a three-part webinar series, "Commanding Your Attack Surface."</description>
+    </item>
+    <item>
+      <title>Take Command | Rapid7’s 2025 Cybersecurity Summit: Own Your Attack Surface on April 9</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/05/take-command-rapid7s-2025-cybersecurity-summit/</link>
+      <description>Take Command is back. After a hugely successful event last year, Rapid7’s cybersecurity summit returns with another stellar lineup to equip security teams with the latest threat intelligence, expert insights, and real-world strategies to take control of an evolving attack landscape.</description>
     </item>
   </channel>
 </rss>

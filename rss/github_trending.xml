@@ -6,26 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 06 Feb 2025 01:48:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Feb 2025 01:48:48 +0000</lastBuildDate>
     <item>
-      <title>huggingface /lerobot</title>
-      <link>https://github.com/huggingface/lerobot</link>
-      <description>🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning</description>
-    </item>
-    <item>
-      <title>llvm /llvm-project</title>
-      <link>https://github.com/llvm/llvm-project</link>
-      <description>The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.</description>
-    </item>
-    <item>
-      <title>aws /aws-sdk-go-v2</title>
-      <link>https://github.com/aws/aws-sdk-go-v2</link>
-      <description>AWS SDK for the Go programming language.</description>
-    </item>
-    <item>
-      <title>maybe-finance /maybe</title>
-      <link>https://github.com/maybe-finance/maybe</link>
-      <description>The OS for your personal finances</description>
+      <title>ruanyf /weekly</title>
+      <link>https://github.com/ruanyf/weekly</link>
+      <description>科技爱好者周刊，每周五发布</description>
     </item>
     <item>
       <title>assafelovic /gpt-researcher</title>
@@ -33,49 +18,49 @@
       <description>LLM based autonomous agent that conducts deep local and web research on any topic and generates a long report with citations.</description>
     </item>
     <item>
+      <title>metabase /metabase</title>
+      <link>https://github.com/metabase/metabase</link>
+      <description>The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data 📊</description>
+    </item>
+    <item>
+      <title>songquanpeng /one-api</title>
+      <link>https://github.com/songquanpeng/one-api</link>
+      <description>LLM API 管理 &amp; 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management &amp; key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.</description>
+    </item>
+    <item>
+      <title>langgenius /dify</title>
+      <link>https://github.com/langgenius/dify</link>
+      <description>Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.</description>
+    </item>
+    <item>
+      <title>zhayujie /chatgpt-on-wechat</title>
+      <link>https://github.com/zhayujie/chatgpt-on-wechat</link>
+      <description>基于大模型搭建的聊天机器人，同时支持 微信公众号、企业微信应用、飞书、钉钉 等接入，可选择GPT3.5/GPT-4o/GPT-o1/ DeepSeek/Claude/文心一言/讯飞星火/通义千问/ Gemini/GLM-4/Claude/Kimi/LinkAI，能处理文本、语音和图片，访问操作系统和互联网，支持基于自有知识库进行定制企业智能客服。</description>
+    </item>
+    <item>
+      <title>krahets /hello-algo</title>
+      <link>https://github.com/krahets/hello-algo</link>
+      <description>《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码。简体版和繁体版同步更新，English version ongoing</description>
+    </item>
+    <item>
       <title>lobehub /lobe-chat</title>
       <link>https://github.com/lobehub/lobe-chat</link>
       <description>🤯 Lobe Chat - an open-source, modern-design AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Ollama / Qwen / DeepSeek), Knowledge Base (file upload / knowledge management / RAG ), Multi-Modals (Vision/TTS/Plugins/Artifacts). One-click FREE deployment of your private ChatGPT/ Claude application.</description>
     </item>
     <item>
-      <title>oumi-ai /oumi</title>
-      <link>https://github.com/oumi-ai/oumi</link>
-      <description>Everything you need to build state-of-the-art foundation models, end-to-end.</description>
-    </item>
-    <item>
-      <title>n8n-io /self-hosted-ai-starter-kit</title>
-      <link>https://github.com/n8n-io/self-hosted-ai-starter-kit</link>
-      <description>The Self-hosted AI Starter Kit is an open-source template that quickly sets up a local AI environment. Curated by n8n, it provides essential tools for creating secure, self-hosted AI workflows.</description>
-    </item>
-    <item>
-      <title>metabase /metabase</title>
-      <link>https://github.com/metabase/metabase</link>
-      <description>The simplest, fastest way to get business intelligence and analytics to everyone in your company 😋</description>
-    </item>
-    <item>
-      <title>dotnet /aspnetcore</title>
-      <link>https://github.com/dotnet/aspnetcore</link>
-      <description>ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.</description>
-    </item>
-    <item>
-      <title>Huanshere /VideoLingo</title>
-      <link>https://github.com/Huanshere/VideoLingo</link>
-      <description>Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组</description>
-    </item>
-    <item>
-      <title>monasticacademy /httptap</title>
-      <link>https://github.com/monasticacademy/httptap</link>
-      <description>View HTTP/HTTPS requests made by any Linux program</description>
-    </item>
-    <item>
-      <title>lucide-icons /lucide</title>
-      <link>https://github.com/lucide-icons/lucide</link>
-      <description>Beautiful &amp; consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.</description>
+      <title>Mintplex-Labs /anything-llm</title>
+      <link>https://github.com/Mintplex-Labs/anything-llm</link>
+      <description>The all-in-one Desktop &amp; Docker AI application with built-in RAG, AI agents, and more.</description>
     </item>
     <item>
       <title>ocrmypdf /OCRmyPDF</title>
       <link>https://github.com/ocrmypdf/OCRmyPDF</link>
       <description>OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched</description>
+    </item>
+    <item>
+      <title>lucide-icons /lucide</title>
+      <link>https://github.com/lucide-icons/lucide</link>
+      <description>Beautiful &amp; consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.</description>
     </item>
   </channel>
 </rss>

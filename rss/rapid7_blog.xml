@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 06 Feb 2025 01:48:37 +0000</lastBuildDate>
-    <item>
-      <title>Securing Success: Stories from the SOC Webinar Series</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/10/securing-success-stories-from-the-soc-webinar-series/</link>
-      <description>Cyberattacks are evolving, threat volumes are skyrocketing, and attackers are exploiting vulnerabilities faster than ever. To navigate these challenges, Rapid7 has launched the "Securing Success: Stories from the SOC" webinar series.</description>
-    </item>
+    <lastBuildDate>Fri, 07 Feb 2025 01:48:47 +0000</lastBuildDate>
     <item>
       <title>Metasploit Wrap-Up 01/10/2025</title>
       <link>https://www.rapid7.com/blog/post/2025/01/10/metasploit-wrap-up-01-10-2025/</link>
@@ -107,6 +102,11 @@ templates t</description>
       <title>Take Command | Rapid7’s 2025 Cybersecurity Summit: Own Your Attack Surface on April 9</title>
       <link>https://www.rapid7.com/blog/post/2025/02/05/take-command-rapid7s-2025-cybersecurity-summit/</link>
       <description>Take Command is back. After a hugely successful event last year, Rapid7’s cybersecurity summit returns with another stellar lineup to equip security teams with the latest threat intelligence, expert insights, and real-world strategies to take control of an evolving attack landscape.</description>
+    </item>
+    <item>
+      <title>4 Reasons Why MSPs &amp; MSSPs Need to Enhance Attack Surface Management</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/06/4-reasons-why-msps-and-mssps-need-attack-surface-management/</link>
+      <description>Here are four key reasons why enhancing attack surface management should be a top priority for MSPs and MSSPs.</description>
     </item>
   </channel>
 </rss>

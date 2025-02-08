@@ -6,12 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 08 Feb 2025 01:45:17 +0000</lastBuildDate>
-    <item>
-      <title>借助 NVIDIA DOCA 平台框架，助力新一代 DPU 加速云基础设施</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/powering-the-next-wave-of-dpu-accelerated-cloud-infrastructures-with-nvidia-doca-platform-framework/</link>
-      <description>2025年 1月 13日借助 NVIDIA DOCA 平台框架，助力新一代 DPU 加速云基础设施越来越多的企业组织开始采用加速计算来满足生成式 AI、5G 电信和主权云的需求。NVIDIA 发布了 DOCA 平台框架 (DPF)，2 MIN READ</description>
-    </item>
+    <lastBuildDate>Sat, 08 Feb 2025 08:18:26 +0000</lastBuildDate>
     <item>
       <title>使用 NVIDIA NeMo Curator 提高生成式 AI 模型的准确性</title>
       <link>https://developer.nvidia.com/zh-cn/blog/enhancing-generative-ai-model-accuracy-with-nvidia-nemo-curator/</link>
@@ -86,6 +81,11 @@
       <title>FP8 在大模型训练中的应用、挑战及实践</title>
       <link>https://developer.nvidia.com/zh-cn/blog/fp8-llm-app-challenges/</link>
       <description>2025年 1月 24日FP8 在大模型训练中的应用、挑战及实践越来越多的技术团队开始使用 FP8 进行大模型训练，这主要因为 FP8 有很多技术优势，比如在新一代的 GPU 上，3 MIN READ</description>
+    </item>
+    <item>
+      <title>借助 NVIDIA Spectrum-X 网络平台和合作伙伴提升 AI 存储速度达48%</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/accelerating-ai-storage-by-up-to-48-with-nvidia-spectrum-x-networking-platform-and-partners/</link>
+      <description>2025年 2月 4日借助 NVIDIA Spectrum-X 网络平台和合作伙伴提升 AI 存储速度达48%AI 工厂依靠的不仅仅是计算结构。连接 GPU 的东西向网络对于 AI 应用程序性能至关重要，而连接高速存储阵列的存储结构也同样重要。1 MIN READ</description>
     </item>
   </channel>
 </rss>

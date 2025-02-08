@@ -107,3 +107,12 @@ sites:
     description_css: div.px-6.py-5.v-postcard-body
     link_css: a
     use_headless_browser: false
+
+ - name: SecurityScoreCard
+    follow_desc: feedId:+userId:43946731810334720
+    url: https://scores.securityscorecard.io/security-rating/bochk.com
+    block_css: .Stack--1woa0u5 kceriE ssc-ds-layout
+    title_css: .Inline--benosd fgenbc ssc-ds-layout
+    description_css: .fgenbc.fgenbc
+    link_css: 
+    use_headless_browser: false

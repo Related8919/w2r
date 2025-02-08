@@ -1,57 +1,32 @@
-# RSS订阅
+# web2rss
 
-## splunk_blog
-- 原网址：https://www.splunk.com/en_us/blog
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/splunk_blog.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/splunk_blog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/splunk_blog.xml)
+通过GitHub Action 自动生成网页的 RSS 订阅。
+已有的RSS订阅：[点击查看](rss/readme.md)
 
-## sonarsource_blog
-- 原网址：https://www.sonarsource.com/blog/tag/security/
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/sonarsource_blog.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/sonarsource_blog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/sonarsource_blog.xml)
+## 站点配置
+配置文件：config.yaml
 
-## rapid7_blog
-- 原网址：https://www.rapid7.com/blog/posts/
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/rapid7_blog.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/rapid7_blog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/rapid7_blog.xml)
+每个站点的配置项如下：
 
-## github_trending
-- 原网址：https://github.com/trending
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/github_trending.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/github_trending.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/github_trending.xml)
+- **name**: 站点的名称，用于标识不同的站点。
+- **follow_desc**: 用于follow的订阅所有权描述方式的验证。
+- **url**: 站点的 URL 地址。
+- **block_css**: 父元素的 CSS 选择器，用于定位单个文章块。
+- **title_css**: 在父元素内部的标题选择器，用于提取文章标题。
+- **description_css**: 在父元素内部的描述选择器，用于提取文章描述。
+- **link_css**: 在父元素内部的链接选择器，用于提取文章链接。链接在父元素的情况下，该字段置空
+- **use_headless_browser**: 是否使用无头浏览器进行页面加载，布尔值（`true` 或 `false`）。
 
-## cve_news
-- 原网址：https://www.cve.org/Media/News/AllNews
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/cve_news.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/cve_news.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/cve_news.xml)
+### 示例配置
 
-## GoogleCloudBlog
-- 原网址：https://cloud.google.com/blog
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/GoogleCloudBlog.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/GoogleCloudBlog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/GoogleCloudBlog.xml)
-
-## XbowBlog
-- 原网址：https://xbow.com/blog/
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/XbowBlog.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/XbowBlog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/XbowBlog.xml)
-
-## deeplearning
-- 原网址：https://www.deeplearning.ai/the-batch/
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/deeplearning.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/deeplearning.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/deeplearning.xml)
-
-## PrefectBlog
-- 原网址：https://www.prefect.io/blog
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/PrefectBlog.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/PrefectBlog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/PrefectBlog.xml)
-
-## DeveloperNvidiaBlog
-- 原网址：https://developer.nvidia.com/zh-cn/blog/recent-posts/
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/DeveloperNvidiaBlog.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/DeveloperNvidiaBlog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/DeveloperNvidiaBlog.xml)
-
-## VulnersBlog
-- 原网址：https://vulners.com/blog/
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/VulnersBlog.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/VulnersBlog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/VulnersBlog.xml)
-
+```yaml
+sites:
+  - name: splunk_blog
+    follow_desc: 
+    url: "https://www.splunk.com/en_us/blog"
+    block_css: ".card"  # 父元素的 CSS 选择器
+    title_css: "a h3.splunk2-h4"  # 在父元素内部的标题选择器
+    description_css: ".splunk-body.shorter-height"  # 在父元素内部的描述选择器
+    link_css: "a.headline"  # 在父元素内部的链接选择器
+    use_headless_browser: true
+```

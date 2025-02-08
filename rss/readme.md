@@ -10,11 +10,6 @@
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/rapid7_blog.xml
 - Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/rapid7_blog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/rapid7_blog.xml)
 
-## github_trending
-- 原网址：https://github.com/trending
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/github_trending.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/github_trending.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/github_trending.xml)
-
 ## cve_news
 - 原网址：https://www.cve.org/Media/News/AllNews
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/cve_news.xml

@@ -110,8 +110,8 @@ sites:
   - name: SecurityScoreCard
     follow_desc: feedId:+userId:43946731810334720
     url: https://scores.securityscorecard.io/security-rating/bochk.com
-    block_css: div.Padbox--wdo9bk MobileOverview__Paper-sc-1hk3dul-0 cQPkGK jaZtwI ssc-ds-layout
-    title_css: .Text--1h8n1uh Score__CurrentScore-sc-10l630l-0 hoRixw fGWbJE ssc-ds-typography
+    block_css: div.Padbox--wdo9bk.MobileOverview__Paper-sc-1hk3dul-0.cQPkGK.jaZtwI.ssc-ds-layout
+    title_css: .Text--1h8n1uh.Score__CurrentScore-sc-10l630l-0.hoRixw.fGWbJE.ssc-ds-typography
     description_css: .fGWbJE
     link_css: 
     use_headless_browser: true

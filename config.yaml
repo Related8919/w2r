@@ -107,7 +107,7 @@ sites:
     link_css: a
     use_headless_browser: false
 
- - name: SecurityScoreCard
+  - name: SecurityScoreCard
     follow_desc: feedId:+userId:43946731810334720
     url: https://scores.securityscorecard.io/security-rating/bochk.com
     block_css: .Stack--1woa0u5 kceriE ssc-ds-layout

@@ -114,4 +114,4 @@ sites:
     title_css: .Text--1h8n1uh Score__CurrentScore-sc-10l630l-0 hoRixw fGWbJE ssc-ds-typography
     description_css: .fGWbJE
     link_css: 
-    use_headless_browser: false
+    use_headless_browser: true

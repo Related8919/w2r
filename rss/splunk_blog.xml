@@ -6,22 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 07 Feb 2025 01:48:42 +0000</lastBuildDate>
-    <item>
-      <title>Data Lake vs. Data Warehouse: Definitions, Key Differences, and How to Integrate Data Storage Solutions</title>
-      <link>https://www.splunk.com/en_us/blog/learn/data-warehouse-vs-data-lake.html</link>
-      <description>Data Lake vs Data Warehouse, in this post, we are going to discuss what they are, their differences, some use cases, and more.</description>
-    </item>
-    <item>
-      <title>Mean Time To Acknowledge: What MTTA Means and How &amp; Why To Improve It</title>
-      <link>https://www.splunk.com/en_us/blog/learn/mtta-mean-time-to-acknowledge.html</link>
-      <description>Learn about the mean time to acknowledge (MTTA) metric in IT and networking incidents, including how to improve this time along with other reliability metrics.</description>
-    </item>
-    <item>
-      <title>Common DevOps Roles and Responsibilities Today: Who’s on a DevOps Team &amp; How These Roles Work Together</title>
-      <link>https://www.splunk.com/en_us/blog/learn/devops-roles-responsibilities.html</link>
-      <description>Understand the core principles of DevOps — collaboration, automation, transparency and accountability — to see how DevOps can help you drive business value.</description>
-    </item>
+    <lastBuildDate>Sat, 08 Feb 2025 01:44:47 +0000</lastBuildDate>
     <item>
       <title>Rationalize and Realize: Simplifying Tools for a Leading Observability Practice</title>
       <link>https://www.splunk.com/en_us/blog/observability/simplifying-observability-tools-rationalization.html</link>
@@ -51,6 +36,21 @@
       <title>Introducing DECEIVE: A Proof-of-Concept Honeypot Powered by AI</title>
       <link>https://www.splunk.com/en_us/blog/security/deceive-ai-honeypot-concept.html</link>
       <description>Explore DECEIVE: an AI-powered proof-of-concept honeypot by SURGe. Learn how AI simplifies cybersecurity with dynamic simulations and session summaries, paving the way for innovative security solutions.</description>
+    </item>
+    <item>
+      <title>Preventing Alert Fatigue in Cybersecurity: How To Recognize &amp; Combat Alert Fatigue</title>
+      <link>https://www.splunk.com/en_us/blog/learn/alert-fatigue.html</link>
+      <description>Too many alerts means you miss important events. Learn why alert fatigue happens in the workplace, and how people can manage alerts.</description>
+    </item>
+    <item>
+      <title>IT Events &amp; Event Correlation: A Complete Guide</title>
+      <link>https://www.splunk.com/en_us/blog/learn/it-event-correlation.html</link>
+      <description>Explore the power of event correlation in IT operations. Uncover hidden insights, detect issues, and enhance efficiency through meaningful event analysis. Learn more.</description>
+    </item>
+    <item>
+      <title>Splunk AppDynamics Unveils New Security and Mobile Insights</title>
+      <link>https://www.splunk.com/en_us/blog/observability/splunk-appdynamics-security-and-mobile-insights.html</link>
+      <description>Announcing the release of a new Secure Application integration with Splunk Enterprise Security and preview MRUM session replay in AppDynamics 25.1.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

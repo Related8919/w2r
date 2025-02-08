@@ -6,28 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 07 Feb 2025 01:48:47 +0000</lastBuildDate>
-    <item>
-      <title>Metasploit Wrap-Up 01/10/2025</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/10/metasploit-wrap-up-01-10-2025/</link>
-      <description>New module content (5)
-OneDev Unauthenticated Arbitrary File Read
-Authors: Siebene and vultza
-Type: Auxiliary
-Pull request: #19614  
-contributed by vultza 
-Path: gather/onedev_arbitrary_file_read
-AttackerKB reference: CVE-2024-45309
-
-
-Description: This adds an exploit module for an unauthenticated arbitrary file
-read vulnerability, tracked as CVE-202</description>
-    </item>
-    <item>
-      <title>Patch Tuesday - January 2025</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/14/patch-tuesday-january-2025/</link>
-      <description>Eight 0-days. Access: triple zero-day RCE; Hyper-V NT Kernel Integration VSP: triple zero-day EoP; Windows Themes: zero-day NTLM disclosure; Windows Installer: zero-day EoP; PGM: critical RCE; OLE: critical RCE.</description>
-    </item>
+    <lastBuildDate>Sat, 08 Feb 2025 01:44:52 +0000</lastBuildDate>
     <item>
       <title>Fortinet Firewalls Hit with New Zero-Day Attack, Older Data Leak</title>
       <link>https://www.rapid7.com/blog/post/2025/01/16/etr-fortinet-firewalls-hit-with-new-zero-day-attack-older-data-leak/</link>
@@ -107,6 +86,23 @@ templates t</description>
       <title>4 Reasons Why MSPs &amp; MSSPs Need to Enhance Attack Surface Management</title>
       <link>https://www.rapid7.com/blog/post/2025/02/06/4-reasons-why-msps-and-mssps-need-attack-surface-management/</link>
       <description>Here are four key reasons why enhancing attack surface management should be a top priority for MSPs and MSSPs.</description>
+    </item>
+    <item>
+      <title>Metasploit Weekly Wrap-Up 02/07/2025</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/07/metasploit-weekly-wrap-up-02-07-2025/</link>
+      <description>Gathering data and improving workflows
+This week's release includes 2 new auxiliary modules targeting Argus
+Surveillance DVR and Ivanti Connect Secure. The former, contributed by Maxwell
+Francis, and based on the work of John Page, can be used to retrieve arbitrary
+files on the target's filesystem by exploiting an unauthenticated directory
+traversal vulnerability. The latter, brought by our very own Martin Šutovský
+, is a HTTP login scanner for Ivanti Connect
+Sec</description>
+    </item>
+    <item>
+      <title>Vector Command Opportunistic Phishing Blog</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/07/vector-command-opportunistic-phishing-blog/</link>
+      <description>Vector Command is Rapid7’s new continuous red teaming managed service, designed to  assess your external attack surface and identify gaps in the security defenses on an ongoing basis.</description>
     </item>
   </channel>
 </rss>

@@ -6,21 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 07 Feb 2025 01:48:48 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Feb 2025 01:44:53 +0000</lastBuildDate>
     <item>
-      <title>ruanyf /weekly</title>
-      <link>https://github.com/ruanyf/weekly</link>
-      <description>科技爱好者周刊，每周五发布</description>
+      <title>ollama /ollama</title>
+      <link>https://github.com/ollama/ollama</link>
+      <description>Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models.</description>
     </item>
     <item>
-      <title>assafelovic /gpt-researcher</title>
-      <link>https://github.com/assafelovic/gpt-researcher</link>
-      <description>LLM based autonomous agent that conducts deep local and web research on any topic and generates a long report with citations.</description>
+      <title>rustdesk /rustdesk</title>
+      <link>https://github.com/rustdesk/rustdesk</link>
+      <description>An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.</description>
     </item>
     <item>
-      <title>metabase /metabase</title>
-      <link>https://github.com/metabase/metabase</link>
-      <description>The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data 📊</description>
+      <title>asdf-vm /asdf</title>
+      <link>https://github.com/asdf-vm/asdf</link>
+      <description>Extendable version manager with support for Ruby, Node.js, Elixir, Erlang &amp; more</description>
     </item>
     <item>
       <title>songquanpeng /one-api</title>
@@ -28,14 +28,14 @@
       <description>LLM API 管理 &amp; 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management &amp; key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.</description>
     </item>
     <item>
-      <title>langgenius /dify</title>
-      <link>https://github.com/langgenius/dify</link>
-      <description>Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.</description>
+      <title>ChatGPTNextWeb /NextChat</title>
+      <link>https://github.com/ChatGPTNextWeb/NextChat</link>
+      <description>✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android | Linux | Windows</description>
     </item>
     <item>
-      <title>zhayujie /chatgpt-on-wechat</title>
-      <link>https://github.com/zhayujie/chatgpt-on-wechat</link>
-      <description>基于大模型搭建的聊天机器人，同时支持 微信公众号、企业微信应用、飞书、钉钉 等接入，可选择GPT3.5/GPT-4o/GPT-o1/ DeepSeek/Claude/文心一言/讯飞星火/通义千问/ Gemini/GLM-4/Claude/Kimi/LinkAI，能处理文本、语音和图片，访问操作系统和互联网，支持基于自有知识库进行定制企业智能客服。</description>
+      <title>sgl-project /sglang</title>
+      <link>https://github.com/sgl-project/sglang</link>
+      <description>SGLang is a fast serving framework for large language models and vision language models.</description>
     </item>
     <item>
       <title>krahets /hello-algo</title>
@@ -43,14 +43,14 @@
       <description>《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 代码。简体版和繁体版同步更新，English version ongoing</description>
     </item>
     <item>
-      <title>lobehub /lobe-chat</title>
-      <link>https://github.com/lobehub/lobe-chat</link>
-      <description>🤯 Lobe Chat - an open-source, modern-design AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Ollama / Qwen / DeepSeek), Knowledge Base (file upload / knowledge management / RAG ), Multi-Modals (Vision/TTS/Plugins/Artifacts). One-click FREE deployment of your private ChatGPT/ Claude application.</description>
+      <title>infiniflow /ragflow</title>
+      <link>https://github.com/infiniflow/ragflow</link>
+      <description>RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.</description>
     </item>
     <item>
-      <title>Mintplex-Labs /anything-llm</title>
-      <link>https://github.com/Mintplex-Labs/anything-llm</link>
-      <description>The all-in-one Desktop &amp; Docker AI application with built-in RAG, AI agents, and more.</description>
+      <title>GoogleCloudPlatform /generative-ai</title>
+      <link>https://github.com/GoogleCloudPlatform/generative-ai</link>
+      <description>Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI</description>
     </item>
     <item>
       <title>ocrmypdf /OCRmyPDF</title>
@@ -58,9 +58,9 @@
       <description>OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched</description>
     </item>
     <item>
-      <title>lucide-icons /lucide</title>
-      <link>https://github.com/lucide-icons/lucide</link>
-      <description>Beautiful &amp; consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.</description>
+      <title>Mintplex-Labs /anything-llm</title>
+      <link>https://github.com/Mintplex-Labs/anything-llm</link>
+      <description>The all-in-one Desktop &amp; Docker AI application with built-in RAG, AI agents, and more.</description>
     </item>
   </channel>
 </rss>

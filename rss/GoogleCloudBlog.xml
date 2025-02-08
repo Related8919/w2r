@@ -6,22 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 07 Feb 2025 01:49:02 +0000</lastBuildDate>
-    <item>
-      <title>Announcing the general availability of Spanner Graph</title>
-      <link>https://cloud.google.com/blog/products/databases/spanner-graph-is-now-ga</link>
-      <description>DatabasesAnnouncing the general availability of Spanner GraphBy Bei Li • 6-minute read</description>
-    </item>
-    <item>
-      <title>Improving model performance with PyTorch/XLA 2.6</title>
-      <link>https://cloud.google.com/blog/products/application-development/pytorch-xla-2-6-helps-improve-ai-model-performance</link>
-      <description>Application DevelopmentImproving model performance with PyTorch/XLA 2.6By Kyle Meggs • 5-minute read</description>
-    </item>
-    <item>
-      <title>CVE-2023-6080: A Case Study on Third-Party Installer Abuse</title>
-      <link>https://cloud.google.com/blog/topics/threat-intelligence/cve-2023-6080-third-party-installer-abuse</link>
-      <description>Threat IntelligenceCVE-2023-6080: A Case Study on Third-Party Installer AbuseBy Mandiant  • 7-minute read</description>
-    </item>
+    <lastBuildDate>Sat, 08 Feb 2025 01:45:07 +0000</lastBuildDate>
     <item>
       <title>Announcing partner-delivered professional services on Google Cloud Marketplace</title>
       <link>https://cloud.google.com/blog/topics/partners/purchase-professional-services-on-google-cloud-marketplace</link>
@@ -43,6 +28,11 @@
       <description>Public Sector5 AI trends shaping the future of the public sector in 2025By Elizabeth Moon • 4-minute read</description>
     </item>
     <item>
+      <title>Solve database bottlenecks faster with the latest query insights for Cloud SQL Enterprise Plus</title>
+      <link>https://cloud.google.com/blog/products/databases/new-query-insights-capabilities-for-cloud-sql-enterprise-plus</link>
+      <description>DatabasesSolve database bottlenecks faster with the latest query insights for Cloud SQL Enterprise PlusBy Karan Thapar • 3-minute read</description>
+    </item>
+    <item>
       <title>Empowering federal agencies with a more secure and efficient developer experience</title>
       <link>https://cloud.google.com/blog/topics/public-sector/empowering-federal-agencies-with-a-more-secure-and-efficient-developer-experience</link>
       <description>Public SectorEmpowering federal agencies with a more secure and efficient developer experienceBy Nate Avery • 2-minute read</description>
@@ -56,6 +46,16 @@
       <title>Using capa Rules for Android Malware Detection</title>
       <link>https://cloud.google.com/blog/topics/threat-intelligence/capa-rules-android-malware-detection</link>
       <description>Threat IntelligenceUsing capa Rules for Android Malware DetectionBy Lin Chen • 13-minute read</description>
+    </item>
+    <item>
+      <title>What’s new with Google Cloud</title>
+      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
+      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 2-minute read</description>
+    </item>
+    <item>
+      <title>News you can use: What we announced in AI this month</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month</link>
+      <description>AI &amp; Machine LearningNews you can use: What we announced in AI this monthBy Google Cloud Content &amp; Editorial  • 4-minute read</description>
     </item>
   </channel>
 </rss>

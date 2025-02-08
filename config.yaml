@@ -88,7 +88,7 @@ sites:
     description_css: div.flex.flex-1.flex-col
     link_css: 
     use_headless_browser: true
-    
+
   - name: DeveloperNvidiaBlog
     follow_desc: feedId:91497053095844864+userId:43946731810334720
     url: https://developer.nvidia.com/zh-cn/blog/recent-posts/
@@ -98,7 +98,6 @@ sites:
     link_css: a.carousel-row-slide__link
     use_headless_browser: false
 
-      
   - name: VulnersBlog
     follow_desc: feedId:91497191414827008+userId:43946731810334720
     url: https://vulners.com/blog/

@@ -6,37 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 10 Feb 2025 01:49:53 +0000</lastBuildDate>
-    <item>
-      <title>Rationalize and Realize: Simplifying Tools for a Leading Observability Practice</title>
-      <link>https://www.splunk.com/en_us/blog/observability/simplifying-observability-tools-rationalization.html</link>
-      <description>Discover how observability tools rationalization can streamline your workflows, reduce costs, and enhance business outcomes.</description>
-    </item>
-    <item>
-      <title>Kubernetes Monitoring: The Ultimate Guide</title>
-      <link>https://www.splunk.com/en_us/blog/learn/kubernetes-monitoring.html</link>
-      <description>Monitoring Kubernetes is a complicated but critical practice. Learn why and how you need to do it in this comprehensive, hands-on guide to K8s monitoring.</description>
-    </item>
-    <item>
-      <title>Now Available: Splunk Enterprise Security Content Update App 5.0</title>
-      <link>https://www.splunk.com/en_us/blog/security/enterprise-security-content-update-v5-0-0.html</link>
-      <description>The Splunk Threat Research Team announces the release of the Enterprise Security Content Update (ESCU) app 5.0.</description>
-    </item>
-    <item>
-      <title>Security Staff Picks To Read This Month, Handpicked by Splunk Experts</title>
-      <link>https://www.splunk.com/en_us/blog/security/cybersecurity-recent-articles.html</link>
-      <description>Every month, our Splunk staff of security experts share their favorite reads of the month — this way, you can follow the most interesting, news-worthy, and innovative stories coming from the wide world of cybersecurity.</description>
-    </item>
-    <item>
-      <title>Gretchen O’Hara Named to CRN’s 2025 50 Most Influential Channel Chiefs</title>
-      <link>https://www.splunk.com/en_us/blog/partners/gretchen-ohara-named-to-crn-2025-50-most-influential-channel-chiefs.html</link>
-      <description>Gretchen O’Hara, Splunk, a Cisco company’s Vice President of Worldwide Channels and Alliances, has been named to CRN’s prestigious 50 Most Influential Channel Chiefs list for 2025.</description>
-    </item>
-    <item>
-      <title>Introducing DECEIVE: A Proof-of-Concept Honeypot Powered by AI</title>
-      <link>https://www.splunk.com/en_us/blog/security/deceive-ai-honeypot-concept.html</link>
-      <description>Explore DECEIVE: an AI-powered proof-of-concept honeypot by SURGe. Learn how AI simplifies cybersecurity with dynamic simulations and session summaries, paving the way for innovative security solutions.</description>
-    </item>
+    <lastBuildDate>Tue, 11 Feb 2025 01:48:01 +0000</lastBuildDate>
     <item>
       <title>Preventing Alert Fatigue in Cybersecurity: How To Recognize &amp; Combat Alert Fatigue</title>
       <link>https://www.splunk.com/en_us/blog/learn/alert-fatigue.html</link>
@@ -51,6 +21,36 @@
       <title>Splunk AppDynamics Unveils New Security and Mobile Insights</title>
       <link>https://www.splunk.com/en_us/blog/observability/splunk-appdynamics-security-and-mobile-insights.html</link>
       <description>Announcing the release of a new Secure Application integration with Splunk Enterprise Security and preview MRUM session replay in AppDynamics 25.1.</description>
+    </item>
+    <item>
+      <title>Autonomous Adversaries: Are Blue Teams Ready for Cyberattacks To Go Agentic?</title>
+      <link>https://www.splunk.com/en_us/blog/security/agentic-adversaries-blue-teams-cyber-defense.html</link>
+      <description>Explore the impact of autonomous adversaries on cybersecurity as AI and LLMs evolve.</description>
+    </item>
+    <item>
+      <title>Powering Digital Resilience in the AI Era</title>
+      <link>https://www.splunk.com/en_us/blog/artificial-intelligence/powering-digital-resilience-in-the-ai-era.html</link>
+      <description>With rapid advancements in AI, digital resilience is no longer optional – that's why leading organizations trust Splunk’s unified security and observability platform to keep their digital systems secure and reliable.</description>
+    </item>
+    <item>
+      <title>Solve Problems Faster with New, Smarter AI and Integrations in Splunk Observability</title>
+      <link>https://www.splunk.com/en_us/blog/observability/solve-problems-faster-with-new-smarter-ai-and-integrations-in-splunk-observability.html</link>
+      <description>With the latest Splunk Observability advancements, customers can stay ahead of the competition and solve problems more efficiently.</description>
+    </item>
+    <item>
+      <title>Top 12 KPIs To Know &amp; Use: Key Performance Indicators Explained</title>
+      <link>https://www.splunk.com/en_us/blog/learn/kpis-key-performance-indicators.html</link>
+      <description>Measuring business operations is critical, but are you measuring the right stuff? Check out these 12 indicator types to inform what you’re measuring.</description>
+    </item>
+    <item>
+      <title>How To Monitor Kubernetes with Splunk Infrastructure Monitoring</title>
+      <link>https://www.splunk.com/en_us/blog/observability/kubernetes-monitoring-splunk.html</link>
+      <description>Monitoring K8s is a must for all organizations. Learn how to monitor Kubernetes with Splunk Infrastructure Monitoring, in this step by step tutorial.</description>
+    </item>
+    <item>
+      <title>What Is a MITM Attack? Man in the Middle Attacks, Explained</title>
+      <link>https://www.splunk.com/en_us/blog/learn/man-in-the-middle-attacks.html</link>
+      <description>In this post, we'll discuss Man in the Middle attack including what a MITM attack is, how it works, and ways to keep your data safe.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

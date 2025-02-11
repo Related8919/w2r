@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 10 Feb 2025 01:49:58 +0000</lastBuildDate>
-    <item>
-      <title>Fortinet Firewalls Hit with New Zero-Day Attack, Older Data Leak</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/16/etr-fortinet-firewalls-hit-with-new-zero-day-attack-older-data-leak/</link>
-      <description>Rapid7 is responding to two separate events affecting Fortinet firewall customers: Zero-day exploitation of CVE-2024-55591 in FortiOS, and a large-scale data leak of older FortiGate firewall IPs, passwords, and configs.</description>
-    </item>
+    <lastBuildDate>Tue, 11 Feb 2025 01:48:05 +0000</lastBuildDate>
     <item>
       <title>Perfect Fit or Business Threat? How to Mitigate the Risk of Rogue Employees</title>
       <link>https://www.rapid7.com/blog/post/2025/01/16/perfect-fit-or-business-threat-how-to-mitigate-the-risk-of-rogue-employees/</link>
@@ -103,6 +98,11 @@ Sec</description>
       <title>Vector Command Opportunistic Phishing Blog</title>
       <link>https://www.rapid7.com/blog/post/2025/02/07/vector-command-opportunistic-phishing-blog/</link>
       <description>Vector Command is Rapid7’s new continuous red teaming managed service, designed to  assess your external attack surface and identify gaps in the security defenses on an ongoing basis.</description>
+    </item>
+    <item>
+      <title>Interning at Rapid7 Prague: Meet Mko</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/10/interning-at-rapid7-prague-meet-mko/</link>
+      <description>Mkrtich Hovsepyan – most people call him Mko –  is an intern at Rapid7’s fast-growing office in Prague. He was in our first impressive crop of interns, and is sharing his experience as we gear up for our next wave of intern hiring.</description>
     </item>
   </channel>
 </rss>

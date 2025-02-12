@@ -12,7 +12,7 @@
 	<atom:link href="https://www.microsoft.com/en-us/research/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.microsoft.com/en-us/research/</link>
 	<description></description>
-	<lastBuildDate>Wed, 05 Feb 2025 17:32:36 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 11 Feb 2025 22:21:50 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,470 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.7.1</generator>
 	<item>
+		<title>ExACT: Improving AI agents’ decision-making via test-time compute scaling</title>
+		<link>https://www.microsoft.com/en-us/research/blog/exact-improving-ai-agents-decision-making-via-test-time-compute-scaling/</link>
+		
+		<dc:creator><![CDATA[Alyssa Hughes (2ADAPTIVE LLC dba 2A Consulting)]]></dc:creator>
+		<pubDate>Tue, 11 Feb 2025 22:21:47 +0000</pubDate>
+				<category><![CDATA[Research Blog]]></category>
+		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1121829</guid>
+
+					<description><![CDATA[<p>ExACT combines Reflective-MCTS and Exploratory Learning to improve AI agents' decision-making, enabling test-time compute scaling. Learn how these methods help agents refine strategies for state-of-the-art performance and improved computational efficiency.</p>
+<p>The post <a href="https://www.microsoft.com/en-us/research/blog/exact-improving-ai-agents-decision-making-via-test-time-compute-scaling/">ExACT: Improving AI agents’ decision-making via test-time compute scaling</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1.png" alt="A gradient blue to green background features a white flowchart with rectangular boxes connected by arrows, ending in a hexagonal “STOP” sign and a check mark on the right side." class="wp-image-1124370" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1.png 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-300x169.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-1024x576.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-768x432.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-1066x600.png 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-655x368.png 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-240x135.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-640x360.png 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-960x540.png 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-1280x720.png 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+
+
+
+<p>Autonomous AI agents are transforming the way we approach multi-step decision-making processes, streamlining tasks like web browsing, video editing, and file management. By applying advanced machine learning, they automate workflows, optimize performance, and reduce the need for human input.&nbsp;</p>
+
+
+
+<p>However, these systems struggle in complex, dynamic environments. A key challenge lies in balancing <em>exploitation, </em>using known strategies for immediate gains, with <em>exploration</em>, which involves seeking new strategies that could yield long-term benefits. Additionally, they often have difficulty adapting to unpredictable changes in conditions and objectives, as well as generalizing knowledge across contexts, limiting their ability to transfer learned strategies between domains.&nbsp;</p>
+
+
+
+<p>In response, we developed <a href="https://www.microsoft.com/en-us/research/publication/exact-teaching-ai-agents-to-explore-with-reflective-mcts-and-exploratory-learning/?msockid=03509714880a63312154827889b062b6">ExACT</a>, an approach for teaching AI agents to explore more effectively, enabling them to intelligently navigate their environments, gather valuable information, evaluate options, and identify optimal decision-making and planning strategies. ExACT combines two key techniques: Reflective-MCTS (R-MCTS) and Exploratory Learning.</p>
+
+
+
+<p>R-MCTS builds on the traditional Monte Carlo Tree Search (MCTS) algorithm, introducing features like contrastive reflection and a multi-agent debate function. Through contrastive reflection, the agent refines its decision-making by comparing expected outcomes with actual results, allowing it to learn from both its successes and mistakes. The multi-agent debate function provides various evaluations of a given state, where multiple agents offer contrasting perspectives to help provide a balanced and reliable assessment.</p>
+
+
+
+<p>Exploratory Learning trains agents to navigate environments effectively. Together, these techniques show strong computational scalability during both training and testing, as demonstrated on VisualWebArena—a benchmark for evaluating multimodal autonomous language agents (Figure 1).&nbsp;</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><a data-bi-bhvr="14"  data-bi-cn="Evaluation demonstrates the compute scaling properties of GPT-4o during both training and testing. The assessment includes two scenarios: (1) applying the GPT-4o-based R-MCTS agent to all 234 tasks from the Classifieds category in VisualWebArena (left), and (2) testing fine-tuned GPT-4o on 169 previously unseen tasks from Classifieds without using search algorithms (right)." href="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Figure-1-Scaling.gif.gif"><img decoding="async" width="1920" height="728" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Figure-1-Scaling.gif.gif" alt="Evaluation demonstrates the compute scaling properties of GPT-4o during both training and testing. The assessment includes two scenarios: (1) applying the GPT-4o-based R-MCTS agent to all 234 tasks from the Classifieds category in VisualWebArena (left), and (2) testing fine-tuned GPT-4o on 169 previously unseen tasks from Classifieds without using search algorithms (right)." class="wp-image-1121919" style="object-fit:cover"/></a><figcaption class="wp-element-caption">Figure 1. Evaluation demonstrates the compute scaling properties of GPT-4o during both training and testing. The assessment includes two scenarios: (1) applying the GPT-4o-based R-MCTS agent to all 234 tasks from the Classifieds category in VisualWebArena (left), and (2) testing fine-tuned GPT-4o on 169 previously unseen tasks from Classifieds without using search algorithms (right).</figcaption></figure>
+
+
+
+<p>R-MCTS extends the classic MCTS by enabling real-time improvements in decision-making. Shown in Figure 2, an iterative feedback loop allows R-MCTS to learn from past experiences, avoid prior mistakes, and focus on more effective actions in similar contexts.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><a data-bi-bhvr="14"  data-bi-cn="Overview of the R-MCTS process in ExACT. " href="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2.png"><img decoding="async" width="852" height="820" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2.png" alt="Overview of the R-MCTS process in ExACT. " class="wp-image-1121877" style="width:504px;height:auto" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2.png 852w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2-300x289.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2-768x739.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2-187x180.png 187w" sizes="(max-width: 852px) 100vw, 852px" /></a><figcaption class="wp-element-caption">Figure 2. Overview of the R-MCTS process in ExACT.<em>&nbsp;</em></figcaption></figure>
+
+
+
+<h3 class="wp-block-heading" id="evaluating-r-mcts">Evaluating R-MCTS</h3>
+
+
+
+<p>R-MCTS demonstrates state-of-the-art performance across all VisualWebArena environments, surpassing the previous best-performing method, Search Agent, with improvements ranging from 6% to 30% (Table 1). Additionally, as of January 2025, it holds the second position on the OSWorld leaderboard and demonstrates state-of-the-art performance in the blind test setting, where there is no prior access to the test environment, reflecting its advanced capabilities (Table 2).&nbsp;</p>
+
+
+
+<figure class="wp-block-table aligncenter is-style-stripes"><table><thead><tr><th>Rank</th><th>Model</th><th>Score</th></tr></thead><tbody><tr><td><strong>1</strong></td><td>GPT-4o + ExACT</td><td>33.70</td></tr><tr><td><strong>2</strong></td><td>GPT-4o + Search</td><td>26.40</td></tr><tr><td><strong>3</strong></td><td>GPT-4o + WebDreamer</td><td>23.60</td></tr><tr><td><strong>4</strong></td><td>GPT-4o + ICAL</td><td>23.40</td></tr><tr><td><strong>5</strong></td><td>GPT-4o</td><td>19.78</td></tr><tr><td><strong>6</strong></td><td>Llama-3-70B + Search</td><td>16.70</td></tr></tbody></table><figcaption class="wp-element-caption">Table 1. The VisualWebArena leaderboard highlights R-MCTS as achieving state-of-the-art performance as of December 2024.<em>&nbsp;</em></figcaption></figure>
+
+
+
+<figure class="wp-block-table aligncenter is-style-stripes"><table><thead><tr><th>Rank</th><th>Model</th><th>Blind Test</th><th>Score</th></tr></thead><tbody><tr><td><strong>1</strong></td><td>learn-by-interact w/ Claude-3.5-sonnet</td><td>🗶</td><td>22.50</td></tr><tr><td><strong>2</strong></td><td>ExACT w/ GPT-4o</td><td><img src="https://s.w.org/images/core/emoji/15.0.3/72x72/2714.png" alt="✔" class="wp-smiley" style="height: 1em; max-height: 1em;" /></td><td>16.60</td></tr><tr><td><strong>3</strong></td><td>GPT-4</td><td><img src="https://s.w.org/images/core/emoji/15.0.3/72x72/2714.png" alt="✔" class="wp-smiley" style="height: 1em; max-height: 1em;" /></td><td>12.24</td></tr><tr><td><strong>4</strong></td><td>GPT-4o</td><td><img src="https://s.w.org/images/core/emoji/15.0.3/72x72/2714.png" alt="✔" class="wp-smiley" style="height: 1em; max-height: 1em;" /></td><td>11.36</td></tr><tr><td><strong>5</strong></td><td>GPT-4 Vision (0409)</td><td><img src="https://s.w.org/images/core/emoji/15.0.3/72x72/2714.png" alt="✔" class="wp-smiley" style="height: 1em; max-height: 1em;" /></td><td>10.82</td></tr><tr><td><strong>6</strong></td><td>learn-by-interact w/ Gemini-1.5-pro</td><td><img src="https://s.w.org/images/core/emoji/15.0.3/72x72/2714.png" alt="✔" class="wp-smiley" style="height: 1em; max-height: 1em;" /></td><td>10.30</td></tr></tbody></table><figcaption class="wp-element-caption">Table 2. The OSWorld leaderboard for the category of A11y tree inputs shows that ExACT with GPT-4o ranks second and demonstrates state-of-the-art performance in the blind test setting, as of December 2024.</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading" id="how-exploratory-learning-works">How Exploratory Learning works</h2>
+
+
+
+<p>Exploratory Learning enables agents to dynamically search and adjust their computational resources during testing without depending on MCTS. In contrast to Imitation Learning, which centers on training models using the optimal actions identified through search, Exploratory Learning focuses on cultivating the agent&#8217;s ability to navigate its environment by teaching it to evaluate states, explore different pathways, and efficiently backtrack from unpromising paths to identify more favorable alternatives.&nbsp;</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full is-resized"><a data-bi-bhvr="14"  data-bi-cn="In contrast to Imitation Learning, Exploratory Learning uses the entire search trajectory for training." href="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig3.png"><img loading="lazy" decoding="async" width="1334" height="453" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig3.png" alt="In contrast to Imitation Learning, Exploratory Learning uses the entire search trajectory for training." class="wp-image-1121880" style="width:776px;height:auto" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig3.png 1334w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig3-300x102.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig3-1024x348.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig3-768x261.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig3-240x81.png 240w" sizes="auto, (max-width: 1334px) 100vw, 1334px" /></a><figcaption class="wp-element-caption">Figure 3. In contrast to Imitation Learning, Exploratory Learning uses the entire search trajectory for training.</figcaption></figure>
+
+
+
+<h3 class="wp-block-heading" id="evaluating-exploratory-learning">Evaluating Exploratory Learning</h3>
+
+
+
+<p>We conducted experiments using GPT-4o fine-tuned with Exploratory Learning in the VisualWebArena environment. Results demonstrate the following key benefits:&nbsp;</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Improved performance</strong>: GPT-4o achieves performance improvement, comparable with scaling test-time compute with MCTS, even without search.</li>
+
+
+
+<li><strong>Test-time compute scaling</strong>: GPT-4o performs better when given more actions per task, leading to improved decision-making and task completion, which increased from 5% to 12.4%.&nbsp;</li>
+
+
+
+<li><strong>Improved generalization on unseen tasks</strong>: Exploratory Learning helps fine-tuned GPT-4o handle unseen tasks more effectively than agents trained with Imitation Learning or no additional training.</li>
+</ul>
+
+
+
+<p>The following video provides a detailed demonstration of how R-MCTS and Exploratory Learning function.</p>
+
+
+
+<figure class="wp-block-video"><video controls src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Videos_010925_V1.mp4" playsinline></video></figure>
+
+
+
+<h2 class="wp-block-heading" id="continued-exploration">Continued exploration</h2>
+
+
+
+<p>Advancing autonomous AI agents is key to enabling them to handle complex, multi-step tasks with greater precision and adaptability. ExACT represents a significant step toward creating agents that can perform complex decision-making before taking action, leading to improved performance, but challenges remain. How can AI agents improve decision-making in real-world scenarios, where they may be constrained by time or resources? How can they learn effectively and efficiently from environmental feedback? We are currently investigating these questions, and we invite you to explore them with us by building on the ExACT framework. Access the ExACT code at our <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/ExACT" target="_blank" rel="noreferrer noopener">GitHub repository<span class="sr-only"> (opens in new tab)</span></a>.&nbsp;</p>
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/exact-improving-ai-agents-decision-making-via-test-time-compute-scaling/">ExACT: Improving AI agents’ decision-making via test-time compute scaling</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></content:encoded>
+					
+		
+		<enclosure url="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Videos_010925_V1.mp4" length="47136083" type="video/mp4" />
+
+			</item>
+		<item>
+		<title>Ideas: Building AI for population-scale systems with Akshay Nambi</title>
+		<link>https://www.microsoft.com/en-us/research/podcast/ideas-building-ai-for-population-scale-systems-with-akshay-nambi/</link>
+		
+		<dc:creator><![CDATA[Alyssa Hughes (2ADAPTIVE LLC dba 2A Consulting)]]></dc:creator>
+		<pubDate>Tue, 11 Feb 2025 04:26:10 +0000</pubDate>
+				<category><![CDATA[Microsoft Research Podcast]]></category>
+		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1127448</guid>
+
+					<description><![CDATA[<p>Advances in AI are driving meaningful real-world impact. Principal Researcher Akshay Nambi shares how his passion for tackling real-world challenges across various domains fuels his work in building reliable and robust AI systems.</p>
+<p>The post <a href="https://www.microsoft.com/en-us/research/podcast/ideas-building-ai-for-population-scale-systems-with-akshay-nambi/">Ideas: Building AI for population-scale systems with Akshay Nambi</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1401" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay-Nambi_Ideas_Hero_Feature_No_Text_1400x788-2.jpg" alt="Outline illustration of Akshay Nambi | Ideas podcast" class="wp-image-1128111" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay-Nambi_Ideas_Hero_Feature_No_Text_1400x788-2.jpg 1401w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay-Nambi_Ideas_Hero_Feature_No_Text_1400x788-2-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay-Nambi_Ideas_Hero_Feature_No_Text_1400x788-2-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay-Nambi_Ideas_Hero_Feature_No_Text_1400x788-2-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay-Nambi_Ideas_Hero_Feature_No_Text_1400x788-2-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay-Nambi_Ideas_Hero_Feature_No_Text_1400x788-2-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay-Nambi_Ideas_Hero_Feature_No_Text_1400x788-2-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay-Nambi_Ideas_Hero_Feature_No_Text_1400x788-2-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay-Nambi_Ideas_Hero_Feature_No_Text_1400x788-2-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay-Nambi_Ideas_Hero_Feature_No_Text_1400x788-2-1280x720.jpg 1280w" sizes="auto, (max-width: 1401px) 100vw, 1401px" /></figure>
+
+
+<div class="wp-block-msr-podcast-container my-4">
+	<iframe loading="lazy" src="https://player.blubrry.com/?podcast_id=142024931&modern=1" class="podcast-player" frameborder="0" height="164px" width="100%" scrolling="no" title="Podcast Player"></iframe>
+</div>
+
+
+
+<p>Behind every emerging technology is a great idea propelling it forward. In the Microsoft Research Podcast series <em>Ideas</em>, members of the research community at Microsoft discuss the beliefs that animate their research, the experiences and thinkers that inform it, and the positive human impact it targets.</p>
+
+
+
+<p>In this episode, guest host Chris Stetkiewicz talks with Microsoft Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/akshayn/?msockid=35739e94ab6c69d41b738b93aa076831">Akshay Nambi</a> about his focus on developing AI-driven technology that addresses real-world challenges at scale. Drawing on firsthand experiences, Nambi combines his expertise in electronics and computer science to create systems that enhance road safety, agriculture, and energy infrastructure. He’s currently working on AI-powered tools to improve education, including a digital assistant that can help teachers work more efficiently and create effective lesson plans and solutions to help improve the accuracy of models underpinning AI tutors.</p>
+
+
+
+<p><strong>Learn more:</strong></p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/research/blog/teachers-in-india-help-microsoft-research-design-ai-tool-for-creating-great-classroom-content/">Teachers in India help Microsoft Research design AI tool for creating great classroom content</a><br>Microsoft Research Blog, October 2023</p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/research/project/hams/automated-driver-license-testing/">HAMS: Harnessing AutoMobiles for Safety</a><br>Project homepage</p>
+
+
+
+<p><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://news.microsoft.com/en-in/features/microsoft-ai-automates-drivers-license-test-india/">Microsoft Research AI project automates driver&#8217;s license tests in India<span class="sr-only"> (opens in new tab)</span></a><br>Microsoft Source Asia Blog</p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/research/publication/insight-monitoring-the-state-of-the-driver-in-low-light-using-smartphones/">InSight: Monitoring the State of the Driver in Low-Light Using Smartphones</a><br>Publication, September 2020</p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/research/publication/chanakya-learning-runtime-decisions-for-adaptive-real-time-perception/">Chanakya: Learning Runtime Decisions for Adaptive Real-Time Perception</a><br>Publication, December 2023</p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/research/publication/alt-towards-automating-driver-license-testing-using-smartphones/">ALT: Towards Automating Driver License Testing using Smartphones</a><br>Publication, November 2019</p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/research/project/dependableiot/">Dependable IoT</a><br>Project homepage</p>
+
+
+
+<p><a href="https://www.microsoft.com/en-us/research/project/vasudha/">Vasudha</a><br>Project homepage</p>
+
+
+
+<section class="wp-block-msr-subscribe-to-podcast subscribe-to-podcast">
+	<div class="subscribe-to-podcast__inner border-top border-bottom border-width-2">
+		<h2 class="h5 subscribe-to-podcast__heading">
+			Subscribe to the <a href="https://www.microsoft.com/en-us/research/podcast">Microsoft Research Podcast</a>:		</h2>
+		<ul class="subscribe-to-podcast__list list-unstyled">
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://itunes.apple.com/us/podcast/microsoft-research-a-podcast/id1318021537?mt=2" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 32 32">  <path d="M7.12 0c-3.937-0.011-7.131 3.183-7.12 7.12v17.76c-0.011 3.937 3.183 7.131 7.12 7.12h17.76c3.937 0.011 7.131-3.183 7.12-7.12v-17.76c0.011-3.937-3.183-7.131-7.12-7.12zM15.817 3.421c3.115 0 5.932 1.204 8.079 3.453 1.631 1.693 2.547 3.489 3.016 5.855 0.161 0.787 0.161 2.932 0.009 3.817-0.5 2.817-2.041 5.339-4.317 7.063-0.812 0.615-2.797 1.683-3.115 1.683-0.12 0-0.129-0.12-0.077-0.615 0.099-0.792 0.192-0.953 0.64-1.141 0.713-0.296 1.932-1.167 2.677-1.911 1.301-1.303 2.229-2.932 2.677-4.719 0.281-1.1 0.244-3.543-0.063-4.672-0.969-3.595-3.907-6.385-7.5-7.136-1.041-0.213-2.943-0.213-4 0-3.636 0.751-6.647 3.683-7.563 7.371-0.245 1.004-0.245 3.448 0 4.448 0.609 2.443 2.188 4.681 4.255 6.015 0.407 0.271 0.896 0.547 1.1 0.631 0.447 0.192 0.547 0.355 0.629 1.14 0.052 0.485 0.041 0.62-0.072 0.62-0.073 0-0.62-0.235-1.199-0.511l-0.052-0.041c-3.297-1.62-5.407-4.364-6.177-8.016-0.187-0.943-0.224-3.187-0.036-4.052 0.479-2.323 1.396-4.135 2.921-5.739 2.199-2.319 5.027-3.543 8.172-3.543zM16 7.172c0.541 0.005 1.068 0.052 1.473 0.14 3.715 0.828 6.344 4.543 5.833 8.229-0.203 1.489-0.713 2.709-1.619 3.844-0.448 0.573-1.537 1.532-1.729 1.532-0.032 0-0.063-0.365-0.063-0.803v-0.808l0.552-0.661c2.093-2.505 1.943-6.005-0.339-8.296-0.885-0.896-1.912-1.423-3.235-1.661-0.853-0.161-1.031-0.161-1.927-0.011-1.364 0.219-2.417 0.744-3.355 1.672-2.291 2.271-2.443 5.791-0.348 8.296l0.552 0.661v0.813c0 0.448-0.037 0.807-0.084 0.807-0.036 0-0.349-0.213-0.683-0.479l-0.047-0.016c-1.109-0.885-2.088-2.453-2.495-3.995-0.244-0.932-0.244-2.697 0.011-3.625 0.672-2.505 2.521-4.448 5.079-5.359 0.547-0.193 1.509-0.297 2.416-0.281zM15.823 11.156c0.417 0 0.828 0.084 1.131 0.24 0.645 0.339 1.183 0.989 1.385 1.677 0.62 2.104-1.609 3.948-3.631 3.005h-0.015c-0.953-0.443-1.464-1.276-1.475-2.36 0-0.979 0.541-1.828 1.484-2.328 0.297-0.156 0.709-0.235 1.125-0.235zM15.812 17.464c1.319-0.005 2.271 0.463 2.625 1.291 0.265 0.62 0.167 2.573-0.292 5.735-0.307 2.208-0.479 2.765-0.905 3.141-0.589 0.52-1.417 0.667-2.209 0.385h-0.004c-0.953-0.344-1.157-0.808-1.553-3.527-0.452-3.161-0.552-5.115-0.285-5.735 0.348-0.823 1.296-1.285 2.624-1.291z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Apple Podcasts</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://subscribebyemail.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.4 6a2.392 2.392 0 00-2.372 2.119L16 15.6l11.972-7.481A2.392 2.392 0 0025.6 6H6.4zM4 10.502V22.8a2.4 2.4 0 002.4 2.4h19.2a2.4 2.4 0 002.4-2.4V10.502l-11.365 7.102a1.2 1.2 0 01-1.27 0L4 10.502z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Email</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://subscribeonandroid.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M12.414 4.02c-.062.012-.126.023-.18.06a.489.489 0 00-.12.675L13.149 6.3c-1.6.847-2.792 2.255-3.18 3.944h13.257c-.388-1.69-1.58-3.097-3.179-3.944l1.035-1.545a.489.489 0 00-.12-.675.492.492 0 00-.675.135l-1.14 1.68a7.423 7.423 0 00-2.55-.45c-.899 0-1.758.161-2.549.45l-1.14-1.68a.482.482 0 00-.494-.195zm1.545 3.824a.72.72 0 110 1.44.72.72 0 010-1.44zm5.278 0a.719.719 0 110 1.44.719.719 0 110-1.44zM8.44 11.204A1.44 1.44 0 007 12.644v6.718c0 .795.645 1.44 1.44 1.44.168 0 .33-.036.48-.09v-9.418a1.406 1.406 0 00-.48-.09zm1.44 0V21.76c0 .793.646 1.44 1.44 1.44h10.557c.793 0 1.44-.647 1.44-1.44V11.204H9.878zm14.876 0c-.169 0-.33.035-.48.09v9.418c.15.052.311.09.48.09a1.44 1.44 0 001.44-1.44v-6.719a1.44 1.44 0 00-1.44-1.44zM11.8 24.16v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84zm5.759 0v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Android</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://open.spotify.com/show/4ndjUXyL0hH1FXHgwIiTWU" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M16 4C9.383 4 4 9.383 4 16s5.383 12 12 12 12-5.383 12-12S22.617 4 16 4zm5.08 17.394a.781.781 0 01-1.086.217c-1.29-.86-3.477-1.434-5.303-1.434-1.937.002-3.389.477-3.403.482a.782.782 0 11-.494-1.484c.068-.023 1.71-.56 3.897-.562 1.826 0 4.365.492 6.171 1.696.36.24.457.725.217 1.085zm1.56-3.202a.895.895 0 01-1.234.286c-2.338-1.457-4.742-1.766-6.812-1.747-2.338.02-4.207.466-4.239.476a.895.895 0 11-.488-1.723c.145-.041 2.01-.5 4.564-.521 2.329-.02 5.23.318 7.923 1.995.419.26.547.814.286 1.234zm1.556-3.745a1.043 1.043 0 01-1.428.371c-2.725-1.6-6.039-1.94-8.339-1.942h-.033c-2.781 0-4.923.489-4.944.494a1.044 1.044 0 01-.474-2.031c.096-.023 2.385-.55 5.418-.55h.036c2.558.004 6.264.393 9.393 2.23.497.292.663.931.371 1.428z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Spotify</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.667 4a2.676 2.676 0 00-2.612 2.13v.003c-.036.172-.055.35-.055.534v18.666c0 .183.019.362.055.534v.003a2.676 2.676 0 002.076 2.075h.002c.172.036.35.055.534.055h18.666A2.676 2.676 0 0028 25.333V6.667a2.676 2.676 0 00-2.13-2.612h-.003A2.623 2.623 0 0025.333 4H6.667zM8 8h1.333C17.42 8 24 14.58 24 22.667V24h-2.667v-1.333c0-6.618-5.382-12-12-12H8V8zm0 5.333h1.333c5.146 0 9.334 4.188 9.334 9.334V24H16v-1.333A6.674 6.674 0 009.333 16H8v-2.667zM10 20a2 2 0 11-.001 4.001A2 2 0 0110 20z"/></svg>
+						<span class="subscribe-to-podcast__link-text">RSS Feed</span>
+					</a>
+				</li>
+					</ul>
+	</div>
+</section>
+
+
+<div class="wp-block-msr-show-more">
+	<div class="bg-neutral-100 p-5">
+		<div class="show-more-show-less" data-mount="show-more-show-less">
+			<div>
+				<span>
+					
+
+<h2 class="wp-block-heading" id="transcript">Transcript</h2>
+
+
+
+<p>[TEASER]</p>
+
+
+
+<p>[MUSIC PLAYS UNDER DIALOGUE]</p>
+
+
+
+<p><strong>AKSHAY NAMBI:</strong> For me, research is just not about pushing the boundaries of the knowledge. It&#8217;s about ensuring that these advancements translate to meaningful impact on the ground. So, yes, the big goals that guide most of my work is twofold. One, how do we build technology that&#8217;s scaled to benefit large populations? And two, at the same time, I&#8217;m motivated by the challenge of tackling complex problems. <em>That</em> provides opportunity to explore, learn, and also create something new, and that&#8217;s what keeps me excited.</p>
+
+
+
+<p>[TEASER ENDS]</p>
+
+
+
+<p><strong>CHRIS STETKIEWICZ:</strong> You&#8217;re listening to <em>Ideas</em>, a Microsoft Research Podcast that dives deep into the world of technology research and the profound questions behind the code. In this series, we&#8217;ll explore the technologies that are shaping our future and the big ideas that propel them forward.</p>
+
+
+
+<p>[MUSIC FADES]</p>
+
+
+
+<p>I&#8217;m your guest host, Chris Stetkiewicz. Today, I&#8217;m talking to Akshay Nambi. Akshay is a principal researcher at Microsoft Research. His work lies at the intersection of systems, AI, and machine learning with a focus on designing, deploying, and scaling AI systems to solve compelling real-world problems. Akshay&#8217;s research extends across education, agriculture, transportation, and energy. He is currently working on enhancing the quality and reliability of AI systems by addressing critical challenges such as reasoning, grounding, and managing complex queries.</p>
+
+
+
+<p>Akshay, welcome to the podcast.</p>
+
+
+
+				</span>
+				<span id="show-more-show-less-toggle-1" class="show-more-show-less-toggleable-content">
+					
+
+
+
+<p><strong>AKSHAY NAMBI:</strong> Thanks for having me.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> I&#8217;d like to begin by asking you to tell us your origin story. How did you get started on your path? Was there a big idea or experience that captured your imagination or motivated you to do what you&#8217;re doing today?</p>
+
+
+
+<p><strong>NAMBI:</strong> If I look back, my journey into research wasn&#8217;t a straight line. It was more about discovering my passion through some unexpected opportunities and also finding purpose along the way. So before I started with my undergrad studies, I was very interested in electronics and systems. My passion for electronics, kind of, started when I was in school. I was more like an average student, not a nerd or not too curious, but I was always tinkering around, doing things, building stuff, and playing with gadgets and that, kind of, made me very keen on electronics and putting things together, and that was my passion. But sometimes things don&#8217;t go as planned. So I didn&#8217;t get into the college which I had hoped to join for electronics, so I ended up pursuing computer science, which wasn&#8217;t too bad either. So during my final year of bachelor&#8217;s, I had to do a final semester project, which turned out to be a very pivotal moment. And that&#8217;s when I got to know this institute called Indian Institute of Science (IISc), which is a top research institute in India and also globally. And I had a chance to work on a project there. And it was my first real exposure to open-ended research, right, so I remember &#8230; where we were trying to build a solution that helped to efficiently construct an ontology for a specific domain, which simply means that we were building systems to help users uncover relationships in the data and allow them to query it more efficiently, right. And it was super exciting for me to design and build something new. And that experience made me realize that I wanted to pursue research further. And right after that project, I decided to explore research opportunities, which led me to join Indian Institute of Science again as a research assistant.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> So what made you want to take the skills you were developing and apply them to a research career?</p>
+
+
+
+<p><strong>NAMBI:</strong> So interestingly when I joined IISc, the professor I worked with specialized in electronics, so things come back, so something I had always been passionate about. And I was the only computer science graduate in the lab at that time with others being electronic engineers, and I didn&#8217;t even know how to solder. But the lab environment was super encouraging, collaborative, so I, kind of, caught up very quickly. In that lab, basically, I worked on several projects in the emerging fields of embedded device and energy harvesting systems. Specifically, we were designing systems that could harvest energy from sources like sun, hydro, and even RF (radio frequency) signals. And my role was kind of twofold. One, I designed circuits and systems to make energy harvesting more efficient so that you can store this energy. And then I also wrote programs, software, to ensure that the harvested energy can be used efficiently. For instance, as we harvest some of this energy, you want to have your programs run very quickly so that you are able to sense the data, send it to the server in an efficient way. And one of the most exciting projects I worked during that time was on data-driven agriculture. So this was back in 2008, 2009, right, where we developed an embedded system device with sensors to monitor the agricultural fields, collecting data like soil moisture, soil temperature. And that was sent to the agronomists who were able to analyze this data and provide feedback to farmers. In many remote areas, still access to power is a huge challenge. So we used many of the technologies we were developing in the lab, specifically energy harvesting techniques, to power these sensors and devices in the rural farms, and that&#8217;s when I really got to see firsthand how technology could help people&#8217;s lives, particularly in rural settings. And that&#8217;s what, kind of, stood out in my experience at IISc, right, was that it was [the] end-to-end nature of the work. And it was not just writing code or designing circuits. It was about identifying the real-world problems, solving them efficiently, and deploying solutions in the field. And this cemented my passion for creating technology that solves real-world problems, and that&#8217;s what keeps me driving even today.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> And as you&#8217;re thinking about those problems that you want to try and solve, where did you look for, for inspiration? It sounds like some of these are happening right there in your home.</p>
+
+
+
+<p><strong>NAMBI:</strong> That&#8217;s right. Growing up and living in India, I&#8217;ve been surrounded by these, kind of, many challenges. And these are not distant problems. These are right in front of us. And some of them are quite literally outside the door. So being here in India provides a unique opportunity to tackle some of the pressing real-world challenges in agriculture, education, or in road safety, where even small advancements can create significant impact.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> So how would you describe your research philosophy? Do you have some big goals that guide you?</p>
+
+
+
+<p><strong>NAMBI:</strong> Right, as I mentioned, right, my research philosophy is mainly rooted in solving real-world problems through end-to-end innovation. For me, research is just not about pushing the boundaries of the knowledge. It&#8217;s about ensuring that these advancements translate to meaningful impact on the ground, right. So, yes, the big goals that guide most of my work is twofold. One, how do we build technology that&#8217;s scaled to benefit large populations? And two, at the same time, I&#8217;m motivated by the challenge of tackling complex problems. <em>That</em> provides opportunity to explore, learn, and also create something new. And that&#8217;s what keeps me excited.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> So let&#8217;s talk a little bit about your journey at Microsoft Research. I know you began as an intern, and some of the initial work you did was focused on computer vision, road safety, energy efficiency. Tell us about some of those projects.</p>
+
+
+
+<p><strong>NAMBI:</strong> As I was nearing the completion of my PhD, I was eager to look for opportunities in industrial labs, and Microsoft Research obviously stood out as an exciting opportunity. And additionally, the fact that Microsoft Research India was in my hometown, Bangalore, made it even more appealing. So when I joined as an intern, I worked together with Venkat Padmanabhan, who now leads the lab, and we started this project called HAMS, which stands for <em>Harnessing Automobiles for Safety</em>. As you know, road safety is a major public health issue globally, responsible for almost 1.35 million fatalities annually and with the situation being even more severe in countries like India. For instance, there are estimates that there&#8217;s a life lost on the road every four minutes in India. When analyzing the factors which affect road safety, we saw mainly three elements. One, the vehicle. Second, the infrastructure. And then the driver. Among these, the driver plays the most critical role in many incidents, whether it&#8217;s over-speeding, driving without seat belts, drowsiness, fatigue, any of these, right. And this realization motivated us to focus on driver monitoring, which led to the development of HAMS. In a nutshell, HAMS is basically a smartphone-based system where you&#8217;re mounting your smartphone on a windshield of a vehicle to monitor both the driver and the driving in real time with the goal of improving road safety. Basically, it observes key aspects such as where the driver is looking, whether they are distracted or fatigued<a id="_ftnref1" href="#_ftn1">[1]</a>, while also considering the external driving environment, because we truly believe to improve road safety, we need to understand not just the driver&#8217;s action but also the context in which they are driving. For example, if the smartphone&#8217;s accelerometer detects sharp braking, the system would automatically check the distance to the vehicle in the front using the rear camera and whether the driver was distracted or fatigued using the front camera. And this holistic approach ensures a more accurate and comprehensive assessment of the driving behavior, enabling a more meaningful feedback.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> So that sounds like a system that&#8217;s got several moving parts to it. And I imagine you had some technical challenges you had to deal with there. Can you talk about that?</p>
+
+
+
+<p><strong>NAMBI:</strong> One of our guiding principles in HAMS was to use commodity, off-the-shelf smartphone devices, right. This should be affordable, in the range of $100 to $200, so that you can just take out regular smartphones and enable this driver and driving monitoring. And that led to handling several technical challenges. For instance, we had to develop efficient computer vision algorithms that could run locally on the device with cheap smartphone processing units while still performing very well at low-light conditions. We wrote multiple papers and developed many of the novel algorithms which we implemented on very low-cost smartphones. And once we had such a monitoring system, right, you can imagine there&#8217;s several deployment opportunities, starting from fleet monitoring to even training new drivers, right. However, one application we hadn&#8217;t originally envisioned but turned out to be its most impactful use case even today is automated driver&#8217;s license testing. As you know, before you get a license, a driver is supposed to pass a test, but what happens in many places, including India, is that licenses are issued with very minimal or no actual testing, leading to unsafe and untrained drivers on the road. At the same time as we were working on HAMS, Indian government were looking at introducing technology to make testing more transparent and also automated. So we worked with the right set of partners, and we demonstrated to the government that HAMS could actually completely automate the entire license testing process. So we first deployed this system in Dehradun RTO (Regional Transport Office)—which is the equivalent of a DMV in the US—in 2019, working very closely with RTO officials to define what should be some of the evaluation criteria, right. Some of these would be very simple like, oh, is it the same candidate who is taking the test who actually registered for the test, right? And whether they are wearing seat belts. Did they scan their mirrors before taking a left turn and how well they performed in tasks like reverse parking and things like that.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> So what&#8217;s been the government response to that? Have they embraced it or deployed it in a wider extent?</p>
+
+
+
+<p><strong>NAMBI:</strong> Yes, yes. So after the deployment in Dehradun in 2019, we actually open sourced the entire HAMS technology and our partners are now working with several state governments and scaled HAMS to several states in India. And as of today, we have around 28 RTOs where HAMS is actually being deployed, and the pass rate of such license test is just 60% as compared to 90-plus percent with manual testing. That&#8217;s the extensive rigor the system brings in. And now what excites me is after nearly five years later, we are now taking the next step in this project where we are now evaluating the long-term impact of this intervention on driving behavior and road safety. So we are collaborating with Professor Michael Kremer, who is a Nobel laureate and professor at University of Chicago, and his team to study how this technology has influenced driving patterns and accident rates over time. So this focus on closing the loop and moving beyond just deployment in the field to actually measuring the real impact, right, is something that truly excites me and that makes research at Microsoft is very unique. And that is actually one of the reasons why I joined Microsoft Research as a full-time after my internship, and this unique flexibility to work on real-world problems, develop novel research ideas, and actually collaborate with partners both internally and externally to deploy at scale is something that is very unique here.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> So have you actually received any evidence that the project is working? Is driving getting safer?</p>
+
+
+
+<p><strong>NAMBI:</strong> Yes, these are very early analysis, and there are very positive insights we are getting from that. Soon we will be releasing a white paper on our study on this long-term impact.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> That’s great. I look forward to that one. So you&#8217;ve also done some interesting work involving the Internet of Things, with an emphasis on making it more reliable and practical. So for those in our audience who may not know, the Internet of Things, or <em>IoT</em>, is a network that includes billions of devices and sensors in things like smart thermostats and fitness trackers. So talk a little bit about your work in this area.</p>
+
+
+
+<p><strong>NAMBI:</strong> Right, so IoT, as you know, is already transforming several industries with billions of sensors being deployed in areas like industrial monitoring, manufacturing, agriculture, smart buildings, and also air pollution monitoring. And if you think about it, these sensors provide critical data that businesses rely for decision making. However, a fundamental challenge is ensuring that the data collected from these sensors is actually reliable. If the data is faulty, it can lead to poor decisions and inefficiencies. And the challenge is that these sensor failures are always not obvious. What I mean by that is when a sensor stops working, it always doesn&#8217;t stop sending data, but it often continues to send some data which appear to be normal. And that&#8217;s one of the biggest problems, right. So detecting these errors is non-trivial because the faulty sensors can mimic real-world working data, and traditional solutions like deploying redundant sensors or even manually inspecting them are very expensive, labor intensive, and also sometimes infeasible, especially for remote deployments. Our goal in this work was to develop a simple and efficient way to remotely monitor the health of the IoT sensors. So what we did was we hypothesized that most sensor failures occurred due to the electronic malfunctions. It could be either due to short circuits or component degradation or due to environmental factors such as heat, humidity, or pollution. Since these failures originate within the sensor hardware itself, we saw an opportunity to leverage some of the basic electronic principles to create a novel solution. The core idea was to develop a way to automatically generate a fingerprint for each sensor. And by fingerprint, I mean the unique electrical characteristic exhibited by a properly working sensor. We built a system that could devise these fingerprints for different types of sensors, allowing us to detect failures purely based on the sensors internal characteristics, that is the fingerprint, and even without looking at the data it produces. Essentially what it means now is that we were able to tag each sensor data with a reliability score, ensuring verifiability.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> So how does that technology get deployed in the real world? Is there an application where it&#8217;s being put to work today?</p>
+
+
+
+<p><strong>NAMBI:</strong> Yes, this technology, we worked together with Azure IoT and open-sourced it where there were several opportunities and several companies took the solution into their systems, including air pollution monitoring, smart buildings, industrial monitoring. The one which I would like to talk about today is about air pollution monitoring. As you know, air pollution is a major challenge in many parts of the world, especially in India. And traditionally, air quality monitoring relies on these expensive fixed sensors, which provide limited coverage. On the other hand, there is a rich body of work on low-cost sensors, which can offer wider deployment. Like, you can put these sensors on a bus or a vehicle and have it move around the entire city, where you can get much more fine-grained, accurate picture on the ground. But these are often unreliable because these are low-cost sensors and have reliability issues. So we collaborated with several startups who were developing these low-cost air pollution sensors who were finding it very challenging to gain trust because one of the main concerns was the&nbsp;accuracy of the data from low-cost sensors. So our solution seamlessly integrated with these sensors, which enabled verification of the data quality coming out from these low-cost air pollution sensors. So this bridged the trust gap, allowing government agencies&nbsp;to initiate large-scale pilots using low-cost sensors for fine-grain air-quality monitoring.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> So as we&#8217;re talking about evolving technology, large language models, or LLMs, are also enabling big changes, and they&#8217;re not theoretical. They&#8217;re happening today. And you&#8217;ve been working on LLMs and their applicability to real-world problems. Can you talk about your work there and some of the latest releases?</p>
+
+
+
+<p><strong>NAMBI:</strong> So when ChatGPT was first released, I, like many people, was very skeptical. However, I was also curious both of how it worked and, more importantly, whether it could accelerate solutions to real-world problems. That led to the exploration of LLMs in education, where we fundamentally asked this question, can AI help improve educational outcomes? And this was one of the key questions which led to the development of Shiksha copilot, which is a genAI-powered assistant designed to support teachers in their daily work, starting from helping them to create personalized learning experience, design assignments, generate hands-on activities, and even more. Teachers today universally face several challenges, from time management to lesson planning. And our goal with Shiksha was to empower them to significantly reduce the time spent on this task. For instance, lesson planning, which traditionally took about 60 minutes, can now be completed in just five minutes using the Shiksha copilot. And what makes Shiksha unique is that it&#8217;s completely grounded in the local curriculum and the learning objectives, ensuring that the AI-generated content aligns very well with the pedagogical best practices. The system actually supports multilingual interactions, multimodal capabilities, and also integration with external knowledge base, making it very highly adaptable for different curriculums. Initially, many teachers were skeptical. Some feared this would limit their creativity. However, as they began starting to use Shiksha, they realized that it didn&#8217;t replace their expertise, but rather amplified it, enabling them to do work faster and more efficiently.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> So, Akshay, the last time you and I talked about Shiksha copilot, it was very much in the pilot phase and the teachers were just getting their hands on it. So it sounds like, though, you&#8217;ve gotten some pretty good feedback from them since then.</p>
+
+
+
+<p><strong>NAMBI:</strong> Yes, so when we were discussing, we were doing this six-month pilot with 50-plus teachers where we gathered overwhelming positive feedback on how technologies are helping teachers to reduce time in their lesson planning. And in fact, they were using the system so much that they really enjoyed working with Shiksha copilot where they were able to do more things with much less time, right. And with a lot of feedback from teachers, we have improved Shiksha copilot over the past few months. And starting this academic year, we have already deployed Shiksha to 1,000-plus teachers in Karnataka. This is with close collaboration with our partners in … with the Sikshana Foundation and also with the government of Karnataka. And the response has been already incredibly encouraging. And looking ahead, we are actually focusing on again, closing this loop, right, and measuring the impact on the ground, where we are doing a lot of studies with the teachers to understand not just improving efficiency of the teachers but also measuring how AI-generated content enriched by teachers is actually enhancing student learning objectives. So that&#8217;s the study we are conducting, which hopefully will close this loop and understand our original question that, can AI actually help improve educational outcomes?</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> And is the deployment primarily in rural areas, or does it include urban centers, or what&#8217;s the target?</p>
+
+
+
+<p><strong>NAMBI:</strong> So the current deployment with 1,000 teachers is a combination of both rural and urban public schools. These are covering both English medium and Kannada medium teaching schools with grades from Class 5 to Class 10.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> Great. So Shiksha was focused on helping teachers and making their jobs easier, but I understand you&#8217;re also working on some opportunities to use AI to help <em>students</em> succeed. Can you talk about that?</p>
+
+
+
+<p><strong>NAMBI:</strong> So as you know, LLMs are still evolving and inherently they are fragile, and deploying them in real-world settings, especially in education, presents a lot of challenges. With Shiksha, if you think about it, teachers remain in control throughout the interaction, making the final decision on whether to use the AI-generated content in the classroom or not. However, when it comes to AI tutors for students, the stakes are slightly higher, where we need to ensure the AI doesn&#8217;t produce incorrect answers, misrepresent concepts, or even mislead explanations. Currently, we are developing solutions to enhance accuracy and also the reasoning capabilities of these foundational models, particularly solving math problems. This represents a major step towards building AI systems that&#8217;s much more holistic personal tutors, which help student understanding and create more engaging, effective learning experience.</p>
+
+
+
+<p><strong>STETKIEWICZ: </strong>So you&#8217;ve talked about working in computer vision and IoT and LLMs. What do those areas have in common? Is there some thread that weaves through the work that you&#8217;re doing?</p>
+
+
+
+<p><strong>NAMBI: </strong>That&#8217;s a great question. As a systems researcher, I&#8217;m quite interested in this end-to-end systems development, which means that my focus is not just about improving a particular algorithm but also thinking about the end-to-end system, which means that I, kind of, think about computer vision, IoT, and even LLMs as tools, where we would want to improve them for a particular application. It could be agriculture, education, or road safety. And then how do you think this holistically to come up with the best efficient system that can be deployed at population scale, right. I think that&#8217;s the connecting story here, that how do you have this systemic thinking which kind of takes the existing tools, improves them, makes it more efficient, and takes it out from the lab to real world.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> So you&#8217;re working on some very powerful technology that is creating tangible benefits for society, which is your goal. At the same time, we&#8217;re still in the very early stages of the development of AI and machine learning. Have you ever thought about unintended consequences? Are there some things that could go wrong, even if we get the technology right? And does that kind of thinking ever influence the development process?</p>
+
+
+
+<p><strong>NAMBI:</strong> Absolutely. Unintended consequences are something I think about deeply. Even the most well-designed technology can have these ripple effects that we may not fully anticipate, especially when we are deploying it at population scale. For me, being proactive is one of the key important aspects. This means not only designing the technology at the lab but actually also carefully deploying them in real world, measuring its impact, and working with the stakeholders to minimize the harm. In most of my work, I try to work very closely with the partner team on the ground to monitor, analyze, how the technology is being used and what are some of the risks and how can we eliminate that. At the same time, I also remain very optimistic. It&#8217;s also about responsibility. If we are able to embed societal values, ethics, into the design of the system and involve diverse perspectives, especially from people on the ground, we can remain vigilant as the technology evolves and we can create systems that can truly deliver immense societal benefits while addressing many of the potential risks.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> So we&#8217;ve heard a lot of great examples today about building technology to solve real-world problems and your motivation to keep doing that. So as you look ahead, where do you see your research going next? How will people be better off because of the technology you develop and the advances that they support?</p>
+
+
+
+<p><strong>NAMBI:</strong> Yeah, I&#8217;m deeply interested in advancing AI systems that can truly assist anyone in their daily tasks, whether it&#8217;s providing personalized guidance to a farmer in a rural village, helping a student get instant 24 by 7 support for their learning doubts, or even empowering professionals to work more efficiently. And to achieve this, my research is focusing on tackling some of the fundamental challenges in AI with respect to reasoning and reliability and also making sure that AI is more context aware and responsive to evolving user needs. And looking ahead, I envision AI as not just an assistant but also as an intelligent and equitable copilot seamlessly integrated into our everyday life, empowering individuals across various domains.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> Great. Well, Akshay, thank you for joining us on <em>Ideas</em>. It&#8217;s been a pleasure.</p>
+
+
+
+<p>[MUSIC]</p>
+
+
+
+<p><strong>NAMBI:</strong> Yeah, I really enjoyed talking to you, Chris. Thank you.</p>
+
+
+
+<p><strong>STETKIEWICZ:</strong> Till next time.</p>
+
+
+
+<p>[MUSIC FADES]</p>
+
+				</span>
+			</div>
+			<button
+				class="action-trigger glyph-prepend mt-2 mb-0 show-more-show-less-toggle"
+				aria-expanded="false"
+				data-show-less-text="Show less"
+				type="button"
+				aria-controls="show-more-show-less-toggle-1"
+				aria-label="Show more content"
+				data-alternate-aria-label="Show less content">
+				Show more			</button>
+		</div>
+	</div>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p><a id="_ftn1" href="#_ftnref1">[1]</a> To ensure data privacy, all processing is done locally on the smartphone. This approach ensures that driving behavior insights remain private and secure with no personal data stored or shared.</p>
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/podcast/ideas-building-ai-for-population-scale-systems-with-akshay-nambi/">Ideas: Building AI for population-scale systems with Akshay Nambi</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Advances to low-bit quantization enable LLMs on edge devices</title>
 		<link>https://www.microsoft.com/en-us/research/blog/advances-to-low-bit-quantization-enable-llms-on-edge-devices/</link>
 		
@@ -32,7 +496,7 @@
 <p>The post <a href="https://www.microsoft.com/en-us/research/blog/advances-to-low-bit-quantization-enable-llms-on-edge-devices/">Advances to low-bit quantization enable LLMs on edge devices</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1.jpg" alt="Three white icons that represent artificial intelligence, systems, and networking. These icons sit on a purple to pink gradient background." class="wp-image-1124472" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1.jpg" alt="Three white icons that represent artificial intelligence, systems, and networking. These icons sit on a purple to pink gradient background." class="wp-image-1124472" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
 
 
 
@@ -94,7 +558,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="1024" height="465" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure1.png" alt="Figure 1: A diagram illustrating the Ladder architecture. At the top, the tTile-Graph shows a computational flow where inputs in NF4 and FP16 formats feed into a matrix multiplication (MatMul) operation, which outputs in FP16. This output, along with another FP16 input, proceeds to an addition (Add) operation, also in FP16. Below, the tTile-Device schematic depicts a hierarchical memory structure with L2/Global Memory, L1/Shared Memory, and L0/Register, organized under 'Core.' Transformations occur in the loading and storing stages around computation, with arrows indicating data flow. The scheduling mechanism assigns operations to different layers of the memory hierarchy to optimize performance." class="wp-image-1123677" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure1.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure1-300x136.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure1-768x349.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure1-240x109.png 240w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Figure 1: The Ladder architecture</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1024" height="465" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure1.png" alt="Figure 1: A diagram illustrating the Ladder architecture. At the top, the tTile-Graph shows a computational flow where inputs in NF4 and FP16 formats feed into a matrix multiplication (MatMul) operation, which outputs in FP16. This output, along with another FP16 input, proceeds to an addition (Add) operation, also in FP16. Below, the tTile-Device schematic depicts a hierarchical memory structure with L2/Global Memory, L1/Shared Memory, and L0/Register, organized under 'Core.' Transformations occur in the loading and storing stages around computation, with arrows indicating data flow. The scheduling mechanism assigns operations to different layers of the memory hierarchy to optimize performance." class="wp-image-1123677" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure1.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure1-300x136.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure1-768x349.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure1-240x109.png 240w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Figure 1: The Ladder architecture</figcaption></figure>
 
 
 
@@ -136,7 +600,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="1268" height="719" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure2.png" alt="Figure 2: A diagram showing offline and online processes for bit-serial computation. Offline: integer weights are decomposed into 1-bit indices and permuted into tiles. Online: activations are precomputed with 1-bit patterns, processed via a lookup table (LUT), and aggregated using weighted summation in bit-serial aggregation." class="wp-image-1123683" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure2.png 1268w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure2-300x170.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure2-1024x581.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure2-768x435.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure2-240x136.png 240w" sizes="(max-width: 1268px) 100vw, 1268px" /><figcaption class="wp-element-caption">Figure 2. Overview of the T-MAC system</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1268" height="719" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure2.png" alt="Figure 2: A diagram showing offline and online processes for bit-serial computation. Offline: integer weights are decomposed into 1-bit indices and permuted into tiles. Online: activations are precomputed with 1-bit patterns, processed via a lookup table (LUT), and aggregated using weighted summation in bit-serial aggregation." class="wp-image-1123683" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure2.png 1268w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure2-300x170.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure2-1024x581.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure2-768x435.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Low-bit_figure2-240x136.png 240w" sizes="auto, (max-width: 1268px) 100vw, 1268px" /><figcaption class="wp-element-caption">Figure 2. Overview of the T-MAC system</figcaption></figure>
 
 
 
@@ -236,7 +700,7 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115757">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085526">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
@@ -245,20 +709,20 @@
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/" aria-label="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" data-bi-cN="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Ginny Badanes, Madeleine Daepp and Robert Ness" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" aria-label="What’s Your Story: Lex Story" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/08/Lex-Story_WYS_Hero_Feature_1400x788.jpg" alt="photo of Lex Story for the What's Your Story episode of the Microsoft Research podcast" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness</h2>
+									<h2 class="h4">What’s Your Story: Lex Story</h2>
 				
-								<p class="large">As the “biggest election year in history” comes to an end, researchers Madeleine Daepp and Robert Osazuwa Ness and Democracy Forward GM Ginny Badanes discuss AI’s impact on democracy, including the tech’s use in Taiwan and India.</p>
+								<p class="large">Model maker and fabricator Lex Story helps bring research to life through prototyping. He discusses his take on failure; the encouragement and advice that has supported his pursuit of art and science; and the sabbatical that might inspire his next career move.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" target="_blank">
+						<a href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
 							Listen now						</a>
 					</div>
 				</div>
@@ -328,7 +792,7 @@
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-1 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--1"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/flavars-a-multimodal-foundational-language-and-vision-alignment-model-for-remote-sensing/">Read the paper</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--2"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/flavars-a-multimodal-foundational-language-and-vision-alignment-model-for-remote-sensing/">Read the paper</a></div>
 </div>
 
 
@@ -356,7 +820,7 @@
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--2"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/managed-retention-memory-a-new-class-of-memory-for-the-ai-era/">Read the paper</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--3"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/managed-retention-memory-a-new-class-of-memory-for-the-ai-era/">Read the paper</a></div>
 </div>
 
 
@@ -388,7 +852,7 @@
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-3 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--3"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/enhanced-macular-telangiectasia-type-2-detection-leveraging-self-supervised-learning-and-ensemble-models/">Read the paper</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--4"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/enhanced-macular-telangiectasia-type-2-detection-leveraging-self-supervised-learning-and-ensemble-models/">Read the paper</a></div>
 </div>
 
 
@@ -398,29 +862,29 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115763">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085496">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft Research Blog</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/" aria-label="AIOpsLab: Building AI agents for autonomous clouds" data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1.png" alt="White outline illustrations for AIOps on a blue and green gradient background." />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" aria-label="Eureka: Evaluating and understanding progress in AI" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/NEWEureka-2024-BlogHeroFeature-1400x788-1-66e90c195464d.jpg" alt="White icons representing the Eureka Experiment Pipeline -- PromptProcessing, Inference, PromptProcessing, Inference, DataProcessing, EvalReporting -- on blue to green gradient background." />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">AIOpsLab: Building AI agents for autonomous clouds</h2>
+									<h2 class="h4">Eureka: Evaluating and understanding progress in AI</h2>
 				
-								<p class="large">AIOpsLab is an open-source framework designed to evaluate and improve AI agents for cloud operations, offering standardized, scalable benchmarks for real-world testing, enhancing cloud system reliability.</p>
+								<p class="large">How can we rigorously evaluate and understand state-of-the-art progress in AI? Eureka is an open-source framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. Learn more about the extended findings. </p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds" target="_blank">
+						<a href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
 							Read more						</a>
 					</div>
 				</div>
@@ -448,7 +912,7 @@
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-4 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--4"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/symbolic-automata-omega-regularity-modulo-theories/">Read the paper</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--5"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/symbolic-automata-omega-regularity-modulo-theories/">Read the paper</a></div>
 </div>
 
 
@@ -480,7 +944,7 @@
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-5 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--5"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://llm4eval.github.io/WSDM2025/" target="_blank" rel="noreferrer noopener">Learn more about the workshop</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--6"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://llm4eval.github.io/WSDM2025/" target="_blank" rel="noreferrer noopener">Learn more about the workshop</a></div>
 </div>
 
 
@@ -769,7 +1233,7 @@
 
 
 				</span>
-				<span id="show-more-show-less-toggle-6" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-7" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -1319,7 +1783,7 @@
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-6"
+				aria-controls="show-more-show-less-toggle-7"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -1407,7 +1871,7 @@
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-7 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--7"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/communication-efficient-secure-and-private-multi-party-deep-learning/">Read the paper</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--8"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/communication-efficient-secure-and-private-multi-party-deep-learning/">Read the paper</a></div>
 </div>
 
 
@@ -1435,7 +1899,7 @@
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-8 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--8"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/judgeblender-ensembling-judgments-for-automatic-relevance-assessment/">Read the paper</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--9"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/judgeblender-ensembling-judgments-for-automatic-relevance-assessment/">Read the paper</a></div>
 </div>
 
 
@@ -1463,7 +1927,7 @@
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-9 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--9"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/convergence-to-equilibrium-of-no-regret-dynamics-in-congestion-games/">Read the paper</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--10"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/convergence-to-equilibrium-of-no-regret-dynamics-in-congestion-games/">Read the paper</a></div>
 </div>
 
 
@@ -1499,33 +1963,36 @@
 
 
 <div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-10 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--10"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/articles/rd-agent-an-open-source-solution-for-smarter-rd/">Read the article</a></div>
+<div class="wp-block-button is-style-outline is-style-outline--11"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/articles/rd-agent-an-open-source-solution-for-smarter-rd/">Read the article</a></div>
 </div>
 </div>
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1061244">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085508">
 		
 
+		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
+	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/about-microsoft-research/" aria-label="About Microsoft Research" data-bi-cN="About Microsoft Research" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/07/About-page-promo_1066x600.jpg" alt="" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" aria-label="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/MedFuzz-BlogHeroFeature-1400x788-1.jpg" alt="MedFuzz blog hero (decorative)" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">About Microsoft Research</h2>
+									<h2 class="h4">MedFuzz: Exploring the robustness of LLMs on medical challenge problems</h2>
 				
-								<p class="large">Advancing science and technology to benefit humanity</p>
+								<p class="large">Medfuzz tests LLMs by breaking benchmark assumptions, exposing vulnerabilities to bolster real-world accuracy.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/about-microsoft-research/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="View our story" data-bi-cN="About Microsoft Research" target="_blank">
-							View our story						</a>
+						<a href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
+							Read more						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -1777,7 +2244,7 @@
 
 
 				</span>
-				<span id="show-more-show-less-toggle-11" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-12" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -2011,7 +2478,7 @@
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-11"
+				aria-controls="show-more-show-less-toggle-12"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -2101,30 +2568,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115757">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="999693">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Event Series</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/" aria-label="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" data-bi-cN="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Ginny Badanes, Madeleine Daepp and Robert Ness" />
+				<a class="bg-gray-300" href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum" data-bi-cN="Microsoft Research Forum" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MRF-24_WebImage_1400x788.png" alt="various abstract 3D shapes on a light blue background" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness</h2>
+									<h2 class="h4">Microsoft Research Forum</h2>
 				
-								<p class="large">As the “biggest election year in history” comes to an end, researchers Madeleine Daepp and Robert Osazuwa Ness and Democracy Forward GM Ginny Badanes discuss AI’s impact on democracy, including the tech’s use in Taiwan and India.</p>
+								<p class="large">Join us for a continuous exchange of ideas about research in the era of general AI. Watch the first four episodes on demand.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" target="_blank">
-							Listen now						</a>
+						<a href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum" target="_blank">
+							Watch on-demand						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -2259,29 +2726,29 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115766">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115763">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research blog</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft Research Blog</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" aria-label="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1.png" alt="A diagram illustrating the joint optimization process of instructions and in-context examples in PromptWizard. The figure demonstrates how the framework iteratively refines both components, integrating feedback to enhance the overall prompt effectiveness and adaptability across tasks." />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/" aria-label="AIOpsLab: Building AI agents for autonomous clouds" data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1.png" alt="White outline illustrations for AIOps on a blue and green gradient background." />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts</h2>
+									<h2 class="h4">AIOpsLab: Building AI agents for autonomous clouds</h2>
 				
-								<p class="large">PromptWizard from Microsoft Research is now open source. It is designed to automate and simplify AI prompt optimization, combining iterative LLM feedback with efficient exploration and refinement techniques to create highly effective prompts in minutes.</p>
+								<p class="large">AIOpsLab is an open-source framework designed to evaluate and improve AI agents for cloud operations, offering standardized, scalable benchmarks for real-world testing, enhancing cloud system reliability.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
+						<a href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds" target="_blank">
 							Read more						</a>
 					</div>
 				</div>
@@ -2512,30 +2979,30 @@ asyncio.run(orch.start_problem(max_steps=10))
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="999693">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085526">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Event Series</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum" data-bi-cN="Microsoft Research Forum" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MRF-24_WebImage_1400x788.png" alt="various abstract 3D shapes on a light blue background" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" aria-label="What’s Your Story: Lex Story" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/08/Lex-Story_WYS_Hero_Feature_1400x788.jpg" alt="photo of Lex Story for the What's Your Story episode of the Microsoft Research podcast" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Microsoft Research Forum</h2>
+									<h2 class="h4">What’s Your Story: Lex Story</h2>
 				
-								<p class="large">Join us for a continuous exchange of ideas about research in the era of general AI. Watch the first four episodes on demand.</p>
+								<p class="large">Model maker and fabricator Lex Story helps bring research to life through prototyping. He discusses his take on failure; the encouragement and advice that has supported his pursuit of art and science; and the sabbatical that might inspire his next career move.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum" target="_blank">
-							Watch on-demand						</a>
+						<a href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
+							Listen now						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -2614,1119 +3081,6 @@ get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="co
 
 <p>We would like to thank Yinfang Chen, Manish Shetty, Yogesh Simmhan, <a href="https://www.microsoft.com/en-us/research/people/xuchaozhang/">Xuchao Zhang</a>, <a href="https://www.microsoft.com/en-us/research/people/jonathanmace/">Jonathan Mace</a>, Dax Vandevoorde, <a href="https://www.microsoft.com/en-us/research/people/pedrobr/">Pedro Las-Casas</a>, Shachee Mishra Gupta, and <a href="https://www.microsoft.com/en-us/research/people/sumann/">Suman Nath</a>, for contributing to this project.</p>
 <span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/">AIOpsLab: Building AI agents for autonomous clouds</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness</title>
-		<link>https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/</link>
-		
-		<dc:creator><![CDATA[Brenda Potts]]></dc:creator>
-		<pubDate>Thu, 19 Dec 2024 20:00:00 +0000</pubDate>
-				<category><![CDATA[Microsoft Research Podcast]]></category>
-		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1112883</guid>
-
-					<description><![CDATA[<p>As the “biggest election year in history” comes to an end, researchers Madeleine Daepp and Robert Osazuwa Ness and Democracy Forward GM Ginny Badanes discuss AI’s impact on democracy, including Daepp and Ness’s research into the tech’s use in Taiwan and India.</p>
-<p>The post <a href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/">Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1401" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Ginny Badanes, Madeleine Daepp and Robert Osazuwa Ness" class="wp-image-1114101" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788.jpg 1401w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w" sizes="auto, (max-width: 1401px) 100vw, 1401px" /></figure>
-
-
-<div class="wp-block-msr-podcast-container my-4">
-	<iframe loading="lazy" src="https://player.blubrry.com/?podcast_id=139965770&modern=1" class="podcast-player" frameborder="0" height="164px" width="100%" scrolling="no" title="Podcast Player"></iframe>
-</div>
-
-
-
-<p>Behind every emerging technology is a great idea propelling it forward. In the Microsoft Research Podcast series <em>Ideas</em>, members of the research community at Microsoft discuss the beliefs that animate their research, the experiences and thinkers that inform it, and the positive human impact it targets.</p>
-
-
-
-<p>In 2024, with advancements in generative AI continuing to reach new levels and the world experiencing its “<a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.economist.com/interactive/the-world-ahead/2023/11/13/2024-is-the-biggest-election-year-in-history" target="_blank" rel="noreferrer noopener">biggest election year in history<span class="sr-only"> (opens in new tab)</span></a>,” could there possibly be a better time to examine the technology’s emerging role in global democracies? Inspired by the moment, senior researchers <a href="https://www.microsoft.com/en-us/research/people/mdaepp/">Madeleine Daepp<span class="sr-only"> (opens in new tab)</span></a> and <a href="https://www.microsoft.com/en-us/research/people/robertness/">Robert Osazuwa Ness<span class="sr-only"> (opens in new tab)</span></a> conducted research in Taiwan, studying the technology’s influence on disinformation, and in India, documenting its impact on digital communications more broadly. In this episode, Daepp and Ness join guest host <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.linkedin.com/in/ginnybadanes" target="_blank" rel="noreferrer noopener">Ginny Badanes<span class="sr-only"> (opens in new tab)</span></a>, general manager of the Democracy Forward program at Microsoft. They discuss how leveraging commonly understood language such as <em>fraud</em> can help people understand potential risks associated with generative AI; the varied ways in which Daepp and Ness saw the tech being deployed to promote or discredit candidates; and the opportunities for the technology to be a force for fortifying democracy.</p>
-
-
-
-<p><strong>Learn more: &nbsp;</strong></p>
-
-
-
-<p><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.economist.com/by-invitation/2024/03/26/video-will-kill-the-truth-if-monitoring-doesnt-improve-argue-two-researchers" target="_blank" rel="noreferrer noopener">Video will kill the truth if monitoring doesn’t improve, argue two researchers<span class="sr-only"> (opens in new tab)</span></a><br><em>The Economist</em>, March 2024</p>
-
-
-
-<p><a href="https://www.microsoft.com/en-us/research/group/microsoft-research-special-projects/?msockid=35739e94ab6c69d41b738b93aa076831">Microsoft Research Special Projects</a><br>Group homepage</p>
-
-
-
-<p><a href="https://www.microsoft.com/en-us/corporate-responsibility/democracy-forward?msockid=35739e94ab6c69d41b738b93aa076831" target="_blank" rel="noreferrer noopener">Democracy Forward</a><br>Program homepage, Microsoft Corporate Social Responsibility</p>
-
-
-
-<p><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://blogs.microsoft.com/on-the-issues/2024/10/23/as-the-u-s-election-nears-russia-iran-and-china-step-up-influence-efforts/" target="_blank" rel="noreferrer noopener">As the US election nears, Russia, Iran and China step up influence efforts<span class="sr-only"> (opens in new tab)</span></a><br>Microsoft On the Issues blog, October 2024</p>
-
-
-
-<p><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://blogs.microsoft.com/on-the-issues/2024/07/05/combatting-ai-deepfakes-our-participation-in-the-2024-political-conventions/" target="_blank" rel="noreferrer noopener">Combatting AI Deepfakes: Our Participation in the 2024 Political Conventions<span class="sr-only"> (opens in new tab)</span></a><br>Microsoft On the Issues blog, July 2024</p>
-
-
-
-<p><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://blogs.microsoft.com/on-the-issues/2024/04/04/china-ai-influence-elections-mtac-cybersecurity/" target="_blank" rel="noreferrer noopener">China tests US voter fault lines and ramps AI content to boost its geopolitical interests<span class="sr-only"> (opens in new tab)</span></a><br>Microsoft On the Issues, April 2024</p>
-
-
-
-<p><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.projectprovidence.io/" target="_blank" rel="noreferrer noopener">Project Providence<span class="sr-only"> (opens in new tab)</span></a> <br>Project homepage</p>
-
-
-
-<section class="wp-block-msr-subscribe-to-podcast subscribe-to-podcast">
-	<div class="subscribe-to-podcast__inner border-top border-bottom border-width-2">
-		<h2 class="h5 subscribe-to-podcast__heading">
-			Subscribe to the <a href="https://www.microsoft.com/en-us/research/podcast">Microsoft Research Podcast</a>:		</h2>
-		<ul class="subscribe-to-podcast__list list-unstyled">
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://itunes.apple.com/us/podcast/microsoft-research-a-podcast/id1318021537?mt=2" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 32 32">  <path d="M7.12 0c-3.937-0.011-7.131 3.183-7.12 7.12v17.76c-0.011 3.937 3.183 7.131 7.12 7.12h17.76c3.937 0.011 7.131-3.183 7.12-7.12v-17.76c0.011-3.937-3.183-7.131-7.12-7.12zM15.817 3.421c3.115 0 5.932 1.204 8.079 3.453 1.631 1.693 2.547 3.489 3.016 5.855 0.161 0.787 0.161 2.932 0.009 3.817-0.5 2.817-2.041 5.339-4.317 7.063-0.812 0.615-2.797 1.683-3.115 1.683-0.12 0-0.129-0.12-0.077-0.615 0.099-0.792 0.192-0.953 0.64-1.141 0.713-0.296 1.932-1.167 2.677-1.911 1.301-1.303 2.229-2.932 2.677-4.719 0.281-1.1 0.244-3.543-0.063-4.672-0.969-3.595-3.907-6.385-7.5-7.136-1.041-0.213-2.943-0.213-4 0-3.636 0.751-6.647 3.683-7.563 7.371-0.245 1.004-0.245 3.448 0 4.448 0.609 2.443 2.188 4.681 4.255 6.015 0.407 0.271 0.896 0.547 1.1 0.631 0.447 0.192 0.547 0.355 0.629 1.14 0.052 0.485 0.041 0.62-0.072 0.62-0.073 0-0.62-0.235-1.199-0.511l-0.052-0.041c-3.297-1.62-5.407-4.364-6.177-8.016-0.187-0.943-0.224-3.187-0.036-4.052 0.479-2.323 1.396-4.135 2.921-5.739 2.199-2.319 5.027-3.543 8.172-3.543zM16 7.172c0.541 0.005 1.068 0.052 1.473 0.14 3.715 0.828 6.344 4.543 5.833 8.229-0.203 1.489-0.713 2.709-1.619 3.844-0.448 0.573-1.537 1.532-1.729 1.532-0.032 0-0.063-0.365-0.063-0.803v-0.808l0.552-0.661c2.093-2.505 1.943-6.005-0.339-8.296-0.885-0.896-1.912-1.423-3.235-1.661-0.853-0.161-1.031-0.161-1.927-0.011-1.364 0.219-2.417 0.744-3.355 1.672-2.291 2.271-2.443 5.791-0.348 8.296l0.552 0.661v0.813c0 0.448-0.037 0.807-0.084 0.807-0.036 0-0.349-0.213-0.683-0.479l-0.047-0.016c-1.109-0.885-2.088-2.453-2.495-3.995-0.244-0.932-0.244-2.697 0.011-3.625 0.672-2.505 2.521-4.448 5.079-5.359 0.547-0.193 1.509-0.297 2.416-0.281zM15.823 11.156c0.417 0 0.828 0.084 1.131 0.24 0.645 0.339 1.183 0.989 1.385 1.677 0.62 2.104-1.609 3.948-3.631 3.005h-0.015c-0.953-0.443-1.464-1.276-1.475-2.36 0-0.979 0.541-1.828 1.484-2.328 0.297-0.156 0.709-0.235 1.125-0.235zM15.812 17.464c1.319-0.005 2.271 0.463 2.625 1.291 0.265 0.62 0.167 2.573-0.292 5.735-0.307 2.208-0.479 2.765-0.905 3.141-0.589 0.52-1.417 0.667-2.209 0.385h-0.004c-0.953-0.344-1.157-0.808-1.553-3.527-0.452-3.161-0.552-5.115-0.285-5.735 0.348-0.823 1.296-1.285 2.624-1.291z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Apple Podcasts</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://subscribebyemail.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.4 6a2.392 2.392 0 00-2.372 2.119L16 15.6l11.972-7.481A2.392 2.392 0 0025.6 6H6.4zM4 10.502V22.8a2.4 2.4 0 002.4 2.4h19.2a2.4 2.4 0 002.4-2.4V10.502l-11.365 7.102a1.2 1.2 0 01-1.27 0L4 10.502z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Email</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://subscribeonandroid.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M12.414 4.02c-.062.012-.126.023-.18.06a.489.489 0 00-.12.675L13.149 6.3c-1.6.847-2.792 2.255-3.18 3.944h13.257c-.388-1.69-1.58-3.097-3.179-3.944l1.035-1.545a.489.489 0 00-.12-.675.492.492 0 00-.675.135l-1.14 1.68a7.423 7.423 0 00-2.55-.45c-.899 0-1.758.161-2.549.45l-1.14-1.68a.482.482 0 00-.494-.195zm1.545 3.824a.72.72 0 110 1.44.72.72 0 010-1.44zm5.278 0a.719.719 0 110 1.44.719.719 0 110-1.44zM8.44 11.204A1.44 1.44 0 007 12.644v6.718c0 .795.645 1.44 1.44 1.44.168 0 .33-.036.48-.09v-9.418a1.406 1.406 0 00-.48-.09zm1.44 0V21.76c0 .793.646 1.44 1.44 1.44h10.557c.793 0 1.44-.647 1.44-1.44V11.204H9.878zm14.876 0c-.169 0-.33.035-.48.09v9.418c.15.052.311.09.48.09a1.44 1.44 0 001.44-1.44v-6.719a1.44 1.44 0 00-1.44-1.44zM11.8 24.16v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84zm5.759 0v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Android</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://open.spotify.com/show/4ndjUXyL0hH1FXHgwIiTWU" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M16 4C9.383 4 4 9.383 4 16s5.383 12 12 12 12-5.383 12-12S22.617 4 16 4zm5.08 17.394a.781.781 0 01-1.086.217c-1.29-.86-3.477-1.434-5.303-1.434-1.937.002-3.389.477-3.403.482a.782.782 0 11-.494-1.484c.068-.023 1.71-.56 3.897-.562 1.826 0 4.365.492 6.171 1.696.36.24.457.725.217 1.085zm1.56-3.202a.895.895 0 01-1.234.286c-2.338-1.457-4.742-1.766-6.812-1.747-2.338.02-4.207.466-4.239.476a.895.895 0 11-.488-1.723c.145-.041 2.01-.5 4.564-.521 2.329-.02 5.23.318 7.923 1.995.419.26.547.814.286 1.234zm1.556-3.745a1.043 1.043 0 01-1.428.371c-2.725-1.6-6.039-1.94-8.339-1.942h-.033c-2.781 0-4.923.489-4.944.494a1.044 1.044 0 01-.474-2.031c.096-.023 2.385-.55 5.418-.55h.036c2.558.004 6.264.393 9.393 2.23.497.292.663.931.371 1.428z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Spotify</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.667 4a2.676 2.676 0 00-2.612 2.13v.003c-.036.172-.055.35-.055.534v18.666c0 .183.019.362.055.534v.003a2.676 2.676 0 002.076 2.075h.002c.172.036.35.055.534.055h18.666A2.676 2.676 0 0028 25.333V6.667a2.676 2.676 0 00-2.13-2.612h-.003A2.623 2.623 0 0025.333 4H6.667zM8 8h1.333C17.42 8 24 14.58 24 22.667V24h-2.667v-1.333c0-6.618-5.382-12-12-12H8V8zm0 5.333h1.333c5.146 0 9.334 4.188 9.334 9.334V24H16v-1.333A6.674 6.674 0 009.333 16H8v-2.667zM10 20a2 2 0 11-.001 4.001A2 2 0 0110 20z"/></svg>
-						<span class="subscribe-to-podcast__link-text">RSS Feed</span>
-					</a>
-				</li>
-					</ul>
-	</div>
-</section>
-
-
-<div class="wp-block-msr-show-more">
-	<div class="bg-neutral-100 p-5">
-		<div class="show-more-show-less" data-mount="show-more-show-less">
-			<div>
-				<span>
-					
-
-<h2 class="wp-block-heading" id="transcript">Transcript</h2>
-
-
-
-<p>[TEASER]</p>
-
-
-
-<p>[MUSIC PLAYS UNDER DIALOGUE]</p>
-
-
-
-<p><strong>MADELEINE DAEPP: </strong>Last summer, I was working on all of these like pro-democracy applications, trying to build out, like, a social data collection tool with AI, all this kind of stuff. And I went to the elections workshop that the Democracy Forward team at Microsoft had put on, and Dave Leichtman, who, you know, was the MC of that work, was really talking about how big of a global elections year 2024 was going to be. Over 70 countries around the world. And, you know, we&#8217;re coming from Microsoft Research, where we were so excited about this technology. And then, all of a sudden, I was at the elections workshop, and I thought, oh no, [LAUGHS] like, this is not good timing.</p>
-
-
-
-<p><strong>ROBERT OSAZUWA NESS: </strong>What are we really talking about in the context of deepfakes in the political context, elections context? It&#8217;s deception, right. I&#8217;m trying to use this technology to, say, create some kind of false record of events in order to convince people that something happened that actually did not happen. And so that goal of deceiving, of creating a false record, that&#8217;s kind of how I have been thinking about deepfakes in contrast to the broader category of generative AI.</p>
-
-
-
-<p>[TEASER ENDS]</p>
-
-
-
-<p><strong>GINNY BADANES: </strong>Welcome to <em>Ideas</em>, a Microsoft Research Podcast that dives deep into the world of technology research and the profound questions behind the code. In this series, we&#8217;ll explore the technologies that are shaping our future and the big ideas that propel them forward.</p>
-
-
-
-				</span>
-				<span id="show-more-show-less-toggle-12" class="show-more-show-less-toggleable-content">
-					
-
-
-
-<p>[MUSIC FADES]</p>
-
-
-
-<p>I&#8217;m your guest host, Ginny Badanes, and I lead Microsoft&#8217;s Democracy Forward program, where we&#8217;ve spent the past year deeply engaged in supporting democratic elections around the world, including the recent US elections. We have been working on everything from raising awareness of nation-state propaganda efforts to helping campaigns and election officials prepare for deepfakes to protecting political campaigns from cyberattacks. Today, I&#8217;m joined by two researchers who have also been diving deep into the impact of generative AI on democracy.</p>
-
-
-
-<p>Microsoft senior researchers Madeleine Daepp and Robert Osazuwa Ness are studying generative AI&#8217;s influence in the political sphere with the goal of making AI systems more robust against misuse while supporting the development of AI tools that can strengthen democratic processes and systems. They spent time in Taiwan and India earlier this year, where both had big democratic elections. Madeleine and Robert, welcome to the podcast!</p>
-
-
-
-<p><strong>MADELEINE DAEPP: </strong>Thanks for having us.</p>
-
-
-
-<p><strong>ROBERT OSAZUWA NESS: </strong>Thanks for having us.</p>
-
-
-
-<p><strong>BADANES:</strong> So I have so many questions for you all—from how you conducted your research to what you&#8217;ve learned—and I&#8217;m really interested in what you think comes next. But first, let&#8217;s talk about how you got involved in this in the first place. Could you both start by telling me a little bit about your backgrounds and just what got you into AI research in the first place?</p>
-
-
-
-<p><strong>DAEPP: </strong>Sure. So I&#8217;m a senior researcher here at Microsoft Research in the Special Projects team. But I did my PhD at MIT in urban studies and planning. And I think a lot of folks hear that field and think, oh, you know, housing, like upzoning housing and figuring out transportation systems. But it really is a field that&#8217;s about little “d” democracy, right. About how people make choices about shared public spaces every single day. You know, I joined Microsoft first off to run this, sort of, technology deployment in the city of Chicago, running a low-cost air-quality-sensor network for the city. And when GPT-4 came out, you know, first ChatGPT, and then we, sort of, had this big recognition of, sort of, how well this technology could do in summarizing and in representing opinions and in making sense of big unstructured datasets, right. I got actually very excited. Like, I thought this could be used for town planning processes. [LAUGHS] Like, I thought we could … I had a whole project with a wonderful intern, Eva Maxfield Brown, looking at, can we summarize planning documents using AI? Can we build out policies from conversations that people have in shared public spaces? And so that was very much the impetus for thinking about how to apply and build things with this amazing new technology in these spaces.</p>
-
-
-
-<p><strong>BADANES: </strong>Robert, I think your background is a little bit different, yet you guys ended up in a similar place. So how did you get there?</p>
-
-
-
-<p><strong>NESS: </strong>Yeah, so I&#8217;m also on Special Projects, Microsoft Research. My work is focusing on large language models, <em>LLMs</em>. And, you know, so I focus on making these models more reliable and controllable in real-world applications. And my PhD is in statistics. And so I focus a lot on using just basic bread-and-butter statistical methods to&nbsp;try and control and understand LLM behavior. So currently, for example, I&#8217;m leading a team of engineers and running experiments designed to find ways to enhance a graphical approach to combining information retrieval in large language models. I work on statistical tests for testing significance of adversarial attacks on these models.</p>
-
-
-
-<p><strong>BADANES:</strong> Wow.</p>
-
-
-
-<p><strong>NESS:</strong> So, for example, if you find a way to trick one of these models into doing something it&#8217;s not supposed to do, I make sure that it&#8217;s not, like, a random fluke; that it&#8217;s something that&#8217;s reproducible. And I also work at this intersection between generative AI and, you know, Bayesian stuff, causal inference stuff. And so I came at looking at this democracy work through an <em>alignment</em> lens. So alignment is this task in AI of making sure these models align with human values and goals. And what I was seeing was a lot of research in the alignment space was viewing it as a technical problem. And, you know, as a statistician, we&#8217;re trained to consult, right. Like, to go to the actual stakeholders and say, hey, what are your goals? What are your values? And so this democracy work was an opportunity to do that in Microsoft Research and connected with Madeleine. So she was planning to go to Taiwan, and kind of from a past life, I wanted to become a trade economist and learned Mandarin. And so I speak fluent Mandarin and seemed like a good matchup of our skill sets …</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>NESS:</strong> … and interests. And so that&#8217;s, kind of, how we got started.</p>
-
-
-
-<p><strong>BADANES: </strong>So, Madeleine, you brought the two of you together, but what started it for you? This podcast is all about big ideas. What sparked the big idea to bring this work that you&#8217;ve been doing on generative AI into the space of democracy and then to go out and find Robert and match up together?</p>
-
-
-
-<p><strong>DAEPP: </strong>Yeah, well, Ginny, it was <em>you</em>. [LAUGHS] It was actually your team.</p>
-
-
-
-<p><strong>BADANES:</strong> I didn&#8217;t plant that! [LAUGHS]</p>
-
-
-
-<p><strong>DAEPP:</strong> So, you know, I think last summer, I was working on all of these like pro-democracy applications, trying to build out, like, a social data collection tool with AI, all this kind of stuff. And I went to the elections workshop that the Democracy Forward team at Microsoft had put on, and Dave Leichtman, who, you know, was the MC of that work, was really talking about how big of a global elections year 2024 was going to be, that this—he was calling it “Votorama.” You know, that term didn&#8217;t take off. [LAUGHTER] The term that has taken off is <em>biggest election year in history</em>, right. Over 70 countries around the world. And, you know, we&#8217;re coming from Microsoft Research, where we were so excited about this technology. Like, when it started to pass theory of mind tests, right, which is like the ability to think about how other people are thinking, like, we were all like, oh, this is amazing; this opens up so many cool application spaces, right. When it was, like, passing benchmarks for multilingual communication, again, like, we were so excited about the prospect of building out multilingual systems. And then, all of a sudden, I was at the elections workshop, and I thought, oh no, [LAUGHS] this is not good timing.</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah …</p>
-
-
-
-<p><strong>DAEPP: </strong>And because so much of my work focuses on, you know, building out computer science systems like, um, data science systems or AI systems but with communities in the loop, I really wanted to go to the folks most affected by this problem. And so I proposed a project to go to Taiwan and to study one of the … it was the second election of 2024. And Taiwan is known to be subject to more external disinformation than any other place in the world. So if you were going to see something anywhere, you would see it there. Also, it has amazing civil society response so really interesting people to talk to. But I do not speak, Chinese, right. Like, I don&#8217;t have the context; I don&#8217;t speak the language. And so part of my process is to hire a half-local team. We had an amazing interpreter, Vickie Wang, and then a wonderful graduate student, Ti-Chung Cheng, who supported this work. But then also my team, Special Projects, happened to have this person who, like, not only is a leading AI researcher publishing in NeurIPS, like building out these systems, but who also spoke Chinese, had worked in technology security, and had a real understanding of international studies and economics as well as AI. And so for me, like, finding Robert as a collaborator was kind of a unicorn moment.</p>
-
-
-
-<p><strong>BADANES: </strong>So it sounds like it was a match made in heaven of skill sets and abilities. Before we get into what you all found there, which I do want to get into, I first think it&#8217;s helpful—I don&#8217;t know, when we&#8217;re dealing with these, like, complicated issues, particularly things that are moving and changing really quickly, sometimes I found it&#8217;s helpful to agree on definitions and sort of say, this is what we mean when we say this word. And that helps lead to understanding. So while I know that this research is about more than deepfakes—and we&#8217;ll talk about some of the things that are more than deepfakes—I am curious how you all define that term and how you think of it. Because this is something that I think is constantly moving and changing. So how have you all been thinking about the definition of that term?</p>
-
-
-
-<p><strong>NESS: </strong>So I&#8217;ve been thinking about it in terms of the intention behind it, right. We say <em>deepfake</em>, and I think colloquially that means kind of all of generative AI. That&#8217;s a bit unfortunate because there are things that are … you know, you can use generative AI to generate cartoons …</p>
-
-
-
-<p><strong>BADANES: </strong>Right.</p>
-
-
-
-<p><strong>NESS: </strong>… or illustrations for a children&#8217;s book. And so in thinking about what are we really talking about in the context of deepfakes in the political context, elections context, it&#8217;s deception, right. I&#8217;m trying to use this technology to, say, create some kind of false record of events, say, for example, something that a politician says, in order to convince people that something happened that actually did not happen.</p>
-
-
-
-<p><strong>BADANES:</strong> Right.</p>
-
-
-
-<p><strong>NESS: </strong>And so that goal of deceiving, of creating a false record, that&#8217;s kind of how I have been thinking about deepfakes in contrast to the broader category of generative AI and deepfakes in terms of being a malicious use case. There are other malicious use cases that don&#8217;t necessarily have to be deceptive, as well, as well as positive use cases.</p>
-
-
-
-<p><strong>BADANES: </strong>Well, that really, I mean, that resonates with me because what we found was when you use the term <em>deception—</em>or another term we hear a lot that I think works is <em>fraud—</em>that resonates with other people, too. Like, that helps them distinguish between neutral uses or even positive uses of AI in this space and the malicious use cases, though to your point, I suppose there&#8217;s probably even deeper definitions of what malicious use could look like. Are you finding that distinction showing up in your work between <em>fraud</em> and <em>deception</em> in these use cases? Is that something that has been coming through?</p>
-
-
-
-<p><strong>DAEPP:</strong> You know, we didn&#8217;t really think about the term <em>fraud</em> until we started prepping for this interview with you.<strong>&nbsp;</strong>As Robert said, so much of what we were thinking about in our definition was this representation of people or events, you know, done in order to deceive and with malicious intent. But in fact, in all of our conversations, no matter who we were talking to, no matter what political bent, no matter, you know, national security, fact-checking, et cetera, you know, they all agreed that using AI for the purposes of scamming somebody <em>financially</em> was not OK, right. That&#8217;s fraud. Using AI for the purposes of <em>nudifying</em>, like removing somebody&#8217;s clothes and then <em>sextorting</em> them, right, extorting them for money out of fear that this would be shared, like, that was not OK. And those are such clear lines. And it was clear that there&#8217;s a set of uses of generative AI also in the political space, you know, of saying this person said something that they didn&#8217;t, …</p>
-
-
-
-<p><strong>BADANES: </strong>Mm-hmm.</p>
-
-
-
-<p><strong>DAEPP:</strong> … of voter suppression, that in general, there&#8217;s a very clear line that when it gets into that fraudulent place, when it gets into that simultaneously deceptive and malicious space, that&#8217;s very clearly a no-go zone.</p>
-
-
-
-<p><strong>NESS: </strong>Oftentimes during this research, I found myself thinking about this dichotomy in cybersecurity of state actors, or broadly speaking, kind of, political actors, versus criminals.</p>
-
-
-
-<p><strong>BADANES: </strong>Right.</p>
-
-
-
-<p><strong>NESS: </strong>And it&#8217;s important to understand the distinction because criminals are typically trying to target targets of opportunity and make money, while state-sponsored agents are willing to spend a lot more money and have very specific targets and have a very specific definition of success. And so, like, this fraud versus deception kind of feels like that a little bit in the sense that fraud is typically associated with criminal behavior, while, say, I might put out deceptive political messaging, but it might fall within the bounds of free speech within my country.</p>
-
-
-
-<p><strong>BADANES: </strong>Right, yeah.</p>
-
-
-
-<p><strong>NESS:</strong> And so this is not to say I disagree with that, but it just, actually, that it could be a useful contrast in terms of thinking about the criminal versus the political uses, both legitimate and illegitimate.</p>
-
-
-
-<p><strong>BADANES: </strong>Well, I also think those of us who work in the AI space are dealing in very complicated issues that the majority of the world is still trying to understand. And so any time you can find a word that people understand immediately in order to do the, sort of, storytelling: the reason that we are worried about deepfakes in elections is because we do not want voters to be <em>defrauded</em>. And that, we find really breaks through because people understand that term already. That&#8217;s a thing that they already know that they don&#8217;t want to be; they do not want to be defrauded in their personal life or in how they vote. And so that really, I found, breaks through. But as much as I have talked about deepfakes, I know that you—and I know there&#8217;s a lot of interest in talking about deepfakes when we talk about this subject—but I know your research goes beyond that. So what other forms of generative AI did you include in your research or did you encounter in the effort that you were doing both in Taiwan and India?</p>
-
-
-
-<p><strong>DAEPP: </strong>Yeah. So let me tell you just, kind of, a big overview of, like, our taxonomy. Because as you said, like, so much of this is just about finding a word, right. Like, so much of it is about building a shared vocabulary so that we can start to have these conversations. And so when we looked at the political space, right, elections, so much of what it means to win an election is kind of two things. It&#8217;s building an image of a candidate, right, or changing the image of your opposition and telling a story, right.</p>
-
-
-
-<p><strong>BADANES: </strong>Mm-hmm.</p>
-
-
-
-<p><strong>DAEPP:</strong> And so if you think about image creation, of course, there are deepfakes. Like, of course, there are malicious representations of a person. But we also saw a lot of what we&#8217;re calling <em>auth fakes</em>, like <em>authorized fakes</em>, right. Candidates who would actually go to a consultancy and, like, get their bodies scanned so that videos could be made of them. They&#8217;d get their voices, a bunch of snippets of their voices, recorded so that then there could be personalized phone calls, right. So these are <em>authorized</em> uses of their image and likeness. Then we saw a term I&#8217;ve heard in, sort of, the ether is <em>soft fakes</em>. So again, likenesses of a candidate, this time not necessarily authorized but promotional. They weren&#8217;t … people on Twitter—I guess, X—on Instagram, they were sharing images of the candidate that they supported that were really flattering or silly or, you know, just really sort of in support of that person. So not with malicious intent, right, with promotional intent. And then the last one, and this, I think, was Robert&#8217;s term, but in this image creation category, you know, one thing we talked about was just the way that people were also making fun of candidates. And in this case, this is a bit malicious, right. Like, they&#8217;re making fun of people; they&#8217;re satirizing them. But it&#8217;s not deceptive because, …</p>
-
-
-
-<p><strong>BADANES: </strong>Right …</p>
-
-
-
-<p><strong>DAEPP: </strong>… you know, often it has that hyper-saturated meme aesthetic. It’s very clearly AI or just, you know, per like, sort of, US standards for satire, like, a reasonable person would know that it was silly. And so Robert said, you know, oh, these influencers, they&#8217;re not trying to deceive people; like, they&#8217;re not trying to lie about candidates. They&#8217;re trying to <em>roast</em> them. [LAUGHTER] And so we called it a <em>deep roast</em>. So that&#8217;s, kind of, the images of candidates. I will say we also looked at narrative building, and there, one really important set of things that we saw was what we call <em>text to b-roll</em>. So, you know, a lot of folks think that you can&#8217;t really make AI videos because, like, <em>Sora isn&#8217;t out yet</em><a href="#_ftnref1">[1]</a>. But in fact, what there is a lot of is tooling to, sort of, use AI to pull from stock imagery and b-roll footage and put together a 90-second video. You know, it doesn&#8217;t look like AI; it&#8217;s a real video. So text to b- roll, <em>AI pasta</em>? So if you know the threat intelligence space, there&#8217;s this thing called <em>copy pasta</em>, where people just …</p>
-
-
-
-<p><strong>BADANES:</strong> Sure.</p>
-
-
-
-<p><strong>DAEPP:</strong> … it&#8217;s just a fun word for copy-paste. People just copy-paste terms in order to get a hashtag trending. And we talked to an ex-influencer who said, you know, we&#8217;re using AI to do this. And I asked him why. And he said, well, you know, if you just do copy-paste, the fact-checkers catch it. But if you use AI, they don&#8217;t. And so AI pasta. And there&#8217;s also some research showing that this is potentially more persuasive than copy-paste …</p>
-
-
-
-<p><strong>BADANES: </strong>Interesting.</p>
-
-
-
-<p><strong>DAEPP:&nbsp; </strong>… because people think there&#8217;s a social consensus. And then the last one, this is my last of the big taxonomy, and, Robert, of course, jump in on anything you want to go deeper on, but Fake News 2.0. You know, I&#8217;m sure you&#8217;ve seen this, as well. Just this, like, creation of news websites, like entire <em>new</em> newspapers that nobody&#8217;s ever heard of. AI avatars that are newscasters. And this is something that was happening before. Like, there&#8217;s a long tradition of pretending to be a real news pamphlet or pretending to be a real outlet. But there&#8217;s some interesting work out of … Patrick Warren at Clemson has looked at some of these and shown the quality and quantity of articles on these things has gotten a lot better and, you know, improves as a step function of, sort of, when new models come out.</p>
-
-
-
-<p><strong>NESS: </strong>And then on the flip side, you have people using the same technologies but stated clearly that it&#8217;s AI generated, right. So we mentioned the AI avatars. In India, there&#8217;s this … there&#8217;s Bhoomi, which is a AI news anchor for agricultural news, and it states there in clear terms that she&#8217;s not real. But of course, somebody who wanted to be deceptive could use the same technology to portray something that looks like a real news broadcast that isn&#8217;t. You know, and, kind of, going back, Madeleine mentioned deep roasts, right, so, kind of, using this technology to create satirical depictions of, say, a political opponent. Somebody, a colleague, sent something across my desk. It was a Douyin account—so Douyin is the version of TikTok that&#8217;s used inside China; …</p>
-
-
-
-<p><strong>BADANES:</strong> OK.</p>
-
-
-
-<p><strong>NESS:</strong> … same company, but it&#8217;s the internal version of TikTok—that was posting AI-generated videos of politicians in Taiwan. And these were <em>excellent</em>, real good-quality AI-generated deepfakes of these politicians. But some of them were, first off, on the bottom of all of them, it said, this is AI-generated content.</p>
-
-
-
-<p><strong>BADANES:</strong> Oh.</p>
-
-
-
-<p><strong>NESS:</strong> And some of them were, kind of, obviously meant to be funny and were clearly fake, like still images that were animated to make somebody singing a funny song, for example. A very serious politician singing a very silly song. And it&#8217;s a still image. It&#8217;s not even, it&#8217;s not even …</p>
-
-
-
-<p><strong>BADANES:</strong> a video.</p>
-
-
-
-<p><strong>NESS: </strong>…like video.</p>
-
-
-
-<p><strong>BADANES:</strong> Right, right.</p>
-
-
-
-<p><strong>NESS:</strong> And so I messaged Puma Shen, who is one of the legislators in Taiwan who was targeted by these attacks, and I said, what do you think about this? And, you know, he said, yeah, they got me. [LAUGHTER] And I said, you know, do you think people believe this? I mean, there are people who are trying to debunk it. And he said, no, our supporters don&#8217;t believe it, but, you know, people who support the other side or people who are apolitical, they might believe it, or even if it says it&#8217;s fake—they know it&#8217;s fake—but they might still say that, yeah, but this is something they <em>would do</em>, right. This is …</p>
-
-
-
-<p><strong>BADANES:</strong> Yeah, it fits the narrative. Yeah.</p>
-
-
-
-<p><strong>NESS:</strong> … it fits the narrative, right. And that, kind of, that really, you know, I had thought of this myself, but just hearing somebody, you know, who&#8217;s, you know, a politician who&#8217;s targeted by these attacks just saying that it&#8217;s, like, even if they believe it&#8217;s … even if they know it&#8217;s fake, they still <em>believe</em> it because it&#8217;s something that they <em>would do</em>.</p>
-
-
-
-<p><strong>BADANES:</strong> Sure.</p>
-
-
-
-<p><strong>NESS:</strong> That’s, you know, as a form of propaganda, even relative to the canonical idea of deepfake that we have, this could be more effective, right. Like, just say it&#8217;s AI and then use it to, kind of, paint the picture of the opponent in any way you like.</p>
-
-
-
-<p><strong>BADANES: </strong>Sure, and this gets into that, sort of, challenging space I think we find ourselves in right now, which is people don&#8217;t know necessarily how to tell what&#8217;s real or not. And the case you&#8217;re describing, it has labeling, so that should tell you. But a lot of the content we come across online does not have labeling. And you cannot tell just based on your eyes whether images were generated by AI or whether they&#8217;re real. One of the things that I get asked a lot is, why can&#8217;t we just build good AI to detect bad AI, right? Why don&#8217;t we have a solution where I just take a picture and I throw it into a machine and it tells me thumbs-up or thumbs-down if this is AI generated or not? And the question around detection is a really tricky one. I&#8217;m curious what you all think about, sort of, the question of, can detection solve this problem or not?</p>
-
-
-
-<p><strong>NESS: </strong>So I&#8217;ll mention one thing. So Madeleine mentioned an application of this technology called <em>text to b-roll</em>. And so what this is, technically speaking, what this is doing is you&#8217;re taking real footage, you stick it in a database, it&#8217;s quote, unquote “vectorized” into these representations that the AI can understand, and then you say, hey, generate a video that illustrates this narrative for me. And you provide it the text narrative, and then it goes and pulls out a whole bunch of <em>real</em> video from a database and curates them into a short video that you could put on TikTok, for example. So this was a fully AI-generated product, but none of the actual content is synthetic.</p>
-
-
-
-<p><strong>BADANES:</strong> Ah, right.</p>
-
-
-
-<p><strong>NESS: </strong>So in that case, your quote, unquote “AI detection tool” is not going to work.</p>
-
-
-
-<p><strong>DAEPP:</strong> Yeah, I mean, something that I find really fascinating any time that you&#8217;re dealing with a sociotechnical system, right—a technical system embedded in social context—is folks, you know, think that things are easy that are hard and things are hard that are easy, right. And so with a lot of the detections work, right, like if you put a deepfake detector out, you make that available to anyone, then what they can do is they can run a bunch of stuff by it, &#8230;</p>
-
-
-
-<p><strong>BADANES:</strong> Yeah.</p>
-
-
-
-<p><strong>DAEPP:</strong> … add a little bit of random noise, and then the deepfake detector doesn&#8217;t work anymore. And so that detection, actually, technically becomes an arms race, you know. And we&#8217;re seeing now some detectors that, like, you know, work when you&#8217;re not looking at a <em>specific</em> image or a <em>specific</em> piece of text but you&#8217;re looking at a lot all at once. That seems more promising. But, just, this is a very, very technically difficult problem, and that puts us as researchers in a really tricky place because, you know, you&#8217;re talking to folks who say, why can&#8217;t you just solve this? If you put this out, then you have to put the detector out. And we&#8217;re like, that&#8217;s actually not, that’s not a technically feasible long-term solution in this space. And the solutions are going to be social and regulatory and, you know, changes in norms as well as technical solutions that maybe are about everything outside of AI, right.</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>DAEPP:</strong> Not about fixing the AI system but fixing the context within which it&#8217;s used.</p>
-
-
-
-<p><strong>BADANES: </strong>It&#8217;s not <em>just</em> a technological solution. There&#8217;s more to it. Robert?</p>
-
-
-
-<p><strong>NESS: </strong>So if somebody were to push back there, they could say, well, great; in the long term, maybe it&#8217;s an arms race, but in the short term, right, we can have solutions out there that, you know, at least in the next election cycle, we could maybe prevent some of these things from happening. And, again, kind of harkening back to cybersecurity, maybe if you make it hard enough, only the really dedicated, really high-funded people are going to be doing it rather than, you know, everybody who wants to throw a bunch of deepfakes on the internet. But the problem still there is that it focuses really on video and images, right.</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah. What about audio?</p>
-
-
-
-<p><strong>NESS:</strong> What about audio? And what about text? So …</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah. Those are hard. I feel like we&#8217;ve talked a lot about definitions and theoretical, but I want to make sure we talk more about what you guys saw and researched and understood on the ground, in particular, your trips to India and Taiwan and even if you want to reflect on how those compare to the US environment. What did you actually uncover? What surprised you? What was different between those countries?</p>
-
-
-
-<p><strong>DAEPP:</strong> Yeah, I mean, right, so Taiwan … both of these places are young democracies. And that&#8217;s really interesting, right. So like in Taiwan, for example, when people vote, they vote on paper. And anybody can go watch. That&#8217;s part of their, like, security strategies. Like, anyone around the world can just come and watch. People come from far. They fly in from Canada and Japan and elsewhere just to watch Taiwanese people vote. And then similarly in India, there&#8217;s this rule where you have to be walking distance from your polling place, and so the election takes two months. And, like, your polling places move from place to place, and sometimes, it arrives on an elephant. And so these were really interesting places to, like, I as an American, just, like, found it very, very fascinating to and important to be outside of the American context. You know, we just take for granted that how we do democracy is how other people do it. But Taiwan was very much a joint, like, civil society–government everyday response to this challenge of having a lot of efforts to manipulate public opinion happening with, you know, real-world speeches, with AI, with anything that you can imagine. You know, and I think the Microsoft Threat Analysis Center released a report documenting some of the, sort of, video stuff<a href="#_ftnref2">[2]</a>. There&#8217;s a use of AI to create videos the night before the election, things like this. But then India is really thinking of &#8230; so India, right, it&#8217;s the world&#8217;s <em>biggest</em> democracy, right. Like, nearly a billion people were eligible to vote.</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>NESS: </strong>And arguably the most diverse, right?</p>
-
-
-
-<p><strong>DAEPP:</strong> Yeah, arguably the most diverse in terms of languages, contexts. And it&#8217;s also positioning itself as the AI laboratory for the Global South. And so folks, including folks at the MSR (Microsoft Research) Bangalore lab, are leaders in thinking about representing low-resource languages, right, thinking about cultural representation in AI models. And so there you have all of these technologists who are really trying to innovate and really trying to think about what&#8217;s the next clever application, what&#8217;s the next clever use. And so that, sort of, that taxonomy that we talked about, like, I think just every week, every interview, we, sort of, had new things to add because folks there were just constantly trying all different kinds of ways of engaging with the public.</p>
-
-
-
-<p><strong>NESS: </strong>Yeah, I think for me, in India in particular, you know, India is an engineering culture, right. In terms of, like, the professional culture there, they’re very, kind of, engineering skewed. And so I think one of the bigger surprises for me was seeing people who were very experienced and effective campaign operatives, right, people who would go and, you know, hit the pavement; do door knocking; kind of, segment neighborhoods by demographics and voter block, these people were also, you know, graduated in engineering from an IIT (Indian Institute of Technology), …</p>
-
-
-
-<p><strong>BADANES: </strong>Sure.</p>
-
-
-
-<p><strong>NESS:</strong> … right, and so … [LAUGHS]&nbsp; so they were happy to pick up these tools and leverage them to support their expertise in this work, and so some of the, you know, I think a lot of the narrative that we tell ourselves in AI is how it&#8217;s going to be, kind of, replacing people in doing their work. But what I saw in India was that people who were very effective had a lot of domain expertise that you couldn&#8217;t really automate away <em>and</em> they were the ones who are the early adopters of these tools and were applying it in ways that I think we&#8217;re behind on in terms of, you know, ideas in the US.</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah, I mean, there&#8217;s, sort of, this sentiment that AI only augments existing problems and can enhance existing solutions, right. So we&#8217;re not great at translation tools, but AI will make us much better at that. But that also can then be weaponized and used as a tool to deceive people, which propaganda is not new, right? We&#8217;re only scaling or making existing problems harder, or adversaries are trying to weaponize AI to build on things they&#8217;ve already been doing, whether that&#8217;s cyberattacks or influence operations. And while the three of us are in different roles, we do work for the same company. And it&#8217;s a large technology company that is helping bring AI to the world. At the same time, I think there are some responsibilities when we look at, you know, bad actors who are looking to manipulate our products to create and spread this kind of deceptive media, whether it&#8217;s in elections or in other cases like financial fraud or other ways that we see this being leveraged. I&#8217;m curious what you all heard from others when you&#8217;ve been doing your research and also what you think our responsibilities are as a big tech company when it comes to keeping actors from using our products in those ways.</p>
-
-
-
-<p><strong>DAEPP:</strong> You know, when I started using GPT-4, one of the things I did was I called my parents, and I said, if you hear me on a phone call, …</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>DAEPP:</strong> … like, please double check. Ask me things that only I would know. And when I walk around Building 99, which is, kind of, a storied building in which a lot of Microsoft researchers work, <em>everybody</em> did that call. We all called our parents.</p>
-
-
-
-<p><strong>BADANES: </strong>Interesting.</p>
-
-
-
-<p><strong>DAEPP:</strong> Or, you know, we all checked in. So just as, like, we have a responsibility to the folks that we care about, I think as a company, that same, sort of, like, raising literacy around the types of fraud to expect and how to protect yourself from them—I think that gets back to that fraud space that we talked about—and, you know, supporting law enforcement, sharing what needs to be shared, I think that without question is a space that we need to work in. I will say a lot of the folks we talked with, they were using Llama on a local GPU, right.</p>
-
-
-
-<p><strong>BADANES: </strong>OK.</p>
-
-
-
-<p><strong>DAEPP:</strong> They were using open-source models. They were sometimes … they were testing out Phi. They would use Phi, Grok, Llama, like anything like that. And so that raises an interesting question about our guardrails and our safety practices. And I think there, we have an, like, our obligation and our opportunity actually is to set the standard, right. To say, OK, like, you know, if you use local Llama and it spouts a bunch of stuff about voter suppression, like, you can get in trouble for that. And so what does it mean to have a safe AI that wins in the marketplace, right? That&#8217;s an AI that people can feel confident and comfortable about using and one that&#8217;s societally safe but also personally safe. And I think that&#8217;s both a challenge and a real opportunity for us.</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah … oh, go ahead, Robert, yeah …</p>
-
-
-
-<p><strong>NESS: </strong>Going back to the point about fraud. It was this year, in January, when that British engineering firm Arup, when somebody used a deepfake to defraud that company of about $25 million, …</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>NESS: </strong>… their Hong Kong office. And after that happened, some business managers in Microsoft reached out to me regarding a major client who wanted to start red teaming. And by red teaming, I mean intentionally targeting your executives and employees with these types of attacks in order to figure out where your vulnerabilities as an organization are. And I think, yeah, it got me thinking like, wow, I would, you know, can we do this for my dad? [LAUGHS] Because I think that was actually a theme that came out from a lot of this work, which was, like, how can we empower the people who are really on the frontlines of defending democracy in some of these places in terms of the tooling there? So we talked about, say, AI detection tools, but the people who are actually doing fact-checking, they&#8217;re looking more than at just the video or the images; they&#8217;re actually looking at a, kind of, holistic … taking a holistic view of the news story and doing some proper investigative journalism to see if something is fake or not.</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>NESS:</strong> And so I think as a company who creates products, can we take a more of a product mindset to building tools that support that entire workflow in terms of fact-checking or investigative journalism in the context of democratic outcomes …</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>NESS:</strong> … where maybe looking at individual deepfake content is just a piece of that.</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah, you know, I think there&#8217;s a lot of parallels here to cybersecurity. That&#8217;s also what we&#8217;ve found, is this idea that, first of all, the “no silver bullet,” as we were talking about earlier with the detection piece. Like, you can&#8217;t expect your system to be secure just because you have a firewall, right. You have to have this, like, defense in-depth approach where you have lots of different layers. And one of those layers has been on the literacy side, right. Training and teaching people not to click on a phishing link, understanding that they should scroll over the URL. Like, these are efforts that have been taken up, sort of, in a broad societal sense. Employers do it. Big tech companies do it. Governments do it through PSAs and other things. So there&#8217;s been a concerted effort to get a population who might not have been aware of the fact that they were about to be scammed to now know not to click on that link. I think, you know, you raised the point about literacy. And I think there&#8217;s something to be said about media literacy in this space. It&#8217;s both AI literacy—understanding what it is—but also understanding that people may try to defraud you. And whether that is in the political sense or in the financial sense, once you have that, sort of, skill set in place, you&#8217;re going to be protected. One thing that I&#8217;ve heard, though, as I have conversations about this challenge … I&#8217;ve heard a couple things back from people specifically in civil society. One is not to put the impetus too much on the end consumer, which I think I&#8217;m hearing that we also recognize there&#8217;s things that <em>we</em> as technology companies should be focusing on. But the other thing is the concern that in, sort of, the long run, we&#8217;re going to all lose trust in everything we see anyway. And I&#8217;ve heard some people refer to that as the <em>trust deficit</em>. Have you all seen anything promising in the space to give you a sense around, can we ever trust what we&#8217;re looking at again, or are we actually just training everyone to not believe anything they see? Which I hope is not the case. I am an optimist. But I&#8217;d love to hear what you all came across. Are there signs of hope here where we might actually have a place where we can trust what we see again?&nbsp;</p>
-
-
-
-<p><strong>DAEPP:</strong> Yeah. So two things. There is this phenomenon called the <em>liar&#8217;s dividend</em>, right, …&nbsp;</p>
-
-
-
-<p><strong>BADANES: </strong>Sure, yeah.</p>
-
-
-
-<p><strong>DAEPP:</strong> … which is where that if you educate folks about how AI can be used to create fake clips, fake audio clips, fake videos, then if somebody has a <em>real</em> audio clip, a <em>real</em> video, they can claim that it&#8217;s AI. And I think we talk, you know, again, this is, like, in a US-centric space, we talk about this with politicians, but the space in which this is really concerning, I think, is war crimes, right &#8230;</p>
-
-
-
-<p><strong>BADANES: </strong>Oh, yeah.</p>
-
-
-
-<p><strong>DAEPP:</strong> … I think are these real human rights infractions where you can prevent evidence from getting out or being taken seriously. And we do see that right after invasions, for example, these days. But this is actually a space … like, I just told you, like, oh, like, detection is so hard and not technically, like, that&#8217;ll be an arms race! But actually, there is this wonderful project, Project Providence, that is a Microsoft collaboration with a company called Truepic that … it&#8217;s, like, an app, right. And what happens is when you take a photo using this app, it encrypts the, you know, hashes the GPS coordinates where the photo was taken, the time, the day, and uploads that <em>with</em> the pixels, with the image, to Azure. And then later, when a journalist goes to use that image, they can see that the pixels are exactly the same, and then they can check the location and they can confirm the GPS. And this actually meets evidentiary standards for the UN human rights tribunal, right.</p>
-
-
-
-<p><strong>BADANES: </strong>Right.</p>
-
-
-
-<p><strong>DAEPP:</strong> So this is being used in Ukraine to document war crimes. And so, you know, what if everybody had that app on their phone? That means you don’t … you know, most photos you take, you can use an AI tool and immediately play with. But in that particular situation where you need to confirm provenance and you need to confirm that this was a real event that happened, that is a technology that exists, and I think folks like the C2PA coalition (Coalition for Content Provenance and Authenticity) can make that happen across hardware providers.</p>
-
-
-
-<p><strong>NESS: </strong>And I think the challenge for me is, we can&#8217;t separate this problem from some of the other, kind of, fundamental problems that we have in our media environment now, right. So, for example, if I go on to my favorite social media app and I see videos from some conflicts around the world, and these videos could be <em>not</em> AI generated and I still could be, you know, the target of some PR campaign to promote certain content and suppress other ones. The videos could be authentic videos, but not actually be accurate depictions of what they claim to be. And so I think that this is a … the AI presents a complicating factor in an already difficult problem space. And I think, you know, trying to isolate these different variables and targeting them individually is pretty tricky. I do think that despite the liar&#8217;s dividend that media literacy is a very positive area to, kind of, focus energy …</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>NESS:</strong> … in the sense that, you know, you mentioned earlier, like, using this term <em>fraud</em>, again, going back to this analogy with cybersecurity and cybercrime, that it tends to resonate with people. We saw that, as well, especially in Taiwan, didn&#8217;t we, Madeleine? Well, in India, too, with the sextortion fears. But in Taiwan, a lot of just cybercrime in terms of defrauding people of money. And one of the things that we had observed there was that talking about generative AI in the context of elections was difficult to talk to people about it because people, kind of, immediately went into their political camps, right.</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>NESS: </strong>And so you had to, kind of, penetrate … you know, people were trying to, kind of, suss out which side you were on when you&#8217;re trying to educate them about this topic.</p>
-
-
-
-<p><strong>BADANES: </strong>Sure.</p>
-
-
-
-<p><strong>NESS:</strong> But if you talk to—but everybody&#8217;s, like, fraud itself is a lot less partisan.</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah, it&#8217;s a neutral term.</p>
-
-
-
-<p><strong>NESS: </strong>Exactly. And so it becomes a very useful way to, kind of, get these ideas out there.</p>
-
-
-
-<p><strong>BADANES: </strong>That&#8217;s really interesting. And I love the provenance example because it really gets to the question about authenticity. Like, where did something come from? What is the origin of that media? Where has it traveled over time? And if AI is a component of it, then that&#8217;s a noted fact. But it doesn&#8217;t put us into the space of <em>AI</em> or <em>not AI</em>, which I think is where a lot of the, sort of, labeling has gone so far. And I understand the instinct to do that. But I like the idea of moving more towards how do you know more <em>about</em> an image of which whether there was AI involved or not is a component but does not have judgment. That does not make the picture good or bad. It doesn&#8217;t make it true or false. It&#8217;s just more information for you to consume. And then, of course, the media literacy piece, people need to know to look for those indicators and want them and ask for them from the technology company. So I think that&#8217;s a good, that&#8217;s a good silver lining. You gave me the light at the end of the tunnel I think I was looking for on the post-truth world. So, look, here&#8217;s the big question. You guys have been spending this time focusing on AI and democracy in this big, massive global election year. There was a lot of hype. [LAUGHS] There was a lot of hype. Lots of articles written about how <em>this</em> was going to be the AI election apocalypse. What say you? Was it? Was it not?</p>
-
-
-
-<p><strong>NESS: </strong>I think it was, well, we definitely have documented cases where this happened. And I&#8217;m wary of this question, particularly again from the cybersecurity standpoint, which is if you were not the victim of a terrible hack that brought down your entire company, would you say, like, well, it didn&#8217;t happen, so it&#8217;s not going to happen, right. You would never …</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>NESS:</strong> That would be a silly attitude to have, right. And also, you don&#8217;t know what you don&#8217;t know, right. So, like, a lot of the, you know, we mentioned sextortion; we mentioned these cybercrimes. A lot of these are small-dollar crimes, which means they don&#8217;t get reported or they don&#8217;t get reported for reasons of shame. And so we don&#8217;t even have numbers on a lot of that. And we know that the political techniques are going to mirror the criminal techniques.</p>
-
-
-
-<p><strong>BADANES:</strong> Yeah.</p>
-
-
-
-<p><strong>NESS: </strong>And also, I worry about, say, down-ballot elections. Like, so much of, kind of, our election this year, a lot of the focus was on the national candidates, but, you know, if local poll workers are being targeted, if disinformation campaigns are being put out about local candidates, it&#8217;s not going get the kind of play in the national media such that you and I might hear about it. And so I&#8217;m, you know, so I’ll hand it off to Madeleine, but yeah.</p>
-
-
-
-<p><strong>DAEPP:</strong> So absolutely agree with Robert&#8217;s point, right. If your child was affected by sextortion, if you are a country that had an audio clip go viral, this <em>was</em> the deepfake deluge for you, right. That said, something that happened, you know, in India as in the United States, there were major prosecutions very early on, right.</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>DAEPP:</strong> So in India, there was a video. It turned out not to be a deepfake. It turned out to be a “cheap fake,” to your point about, you know, the question isn&#8217;t whether there&#8217;s AI involved; the question is whether this is an attempt to defraud. And five people were charged for this video.</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>DAEPP:</strong> And in the United States, right, those Biden robocalls using Biden&#8217;s voice to tell folks not to vote, like, that led to a million-dollar fine, I think, for the telecoms and $6 million for the consultant who created that. And when we talk to people in India, you know, people who work in this space, they said, well, I&#8217;m not going to do that; like, I&#8217;m going to focus on other things. So internal actors pay attention to these things. That really changes what people do and how they do it. And so that, I do think the work that your team did, right, to educate candidates about looking out for the stuff, the work that the MTAC (Microsoft Threat Analysis Center) did to track usage and report it, all of that, I think, was, actually, those interventions, I think, worked. I think they were really important, and I do think that what we are … this absence of a deluge is actually a huge number of people making a very concerted effort to prevent it from happening.</p>
-
-
-
-<p><strong>BADANES:</strong> That&#8217;s encouraging.</p>
-
-
-
-<p><strong>NESS: </strong>Madeleine, you made a really important point that this deterrence from prosecution, it’s effective for <em>internal</em> actors, &#8230;</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>DAEPP:</strong> Yeah, that&#8217;s right.</p>
-
-
-
-<p><strong>NESS:</strong> … right. So for foreign states who are trying to interfere with other people&#8217;s elections, the fear of prosecution is not going to be as much of a deterrent.</p>
-
-
-
-<p><strong>BADANES: </strong>That is true. I will say what we saw in this election cycle, in particular in the US, was a concerted effort by the intelligence community to call out and name nation-state actors who were either doing cyberattacks or influence operations, specific videos that they identified, whether there was AI involved or not. I think that level of communication with the public while maybe doesn&#8217;t lead to those actors going to jail—maybe someday—but does in fact lead to a more aware public and therefore hopefully a less effective campaign. If people on the other end … and it&#8217;s a little bit into the literacy space, and it&#8217;s something that we&#8217;ve seen government again in this last cycle do very effectively, to name and shame essentially when they see these things in part, though, to make sure voters are aware of what&#8217;s happening. We&#8217;re not quite through this big global election year; we have a couple more elections before we really hit the end of the year, but it&#8217;s winding down. What is next for you all? Are you all going to continue this work? Are you going build on it? What comes next?</p>
-
-
-
-<p><strong>DAEPP:</strong> So our research in India actually wasn&#8217;t focused specifically on elections. It was about AI and digital communications.</p>
-
-
-
-<p><strong>BADANES: </strong>Ahh.</p>
-
-
-
-<p><strong>DAEPP:</strong> Because, you know, again, like India is this laboratory.</p>
-
-
-
-<p><strong>BADANES:</strong> Sure.</p>
-
-
-
-<p><strong>DAEPP:</strong> And I think what we learned from that work is that, you know, this is going to be a part of our digital communications and our information system going forward without question. And the question is just, like, what are the viable business models, right? What are the applications that work? And again, that comes back to making sure that whatever AI … you know, people when they build AI into their entire, you know, newsletter-writing system, when they build it into their content production, that they can feel confident that it&#8217;s safe and that it meets their needs and that they&#8217;re protected when they use it. And similarly, like, what are those applications that really work, and how do you empower those lead users while mitigating those harms and supporting civil society and mitigating those harms? I think that&#8217;s an incredible, like, that&#8217;s—as a researcher—that&#8217;s, you know, that&#8217;s a career, right.</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>DAEPP:</strong> That&#8217;s a wonderful research space. And so I think understanding how to support AI that is safe, that enables people globally to have self-determination in how models represent them, and that is usable and powerful, I think that&#8217;s broadly …</p>
-
-
-
-<p><strong>BADANES: </strong>Where this goes.</p>
-
-
-
-<p><strong>DAEPP:</strong> … what I want to drive.</p>
-
-
-
-<p><strong>BADANES: </strong>Robert, how about you?</p>
-
-
-
-<p><strong>NESS: </strong>You know, so I mentioned earlier on these AI alignment issues.</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>NESS: </strong>And I was really fascinated by how local and contextual those issues really are. So to give an example from Taiwan, we train these models on training data that we find from the internet. Well, when it comes to, say, Mandarin Chinese, you can imagine the proportion of content, of just the quantity of content, on the internet that comes from China is a lot more than the quantity that comes from Taiwan. And of course, what&#8217;s politically correct in China is different from what&#8217;s politically correct in Taiwan. And so when we were talking to Taiwanese, a lot of people had these concerns about, you know, having these large language models that reflected Taiwanese values. We heard the same thing in India about just people on different sides of the political spectrum and, kind of, looking at … a YouTuber in India had walked us through this &#8230; how, for example, a founding father of India, there was a disparate literature in favor of this person and some more critical of this person, and he had spent time trying to suss out whether GPT-4 was on one side or the other.</p>
-
-
-
-<p><strong>BADANES: </strong>Oh. Whose side are you on? [LAUGHS]</p>
-
-
-
-<p><strong>NESS: </strong>Right, and so I think for our alignment research at Microsoft Research, this becomes the beginning of, kind of, a very fruitful way of engaging with local stakeholders and making sure that we can reflect these concerns in the models that we develop and deploy.</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah. Well, first, I just want to thank you guys for all the work you&#8217;ve done. This is amazing. We&#8217;ve really enjoyed partnering with you. I&#8217;ve loved learning about the research and the efforts, and I&#8217;m excited to see what you do next. I always want to end these kinds of conversations on a more positive note, because we&#8217;ve talked a lot about the weaponization of AI and, you know, how … ethical areas that are confusing and … but I am sure at some point in your work, you came across really positive use cases of AI when it comes to democracy, or at least I hope you have. [LAUGHS] Do you have any examples or can you leave us with something about where you see either it going or actively being used in a way to really strengthen democratic processes or systems?</p>
-
-
-
-<p><strong>DAEPP:</strong> Yeah, I mean, there is just a big paper in <em>Science</em>, right, which, as researchers, when something comes out in <em>Science</em>, you know your field is about to change, right, …</p>
-
-
-
-<p><strong>BADANES: </strong>Yeah.</p>
-
-
-
-<p><strong>DAEPP:</strong> … showing that an AI model in, like, political deliberations, small groups of UK residents talking about difficult topics like Brexit, you know, climate crisis, difficult topics, that in these conversations, an AI moderator created, like, consensus statements that represented the majority opinion, still showed the minority opinion, but that participants preferred to a human-written statement and in fact preferred to their original opinion.</p>
-
-
-
-<p><strong>BADANES: </strong>Wow.</p>
-
-
-
-<p><strong>DAEPP:</strong> And that this, you know, not only works in these randomized controlled trials but actually works in a real citizens deliberation. And so that potential of, like, carefully fine-tuned, like, carefully aligned AI to actually help people find points of agreement, that&#8217;s a <em>really</em> exciting space.</p>
-
-
-
-<p><strong>BADANES: </strong>So next time my kids are in a fight, I&#8217;m going to point them to Copilot and say, work with Copilot to mediate. [LAUGHS] No, that&#8217;s really, really interesting. Robert, how about you?</p>
-
-
-
-<p><strong>NESS: </strong>She, kind of, stole my example. [LAUGHTER] But I&#8217;ll take it from a different perspective. So, yes, like how these technologies can enable people to collaborate and ideally, I think, from a democratic standpoint, at a local level, right. So, I mean, I think so much of our politics were, kind of, focused at the national-level campaign, but our opportunity to collaborate is much more … we&#8217;re much more easily … we can collaborate much more easily with people who are in our local constituencies. And I think to myself about, kind of, like, the decline particularly of local newspapers, local media.</p>
-
-
-
-<p><strong>BADANES: </strong>Right.</p>
-
-
-
-<p><strong>NESS: </strong>And so I wonder, you know, can these technologies help address that problem in terms of just, kind of, information about, say, your local community, as well as local politicians. And, yeah, and to Madeleine&#8217;s point, so Madeleine started the conversation talking about her background in urban planning and some of the work she did, you know, working on a local level with local officials to bring technology to the level of cities. And I think, like, well, you know, politics are local, right. So, you know, I think that that&#8217;s where there&#8217;s a lot of opportunity for improvement.</p>
-
-
-
-<p><strong>BADANES: </strong>Well, Robert, you just queued up a topic for a <em>whole</em> other podcast because our team also does a lot of work around journalism, and I will say we have seen that AI at the local level with local news is really a powerful tool that we&#8217;re starting to see a lot of appetite and interest for in order to overcome some of the hurdles they face right now in that industry when it comes to capacity, financing, you know, not able to be in all of the places they want to be at once to make sure that they&#8217;re reporting equally across the community. This is, like, a perfect use case for AI, and we&#8217;re starting to see folks who are really using it. So maybe we&#8217;ll come back and do this again another time on that topic. But I just want to thank you both, Madeleine and Robert, for joining us today and sharing your insights. This was really a fascinating conversation. I know I learned a lot. I <em>hope</em> that our listeners learned a lot, as well.</p>
-
-
-
-<p>[MUSIC]</p>
-
-
-
-<p>And, listeners, I hope that you tune in for more episodes of <em>Ideas</em>, where we continue to explore the technologies shaping our future and the big ideas behind them. Thank you, guys, so much.</p>
-
-
-
-<p><strong>DAEPP:</strong> Thank you.</p>
-
-
-
-<p><strong>NESS: </strong>Thank you.</p>
-
-
-
-<p>[MUSIC FADES]</p>
-
-
-
-<p id="_ftnref1">[1] The video generation model <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://openai.com/index/sora-is-here/" target="_blank" rel="noreferrer noopener">Sora was released publicly earlier this month<span class="sr-only"> (opens in new tab)</span></a>.</p>
-
-
-
-<p id="_ftnref2">[2] For a summary of and link to the report, see the Microsoft On the Issues blog post <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://blogs.microsoft.com/on-the-issues/2024/04/04/china-ai-influence-elections-mtac-cybersecurity/" target="_blank" rel="noreferrer noopener">China tests US voter fault lines and ramps AI content to boost its geopolitical interests<span class="sr-only"> (opens in new tab)</span></a>.</p>
-
-				</span>
-			</div>
-			<button
-				class="action-trigger glyph-prepend mt-2 mb-0 show-more-show-less-toggle"
-				aria-expanded="false"
-				data-show-less-text="Show less"
-				type="button"
-				aria-controls="show-more-show-less-toggle-12"
-				aria-label="Show more content"
-				data-alternate-aria-label="Show less content">
-				Show more			</button>
-		</div>
-	</div>
-</div>
-
-
-
-<p></p>
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/">Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Research Focus: Week of December 16, 2024</title>
-		<link>https://www.microsoft.com/en-us/research/blog/research-focus-week-of-december-16-2024/</link>
-		
-		<dc:creator><![CDATA[Brenda Potts]]></dc:creator>
-		<pubDate>Wed, 18 Dec 2024 17:00:00 +0000</pubDate>
-				<category><![CDATA[Research Blog]]></category>
-		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1112814</guid>
-
-					<description><![CDATA[<p>NeoMem: hardware/software co-design for CXL-native memory tiering; Chimera: accurate retrosynthesis prediction by ensembling models with diverse inductive biases; GA4GH task execution API enables multicloud task execution.</p>
-<p>The post <a href="https://www.microsoft.com/en-us/research/blog/research-focus-week-of-december-16-2024/">Research Focus: Week of December 16, 2024</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-pullquote"><blockquote><p>Welcome to Research Focus, a series of blog posts that highlights notable publications, events, code/datasets, new hires and other milestones from across the research community at Microsoft.</p></blockquote></figure>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/RF55-BlogHeroFeature-1400x788-1.jpg" alt="Research Focus: Week of December 16, 2024" class="wp-image-1112832" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/RF55-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/RF55-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/RF55-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/RF55-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/RF55-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/RF55-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/RF55-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/RF55-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/RF55-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/RF55-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
-
-
-
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
-</div>
-
-
-
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-<h2 class="wp-block-heading" id="heading">NeoMem: Hardware/Software Co-Design for CXL-Native Memory Tiering</h2>
-
-
-
-<p>The Compute Express Link (CXL) open standard interconnect enables integration of diverse types of memory into servers via its byte-addressable SerDes links. To fully utilize CXL-based heterogeneous memory systems (which combine different types of memory with varying access speeds), it’s necessary to implement efficient memory tiering—a strategy to manage data placement across memory tiers for optimal performance. Efficiently managing these memory systems is crucial, but has been challenging due to the lack of precise and efficient tools for understanding how memory is accessed.</p>
-
-
-
-<p>In a recent paper: <a href="https://www.microsoft.com/en-us/research/publication/neomem-hardware-software-co-design-for-cxl-native-memory-tiering/">NeoMem: Hardware/Software Co-Design for CXL-Native Memory Tiering</a> researchers from Microsoft propose a novel solution which features a hardware/software co-design to address this problem. NeoMem offloads memory profiling functions to CXL device-side controllers, integrating a dedicated hardware unit called NeoProf, which monitors memory accesses and provides the operating system (OS) with crucial page hotness statistics and other system state information. On the OS kernel side, the researchers designed a revamped memory-tiering strategy, enabling accurate and timely hot page promotion based on NeoProf statistics. Implemented on a real FPGA-based CXL memory platform and Linux kernel v6.3, NeoMem demonstrated 32% to 67% geomean speedup over several existing memory tiering solutions.</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-11 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--13"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/neomem-hardware-software-co-design-for-cxl-native-memory-tiering/">Read the paper</a></div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-</div>
-
-
-
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
-
-
-
-<h2 class="wp-block-heading" id="heading">Chimera: Accurate retrosynthesis prediction by ensembling models with diverse inductive biases</h2>
-
-
-
-<p>Planning and conducting chemical syntheses is a significant challenge in the discovery of functional small molecules, which limits the potential of generative AI for molecular inverse design. Although early machine learning-based retrosynthesis models have shown the ability to predict reasonable routes, they are less accurate for infrequent, yet important reactions.</p>
-
-
-
-<p>In a recent paper: <a href="https://www.microsoft.com/en-us/research/publication/chimera-accurate-retrosynthesis-prediction-by-ensembling-models-with-diverse-inductive-biases/">Chimera: Accurate retrosynthesis prediction by ensembling models with diverse inductive biases</a>, researchers from Microsoft and external colleagues address this limitation, with a new framework for building highly accurate reaction models. Chimera incorporates two newly developed models, each achieving state-of-the-art performance in their respective categories. Evaluations by PhD-level organic chemists show that Chimera&#8217;s predictions are preferred for their higher quality compared to baseline models.</p>
-
-
-
-<p>The researchers further validate Chimera&#8217;s robustness by applying its largest-scale model to an internal dataset from a major pharmaceutical company, demonstrating its ability to generalize effectively under distribution shifts. This new framework shows the potential to substantially accelerate the development of even more accurate and versatile reaction prediction models.</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-12 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--14"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/chimera-accurate-retrosynthesis-prediction-by-ensembling-models-with-diverse-inductive-biases/">Read the paper</a></div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-</div>
-
-
-
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="670821">
-		
-
-		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Microsoft research newsletter</span>
-	</p>
-	
-	<div class="row pt-3 pb-4 align-items-center">
-						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://info.microsoft.com/ww-landing-microsoft-research-newsletter.html" aria-label="Microsoft Research Newsletter" data-bi-cN="Microsoft Research Newsletter" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2019/09/Newsletter_Banner_08_2019_v1_1920x1080.png" alt="" />
-				</a>
-			</div>
-			
-			<div class="msr-promo__content p-3 px-5 col-12 col-md">
-
-									<h2 class="h4">Microsoft Research Newsletter</h2>
-				
-								<p class="large">Stay connected to the research community at Microsoft.</p>
-				
-								<div class="wp-block-buttons justify-content-center justify-content-md-start">
-					<div class="wp-block-button is-style-fill-chevron">
-						<a href="https://info.microsoft.com/ww-landing-microsoft-research-newsletter.html" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Microsoft Research Newsletter" data-bi-cN="Microsoft Research Newsletter" target="_blank">
-							Subscribe today						</a>
-					</div>
-				</div>
-							</div><!--/.msr-promo__content-->
-	</div><!--/.msr-promo__inner-wrap-->
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
-	
-
-
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
-
-
-
-<h2 class="wp-block-heading" id="heading">The GA4GH Task Execution API: Enabling Easy Multicloud Task Execution</h2>
-
-
-
-<p>In bioinformatics and computational biology, data analysis often involves chaining command-line programs developed by specialized teams at different institutions. These tools, which vary widely in age, software stacks, and dependencies, lack a common programming interface, which makes integration, workflow management and reproducibility challenging.</p>
-
-
-
-<p>A recent <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10564576" target="_blank" rel="noreferrer noopener">article<span class="sr-only"> (opens in new tab)</span></a> emphasizes the development, adoption and implementation of the Global Alliance for Genomics and Health (GA4GH) Task Execution Service (TES) API, created in collaboration with researchers at Microsoft and other institutions. The TES API offers a unified schema and interface for submitting and managing tasks, seamlessly bridging gaps between on-premises high-performance and high-throughput computing systems, cloud platforms, and hybrid infrastructures. Its flexibility and extensibility have already made it a critical asset for applications ranging from federated data analysis to load balancing across multi-cloud systems.</p>
-
-
-
-<p>Adopted by numerous service providers and integrated into several workflow engines, TES empowers researchers to execute complex computational tasks through a single, abstracted interface. This eliminates compatibility hurdles, accelerates research timelines, reduces costs and enables &#8220;compute to data&#8221; solutions—essential for tackling the challenges of distributed data analysis.</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-13 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--15"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/the-ga4gh-task-execution-application-programming-interface-enabling-easy-multicloud-task-execution/">Read the paper</a></div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-</div>
-
-
-
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
-
-
-
-<h2 class="wp-block-heading" id="heading">RedCode: Risky Code Execution and Generation Benchmark for Code Agents</h2>
-
-
-
-<p>Increasing use of code agents for AI-assisted coding and software development has brought safety and security concerns, such as generating or executing malicious code, which have become significant barriers to real-world deployment of these agents.</p>
-
-
-
-<p>In a recent paper: <a href="https://www.microsoft.com/en-us/research/publication/redcode-multi-dimensional-safety-benchmark-for-code-agents/">RedCode: Risky Code Execution and Generation Benchmark for Code Agents</a>, published at NeurIPS 2024, researchers from Microsoft and external colleagues propose comprehensive and practical evaluations on the safety of code agents. RedCode is an evaluation platform with benchmarks grounded in four key principles: real interaction with systems, holistic evaluation of unsafe code generation and execution, diverse input formats, and high-quality safety scenarios and tests.</p>
-
-
-
-<p>This research evaluated three agents based on various large language models (LLMs), providing insights into code agents’ vulnerabilities. For instance, results showed that agents are more likely to reject executing unsafe operations on the operating system. Unsafe operations described in natural text lead to a lower rejection rate than those in code format. Additional evaluations revealed that more capable base models and agents with stronger overall coding abilities, such as GPT-4, tend to produce more sophisticated harmful software.</p>
-
-
-
-<p>These findings highlight the need for stringent safety evaluations for diverse code agents. The underlying dataset and related code are publicly available at <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/AI-secure/RedCode" target="_blank" rel="noreferrer noopener">https://github.com/AI-secure/RedCode<span class="sr-only"> (opens in new tab)</span></a>.</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-14 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--16"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/redcode-multi-dimensional-safety-benchmark-for-code-agents/">Read the paper</a></div>
-</div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-
-
-
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
-
-
-
-<h2 class="wp-block-heading" id="heading">Towards industrial foundation models: Integrating large language models with industrial data intelligence</h2>
-
-
-
-<p>Although large language models (LLMs) excel at language-focused tasks like news writing, document summarization, customer service, and supporting virtual assistants, they can face challenges when it comes to learning and inference on numeric and structured industry data, such as tabular and time series data. To address these issues, researchers from Microsoft propose a new approach to building industrial foundation models (IFMs). As outlined in a recent <a href="https://www.microsoft.com/en-us/research/articles/towards-industrial-foundation-models-integrating-large-language-models-with-industrial-data-intelligence/">blog post</a>, they have successfully demonstrated the feasibility of cross-domain universal in-context learning on tabular data and the significant potential it could achieve.</p>
-
-
-
-<p>The researchers designed <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://dl.acm.org/doi/10.1145/3637528.3671975" target="_blank" rel="noreferrer noopener">Generative Tabular Learning<span class="sr-only"> (opens in new tab)</span></a> (GTL), a new framework that integrates multi-industry zero-shot and few-shot learning capabilities into LLMs. This approach allows the models to adapt and generalize to new fields, new data, and new tasks more effectively, flexibly responding to diverse data science tasks. This technical paradigm has been <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/Industrial-Foundation-Models" target="_blank" rel="noreferrer noopener">open-sourced<span class="sr-only"> (opens in new tab)</span></a> to promote broader use.</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-15 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--17"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/towards-foundation-models-for-learning-on-tabular-data/">Read the paper</a></div>
-</div>
-</div>
-
-
-
-<div style="padding-bottom:64px; padding-top:64px" class="wp-block-msr-immersive-section alignfull row has-background has-lighter-gray-background-color has-text-color has-black-color wp-block-msr-immersive-section">
-	
-	<div class="container">
-		<div class="wp-block-msr-immersive-section__inner">
-			<div class="wp-block-msr-cards msr-cards msr-cards--default mt-4 has-text-align-left" data-bi-aN="microsoft-research-in-the-news">
-	<div class="msr-cards__inner">
-					<div class="heading-wrapper">
-				<h2 class="mb-5 ">Microsoft Research in the news</h2>
-			</div>
-		
-		<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
-	<div class="msr-cards__card msr-cards__card--default col">
-	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
-
-		
-		<div class="card-body bg-white p-4 pt-3">
-							<h3 class="h5">
-					<a
-						class="text-decoration-none text-black"
-						data-bi-cN="Microsoft’s smaller AI model beats the big guys: Meet Phi-4, the efficiency king"
-						href="https://venturebeat.com/ai/microsofts-smaller-ai-model-beats-the-big-guys-meet-phi-4-the-efficiency-king/"
-					>
-						<span>Microsoft’s smaller AI model beats the big guys: Meet Phi-4, the efficiency king</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
-					</a>
-				</h3>
-										<div class="card__description card__citation small">
-					<p>December 12, 2024</p><p>Microsoft launched a new artificial intelligence model today that achieves remarkable mathematical reasoning capabilities while using far fewer computational resources than its larger competitors.</p>				</div>
-			
-					</div>
-	</div>
-</div>
-<div class="msr-cards__card msr-cards__card--default col">
-	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
-
-		
-		<div class="card-body bg-white p-4 pt-3">
-							<h3 class="h5">
-					<a
-						class="text-decoration-none text-black"
-						data-bi-cN="Microsoft researcher Ece Kamar discusses the future of AI agents in 2025"
-						href="https://www.seattletimes.com/business/can-ai-spot-the-next-bomb-cyclone-far-in-advance-microsoft-hopes-so/"
-					>
-						<span>Microsoft researcher Ece Kamar discusses the future of AI agents in 2025</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
-					</a>
-				</h3>
-										<div class="card__description card__citation small">
-					<p>Tech Brew | December 12, 2024</p><p>With AI agents widely expected to take off in 2025, the director of Microsoft’s AI Frontiers lab weighs in on the future of this technology, the safeguards needed, and the year ahead in AI research.</p>				</div>
-			
-					</div>
-	</div>
-</div>
-<div class="msr-cards__card msr-cards__card--default col">
-	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
-
-		
-		<div class="card-body bg-white p-4 pt-3">
-							<h3 class="h5">
-					<a
-						class="text-decoration-none text-black"
-						data-bi-cN="A new frontier awaits — computing with light"
-						href="https://www.youtube.com/watch?v=lB3K4pk5jN4"
-					>
-						<span>A new frontier awaits — computing with light</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
-					</a>
-				</h3>
-										<div class="card__description card__citation small">
-					<p>December 12, 2024</p><p>In the guts of a new type of computer, a bunch of tiny LEDs emit a green glow. Those lights have a job to do. They’re performing calculations. Right now, this math is telling the computer how to identify handwritten images of numbers. The computer is part of a research program at Microsoft.</p>				</div>
-			
-					</div>
-	</div>
-</div>
-</div>
-
-					<div class="justify-content-center text-center mb-4">
-				<a
-					href="https://www.microsoft.com/en-us/research/news-and-awards/"
-					class="btn btn-outline-primary glyph-append glyph-append-small glyph-append-chevron-right msr-cards__cta"
-					data-bi-cN="View more news and awards"
-					data-bi-type="button"
-				>
-					View more news and awards				</a>
-			</div>
-			</div>
-</div>		</div>
-	</div>
-
-	</div>
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/research-focus-week-of-december-16-2024/">Research Focus: Week of December 16, 2024</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></content:encoded>
 					
 		

@@ -6,7 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 11 Feb 2025 01:48:01 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Feb 2025 01:48:26 +0000</lastBuildDate>
     <item>
       <title>Preventing Alert Fatigue in Cybersecurity: How To Recognize &amp; Combat Alert Fatigue</title>
       <link>https://www.splunk.com/en_us/blog/learn/alert-fatigue.html</link>
@@ -28,14 +28,14 @@
       <description>Explore the impact of autonomous adversaries on cybersecurity as AI and LLMs evolve.</description>
     </item>
     <item>
-      <title>Powering Digital Resilience in the AI Era</title>
-      <link>https://www.splunk.com/en_us/blog/artificial-intelligence/powering-digital-resilience-in-the-ai-era.html</link>
-      <description>With rapid advancements in AI, digital resilience is no longer optional – that's why leading organizations trust Splunk’s unified security and observability platform to keep their digital systems secure and reliable.</description>
-    </item>
-    <item>
       <title>Solve Problems Faster with New, Smarter AI and Integrations in Splunk Observability</title>
       <link>https://www.splunk.com/en_us/blog/observability/solve-problems-faster-with-new-smarter-ai-and-integrations-in-splunk-observability.html</link>
       <description>With the latest Splunk Observability advancements, customers can stay ahead of the competition and solve problems more efficiently.</description>
+    </item>
+    <item>
+      <title>Powering Digital Resilience in the AI Era</title>
+      <link>https://www.splunk.com/en_us/blog/artificial-intelligence/powering-digital-resilience-in-the-ai-era.html</link>
+      <description>With rapid advancements in AI, digital resilience is no longer optional – that's why leading organizations trust Splunk’s unified security and observability platform to keep their digital systems secure and reliable.</description>
     </item>
     <item>
       <title>Top 12 KPIs To Know &amp; Use: Key Performance Indicators Explained</title>

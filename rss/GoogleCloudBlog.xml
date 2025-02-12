@@ -6,17 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 11 Feb 2025 01:48:21 +0000</lastBuildDate>
-    <item>
-      <title>Getting started with Swift’s Alliance Connect Virtual on Google Cloud</title>
-      <link>https://cloud.google.com/blog/topics/financial-services/deploying-swifts-alliance-connect-virtual-on-google-cloud</link>
-      <description>Financial ServicesGetting started with Swift’s Alliance Connect Virtual on Google CloudBy Maria Alejandra Emmanuelli • 11-minute read</description>
-    </item>
-    <item>
-      <title>How we improved GKE volume attachments for stateful applications by up to 80%</title>
-      <link>https://cloud.google.com/blog/products/containers-kubernetes/gkes-faster-cluster-upgrades-under-the-hood</link>
-      <description>Containers &amp; KubernetesHow we improved GKE volume attachments for stateful applications by up to 80%By Sneha Aradhey • 5-minute read</description>
-    </item>
+    <lastBuildDate>Wed, 12 Feb 2025 01:48:46 +0000</lastBuildDate>
     <item>
       <title>Helping our partners co-market faster with AI</title>
       <link>https://cloud.google.com/blog/topics/partners/google-clouds-partner-marketing-studio-now-features-gemini</link>
@@ -26,6 +16,11 @@
       <title>5 AI trends shaping the future of the public sector in 2025</title>
       <link>https://cloud.google.com/blog/topics/public-sector/5-ai-trends-shaping-the-future-of-the-public-sector-in-2025</link>
       <description>Public Sector5 AI trends shaping the future of the public sector in 2025By Elizabeth Moon • 4-minute read</description>
+    </item>
+    <item>
+      <title>How to build a strong brand logo with Imagen 3 and Gemini</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/build-a-brand-logo-with-imagen-3-and-gemini</link>
+      <description>AI &amp; Machine LearningHow to build a strong brand logo with Imagen 3 and GeminiBy Layolin Jesudhass • 4-minute read</description>
     </item>
     <item>
       <title>Solve database bottlenecks faster with the latest query insights for Cloud SQL Enterprise Plus</title>
@@ -56,6 +51,11 @@
       <title>News you can use: What we announced in AI this month</title>
       <link>https://cloud.google.com/blog/products/ai-machine-learning/what-google-cloud-announced-in-ai-this-month</link>
       <description>AI &amp; Machine LearningNews you can use: What we announced in AI this monthBy Google Cloud Content &amp; Editorial  • 4-minute read</description>
+    </item>
+    <item>
+      <title>Cybercrime: A Multifaceted National Security Threat</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/cybercrime-multifaceted-national-security-threat</link>
+      <description>Threat IntelligenceCybercrime: A Multifaceted National Security ThreatBy Google Threat Intelligence Group  • 25-minute read</description>
     </item>
   </channel>
 </rss>

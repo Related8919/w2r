@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.deeplearning.ai/the-batch/. follow.is: feedId:91496692463707136+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 12 Feb 2025 01:48:51 +0000</lastBuildDate>
-    <item>
-      <title>AI Giants Go Nuclear, A Tech Bromance Turns Turbulent, Mistral Sharpens the Edge, Cheaper Video Generation</title>
-      <link>https://www.deeplearning.ai/the-batch/issue-272/</link>
-      <description>The Batch AI News and Insights: Startups live or die by their ability to execute at speed.</description>
-    </item>
+    <lastBuildDate>Thu, 13 Feb 2025 01:49:42 +0000</lastBuildDate>
     <item>
       <title>Trick or treat! AI Devours Energy, Innovation Can’t Win, Models Collapse, Benchmark Tests Are Meaningless, No Work for Coders</title>
       <link>https://www.deeplearning.ai/the-batch/issue-273/</link>
@@ -84,8 +79,13 @@
     </item>
     <item>
       <title>o3-mini Puts Reasoning in High Gear, How to Train for Computer Use, Gemini 2.0 Thinks Faster, More-Responsive Voice Interactions</title>
-      <link>https://www.deeplearning.ai/the-batch/tag/feb-05-2025/</link>
+      <link>https://www.deeplearning.ai/the-batch/issue-287/</link>
       <description>The Batch AI News and Insights: A “10x engineer” — a widely accepted concept in tech — purportedly has 10 times the impact of the average engineer.</description>
+    </item>
+    <item>
+      <title>OpenAI Does Deep Research, Google Goes to War, Alibaba Answers DeepSeek, Web Agents Do Tree Search</title>
+      <link>https://www.deeplearning.ai/the-batch/tag/feb-12-2025/</link>
+      <description>The Batch AI News and Insights: At the Artificial Intelligence Action Summit in Paris this week, U.S. Vice President J.D. Vance said, “I’m not here to talk about AI safety.</description>
     </item>
   </channel>
 </rss>

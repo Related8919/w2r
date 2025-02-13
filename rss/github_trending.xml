@@ -6,26 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 12 Feb 2025 01:48:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2025 01:49:24 +0000</lastBuildDate>
     <item>
-      <title>unionlabs /union</title>
-      <link>https://github.com/unionlabs/union</link>
-      <description>The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.</description>
-    </item>
-    <item>
-      <title>hoppscotch /hoppscotch</title>
-      <link>https://github.com/hoppscotch/hoppscotch</link>
-      <description>Open source API development ecosystem -https://hoppscotch.io(open-source alternative to Postman, Insomnia)</description>
-    </item>
-    <item>
-      <title>RockChinQ /LangBot</title>
-      <link>https://github.com/RockChinQ/LangBot</link>
-      <description>😎丰富生态、🧩支持扩展、🦄多模态 - 大模型原生即时通信机器人平台 🤖 | 适配 QQ / 微信（企业微信、个人微信）/ 飞书（feishu）/ Discord / OneBot 等消息平台 | 支持 OpenAI GPT、ChatGPT、DeepSeek、Dify、Claude、Gemini、Ollama、LM Studio、SiliconFlow、Qwen、Moonshot、ChatGLM 等 LLM 的机器人 / Agent | LLM-based instant messaging bots platform, supports Discord, WeChat, Lark, QQ platform, OpenAI ChatGPT, DeepSeek.</description>
-    </item>
-    <item>
-      <title>CodePhiliaX /Chat2DB</title>
-      <link>https://github.com/CodePhiliaX/Chat2DB</link>
-      <description>🔥🔥🔥AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.</description>
+      <title>albertan017 /LLM4Decompile</title>
+      <link>https://github.com/albertan017/LLM4Decompile</link>
+      <description>Reverse Engineering: Decompiling Binary Code with Large Language Models</description>
     </item>
     <item>
       <title>labring /FastGPT</title>
@@ -33,9 +18,49 @@
       <description>FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.</description>
     </item>
     <item>
-      <title>vercel /ai-chatbot</title>
-      <link>https://github.com/vercel/ai-chatbot</link>
-      <description>A full-featured, hackable Next.js AI chatbot built by Vercel</description>
+      <title>antonputra /tutorials</title>
+      <link>https://github.com/antonputra/tutorials</link>
+      <description>DevOps Tutorials</description>
+    </item>
+    <item>
+      <title>Azure /Azure-Sentinel</title>
+      <link>https://github.com/Azure/Azure-Sentinel</link>
+      <description>Cloud-native SIEM for intelligent security analytics for your entire enterprise.</description>
+    </item>
+    <item>
+      <title>infiniflow /ragflow</title>
+      <link>https://github.com/infiniflow/ragflow</link>
+      <description>RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.</description>
+    </item>
+    <item>
+      <title>datawhalechina /llm-cookbook</title>
+      <link>https://github.com/datawhalechina/llm-cookbook</link>
+      <description>面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版</description>
+    </item>
+    <item>
+      <title>onlook-dev /onlook</title>
+      <link>https://github.com/onlook-dev/onlook</link>
+      <description>The open source Cursor for Designers. Design directly in your live React app and publish your changes to code.</description>
+    </item>
+    <item>
+      <title>MystenLabs /walrus-docs</title>
+      <link>https://github.com/MystenLabs/walrus-docs</link>
+      <description>Documentation and examples for the Walrus decentralized storage system</description>
+    </item>
+    <item>
+      <title>firefly-iii /firefly-iii</title>
+      <link>https://github.com/firefly-iii/firefly-iii</link>
+      <description>Firefly III: a personal finances manager</description>
+    </item>
+    <item>
+      <title>Oliveriver /5d-diplomacy-with-multiverse-time-travel</title>
+      <link>https://github.com/Oliveriver/5d-diplomacy-with-multiverse-time-travel</link>
+      <description>5D Diplomacy With Multiverse Time Travel</description>
+    </item>
+    <item>
+      <title>andrewyng /aisuite</title>
+      <link>https://github.com/andrewyng/aisuite</link>
+      <description>Simple, unified interface to multiple Generative AI providers</description>
     </item>
     <item>
       <title>codecrafters-io /build-your-own-x</title>
@@ -43,39 +68,19 @@
       <description>Master programming by recreating your favorite technologies from scratch.</description>
     </item>
     <item>
-      <title>mendableai /firecrawl</title>
-      <link>https://github.com/mendableai/firecrawl</link>
-      <description>🔥 Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.</description>
+      <title>juspay /hyperswitch</title>
+      <link>https://github.com/juspay/hyperswitch</link>
+      <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
     </item>
     <item>
-      <title>langgenius /dify</title>
-      <link>https://github.com/langgenius/dify</link>
-      <description>Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.</description>
-    </item>
-    <item>
-      <title>albertan017 /LLM4Decompile</title>
-      <link>https://github.com/albertan017/LLM4Decompile</link>
-      <description>Reverse Engineering: Decompiling Binary Code with Large Language Models</description>
-    </item>
-    <item>
-      <title>potpie-ai /potpie</title>
-      <link>https://github.com/potpie-ai/potpie</link>
-      <description>Prompt-To-Agent : Create custom engineering agents for your codebase</description>
-    </item>
-    <item>
-      <title>Shubhamsaboo /awesome-llm-apps</title>
-      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
-      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
+      <title>landing-ai /vision-agent</title>
+      <link>https://github.com/landing-ai/vision-agent</link>
+      <description>Vision agent</description>
     </item>
     <item>
       <title>unslothai /unsloth</title>
       <link>https://github.com/unslothai/unsloth</link>
       <description>Finetune Llama 3.3, DeepSeek-R1 &amp; Reasoning LLMs 2x faster with 70% less memory! 🦥</description>
-    </item>
-    <item>
-      <title>n4ze3m /page-assist</title>
-      <link>https://github.com/n4ze3m/page-assist</link>
-      <description>Use your locally running AI models to assist you in your web browsing</description>
     </item>
     <item>
       <title>microsoft /data-formulator</title>

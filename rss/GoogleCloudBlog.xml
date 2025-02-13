@@ -6,7 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 12 Feb 2025 01:48:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2025 01:49:37 +0000</lastBuildDate>
     <item>
       <title>Helping our partners co-market faster with AI</title>
       <link>https://cloud.google.com/blog/topics/partners/google-clouds-partner-marketing-studio-now-features-gemini</link>
@@ -53,9 +53,9 @@
       <description>AI &amp; Machine LearningNews you can use: What we announced in AI this monthBy Google Cloud Content &amp; Editorial  • 4-minute read</description>
     </item>
     <item>
-      <title>Cybercrime: A Multifaceted National Security Threat</title>
-      <link>https://cloud.google.com/blog/topics/threat-intelligence/cybercrime-multifaceted-national-security-threat</link>
-      <description>Threat IntelligenceCybercrime: A Multifaceted National Security ThreatBy Google Threat Intelligence Group  • 25-minute read</description>
+      <title>5 ways Google Cloud can help you minimize credential theft risk</title>
+      <link>https://cloud.google.com/blog/products/identity-security/5-ways-google-cloud-can-help-you-minimize-credential-theft-risk</link>
+      <description>Security &amp; Identity5 ways Google Cloud can help you minimize credential theft riskBy Panos Mavrommatis • 8-minute read</description>
     </item>
   </channel>
 </rss>

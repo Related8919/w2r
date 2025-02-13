@@ -12,7 +12,7 @@
 	<atom:link href="https://www.microsoft.com/en-us/research/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.microsoft.com/en-us/research/</link>
 	<description></description>
-	<lastBuildDate>Tue, 11 Feb 2025 22:21:50 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 12 Feb 2025 21:01:09 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,368 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.7.1</generator>
 	<item>
+		<title>Microsoft Research and Physics Wallah team up to enhance AI-based tutoring</title>
+		<link>https://www.microsoft.com/en-us/research/blog/microsoft-research-and-physics-wallah-team-up-to-enhance-ai-based-tutoring/</link>
+		
+		<dc:creator><![CDATA[Brenda Potts]]></dc:creator>
+		<pubDate>Wed, 12 Feb 2025 21:01:07 +0000</pubDate>
+				<category><![CDATA[Research Blog]]></category>
+		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1128279</guid>
+
+					<description><![CDATA[<p>Limited resources, geography, and economic factors present barriers to quality higher education for many students in India. Learn how Microsoft Research is collaborating with Physics Wallah to make AI-based tutoring more accurate, reliable, and affordable.</p>
+<p>The post <a href="https://www.microsoft.com/en-us/research/blog/microsoft-research-and-physics-wallah-team-up-to-enhance-ai-based-tutoring/">Microsoft Research and Physics Wallah team up to enhance AI-based tutoring</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Physics-Wallah-BlogHeroFeature-1400x788-1.jpg" alt="Physics Wallah blog | education icons" class="wp-image-1128240" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Physics-Wallah-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Physics-Wallah-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Physics-Wallah-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Physics-Wallah-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Physics-Wallah-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Physics-Wallah-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Physics-Wallah-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Physics-Wallah-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Physics-Wallah-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Physics-Wallah-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+
+
+
+<p>In India, limited resources, geographical constraints, and economic factors present barriers to quality higher education for some students.</p>
+
+
+
+<p>A shortage of teachers, particularly in remote or low-income areas, makes it harder for students to receive the guidance they need to prepare for highly competitive professional and academic programs.&nbsp;Microsoft Research is developing new algorithms and techniques that are enabling <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.pw.live/" target="_blank" rel="noreferrer noopener">Physics Wallah<span class="sr-only"> (opens in new tab)</span></a>, a growing educational company, to make its AI-based tutoring services more accurate and reliable, to better support students on their education journey.</p>
+
+
+
+<p>As in other countries, many Indian students purchase coaching and tutoring services to prepare for entrance exams at top institutions. This includes <em>offline</em> coaching, where hundreds of students meet in a classroom staffed by teachers covering a structured curriculum. <em>Online</em> coaching enables students to learn remotely in a virtual classroom. <em>Hybrid</em> coaching delivers virtual lessons in a physical classroom.</p>
+
+
+
+<p class="has-text-align-left">Offline courses can cost as much as 100,000 Indian rupees a year—equivalent to hundreds of U.S. dollars. This puts them out of reach for many lower income students living in smaller and mid-sized Indian cities, as well as rural villages. Online courses are much more affordable. They allow students to work at their own pace by providing high-quality web-based content supported by teachers who work remotely.</p>
+
+
+
+<figure class="wp-block-image alignright size-medium"><img decoding="async" width="200" height="300" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Vineet_Headshot-200x300.jpeg" alt="Vineet Govil" class="wp-image-1127256" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Vineet_Headshot-200x300.jpeg 200w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Vineet_Headshot-683x1024.jpeg 683w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Vineet_Headshot-768x1152.jpeg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Vineet_Headshot-1024x1536.jpeg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Vineet_Headshot-1365x2048.jpeg 1365w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Vineet_Headshot-120x180.jpeg 120w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Vineet_Headshot-scaled.jpeg 1707w" sizes="(max-width: 200px) 100vw, 200px" /><figcaption class="wp-element-caption">Vineet Govil</figcaption></figure>
+
+
+
+<p>Meeting this need is the mission of Physics Wallah. The company uses AI to offer on-demand tutoring at scale, curating volumes of standard science- and math-related content to provide the best answers. Some 2 million students use the Physics Wallah platform every day, at a fraction of the cost of offline tutoring. For example, its prep courses for the Joint Entrance Examination (JEE), which is required for admission to engineering and technology programs, and the National Eligibility cum Entrance Test (NEET), a required entrance exam for medical and dental school candidates, cost between 4,200 and 4,500 rupees per year. That’s roughly 50 U.S. dollars.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-spectrum is-layout-flow wp-block-quote-is-layout-flow">
+<p>“The mantra here really is how do we provide quality education in an affordable manner and accessible to every student, regardless of who they are or where they come from.”</p>
+<cite>—Vineet Govil, Chief Technology and Product Officer, Physics Wallah</cite></blockquote>
+
+
+
+<div class="annotations " data-bi-aN="margin-callout">
+	<ul class="annotations__list card depth-16 bg-body p-4 annotations__list--left">
+		<li class="annotations__list-item">
+							<a href="https://www.microsoft.com/en-us/research/articles/microsoft-research-india-celebrating-20-years-of-innovation/" target="_self" aria-label="Celebrating 20 Years at Microsoft Research India" data-bi-type="annotated-link" data-bi-cN="Celebrating 20 Years at Microsoft Research India" class="annotations__list-thumbnail" >
+					<img decoding="async" width="172" height="96" src="https://www.microsoft.com/en-us/research/uploads/prod/2023/03/MSR-India-Bangalore-720x405-1-240x135.jpg" class="mb-2" alt="Microsoft Research India, Bangalore" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2023/03/MSR-India-Bangalore-720x405-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2023/03/MSR-India-Bangalore-720x405-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2023/03/MSR-India-Bangalore-720x405-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2023/03/MSR-India-Bangalore-720x405-1-343x193.jpg 343w, https://www.microsoft.com/en-us/research/uploads/prod/2023/03/MSR-India-Bangalore-720x405-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2023/03/MSR-India-Bangalore-720x405-1.jpg 720w" sizes="(max-width: 172px) 100vw, 172px" />				</a>
+							<span class="annotations__type d-block text-uppercase font-weight-semibold text-neutral-300 small">TIMELINE</span>
+			<a href="https://www.microsoft.com/en-us/research/articles/microsoft-research-india-celebrating-20-years-of-innovation/" target="_self" class="annotations__link font-weight-semibold text-decoration-none" data-bi-type="annotated-link" aria-label="Celebrating 20 Years at Microsoft Research India" data-bi-aN="margin-callout" data-bi-cN="Celebrating 20 Years at Microsoft Research India">
+				Celebrating 20 Years at Microsoft Research India&nbsp;<span class="glyph-append glyph-append-chevron-right glyph-append-xsmall"></span>
+			</a>
+					</li>
+	</ul>
+</div>
+
+
+
+<p>Microsoft Research India’s collaboration with Physics Wallah is part of a 20-year legacy of supporting emerging Indian companies, underscored by the January 2025 announcement that <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://news.microsoft.com/en-in/microsoft-announces-us-3bn-investment-over-two-years-in-india-cloud-and-ai-infrastructure-to-accelerate-adoption-of-ai-skilling-and-innovation/" target="_blank" rel="noreferrer noopener">Microsoft will invest $3 billion<span class="sr-only"> (opens in new tab)</span></a> in cloud and AI infrastructure to accelerate the adoption of AI, skilling, and innovation. &nbsp;</p>
+
+
+
+<p>Physics Wallah has developed an AI-driven educational suite, <strong>Alakh AI</strong>, leveraging OpenAI’s GPT-4o model through Microsoft Azure OpenAI Service. Alakh AI’s flagship offerings include <strong>AI Guru</strong> and the <strong>Smart Doubt Engine</strong>, both designed to transform the learning experience in and beyond the classroom.</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>AI Guru</strong> acts as a personal academic tutor, delivering adaptive guidance based on a student’s progress, real-time question-solving, and customized content that evolves with their learning journey.</li>
+
+
+
+<li><strong>Smart Doubt Engine</strong> is an AI tool through which students can ask questions (also known as “doubts” in Indian English) during live classes and receive instant responses.</li>
+</ul>
+
+
+
+<p>Additionally, the Alakh AI suite includes:</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>AI Grader</strong> for subjective answer evaluation without human intervention</li>
+
+
+
+<li><strong>Sahayak</strong> for crafting hyper-personalized learning paths tailored to individual students’ needs</li>
+</ul>
+
+
+
+<p>This innovative ecosystem elevates learning efficiency and accessibility for students.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><a data-bi-bhvr="14"  data-bi-cn="Screenshot of AI Guru interface showing a student’s query about Newton’s First Law. The AI tutor responds with a detailed explanation and includes two video resources for additional learning." href="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/AI-Guru-2-scaled.jpg"><img loading="lazy" decoding="async" width="2560" height="2560" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/AI-Guru-2-scaled.jpg" alt="Screenshot of AI Guru interface showing a student’s query about Newton’s First Law. The AI tutor responds with a detailed explanation and includes two video resources for additional learning." class="wp-image-1126782" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/AI-Guru-2-scaled.jpg 2560w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/AI-Guru-2-300x300.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/AI-Guru-2-1024x1024.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/AI-Guru-2-150x150.jpg 150w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/AI-Guru-2-768x768.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/AI-Guru-2-1536x1536.jpg 1536w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/AI-Guru-2-2048x2048.jpg 2048w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/AI-Guru-2-180x180.jpg 180w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/AI-Guru-2-360x360.jpg 360w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /></a><figcaption class="wp-element-caption">AI Guru in action – A student asks, <em>&#8220;Explain Newton’s First Law,&#8221;</em> and the AI tutor provides a detailed explanation along with two videos for further learning.</figcaption></figure>
+
+
+
+<div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><a data-bi-bhvr="14"  data-bi-cn="Screenshot of the Smart Doubt Engine interface showing a student asking a question about the directrix during a live classroom session. The AI responds with a detailed explanation to clarify the concept." href="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Smartdoubt.jpg"><img loading="lazy" decoding="async" width="1160" height="478" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Smartdoubt.jpg" alt="Screenshot of the Smart Doubt Engine interface showing a student asking a question about the directrix during a live classroom session. The AI responds with a detailed explanation to clarify the concept." class="wp-image-1126410" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Smartdoubt.jpg 1160w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Smartdoubt-300x124.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Smartdoubt-1024x422.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Smartdoubt-768x316.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Smartdoubt-240x99.jpg 240w" sizes="auto, (max-width: 1160px) 100vw, 1160px" /></a><figcaption class="wp-element-caption">Smart Doubt Engine in action – A student asks a clarifying question during a live class, and the AI provides a detailed explanation in real time.</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading" id="how-does-ai-guru-work-1">How does AI Guru work?</h2>
+
+
+
+<p>Let’s say a student had a question about Newton’s laws of motion, a core concept in physics. She would type her query into the AI Guru chat window (she could also just talk to it or upload an image from a textbook) and receive a text answer plus images derived from standard textbooks and curated content, typically in just a few seconds. AI Guru also provides a short video where a teacher offers additional context.</p>
+
+
+
+<div style="height:30px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<h2 class="wp-block-heading" id="getting-the-technology-right-1">Getting the technology right</h2>
+
+
+
+<p>The Alakh AI suite is powered by OpenAI&#8217;s foundational models GPT-4 and GPT-4o, integrated with a retrieval-augmented generation (RAG) architecture. It leverages Physics Wallah&#8217;s rich repository of high-quality curated content—developed and refined over several years—along with continuous updates from subject matter experts to ensure new materials, textbooks, tutorials, and question banks are seamlessly incorporated. Despite considerable progress, the existing AI sometimes falters when navigating complex academic problems.</p>
+
+
+
+<p>“The accuracy level of today&#8217;s large language models (LLMs) is not up to the mark where we can provide reliable and satisfactory answers to the students all the time—specifically, if it&#8217;s a hard mathematical problem involving complex equations,” Govil said.</p>
+
+
+
+<p>That’s one important focus of the collaboration. Researchers from Microsoft Research are developing new algorithms and techniques to enhance the accuracy and reasoning capabilities of AI models. They are now collaborating with Physics Wallah to apply these advancements to the Alakh AI suite, improving its ability to solve complex problems and provide more reliable, step-by-step guidance to students. A key challenge is the nature of student queries, which are often ambiguous and involve multimodal inputs—text, images, videos, or audio—requiring unified capabilities to address the problem. Many STEM problems require breaking down complex queries into logical sub-problems and applying high-order, step-by-step reasoning for consistency. Additionally, integrating domain-specific knowledge in advanced math, physics, chemistry, and biology requires contextualization and seamless retrieval of specialized, grade-appropriate information.&nbsp;</p>
+
+
+
+<p>Microsoft Research is working with Physics Wallah to move beyond traditional next-token prediction and develop AI systems that approach reliable, systematic, step-by-step problem-solving.</p>
+
+
+
+<p>That includes <a href="https://www.microsoft.com/en-us/research/publication/exposing-the-achilles-heel-evaluating-llms-ability-to-handle-mistakes-in-mathematical-reasoning/">ongoing work</a> to enhance the model’s reasoning capabilities and deliver more accurate query answers on complex JEE math problems. Instead of just providing the final answer, the underlying models now break problems into step-by-step solutions. That helps students learn how to solve the actual problems. The AI can also review student answers, detect mistakes, and give detailed feedback, acting as a personal tutor to guide students, improve their understanding, and enhance their learning experience.</p>
+
+
+
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="670821">
+		
+
+		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Microsoft research newsletter</span>
+	</p>
+	
+	<div class="row pt-3 pb-4 align-items-center">
+						<div class="msr-promo__media col-12 col-md-5">
+				<a class="bg-gray-300" href="https://info.microsoft.com/ww-landing-microsoft-research-newsletter.html" aria-label="Microsoft Research Newsletter" data-bi-cN="Microsoft Research Newsletter" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2019/09/Newsletter_Banner_08_2019_v1_1920x1080.png" alt="" />
+				</a>
+			</div>
+			
+			<div class="msr-promo__content p-3 px-5 col-12 col-md">
+
+									<h2 class="h4">Microsoft Research Newsletter</h2>
+				
+								<p class="large">Stay connected to the research community at Microsoft.</p>
+				
+								<div class="wp-block-buttons justify-content-center justify-content-md-start">
+					<div class="wp-block-button is-style-fill-chevron">
+						<a href="https://info.microsoft.com/ww-landing-microsoft-research-newsletter.html" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Microsoft Research Newsletter" data-bi-cN="Microsoft Research Newsletter" target="_blank">
+							Subscribe today						</a>
+					</div>
+				</div>
+							</div><!--/.msr-promo__content-->
+	</div><!--/.msr-promo__inner-wrap-->
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
+	
+
+
+<p>Solving complex problems requires enhancing the reasoning capabilities of both large and small language models by training them to not just generate answers, but to systematically think through and reason about complex problems. This requires high-quality reasoning traces—detailed, step-by-step breakdowns of logical problem-solving processes.</p>
+
+
+
+<p>To enable this, researchers collaborated with Physics Wallah to curate a dataset of 150,000 high-quality math reasoning traces. These traces serve as the foundation for training specialized small language models (SLMs) using supervised fine-tuning (SFT). Model performance is further refined through training on carefully curated on-policy preference data, ensuring alignment with high-quality reasoning standards. The team’s current Phi-based models have already outperformed leading LLMs and other baselines on complex math problems.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-spectrum is-layout-flow wp-block-quote-is-layout-flow">
+<p>&#8220;Building AI systems capable of human-like thinking and reasoning represents a significant challenge.&#8221;</p>
+<cite>—Akshay Nambi, Principal Researcher at Microsoft Research India</cite></blockquote>
+
+
+
+<p>The next step is to develop a self-evolving learning pipeline using online reinforcement learning techniques, allowing the model to continuously generate high-quality synthetic data that further enhances its capabilities. Additionally, researchers are building a reward model and integrating it with Monte Carlo Tree Search (MCTS) to optimize reasoning and improve inference-time decision-making.</p>
+
+
+
+<p>“The goal is to develop tools that complement education. To do this, we are enhancing the model’s capabilities to process, break down, and solve problems step-by-step. We do this by incorporating high-quality data into training to teach the model how to approach such tasks, alongside algorithmic innovations that enable the model to think and reason more effectively.&#8221;</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<div style="padding-bottom:0; padding-top:0" class="wp-block-msr-immersive-section alignfull row wp-block-msr-immersive-section">
+	
+	<div class="container">
+		<div class="wp-block-msr-immersive-section__inner wp-block-msr-immersive-section__inner--narrow">
+			<div class="wp-block-media-text has-vertical-margin-none  has-vertical-padding-none  has-media-on-the-right is-stacked-on-mobile" data-bi-an="media-text"><div class="wp-block-media-text__content" data-bi-an="media-text">
+<h3 class="wp-block-heading has-text-align-right" id="insert-fmt-video-in-this-episode-of-the-microsoft-research-podcast-martin-and-daniela">Listen or read along as <a href="https://www.microsoft.com/en-us/research/podcast/ideas-building-ai-for-population-scale-systems-with-akshay-nambi/" target="_blank" rel="noreferrer noopener">Microsoft Research Podcast</a> guest Akshay Nambi shares how his passion for tackling real-world challenges across various domains fuels his work in building reliable and robust AI systems.</h3>
+</div><figure class="wp-block-media-text__media"><a href="https://www.microsoft.com/en-us/research/podcast/abstracts-september-30-2024/" target="_blank" rel="noreferrer noopener"><img loading="lazy" decoding="async" width="1024" height="576" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay_Ideas_Hero_Feature_No_Text_1400x788-1024x576.jpg" alt="Outline illustration of Akshay Nambi | Ideas podcast" class="wp-image-1127463 size-full" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay_Ideas_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay_Ideas_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay_Ideas_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay_Ideas_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay_Ideas_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay_Ideas_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay_Ideas_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay_Ideas_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay_Ideas_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Akshay_Ideas_Hero_Feature_No_Text_1400x788.jpg 1401w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></a></figure></div>		</div>
+	</div>
+
+	</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading" id="opening-new-doors-for-students-1">Opening new doors for students</h2>
+
+
+
+<figure class="wp-block-image alignright size-full is-resized"><img loading="lazy" decoding="async" width="360" height="360" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Chandramouleswar-Parida_360x360.jpg" alt="Chandramouleswar Parida" class="wp-image-1126932" style="width:176px" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Chandramouleswar-Parida_360x360.jpg 360w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Chandramouleswar-Parida_360x360-300x300.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Chandramouleswar-Parida_360x360-150x150.jpg 150w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Chandramouleswar-Parida_360x360-180x180.jpg 180w" sizes="auto, (max-width: 360px) 100vw, 360px" /><figcaption class="wp-element-caption">Chandramouleswar Parida</figcaption></figure>
+
+
+
+<p>Getting an education at a top university can be life changing for anyone. For Chandramouleswar Parida, it could change the lives of everyone in his home village in Baniatangi, Khordha, Odisha State, India. Chandra decided to become a doctor after watching his grandfather die from a heart attack. The nearest doctor who could have treated him was at a regional hospital 65 kilometers away.</p>
+
+
+
+<p>“He could have been saved if certain procedures had been followed,” Chandra said. He wants to study medicine, perhaps receiving advanced training overseas, and then return home. “I want to be a doctor here in our village and serve our people, because there is a lack of treatment. Being a doctor is a very noble kind of job in this society.”</p>
+
+
+
+<p>Chandra is the only student in Baniatangi Village, Khordha, Odisha, currently preparing for the NEET. Without Physics Wallah, students like Chandra would likely have no access to the support and resources that can’t be found locally.</p>
+
+
+
+<figure class="wp-block-image alignright size-large is-resized"><img loading="lazy" decoding="async" width="606" height="1024" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Student_Headshot_PW-606x1024.jpeg" alt="Anushka Sunil Dhanwade" class="wp-image-1126068" style="width:176px" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Student_Headshot_PW-606x1024.jpeg 606w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Student_Headshot_PW-178x300.jpeg 178w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Student_Headshot_PW-107x180.jpeg 107w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Student_Headshot_PW.jpeg 691w" sizes="auto, (max-width: 606px) 100vw, 606px" /><figcaption class="wp-element-caption">Anushka Sunil Dhanwade</figcaption></figure>
+
+
+
+<p>Another student, Anushka Sunil Dhanwade, is optimistic that Physics Wallah will help her dramatically improve her initial score on the NEET exam. While in 11th class, or grade, she joined an online NEET prep class with 800 students. But she struggled to follow the coursework, as the teachers tailored the content to the strongest students. After posting a low score on the NEET exam, her hopes of becoming a doctor were fading.</p>
+
+
+
+<p>But after a serious stomach illness reminded her of the value of having a doctor in her family, she tried again, this time with Physics Wallah and AI Guru. After finishing 12th class, she began preparing for NEET and plans to take the exams again in May, confident that she will increase her score.</p>
+
+
+
+<blockquote class="wp-block-quote is-style-spectrum--blue-green is-layout-flow wp-block-quote-is-layout-flow">
+<p>“AI Guru has made my learning so smooth and easy because it provides me answers related to my study and study-related doubt just within a click.”</p>
+<cite>—Anushka Sunil Dhanwade, Student</cite></blockquote>
+
+
+
+<h2 class="wp-block-heading" id="next-steps-in-the-collaboration-1">Next steps in the collaboration</h2>
+
+
+
+<p>The collaboration between Microsoft Research and Physics Wallah aims to apply the advancements in solving math problems across additional subjects, ultimately creating a unified <em>education LLM</em> with enhanced reasoning capabilities and improved accuracy to support student learning.</p>
+
+
+
+<p>“We’re working on an education-specific LLM that will be fine-tuned using the extensive data we’ve gathered and enriched by Microsoft’s expertise in LLM training and algorithms. Our goal is to create a unified model that significantly improves accuracy and raises student satisfaction rates to 95% and beyond,” Govil explained.</p>
+
+
+
+<p>The teams are also integrating a new tool from Microsoft Research called <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/PromptWizard/" target="_blank" rel="noreferrer noopener">PromptWizard<span class="sr-only"> (opens in new tab)</span></a>, an automated framework for optimizing the instructions given to a model, into Physics Wallah’s offerings. New prompts can now be generated in minutes, eliminating months of manual work, while providing more accurate and aligned answers for students.</p>
+
+
+
+<p>For Nambi and the Microsoft Research India team, the collaboration is the latest example of their deep commitment to cultivating the AI ecosystem in India and translating new technology from the lab into useful business applications.</p>
+
+
+
+<p>“By leveraging advanced reasoning techniques and domain expertise, we are transforming how AI addresses challenges across multiple subjects. This represents a key step in building AI systems that act as holistic personal tutors, enhancing student understanding and creating a more engaging learning experience,” Nambi said.</p>
+
+
+
+<h3 class="wp-block-heading" id="explore-more">Explore more</h3>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<div class="annotations " data-bi-aN="citation">
+	<ul class="annotations__list card depth-16 bg-body p-4 ">
+		<li class="annotations__list-item">
+							<a href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" target="_self" aria-label="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" data-bi-type="annotated-link" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" class="annotations__list-thumbnail" >
+					<img loading="lazy" decoding="async" width="172" height="96" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-240x135.png" class="mb-2" alt="A diagram illustrating the joint optimization process of instructions and in-context examples in PromptWizard. The figure demonstrates how the framework iteratively refines both components, integrating feedback to enhance the overall prompt effectiveness and adaptability across tasks." srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-240x135.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-300x169.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-1024x576.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-768x432.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-1066x600.png 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-655x368.png 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-640x360.png 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-960x540.png 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1-1280x720.png 1280w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1.png 1400w" sizes="auto, (max-width: 172px) 100vw, 172px" />				</a>
+							<span class="annotations__type d-block text-uppercase font-weight-semibold text-neutral-300 small">Blog</span>
+			<a href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" target="_self" class="annotations__link font-weight-semibold text-decoration-none" data-bi-type="annotated-link" aria-label="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" data-bi-aN="citation" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts">
+				PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts&nbsp;<span class="glyph-append glyph-append-chevron-right glyph-append-xsmall"></span>
+			</a>
+					</li>
+	</ul>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<div class="annotations " data-bi-aN="citation">
+	<ul class="annotations__list card depth-16 bg-body p-4 ">
+		<li class="annotations__list-item">
+							<a href="https://www.microsoft.com/en-us/research/podcast/ideas-language-technologies-for-everyone-with-kalika-bali/" target="_self" aria-label="Ideas: Language technologies for everyone with Kalika Bali" data-bi-type="annotated-link" data-bi-cN="Ideas: Language technologies for everyone with Kalika Bali" class="annotations__list-thumbnail" >
+					<img loading="lazy" decoding="async" width="172" height="96" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/04/Kalika-Bali_IDEAS_Hero_Feature_No_Text_1400x788_AH-240x135.png" class="mb-2" alt="Microsoft Research Podcast | Ideas | Kalika Bali" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/04/Kalika-Bali_IDEAS_Hero_Feature_No_Text_1400x788_AH-240x135.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2024/04/Kalika-Bali_IDEAS_Hero_Feature_No_Text_1400x788_AH-300x169.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/04/Kalika-Bali_IDEAS_Hero_Feature_No_Text_1400x788_AH-1024x576.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/04/Kalika-Bali_IDEAS_Hero_Feature_No_Text_1400x788_AH-768x432.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/04/Kalika-Bali_IDEAS_Hero_Feature_No_Text_1400x788_AH-1066x600.png 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/04/Kalika-Bali_IDEAS_Hero_Feature_No_Text_1400x788_AH-655x368.png 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/04/Kalika-Bali_IDEAS_Hero_Feature_No_Text_1400x788_AH-640x360.png 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/04/Kalika-Bali_IDEAS_Hero_Feature_No_Text_1400x788_AH-960x540.png 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/04/Kalika-Bali_IDEAS_Hero_Feature_No_Text_1400x788_AH-1280x720.png 1280w, https://www.microsoft.com/en-us/research/uploads/prod/2024/04/Kalika-Bali_IDEAS_Hero_Feature_No_Text_1400x788_AH.png 1400w" sizes="auto, (max-width: 172px) 100vw, 172px" />				</a>
+							<span class="annotations__type d-block text-uppercase font-weight-semibold text-neutral-300 small">Podcast</span>
+			<a href="https://www.microsoft.com/en-us/research/podcast/ideas-language-technologies-for-everyone-with-kalika-bali/" target="_self" class="annotations__link font-weight-semibold text-decoration-none" data-bi-type="annotated-link" aria-label="Ideas: Language technologies for everyone with Kalika Bali" data-bi-aN="citation" data-bi-cN="Ideas: Language technologies for everyone with Kalika Bali">
+				Ideas: Language technologies for everyone with Kalika Bali&nbsp;<span class="glyph-append glyph-append-chevron-right glyph-append-xsmall"></span>
+			</a>
+					</li>
+	</ul>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-2 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<div class="annotations " data-bi-aN="citation">
+	<ul class="annotations__list card depth-16 bg-body p-4 ">
+		<li class="annotations__list-item">
+							<a href="https://www.microsoft.com/en-us/research/blog/teachers-in-india-help-microsoft-research-design-ai-tool-for-creating-great-classroom-content/" target="_self" aria-label="Teachers in India help Microsoft Research design AI tool for creating great classroom content" data-bi-type="annotated-link" data-bi-cN="Teachers in India help Microsoft Research design AI tool for creating great classroom content" class="annotations__list-thumbnail" >
+					<img loading="lazy" decoding="async" width="172" height="96" src="https://www.microsoft.com/en-us/research/uploads/prod/2023/10/VeLLUM-BlogHeroFeature-1400x788-2-240x135.jpg" class="mb-2" alt="a group of people sitting at a desk in front of a crowd" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2023/10/VeLLUM-BlogHeroFeature-1400x788-2-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2023/10/VeLLUM-BlogHeroFeature-1400x788-2-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2023/10/VeLLUM-BlogHeroFeature-1400x788-2-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2023/10/VeLLUM-BlogHeroFeature-1400x788-2-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2023/10/VeLLUM-BlogHeroFeature-1400x788-2-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2023/10/VeLLUM-BlogHeroFeature-1400x788-2-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2023/10/VeLLUM-BlogHeroFeature-1400x788-2-343x193.jpg 343w, https://www.microsoft.com/en-us/research/uploads/prod/2023/10/VeLLUM-BlogHeroFeature-1400x788-2-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2023/10/VeLLUM-BlogHeroFeature-1400x788-2-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2023/10/VeLLUM-BlogHeroFeature-1400x788-2-1280x720.jpg 1280w, https://www.microsoft.com/en-us/research/uploads/prod/2023/10/VeLLUM-BlogHeroFeature-1400x788-2.jpg 1400w" sizes="auto, (max-width: 172px) 100vw, 172px" />				</a>
+							<span class="annotations__type d-block text-uppercase font-weight-semibold text-neutral-300 small">Blog</span>
+			<a href="https://www.microsoft.com/en-us/research/blog/teachers-in-india-help-microsoft-research-design-ai-tool-for-creating-great-classroom-content/" target="_self" class="annotations__link font-weight-semibold text-decoration-none" data-bi-type="annotated-link" aria-label="Teachers in India help Microsoft Research design AI tool for creating great classroom content" data-bi-aN="citation" data-bi-cN="Teachers in India help Microsoft Research design AI tool for creating great classroom content">
+				Teachers in India help Microsoft Research design AI tool for creating great classroom content&nbsp;<span class="glyph-append glyph-append-chevron-right glyph-append-xsmall"></span>
+			</a>
+					</li>
+	</ul>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<div class="annotations " data-bi-aN="citation">
+	<ul class="annotations__list card depth-16 bg-body p-4 ">
+		<li class="annotations__list-item">
+							<a href="https://youtu.be/EgXJj5X260M" target="_blank" aria-label="Shiksha copilot demo" data-bi-type="annotated-link" data-bi-cN="Shiksha copilot demo" class="annotations__list-thumbnail" >
+					<img loading="lazy" decoding="async" width="172" height="96" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/shiksha-Hero-640x360.jpg" class="mb-2" alt="group of students talking to their teacher" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/shiksha-Hero-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/shiksha-Hero-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/shiksha-Hero-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/shiksha-Hero-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/shiksha-Hero-1280x720.jpg 1280w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/shiksha-Hero-1920x1080.jpg 1920w" sizes="auto, (max-width: 172px) 100vw, 172px" />				</a>
+							<span class="annotations__type d-block text-uppercase font-weight-semibold text-neutral-300 small">Video</span>
+			<a href="https://youtu.be/EgXJj5X260M" target="_blank" class="annotations__link font-weight-semibold text-decoration-none" data-bi-type="annotated-link" aria-label="Shiksha copilot demo" data-bi-aN="citation" data-bi-cN="Shiksha copilot demo">
+				Shiksha copilot demo&nbsp;<span class="glyph-append glyph-append-share glyph-append-xsmall"></span>
+			</a>
+					</li>
+	</ul>
+</div>
+</div>
+</div>
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/microsoft-research-and-physics-wallah-team-up-to-enhance-ai-based-tutoring/">Microsoft Research and Physics Wallah team up to enhance AI-based tutoring</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>ExACT: Improving AI agents’ decision-making via test-time compute scaling</title>
 		<link>https://www.microsoft.com/en-us/research/blog/exact-improving-ai-agents-decision-making-via-test-time-compute-scaling/</link>
 		
@@ -32,7 +394,7 @@
 <p>The post <a href="https://www.microsoft.com/en-us/research/blog/exact-improving-ai-agents-decision-making-via-test-time-compute-scaling/">ExACT: Improving AI agents’ decision-making via test-time compute scaling</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1.png" alt="A gradient blue to green background features a white flowchart with rectangular boxes connected by arrows, ending in a hexagonal “STOP” sign and a check mark on the right side." class="wp-image-1124370" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1.png 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-300x169.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-1024x576.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-768x432.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-1066x600.png 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-655x368.png 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-240x135.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-640x360.png 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-960x540.png 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-1280x720.png 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1.png" alt="A gradient blue to green background features a white flowchart with rectangular boxes connected by arrows, ending in a hexagonal “STOP” sign and a check mark on the right side." class="wp-image-1124370" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1.png 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-300x169.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-1024x576.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-768x432.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-1066x600.png 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-655x368.png 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-240x135.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-640x360.png 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-960x540.png 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT-BlogHeroFeature-1400x788-1-1280x720.png 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
 
 
 
@@ -56,7 +418,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-full"><a data-bi-bhvr="14"  data-bi-cn="Evaluation demonstrates the compute scaling properties of GPT-4o during both training and testing. The assessment includes two scenarios: (1) applying the GPT-4o-based R-MCTS agent to all 234 tasks from the Classifieds category in VisualWebArena (left), and (2) testing fine-tuned GPT-4o on 169 previously unseen tasks from Classifieds without using search algorithms (right)." href="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Figure-1-Scaling.gif.gif"><img decoding="async" width="1920" height="728" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Figure-1-Scaling.gif.gif" alt="Evaluation demonstrates the compute scaling properties of GPT-4o during both training and testing. The assessment includes two scenarios: (1) applying the GPT-4o-based R-MCTS agent to all 234 tasks from the Classifieds category in VisualWebArena (left), and (2) testing fine-tuned GPT-4o on 169 previously unseen tasks from Classifieds without using search algorithms (right)." class="wp-image-1121919" style="object-fit:cover"/></a><figcaption class="wp-element-caption">Figure 1. Evaluation demonstrates the compute scaling properties of GPT-4o during both training and testing. The assessment includes two scenarios: (1) applying the GPT-4o-based R-MCTS agent to all 234 tasks from the Classifieds category in VisualWebArena (left), and (2) testing fine-tuned GPT-4o on 169 previously unseen tasks from Classifieds without using search algorithms (right).</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><a data-bi-bhvr="14"  data-bi-cn="Evaluation demonstrates the compute scaling properties of GPT-4o during both training and testing. The assessment includes two scenarios: (1) applying the GPT-4o-based R-MCTS agent to all 234 tasks from the Classifieds category in VisualWebArena (left), and (2) testing fine-tuned GPT-4o on 169 previously unseen tasks from Classifieds without using search algorithms (right)." href="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Figure-1-Scaling.gif.gif"><img loading="lazy" decoding="async" width="1920" height="728" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Figure-1-Scaling.gif.gif" alt="Evaluation demonstrates the compute scaling properties of GPT-4o during both training and testing. The assessment includes two scenarios: (1) applying the GPT-4o-based R-MCTS agent to all 234 tasks from the Classifieds category in VisualWebArena (left), and (2) testing fine-tuned GPT-4o on 169 previously unseen tasks from Classifieds without using search algorithms (right)." class="wp-image-1121919" style="object-fit:cover"/></a><figcaption class="wp-element-caption">Figure 1. Evaluation demonstrates the compute scaling properties of GPT-4o during both training and testing. The assessment includes two scenarios: (1) applying the GPT-4o-based R-MCTS agent to all 234 tasks from the Classifieds category in VisualWebArena (left), and (2) testing fine-tuned GPT-4o on 169 previously unseen tasks from Classifieds without using search algorithms (right).</figcaption></figure>
 
 
 
@@ -64,7 +426,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-full is-resized"><a data-bi-bhvr="14"  data-bi-cn="Overview of the R-MCTS process in ExACT. " href="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2.png"><img decoding="async" width="852" height="820" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2.png" alt="Overview of the R-MCTS process in ExACT. " class="wp-image-1121877" style="width:504px;height:auto" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2.png 852w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2-300x289.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2-768x739.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2-187x180.png 187w" sizes="(max-width: 852px) 100vw, 852px" /></a><figcaption class="wp-element-caption">Figure 2. Overview of the R-MCTS process in ExACT.<em>&nbsp;</em></figcaption></figure>
+<figure class="wp-block-image aligncenter size-full is-resized"><a data-bi-bhvr="14"  data-bi-cn="Overview of the R-MCTS process in ExACT. " href="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2.png"><img loading="lazy" decoding="async" width="852" height="820" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2.png" alt="Overview of the R-MCTS process in ExACT. " class="wp-image-1121877" style="width:504px;height:auto" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2.png 852w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2-300x289.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2-768x739.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/ExACT_Fig2-187x180.png 187w" sizes="auto, (max-width: 852px) 100vw, 852px" /></a><figcaption class="wp-element-caption">Figure 2. Overview of the R-MCTS process in ExACT.<em>&nbsp;</em></figcaption></figure>
 
 
 
@@ -700,30 +1062,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085526">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1116360">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft Research Blog</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" aria-label="What’s Your Story: Lex Story" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/08/Lex-Story_WYS_Hero_Feature_1400x788.jpg" alt="photo of Lex Story for the What's Your Story episode of the Microsoft Research podcast" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/story/microsoft-research-2024-a-year-in-review/" aria-label="Research at Microsoft 2024: Meeting the challenge of a changing world" data-bi-cN="Research at Microsoft 2024: Meeting the challenge of a changing world" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Year-in-review-2024_Stories_Hero_Feature-1400x788-1.jpg" alt="Research at Microsoft 2024 - Year in Review" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">What’s Your Story: Lex Story</h2>
+									<h2 class="h4">Research at Microsoft 2024: Meeting the challenge of a changing world</h2>
 				
-								<p class="large">Model maker and fabricator Lex Story helps bring research to life through prototyping. He discusses his take on failure; the encouragement and advice that has supported his pursuit of art and science; and the sabbatical that might inspire his next career move.</p>
+								<p class="large">In this new AI era, technology is changing even faster than before, and the transition from research to reality, from concept to solution, now takes days or weeks rather than months or years.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
-							Listen now						</a>
+						<a href="https://www.microsoft.com/en-us/research/story/microsoft-research-2024-a-year-in-review/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="Research at Microsoft 2024: Meeting the challenge of a changing world" target="_blank">
+							Read more						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -862,30 +1224,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085496">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085520">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" aria-label="Eureka: Evaluating and understanding progress in AI" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/NEWEureka-2024-BlogHeroFeature-1400x788-1-66e90c195464d.jpg" alt="White icons representing the Eureka Experiment Pipeline -- PromptProcessing, Inference, PromptProcessing, Inference, DataProcessing, EvalReporting -- on blue to green gradient background." />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/collaborators-silica-in-space-with-richard-black-and-dexter-greene/" aria-label="Collaborators: Silica in space with Richard Black and Dexter Greene" data-bi-cN="Collaborators: Silica in space with Richard Black and Dexter Greene" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/Richard-and-Dexter_Collaborators_Hero_Feature_No_Text_1400x788-1.jpg" alt="Headshots of Richard Black and Dexter Greene for the Microsoft Research Podcast" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Eureka: Evaluating and understanding progress in AI</h2>
+									<h2 class="h4">Collaborators: Silica in space with Richard Black and Dexter Greene</h2>
 				
-								<p class="large">How can we rigorously evaluate and understand state-of-the-art progress in AI? Eureka is an open-source framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. Learn more about the extended findings. </p>
+								<p class="large">College freshman Dexter Greene and Microsoft research manager Richard Black discuss how technology that stores data in glass is supporting students as they expand earlier efforts to communicate what it means to be human to extraterrestrials.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
-							Read more						</a>
+						<a href="https://www.microsoft.com/en-us/research/podcast/collaborators-silica-in-space-with-richard-black-and-dexter-greene/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="Collaborators: Silica in space with Richard Black and Dexter Greene" target="_blank">
+							Listen now						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -1969,30 +2331,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085508">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1044939">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">on-demand event</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" aria-label="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/MedFuzz-BlogHeroFeature-1400x788-1.jpg" alt="MedFuzz blog hero (decorative)" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/story/sep-2024-brief/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum Episode 4" data-bi-cN="Microsoft Research Forum Episode 4" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/08/RF4_Panel_1400x788.jpg" alt="Research Forum | Episode 4 Panel | John Langford, Hoifung Poon, Katja Hofmann, Jianwei Yang" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">MedFuzz: Exploring the robustness of LLMs on medical challenge problems</h2>
+									<h2 class="h4">Microsoft Research Forum Episode 4</h2>
 				
-								<p class="large">Medfuzz tests LLMs by breaking benchmark assumptions, exposing vulnerabilities to bolster real-world accuracy.</p>
+								<p class="large">Learn about the latest multimodal AI models, advanced benchmarks for AI evaluation and model self-improvement, and an entirely new kind of computer for AI inference and hard optimization. </p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
-							Read more						</a>
+						<a href="https://www.microsoft.com/en-us/research/story/sep-2024-brief/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum Episode 4" target="_blank">
+							Watch on-demand						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -2568,30 +2930,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="999693">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085526">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Event Series</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum" data-bi-cN="Microsoft Research Forum" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MRF-24_WebImage_1400x788.png" alt="various abstract 3D shapes on a light blue background" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" aria-label="What’s Your Story: Lex Story" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/08/Lex-Story_WYS_Hero_Feature_1400x788.jpg" alt="photo of Lex Story for the What's Your Story episode of the Microsoft Research podcast" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Microsoft Research Forum</h2>
+									<h2 class="h4">What’s Your Story: Lex Story</h2>
 				
-								<p class="large">Join us for a continuous exchange of ideas about research in the era of general AI. Watch the first four episodes on demand.</p>
+								<p class="large">Model maker and fabricator Lex Story helps bring research to life through prototyping. He discusses his take on failure; the encouragement and advice that has supported his pursuit of art and science; and the sabbatical that might inspire his next career move.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum" target="_blank">
-							Watch on-demand						</a>
+						<a href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
+							Listen now						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -2726,30 +3088,27 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115763">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1061244">
 		
 
-		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft Research Blog</span>
-	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/" aria-label="AIOpsLab: Building AI agents for autonomous clouds" data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1.png" alt="White outline illustrations for AIOps on a blue and green gradient background." />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/about-microsoft-research/" aria-label="About Microsoft Research" data-bi-cN="About Microsoft Research" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/07/About-page-promo_1066x600.jpg" alt="" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">AIOpsLab: Building AI agents for autonomous clouds</h2>
+									<h2 class="h4">About Microsoft Research</h2>
 				
-								<p class="large">AIOpsLab is an open-source framework designed to evaluate and improve AI agents for cloud operations, offering standardized, scalable benchmarks for real-world testing, enhancing cloud system reliability.</p>
+								<p class="large">Advancing science and technology to benefit humanity</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds" target="_blank">
-							Read more						</a>
+						<a href="https://www.microsoft.com/en-us/research/about-microsoft-research/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="View our story" data-bi-cN="About Microsoft Research" target="_blank">
+							View our story						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -2864,223 +3223,6 @@
 
 <p>We would like to thank the many individuals whose ideas and insights helped formalize the concepts introduced in this release, including <a href="https://www.microsoft.com/en-us/research/people/ranaras/" target="_blank" rel="noreferrer noopener">Rajan Chari</a>, <a href="https://www.microsoft.com/en-us/research/people/eckamar/" target="_blank" rel="noreferrer noopener">Ece Kamar</a>, <a href="https://www.microsoft.com/en-us/research/people/jcl/" target="_blank" rel="noreferrer noopener">John Langford</a>, <a href="https://www.microsoft.com/en-us/research/people/chinganc/" target="_blank" rel="noreferrer noopener">Ching-An Chen</a>, Bob West, Paul Minero, Safoora Yousefi, Will Epperson, Grace Proebsting, Enhao Zhang, and Andrew Ng.&nbsp;</p>
 <span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/autogen-v0-4-reimagining-the-foundation-of-agentic-ai-for-scale-extensibility-and-robustness/">AutoGen v0.4: Reimagining the foundation of agentic AI for scale, extensibility, and robustness</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>AIOpsLab: Building AI agents for autonomous clouds</title>
-		<link>https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/</link>
-		
-		<dc:creator><![CDATA[Brenda Potts]]></dc:creator>
-		<pubDate>Fri, 20 Dec 2024 23:56:03 +0000</pubDate>
-				<category><![CDATA[Research Blog]]></category>
-		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1104735</guid>
-
-					<description><![CDATA[<p>AIOpsLab is an open-source framework designed to evaluate and improve AI agents for cloud operations, offering standardized, scalable benchmarks for real-world testing, enhancing cloud system reliability.</p>
-<p>The post <a href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/">AIOpsLab: Building AI agents for autonomous clouds</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1.png" alt="graphical user interface, application, icon" class="wp-image-1112118" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1.png 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-300x169.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-1024x576.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-768x432.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-1066x600.png 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-655x368.png 655w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-240x135.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-640x360.png 640w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-960x540.png 960w, https://www.microsoft.com/en-us/research/uploads/prod/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1-1280x720.png 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
-
-
-
-<p>In our increasingly complex digital landscape, enterprises and cloud providers face significant challenges in the development, deployment, and maintenance of sophisticated IT applications. The broad adoption of microservices and cloud-based serverless architecture has streamlined certain aspects of application development while simultaneously introducing a host of operational difficulties, particularly in fault diagnosis and mitigation. These complexities can result in outages, which have the potential to cause major business disruptions, underscoring the critical need for robust solutions that ensure high availability and reliability in cloud services. As the expectation for five-nines availability grows, organizations must navigate the intricate web of operational demands to maintain customer satisfaction and business continuity.&nbsp;</p>
-
-
-
-<p>To tackle these challenges, recent research on using AIOps agents for cloud operations—such as AI agents for incident root cause analysis (RCA) or triaging—has relied on proprietary services and datasets. Other prior works use frameworks specific to the solutions that they are building, or <em>ad hoc</em> and static benchmarks and metrics that fail to capture the dynamic nature of real-world cloud services. Users developing agents for cloud operations tasks with Azure AI Agent Service can evaluate and improve them using AIOpsLab. Furthermore, current approaches do not agree on standard metrics or a standard taxonomy for operational tasks. <strong>This calls for a standardized and principled research framework for building, testing, comparing, and improving AIOps agents.</strong> The framework should allow agents to interact with realistic service operation tasks in a reproducible manner. It must be flexible in extending to new applications, workloads, and faults. Importantly, it should go beyond just evaluating the AI agents and enabling users to improve the agents themselves; for example, by providing sufficient observability and even serving as a training environment (“gym”) to generate samples to learn on.&nbsp;&nbsp;</p>
-
-
-
-<p>We developed AIOpsLab, a holistic evaluation framework for researchers and developers, to enable the design, development, evaluation, and enhancement of AIOps agents, which also serves the purpose of reproducible, standardized, interoperable, and scalable benchmarks. AIOpsLab is open sourced at <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/AIOpsLab/">GitHub<span class="sr-only"> (opens in new tab)</span></a> with the MIT license, so that researchers and engineers can leverage it to evaluate AIOps agents at scale. We recently presented the <a href="https://www.microsoft.com/en-us/research/publication/building-ai-agents-for-autonomous-clouds-challenges-and-design-principles/">AIOpsLab vision paper<span class="sr-only"> (opens in new tab)</span></a> at SoCC &#8217;24. Please see the <a href="https://www.microsoft.com/en-us/research/publication/aiopslab-a-holistic-framework-for-evaluating-ai-agents-for-enabling-autonomous-cloud/">p<span class="sr-only"> (opens in new tab)</span></a><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.microsoft.com%2Fen-us%2Fresearch%2Fpublication%2Faiopslab-a-holistic-framework-for-evaluating-ai-agents-for-enabling-autonomous-cloud%2F&data=05%7C02%7Cv-ammelfi%40microsoft.com%7C15e1c8275ce94c4d841708dd221f279e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638704239499493512%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=kW3o2Gc8EPjJJZuDrZGpqDDqIEoT%2F6sv9QZ%2B0f5BTM8%3D&reserved=0">reprint<span class="sr-only"> (opens in new tab)</span></a> for more details about the AIOpsLab framework.</p>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1400" height="612" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400.jpg" alt="Flowchart of an AIOpsLab system. The chart is divided into four main sections: AIOps Tasks, Orchestrator, Problem Cache, and Service. AIOps Tasks list various applications like SocialNetwork, HotelReservation, E-Commerce, and others, each with associated Data, Actions, Metrics. These tasks connect to the Orchestrator. The Orchestrator is the central element and interacts with various components: it receives a Problem Query Q, detailing Problem, Task T, Workload W, Fault F, and Solution S. It is responsible for deploying or running the workload and injecting faults, as well as taking actions based on the Service State relayed by an Agent. The Problem Cache connects to a Workload Generator and a Fault Generator, creating Workload W for the Service. The Service component shows observability through Traces, Metrics, and Logs. It communicates with the Orchestrator to provide service state updates. The components are connected with arrows that indicate the flow of data and control between each part of the system. " class="wp-image-1106274" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400-300x131.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400-1024x448.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400-768x336.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2024/11/AIOps-Lab_blog_fig1-overview_1400-240x105.jpg 240w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /><figcaption class="wp-element-caption">Figure 1. System architecture of AIOpsLab.&nbsp;</figcaption></figure>
-
-
-
-<h2 class="wp-block-heading" id="agent-cloud-interface-aci">Agent-cloud interface (ACI)</h2>
-
-
-
-<p>AIOpsLab strictly separates the agent and the application service using an intermediate orchestrator. It provides several interfaces for other system parts to integrate and extend. First, it establishes a session with an agent to share information about benchmark problems: (1) the problem description, (2) instructions (e.g., response format), and (3) available APIs to call as actions.</p>
-
-
-
-<p>The APIs are a set of documented tools, e.g., get logs, get metrics, and exec shell, designed to help the agent solve a task. There are no restrictions on the agent&#8217;s implementation; the orchestrator poses problems and polls it for the next action to perform given the previous result. Each action must be a valid API call, which the orchestrator validates and carries out. The orchestrator has privileged access to the deployment and can take arbitrary actions (e.g., scale-up, redeploy) using appropriate tools (e.g., helm, kubectl) to resolve problems on behalf of the agent. Lastly, the orchestrator calls workload and fault generators to create service disruptions, which serve as live benchmark problems. AIOpsLab provides additional APIs to extend to new services and generators.&nbsp;</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<h3 class="wp-block-heading h5" id="example-shows-how-to-onboard-an-agent-to-aiopslab">Example shows how to onboard an agent to AIOpsLab</h3>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-<div class="wp-block-syntaxhighlighter-code "><pre class="brush: python; gutter: false; title: ; notranslate">
-from aiopslab import Orchestrator
-class Agent:
-    def __init__(self, prob, instructs, apis):
-        self.prompt = self.set_prompt(prob, instructs, apis)
-        self.llm = GPT4()
-
-    async def get_action(self, state: str) -> str:
-        return self.llm.generate(self.prompt + state)
-
-#initialize the orchestrator
-orch = Orchestrator()
-pid = "misconfig_app_hotel_res-mitigation-1"
-prob_desc, instructs, apis = orch.init_problem(pid)
-
-#register and evaluate the agent
-agent = Agent(prob_desc, instructs, apis)
-orch.register_agent(agent, name="myAgent")
-asyncio.run(orch.start_problem(max_steps=10))
-</pre></div>
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<h2 class="wp-block-heading" id="service">Service</h2>
-
-
-
-<p>AIOpsLab abstracts a diverse set of services to reflect the variance in production environments. This includes live, running services that are implemented using various architectural principles, including microservices, serverless, and monolithic.</p>
-
-
-
-<p>We also leverage open-sourced application suites such as DeathStarBench as they provide artifacts, like source code and commit history, along with run-time telemetry. Adding tools like BluePrint can help AIOpsLab scale to other academic and production services.&nbsp;</p>
-
-
-
-<h2 class="wp-block-heading" id="workload-generator">Workload generator</h2>
-
-
-
-<p>The workload generator in AIOpsLab plays a crucial role by creating simulations of both faulty and normal scenarios. It receives specifications from the orchestrator, such as the task, desired effects, scale, and duration. The generator can use a model trained on real production traces to generate workloads that align with these specifications. Faulty scenarios may simulate conditions like resource exhaustion, exploit edge cases, or trigger cascading failures, inspired by real incidents. Normal scenarios mimic typical production patterns, such as daily activity cycles and multi-user interactions. When various characteristics (e.g., service calls, user distribution, arrival times) can lead to the desired effect, multiple workloads can be stored in the problem cache for use by the orchestrator. In coordination with the fault generator, the workload generator can also create complex fault scenarios with workloads.&nbsp;&nbsp;</p>
-
-
-
-<h2 class="wp-block-heading" id="fault-generator">Fault generator</h2>
-
-
-
-<p>AIOpsLab has a novel push-button fault generator designed for generic applicability across various cloud scenarios. Our approach integrates application and domain knowledge to create adaptable policies and “oracles” compatible with AIOps scenarios. This includes fine-grained fault injection capable of simulating complex failures inspired by production incidents. Additionally, it can inject faults at various system levels, exposing root causes while maintaining semantic integrity and considering interdependencies between cloud microservices. The fault injector&#8217;s versatility can enhance the reliability and robustness of cloud systems by enabling thorough testing and evaluation of AIOps capabilities.&nbsp;</p>
-
-
-
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085526">
-		
-
-		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
-	</p>
-	
-	<div class="row pt-3 pb-4 align-items-center">
-						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" aria-label="What’s Your Story: Lex Story" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/08/Lex-Story_WYS_Hero_Feature_1400x788.jpg" alt="photo of Lex Story for the What's Your Story episode of the Microsoft Research podcast" />
-				</a>
-			</div>
-			
-			<div class="msr-promo__content p-3 px-5 col-12 col-md">
-
-									<h2 class="h4">What’s Your Story: Lex Story</h2>
-				
-								<p class="large">Model maker and fabricator Lex Story helps bring research to life through prototyping. He discusses his take on failure; the encouragement and advice that has supported his pursuit of art and science; and the sabbatical that might inspire his next career move.</p>
-				
-								<div class="wp-block-buttons justify-content-center justify-content-md-start">
-					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
-							Listen now						</a>
-					</div>
-				</div>
-							</div><!--/.msr-promo__content-->
-	</div><!--/.msr-promo__inner-wrap-->
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
-	
-
-
-<h2 class="wp-block-heading" id="observability">Observability</h2>
-
-
-
-<p>AIOpsLab is equipped with an extensible observability layer designed to provide comprehensive monitoring capabilities across various system layers for any AIOps tool. AIOpsLab collects a wide array of telemetry data, including (1) traces from Jaeger detailing the end-to-end paths of requests through distributed systems, (2) application logs formatted and recorded by Filebeat and Logstash, and (3) system metrics monitored by Prometheus. Additionally, AIOpsLab also captures lower-level system information such as syscall logs and cluster information. As mentioned, we handle potential data overload through flexible APIs to tune the telemetry data relevant to the AIOps tools.&nbsp;</p>
-
-
-
-<p>AIOpsLab currently supports four key tasks within the AIOps domain. These tasks include incident detection, localization, root cause diagnosis, and mitigation. Additionally, we support several popular agent frameworks: React, Autogen, and TaskWeaver. Two key insights from the study emphasize the importance of observability and well-designed ACI. Observability is crucial for clear root-cause diagnosis, for instance, pinpointing a misconfigured API gateway can be vital in preventing service downtime.</p>
-
-
-
-<p>Flexibility is another critical factor; the ability to execute arbitrary shell commands allowed for effective troubleshooting in real-time scenarios. Lastly, robust error handling is essential—providing agents with high-quality feedback on execution barriers, such as a failed database connection, ensures swift resolution and continuous improvement.&nbsp;</p>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<h3 class="wp-block-heading h5" id="example-of-aci-on-diagnosis-task">Example of ACI on diagnosis task</h3>
-
-
-
-<div style="height:15px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
-<div class="wp-block-column is-layout-constrained wp-container-core-column-is-layout-1 wp-block-column-is-layout-constrained" style="flex-basis:100%">
-<pre class="wp-block-code"><code><span style="color:blue;">Agent:</span> I need to first look at the logs to understand <span style="color:purple;">if</span> there are any errors <span style="color:blue;">or</span> warnings that could indicate problems. 
-
-<span style="color:blue;">Action:</span> 
-
-``` 
-
-get_logs(<span style="color:red;">"compose-post-service"</span>, <span style="color:red;">"test-social-network"</span>) 
-
-```
-<span style="color:blue;">Service:</span> &#91;<span style="color:green;">2024-Aug-04 23:18:49.365494</span>] &lt;info&gt;: 
-
-… 
-
-<span style="color:blue;">Thrift:</span> <span style="color:green;">Sun Aug 4 23:19:19 2024</span> TSocket::open() connect() 
-<mark style="background-color:#ffb900" class="has-inline-color">&lt;Host: user-service Port: 9090&gt;: Connection refused</mark>
- 
-<span style="color:blue;">Agent:</span> … unable to connect to the <span style="color:red;">`user-service`</span> at port <span style="color:green;">9090</span>, even though the pod is running. <mark style="background-color:#ffb900" class="has-inline-color">This suggests a possible network issue or misconfiguration in service discovery</mark></code></pre>
-</div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<h2 class="wp-block-heading" id="next-steps">Next steps</h2>
-
-
-
-<p>This research project adopts Microsoft security standards and Responsible AI principles, and we envision this research evolving into a vital resource for organizations aiming to optimize their IT operations. Additionally, we plan to collaborate with various generative AI teams to incorporate AIOpsLab as a benchmark scenario for evaluating state-of-the-art models. By doing so, we aim to foster innovation and encourage the development of more advanced AIOps solutions. This research is essential not only for IT professionals but also for anyone invested in the future of technology, as it has the potential to redefine how organizations manage operations, respond to incidents, and ultimately serve their customers in an increasingly automated world.&nbsp;</p>
-
-
-
-<h2 class="wp-block-heading" id="acknowledgements">Acknowledgements</h2>
-
-
-
-<p>We would like to thank Yinfang Chen, Manish Shetty, Yogesh Simmhan, <a href="https://www.microsoft.com/en-us/research/people/xuchaozhang/">Xuchao Zhang</a>, <a href="https://www.microsoft.com/en-us/research/people/jonathanmace/">Jonathan Mace</a>, Dax Vandevoorde, <a href="https://www.microsoft.com/en-us/research/people/pedrobr/">Pedro Las-Casas</a>, Shachee Mishra Gupta, and <a href="https://www.microsoft.com/en-us/research/people/sumann/">Suman Nath</a>, for contributing to this project.</p>
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/">AIOpsLab: Building AI agents for autonomous clouds</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></content:encoded>
 					
 		

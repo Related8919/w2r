@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 13 Feb 2025 01:49:22 +0000</lastBuildDate>
-    <item>
-      <title>Key Takeaways: Mastering Risk Prioritization with Rapid7 Surface Command</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/23/key-takeaways-mastering-risk-prioritization-with-rapid7-surface-command/</link>
-      <description>In our recent webinar, Cheney Edwards, Senior Security Solutions Engineer at Rapid7, shares actionable techniques to cut through noise, prioritize effectively, and command your attack surface.</description>
-    </item>
+    <lastBuildDate>Fri, 14 Feb 2025 01:48:30 +0000</lastBuildDate>
     <item>
       <title>The Vulnerability Vortex: Escaping the Whirlpool of Ineffective Security</title>
       <link>https://www.rapid7.com/blog/post/2025/01/24/the-vulnerability-vortex-escaping-the-whirlpool-of-ineffective-security/</link>
@@ -103,6 +98,11 @@ Sec</description>
       <title>Patch Tuesday - February 2025</title>
       <link>https://www.rapid7.com/blog/post/2025/02/11/microsoft-patch-tuesday/</link>
       <description>Four zero-days: AFD EoP, Storage EoP, NTLMv2 disclosure, Surface container escape. Critical RCEs in LDAP, DHCP client, Excel.</description>
+    </item>
+    <item>
+      <title>CVE-2025-1094: PostgreSQL psql SQL injection (FIXED)</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/13/cve-2025-1094-postgresql-psql-sql-injection-fixed/</link>
+      <description>Rapid7 discovered and is disclosing CVE-2025-1094, a high-severity SQL injection vulnerability affecting the PostgreSQL interactive tool psql.</description>
     </item>
   </channel>
 </rss>

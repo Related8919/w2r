@@ -6,17 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 13 Feb 2025 01:49:37 +0000</lastBuildDate>
-    <item>
-      <title>Helping our partners co-market faster with AI</title>
-      <link>https://cloud.google.com/blog/topics/partners/google-clouds-partner-marketing-studio-now-features-gemini</link>
-      <description>PartnersHelping our partners co-market faster with AIBy Aimee Catalano • 6-minute read</description>
-    </item>
-    <item>
-      <title>5 AI trends shaping the future of the public sector in 2025</title>
-      <link>https://cloud.google.com/blog/topics/public-sector/5-ai-trends-shaping-the-future-of-the-public-sector-in-2025</link>
-      <description>Public Sector5 AI trends shaping the future of the public sector in 2025By Elizabeth Moon • 4-minute read</description>
-    </item>
+    <lastBuildDate>Fri, 14 Feb 2025 01:48:45 +0000</lastBuildDate>
     <item>
       <title>How to build a strong brand logo with Imagen 3 and Gemini</title>
       <link>https://cloud.google.com/blog/products/ai-machine-learning/build-a-brand-logo-with-imagen-3-and-gemini</link>
@@ -43,6 +33,11 @@
       <description>Threat IntelligenceUsing capa Rules for Android Malware DetectionBy Lin Chen • 13-minute read</description>
     </item>
     <item>
+      <title>Rightsize your Memorystore for Redis Clusters with open-source Autoscaler</title>
+      <link>https://cloud.google.com/blog/products/databases/memorystore-cluster-autoscaler-now-on-github</link>
+      <description>DatabasesRightsize your Memorystore for Redis Clusters with open-source AutoscalerBy Henry Bell • 10-minute read</description>
+    </item>
+    <item>
       <title>What’s new with Google Cloud</title>
       <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
       <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 2-minute read</description>
@@ -56,6 +51,11 @@
       <title>5 ways Google Cloud can help you minimize credential theft risk</title>
       <link>https://cloud.google.com/blog/products/identity-security/5-ways-google-cloud-can-help-you-minimize-credential-theft-risk</link>
       <description>Security &amp; Identity5 ways Google Cloud can help you minimize credential theft riskBy Panos Mavrommatis • 8-minute read</description>
+    </item>
+    <item>
+      <title>Announcing Wasm support in Go 1.24</title>
+      <link>https://cloud.google.com/blog/products/application-development/go-1-24-expands-support-for-wasm</link>
+      <description>Application DevelopmentAnnouncing Wasm support in Go 1.24By Cameron Balahan • 2-minute read</description>
     </item>
   </channel>
 </rss>

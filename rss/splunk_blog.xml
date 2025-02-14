@@ -6,22 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 13 Feb 2025 01:49:18 +0000</lastBuildDate>
-    <item>
-      <title>Splunk AppDynamics Unveils New Security and Mobile Insights</title>
-      <link>https://www.splunk.com/en_us/blog/observability/splunk-appdynamics-security-and-mobile-insights.html</link>
-      <description>Announcing the release of a new Secure Application integration with Splunk Enterprise Security and preview MRUM session replay in AppDynamics 25.1.</description>
-    </item>
-    <item>
-      <title>Autonomous Adversaries: Are Blue Teams Ready for Cyberattacks To Go Agentic?</title>
-      <link>https://www.splunk.com/en_us/blog/security/agentic-adversaries-blue-teams-cyber-defense.html</link>
-      <description>Explore the impact of autonomous adversaries on cybersecurity as AI and LLMs evolve.</description>
-    </item>
-    <item>
-      <title>Solve Problems Faster with New, Smarter AI and Integrations in Splunk Observability</title>
-      <link>https://www.splunk.com/en_us/blog/observability/solve-problems-faster-with-new-smarter-ai-and-integrations-in-splunk-observability.html</link>
-      <description>With the latest Splunk Observability advancements, customers can stay ahead of the competition and solve problems more efficiently.</description>
-    </item>
+    <lastBuildDate>Fri, 14 Feb 2025 01:48:25 +0000</lastBuildDate>
     <item>
       <title>Powering Digital Resilience in the AI Era</title>
       <link>https://www.splunk.com/en_us/blog/artificial-intelligence/powering-digital-resilience-in-the-ai-era.html</link>
@@ -51,6 +36,21 @@
       <title>Cloud Automation Explained</title>
       <link>https://www.splunk.com/en_us/blog/learn/cloud-automation.html</link>
       <description>Cloud automation streamlines cloud management by automating deployment, scaling, and maintenance. Learn its benefits, challenges, and best practices.</description>
+    </item>
+    <item>
+      <title>How Logging Works in Kubernetes: Challenges, Approaches, and Solutions for K8s Logging</title>
+      <link>https://www.splunk.com/en_us/blog/learn/kubernetes-logging.html</link>
+      <description>Managing logs in Kubernetes isn’t easy, but with the right understanding and approaches, you can set up a consistent, unified Kubernetes logging and observability solution.</description>
+    </item>
+    <item>
+      <title>Security Compliance: A Complete Introduction</title>
+      <link>https://www.splunk.com/en_us/blog/learn/security-compliance.html</link>
+      <description>Security compliance helps businesses safeguard data, meet regulations, and prevent breaches. Learn key frameworks, roles, and best practices for compliance success.</description>
+    </item>
+    <item>
+      <title>Introducing Cloud Monitoring Consoles’s New Overview Dashboard:  Intuitive Actionable Insights at Your Fingertips</title>
+      <link>https://www.splunk.com/en_us/blog/platform/splunk-cloud-monitoring-console-overview-dashboard.html</link>
+      <description>Splunk's Cloud Monitoring Console (CMC) 3.35.0 introduces a new Overview dashboard, centralizing key metrics, highlighting issues, and offering tools to help admins optimize performance and gain faster insights.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

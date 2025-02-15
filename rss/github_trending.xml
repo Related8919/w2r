@@ -6,51 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 14 Feb 2025 01:48:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2025 01:47:20 +0000</lastBuildDate>
     <item>
-      <title>OpenZeppelin /openzeppelin-contracts</title>
-      <link>https://github.com/OpenZeppelin/openzeppelin-contracts</link>
-      <description>OpenZeppelin Contracts is a library for secure smart contract development.</description>
-    </item>
-    <item>
-      <title>ant-design /ant-design</title>
-      <link>https://github.com/ant-design/ant-design</link>
-      <description>An enterprise-class UI design language and React UI library</description>
-    </item>
-    <item>
-      <title>netdata /netdata</title>
-      <link>https://github.com/netdata/netdata</link>
-      <description>Architected for speed. Automated for easy. Monitoring and troubleshooting, transformed!</description>
-    </item>
-    <item>
-      <title>potpie-ai /potpie</title>
-      <link>https://github.com/potpie-ai/potpie</link>
-      <description>Prompt-To-Agent : Create custom engineering agents for your codebase</description>
-    </item>
-    <item>
-      <title>landing-ai /vision-agent</title>
-      <link>https://github.com/landing-ai/vision-agent</link>
-      <description>Vision agent</description>
-    </item>
-    <item>
-      <title>RexanWONG /text-behind-image</title>
-      <link>https://github.com/RexanWONG/text-behind-image</link>
-      <description>https://textbehindimage.rexanwong.xyz- create text behind image designs easily</description>
-    </item>
-    <item>
-      <title>Kong /kong</title>
-      <link>https://github.com/Kong/kong</link>
-      <description>🦍 The Cloud-Native API Gateway and AI Gateway.</description>
-    </item>
-    <item>
-      <title>datawhalechina /llm-cookbook</title>
-      <link>https://github.com/datawhalechina/llm-cookbook</link>
-      <description>面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版</description>
-    </item>
-    <item>
-      <title>juspay /hyperswitch</title>
-      <link>https://github.com/juspay/hyperswitch</link>
-      <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
+      <title>GitHubDaily /GitHubDaily</title>
+      <link>https://github.com/GitHubDaily/GitHubDaily</link>
+      <description>坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.</description>
     </item>
     <item>
       <title>Oliveriver /5d-diplomacy-with-multiverse-time-travel</title>
@@ -58,9 +18,14 @@
       <description>5D Diplomacy With Multiverse Time Travel</description>
     </item>
     <item>
-      <title>codecrafters-io /build-your-own-x</title>
-      <link>https://github.com/codecrafters-io/build-your-own-x</link>
-      <description>Master programming by recreating your favorite technologies from scratch.</description>
+      <title>microsoft /markitdown</title>
+      <link>https://github.com/microsoft/markitdown</link>
+      <description>Python tool for converting files and office documents to Markdown.</description>
+    </item>
+    <item>
+      <title>go-playground /validator</title>
+      <link>https://github.com/go-playground/validator</link>
+      <description>💯Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving</description>
     </item>
     <item>
       <title>cypress-io /cypress</title>
@@ -68,24 +33,34 @@
       <description>Fast, easy and reliable testing for anything that runs in a browser.</description>
     </item>
     <item>
-      <title>nocodb /nocodb</title>
-      <link>https://github.com/nocodb/nocodb</link>
-      <description>🔥 🔥 🔥 Open Source Airtable Alternative</description>
+      <title>Zipstack /unstract</title>
+      <link>https://github.com/Zipstack/unstract</link>
+      <description>No-code LLM Platform to launch APIs and ETL Pipelines to structure unstructured documents</description>
     </item>
     <item>
-      <title>labring /FastGPT</title>
-      <link>https://github.com/labring/FastGPT</link>
-      <description>FastGPT is a knowledge-based platform built on the LLMs, offers a comprehensive suite of out-of-the-box capabilities such as data processing, RAG retrieval, and visual AI workflow orchestration, letting you easily develop and deploy complex question-answering systems without the need for extensive setup or configuration.</description>
+      <title>zaidmukaddam /scira</title>
+      <link>https://github.com/zaidmukaddam/scira</link>
+      <description>Scira (Formerly MiniPerplx) is a minimalistic AI-powered search engine that helps you find information on the internet. Powered by Vercel AI SDK! Search with models like Grok 2.0.</description>
     </item>
     <item>
-      <title>block /goose</title>
-      <link>https://github.com/block/goose</link>
-      <description>an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM</description>
+      <title>golang /go</title>
+      <link>https://github.com/golang/go</link>
+      <description>The Go programming language</description>
     </item>
     <item>
-      <title>microsoft /data-formulator</title>
-      <link>https://github.com/microsoft/data-formulator</link>
-      <description>🪄 Create rich visualizations with AI</description>
+      <title>juspay /hyperswitch</title>
+      <link>https://github.com/juspay/hyperswitch</link>
+      <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
+    </item>
+    <item>
+      <title>codecrafters-io /build-your-own-x</title>
+      <link>https://github.com/codecrafters-io/build-your-own-x</link>
+      <description>Master programming by recreating your favorite technologies from scratch.</description>
+    </item>
+    <item>
+      <title>kuchin /awesome-cto</title>
+      <link>https://github.com/kuchin/awesome-cto</link>
+      <description>A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups</description>
     </item>
   </channel>
 </rss>

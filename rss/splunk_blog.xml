@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 14 Feb 2025 01:48:25 +0000</lastBuildDate>
-    <item>
-      <title>Powering Digital Resilience in the AI Era</title>
-      <link>https://www.splunk.com/en_us/blog/artificial-intelligence/powering-digital-resilience-in-the-ai-era.html</link>
-      <description>With rapid advancements in AI, digital resilience is no longer optional – that's why leading organizations trust Splunk’s unified security and observability platform to keep their digital systems secure and reliable.</description>
-    </item>
+    <lastBuildDate>Sat, 15 Feb 2025 01:47:14 +0000</lastBuildDate>
     <item>
       <title>Top 12 KPIs To Know &amp; Use: Key Performance Indicators Explained</title>
       <link>https://www.splunk.com/en_us/blog/learn/kpis-key-performance-indicators.html</link>
@@ -51,6 +46,11 @@
       <title>Introducing Cloud Monitoring Consoles’s New Overview Dashboard:  Intuitive Actionable Insights at Your Fingertips</title>
       <link>https://www.splunk.com/en_us/blog/platform/splunk-cloud-monitoring-console-overview-dashboard.html</link>
       <description>Splunk's Cloud Monitoring Console (CMC) 3.35.0 introduces a new Overview dashboard, centralizing key metrics, highlighting issues, and offering tools to help admins optimize performance and gain faster insights.</description>
+    </item>
+    <item>
+      <title>Hey SDDL SDDL: Breaking Down Windows Security One ACE at a Time</title>
+      <link>https://www.splunk.com/en_us/blog/security/windows-security-sddl-guide-access-control.html</link>
+      <description>Explore SDDL in Windows security with our comprehensive guide to help enhance your defensive strategy against privilege escalation attacks.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

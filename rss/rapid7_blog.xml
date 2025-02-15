@@ -6,25 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 14 Feb 2025 01:48:30 +0000</lastBuildDate>
-    <item>
-      <title>The Vulnerability Vortex: Escaping the Whirlpool of Ineffective Security</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/24/the-vulnerability-vortex-escaping-the-whirlpool-of-ineffective-security/</link>
-      <description>In today's interconnected digital landscape, organizations find themselves caught in a relentless torrent of security alerts and vulnerability notifications.</description>
-    </item>
-    <item>
-      <title>Metasploit Weekly Wrap-Up 01/24/2025</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/24/metasploit-weekly-wrap-up-01-24-2025/</link>
-      <description>LibreNMS Authenticated RCE module and ESC15 improvements
-This week the Metasploit Framework was blessed with an authenticated RCE module
-in LibreNMS, an autodiscovering PHP/MySQL-based network monitoring system. An
-authenticated attacker can create dangerous directory names on the system and
-alter sensitive configuration parameters through the web portal. These two
-defects combined to allow arbitrary OS commands inside shell_exec() calls, thus
-achieving arbitrary code execution.
-
-Additionally, i</description>
-    </item>
+    <lastBuildDate>Sat, 15 Feb 2025 01:47:19 +0000</lastBuildDate>
     <item>
       <title>The 2024 Ransomware Landscape: Looking back on another painful year</title>
       <link>https://www.rapid7.com/blog/post/2025/01/27/the-2024-ransomware-landscape-looking-back-on-another-painful-year/</link>
@@ -103,6 +85,26 @@ Sec</description>
       <title>CVE-2025-1094: PostgreSQL psql SQL injection (FIXED)</title>
       <link>https://www.rapid7.com/blog/post/2025/02/13/cve-2025-1094-postgresql-psql-sql-injection-fixed/</link>
       <description>Rapid7 discovered and is disclosing CVE-2025-1094, a high-severity SQL injection vulnerability affecting the PostgreSQL interactive tool psql.</description>
+    </item>
+    <item>
+      <title>Xerox Versalink C7025 Multifunction Printer: Pass-Back Attack Vulnerabilities (FIXED)</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/14/xerox-versalink-c7025-multifunction-printer-pass-back-attack-vulnerabilities-fixed/</link>
+      <description>During security testing, Rapid7 discovered that Xerox Versalink C7025 Multifunction printers (MFPs) were vulnerable to pass-back attacks.</description>
+    </item>
+    <item>
+      <title>Metasploit Weekly Wrap-Up 02/14/2025</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/14/metasploit-weekly-wrap-up-45/</link>
+      <description>New module content (2)
+Unauthenticated RCE in NetAlertX
+Authors: Chebuya (Rhino Security Labs) and Takahiro Yokoyama
+Type: Exploit
+Pull request: #19868  
+contributed by Takahiro-Yoko 
+Path: linux/http/netalertx_rce_cve_2024_46506
+AttackerKB reference: CVE-2024-46506
+
+
+Description: A new module for an unauthenticated remote code execution bug i</description>
     </item>
   </channel>
 </rss>

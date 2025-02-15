@@ -6,17 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 14 Feb 2025 01:48:45 +0000</lastBuildDate>
-    <item>
-      <title>How to build a strong brand logo with Imagen 3 and Gemini</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/build-a-brand-logo-with-imagen-3-and-gemini</link>
-      <description>AI &amp; Machine LearningHow to build a strong brand logo with Imagen 3 and GeminiBy Layolin Jesudhass • 4-minute read</description>
-    </item>
-    <item>
-      <title>Solve database bottlenecks faster with the latest query insights for Cloud SQL Enterprise Plus</title>
-      <link>https://cloud.google.com/blog/products/databases/new-query-insights-capabilities-for-cloud-sql-enterprise-plus</link>
-      <description>DatabasesSolve database bottlenecks faster with the latest query insights for Cloud SQL Enterprise PlusBy Karan Thapar • 3-minute read</description>
-    </item>
+    <lastBuildDate>Sat, 15 Feb 2025 01:47:34 +0000</lastBuildDate>
     <item>
       <title>Empowering federal agencies with a more secure and efficient developer experience</title>
       <link>https://cloud.google.com/blog/topics/public-sector/empowering-federal-agencies-with-a-more-secure-and-efficient-developer-experience</link>
@@ -38,9 +28,9 @@
       <description>DatabasesRightsize your Memorystore for Redis Clusters with open-source AutoscalerBy Henry Bell • 10-minute read</description>
     </item>
     <item>
-      <title>What’s new with Google Cloud</title>
-      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
-      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 2-minute read</description>
+      <title>Announcing public beta  of Gen AI Toolbox for Databases</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/announcing-gen-ai-toolbox-for-databases-get-started-today</link>
+      <description>AI &amp; Machine LearningAnnouncing public beta  of Gen AI Toolbox for DatabasesBy Hamsa Buvaraghan • 4-minute read</description>
     </item>
     <item>
       <title>News you can use: What we announced in AI this month</title>
@@ -53,9 +43,19 @@
       <description>Security &amp; Identity5 ways Google Cloud can help you minimize credential theft riskBy Panos Mavrommatis • 8-minute read</description>
     </item>
     <item>
-      <title>Announcing Wasm support in Go 1.24</title>
-      <link>https://cloud.google.com/blog/products/application-development/go-1-24-expands-support-for-wasm</link>
-      <description>Application DevelopmentAnnouncing Wasm support in Go 1.24By Cameron Balahan • 2-minute read</description>
+      <title>ChromeOS Flex: A Valentine’s Gift for Your PC</title>
+      <link>https://cloud.google.com/blog/products/chrome-enterprise/chromeos-flex-a-valentines-gift-for-your-pc</link>
+      <description>Chrome EnterpriseChromeOS Flex: A Valentine’s Gift for Your PCBy Will Smith • 2-minute read</description>
+    </item>
+    <item>
+      <title>Accelerate your cloud journey using a well-architected, principles-based framework</title>
+      <link>https://cloud.google.com/blog/products/application-modernization/well-architected-framework-to-accelerate-your-cloud-journey</link>
+      <description>Application ModernizationAccelerate your cloud journey using a well-architected, principles-based frameworkBy Kumar Dhanagopal • 5-minute read</description>
+    </item>
+    <item>
+      <title>What’s new with Google Cloud</title>
+      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
+      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 3-minute read</description>
     </item>
   </channel>
 </rss>

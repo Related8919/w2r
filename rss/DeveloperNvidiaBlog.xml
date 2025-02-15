@@ -6,86 +6,86 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 14 Feb 2025 01:48:56 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Feb 2025 01:47:44 +0000</lastBuildDate>
     <item>
-      <title>使用 NVIDIA NeMo Curator 提高生成式 AI 模型的准确性</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/enhancing-generative-ai-model-accuracy-with-nvidia-nemo-curator/</link>
-      <description>2025年 1月 13日使用 NVIDIA NeMo Curator 提高生成式 AI 模型的准确性在快速发展的人工智能领域，用于训练模型的数据质量至关重要。高质量数据可确保模型准确、可靠，并且能够在各种应用中很好地泛化。1 MIN READ</description>
-    </item>
-    <item>
-      <title>评估 GenMol 作为用于分子生成的通用基础模型</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/evaluating-genmol-as-a-generalist-foundation-model-for-molecular-generation/</link>
-      <description>2025年 1月 13日评估 GenMol 作为用于分子生成的通用基础模型传统的计算药物研发几乎完全依赖于高度特定于任务的计算模型来识别命中率和优化潜在客户。使这些专业模型适应新任务需要大量的时间、2 MIN READ</description>
-    </item>
-    <item>
-      <title>借助 NVIDIA BioNeMo Blueprint 加速蛋白质工程中的生成式蛋白质粘结剂设计</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/accelerate-protein-engineering-with-the-nvidia-bionemo-blueprint-for-generative-protein-binder-design/</link>
-      <description>2025年 1月 13日借助 NVIDIA BioNeMo Blueprint 加速蛋白质工程中的生成式蛋白质粘结剂设计设计一种能在药物研发中专门结合标的治疗性蛋白质是一项艰巨的挑战。传统工作流程通常是一个艰苦的试错过程，需要对数千个候选项进行迭代，1 MIN READ</description>
-    </item>
-    <item>
-      <title>将数据中心转变为 AI 工厂，迎接第 5 次工业革命</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/transforming-data-centers-into-ai-factories-for-the-5th-industrial-revolution/</link>
-      <description>2025年 1月 14日将数据中心转变为 AI 工厂，迎接第 5 次工业革命在最近的 DC Anti-Conference Live 演示中，NVIDIA 首席数据中心杰出工程师 Wade Vinson 分享了基于…1 MIN READ</description>
-    </item>
-    <item>
-      <title>利用 AI 驱动的洪水建模和 3D 可视化技术增强气候韧性</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/strengthening-climate-resilience-with-ai-powered-flood-modeling-and-3d-visualizations/</link>
-      <description>2025年 1月 15日利用 AI 驱动的洪水建模和 3D 可视化技术增强气候韧性AI 驱动的洪水建模和 3D 可视化工具正在改变社区应对气候风险的方式。在这场 NVIDIA GTC 2024 会议中，1 MIN READ</description>
-    </item>
-    <item>
-      <title>提升 AI 性能的 GPU 内存基础知识</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/gpu-memory-essentials-for-ai-performance/</link>
-      <description>2025年 1月 15日提升 AI 性能的 GPU 内存基础知识生成式 AI 彻底改变了人们将想法变为现实的方式，而代理 AI 代表着这一技术变革的下一次飞跃。通过利用复杂的自主推理和迭代规划，2 MIN READ</description>
-    </item>
-    <item>
-      <title>在 NVIDIA TensorRT-LLM 中引入新型 KV 缓存重用优化策略</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/introducing-new-kv-cache-reuse-optimizations-in-nvidia-tensorrt-llm/</link>
-      <description>2025年 1月 16日在 NVIDIA TensorRT-LLM 中引入新型 KV 缓存重用优化策略语言模型通过预测下一个令牌 (给定所有先前的令牌，包括输入文本令牌) 来生成文本。在 LLM 服务中，先前令牌的键和值元素用作历史语境，2 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA JetPack 6.2 为 NVIDIA Jetson Orin Nano 和 Jetson Orin NX 模块引入超级模式</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-jetpack-6-2-brings-super-mode-to-nvidia-jetson-orin-nano-and-jetson-orin-nx-modules/</link>
-      <description>2025年 1月 16日NVIDIA JetPack 6.2 为 NVIDIA Jetson Orin Nano 和 Jetson Orin NX 模块引入超级模式NVIDIA Jetson Orin Nano 超级开发者套件 的推出为小型边缘设备开启了 生成式 AI 的新时代。7 MIN READ</description>
-    </item>
-    <item>
-      <title>AI 揭露被遗忘的潜在有害油气井</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/ai-uncovers-potentially-hazardous-forgotten-oil-and-gas-wells/</link>
-      <description>2025年 1月 16日AI 揭露被遗忘的潜在有害油气井劳伦斯伯克利国家实验室（Lawrence Berkeley National Laboratory） 的研究人员在美国各地散布着多达 80…1 MIN READ</description>
-    </item>
-    <item>
-      <title>利用 RAPIDS cuML 加速时间序列预测</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/accelerating-time-series-forecasting-with-rapids-cuml/</link>
-      <description>2025年 1月 16日利用 RAPIDS cuML 加速时间序列预测时间序列预测是一种强大的数据科学技术，用于根据过去的数据点预测未来值 借助 skforecast 等开源 Python 库，2 MIN READ</description>
-    </item>
-    <item>
-      <title>如何使用 NVIDIA NeMo Guardrails 为客户服务保护 AI 智能体</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/how-to-safeguard-ai-agents-for-customer-service-with-nvidia-nemo-guardrails/</link>
-      <description>2025年 1月 16日如何使用 NVIDIA NeMo Guardrails 为客户服务保护 AI 智能体AI 代理为 企业扩展和提升客户服务以及支持交互提供了重要机会。这些客服人员可自动处理日常查询并缩短响应时间，从而提高效率和客户满意度，5 MIN READ</description>
-    </item>
-    <item>
-      <title>借助 iGenius 和 NVIDIA DGX 云，继续为主权 AI 和受监管行业预训练先进的 LLM</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/continued-pretraining-of-state-of-the-art-llms-for-sovereign-ai-and-regulated-industries-with-igenius-and-nvidia-dgx-cloud/</link>
-      <description>2025年 1月 16日借助 iGenius 和 NVIDIA DGX 云，继续为主权 AI 和受监管行业预训练先进的 LLM近年来，大语言模型（LLMs）在推理、代码生成、机器翻译和摘要等领域取得了非凡的进步。然而，尽管基础模型具有先进的功能，4 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA TensorRT-LLM 在推荐广告及搜索广告的生成式召回的加速实践</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-tensorrt-llm-ad-generation/</link>
-      <description>2025年 1月 20日NVIDIA TensorRT-LLM 在推荐广告及搜索广告的生成式召回的加速实践推荐系统的主要任务是根据用户的历史行为预测其兴趣点，并向其推荐相应的商品。传统的推荐系统在处理用户请求时，2 MIN READ</description>
-    </item>
-    <item>
-      <title>构建 AI 销售助理的经验教训</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/lessons-learned-from-building-an-ai-sales-assistant/</link>
-      <description>2025年 1月 21日构建 AI 销售助理的经验教训在 NVIDIA，销售运营团队为销售团队提供将先进的硬件和软件推向市场所需的工具和资源。3 MIN READ</description>
-    </item>
-    <item>
-      <title>FP8 在大模型训练中的应用、挑战及实践</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/fp8-llm-app-challenges/</link>
-      <description>2025年 1月 24日FP8 在大模型训练中的应用、挑战及实践越来越多的技术团队开始使用 FP8 进行大模型训练，这主要因为 FP8 有很多技术优势，比如在新一代的 GPU 上，3 MIN READ</description>
+      <title>AI 基础模型增强癌症诊断并实现个性化治疗</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/ai-foundation-model-enhances-cancer-diagnosis-and-tailors-treatment/</link>
+      <description>2025年 2月 4日AI 基础模型增强癌症诊断并实现个性化治疗斯坦福大学研究人员的一项新研究和 AI 模型正在简化癌症诊断、治疗规划和预后预测。这项名为 MUSK (Multimodal…1 MIN READ</description>
     </item>
     <item>
       <title>借助 NVIDIA Spectrum-X 网络平台和合作伙伴提升 AI 存储速度达48%</title>
       <link>https://developer.nvidia.com/zh-cn/blog/accelerating-ai-storage-by-up-to-48-with-nvidia-spectrum-x-networking-platform-and-partners/</link>
       <description>2025年 2月 4日借助 NVIDIA Spectrum-X 网络平台和合作伙伴提升 AI 存储速度达48%AI 工厂依靠的不仅仅是计算结构。连接 GPU 的东西向网络对于 AI 应用程序性能至关重要，而连接高速存储阵列的存储结构也同样重要。1 MIN READ</description>
+    </item>
+    <item>
+      <title>利用特定领域的微调和 NVIDIA NIM 提高翻译质量</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/improving-translation-quality-with-domain-specific-fine-tuning-and-nvidia-nim/</link>
+      <description>2025年 2月 5日利用特定领域的微调和 NVIDIA NIM 提高翻译质量翻译在助力公司实现跨国业务扩展方面发挥着至关重要的作用，在语调、准确性和技术术语处理方面的要求差异很大。3 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA Blackwell 上的 OpenAI Triton 提升 AI 性能和可编程性</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/openai-triton-on-nvidia-blackwell-boosts-ai-performance-and-programmability/</link>
+      <description>2025年 2月 5日NVIDIA Blackwell 上的 OpenAI Triton 提升 AI 性能和可编程性矩阵乘法和注意力机制是现代 AI 工作负载的计算支柱。虽然库如 NVIDIA cuDNN 提供高度优化的实现，2 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 NVIDIA AI Workbench 简化本地和云系统之间的协作</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/streamline-collaboration-across-local-and-cloud-systems-with-nvidia-ai-workbench/</link>
+      <description>2025年 2月 5日使用 NVIDIA AI Workbench 简化本地和云系统之间的协作NVIDIA AI Workbench 是一款免费的开发环境管理器 ，用于在 GPUs 上开发、定制 AI 应用并对其进行原型设计。3 MIN READ</description>
+    </item>
+    <item>
+      <title>适用于数据科学的 GPU 加速入门</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/get-started-with-gpu-acceleration-for-data-science/</link>
+      <description>2025年 2月 6日适用于数据科学的 GPU 加速入门在数据科学领域，运营效率是处理日益复杂和大型数据集的关键。GPU 加速已成为现代工作流程的关键，可显著提高性能。3 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 NVIDIA GeForce RTX 50 系列 GPU 实时渲染路径追踪头发</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/render-path-traced-hair-in-real-time-with-nvidia-geforce-rtx-50-series-gpus/</link>
+      <description>2025年 2月 6日使用 NVIDIA GeForce RTX 50 系列 GPU 实时渲染路径追踪头发2018 年， NVIDIA RTX 引入了对光线追踪三角形网格的硬件支持。但是，头发和毛皮的光线追踪仍然是一个计算密集型问题，2 MIN READ</description>
+    </item>
+    <item>
+      <title>开始使用 NVIDIA RTX 套件进行神经渲染</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/get-started-with-neural-rendering-using-nvidia-rtx-kit/</link>
+      <description>2025年 2月 6日开始使用 NVIDIA RTX 套件进行神经渲染神经渲染是计算机图形的下一个时代。通过将神经网络集成到渲染过程中，我们可以在性能、图像质量和交互性方面实现巨大飞跃，4 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA RTX Mega Geometry 现已支持新的 Vulkan 示例程序</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-rtx-mega-geometry-now-available-with-new-vulkan-samples/</link>
+      <description>2025年 2月 6日NVIDIA RTX Mega Geometry 现已支持新的 Vulkan 示例程序在过去 30 年里，计算机图形领域的几何细节呈指数级增长。为了渲染具有更高实例数量和三角形密度的高质量素材，2 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA Grace CPU 与 Arm 软件生态系统集成</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-grace-cpu-integrates-with-the-arm-software-ecosystem/</link>
+      <description>2025年 2月 10日NVIDIA Grace CPU 与 Arm 软件生态系统集成NVIDIA Grace CPU 将节能高效的性能提升到了新的高度，正在改变数据中心的设计。Grace CPU 专为数据中心规模打造，2 MIN READ</description>
+    </item>
+    <item>
+      <title>适用于 RHEL9 的 NVIDIA 开放 GPU 数据中心驱动，由 Red Hat 签署</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-open-gpu-datacenter-drivers-for-rhel9-signed-by-red-hat/</link>
+      <description>2025年 2月 10日适用于 RHEL9 的 NVIDIA 开放 GPU 数据中心驱动，由 Red Hat 签署NVIDIA 和 Red Hat 合作，对 2020 年推出的预编译 NVIDIA Driver 进行持续改进。上个月，NVIDIA 宣布 ，2 MIN READ</description>
+    </item>
+    <item>
+      <title>聚焦：BRLi 和 Toulouse INP 使用 NVIDIA Modulus 开发基于 AI 的洪水模型</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/spotlight-brli-and-toulouse-inp-develop-ai-based-flood-models-using-nvidia-modulus/</link>
+      <description>2025年 2月 11日聚焦：BRLi 和 Toulouse INP 使用 NVIDIA Modulus 开发基于 AI 的洪水模型洪水对 15 亿人构成了重大威胁，使其成为重大自然灾害的最常见原因。洪水每年给全球带来高达 25 亿美元的经济损失。1 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA DGX 云推出即用型模板，更好地评估 AI 平台性能</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-dgx-cloud-introduces-ready-to-use-templates-to-benchmark-ai-platform-performance/</link>
+      <description>2025年 2月 11日NVIDIA DGX 云推出即用型模板，更好地评估 AI 平台性能在快速发展的 AI 系统和工作负载环境中，实现出色的模型训练性能远远超出芯片速度。这需要对整个堆栈进行全面评估，从计算到网络，再到模型框架。2 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 NVIDIA NeMo 框架进行 LLM 模型剪枝和知识蒸馏</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/llm-model-pruning-and-knowledge-distillation-with-nvidia-nemo-framework/</link>
+      <description>2025年 2月 12日使用 NVIDIA NeMo 框架进行 LLM 模型剪枝和知识蒸馏模型剪枝和知识蒸馏是功能强大且经济高效的策略，用于从最初较大的同级获得较小的语言模型。 在一篇“ 如何剪枝和蒸馏 Llama-3.1 8B ”…4 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 NetworkX、Jaccard Similarity 和 cuGraph 预测您下一部最喜欢的电影</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/using-networkx-jaccard-similarity-and-cugraph-to-predict-your-next-favorite-movie/</link>
+      <description>2025年 2月 13日使用 NetworkX、Jaccard Similarity 和 cuGraph 预测您下一部最喜欢的电影随着全球每个人可用的数据量不断增加，消费者做出明智决策的能力也越来越难。幸运的是，对于推荐系统而言，大型数据集是一个非常有用的组件，3 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 DeepSeek-R1 和推理时间缩放实现自动化 GPU 内核生成</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/automating-gpu-kernel-generation-with-deepseek-r1-and-inference-time-scaling/</link>
+      <description>2025年 2月 13日使用 DeepSeek-R1 和推理时间缩放实现自动化 GPU 内核生成随着 AI 模型扩展其功能以解决更复杂的挑战，一种称为“ 测试时扩展 ”或“ 推理时扩展 ”的新扩展法则正在出现。2 MIN READ</description>
     </item>
   </channel>
 </rss>

@@ -6,31 +6,66 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 15 Feb 2025 01:47:20 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Feb 2025 01:55:58 +0000</lastBuildDate>
+    <item>
+      <title>catchorg /Catch2</title>
+      <link>https://github.com/catchorg/Catch2</link>
+      <description>A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)</description>
+    </item>
+    <item>
+      <title>souzatharsis /podcastfy</title>
+      <link>https://github.com/souzatharsis/podcastfy</link>
+      <description>An Open Source Python alternative to NotebookLM's podcast feature: Transforming Multimodal Content into Captivating Multilingual Audio Conversations with GenAI</description>
+    </item>
+    <item>
+      <title>block /goose</title>
+      <link>https://github.com/block/goose</link>
+      <description>an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM</description>
+    </item>
+    <item>
+      <title>cypress-io /cypress</title>
+      <link>https://github.com/cypress-io/cypress</link>
+      <description>Fast, easy and reliable testing for anything that runs in a browser.</description>
+    </item>
     <item>
       <title>GitHubDaily /GitHubDaily</title>
       <link>https://github.com/GitHubDaily/GitHubDaily</link>
       <description>坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.</description>
     </item>
     <item>
-      <title>Oliveriver /5d-diplomacy-with-multiverse-time-travel</title>
-      <link>https://github.com/Oliveriver/5d-diplomacy-with-multiverse-time-travel</link>
-      <description>5D Diplomacy With Multiverse Time Travel</description>
+      <title>tpn /pdfs</title>
+      <link>https://github.com/tpn/pdfs</link>
+      <description>Technically-oriented PDF Collection (Papers, Specs, Decks, Manuals, etc)</description>
     </item>
     <item>
-      <title>microsoft /markitdown</title>
-      <link>https://github.com/microsoft/markitdown</link>
-      <description>Python tool for converting files and office documents to Markdown.</description>
+      <title>codecrafters-io /build-your-own-x</title>
+      <link>https://github.com/codecrafters-io/build-your-own-x</link>
+      <description>Master programming by recreating your favorite technologies from scratch.</description>
     </item>
     <item>
-      <title>go-playground /validator</title>
-      <link>https://github.com/go-playground/validator</link>
-      <description>💯Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving</description>
+      <title>wger-project /wger</title>
+      <link>https://github.com/wger-project/wger</link>
+      <description>Self hosted FLOSS fitness/workout, nutrition and weight tracker</description>
     </item>
     <item>
-      <title>cypress-io /cypress</title>
-      <link>https://github.com/cypress-io/cypress</link>
-      <description>Fast, easy and reliable testing for anything that runs in a browser.</description>
+      <title>nocodb /nocodb</title>
+      <link>https://github.com/nocodb/nocodb</link>
+      <description>🔥 🔥 🔥 Open Source Airtable Alternative</description>
+    </item>
+    <item>
+      <title>pointfreeco /swift-composable-architecture</title>
+      <link>https://github.com/pointfreeco/swift-composable-architecture</link>
+      <description>A library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind.</description>
+    </item>
+    <item>
+      <title>datawhalechina /llm-cookbook</title>
+      <link>https://github.com/datawhalechina/llm-cookbook</link>
+      <description>面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版</description>
+    </item>
+    <item>
+      <title>vercel /ai-chatbot</title>
+      <link>https://github.com/vercel/ai-chatbot</link>
+      <description>A full-featured, hackable Next.js AI chatbot built by Vercel</description>
     </item>
     <item>
       <title>Zipstack /unstract</title>
@@ -43,24 +78,9 @@
       <description>Scira (Formerly MiniPerplx) is a minimalistic AI-powered search engine that helps you find information on the internet. Powered by Vercel AI SDK! Search with models like Grok 2.0.</description>
     </item>
     <item>
-      <title>golang /go</title>
-      <link>https://github.com/golang/go</link>
-      <description>The Go programming language</description>
-    </item>
-    <item>
-      <title>juspay /hyperswitch</title>
-      <link>https://github.com/juspay/hyperswitch</link>
-      <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
-    </item>
-    <item>
-      <title>codecrafters-io /build-your-own-x</title>
-      <link>https://github.com/codecrafters-io/build-your-own-x</link>
-      <description>Master programming by recreating your favorite technologies from scratch.</description>
-    </item>
-    <item>
-      <title>kuchin /awesome-cto</title>
-      <link>https://github.com/kuchin/awesome-cto</link>
-      <description>A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups</description>
+      <title>FujiwaraChoki /MoneyPrinterV2</title>
+      <link>https://github.com/FujiwaraChoki/MoneyPrinterV2</link>
+      <description>Automate the process of making money online.</description>
     </item>
   </channel>
 </rss>

@@ -6,27 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 17 Feb 2025 01:52:27 +0000</lastBuildDate>
-    <item>
-      <title>Top 12 KPIs To Know &amp; Use: Key Performance Indicators Explained</title>
-      <link>https://www.splunk.com/en_us/blog/learn/kpis-key-performance-indicators.html</link>
-      <description>Measuring business operations is critical, but are you measuring the right stuff? Check out these 12 indicator types to inform what you’re measuring.</description>
-    </item>
-    <item>
-      <title>How To Monitor Kubernetes with Splunk Infrastructure Monitoring</title>
-      <link>https://www.splunk.com/en_us/blog/observability/kubernetes-monitoring-splunk.html</link>
-      <description>Monitoring K8s is a must for all organizations. Learn how to monitor Kubernetes with Splunk Infrastructure Monitoring, in this step by step tutorial.</description>
-    </item>
-    <item>
-      <title>What Is a MITM Attack? Man in the Middle Attacks, Explained</title>
-      <link>https://www.splunk.com/en_us/blog/learn/man-in-the-middle-attacks.html</link>
-      <description>In this post, we'll discuss Man in the Middle attack including what a MITM attack is, how it works, and ways to keep your data safe.</description>
-    </item>
-    <item>
-      <title>How Supply Chain Attacks Work: Definition, Types, Security and Prevention</title>
-      <link>https://www.splunk.com/en_us/blog/learn/supply-chain-attacks.html</link>
-      <description>Supply chain attacks exploit trusted third parties and vendors to gain access to compromise the supply chain. Read on to learn more.</description>
-    </item>
+    <lastBuildDate>Tue, 18 Feb 2025 01:48:27 +0000</lastBuildDate>
     <item>
       <title>Cloud Automation Explained</title>
       <link>https://www.splunk.com/en_us/blog/learn/cloud-automation.html</link>
@@ -46,6 +26,26 @@
       <title>Introducing Cloud Monitoring Consoles’s New Overview Dashboard:  Intuitive Actionable Insights at Your Fingertips</title>
       <link>https://www.splunk.com/en_us/blog/platform/splunk-cloud-monitoring-console-overview-dashboard.html</link>
       <description>Splunk's Cloud Monitoring Console (CMC) 3.35.0 introduces a new Overview dashboard, centralizing key metrics, highlighting issues, and offering tools to help admins optimize performance and gain faster insights.</description>
+    </item>
+    <item>
+      <title>Data platform: Definition and how to choose</title>
+      <link>https://www.splunk.com/en_us/blog/learn/data-platform.html</link>
+      <description>Let’s take a deep look at data platforms, including the definition, the benefits and use cases, and how to start building your data strategy.</description>
+    </item>
+    <item>
+      <title>From Setup to Migration: Azure Event Hubs in Data Manager</title>
+      <link>https://www.splunk.com/en_us/blog/platform/azure-event-hubs-setup-migration-splunk-data-manager.html</link>
+      <description>Seamlessly integrate Azure Event Hubs with Splunk Data Manager and enhance your data management with efficient, secure, and scalable solutions.</description>
+    </item>
+    <item>
+      <title>Clara-fication: Data Onboarding Best Practices</title>
+      <link>https://www.splunk.com/en_us/blog/platform/clara-fication-data-onboarding-best-practices.html</link>
+      <description>The Splunk Security Center of Excellence outlines best practices they follow to bring data into Splunk.</description>
+    </item>
+    <item>
+      <title>LLMs vs. SLMs: The Differences in Large &amp; Small Language Models</title>
+      <link>https://www.splunk.com/en_us/blog/learn/language-models-slm-vs-llm.html</link>
+      <description>Today’s language models are powering ChatGPT and other popular AIs. Learn the differences between LLMs and SLMs in this detailed article.</description>
     </item>
     <item>
       <title>Hey SDDL SDDL: Breaking Down Windows Security One ACE at a Time</title>

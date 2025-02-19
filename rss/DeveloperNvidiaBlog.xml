@@ -6,16 +6,16 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 18 Feb 2025 01:48:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2025 01:50:02 +0000</lastBuildDate>
     <item>
       <title>AI 基础模型增强癌症诊断并实现个性化治疗</title>
       <link>https://developer.nvidia.com/zh-cn/blog/ai-foundation-model-enhances-cancer-diagnosis-and-tailors-treatment/</link>
       <description>2025年 2月 4日AI 基础模型增强癌症诊断并实现个性化治疗斯坦福大学研究人员的一项新研究和 AI 模型正在简化癌症诊断、治疗规划和预后预测。这项名为 MUSK (Multimodal…1 MIN READ</description>
     </item>
     <item>
-      <title>借助 NVIDIA Spectrum-X 网络平台和合作伙伴提升 AI 存储速度达48%</title>
+      <title>NVIDIA Spectrum-X 网络平台和合作伙伴提升 AI 存储性能达48%</title>
       <link>https://developer.nvidia.com/zh-cn/blog/accelerating-ai-storage-by-up-to-48-with-nvidia-spectrum-x-networking-platform-and-partners/</link>
-      <description>2025年 2月 4日借助 NVIDIA Spectrum-X 网络平台和合作伙伴提升 AI 存储速度达48%AI 工厂依靠的不仅仅是计算结构。连接 GPU 的东西向网络对于 AI 应用程序性能至关重要，而连接高速存储阵列的存储结构也同样重要。1 MIN READ</description>
+      <description>2025年 2月 4日NVIDIA Spectrum-X 网络平台和合作伙伴提升 AI 存储性能达48%AI 工厂依靠的不仅仅是计算网。当然，连接 GPU 的东西向网络对于 AI 应用的性能至关重要，而连接高速存储阵列的存储网也不容忽视。1 MIN READ</description>
     </item>
     <item>
       <title>利用特定领域的微调和 NVIDIA NIM 提高翻译质量</title>

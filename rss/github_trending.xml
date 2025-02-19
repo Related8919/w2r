@@ -6,51 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 18 Feb 2025 01:48:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2025 01:49:36 +0000</lastBuildDate>
     <item>
-      <title>meshtastic /firmware</title>
-      <link>https://github.com/meshtastic/firmware</link>
-      <description>Meshtastic device firmware</description>
+      <title>lucide-icons /lucide</title>
+      <link>https://github.com/lucide-icons/lucide</link>
+      <description>Beautiful &amp; consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.</description>
     </item>
     <item>
-      <title>GitHubDaily /GitHubDaily</title>
-      <link>https://github.com/GitHubDaily/GitHubDaily</link>
-      <description>坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.</description>
+      <title>danielmiessler /fabric</title>
+      <link>https://github.com/danielmiessler/fabric</link>
+      <description>fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.</description>
     </item>
     <item>
-      <title>outline /outline</title>
-      <link>https://github.com/outline/outline</link>
-      <description>The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.</description>
+      <title>All-Hands-AI /OpenHands</title>
+      <link>https://github.com/All-Hands-AI/OpenHands</link>
+      <description>🙌 OpenHands: Code Less, Make More</description>
     </item>
     <item>
-      <title>hummingbot /hummingbot</title>
-      <link>https://github.com/hummingbot/hummingbot</link>
-      <description>Open source software that helps you create and deploy high-frequency crypto trading bots</description>
-    </item>
-    <item>
-      <title>codecrafters-io /build-your-own-x</title>
-      <link>https://github.com/codecrafters-io/build-your-own-x</link>
-      <description>Master programming by recreating your favorite technologies from scratch.</description>
-    </item>
-    <item>
-      <title>hyprwm /Hyprland</title>
-      <link>https://github.com/hyprwm/Hyprland</link>
-      <description>Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.</description>
-    </item>
-    <item>
-      <title>kuchin /awesome-cto</title>
-      <link>https://github.com/kuchin/awesome-cto</link>
-      <description>A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups</description>
-    </item>
-    <item>
-      <title>Zipstack /unstract</title>
-      <link>https://github.com/Zipstack/unstract</link>
-      <description>No-code LLM Platform to launch APIs and ETL Pipelines to structure unstructured documents</description>
-    </item>
-    <item>
-      <title>cordx56 /rustowl</title>
-      <link>https://github.com/cordx56/rustowl</link>
-      <description>Visualize Ownership and Lifetimes in Rust</description>
+      <title>folke /snacks.nvim</title>
+      <link>https://github.com/folke/snacks.nvim</link>
+      <description>🍿 A collection of QoL plugins for Neovim</description>
     </item>
     <item>
       <title>unionlabs /union</title>
@@ -58,9 +33,44 @@
       <description>The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.</description>
     </item>
     <item>
+      <title>jingyaogong /minimind</title>
+      <link>https://github.com/jingyaogong/minimind</link>
+      <description>🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h!</description>
+    </item>
+    <item>
+      <title>AykutSarac /jsoncrack.com</title>
+      <link>https://github.com/AykutSarac/jsoncrack.com</link>
+      <description>✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.</description>
+    </item>
+    <item>
+      <title>kuchin /awesome-cto</title>
+      <link>https://github.com/kuchin/awesome-cto</link>
+      <description>A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups</description>
+    </item>
+    <item>
+      <title>GitHubDaily /GitHubDaily</title>
+      <link>https://github.com/GitHubDaily/GitHubDaily</link>
+      <description>坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.</description>
+    </item>
+    <item>
+      <title>exo-explore /exo</title>
+      <link>https://github.com/exo-explore/exo</link>
+      <description>Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚</description>
+    </item>
+    <item>
       <title>FujiwaraChoki /MoneyPrinterV2</title>
       <link>https://github.com/FujiwaraChoki/MoneyPrinterV2</link>
       <description>Automate the process of making money online.</description>
+    </item>
+    <item>
+      <title>spf13 /cobra</title>
+      <link>https://github.com/spf13/cobra</link>
+      <description>A Commander for modern Go CLI interactions</description>
+    </item>
+    <item>
+      <title>harry0703 /MoneyPrinterTurbo</title>
+      <link>https://github.com/harry0703/MoneyPrinterTurbo</link>
+      <description>利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</description>
     </item>
     <item>
       <title>microsoft /OmniParser</title>

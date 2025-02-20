@@ -6,16 +6,11 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 19 Feb 2025 01:49:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Feb 2025 01:50:02 +0000</lastBuildDate>
     <item>
-      <title>Rightsize your Memorystore for Redis Clusters with open-source Autoscaler</title>
-      <link>https://cloud.google.com/blog/products/databases/memorystore-cluster-autoscaler-now-on-github</link>
-      <description>DatabasesRightsize your Memorystore for Redis Clusters with open-source AutoscalerBy Henry Bell • 10-minute read</description>
-    </item>
-    <item>
-      <title>Announcing public beta  of Gen AI Toolbox for Databases</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/announcing-gen-ai-toolbox-for-databases-get-started-today</link>
-      <description>AI &amp; Machine LearningAnnouncing public beta  of Gen AI Toolbox for DatabasesBy Hamsa Buvaraghan • 4-minute read</description>
+      <title>BigQuery datasets now available on Google Cloud Marketplace</title>
+      <link>https://cloud.google.com/blog/topics/partners/get-bigquery-datasets-on-google-cloud-marketplace</link>
+      <description>PartnersBigQuery datasets now available on Google Cloud MarketplaceBy Eilbron Meghdies • 6-minute read</description>
     </item>
     <item>
       <title>News you can use: What we announced in AI this month</title>
@@ -28,9 +23,24 @@
       <description>Security &amp; Identity5 ways Google Cloud can help you minimize credential theft riskBy Panos Mavrommatis • 8-minute read</description>
     </item>
     <item>
+      <title>Cybercrime: A Multifaceted National Security Threat</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/cybercrime-multifaceted-national-security-threat</link>
+      <description>Threat IntelligenceCybercrime: A Multifaceted National Security ThreatBy Google Threat Intelligence Group  • 25-minute read</description>
+    </item>
+    <item>
+      <title>Enhance Gemini model security with content filters and system instructions</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/enhance-gemini-model-security-with-content-filters-and-system-instructions</link>
+      <description>AI &amp; Machine LearningEnhance Gemini model security with content filters and system instructionsBy Salah Ahmed • 3-minute read</description>
+    </item>
+    <item>
       <title>ChromeOS Flex: A Valentine’s Gift for Your PC</title>
       <link>https://cloud.google.com/blog/products/chrome-enterprise/chromeos-flex-a-valentines-gift-for-your-pc</link>
       <description>Chrome EnterpriseChromeOS Flex: A Valentine’s Gift for Your PCBy Will Smith • 2-minute read</description>
+    </item>
+    <item>
+      <title>Where’s the beef? For São Paulo’s agricultural secretariat, it’s on Cloud SQL for SQL Server</title>
+      <link>https://cloud.google.com/blog/products/databases/sao-paulo-ranchers-raise-efficiency-with-cloud-sql-for-sql-server</link>
+      <description>DatabasesWhere’s the beef? For São Paulo’s agricultural secretariat, it’s on Cloud SQL for SQL ServerBy Michel Martins da Silva • 6-minute read</description>
     </item>
     <item>
       <title>Accelerate your cloud journey using a well-architected, principles-based framework</title>
@@ -43,19 +53,9 @@
       <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 3-minute read</description>
     </item>
     <item>
-      <title>BigQuery ML is now compatible with open-source gen AI models</title>
-      <link>https://cloud.google.com/blog/products/data-analytics/run-open-source-llms-on-bigquery-ml</link>
-      <description>Data AnalyticsBigQuery ML is now compatible with open-source gen AI modelsBy Vaibhav Sethi • 3-minute read</description>
-    </item>
-    <item>
-      <title>Cloud CISO Perspectives: New AI, cybercrime reports underscore need for security best practices</title>
-      <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-new-ai-cybercrime-reports-underscore-need-security-best-practices</link>
-      <description>Security &amp; IdentityCloud CISO Perspectives: New AI, cybercrime reports underscore need for security best practicesBy Phil Venables • 6-minute read</description>
-    </item>
-    <item>
-      <title>How to use gen AI for better data schema handling, data quality, and data generation</title>
-      <link>https://cloud.google.com/blog/products/data-analytics/how-gemini-in-bigquery-helps-with-data-engineering-tasks</link>
-      <description>Data AnalyticsHow to use gen AI for better data schema handling, data quality, and data generationBy Deb Lee • 9-minute read</description>
+      <title>Deep dive into AI with Google Cloud’s global generative AI roadshow</title>
+      <link>https://cloud.google.com/blog/topics/developers-practitioners/attend-the-google-cloud-genai-roadshow</link>
+      <description>Developers &amp; PractitionersDeep dive into AI with Google Cloud’s global generative AI roadshowBy Christina Lin • 4-minute read</description>
     </item>
   </channel>
 </rss>

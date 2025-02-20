@@ -6,31 +6,31 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 19 Feb 2025 01:49:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Feb 2025 01:49:49 +0000</lastBuildDate>
     <item>
-      <title>lucide-icons /lucide</title>
-      <link>https://github.com/lucide-icons/lucide</link>
-      <description>Beautiful &amp; consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.</description>
+      <title>aidenybai /react-scan</title>
+      <link>https://github.com/aidenybai/react-scan</link>
+      <description>Scan for React performance issues and eliminate slow renders in your app</description>
     </item>
     <item>
-      <title>danielmiessler /fabric</title>
-      <link>https://github.com/danielmiessler/fabric</link>
-      <description>fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.</description>
+      <title>spf13 /cobra</title>
+      <link>https://github.com/spf13/cobra</link>
+      <description>A Commander for modern Go CLI interactions</description>
     </item>
     <item>
-      <title>All-Hands-AI /OpenHands</title>
-      <link>https://github.com/All-Hands-AI/OpenHands</link>
-      <description>🙌 OpenHands: Code Less, Make More</description>
+      <title>golang-standards /project-layout</title>
+      <link>https://github.com/golang-standards/project-layout</link>
+      <description>Standard Go Project Layout</description>
     </item>
     <item>
-      <title>folke /snacks.nvim</title>
-      <link>https://github.com/folke/snacks.nvim</link>
-      <description>🍿 A collection of QoL plugins for Neovim</description>
+      <title>datawhalechina /llm-universe</title>
+      <link>https://github.com/datawhalechina/llm-universe</link>
+      <description>本项目是一个面向小白开发者的大模型应用开发教程，在线阅读地址：https://datawhalechina.github.io/llm-universe/</description>
     </item>
     <item>
-      <title>unionlabs /union</title>
-      <link>https://github.com/unionlabs/union</link>
-      <description>The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.</description>
+      <title>outline /outline</title>
+      <link>https://github.com/outline/outline</link>
+      <description>The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.</description>
     </item>
     <item>
       <title>jingyaogong /minimind</title>
@@ -38,14 +38,9 @@
       <description>🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h!</description>
     </item>
     <item>
-      <title>AykutSarac /jsoncrack.com</title>
-      <link>https://github.com/AykutSarac/jsoncrack.com</link>
-      <description>✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.</description>
-    </item>
-    <item>
-      <title>kuchin /awesome-cto</title>
-      <link>https://github.com/kuchin/awesome-cto</link>
-      <description>A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups</description>
+      <title>hummingbot /hummingbot</title>
+      <link>https://github.com/hummingbot/hummingbot</link>
+      <description>Open source software that helps you create and deploy high-frequency crypto trading bots</description>
     </item>
     <item>
       <title>GitHubDaily /GitHubDaily</title>
@@ -63,14 +58,29 @@
       <description>Automate the process of making money online.</description>
     </item>
     <item>
-      <title>spf13 /cobra</title>
-      <link>https://github.com/spf13/cobra</link>
-      <description>A Commander for modern Go CLI interactions</description>
+      <title>cordx56 /rustowl</title>
+      <link>https://github.com/cordx56/rustowl</link>
+      <description>Visualize Ownership and Lifetimes in Rust</description>
+    </item>
+    <item>
+      <title>docmost /docmost</title>
+      <link>https://github.com/docmost/docmost</link>
+      <description>Docmost is an open-source collaborative wiki and documentation software. It is an open-source alternative to Confluence and Notion.</description>
+    </item>
+    <item>
+      <title>unionlabs /union</title>
+      <link>https://github.com/unionlabs/union</link>
+      <description>The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.</description>
     </item>
     <item>
       <title>harry0703 /MoneyPrinterTurbo</title>
       <link>https://github.com/harry0703/MoneyPrinterTurbo</link>
       <description>利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</description>
+    </item>
+    <item>
+      <title>danielmiessler /fabric</title>
+      <link>https://github.com/danielmiessler/fabric</link>
+      <description>fabric is an open-source framework for augmenting humans using AI. It provides a modular framework for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.</description>
     </item>
     <item>
       <title>microsoft /OmniParser</title>

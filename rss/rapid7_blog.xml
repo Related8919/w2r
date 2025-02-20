@@ -6,17 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 19 Feb 2025 01:49:35 +0000</lastBuildDate>
-    <item>
-      <title>The 2024 Ransomware Landscape: Looking back on another painful year</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/27/the-2024-ransomware-landscape-looking-back-on-another-painful-year/</link>
-      <description>In this post, we’ll examine the latest data points, discuss notable groups, and estimate the potential impact on victims — helping security teams plan their defenses for the months ahead.</description>
-    </item>
-    <item>
-      <title>Paying It Forward: Giving and Receiving Mentorship in Tech</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/30/paying-it-forward-giving-and-receiving-mentorship-in-tech/</link>
-      <description>This post was adapted from the Northern Ireland Developer Conference 2024 talk of the same name.</description>
-    </item>
+    <lastBuildDate>Thu, 20 Feb 2025 01:49:48 +0000</lastBuildDate>
     <item>
       <title>Metasploit Weekly Wrap-Up 01/31/25</title>
       <link>https://www.rapid7.com/blog/post/2025/01/31/metasploit-weekly-wrap-up-01-31-25/</link>
@@ -105,6 +95,16 @@ AttackerKB reference: CVE-2024-46506
 
 
 Description: A new module for an unauthenticated remote code execution bug i</description>
+    </item>
+    <item>
+      <title>Rapid7 Fills Gaps in the CVE Assessment Process with AI-Generated Vulnerability Scoring in Exposure Command</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/19/rapid7-fills-gaps-in-the-cve-assessment-process-with-ai-generated-vulnerability-scoring-in-exposure-command/</link>
+      <description>To address this widening gap in vulnerability scoring and ensure our customers are making informed decisions with the most accurate understanding of their current risk posture we’re excited to announce the release of AI-Generated Risk Scoring in Exposure Command.</description>
+    </item>
+    <item>
+      <title>Take Command | Rapid7’s 2025 Cybersecurity Summit: First Look at Our Speaker Lineup</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/19/take-command-rapid7s-2025-cybersecurity-summit-first-look-at-our-speaker-lineup/</link>
+      <description>Take Command Summit 2025 takes place on April 9, 2025, as a fully virtual, one-day event. Don’t miss the opportunity to hear from industry leaders, engage with Rapid7 experts, and walk away with actionable security strategies.</description>
     </item>
   </channel>
 </rss>

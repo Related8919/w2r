@@ -12,7 +12,7 @@
 	<atom:link href="https://www.microsoft.com/en-us/research/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.microsoft.com/en-us/research/</link>
 	<description></description>
-	<lastBuildDate>Wed, 19 Feb 2025 18:50:25 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 20 Feb 2025 15:44:26 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,115 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.7.2</generator>
 	<item>
+		<title>Exploring the structural changes driving protein function with BioEmu-1</title>
+		<link>https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/</link>
+		
+		<dc:creator><![CDATA[Sarah Lewis, Tim Hempel, Jose Jimenez-Luna, Michael Gastegger, Yu Xie, Victor García Satorras, Osama Abdin, Bas Veeling, Ryota Tomioka, Frank Noé]]></dc:creator>
+		<pubDate>Thu, 20 Feb 2025 15:13:22 +0000</pubDate>
+				<category><![CDATA[Research Blog]]></category>
+		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1129428</guid>
+
+					<description><![CDATA[<p>Meet BioEmu-1 from Microsoft Research. This deep learning model can generate thousands of protein structures per hour, unlocking new possibilities for protein scientists and drug discovery and research.</p>
+<p>The post <a href="https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/">Exploring the structural changes driving protein function with BioEmu-1</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1.jpg" alt="The image shows eight different 3D models of protein structures. Each model is color-coded with various segments in blue, green, orange, and other colors to highlight different parts of the protein." class="wp-image-1130742" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+
+
+
+<p>From forming muscle fibers to protecting us from disease,&nbsp;proteins play an essential role in almost all biological processes in humans and other life forms alike. There has been extraordinary progress in recent years toward better understanding protein structures using deep learning, enabling the accurate prediction of protein structures&nbsp;from their amino acid sequences. However, predicting a single protein structure from its amino acid sequence is like looking at a single frame of a movie—it offers only a snapshot of a highly flexible molecule. Biomolecular Emulator-1 (BioEmu-1) is a deep-learning model that provides scientists with a glimpse into the rich world of different structures each protein can adopt, or <em>structural ensembles</em>, bringing us a step closer to understanding how proteins work. A deeper understanding of proteins enables us to design more effective drugs, as many medications work by influencing protein structures to boost their function or prevent them from causing harm.</p>
+
+
+
+<p>One way to model different protein structures is through molecular dynamics (MD) simulations. These tools simulate how proteins move and deform over time and are widely used in academia and industry. However, in order to simulate functionally important changes in structure, MD simulations must be run for a long time. This is a computationally demanding task and significant effort has been put into accelerating simulations, going as far as <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://dl.acm.org/doi/10.1145/3458817.3487397" target="_blank" rel="noreferrer noopener">designing custom computer architectures<span class="sr-only"> (opens in new tab)</span></a>. Yet, even with these improvements, many proteins remain beyond what is currently possible to simulate and would require simulation times of years or even decades.&nbsp;</p>
+
+
+
+<p>Enter <a href="https://www.microsoft.com/en-us/research/publication/scalable-emulation-of-protein-equilibrium-ensembles-with-generative-deep-learning/" target="_blank" rel="noreferrer noopener">BioEmu-1<span class="sr-only"> (opens in new tab)</span></a>—a deep learning model that can generate thousands of protein structures per hour on a single graphics processing unit. Today, we are making BioEmu-1 <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/bioemu" target="_blank" rel="noreferrer noopener">open-source<span class="sr-only"> (opens in new tab)</span></a>, following our <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.biorxiv.org/content/10.1101/2024.12.05.626885v1" target="_blank" rel="noreferrer noopener">preprint<span class="sr-only"> (opens in new tab)</span></a> from last December, to empower protein scientists in studying structural ensembles with our model. It provides orders of magnitude greater computational efficiency compared to classical MD simulations, thereby opening the door to insights that have, until now, been out of reach. BioEmu-1 is featured in <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://ai.azure.com/labs" target="_blank" rel="noreferrer noopener">Azure AI Foundry Labs<span class="sr-only"> (opens in new tab)</span></a>, a hub for developers, startups, and enterprises to explore groundbreaking innovations from research at Microsoft.</p>
+
+
+
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085508">
+		
+
+		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
+	</p>
+	
+	<div class="row pt-3 pb-4 align-items-center">
+						<div class="msr-promo__media col-12 col-md-5">
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" aria-label="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/MedFuzz-BlogHeroFeature-1400x788-1.jpg" alt="MedFuzz blog hero (decorative)" />
+				</a>
+			</div>
+			
+			<div class="msr-promo__content p-3 px-5 col-12 col-md">
+
+									<h2 class="h4">MedFuzz: Exploring the robustness of LLMs on medical challenge problems</h2>
+				
+								<p class="large">Medfuzz tests LLMs by breaking benchmark assumptions, exposing vulnerabilities to bolster real-world accuracy.</p>
+				
+								<div class="wp-block-buttons justify-content-center justify-content-md-start">
+					<div class="wp-block-button">
+						<a href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
+							Read more						</a>
+					</div>
+				</div>
+							</div><!--/.msr-promo__content-->
+	</div><!--/.msr-promo__inner-wrap-->
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
+	
+
+
+<p>We have enabled this by training BioEmu-1 on three types of data sets: (1) <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://alphafold.com/" target="_blank" rel="noreferrer noopener">AlphaFold Database (AFDB)<span class="sr-only"> (opens in new tab)</span></a> structures (2) an extensive MD simulation dataset, and (3) an experimental <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.nature.com/articles/s41586-023-06328-6" target="_blank" rel="noreferrer noopener">protein folding stability dataset<span class="sr-only"> (opens in new tab)</span></a>. Training BioEmu-1 on the AFDB structures is like mapping distinct islands in a vast ocean of possible structures. When preparing this dataset, we clustered similar protein sequences so that BioEmu-1 can recognize that a protein sequence maps to multiple distinct structures. The MD simulation dataset helps BioEmu-1 predict physically plausible structural changes around these islands, mapping out the plethora of possible structures that a single protein can adopt. Finally, through fine-tuning on the protein folding stability dataset, BioEmu-1 learns to sample folded and unfolded structures with the right probabilities.</p>
+
+
+
+<figure class="wp-block-video aligncenter"><video controls src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-1.mov"></video><figcaption class="wp-element-caption">Figure 1: BioEmu-1 predicts diverse structures of LapD protein unseen during training. We sampled structures independently and reordered the samples to create a movie connecting two experimentally known structures.</figcaption></figure>
+
+
+
+<p>Combining these advances, BioEmu-1 successfully generalizes to unseen protein sequences and predicts multiple structures. In Figure 1, we show that BioEmu-1can predict structures of the <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://journals.asm.org/doi/10.1128/mbio.02822-19" target="_blank" rel="noreferrer noopener">LapD protein<span class="sr-only"> (opens in new tab)</span></a> from <em>Vibrio cholerae</em> bacteria, which&nbsp;causes cholera.&nbsp;BioEmu-1 predicts structures of LapD when it is bound and unbound with c-di-GMP molecules, both of which are experimentally known but not in the training set.&nbsp;Furthermore, our model offers a view on intermediate structures, which have never been experimentally observed, providing viable hypotheses about how this protein functions. Insights into how proteins function pave the way for further advancements in areas like drug development.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" width="1024" height="742" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-1024x742.png" alt="The figure compares Molecular Dynamics (MD) simulation and BioEmu-1, and shows that BioEmu-1 can emulate the equilibrium distribution 100,000 times faster than running a MD simulation to full convergence. The middle part of the figure shows that the 2D projections of the structure distributions obtained from MD simulation and BioEmu-1 are nearly identical. The bottom part of the figure shows three representative structures from the equilibrium distribution." class="wp-image-1129455" style="width:530px;height:auto" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-1024x742.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-300x217.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-768x557.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-1536x1113.png 1536w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-240x174.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2.png 1736w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Figure 2: BioEmu-1 reproduces the D. E. Shaw research&nbsp;(DESRES) simulation of Protein G accurately with a fraction of the computational cost. On the top, we compare the distributions of structures obtained by extensive MD simulation (left) and independent sampling from BioEmu-1 (right). Three representative sample structures are shown at the bottom.</figcaption></figure>
+
+
+
+<p>Moreover, BioEmu-1 reproduces MD equilibrium distributions accurately with a tiny fraction of the computational cost. In Figure 2, we compare 2D projections of the structural distribution of <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.science.org/doi/10.1126/science.1208351" target="_blank" rel="noreferrer noopener">D. E. Shaw research (DESRES) simulation of Protein G<span class="sr-only"> (opens in new tab)</span></a> and samples from BioEmu-1. BioEmu-1 reproduces the MD distribution accurately, while requiring 10,000-100,000 times fewer GPU hours.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" width="1024" height="490" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-1024x490.png" alt="The left panel of the figure shows a scatter plot of the experimental folding free energies ΔG against those predicted by BioEmu-1. The plot shows a good correlation between the two. The right panel of the figure shows folded and unfolded structures of a protein." class="wp-image-1129461" style="width:662px;height:auto" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-1024x490.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-300x144.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-768x368.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-1536x736.png 1536w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-240x115.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3.png 1750w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Figure 3: BioEmu-1 accurately predicts protein stability. On the left, we plot the experimentally measured free energy differences ΔG against those predicted by BioEmu-1. On the right, we show a protein in folded and unfolded structures.</figcaption></figure>
+
+
+
+<p>Furthermore, BioEmu-1 accurately predicts protein stability, which we measure by computing the folding free energies—a way to quantify the ratio between the folded and unfolded states of a protein. Protein stability is an important factor when designing proteins, e.g., for therapeutic purposes. Figure 3 shows the folding free energies predicted by BioEmu-1, obtained by sampling protein structures and counting folded versus unfolded protein structures, compared against experimental folding free energy measurements. We see that even on sequences that BioEmu-1 has never seen during training, the predicted free energy values correlate well with experimental values.</p>
+
+
+
+<p>Professor <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://steineggerlab.com/en/" target="_blank" rel="noreferrer noopener">Martin Steinegger<span class="sr-only"> (opens in new tab)</span></a> of Seoul National University, who was not part of the study, says &#8220;With highly accurate structure prediction, protein dynamics is the next frontier in discovery. BioEmu marks a significant step in this direction by enabling blazing-fast sampling of the free-energy landscape of proteins through generative deep learning.”</p>
+
+
+
+<p>We believe that BioEmu-1 is a first step toward generating the full ensemble of structures that a protein can take. In these early days, we are also aware of its limitations. With this open-source release, we hope scientists will start experimenting with BioEmu-1, helping us carve out its potentials and shortcomings so we can improve it in the future. We are looking forward to hearing how it performs on various&nbsp;proteins you care about.</p>
+
+
+
+<h2 class="wp-block-heading" id="acknowledgements">Acknowledgements</h2>
+
+
+
+<p>BioEmu-1 is the result of highly collaborative team effort at Microsoft Research <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-ai-for-science/">AI for Science</a>. The full authors: <a href="https://www.microsoft.com/en-us/research/people/sarahlewis/">Sarah Lewis</a>, <a href="https://www.microsoft.com/en-us/research/people/timhempel/">Tim Hempel</a>, <a href="https://www.microsoft.com/en-us/research/people/jjimenezluna/">José Jiménez-Luna</a>, <a href="https://www.microsoft.com/en-us/research/people/mgastegger/">Michael Gastegger</a>, <a href="https://www.microsoft.com/en-us/research/people/yuxie1/">Yu Xie</a>, Andrew Y. K. Foong, <a href="https://www.microsoft.com/en-us/research/people/victorgar/">Victor García Satorras</a>, Osama Abdin, <a href="https://www.microsoft.com/en-us/research/people/basveeling/">Bastiaan S. Veeling</a>, Iryna Zaporozhets, Yaoyi Chen, Soojung Yang, Arne Schneuing, Jigyasa Nigam, Federico Barbero, Vincent Stimper, Andrew Campbell, Jason Yim, Marten Lienen, <a href="https://www.microsoft.com/en-us/research/people/yuxie1/">Yu Shi</a>, Shuxin Zheng, <a href="https://www.microsoft.com/en-us/research/people/haschulz/">Hannes Schulz</a>, <a href="https://www.microsoft.com/en-us/research/people/munirusman/">Usman Munir</a>, <a href="https://www.microsoft.com/en-us/research/people/ryoto/">Ryota Tomioka</a>, Cecilia Clementi, <a href="https://www.microsoft.com/en-us/research/people/franknoe/">Frank Noé</a></p>
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/">Exploring the structural changes driving protein function with BioEmu-1</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></content:encoded>
+					
+		
+		<enclosure url="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-1.mov" length="20730985" type="video/quicktime" />
+
+			</item>
+		<item>
 		<title>Introducing Muse: Our first generative AI model designed for gameplay ideation</title>
 		<link>https://www.microsoft.com/en-us/research/blog/introducing-muse-our-first-generative-ai-model-designed-for-gameplay-ideation/</link>
 		
@@ -32,7 +141,7 @@
 <p>The post <a href="https://www.microsoft.com/en-us/research/blog/introducing-muse-our-first-generative-ai-model-designed-for-gameplay-ideation/">Introducing Muse: Our first generative AI model designed for gameplay ideation</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1.jpg" alt="Three white gaming icons on a green and blue gradient background." class="wp-image-1124868" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1.jpg" alt="Three white gaming icons on a green and blue gradient background." class="wp-image-1124868" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WHAM-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
 
 
 
@@ -49,11 +158,11 @@
 
 
 <div class="wp-block-group is-style-default is-layout-grid wp-container-core-group-is-layout-1 wp-block-group-is-layout-grid">
-<figure class="wp-block-image size-full"><img decoding="async" width="300" height="180" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/wham_gen_1.gif" alt="10 seconds video generated by Muse. The character Gizmo from the game Bleeding Edge is attacking an enemy player, jumps forward, and then turns around." class="wp-image-1127328"/></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="300" height="180" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/wham_gen_1.gif" alt="10 seconds video generated by Muse. The character Gizmo from the game Bleeding Edge is attacking an enemy player, jumps forward, and then turns around." class="wp-image-1127328"/></figure>
 
 
 
-<figure class="wp-block-image size-full"><img decoding="async" width="300" height="180" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/wham_gen_2.gif" alt="10 seconds video generated by Muse. The character Daemon from the game Bleeding Edge destroys a Cannister, and then collects the Power Cell within. Daemon then mounts their hoverboard and moves towards another set of Cannisters to destroy them." class="wp-image-1127325"/></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="300" height="180" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/wham_gen_2.gif" alt="10 seconds video generated by Muse. The character Daemon from the game Bleeding Edge destroys a Cannister, and then collects the Power Cell within. Daemon then mounts their hoverboard and moves towards another set of Cannisters to destroy them." class="wp-image-1127325"/></figure>
 
 
 
@@ -1909,29 +2018,29 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1116360">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085508">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft Research Blog</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/story/microsoft-research-2024-a-year-in-review/" aria-label="Research at Microsoft 2024: Meeting the challenge of a changing world" data-bi-cN="Research at Microsoft 2024: Meeting the challenge of a changing world" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/Year-in-review-2024_Stories_Hero_Feature-1400x788-1.jpg" alt="Research at Microsoft 2024 - Year in Review" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" aria-label="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/MedFuzz-BlogHeroFeature-1400x788-1.jpg" alt="MedFuzz blog hero (decorative)" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Research at Microsoft 2024: Meeting the challenge of a changing world</h2>
+									<h2 class="h4">MedFuzz: Exploring the robustness of LLMs on medical challenge problems</h2>
 				
-								<p class="large">In this new AI era, technology is changing even faster than before, and the transition from research to reality, from concept to solution, now takes days or weeks rather than months or years.</p>
+								<p class="large">Medfuzz tests LLMs by breaking benchmark assumptions, exposing vulnerabilities to bolster real-world accuracy.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/story/microsoft-research-2024-a-year-in-review/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="Research at Microsoft 2024: Meeting the challenge of a changing world" target="_blank">
+						<a href="https://www.microsoft.com/en-us/research/blog/medfuzz-exploring-the-robustness-of-llms-on-medical-challenge-problems/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="MedFuzz: Exploring the robustness of LLMs on medical challenge problems" target="_blank">
 							Read more						</a>
 					</div>
 				</div>
@@ -2071,30 +2180,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1044939">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085496">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">on-demand event</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/story/sep-2024-brief/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum Episode 4" data-bi-cN="Microsoft Research Forum Episode 4" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/08/RF4_Panel_1400x788.jpg" alt="Research Forum | Episode 4 Panel | John Langford, Hoifung Poon, Katja Hofmann, Jianwei Yang" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" aria-label="Eureka: Evaluating and understanding progress in AI" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/NEWEureka-2024-BlogHeroFeature-1400x788-1-66e90c195464d.jpg" alt="White icons representing the Eureka Experiment Pipeline -- PromptProcessing, Inference, PromptProcessing, Inference, DataProcessing, EvalReporting -- on blue to green gradient background." />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Microsoft Research Forum Episode 4</h2>
+									<h2 class="h4">Eureka: Evaluating and understanding progress in AI</h2>
 				
-								<p class="large">Learn about the latest multimodal AI models, advanced benchmarks for AI evaluation and model self-improvement, and an entirely new kind of computer for AI inference and hard optimization. </p>
+								<p class="large">How can we rigorously evaluate and understand state-of-the-art progress in AI? Eureka is an open-source framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. Learn more about the extended findings. </p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/story/sep-2024-brief/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum Episode 4" target="_blank">
-							Watch on-demand						</a>
+						<a href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
+							Read more						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -3178,7 +3287,7 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085526">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085520">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
@@ -3187,20 +3296,20 @@
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" aria-label="What’s Your Story: Lex Story" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/08/Lex-Story_WYS_Hero_Feature_1400x788.jpg" alt="photo of Lex Story for the What's Your Story episode of the Microsoft Research podcast" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/collaborators-silica-in-space-with-richard-black-and-dexter-greene/" aria-label="Collaborators: Silica in space with Richard Black and Dexter Greene" data-bi-cN="Collaborators: Silica in space with Richard Black and Dexter Greene" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/Richard-and-Dexter_Collaborators_Hero_Feature_No_Text_1400x788-1.jpg" alt="Headshots of Richard Black and Dexter Greene for the Microsoft Research Podcast" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">What’s Your Story: Lex Story</h2>
+									<h2 class="h4">Collaborators: Silica in space with Richard Black and Dexter Greene</h2>
 				
-								<p class="large">Model maker and fabricator Lex Story helps bring research to life through prototyping. He discusses his take on failure; the encouragement and advice that has supported his pursuit of art and science; and the sabbatical that might inspire his next career move.</p>
+								<p class="large">College freshman Dexter Greene and Microsoft research manager Richard Black discuss how technology that stores data in glass is supporting students as they expand earlier efforts to communicate what it means to be human to extraterrestrials.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
+						<a href="https://www.microsoft.com/en-us/research/podcast/collaborators-silica-in-space-with-richard-black-and-dexter-greene/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="Collaborators: Silica in space with Richard Black and Dexter Greene" target="_blank">
 							Listen now						</a>
 					</div>
 				</div>
@@ -3298,411 +3407,6 @@
 
 	</div>
 <span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/research-focus-week-of-january-13-2025/">Research Focus: Week of January 13, 2025</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Ideas: AI for materials discovery with Tian Xie and Ziheng Lu</title>
-		<link>https://www.microsoft.com/en-us/research/podcast/ideas-ai-for-materials-discovery-with-tian-xie-and-ziheng-lu/</link>
-		
-		<dc:creator><![CDATA[Lindsay Kalter, Ziheng Lu, Tian Xie]]></dc:creator>
-		<pubDate>Thu, 16 Jan 2025 10:12:46 +0000</pubDate>
-				<category><![CDATA[Microsoft Research Podcast]]></category>
-		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1120956</guid>
-
-					<description><![CDATA[<p>How do you generate and test materials that don’t exist yet? Researchers Tian Xie and Ziheng Lu share the story behind MatterGen and MatterSim, AI tools poised to transform materials discovery and help drive advances in energy, manufacturing, and sustainability.</p>
-<p>The post <a href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-for-materials-discovery-with-tian-xie-and-ziheng-lu/">Ideas: AI for materials discovery with Tian Xie and Ziheng Lu</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788.jpg" alt="Ideas podcast | illustration of Tian Xie and Ziheng Lu" class="wp-image-1120947" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/Tian-Ziheng_Abstracts_Hero_Feature_No_Text_1400x788-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
-
-
-<div class="wp-block-msr-podcast-container my-4">
-	<iframe loading="lazy" src="https://player.blubrry.com/?podcast_id=141011047&modern=1" class="podcast-player" frameborder="0" height="164px" width="100%" scrolling="no" title="Podcast Player"></iframe>
-</div>
-
-
-
-<p>Behind every emerging technology is a great idea propelling it forward. In the Microsoft Research Podcast series <em>Ideas</em>, members of the research community at Microsoft discuss the beliefs that animate their research, the experiences and thinkers that inform it, and the positive human impact it targets.&nbsp;</p>
-
-
-
-<p>In this episode, guest host Lindsay Kalter talks with Principal Research Manager <a href="https://www.microsoft.com/en-us/research/people/tianxie/?msockid=35739e94ab6c69d41b738b93aa076831" target="_blank" rel="noreferrer noopener">Tian Xie</a> and Principal Researcher <a href="https://www.microsoft.com/en-us/research/people/zihenglu/?msockid=35739e94ab6c69d41b738b93aa076831" target="_blank" rel="noreferrer noopener">Ziheng Lu</a> about their groundbreaking AI tools for materials discovery. Xie introduces MatterGen, which can generate new materials tailored to the specific needs of an application, such as materials with powerful magnetic properties or those that efficiently conduct lithium ions for better batteries. Lu explains how MatterSim accelerates simulations to&nbsp;validate and refine these discoveries. Together, these tools act as a “copilot” for scientists, proposing creative hypotheses and exploring vast material spaces far beyond traditional methods. The conversation highlights the challenges of bridging AI and experimental science and the potential of these tools to drive advancements in energy, manufacturing, and sustainability. At the cutting edge of AI research, Xie and Lu share their vision for the future of materials design and how these technologies could transform the field.</p>
-
-
-
-<p><strong>Learn more:</strong></p>
-
-
-
-<p><a href="https://www.microsoft.com/en-us/research/blog/mattersim-a-deep-learning-model-for-materials-under-real-world-conditions/" target="_blank" rel="noreferrer noopener">MatterSim: A deep-learning model for materials under real-world conditions</a>&nbsp;<br>Microsoft Research blog, May 2024&nbsp;</p>
-
-
-
-<p><a href="https://www.microsoft.com/en-us/research/publication/mattersim-a-deep-learning-atomistic-model-across-elements-temperatures-and-pressures/" target="_blank" rel="noreferrer noopener">MatterSim: A Deep Learning Atomistic Model Across Elements, Temperatures and Pressures</a>&nbsp;<br>Publication, March 2024&nbsp;</p>
-
-
-
-<p><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/mattersim" target="_blank" rel="noreferrer noopener">MatterSim<span class="sr-only"> (opens in new tab)</span></a>&nbsp;<br>GitHub repo&nbsp;</p>
-
-
-
-<p><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.nature.com/articles/s41586-025-08628-5" target="_blank" rel="noreferrer noopener">A generative model for inorganic materials design<span class="sr-only"> (opens in new tab)</span></a>&nbsp;<br>Publication, January 2025&nbsp;</p>
-
-
-
-<p><a href="https://www.microsoft.com/en-us/research/articles/mattergen-a-generative-model-for-materials-design/" target="_blank" rel="noreferrer noopener">MatterGen: A Generative Model for Materials Design</a>&nbsp;<br>Video, Microsoft Research Forum, June 2024&nbsp;</p>
-
-
-
-<p><a href="https://www.microsoft.com/en-us/research/blog/mattergen-property-guided-materials-design/" target="_blank" rel="noreferrer noopener">MatterGen: Property-guided materials design</a>&nbsp;<br>Microsoft Research blog, December 2023&nbsp;</p>
-
-
-
-<p><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/mattergen" target="_blank" rel="noreferrer noopener">MatterGen<span class="sr-only"> (opens in new tab)</span></a>&nbsp;<br>GitHub repo&nbsp;</p>
-
-
-
-<p><a href="https://www.microsoft.com/en-us/research/publication/crystal-diffusion-variational-autoencoder-for-periodic-material-generation/" target="_blank" rel="noreferrer noopener">Crystal Diffusion Variational Autoencoder for Periodic Material Generation</a>&nbsp;<br>Publication, October 2021</p>
-
-
-
-<p><a href="https://www.microsoft.com/en-us/research/publication/crystal-graph-convolutional-neural-networks-for-an-accurate-and-interpretable-prediction-of-material-properties/" target="_blank" rel="noreferrer noopener">Crystal Graph Convolutional Neural Networks for an Accurate and Interpretable Prediction of Material Properties</a><br>Publication, April 2018</p>
-
-
-
-<section class="wp-block-msr-subscribe-to-podcast subscribe-to-podcast">
-	<div class="subscribe-to-podcast__inner border-top border-bottom border-width-2">
-		<h2 class="h5 subscribe-to-podcast__heading">
-			Subscribe to the <a href="https://www.microsoft.com/en-us/research/podcast">Microsoft Research Podcast</a>:		</h2>
-		<ul class="subscribe-to-podcast__list list-unstyled">
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://itunes.apple.com/us/podcast/microsoft-research-a-podcast/id1318021537?mt=2" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 32 32">  <path d="M7.12 0c-3.937-0.011-7.131 3.183-7.12 7.12v17.76c-0.011 3.937 3.183 7.131 7.12 7.12h17.76c3.937 0.011 7.131-3.183 7.12-7.12v-17.76c0.011-3.937-3.183-7.131-7.12-7.12zM15.817 3.421c3.115 0 5.932 1.204 8.079 3.453 1.631 1.693 2.547 3.489 3.016 5.855 0.161 0.787 0.161 2.932 0.009 3.817-0.5 2.817-2.041 5.339-4.317 7.063-0.812 0.615-2.797 1.683-3.115 1.683-0.12 0-0.129-0.12-0.077-0.615 0.099-0.792 0.192-0.953 0.64-1.141 0.713-0.296 1.932-1.167 2.677-1.911 1.301-1.303 2.229-2.932 2.677-4.719 0.281-1.1 0.244-3.543-0.063-4.672-0.969-3.595-3.907-6.385-7.5-7.136-1.041-0.213-2.943-0.213-4 0-3.636 0.751-6.647 3.683-7.563 7.371-0.245 1.004-0.245 3.448 0 4.448 0.609 2.443 2.188 4.681 4.255 6.015 0.407 0.271 0.896 0.547 1.1 0.631 0.447 0.192 0.547 0.355 0.629 1.14 0.052 0.485 0.041 0.62-0.072 0.62-0.073 0-0.62-0.235-1.199-0.511l-0.052-0.041c-3.297-1.62-5.407-4.364-6.177-8.016-0.187-0.943-0.224-3.187-0.036-4.052 0.479-2.323 1.396-4.135 2.921-5.739 2.199-2.319 5.027-3.543 8.172-3.543zM16 7.172c0.541 0.005 1.068 0.052 1.473 0.14 3.715 0.828 6.344 4.543 5.833 8.229-0.203 1.489-0.713 2.709-1.619 3.844-0.448 0.573-1.537 1.532-1.729 1.532-0.032 0-0.063-0.365-0.063-0.803v-0.808l0.552-0.661c2.093-2.505 1.943-6.005-0.339-8.296-0.885-0.896-1.912-1.423-3.235-1.661-0.853-0.161-1.031-0.161-1.927-0.011-1.364 0.219-2.417 0.744-3.355 1.672-2.291 2.271-2.443 5.791-0.348 8.296l0.552 0.661v0.813c0 0.448-0.037 0.807-0.084 0.807-0.036 0-0.349-0.213-0.683-0.479l-0.047-0.016c-1.109-0.885-2.088-2.453-2.495-3.995-0.244-0.932-0.244-2.697 0.011-3.625 0.672-2.505 2.521-4.448 5.079-5.359 0.547-0.193 1.509-0.297 2.416-0.281zM15.823 11.156c0.417 0 0.828 0.084 1.131 0.24 0.645 0.339 1.183 0.989 1.385 1.677 0.62 2.104-1.609 3.948-3.631 3.005h-0.015c-0.953-0.443-1.464-1.276-1.475-2.36 0-0.979 0.541-1.828 1.484-2.328 0.297-0.156 0.709-0.235 1.125-0.235zM15.812 17.464c1.319-0.005 2.271 0.463 2.625 1.291 0.265 0.62 0.167 2.573-0.292 5.735-0.307 2.208-0.479 2.765-0.905 3.141-0.589 0.52-1.417 0.667-2.209 0.385h-0.004c-0.953-0.344-1.157-0.808-1.553-3.527-0.452-3.161-0.552-5.115-0.285-5.735 0.348-0.823 1.296-1.285 2.624-1.291z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Apple Podcasts</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://subscribebyemail.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.4 6a2.392 2.392 0 00-2.372 2.119L16 15.6l11.972-7.481A2.392 2.392 0 0025.6 6H6.4zM4 10.502V22.8a2.4 2.4 0 002.4 2.4h19.2a2.4 2.4 0 002.4-2.4V10.502l-11.365 7.102a1.2 1.2 0 01-1.27 0L4 10.502z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Email</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://subscribeonandroid.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M12.414 4.02c-.062.012-.126.023-.18.06a.489.489 0 00-.12.675L13.149 6.3c-1.6.847-2.792 2.255-3.18 3.944h13.257c-.388-1.69-1.58-3.097-3.179-3.944l1.035-1.545a.489.489 0 00-.12-.675.492.492 0 00-.675.135l-1.14 1.68a7.423 7.423 0 00-2.55-.45c-.899 0-1.758.161-2.549.45l-1.14-1.68a.482.482 0 00-.494-.195zm1.545 3.824a.72.72 0 110 1.44.72.72 0 010-1.44zm5.278 0a.719.719 0 110 1.44.719.719 0 110-1.44zM8.44 11.204A1.44 1.44 0 007 12.644v6.718c0 .795.645 1.44 1.44 1.44.168 0 .33-.036.48-.09v-9.418a1.406 1.406 0 00-.48-.09zm1.44 0V21.76c0 .793.646 1.44 1.44 1.44h10.557c.793 0 1.44-.647 1.44-1.44V11.204H9.878zm14.876 0c-.169 0-.33.035-.48.09v9.418c.15.052.311.09.48.09a1.44 1.44 0 001.44-1.44v-6.719a1.44 1.44 0 00-1.44-1.44zM11.8 24.16v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84zm5.759 0v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Android</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://open.spotify.com/show/4ndjUXyL0hH1FXHgwIiTWU" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M16 4C9.383 4 4 9.383 4 16s5.383 12 12 12 12-5.383 12-12S22.617 4 16 4zm5.08 17.394a.781.781 0 01-1.086.217c-1.29-.86-3.477-1.434-5.303-1.434-1.937.002-3.389.477-3.403.482a.782.782 0 11-.494-1.484c.068-.023 1.71-.56 3.897-.562 1.826 0 4.365.492 6.171 1.696.36.24.457.725.217 1.085zm1.56-3.202a.895.895 0 01-1.234.286c-2.338-1.457-4.742-1.766-6.812-1.747-2.338.02-4.207.466-4.239.476a.895.895 0 11-.488-1.723c.145-.041 2.01-.5 4.564-.521 2.329-.02 5.23.318 7.923 1.995.419.26.547.814.286 1.234zm1.556-3.745a1.043 1.043 0 01-1.428.371c-2.725-1.6-6.039-1.94-8.339-1.942h-.033c-2.781 0-4.923.489-4.944.494a1.044 1.044 0 01-.474-2.031c.096-.023 2.385-.55 5.418-.55h.036c2.558.004 6.264.393 9.393 2.23.497.292.663.931.371 1.428z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Spotify</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.667 4a2.676 2.676 0 00-2.612 2.13v.003c-.036.172-.055.35-.055.534v18.666c0 .183.019.362.055.534v.003a2.676 2.676 0 002.076 2.075h.002c.172.036.35.055.534.055h18.666A2.676 2.676 0 0028 25.333V6.667a2.676 2.676 0 00-2.13-2.612h-.003A2.623 2.623 0 0025.333 4H6.667zM8 8h1.333C17.42 8 24 14.58 24 22.667V24h-2.667v-1.333c0-6.618-5.382-12-12-12H8V8zm0 5.333h1.333c5.146 0 9.334 4.188 9.334 9.334V24H16v-1.333A6.674 6.674 0 009.333 16H8v-2.667zM10 20a2 2 0 11-.001 4.001A2 2 0 0110 20z"/></svg>
-						<span class="subscribe-to-podcast__link-text">RSS Feed</span>
-					</a>
-				</li>
-					</ul>
-	</div>
-</section>
-
-
-<div class="wp-block-msr-show-more">
-	<div class="bg-neutral-100 p-5">
-		<div class="show-more-show-less" data-mount="show-more-show-less">
-			<div>
-				<span>
-					
-
-<h2 class="wp-block-heading" id="transcript">Transcript</h2>
-
-
-
-<p>[TEASER]&nbsp;</p>
-
-
-
-<p>[MUSIC PLAYS UNDER DIALOGUE]&nbsp;</p>
-
-
-
-<p><strong>TIAN XIE: </strong>Yeah,<strong> </strong>so<strong> </strong>the problem of generating materials from properties is actually a pretty old one. I still remember back in 2018, when I was giving a talk about property-prediction models, right, one of the first questions people asked is, instead of going from material structure to properties, can you, kind of, inversely generate the materials directly from their property conditions? So in a way, this is, kind of, like a dream for material scientists<strong> </strong>because, like, the end goal is really about finding materials property, right, [that] will satisfy your application. </p>
-
-
-
-<p><strong>ZIHENG LU: </strong>Previously, a lot of people are using this atomistic simulator and this generative models <em>alone</em>. But if you think about it, now that we have these two foundation models together, it really can make things different, right. You have a very good idea generator. And you have a very good goalkeeper. And you put them together. They form a loop. And now you can use this loop to design materials really quickly. </p>
-
-
-
-<p>[TEASER ENDS]&nbsp;</p>
-
-
-
-<p><strong>LINDSAY KALTER: </strong>You&#8217;re listening to <em>Ideas</em>, a Microsoft Research Podcast that dives deep into the world of technology research and the profound questions behind the code. In this series, we&#8217;ll explore the technologies that are shaping our future and the big ideas that propel them forward.</p>
-
-
-
-				</span>
-				<span id="show-more-show-less-toggle-13" class="show-more-show-less-toggleable-content">
-					
-
-
-
-<p>[MUSIC FADES]&nbsp;</p>
-
-
-
-<p>I&#8217;m your guest host, Lindsay Kalter. Today I&#8217;m talking to Microsoft Principal Research Manager Tian Xie and Microsoft Principal Researcher Ziheng Lu. Tian is doing fascinating work with MatterGen, an AI tool for generating new materials guided by specific design requirements. Ziheng is one of the visionaries behind MatterSim, which puts those new materials to the test through advanced simulations. Together, they&#8217;re redefining what&#8217;s possible in materials science. Tian and Ziheng, welcome to the podcast.&nbsp;</p>
-
-
-
-<p><strong>TIAN XIE:</strong> Very excited to be here.&nbsp;</p>
-
-
-
-<p><strong>ZIHENG LU: </strong>Thanks, Lindsay, very excited. </p>
-
-
-
-<p><strong>KALTER: </strong>Before we dig into the specifics of MatterGen and MatterSim, let&#8217;s give our audience a sense of how you, as researchers, arrived at this moment. Materials science, especially at the intersection of computer science, is such a cutting-edge and transformative field. What first drew each of you to this space? And what, if any, moment or experience made you realize <em>this</em> was where you wanted to innovate? Tian, do you want to start?&nbsp;</p>
-
-
-
-<p><strong>XIE: </strong>So I started working on AI for materials back in 2015, when I started my PhD. So I come as a chemist and materials scientist, but I was, kind of, figuring out what I want to do during my PhD. So there is actually one moment really drove me into the field. That was AlphaGo. AlphaGo was, kind of, coming out in 2016, where it was able to beat the world champion in go in 2016. I was extremely impressed by that because I, kind of, learned how to do go, like, in my childhood. I know how hard it is and how much effort those professional go players have spent, right, in learning about go. So I, kind of, have the feeling that if AI can surpass the world-leading go players, one day, it will too surpass material scientists, right, in their ability to design novel materials. So that&#8217;s why I ended up deciding to<strong> </strong>focus my entire PhD on working on AI for materials. And I have been working on that since then. So it was actually very interesting because it was a very small field back then. And it&#8217;s great to see how much progress has been made, right, in the past 10 years and how much bigger a field it is now compared with 10 years ago.&nbsp;</p>
-
-
-
-<p><strong>LU: </strong>That&#8217;s very interesting, Tian. So, actually, I think I started, like, two years before you as a PhD student. So I, actually, I was trained as a computational materials scientist solely, not really an AI expert. But at that time, the computational materials science did not really work that well. It works but not working that well. So after, like, two or three years, I went back to experiments for, like, another two or three years because, I mean, the experiment is always the gold standard, right. And I worked on this experiments for a few years, and then about three years ago, I went back to this field of computation, <em>especially</em> because of AI. At that time, I think GPT and these large AI models that currently we&#8217;re using is not there, but we already have their prior forms like BERT, so we see the very large potential of AI. We know that these large AIs might work. So one idea is really to use AI to learn the entire space of materials and really grasp the physics there, and that really drove me to this field and that&#8217;s why I&#8217;m here working on this field, yeah.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>We&#8217;re going to get into what MatterGen and MatterSim mean for materials science—the potential, the challenges, <em>and</em> open questions. But first, give us an overview of what each of these tools are, how they do what they do, and—as this show is about big ideas—the idea driving the work. Ziheng, let&#8217;s have you go first. </p>
-
-
-
-<p><strong>LU:</strong> So MatterSim is a tool to do in silico characterizations of materials. If you think about working on materials, you have several steps. You first need to synthesize it, and then you need to characterize this. Basically, you need to know what property, what structures, whatever stuff about these materials. So for MatterSim, what we want to do is to really move the characterization process, a lot of these processes, into using computations. So the idea behind MatterSim is to really learn the fundamentals of physics. So we learn the energies and forces and stresses from these atomic structures and the charge densities, all of these things, and then with these, we can really simulate any sort of materials using our computational machines. And then with these, we can really characterize a lot of these materials’ properties using our computer, that is very fast. It&#8217;s much faster than we do experiments so that we can accelerate the materials design. So just in a word, basically, you input your material into your computer, a structure into your computer, and MatterSim will try to simulate these materials like what you do in a furnace or with an XRD<strong> </strong>(x-ray diffraction) and then you get your properties out of that, and a lot of times it&#8217;s much faster than you do experiments.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>All right, thank you very much. Tian, why don&#8217;t you tell us about MatterGen?&nbsp;</p>
-
-
-
-<p><strong>XIE: </strong>Yeah, thank you. So, actually, Ziheng, once you start with explaining MatterSim, it makes it much easier for me to explain MatterGen. So MatterGen actually represents a new way to design materials with generative AI. Material discovery is like finding needles in a haystack. You&#8217;re looking for a material with a very specific property for a material application. For example, like finding a room-temperature superconductor or finding a solid that can conduct a lithium ion very well inside a battery. So it&#8217;s like finding one very specific material from a <em>million</em>, kind of, candidates. So the conventional way of doing material discovery is via screening, where you, kind of, go over millions of candidates to find the one that you&#8217;re looking for, where MatterSim is able to significantly accelerate that process by making the simulation much faster. But it&#8217;s still very inefficient because you need to go through this million candidates, right. So with MatterGen, you can, kind of, directly generate materials given the prompts of the design requirements for the application. So this means that you can discover materials—discover <em>useful</em> materials— much more efficiently. And it also allows us to explore a much larger space beyond the set of known materials.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>Thank you, Tian. Can you tell us a little bit about how MatterGen and MatterSim work together?&nbsp;</p>
-
-
-
-<p><strong>XIE: </strong>So you can really think about MatterSim and MatterGen accelerating different parts of materials discovery process. MatterSim is trying to accelerate the simulation of material properties, while MatterGen is trying to accelerate the <em>search</em> of novel material candidates. It means that they can really work together as a flywheel and you can compound the acceleration from both models. They are also both foundation AI models, meaning they can both be used for a broad range of materials design problems. So we&#8217;re really looking forward to see how they can, kind of, working together iteratively as a tool to design novel materials for a broad range of applications.&nbsp;</p>
-
-
-
-<p><strong>LU: </strong>I think that&#8217;s a very good, like, general introduction of how they work together. I think I can provide an example of how they really fit together. If you want a material with a specific, like, bulk modulus or lithium-ion conductivity or thermal conductivity for your CPU chips, so basically what you want to do is start with a pool of material structures, like some structures from the database, and then you compute or you characterize your wanted property from that stack of materials. And then what you do, you’ve got these properties and structure pairs, and you input these pairs into MatterGen. And MatterGen will be able to give you a lot more of these structures that are highly possible to be real. But the number will be very large. For example, for the bulk modulus, I don&#8217;t remember the number we generated in our work … was that like thousands, tens of thousands? </p>
-
-
-
-<p><strong>XIE:</strong> Thousands, tens of thousands.&nbsp;</p>
-
-
-
-<p><strong>LU:</strong> Yeah, that would be a very large number pool even with MatterGen, so then the next step will be, how would you like to screen that? You cannot really just send all of those structures to a lab to synthesize. It&#8217;s too much, right. That&#8217;s when MatterSim again comes in. So MatterSim comes in and screen all those structures again and see which ones are the most likely to be synthesized and which ones have the closest property you wanted. And then after screening, you probably get five, 10 top candidates and then you send to a lab. Boom, everything goes down. That&#8217;s it.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>I&#8217;m wondering if there&#8217;s any prior research or advancements that you drew from in creating MatterGen and MatterSim. Were there any specific breakthroughs that influenced your approaches at all?&nbsp;</p>
-
-
-
-<p><strong>LU: </strong>Thanks, Lindsay. I think I&#8217;ll take that question first. So interestingly for MatterSim, a very fundamental idea was drew from Chi Chen, who was a previous lab mate of mine and now also works for Microsoft at Microsoft Quantum. He made this fantastic model named M3GNet, which is a prior form of a lot of these large-scale models for atomistic simulations. That model, M3GNet, actually resolves the near ground state prediction problem. I mean, the near ground state problem sounds like a fancy but not realistic word, but what that actually means is that it can simulate materials at near-zero covalent states. So basically at very low temperatures. So at that time, we were thinking since the models are now able to simulate materials at their near ground states, it&#8217;s not a very large space. But if you also look at other larger models, like GPT whatever, those models are large enough to simulate entire human language. So it&#8217;s possible to really <em>extend</em> the capability from these such prior models to very large space. Because we believe in the capability of AI, then it really drove us to use MatterSim to learn the entire space of materials. I mean, the entire space really means the entire periodic table, all the temperatures and the pressures people can actually grasp.&nbsp;</p>
-
-
-
-<p><strong>XIE: </strong>Yeah, I still remember a lot of the amazing works from Chi Chen whenever we&#8217;re, kind of, back working on property-prediction models. So, yeah, so the problem of generating materials from properties is actually a pretty old one. I still remember back in 2018, when I was, kind of, working on CGCNN (crystal graph convolutional neural networks) and giving a talk about property-prediction models, right, one of the first questions people asked is, OK, can you inverse this process? Instead of going from material structure to properties, can you, kind of, inversely generate the materials directly from their property conditions? So in a way, this is, kind of, like a dream for material scientists—some people even call it, like, holy grail—because, like, the end goal is really about finding materials property, right, [that] will satisfy your application. So I&#8217;ve been, kind of, thinking about this problem for a while and also there has been a lot of work, right, over the past few years in the community to build a generative model for materials. A lot of people have tried before, like 2020, using ideas like VAEs or GANs. But it&#8217;s hard to represent materials in this type of generative model architecture, and many of those models generated relatively poor candidates. So I thought it was a hard problem. I, kind of, know it for a while. But there is no good solutions back then. So I started to focus more on this problem during my postdoc, when I studied that in 2020 and I keep working on that in 2021. At the beginning, I wasn&#8217;t really sure exactly what approach to take because it&#8217;s, kind of, like open question and really tried a lot of random ideas. So one day actually in my group back then with Tommi Jaakkola and Regina Barzilay at MIT&#8217;s CSAIL (Computer Science & Artificial Intelligence Laboratory), we, kind of, get to know this method called diffusion model. It was a very early stage of a diffusion model back then, but it already began to show very promising signs, kind of, achieving state of art in many problems like 3D point cloud generation and the 3D molecular conformer generation. So the work that really inspired me a lot is two works that was for molecular conformer generation. One is ConfGF, and one is GeoDiff. So they, kind of, inspired me to, kind of, focus more on diffusion models. That actually lead to CDVAE (crystal diffusion variational autoencoder). So it&#8217;s interesting that we, kind of, spend like a couple of weeks in trying all this diffusion idea, and without that much work, it actually worked quite out of box. And at that time, CDVAE achieves much better performance than any previous models in materials generation, and we&#8217;re, kind of, super happy with that. So after CDVAE, I, kind of, joined Microsoft, now working with more people together on this problem of generative model for materials. So we, kind of, know what the limitations of CDVAE are, is that it can do unconditional material generation well means it can generate novel material structures, but it is very hard to use CDVAE to do property-guided generations. So basically, it uses an architecture called a variational autoencoder, where you have a latent space. So the way that you do property-guided generation there was to do a, kind of, a gradient update inside the latent space. But because the latent space wasn&#8217;t learned very well, so it actually … you cannot do, kind of, good property-guided generation. We only managed to do energy-guided generation, but it wasn&#8217;t successful in going beyond energy. So that comes us to really thinking, right, how can we make the property-guided generation much better? So I remember like one day, actually, my colleague, Daniel Zügner, who actually really showed me this blog which basically explains this idea of classifier-free guidance, which is the powerhouse behind the text-image generative models. And so, yeah, then we began to think about, can we actually make the diffusion model work for classifier-free guidance? That lead us to remove the, kind of, the variational autoencoder component from CDVAE and begin to work on a pure diffusion architecture. But then there was, kind of, a lot of development around that. But it turns out that classifier-free guidance is the key really to make property-guided generation work, and then combined with a lot more effort in, kind of, improving architecture and also generating more data and also trying out all these different downstream tasks that end up leading into MatterGen as we see today.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>Yeah, I think you&#8217;ve both done a really great job of explaining how MatterGen and MatterSim work together and how MatterGen can offer a lot in terms of reducing the amount of time and work that goes into finding new materials. Tian, how does the process of using MatterGen to generate materials translate into real-world applications?&nbsp;</p>
-
-
-
-<p><strong>XIE: </strong>Yeah, that&#8217;s a fantastic question. So one way that I think about MatterGen, right, is that you can think about it as like a copilot for materials scientists, right. So they can help you to come up with, kind of, potential good hypothesis for the materials design problems that you&#8217;re looking for. So say you&#8217;re trying to design a battery, right. So you may have some ideas over, OK, what candidates you want to make, but this is, kind of, based on your own experience, right. Depths of experience as a researcher. But MatterGen is able to, kind of, learn from a very broad set of data, so therefore, it may be able to come up with some good suggestions, even <em>surprising</em> suggestions, for you so that you can, kind of, try this out, right, both with computation or even one day in wet lab and experimentally synthesize it. But I also want to note that this, in a way, this is still an early stage in generative AI for materials means that I don&#8217;t expect all the candidates MatterGen generates will be, kind of, suits your needs, right. So you still need to, kind of, look into them with expertise or with some kind of computational screening. But<strong> </strong>I think in the future, as this model keep improving themselves, they will become a key component, right, in the design process of many of the materials we&#8217;re seeing today, like designing new batteries, new solar cells, or even computer chips, right, so that like Ziheng mentioned earlier.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>I want to pivot a little bit to the MatterSim side of things. I know identifying new combinations of compounds is key to meeting changing needs for things like sustainable materials. But testing them is equally important to developing materials that can be put to use. Ziheng, how does MatterSim handle the uncertainty of how materials behave under various conditions, and how do you ensure that the predictions remain robust despite the inherent complexity of molecular systems?&nbsp;</p>
-
-
-
-<p><strong>LU: </strong>Thanks. That&#8217;s a very, very good question. So uncertainty quantification is a key to make sure all these predictions and simulations are trustworthy. And that&#8217;s actually one of the questions we got almost every time after a presentation. So people will ask, well—especially those experimentalists—would ask, well, I&#8217;ve been using your model; how do I know those predictions are true under the very complex conditions I&#8217;m using in my experiments? So to understand how we deal with uncertainty, we need to know how MatterSim really functions in predicting an arbitrary property, especially under the condition you want, like the temperature and pressure. That would be quite complex, right? So in the ideal case, we would hope that by using MatterSim, you can directly simulate the properties you want using molecular dynamics combined with statistical mechanics. So if so, it would be easy to really quantify the uncertainty because there are just two parts: the error from the model and the error from the simulations, the statistical mechanics. So the error from the model will be able to be measured by, what we call, an <em>ensemble</em>. So basically you start with different random seeds when you train the model, and then when you predict your property, you use several models from the ensemble and then you get different numbers. If the variance from the numbers are very large, you&#8217;ll say the prediction is not that trustworthy. But a lot of times, we will see the variance is very small. So basically, an ensemble of several different models will give you almost exactly the same number; you&#8217;re quite sure that the number is somehow very, like, useful. So that&#8217;s one level of the way we want to get our property. But sometimes, it&#8217;s very hard to really directly simulate the property you want. For example, for catalytic processes, it&#8217;s very hard to imagine how you really get those coefficients. It&#8217;s very hard. The process is just too complicated. So for that process, what we do is to really use the, what we call, embeddings learned from the entire material space. So basically that vector we learned for any arbitrary material. And then start from that, we build a very shallow layer of a neural network to predict the property, but that also means you need to bring in some of your experimental or simulation data from your side. And for that way of predicting a property to measure the uncertainty, it&#8217;s still like the two levels, right. So we don&#8217;t really have the statistical error anymore, but what we have is, like, only the model error. So you can still stick to the ensemble, and then it will work, right. So to be short, so MatterSim can provide you an uncertainty to make sure the prediction tells you whether it&#8217;s true or not.</p>
-
-
-
-<p><strong>KALTER: </strong>So in many ways, MatterSim is the <em>realist</em> in the equation, and it&#8217;s there to sort of be a gatekeeper for MatterGen, which is the idea generator.&nbsp;</p>
-
-
-
-<p><strong>XIE: </strong>I really like the analogy.&nbsp;</p>
-
-
-
-<p><strong>LU: </strong>Yeah.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>As is the case with many AI models, the development of MatterGen and MatterSim relies on massive amounts of data. And here you use a simulation to create the needed training data. Can you talk about that process and why you&#8217;ve chosen that approach, Tian?</p>
-
-
-
-<p><strong>XIE: </strong>So one advantage here is that we can really use large-scale simulation to generate data. So we have a lot of compute here at Microsoft on our Azure platform, right. So how we generate the data is that we use a method called density functional theory, DFT, which is a quantum mechanical method. And we use a simulation workflow built on top with DFT to simulate the stability of materials. So what we do is that we curate a huge amount of material structures from multiple different sources of open data, mostly including Materials Project and Alexandria database, and in total, there are around 3 million materials candidates coming from these two databases. But not all of these structures, they are stable. So therefore, we try to use DFT to compute their stability and try to filter down the candidates such that we are making sure that our training data only have the most stable ones. This leads into around 600,000 training data, which was used to train the base model of MatterGen. So I want to note that actually we also use MatterSim as part of the workflow because MatterSim can be used to prescreen unstable candidates so that we don&#8217;t need to use DFT to compute all of them. I think at the end, we computed around 1 million DFT calculations where two-thirds of them, they are already filtered out by MatterSim, which saves us a lot of compute in generating our training data.</p>
-
-
-
-<p><strong>LU: </strong>Tian, you have a very good description of how we really get those ground state structures for the MatterGen model. Actually, we&#8217;ve been also using MatterGen for MatterSim to really get the training data. So if you think about the simulation space of materials, it&#8217;s extremely large. So we would think it in a way that it has three axis, so basically the elements, the temperature, and the pressure. So if you think about existing databases, they have pretty good coverage of the elements space. Basically, we think about Materials Project, NOMAD, they really have this very good coverage of lithium oxide, lithium sulfide, hydrogen sulfide, whatever, those different ground-state structures. But they don&#8217;t really tell you how these materials behave under certain temperature and pressure, especially under those extreme conditions like 1,600 Kelvin, which you really use to synthesize your materials. That&#8217;s where we really focused on to generate the data for MatterSim. So it&#8217;s really easy to think about how we generate the data, right. You put your wanted material into a pressure cooker, basically, molecular dynamics; it can simulate the materials behavior on the temperature and pressure. So that&#8217;s it. Sounds easy, right? But that&#8217;s not true because what we want is not one single material. What we want is the entire material space. So that will be making the effort almost impossible because the space is just so large. So that&#8217;s where we really develop this active learning pipeline. So basically, what we do is, like, we generate a lot of these structures for different elements and temperatures, pressures. Really, really a lot. And then what we do is, like, we ask the active learning or the uncertainty measurements to really say whether the model knows about this structure already. So if the model thinks, well, I think I know the structure already. So then, we don&#8217;t really calculate this structure using density function theory, as Tian just said. So this will really save us like 99% of the effort in generating the data. So in the end, by combining this molecular dynamics, basically pressure cooker, together with active learning, we gathered around 17 million data for MatterSim. So that was used to train the model. And now it can cover the entire periodic table and a lot of temperature and pressures.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>Thank you, Ziheng. Now, I&#8217;m sure this is not news to either one of you, given that you&#8217;re both at the forefront of these efforts, but there are a growing number of tools aimed at advancing materials science. So what is it about MatterGen and MatterSim in their approach or capabilities that distinguish them?&nbsp;</p>
-
-
-
-<p><strong>XIE: </strong>Yeah, I think I can start. So I think there is, in the past one year, there is a huge interest in building up generative AI tools for materials. So we have seen lots and lots of innovations from the community published in top conferences like NeurIPS, ICLR, ICML, etc. So I think what distinguishes MatterGen, in my point of view, are two things. First is that we are trained with a very big dataset that we curated very, very carefully, and we also spent quite a lot of time to refining our diffusion architecture, which means that our model is capable of generating very, kind of, high-quality, highly stable and novel materials. We have some kind of bar plot in our paper showcasing the advantage of our performance. I think that&#8217;s one key aspect. And I think the second aspect, which in my point of view is even more important, is that it has the ability to do property-guided generation. Many of the works that we saw in the community, they are more focused on the problem of crystal structure prediction, which MatterGen can also do, but we focus more on really property-guided generation because we think this is one of the key problems that really materials scientists care about. So the ability to do a very broad range of property-guided generation—and we have, kind of, both computational and now experimental result to validate those—I think that&#8217;s the second strong point for MatterGen.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>Ziheng, do you want to add to that?&nbsp;</p>
-
-
-
-<p><strong>LU: </strong>Yeah, thanks, Lindsay. So on the MatterSim side, I think it&#8217;s really the diverse condition it can handle that makes a difference. We&#8217;ve been talking about, like, the training data we collected really covers the entire periodic table and also, more importantly, the temperatures from 0 Kelvin to 5,000 Kelvin and the pressures from 0 gigapascal to 1,000 gigapascal. That really covers what humans can control nowadays. I mean, it&#8217;s very hard to go beyond that. If you know anyone [who] can go beyond that, let me know. So that really makes MatterSim different. Like, it can handle the realistic conditions. I think beyond that, I would say the combo between MatterSim and MatterGen really makes these set of tools really different. So previously, a lot of people are using this atomistic simulator and this generative models <em>alone</em>. But if you think about it, now that we have these two foundation models together, they really can make things different, right. So we have predictor; we have the generator; you have a very good idea generator. And you have a very good goalkeeper. And you put them together. They form a loop. And now you can use this loop to design materials really quickly. So I would say to me, now, when I think about it, it&#8217;s really the combo that makes these set of tools different.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>I know that I&#8217;ve spoken with both of you recently about how there&#8217;s so much excitement around this, and it&#8217;s clear that we&#8217;re on the precipice of this—as both of you have called it—a paradigm shift. And Microsoft places a very strong emphasis on ensuring that its innovations are grounded in reality and capable of addressing real-world problems. So with that in mind, how do you balance the excitement of scientific exploration with the practical challenges of implementation? Tian, do you want to take this?</p>
-
-
-
-<p><strong>XIE: </strong>Yeah, I think this is a very, very important point, because &#8230; as there are so many hypes around AI that is happening right now, right. We must be very, very careful about the claims that we are making so that people will not have unrealistic expectations, right, over how these models can do. So for MatterGen, we&#8217;re pretty careful about that. We&#8217;re trying to, basically, we&#8217;re trying to say that this is an early stage of generative AI in materials where this model will be improved over time quite significantly, but you should not say, oh, all the materials generated by MatterGen is going to be amazing. That&#8217;s not what is happening today. So we try to be very careful to understand how far MatterGen is already capable of designing materials with real-world impact. So therefore, we went all the way to synthesize one material that was generated by MatterGen. So this material we generated is called tantalum chromium oxide<a id="_ftnref1" href="#_ftn1">[1]</a>. So this is a new material. It has not been discovered before. And it was generated by MatterGen by conditioning a bulk modulus equal to 200 gigapascal. Bulk modulus is, like, the compressiveness of the material. So we end up measuring the experimental synthesized material experimentally, and the measured bulk modulus is 169 gigapascal, which is within 20% of error. So this is a very good proof concept, in our point of view, to show that, oh, you can actually give it a prompt, right, and then MatterGen can generate a material, and the material actually have the property that is very close to your target. But it&#8217;s still a proof of concept. And we&#8217;re still working to see how MatterGen can design materials that are much more useful with a much broader range of applications. And I&#8217;m sure that there will be more challenges we are seeing along the way. But we&#8217;re looking forward to further working with our experimental partners to, kind of, push this further. And also working with MatterSim, right, to see how these two tools can be used to design really useful materials and bringing this into real-world impact.</p>
-
-
-
-<p><strong>LU: </strong>Yeah, Tian, I think that&#8217;s very well said. It&#8217;s not really only for MatterGen. For MatterSim, we&#8217;re also very careful, right. So we really want to make sure that people understand how these models really behave under their instructions and understand, like, what they can do and they cannot do. So I think one thing that we really care about is that in the next few, maybe one or two years, we want to really work with our experimental partners to make this realistic materials, like, in different areas so that we can, even <em>us</em>, can really better understand the limitations and at the same time explore the forefront of materials science to make this excitement become true.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>Ziheng, could you give us a concrete example of what exactly MatterSim is capable of doing?&nbsp;</p>
-
-
-
-<p><strong>LU: </strong>Now MatterSim can really do, like, whatever you have on a potential energy surface. So what that means is, like, anything that can be simulated with the energy and forces, stresses alone. So to give you an example, we can compute … the first example would be the stability of a material. So basically, you input a structure, and from the energies of the relaxed structures, you can really tell whether the material is likely to be stable, like, the composition, right. So another example would be the thermal conductivity. Thermal conductivity is like a fundamental property of materials that tells you how fast heat can transfer in the material, right. So for MatterSim, it can really simulate how fast this heat can go through your diamond, your graphene, your copper, right. So basically, those are two examples. So these examples are based on energies and forces alone. But there are things MatterSim cannot do—at least for now. For example, you cannot really do anything related to electronic structures. So you cannot really compute the light absorption of a semitransparent material. That would be a no-no for now.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>It&#8217;s clear from speaking with researchers, both from MatterSim and MatterGen, that despite these very rapid advancements in technology, you take very seriously the responsibility to consider the broader implications of the challenges that are still ahead. How do you think about the ethical considerations of creating entirely new materials and simulating their properties, particularly in terms of things like safety, sustainability, and societal impact?&nbsp;</p>
-
-
-
-<p><strong>XIE: </strong>Yeah, that&#8217;s a fantastic question. So it&#8217;s extremely important that we are making sure that these AI tools, they are not misused. A potential misuse, right, as you just mentioned, is that people begin to use these AI tools—MatterGen, MatterSim—to, kind of, design harmful materials. There was actually extensive discussion over how generative AI tools that was originally purposed for drug design can be then misused to create bioweapons. So at Microsoft, we take this very seriously because we believe that when we create new technologies, you must also ensure that the technology is used responsibly. So we have an extensive process to ensure that all of our models respect those ethical considerations. In the meantime, as you mentioned, maybe sustainability and the societal impact, right, so there&#8217;s a huge amount these AI tools—MatterGen, MatterSim—can do for sustainability because a lot of the sustainability challenges, they are really, at the end, materials design challenges, right. So therefore, I think that MatterGen and MatterSim can really help with that in solving, in helping us to alleviate climate change and having positive societal impact for the broader society.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>And, Ziheng, how about from a simulation standpoint?&nbsp;</p>
-
-
-
-<p><strong>LU: </strong>Yeah, I think Tian gave a very good, like, description. At Microsoft, we are really careful about these ethical, like, considerations. So I would add a little bit on the more, like, the bright side of things. Like, so for MatterSim, like, it really carries out these simulations at atomic scales. So one thing you can think about is really the educational purpose. So back in my bachelor and PhD period, so I would sit, like, at the table and really grab a pen to really deal with those very complex equations and get into those statistics using my pen. It&#8217;s really painful. But now with MatterSim, these simulation tools at atomic level, what you can do is to really simulate the reactions, the movement of atoms, at atomic scale in real time. You can really see the chemical reactions and see the statistics. So you can get really the feeling, like very direct feeling, of how the system works instead of just working on those toy systems with your pen. I think it&#8217;s going to be a very good educational tool using MatterSim, yeah. Also MatterGen. MatterGen as, like, a generative tool and generating those i.i.d. (independent and identically distributed) distributions, it will be a perfect example to show the students how the Boltzmann distribution works. I think, Tian, you will agree with that, right?</p>
-
-
-
-<p><strong>XIE: </strong>100%. Yeah, I really, really like the example that Ziheng mentioned about the educational purposes. I still remember, like, when I was, kind of, learning material simulation class, right. So everything is DFT. You, kind of, need to wait for an hour, right, for getting some simulation. Maybe then you&#8217;ll make some animation. Now you can do this in real time. This is, like, a huge step forward, right, for our young researchers to, kind of, gaining a sense, right, about how atoms interact at an atomic level.&nbsp;</p>
-
-
-
-<p><strong>LU: </strong>Yeah, and the results are really, I mean, true; not really those toy models. I think it&#8217;s going to be very exciting stuff.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>And, Tian, I&#8217;m directing this question to you, even though, Ziheng, I&#8217;m sure you can chime in, as well. But, Tian, I know that you and I have previously discussed this specifically. I know that you said back in, you know, 2017, 2018, that you knew an AI-based approach to materials science was possible but that even you were surprised by how far the technology has come so fast in aiding this area. What is the status of these tools right now? Are they in use? And if so, who are they available to? And, you know, what&#8217;s next for them?&nbsp;</p>
-
-
-
-<p><strong>XIE: </strong>Yes, this is a fantastic question, right. So I think for AI generative tools like MatterGen, as I said many times earlier, it&#8217;s still in its early stages. MatterGen is the first tool that we managed to show that generative AI can enable very broad property-guided generation, and we have managed to have experimental validation to show it&#8217;s possible. But it will take more work to show, OK, it can actually design batteries, can design solar cells, right. It can design really useful materials in these broader domains. So this is, kind of, exactly why we are now taking a pretty open approach with MatterGen. We make our code, our training data, and model weights available to the general public. We&#8217;re really hoping the community can really use our tools to the problem that they care about and even build on top of that. So in terms of <em>what next</em>, I always like to use what happened with generative AI for drugs, right, to kind of predict how generative AI will impact materials. Three years ago, there is a lot of research around generative model for drugs, first coming from the machine learning community, right. So then all the big drug companies begin to take notice, and then there are, kind of, researchers in these drug companies begin to use these tools in actual drug design processes. From my colleague, Marwin Segler, because he, kind of, works together with Novartis in Microsoft and Novartis collaboration, he has been basically telling me that at the beginning, all the chemists in the drug companies, they&#8217;re all very suspicious, right. The molecules generated by these generative models, they all look a bit weird, so they don&#8217;t believe this will work. But once these chemists see one or two examples that actually turns out to be performing pretty well from the experimental result, then they begin to build more trust, right, into these generative AI models. And today, these generative AI tools, they are part of the standard drug discovery pipeline that is widely used in all the drug companies. That is today. So I think generative AI for materials is going through a very similar period. People will have doubts; people will have suspicions at the beginning. But I think in three years, right, so it will become a standard tool over how people are going to design new solar cells, design new batteries, and many other different applications.</p>
-
-
-
-<p><strong>KALTER: </strong>Great. Ziheng, do you have anything to add to that?&nbsp;</p>
-
-
-
-<p><strong>LU:</strong> So actually for MatterSim, we released the model, I think, back in last year, December. I mean, both the weights and the models, right. So we&#8217;re really grateful how much the community has contributed to the repo. And now, I mean, we really welcome the community to contribute more to both MatterSim and MatterGen via our open-source code bases. So, I mean, the community effort is really important, yeah.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>Well, it has been fascinating to pick your brains, and as we close, you know, I know that you&#8217;re both capable of quite a bit, which you have demonstrated. I know that asking you to predict the future is a big ask, so I won&#8217;t explicitly ask that. But just as a fun thought exercise, let&#8217;s fast-forward 20 years and look back. How have MatterGen and MatterSim and the big ideas behind them impacted the world, and how are people better off because of how you and your teams have worked to make them a reality? Tian, you want to start?&nbsp;</p>
-
-
-
-<p><strong>XIE: </strong>Yeah, I think one of the biggest challenges our human society is going to face, right, in the next 20 years is going to be climate change, right, and there are so many materials design problems people need to solve in order to properly handle climate change, like finding new materials that can absorb CO<sub>2</sub> from atmosphere to create a carbon capture industry or have a battery materials that is able to do large-scale energy grid storage so that we can fully utilizing all the wind powers and the solar power, etc., right. So if you want me to make <em>one</em> prediction, I really believe that these AI tools, like MatterGen and MatterSim, is going to play a central role in our human&#8217;s ability to design these new materials for climate problems. So therefore in 20 years, I would like to see we have already solved climate change, right. We have large-scale energy storage systems that was designed by AI that is … basically that we have removed all the fossil fuels, right, from our energy production, and for the rest of the carbon emissions that is very hard to remove, we will have a carbon capture industry with materials designed by AI that absorbs the CO<sub>2</sub> from the atmosphere. It&#8217;s hard to predict exactly what will happen, but I think AI will play a key role, right, into defining how our society will look like in 20 years.&nbsp;</p>
-
-
-
-<p><strong>LU: </strong>Tian, very well said. So I think instead of really describing the future, I would really quote a science fiction scene in <em>Iron Man</em>. So basically in 20 years, I will say when we want to really get a new material, we will just sit in an office and say, “Well, J.A.R.V.I.S., can you design us a new material that really fits my newest MK 7 suit?” That will be the end. And it will run automatically, and we get this auto lab running, and all those MatterGen and MatterSim, these AI models, running, and then probably in a few hours, in a few days, we get the material.&nbsp;</p>
-
-
-
-<p><strong>KALTER: </strong>Well, I think I speak for many people from several industries when I say that I cannot wait to see what is on the horizon for these projects. Tian and Ziheng, thank you so much for joining us on <em>Ideas</em>. It&#8217;s been a pleasure.&nbsp;</p>
-
-
-
-<p>[MUSIC]&nbsp;</p>
-
-
-
-<p><strong>XIE: </strong>Thank you so much.&nbsp;</p>
-
-
-
-<p><strong>LU: </strong>Thank you.&nbsp;</p>
-
-
-
-<p>[MUSIC FADES]</p>
-
-				</span>
-			</div>
-			<button
-				class="action-trigger glyph-prepend mt-2 mb-0 show-more-show-less-toggle"
-				aria-expanded="false"
-				data-show-less-text="Show less"
-				type="button"
-				aria-controls="show-more-show-less-toggle-13"
-				aria-label="Show more content"
-				data-alternate-aria-label="Show less content">
-				Show more			</button>
-		</div>
-	</div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p id="footnote1"><a id="_ftn1" href="#_ftnref1">[1]<span class="sr-only"> (opens in new tab)</span></a> Learn more about MatterGen and the new material tantalum chromium oxide in the <em>Nature</em> paper “<a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.nature.com/articles/s41586-025-08628-5" target="_blank" rel="noreferrer noopener">A generative model for inorganic materials design<span class="sr-only"> (opens in new tab)</span></a>.”</p>
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-for-materials-discovery-with-tian-xie-and-ziheng-lu/">Ideas: AI for materials discovery with Tian Xie and Ziheng Lu</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></content:encoded>
 					
 		

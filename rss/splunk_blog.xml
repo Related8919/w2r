@@ -6,7 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 20 Feb 2025 01:49:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Feb 2025 01:49:59 +0000</lastBuildDate>
     <item>
       <title>Security Compliance: A Complete Introduction</title>
       <link>https://www.splunk.com/en_us/blog/learn/security-compliance.html</link>
@@ -21,11 +21,6 @@
       <title>Embracing Flexibility to Do Great Work</title>
       <link>https://www.splunk.com/en_us/blog/splunklife/embracing-flexibility-to-do-great-work.html</link>
       <description>Work in the ways that work for you. Learn how Splunkers define flexibility, and how they work with their teams to make the best work happen.</description>
-    </item>
-    <item>
-      <title>Data platform: Definition and how to choose</title>
-      <link>https://www.splunk.com/en_us/blog/learn/data-platform.html</link>
-      <description>Let’s take a deep look at data platforms, including the definition, the benefits and use cases, and how to start building your data strategy.</description>
     </item>
     <item>
       <title>From Setup to Migration: Azure Event Hubs in Data Manager</title>
@@ -51,6 +46,11 @@
       <title>What Is DNS? Domain Name Service, Explained</title>
       <link>https://www.splunk.com/en_us/blog/learn/dns-domain-name-service.html</link>
       <description>DNS is the address book for the internet. Learn how the behind-the-scenes Domain Name System powers every single webpage you visit.</description>
+    </item>
+    <item>
+      <title>What Is a Data Platform? A Complete Introduction</title>
+      <link>https://www.splunk.com/en_us/blog/learn/data-platform.html</link>
+      <description>Let’s take a deep look at data platforms, including the definition, the benefits and use cases, and how to start building your data strategy.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

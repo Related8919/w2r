@@ -6,11 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 21 Feb 2025 01:50:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Feb 2025 01:46:27 +0000</lastBuildDate>
     <item>
-      <title>spf13 /cobra</title>
-      <link>https://github.com/spf13/cobra</link>
-      <description>A Commander for modern Go CLI interactions</description>
+      <title>infiniflow /ragflow</title>
+      <link>https://github.com/infiniflow/ragflow</link>
+      <description>RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.</description>
+    </item>
+    <item>
+      <title>datawhalechina /llm-universe</title>
+      <link>https://github.com/datawhalechina/llm-universe</link>
+      <description>本项目是一个面向小白开发者的大模型应用开发教程，在线阅读地址：https://datawhalechina.github.io/llm-universe/</description>
+    </item>
+    <item>
+      <title>Alamofire /Alamofire</title>
+      <link>https://github.com/Alamofire/Alamofire</link>
+      <description>Elegant HTTP Networking in Swift</description>
     </item>
     <item>
       <title>jingyaogong /minimind</title>
@@ -18,49 +28,24 @@
       <description>🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h!</description>
     </item>
     <item>
-      <title>78 /xiaozhi-esp32</title>
-      <link>https://github.com/78/xiaozhi-esp32</link>
-      <description>Build your own AI friend</description>
+      <title>mountain-loop /yaak</title>
+      <link>https://github.com/mountain-loop/yaak</link>
+      <description>The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬</description>
     </item>
     <item>
-      <title>microsoft /TinyTroupe</title>
-      <link>https://github.com/microsoft/TinyTroupe</link>
-      <description>LLM-powered multiagent persona simulation for imagination enhancement and business insights.</description>
+      <title>firebase /firebase-ios-sdk</title>
+      <link>https://github.com/firebase/firebase-ios-sdk</link>
+      <description>Firebase SDK for Apple App Development</description>
     </item>
     <item>
-      <title>mastra-ai /mastra</title>
-      <link>https://github.com/mastra-ai/mastra</link>
-      <description>the TypeScript AI agent framework</description>
+      <title>twbs /bootstrap</title>
+      <link>https://github.com/twbs/bootstrap</link>
+      <description>The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.</description>
     </item>
     <item>
-      <title>lucide-icons /lucide</title>
-      <link>https://github.com/lucide-icons/lucide</link>
-      <description>Beautiful &amp; consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.</description>
-    </item>
-    <item>
-      <title>geekan /MetaGPT</title>
-      <link>https://github.com/geekan/MetaGPT</link>
-      <description>🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming</description>
-    </item>
-    <item>
-      <title>wangrongding /wechat-bot</title>
-      <link>https://github.com/wangrongding/wechat-bot</link>
-      <description>🤖一个基于 WeChaty 结合 DeepSeek / ChatGPT / Kimi / 讯飞等Ai服务实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等...</description>
-    </item>
-    <item>
-      <title>treetrum /amazon-kindle-bulk-downloader</title>
-      <link>https://github.com/treetrum/amazon-kindle-bulk-downloader</link>
-      <description>Designed for downloading your Kindle eBooks in a more automated fashion than is typically permitted, this tool allows you to create backup copies of the books you've already purchased.</description>
-    </item>
-    <item>
-      <title>NVIDIA /cutlass</title>
-      <link>https://github.com/NVIDIA/cutlass</link>
-      <description>CUDA Templates for Linear Algebra Subroutines</description>
-    </item>
-    <item>
-      <title>hpcaitech /ColossalAI</title>
-      <link>https://github.com/hpcaitech/ColossalAI</link>
-      <description>Making large AI models cheaper, faster and more accessible</description>
+      <title>fastapi /full-stack-fastapi-template</title>
+      <link>https://github.com/fastapi/full-stack-fastapi-template</link>
+      <description>Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.</description>
     </item>
     <item>
       <title>harry0703 /MoneyPrinterTurbo</title>
@@ -68,19 +53,34 @@
       <description>利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</description>
     </item>
     <item>
-      <title>microsoft /OmniParser</title>
-      <link>https://github.com/microsoft/OmniParser</link>
-      <description>A simple screen parsing tool towards pure vision based GUI agent</description>
+      <title>sinaptik-ai /pandas-ai</title>
+      <link>https://github.com/sinaptik-ai/pandas-ai</link>
+      <description>Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG.</description>
     </item>
     <item>
-      <title>nexus-xyz /network-api</title>
-      <link>https://github.com/nexus-xyz/network-api</link>
-      <description>High-performance interface for supplying compute to the Nexus network.</description>
+      <title>mastra-ai /mastra</title>
+      <link>https://github.com/mastra-ai/mastra</link>
+      <description>the TypeScript AI agent framework</description>
+    </item>
+    <item>
+      <title>treetrum /amazon-kindle-bulk-downloader</title>
+      <link>https://github.com/treetrum/amazon-kindle-bulk-downloader</link>
+      <description>Allows you to bulk download all your Kindle eBook in a more automated fashion. This tool allows you to create backup copies of the books you've already purchased.</description>
     </item>
     <item>
       <title>ValveSoftware /source-sdk-2013</title>
       <link>https://github.com/ValveSoftware/source-sdk-2013</link>
       <description>The 2013 edition of the Source SDK</description>
+    </item>
+    <item>
+      <title>NationalSecurityAgency /ghidra</title>
+      <link>https://github.com/NationalSecurityAgency/ghidra</link>
+      <description>Ghidra is a software reverse engineering (SRE) framework</description>
+    </item>
+    <item>
+      <title>nexus-xyz /network-api</title>
+      <link>https://github.com/nexus-xyz/network-api</link>
+      <description>High-performance interface for supplying compute to the Nexus network.</description>
     </item>
   </channel>
 </rss>

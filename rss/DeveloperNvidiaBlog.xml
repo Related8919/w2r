@@ -6,52 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 21 Feb 2025 01:50:32 +0000</lastBuildDate>
-    <item>
-      <title>AI 基础模型增强癌症诊断并实现个性化治疗</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/ai-foundation-model-enhances-cancer-diagnosis-and-tailors-treatment/</link>
-      <description>2025年 2月 4日AI 基础模型增强癌症诊断并实现个性化治疗斯坦福大学研究人员的一项新研究和 AI 模型正在简化癌症诊断、治疗规划和预后预测。这项名为 MUSK (Multimodal…1 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA Spectrum-X 网络平台和合作伙伴提升 AI 存储性能达48%</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/accelerating-ai-storage-by-up-to-48-with-nvidia-spectrum-x-networking-platform-and-partners/</link>
-      <description>2025年 2月 4日NVIDIA Spectrum-X 网络平台和合作伙伴提升 AI 存储性能达48%AI 工厂依靠的不仅仅是计算网。当然，连接 GPU 的东西向网络对于 AI 应用的性能至关重要，而连接高速存储阵列的存储网也不容忽视。1 MIN READ</description>
-    </item>
-    <item>
-      <title>利用特定领域的微调和 NVIDIA NIM 提高翻译质量</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/improving-translation-quality-with-domain-specific-fine-tuning-and-nvidia-nim/</link>
-      <description>2025年 2月 5日利用特定领域的微调和 NVIDIA NIM 提高翻译质量翻译在助力公司实现跨国业务扩展方面发挥着至关重要的作用，在语调、准确性和技术术语处理方面的要求差异很大。3 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA Blackwell 上的 OpenAI Triton 提升 AI 性能和可编程性</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/openai-triton-on-nvidia-blackwell-boosts-ai-performance-and-programmability/</link>
-      <description>2025年 2月 5日NVIDIA Blackwell 上的 OpenAI Triton 提升 AI 性能和可编程性矩阵乘法和注意力机制是现代 AI 工作负载的计算支柱。虽然库如 NVIDIA cuDNN 提供高度优化的实现，2 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA AI Workbench 简化本地和云系统之间的协作</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/streamline-collaboration-across-local-and-cloud-systems-with-nvidia-ai-workbench/</link>
-      <description>2025年 2月 5日使用 NVIDIA AI Workbench 简化本地和云系统之间的协作NVIDIA AI Workbench 是一款免费的开发环境管理器 ，用于在 GPUs 上开发、定制 AI 应用并对其进行原型设计。3 MIN READ</description>
-    </item>
-    <item>
-      <title>适用于数据科学的 GPU 加速入门</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/get-started-with-gpu-acceleration-for-data-science/</link>
-      <description>2025年 2月 6日适用于数据科学的 GPU 加速入门在数据科学领域，运营效率是处理日益复杂和大型数据集的关键。GPU 加速已成为现代工作流程的关键，可显著提高性能。3 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA GeForce RTX 50 系列 GPU 实时渲染路径追踪头发</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/render-path-traced-hair-in-real-time-with-nvidia-geforce-rtx-50-series-gpus/</link>
-      <description>2025年 2月 6日使用 NVIDIA GeForce RTX 50 系列 GPU 实时渲染路径追踪头发2018 年， NVIDIA RTX 引入了对光线追踪三角形网格的硬件支持。但是，头发和毛皮的光线追踪仍然是一个计算密集型问题，2 MIN READ</description>
-    </item>
-    <item>
-      <title>开始使用 NVIDIA RTX 套件进行神经渲染</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/get-started-with-neural-rendering-using-nvidia-rtx-kit/</link>
-      <description>2025年 2月 6日开始使用 NVIDIA RTX 套件进行神经渲染神经渲染是计算机图形的下一个时代。通过将神经网络集成到渲染过程中，我们可以在性能、图像质量和交互性方面实现巨大飞跃，4 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA RTX Mega Geometry 现已支持新的 Vulkan 示例程序</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-rtx-mega-geometry-now-available-with-new-vulkan-samples/</link>
-      <description>2025年 2月 6日NVIDIA RTX Mega Geometry 现已支持新的 Vulkan 示例程序在过去 30 年里，计算机图形领域的几何细节呈指数级增长。为了渲染具有更高实例数量和三角形密度的高质量素材，2 MIN READ</description>
-    </item>
+    <lastBuildDate>Sat, 22 Feb 2025 01:46:51 +0000</lastBuildDate>
     <item>
       <title>NVIDIA Grace CPU 与 Arm 软件生态系统集成</title>
       <link>https://developer.nvidia.com/zh-cn/blog/nvidia-grace-cpu-integrates-with-the-arm-software-ecosystem/</link>
@@ -86,6 +41,51 @@
       <title>使用 DeepSeek-R1 和推理时间缩放实现自动化 GPU 内核生成</title>
       <link>https://developer.nvidia.com/zh-cn/blog/automating-gpu-kernel-generation-with-deepseek-r1-and-inference-time-scaling/</link>
       <description>2025年 2月 13日使用 DeepSeek-R1 和推理时间缩放实现自动化 GPU 内核生成随着 AI 模型扩展其功能以解决更复杂的挑战，一种称为“ 测试时扩展 ”或“ 推理时扩展 ”的新扩展法则正在出现。2 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 NVIDIA TensorRT-LLM 前瞻性解码优化 Qwen2.5-Coder 吞吐量</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/optimizing-qwen2-5-coder-throughput-with-nvidia-tensorrt-llm-lookahead-decoding/</link>
+      <description>2025年 2月 14日使用 NVIDIA TensorRT-LLM 前瞻性解码优化 Qwen2.5-Coder 吞吐量专注于编码的 大语言模型（LLMs） 已稳步应用于开发者工作流程。从配对编程到自我改进的 AI 智能体 ，这些模型可帮助开发者完成各种任务，3 MIN READ</description>
+    </item>
+    <item>
+      <title>聚焦：药物发现初创公司 Protai 利用 AlphaFold、蛋白质组学和 NVIDIA NIM 提升复杂结构预测能力</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/spotlight-drug-discovery-startup-protai-advances-complex-structure-prediction-with-alphafold-proteomics-and-nvidia-nim/</link>
+      <description>2025年 2月 19日聚焦：药物发现初创公司 Protai 利用 AlphaFold、蛋白质组学和 NVIDIA NIM 提升复杂结构预测能力特别是借助 AlphaFold 和 RosettaFold 等突破性成果，3 MIN READ</description>
+    </item>
+    <item>
+      <title>利用 Evo 2 以全新规模跨进化研究生命生物分子的语言</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/understanding-the-language-of-lifes-biomolecules-across-evolution-at-a-new-scale-with-evo-2/</link>
+      <description>2025年 2月 19日利用 Evo 2 以全新规模跨进化研究生命生物分子的语言AI 已从实验好奇心发展为生物学研究的驱动力。 深度学习算法、3 MIN READ</description>
+    </item>
+    <item>
+      <title>制造业产品设计工作流程的生成式 AI 转型</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/transforming-product-design-workflows-in-manufacturing-with-generative-ai/</link>
+      <description>2025年 2月 20日制造业产品设计工作流程的生成式 AI 转型长期以来，制造行业的传统设计和工程工作流程一直以顺序迭代的方法为特征，这种方法通常既耗时又需要大量资源。这些传统方法通常涉及需求收集、2 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 Whisper 和 Canary 架构部署 NVIDIA Riva 多语种 ASR，同时选择性地停用 NMT</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/deploying-nvidia-riva-multilingual-asr-with-whisper-and-canary-architectures-while-selectively-deactivating-nmt/</link>
+      <description>2025年 2月 20日使用 Whisper 和 Canary 架构部署 NVIDIA Riva 多语种 ASR，同时选择性地停用 NMTNVIDIA 持续开发自动语音识别 (ASR) 模型，这些模型在业内树立了基准。 早期版本的 NVIDIA Riva 是一种适用于 ASR 、4 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA GTC 2025 上的人工智能促进气候、能源和生态系统复原力</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/ai-for-climate-energy-and-ecosystem-resilience-at-nvidia-gtc-2025/</link>
+      <description>2025年 2月 20日NVIDIA GTC 2025 上的人工智能促进气候、能源和生态系统复原力从减缓气候变化到改进灾害响应和环境监测，AI 正在重塑我们应对重大全球挑战的方式。快速、高分辨率的气候预报、1 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 NVIDIA cuDF，pandas 读取 JSON 行文件速度提升100倍</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/json-lines-reading-with-pandas-100x-faster-using-nvidia-cudf/</link>
+      <description>2025年 2月 20日使用 NVIDIA cuDF，pandas 读取 JSON 行文件速度提升100倍JSON 是一种广泛采用的格式，用于在系统之间 (通常用于 Web 应用和大语言模型 (LLMs)) 以互操作方式运行的基于文本的信息。3 MIN READ</description>
+    </item>
+    <item>
+      <title>借助全新的游戏内推理 SDK，将 NVIDIA ACE AI 角色引入游戏</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/bring-nvidia-ace-ai-characters-to-games-with-the-new-in-game-inference-sdk/</link>
+      <description>2025年 2月 20日借助全新的游戏内推理 SDK，将 NVIDIA ACE AI 角色引入游戏NVIDIA ACE 是一套数字人技术，可借助生成式 AI 让游戏角色和数字助理如生。ACE 设备上模型为自主游戏角色提供代理工作流，4 MIN READ</description>
+    </item>
+    <item>
+      <title>聚焦：东京大学使用 NVIDIA Grace Hopper 进行开创性的节能地震研究</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/spotlight-university-of-tokyo-uses-nvidia-grace-hopper-for-groundbreaking-energy-efficient-seismic-research/</link>
+      <description>2025年 2月 20日聚焦：东京大学使用 NVIDIA Grace Hopper 进行开创性的节能地震研究超级计算机是推动突破性发现的引擎。从预测极端天气到推进疾病研究，以及设计更安全、更高效的基础设施，这些机器可以模拟因规模、2 MIN READ</description>
     </item>
   </channel>
 </rss>

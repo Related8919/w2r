@@ -6,17 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 21 Feb 2025 01:50:21 +0000</lastBuildDate>
-    <item>
-      <title>Enhance Gemini model security with content filters and system instructions</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/enhance-gemini-model-security-with-content-filters-and-system-instructions</link>
-      <description>AI &amp; Machine LearningEnhance Gemini model security with content filters and system instructionsBy Salah Ahmed • 3-minute read</description>
-    </item>
-    <item>
-      <title>ChromeOS Flex: A Valentine’s Gift for Your PC</title>
-      <link>https://cloud.google.com/blog/products/chrome-enterprise/chromeos-flex-a-valentines-gift-for-your-pc</link>
-      <description>Chrome EnterpriseChromeOS Flex: A Valentine’s Gift for Your PCBy Will Smith • 2-minute read</description>
-    </item>
+    <lastBuildDate>Sat, 22 Feb 2025 01:46:41 +0000</lastBuildDate>
     <item>
       <title>Where’s the beef? For São Paulo’s agricultural secretariat, it’s on Cloud SQL for SQL Server</title>
       <link>https://cloud.google.com/blog/products/databases/sao-paulo-ranchers-raise-efficiency-with-cloud-sql-for-sql-server</link>
@@ -43,6 +33,11 @@
       <description>Data AnalyticsBigQuery ML is now compatible with open-source gen AI modelsBy Vaibhav Sethi • 3-minute read</description>
     </item>
     <item>
+      <title>How to use gen AI for better data schema handling, data quality, and data generation</title>
+      <link>https://cloud.google.com/blog/products/data-analytics/how-gemini-in-bigquery-helps-with-data-engineering-tasks</link>
+      <description>Data AnalyticsHow to use gen AI for better data schema handling, data quality, and data generationBy Deb Lee • 9-minute read</description>
+    </item>
+    <item>
       <title>Discover Google Cloud careers and credentials in our new Career Dreamer</title>
       <link>https://cloud.google.com/blog/topics/training-certifications/career-dreamer-tool-shows-google-cloud-careers-and-credentials</link>
       <description>Training and CertificationsDiscover Google Cloud careers and credentials in our new Career DreamerBy Erin Rifkin • 2-minute read</description>
@@ -56,6 +51,11 @@
       <title>Taking Flight: How the RAF Air Cadets bridged the digital divide with ChromeOS Flex</title>
       <link>https://cloud.google.com/blog/products/chrome-enterprise/taking-flight-how-the-raf-air-cadets-bridged-the-digital-divide-with-chromeos-flex</link>
       <description>Chrome EnterpriseTaking Flight: How the RAF Air Cadets bridged the digital divide with ChromeOS FlexBy Dr. Jill Matterface • 4-minute read</description>
+    </item>
+    <item>
+      <title>8 steps to ensuring a smooth Spanner go-live</title>
+      <link>https://cloud.google.com/blog/products/databases/your-spanner-launch-checklist</link>
+      <description>Databases8 steps to ensuring a smooth Spanner go-liveBy Szabolcs Rozsnyai • 4-minute read</description>
     </item>
   </channel>
 </rss>

@@ -6,19 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 21 Feb 2025 01:50:04 +0000</lastBuildDate>
-    <item>
-      <title>Metasploit Weekly Wrap-Up 01/31/25</title>
-      <link>https://www.rapid7.com/blog/post/2025/01/31/metasploit-weekly-wrap-up-01-31-25/</link>
-      <description>ESC4 Detection
-This week, Metasploit’s jheysel-r7  updated the
-existing ldap_esc_vulnerable_cert_finder module to include detecting template
-objects that can be written to by the authenticated user. This means the module
-can now identify instances of ESC4 from the perspective of the account that the
-Metasploit operator provided the credentials for. Metasploit has been capable of
-exploiting ESC4 for some time, but required users to know which certificate
-templates t</description>
-    </item>
+    <lastBuildDate>Sat, 22 Feb 2025 01:46:26 +0000</lastBuildDate>
     <item>
       <title>Excellence in Leadership: CRN Recognizes Alex Page Among Its 2025 Channel Chiefs</title>
       <link>https://www.rapid7.com/blog/post/2025/02/03/excellence-in-leadership-crn-recognizes-alex-page-among-its-2025-channel-chiefs/</link>
@@ -105,6 +93,18 @@ Description: A new module for an unauthenticated remote code execution bug i</de
       <title>Take Command | Rapid7’s 2025 Cybersecurity Summit: First Look at Our Speaker Lineup</title>
       <link>https://www.rapid7.com/blog/post/2025/02/19/take-command-rapid7s-2025-cybersecurity-summit-first-look-at-our-speaker-lineup/</link>
       <description>Take Command Summit 2025 takes place on April 9, 2025, as a fully virtual, one-day event. Don’t miss the opportunity to hear from industry leaders, engage with Rapid7 experts, and walk away with actionable security strategies.</description>
+    </item>
+    <item>
+      <title>Metasploit Weekly Wrap-Up 02/21/2025</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/21/metasploit-weekly-wrap-up-46/</link>
+      <description>BeyondTrust exploit + fetch payload updates
+This Metasploit release includes an exploit module that chains two
+vulnerabilities, one exploited in the wild by APT groups and another one, a
+0-day discovered by Rapid7
+ during
+the vulnerability analysis. This week's release also includes a significant
+enhancement to Metasploit's fetch payloads, which now support PPC, MIPS and ARM 
+architectures. This allows the payloads to be use</description>
     </item>
   </channel>
 </rss>

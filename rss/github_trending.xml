@@ -6,61 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 23 Feb 2025 01:56:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Feb 2025 01:53:15 +0000</lastBuildDate>
     <item>
-      <title>harry0703 /MoneyPrinterTurbo</title>
-      <link>https://github.com/harry0703/MoneyPrinterTurbo</link>
-      <description>利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</description>
+      <title>yamadashy /repomix</title>
+      <link>https://github.com/yamadashy/repomix</link>
+      <description>📦 Repomix (formerly Repopack) is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.</description>
     </item>
     <item>
-      <title>browser-use /browser-use</title>
-      <link>https://github.com/browser-use/browser-use</link>
-      <description>Make websites accessible for AI agents</description>
+      <title>godotengine /godot</title>
+      <link>https://github.com/godotengine/godot</link>
+      <description>Godot Engine – Multi-platform 2D and 3D game engine</description>
     </item>
     <item>
-      <title>78 /xiaozhi-esp32</title>
-      <link>https://github.com/78/xiaozhi-esp32</link>
-      <description>Build your own AI friend</description>
-    </item>
-    <item>
-      <title>psf /black</title>
-      <link>https://github.com/psf/black</link>
-      <description>The uncompromising Python code formatter</description>
-    </item>
-    <item>
-      <title>wangrongding /wechat-bot</title>
-      <link>https://github.com/wangrongding/wechat-bot</link>
-      <description>🤖一个基于 WeChaty 结合 DeepSeek / ChatGPT / Kimi / 讯飞等Ai服务实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等...</description>
-    </item>
-    <item>
-      <title>koide3 /glim</title>
-      <link>https://github.com/koide3/glim</link>
-      <description>GLIM: versatile and extensible range-based 3D localization and mapping framework</description>
-    </item>
-    <item>
-      <title>nexus-xyz /network-api</title>
-      <link>https://github.com/nexus-xyz/network-api</link>
-      <description>High-performance interface for supplying compute to the Nexus network.</description>
-    </item>
-    <item>
-      <title>nndl /nndl.github.io</title>
-      <link>https://github.com/nndl/nndl.github.io</link>
-      <description>《神经网络与深度学习》 邱锡鹏著 Neural Network and Deep Learning</description>
-    </item>
-    <item>
-      <title>ossu /computer-science</title>
-      <link>https://github.com/ossu/computer-science</link>
-      <description>🎓 Path to a free self-taught education in Computer Science!</description>
-    </item>
-    <item>
-      <title>geekan /MetaGPT</title>
-      <link>https://github.com/geekan/MetaGPT</link>
-      <description>🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming</description>
-    </item>
-    <item>
-      <title>NVIDIA /cutlass</title>
-      <link>https://github.com/NVIDIA/cutlass</link>
-      <description>CUDA Templates for Linear Algebra Subroutines</description>
+      <title>codecrafters-io /build-your-own-x</title>
+      <link>https://github.com/codecrafters-io/build-your-own-x</link>
+      <description>Master programming by recreating your favorite technologies from scratch.</description>
     </item>
     <item>
       <title>NationalSecurityAgency /ghidra</title>
@@ -68,9 +28,24 @@
       <description>Ghidra is a software reverse engineering (SRE) framework</description>
     </item>
     <item>
-      <title>treetrum /amazon-kindle-bulk-downloader</title>
-      <link>https://github.com/treetrum/amazon-kindle-bulk-downloader</link>
-      <description>Allows you to bulk download all your Kindle eBook in a more automated fashion. This tool allows you to create backup copies of the books you've already purchased.</description>
+      <title>FreeTubeApp /FreeTube</title>
+      <link>https://github.com/FreeTubeApp/FreeTube</link>
+      <description>An Open Source YouTube app for privacy</description>
+    </item>
+    <item>
+      <title>shadps4-emu /shadPS4</title>
+      <link>https://github.com/shadps4-emu/shadPS4</link>
+      <description>PlayStation 4 emulator for Windows, Linux and macOS written in C++</description>
+    </item>
+    <item>
+      <title>sinaptik-ai /pandas-ai</title>
+      <link>https://github.com/sinaptik-ai/pandas-ai</link>
+      <description>Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG.</description>
+    </item>
+    <item>
+      <title>browser-use /browser-use</title>
+      <link>https://github.com/browser-use/browser-use</link>
+      <description>Make websites accessible for AI agents</description>
     </item>
     <item>
       <title>mastra-ai /mastra</title>

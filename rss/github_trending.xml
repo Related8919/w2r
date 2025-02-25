@@ -6,16 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Feb 2025 01:53:15 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Feb 2025 01:52:12 +0000</lastBuildDate>
     <item>
-      <title>yamadashy /repomix</title>
-      <link>https://github.com/yamadashy/repomix</link>
-      <description>📦 Repomix (formerly Repopack) is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.</description>
-    </item>
-    <item>
-      <title>godotengine /godot</title>
-      <link>https://github.com/godotengine/godot</link>
-      <description>Godot Engine – Multi-platform 2D and 3D game engine</description>
+      <title>yt-dlp /yt-dlp</title>
+      <link>https://github.com/yt-dlp/yt-dlp</link>
+      <description>A feature-rich command-line audio/video downloader</description>
     </item>
     <item>
       <title>codecrafters-io /build-your-own-x</title>
@@ -23,19 +18,29 @@
       <description>Master programming by recreating your favorite technologies from scratch.</description>
     </item>
     <item>
-      <title>NationalSecurityAgency /ghidra</title>
-      <link>https://github.com/NationalSecurityAgency/ghidra</link>
-      <description>Ghidra is a software reverse engineering (SRE) framework</description>
+      <title>bregman-arie /devops-exercises</title>
+      <link>https://github.com/bregman-arie/devops-exercises</link>
+      <description>Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions</description>
     </item>
     <item>
-      <title>FreeTubeApp /FreeTube</title>
-      <link>https://github.com/FreeTubeApp/FreeTube</link>
-      <description>An Open Source YouTube app for privacy</description>
+      <title>rustdesk /rustdesk</title>
+      <link>https://github.com/rustdesk/rustdesk</link>
+      <description>An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.</description>
     </item>
     <item>
-      <title>shadps4-emu /shadPS4</title>
-      <link>https://github.com/shadps4-emu/shadPS4</link>
-      <description>PlayStation 4 emulator for Windows, Linux and macOS written in C++</description>
+      <title>yamadashy /repomix</title>
+      <link>https://github.com/yamadashy/repomix</link>
+      <description>📦 Repomix (formerly Repopack) is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.</description>
+    </item>
+    <item>
+      <title>Shubhamsaboo /awesome-llm-apps</title>
+      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
+      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
+    </item>
+    <item>
+      <title>neovim /neovim</title>
+      <link>https://github.com/neovim/neovim</link>
+      <description>Vim-fork focused on extensibility and usability</description>
     </item>
     <item>
       <title>sinaptik-ai /pandas-ai</title>
@@ -48,9 +53,34 @@
       <description>Make websites accessible for AI agents</description>
     </item>
     <item>
+      <title>mishushakov /llm-scraper</title>
+      <link>https://github.com/mishushakov/llm-scraper</link>
+      <description>Turn any webpage into structured data using LLMs</description>
+    </item>
+    <item>
+      <title>shadps4-emu /shadPS4</title>
+      <link>https://github.com/shadps4-emu/shadPS4</link>
+      <description>PlayStation 4 emulator for Windows, Linux and macOS written in C++</description>
+    </item>
+    <item>
+      <title>al1abb /invoify</title>
+      <link>https://github.com/al1abb/invoify</link>
+      <description>An invoice generator app built using Next.js, Typescript, and Shadcn</description>
+    </item>
+    <item>
+      <title>FreeTubeApp /FreeTube</title>
+      <link>https://github.com/FreeTubeApp/FreeTube</link>
+      <description>An Open Source YouTube app for privacy</description>
+    </item>
+    <item>
       <title>mastra-ai /mastra</title>
       <link>https://github.com/mastra-ai/mastra</link>
       <description>the TypeScript AI agent framework</description>
+    </item>
+    <item>
+      <title>vllm-project /aibrix</title>
+      <link>https://github.com/vllm-project/aibrix</link>
+      <description>Cost-efficient and pluggable Infrastructure components for GenAI inference</description>
     </item>
   </channel>
 </rss>

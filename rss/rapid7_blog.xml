@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Feb 2025 01:53:14 +0000</lastBuildDate>
-    <item>
-      <title>Excellence in Leadership: CRN Recognizes Alex Page Among Its 2025 Channel Chiefs</title>
-      <link>https://www.rapid7.com/blog/post/2025/02/03/excellence-in-leadership-crn-recognizes-alex-page-among-its-2025-channel-chiefs/</link>
-      <description>For the third consecutive year, Rapid7’s Alex Page has been honored as a CRN Channel Chief, a testament to his unwavering commitment to driving growth, fostering innovation, and strengthening our global channel partnerships.</description>
-    </item>
+    <lastBuildDate>Tue, 25 Feb 2025 01:52:10 +0000</lastBuildDate>
     <item>
       <title>Introducing the Exposure Management Webinar Series: Commanding Your Attack Surface</title>
       <link>https://www.rapid7.com/blog/post/2025/02/04/introducing-the-exposure-management-webinar-series-commanding-your-attack-surface/</link>
@@ -105,6 +100,11 @@ vulnerabilities, one exploited in the wild by APT groups and another one, a
 the vulnerability analysis. This week's release also includes a significant
 enhancement to Metasploit's fetch payloads, which now support PPC, MIPS and ARM 
 architectures. This allows the payloads to be use</description>
+    </item>
+    <item>
+      <title>Under The Hoodie: The Pen Test Diaries</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/24/under-the-hoodie-the-pen-test-diaries/</link>
+      <description>Welcome to Under the Hoodie, where we share stories straight from the frontlines of ethical hacking. Below are real accounts from our testers, revealing just how easy it can be to break into supposedly secure environments.</description>
     </item>
   </channel>
 </rss>

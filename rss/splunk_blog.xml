@@ -6,22 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Feb 2025 01:53:08 +0000</lastBuildDate>
-    <item>
-      <title>Introducing Cloud Monitoring Consoles’s New Overview Dashboard:  Intuitive Actionable Insights at Your Fingertips</title>
-      <link>https://www.splunk.com/en_us/blog/platform/splunk-cloud-monitoring-console-overview-dashboard.html</link>
-      <description>Splunk's Cloud Monitoring Console (CMC) 3.35.0 introduces a new Overview dashboard, centralizing key metrics, highlighting issues, and offering tools to help admins optimize performance and gain faster insights.</description>
-    </item>
-    <item>
-      <title>Embracing Flexibility to Do Great Work</title>
-      <link>https://www.splunk.com/en_us/blog/splunklife/embracing-flexibility-to-do-great-work.html</link>
-      <description>Work in the ways that work for you. Learn how Splunkers define flexibility, and how they work with their teams to make the best work happen.</description>
-    </item>
-    <item>
-      <title>From Setup to Migration: Azure Event Hubs in Data Manager</title>
-      <link>https://www.splunk.com/en_us/blog/platform/azure-event-hubs-setup-migration-splunk-data-manager.html</link>
-      <description>Seamlessly integrate Azure Event Hubs with Splunk Data Manager and enhance your data management with efficient, secure, and scalable solutions.</description>
-    </item>
+    <lastBuildDate>Tue, 25 Feb 2025 01:52:05 +0000</lastBuildDate>
     <item>
       <title>Clara-fication: Data Onboarding Best Practices</title>
       <link>https://www.splunk.com/en_us/blog/platform/clara-fication-data-onboarding-best-practices.html</link>
@@ -51,6 +36,21 @@
       <title>Onboarding Windows Events to Powershell Threat Detection in UBA</title>
       <link>https://www.splunk.com/en_us/blog/security/onboard-windows-events-powershell-threat-detection-uba.html</link>
       <description>Learn how to enhance PowerShell threat detection in UBA by effectively onboarding Windows events. Our step-by-step guide covers XML event log formats and Splunk integration, ensuring robust security against cyber threats.</description>
+    </item>
+    <item>
+      <title>What Is Machine Data? A Complete Intro To Machine Data, For Humans</title>
+      <link>https://www.splunk.com/en_us/blog/learn/machine-data.html</link>
+      <description>In this post, we'll discuss what machine data is, how it’s used, common examples of machine data, and why it’s important.</description>
+    </item>
+    <item>
+      <title>Customers Increasingly Choose Splunk for Observability</title>
+      <link>https://www.splunk.com/en_us/blog/observability/splunk-vs-new-relic-observability-advantages.html</link>
+      <description>In this blog post, learn what makes Splunk Observability different from other industry solutions like New Relic.</description>
+    </item>
+    <item>
+      <title>Key Management in Cryptography: A Complete Introduction</title>
+      <link>https://www.splunk.com/en_us/blog/learn/key-management.html</link>
+      <description>Today, we'll cover encryption key management including a definition and the establishment processes for private &amp; public key cryptography.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

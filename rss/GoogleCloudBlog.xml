@@ -6,22 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 24 Feb 2025 01:53:28 +0000</lastBuildDate>
-    <item>
-      <title>Where’s the beef? For São Paulo’s agricultural secretariat, it’s on Cloud SQL for SQL Server</title>
-      <link>https://cloud.google.com/blog/products/databases/sao-paulo-ranchers-raise-efficiency-with-cloud-sql-for-sql-server</link>
-      <description>DatabasesWhere’s the beef? For São Paulo’s agricultural secretariat, it’s on Cloud SQL for SQL ServerBy Michel Martins da Silva • 6-minute read</description>
-    </item>
-    <item>
-      <title>Accelerate your cloud journey using a well-architected, principles-based framework</title>
-      <link>https://cloud.google.com/blog/products/application-modernization/well-architected-framework-to-accelerate-your-cloud-journey</link>
-      <description>Application ModernizationAccelerate your cloud journey using a well-architected, principles-based frameworkBy Kumar Dhanagopal • 5-minute read</description>
-    </item>
-    <item>
-      <title>What’s new with Google Cloud</title>
-      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
-      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 3-minute read</description>
-    </item>
+    <lastBuildDate>Tue, 25 Feb 2025 01:52:26 +0000</lastBuildDate>
     <item>
       <title>Deep dive into AI with Google Cloud’s global generative AI roadshow</title>
       <link>https://cloud.google.com/blog/topics/developers-practitioners/attend-the-google-cloud-genai-roadshow</link>
@@ -56,6 +41,21 @@
       <title>8 steps to ensuring a smooth Spanner go-live</title>
       <link>https://cloud.google.com/blog/products/databases/your-spanner-launch-checklist</link>
       <description>Databases8 steps to ensuring a smooth Spanner go-liveBy Szabolcs Rozsnyai • 4-minute read</description>
+    </item>
+    <item>
+      <title>What’s new with Google Cloud</title>
+      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
+      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 3-minute read</description>
+    </item>
+    <item>
+      <title>Phishing Campaigns Targeting Higher Education Institutions</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/phishing-targeting-higher-education</link>
+      <description>Threat IntelligencePhishing Campaigns Targeting Higher Education InstitutionsBy Mandiant  • 9-minute read</description>
+    </item>
+    <item>
+      <title>How partners are unlocking scalable audio transcription with Gemini</title>
+      <link>https://cloud.google.com/blog/topics/partners/how-partners-unlock-scalable-audio-transcription-with-gemini</link>
+      <description>PartnersHow partners are unlocking scalable audio transcription with GeminiBy Schneider Larbi • 8-minute read</description>
     </item>
   </channel>
 </rss>

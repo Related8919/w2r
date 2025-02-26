@@ -6,21 +6,16 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 25 Feb 2025 01:52:26 +0000</lastBuildDate>
-    <item>
-      <title>Deep dive into AI with Google Cloud’s global generative AI roadshow</title>
-      <link>https://cloud.google.com/blog/topics/developers-practitioners/attend-the-google-cloud-genai-roadshow</link>
-      <description>Developers &amp; PractitionersDeep dive into AI with Google Cloud’s global generative AI roadshowBy Christina Lin • 4-minute read</description>
-    </item>
-    <item>
-      <title>BigQuery ML is now compatible with open-source gen AI models</title>
-      <link>https://cloud.google.com/blog/products/data-analytics/run-open-source-llms-on-bigquery-ml</link>
-      <description>Data AnalyticsBigQuery ML is now compatible with open-source gen AI modelsBy Vaibhav Sethi • 3-minute read</description>
-    </item>
+    <lastBuildDate>Wed, 26 Feb 2025 01:51:33 +0000</lastBuildDate>
     <item>
       <title>How to use gen AI for better data schema handling, data quality, and data generation</title>
       <link>https://cloud.google.com/blog/products/data-analytics/how-gemini-in-bigquery-helps-with-data-engineering-tasks</link>
       <description>Data AnalyticsHow to use gen AI for better data schema handling, data quality, and data generationBy Deb Lee • 9-minute read</description>
+    </item>
+    <item>
+      <title>Signals of Trouble: Multiple Russia-Aligned Threat Actors Actively Targeting Signal Messenger</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/russia-targeting-signal-messenger</link>
+      <description>Threat IntelligenceSignals of Trouble: Multiple Russia-Aligned Threat Actors Actively Targeting Signal MessengerBy Google Threat Intelligence Group  • 15-minute read</description>
     </item>
     <item>
       <title>Discover Google Cloud careers and credentials in our new Career Dreamer</title>
@@ -33,9 +28,19 @@
       <description>TelecommunicationsRethinking 5G: The cloud imperativeBy Eric Parsons • 4-minute read</description>
     </item>
     <item>
+      <title>How to reduce costs with Managed Service for Apache Kafka: CUDs, compression and more</title>
+      <link>https://cloud.google.com/blog/products/data-analytics/save-money-on-google-cloud-managed-service-for-apache-kafka</link>
+      <description>Data AnalyticsHow to reduce costs with Managed Service for Apache Kafka: CUDs, compression and moreBy Qiqi Wu • 5-minute read</description>
+    </item>
+    <item>
       <title>Taking Flight: How the RAF Air Cadets bridged the digital divide with ChromeOS Flex</title>
       <link>https://cloud.google.com/blog/products/chrome-enterprise/taking-flight-how-the-raf-air-cadets-bridged-the-digital-divide-with-chromeos-flex</link>
       <description>Chrome EnterpriseTaking Flight: How the RAF Air Cadets bridged the digital divide with ChromeOS FlexBy Dr. Jill Matterface • 4-minute read</description>
+    </item>
+    <item>
+      <title>Unlock Inference-as-a-Service with Cloud Run and Vertex AI</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/improve-your-gen-ai-app-velocity-with-inference-as-a-service</link>
+      <description>AI &amp; Machine LearningUnlock Inference-as-a-Service with Cloud Run and Vertex AIBy Jason (Jay) Smith • 4-minute read</description>
     </item>
     <item>
       <title>8 steps to ensuring a smooth Spanner go-live</title>
@@ -46,11 +51,6 @@
       <title>What’s new with Google Cloud</title>
       <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
       <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 3-minute read</description>
-    </item>
-    <item>
-      <title>Phishing Campaigns Targeting Higher Education Institutions</title>
-      <link>https://cloud.google.com/blog/topics/threat-intelligence/phishing-targeting-higher-education</link>
-      <description>Threat IntelligencePhishing Campaigns Targeting Higher Education InstitutionsBy Mandiant  • 9-minute read</description>
     </item>
     <item>
       <title>How partners are unlocking scalable audio transcription with Gemini</title>

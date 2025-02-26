@@ -6,17 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 25 Feb 2025 01:52:10 +0000</lastBuildDate>
-    <item>
-      <title>Introducing the Exposure Management Webinar Series: Commanding Your Attack Surface</title>
-      <link>https://www.rapid7.com/blog/post/2025/02/04/introducing-the-exposure-management-webinar-series-commanding-your-attack-surface/</link>
-      <description>The digital landscape is expanding rapidly, and with it, the complexity of managing an organization's attack surface. To help cybersecurity professionals navigate this challenge, Rapid7 presents a three-part webinar series, "Commanding Your Attack Surface."</description>
-    </item>
-    <item>
-      <title>Take Command | Rapid7’s 2025 Cybersecurity Summit: Own Your Attack Surface on April 9</title>
-      <link>https://www.rapid7.com/blog/post/2025/02/05/take-command-rapid7s-2025-cybersecurity-summit/</link>
-      <description>Take Command is back. After a hugely successful event last year, Rapid7’s cybersecurity summit returns with another stellar lineup to equip security teams with the latest threat intelligence, expert insights, and real-world strategies to take control of an evolving attack landscape.</description>
-    </item>
+    <lastBuildDate>Wed, 26 Feb 2025 01:51:19 +0000</lastBuildDate>
     <item>
       <title>4 Reasons Why MSPs &amp; MSSPs Need to Enhance Attack Surface Management</title>
       <link>https://www.rapid7.com/blog/post/2025/02/06/4-reasons-why-msps-and-mssps-need-attack-surface-management/</link>
@@ -105,6 +95,16 @@ architectures. This allows the payloads to be use</description>
       <title>Under The Hoodie: The Pen Test Diaries</title>
       <link>https://www.rapid7.com/blog/post/2025/02/24/under-the-hoodie-the-pen-test-diaries/</link>
       <description>Welcome to Under the Hoodie, where we share stories straight from the frontlines of ethical hacking. Below are real accounts from our testers, revealing just how easy it can be to break into supposedly secure environments.</description>
+    </item>
+    <item>
+      <title>Command Platform Innovations Eliminate Data Blind Spots Through Complete Visibility and Context-Driven Risk Prioritization</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/25/command-platform-innovations-eliminate-data-blind-spots-through-complete-visibility-and-context-driven-risk-prioritization/</link>
+      <description>Sensitive Data Discovery in Exposure Command delivers continuous visibility into sensitive data across multicloud environments, ensuring that security teams can proactively protect high-value assets.</description>
+    </item>
+    <item>
+      <title>Uncovering and Protecting Sensitive Data Across Cloud Environments with Exposure Command</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/25/uncovering-and-protecting-sensitive-data-across-cloud-environments-with-exposure-command/</link>
+      <description>This enhancement enables organizations to centralize sensitive data insights across their cloud environments, providing a unified view of data risks and exposures.</description>
     </item>
   </channel>
 </rss>

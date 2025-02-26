@@ -12,7 +12,7 @@
 	<atom:link href="https://www.microsoft.com/en-us/research/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.microsoft.com/en-us/research/</link>
 	<description></description>
-	<lastBuildDate>Fri, 21 Feb 2025 21:51:41 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 25 Feb 2025 23:39:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,134 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.7.2</generator>
 	<item>
+		<title>Magma: A foundation model for multimodal AI agents across digital and physical worlds</title>
+		<link>https://www.microsoft.com/en-us/research/blog/magma-a-foundation-model-for-multimodal-ai-agents-across-digital-and-physical-worlds/</link>
+		
+		<dc:creator><![CDATA[Swadheen Shukla, Jianwei Yang, Reuben Tan, Qianhui Wu, Jianfeng Gao]]></dc:creator>
+		<pubDate>Tue, 25 Feb 2025 19:08:21 +0000</pubDate>
+				<category><![CDATA[Research Blog]]></category>
+		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1131576</guid>
+
+					<description><![CDATA[<p>Explore Magma, a foundation model that can empower AI assistants to interpret environments, plan actions, and execute tasks across digital and physical spaces. Now available, learn how it advances the field of agentic AI.</p>
+<p>The post <a href="https://www.microsoft.com/en-us/research/blog/magma-a-foundation-model-for-multimodal-ai-agents-across-digital-and-physical-worlds/">Magma: A foundation model for multimodal AI agents across digital and physical worlds</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Project-Magma-BlogHeroFeature-1400x788-1.jpg" alt="Gradient background transitioning from blue on the left to pink on the right. In the center, a rectangular box with ‘MAGMA’ written in bold white letters. To the left, an icon of a globe representing Earth. To the right, an icon of a computer monitor displaying a globe. Arrows connect these three elements in a circular flow, indicating interaction or data exchange between Earth, MAGMA, and the computer." class="wp-image-1131846" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Project-Magma-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+
+
+
+<p>Imagine an AI system capable of guiding a robot to manipulate physical objects as effortlessly as it navigates software menus. Such seamless integration of digital and physical tasks has long been the stuff of science fiction.&nbsp;&nbsp;</p>
+
+
+
+<p>Today, Microsoft researchers are bringing that vision closer to reality with <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://microsoft.github.io/Magma/" target="_blank" rel="noreferrer noopener">Magma<span class="sr-only"> (opens in new tab)</span></a>, a multimodal AI foundation model designed to process information and generate action proposals across both digital and physical environments. It is designed to enable AI agents to interpret user interfaces and suggest actions like button clicks, while also orchestrating robotic movements and interactions in the physical world. &nbsp;</p>
+
+
+
+<p>Built on the foundation model paradigm, Magma is pretrained on an expansive and diverse dataset, allowing it to generalize better across tasks and environments than smaller, task-specific models. As illustrated in Figure 1, Magma synthesizes visual and textual inputs to generate meaningful actions—whether executing a command in software or grabbing a tool in the physical world. This new model represents a significant step toward AI agents that can serve as versatile, general-purpose assistants.&nbsp;</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="4667" height="2100" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-1-3.png" alt="Given a described goal, Magma can formulate plans and execute actions to achieve it. By effectively transferring knowledge from freely available visual and language data, Magma bridges verbal, spatial and temporal intelligence to navigate complex tasks and settings." class="wp-image-1131618" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-1-3.png 4667w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-1-3-300x135.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-1-3-1024x461.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-1-3-768x346.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-1-3-1536x691.png 1536w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-1-3-2048x922.png 2048w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-1-3-240x108.png 240w" sizes="(max-width: 4667px) 100vw, 4667px" /><figcaption class="wp-element-caption">Figure 1: Magma is one of the first foundation models that is capable of interpreting and grounding multimodal inputs within both digital and physical environments. Given a described goal, Magma can formulate plans and execute actions to achieve it. By effectively transferring knowledge from freely available visual and language data, Magma bridges verbal, spatial and temporal intelligence to navigate complex tasks and settings.</figcaption></figure>
+
+
+
+<p>Vision-Language-Action (VLA) models integrate visual perception, language comprehension, and action reasoning to enable AI systems to interpret images, process textual instructions, and propose actions. These models bridge the gap between multimodal understanding and real-world interaction. Typically pretrained on large numbers of VLA datasets, they acquire the ability to understand visual content, process language, and perceive and interact with the spatial world, allowing them to perform a wide range of tasks. However, due to the dramatic difference among various digital and physical environments, separate VLA models are trained and used for different environments. As a result, these models struggle to generalize to new tasks and environments outside of their training data. Moreover, most of these models do not leverage pretrained vision-language (VL) models or diverse VL datasets, which hampers their understanding of VL relations and generalizability. &nbsp;</p>
+
+
+
+<p>Magma, to the best of our knowledge, is one of the first VLA foundation model that can adapt to new tasks in both digital and physical environments, which helps AI-powered assistants or robots understand their surroundings and suggest appropriate actions. For example, it could enable a home assistant robot to learn how to organize a new type of object it has never encountered or help a virtual assistant generate step-by-step user interface navigation instructions for an unfamiliar task. Through Magma, we demonstrate the advantages of pretraining a single VLA model for AI agents across multiple environments while still achieving state-of-the-art results on user interface navigation and robotic manipulation tasks, outperforming previous models that are tailored to these specific domains. On VL tasks, Magma also compares favorably to popular VL models that are trained on much larger datasets.&nbsp;</p>
+
+
+
+<p>Building a foundation model that spans such different modalities has required us to rethink how we train and supervise AI agents. Magma introduces a novel training paradigm centered on two key innovations: Set-of-Mark (SoM) and Trace-of-Mark (ToM) annotations. These techniques developed by Microsoft Research, imbue the model with a structured understanding of tasks in both user interface navigation and robotic manipulation domains.&nbsp;</p>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Set-of-Mark (SoM):</strong> SoM is an annotated set of key objects, or interface elements that are relevant to achieving a given goal. For example, if the task is to navigate a web page, the SoM includes all the bounding boxes for clickable user interface elements. In a physical task like setting a table, the SoM could include the plate, the cup, and the position of each item on the table. By providing SoM, we give Magma a high-level hint of “what needs attention”—the essential elements of the task—without yet specifying the order or method.</li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="1280" height="234" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-2-2.jpg" alt="Set-of-Mark prompting enables effective action grounding in images for both UI screenshot , robot manipulation and human video by having the model predict numeric marks for clickable buttons or robot arms in image space. These marks give Magma a high-level hint of “what needs attention” – the essential elements of the task." class="wp-image-1131630" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-2-2.jpg 1280w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-2-2-300x55.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-2-2-1024x187.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-2-2-768x140.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-2-2-240x44.jpg 240w" sizes="(max-width: 1280px) 100vw, 1280px" /><figcaption class="wp-element-caption">Figure 2: Set-of-Mark (SoM) for Action Grounding. Set-of-Mark prompting enables effective action grounding in images for both UI screenshot (left), robot manipulation (middle) and human video (right) by having the model predict numeric marks for clickable buttons or robot arms in image space. These marks give Magma a high-level hint of “what needs attention” – the essential elements of the task&nbsp;</figcaption></figure>
+
+
+
+<ul class="wp-block-list">
+<li><strong>Trace-of-Mark (ToM):</strong> In ToM we extend the strategy of “overlaying marks” from static images to dynamic videos, by incorporating tracing lines following object movements over time. While SoM highlights key objects or interface elements relevant to a task, ToM captures how these elements change or move throughout an interaction. For example, in a physical task like moving an object on a table, ToM might illustrate the motion of a hand placing the object and adjusting its position. By providing these temporal traces, ToM offers Magma a richer understanding of how actions unfold, complementing SoM’s focus on what needs attention.</li>
+</ul>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="9025" height="1707" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-3-4.png" alt="Trace-of-Mark (ToM) for Action Planning. Trace-of-Mark supervisions for robot manipulation and human action. It compels the model to comprehend temporal video dynamics and anticipate future states before acting, while using fewer tokens than next-frame prediction to capture longer temporal horizons and action-related dynamics without ambient distractions" class="wp-image-1131645" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-3-4.png 9025w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-3-4-300x57.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-3-4-1024x194.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-3-4-768x145.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-3-4-1536x291.png 1536w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-3-4-2048x387.png 2048w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-3-4-240x45.png 240w" sizes="auto, (max-width: 9025px) 100vw, 9025px" /><figcaption class="wp-element-caption">Figure 3: Trace-of-Mark (ToM) for Action Planning. Trace-of-Mark supervisions for robot manipulation (left) and human action (right). It compels the model to comprehend temporal video dynamics and anticipate future states before acting, while using fewer tokens than next-frame prediction to capture longer temporal horizons and action-related dynamics without ambient distractions.&nbsp;</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading" id="performance-and-evaluation">Performance and evaluation</h2>
+
+
+
+<h3 class="wp-block-heading" id="zero-shot-agentic-intelligence">Zero-shot agentic intelligence</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="2221" height="601" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-1-1.png" alt="Table 1: Zero-shot evaluation on agentic intelligence. We report the results for pretrained Magma without any domain-specific finetuning. In this experiment, Magma is the only model that can conduct the full task spectrum." class="wp-image-1131813" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-1-1.png 2221w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-1-1-300x81.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-1-1-1024x277.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-1-1-768x208.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-1-1-1536x416.png 1536w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-1-1-2048x554.png 2048w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-1-1-240x65.png 240w" sizes="auto, (max-width: 2221px) 100vw, 2221px" /><figcaption class="wp-element-caption">Table 1: Zero-shot evaluation on agentic intelligence. We report the results for pretrained Magma without any domain-specific finetuning. In this experiment, Magma is the only model that can conduct the full task spectrum.</figcaption></figure>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="4284" height="1271" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-4-1.png" alt="Zero-shot evaluation on Google Robots and Bridge with SimplerEnv. Magma shows strong zero-shot cross-domain robustness and demonstrates impressive results in cross-embodiment manipulation simulation tasks." class="wp-image-1131657" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-4-1.png 4284w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-4-1-300x89.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-4-1-1024x304.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-4-1-768x228.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-4-1-1536x456.png 1536w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-4-1-2048x608.png 2048w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Figure-4-1-240x71.png 240w" sizes="auto, (max-width: 4284px) 100vw, 4284px" /><figcaption class="wp-element-caption">Figure 4: Zero-shot evaluation on Google Robots and Bridge with SimplerEnv. Magma shows strong zero-shot cross-domain robustness and demonstrates impressive results in cross-embodiment manipulation simulation tasks.</figcaption></figure>
+
+
+
+<h3 class="wp-block-heading" id="efficient-finetuning">Efficient finetuning</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="2835" height="844" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-2.png" alt="Table showing Zero-shot evaluation on agentic intelligence. We report the results for pretrained Magma without any domain-specific finetuning. In this experiment, Magma is the only model that can conduct the full task spectrum." class="wp-image-1131819" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-2.png 2835w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-2-300x89.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-2-1024x305.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-2-768x229.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-2-1536x457.png 1536w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-2-2048x610.png 2048w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-2-240x71.png 240w" sizes="auto, (max-width: 2835px) 100vw, 2835px" /><figcaption class="wp-element-caption">Table 2: Efficient finetuning on Mind2Web for web UI navigation.</figcaption></figure>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1072" height="255" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Magma_Figure5.jpg" alt="Figure 5: Few-shot finetuning on Widow-X robot (left) and LIBERO (right). Magma achieves a significantly higher average success rate in all task suites. Additionally, removing SoM and ToM during pretraining has a negative impact on model performance." class="wp-image-1131771" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Magma_Figure5.jpg 1072w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Magma_Figure5-300x71.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Magma_Figure5-1024x244.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Magma_Figure5-768x183.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Magma_Figure5-1066x255.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Magma_Figure5-240x57.jpg 240w" sizes="auto, (max-width: 1072px) 100vw, 1072px" /><figcaption class="wp-element-caption">Figure 5: Few-shot finetuning on Widow-X robot (left) and LIBERO (right). Magma achieves a significantly higher average success rate in all task suites. Additionally, removing SoM and ToM during pretraining has a negative impact on model performance. </figcaption></figure>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="2440" height="686" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-3.jpg" alt="Without task-specific data, Magma performs competitively and even outperforms some state-of-the-art approaches such as Video-Llama2 and ShareGPT4Video on most benchmarks, despite using much fewer video instruction tuning data." class="wp-image-1131831" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-3.jpg 2440w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-3-300x84.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-3-1024x288.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-3-768x216.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-3-1536x432.jpg 1536w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-3-2048x576.jpg 2048w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/Table-3-240x67.jpg 240w" sizes="auto, (max-width: 2440px) 100vw, 2440px" /><figcaption class="wp-element-caption">Table 3: Without task-specific data, Magma performs competitively and even outperforms some state-of-the-art approaches such as Video-Llama2 and ShareGPT4Video on most benchmarks, despite using much fewer video instruction tuning data.</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading" id="relation-to-broader-research">Relation to broader research</h2>
+
+
+
+<p>Magma is one component of a much larger vision within Microsoft Research for the future of agentic AI systems. Across various teams and projects at Microsoft, we are collectively exploring how AI systems can detect, analyze, and respond in the world to amplify human capabilities.</p>
+
+
+
+<p>Earlier this month, we announced <a href="https://www.microsoft.com/en-us/research/blog/autogen-v0-4-reimagining-the-foundation-of-agentic-ai-for-scale-extensibility-and-robustness/" target="_blank" rel="noreferrer noopener">AutoGen v0.4</a>, a fully reimagined open-source library for building advanced agentic AI systems. While AutoGen focuses on the structure and management of AI agents, Magma enhances those agents by empowering them with a new level of capability. Developers can already use AutoGen to set up an AI assistant that leverages an LLM for planning and dialogue using conventional LLMs. Now with MAGMA, if developers want to build agents that execute both physical or user interface/browser tasks, that same assistant would call upon Magma to understand the environment, perform reasoning, and take a sequence of actions to complete the task.&nbsp;</p>
+
+
+
+<p>The reasoning ability of Magma can be further developed by incorporating test-time search and reinforcement learning, as described in <a href="https://www.microsoft.com/en-us/research/blog/exact-improving-ai-agents-decision-making-via-test-time-compute-scaling/" target="_blank" rel="noreferrer noopener">ExACT</a>. ExACT shows an approach for teaching AI agents to explore more effectively, enabling them to intelligently navigate their environments, gather valuable information, evaluate options, and identify optimal decision-making and planning strategies.</p>
+
+
+
+<p>At the application level, we are also exploring new user experience (UX) powered by foundation models for the next generation of agentic AI systems. <a href="https://www.microsoft.com/en-us/research/blog/data-formulator-exploring-how-ai-can-help-analysts-create-rich-data-visualizations/" target="_blank" rel="noreferrer noopener">Data Formulator</a> is a prime example. Announced late last year, Data Formulator, is an AI-driven visualization tool developed by Microsoft Research that translates high-level analytical intents into rich visual representations by handling complex data transformations behind the scenes​.&nbsp;&nbsp;</p>
+
+
+
+<p>Looking ahead, the integration of reasoning, exploration and action capabilities will pave the way for highly capable, robust agentic AI systems.</p>
+
+
+
+<p>Magma is available on <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://ai.azure.com/labs/projects/magma" target="_blank" rel="noreferrer noopener">Azure AI Foundry Labs<span class="sr-only"> (opens in new tab)</span></a> as well as on <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://huggingface.co/microsoft/Magma-8B" target="_blank" rel="noreferrer noopener"><u>HuggingFace</u><span class="sr-only"> (opens in new tab)</span></a> with an MIT license. Please refer to the <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://microsoft.github.io/Magma/" target="_blank" rel="noreferrer noopener"><u>Magma project page</u><span class="sr-only"> (opens in new tab)</span></a> for more technical details. We invite you to test and explore these cutting-edge agentic model innovations from Microsoft Research.</p>
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/magma-a-foundation-model-for-multimodal-ai-agents-across-digital-and-physical-worlds/">Magma: A foundation model for multimodal AI agents across digital and physical worlds</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Exploring the structural changes driving protein function with BioEmu-1</title>
 		<link>https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/</link>
 		
@@ -32,7 +160,7 @@
 <p>The post <a href="https://www.microsoft.com/en-us/research/blog/exploring-the-structural-changes-driving-protein-function-with-bioemu-1/">Exploring the structural changes driving protein function with BioEmu-1</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1.jpg" alt="The image shows eight different 3D models of protein structures. Each model is color-coded with various segments in blue, green, orange, and other colors to highlight different parts of the protein." class="wp-image-1130742" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1.jpg" alt="The image shows eight different 3D models of protein structures. Each model is color-coded with various segments in blue, green, orange, and other colors to highlight different parts of the protein." class="wp-image-1130742" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/NEWBioEmu-1-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
 
 
 
@@ -48,30 +176,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="670821">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1044939">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Microsoft research newsletter</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">on-demand event</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://info.microsoft.com/ww-landing-microsoft-research-newsletter.html" aria-label="Microsoft Research Newsletter" data-bi-cN="Microsoft Research Newsletter" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2019/09/Newsletter_Banner_08_2019_v1_1920x1080.png" alt="" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/story/sep-2024-brief/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum Episode 4" data-bi-cN="Microsoft Research Forum Episode 4" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/08/RF4_Panel_1400x788.jpg" alt="Research Forum | Episode 4 Panel | John Langford, Hoifung Poon, Katja Hofmann, Jianwei Yang" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Microsoft Research Newsletter</h2>
+									<h2 class="h4">Microsoft Research Forum Episode 4</h2>
 				
-								<p class="large">Stay connected to the research community at Microsoft.</p>
+								<p class="large">Learn about the latest multimodal AI models, advanced benchmarks for AI evaluation and model self-improvement, and an entirely new kind of computer for AI inference and hard optimization. </p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
-					<div class="wp-block-button is-style-fill-chevron">
-						<a href="https://info.microsoft.com/ww-landing-microsoft-research-newsletter.html" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Microsoft Research Newsletter" data-bi-cN="Microsoft Research Newsletter" target="_blank">
-							Subscribe today						</a>
+					<div class="wp-block-button">
+						<a href="https://www.microsoft.com/en-us/research/story/sep-2024-brief/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum Episode 4" target="_blank">
+							Watch on-demand						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -92,7 +220,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" width="1024" height="742" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-1024x742.png" alt="The figure compares Molecular Dynamics (MD) simulation and BioEmu-1, and shows that BioEmu-1 can emulate the equilibrium distribution 100,000 times faster than running a MD simulation to full convergence. The middle part of the figure shows that the 2D projections of the structure distributions obtained from MD simulation and BioEmu-1 are nearly identical. The bottom part of the figure shows three representative structures from the equilibrium distribution." class="wp-image-1129455" style="width:530px;height:auto" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-1024x742.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-300x217.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-768x557.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-1536x1113.png 1536w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-240x174.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2.png 1736w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Figure 2: BioEmu-1 reproduces the D. E. Shaw research&nbsp;(DESRES) simulation of Protein G accurately with a fraction of the computational cost. On the top, we compare the distributions of structures obtained by extensive MD simulation (left) and independent sampling from BioEmu-1 (right). Three representative sample structures are shown at the bottom.</figcaption></figure>
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="742" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-1024x742.png" alt="The figure compares Molecular Dynamics (MD) simulation and BioEmu-1, and shows that BioEmu-1 can emulate the equilibrium distribution 100,000 times faster than running a MD simulation to full convergence. The middle part of the figure shows that the 2D projections of the structure distributions obtained from MD simulation and BioEmu-1 are nearly identical. The bottom part of the figure shows three representative structures from the equilibrium distribution." class="wp-image-1129455" style="width:530px;height:auto" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-1024x742.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-300x217.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-768x557.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-1536x1113.png 1536w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2-240x174.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig2.png 1736w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Figure 2: BioEmu-1 reproduces the D. E. Shaw research&nbsp;(DESRES) simulation of Protein G accurately with a fraction of the computational cost. On the top, we compare the distributions of structures obtained by extensive MD simulation (left) and independent sampling from BioEmu-1 (right). Three representative sample structures are shown at the bottom.</figcaption></figure>
 
 
 
@@ -100,7 +228,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-large is-resized"><img decoding="async" width="1024" height="490" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-1024x490.png" alt="The left panel of the figure shows a scatter plot of the experimental folding free energies ΔG against those predicted by BioEmu-1. The plot shows a good correlation between the two. The right panel of the figure shows folded and unfolded structures of a protein." class="wp-image-1129461" style="width:662px;height:auto" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-1024x490.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-300x144.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-768x368.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-1536x736.png 1536w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-240x115.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3.png 1750w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Figure 3: BioEmu-1 accurately predicts protein stability. On the left, we plot the experimentally measured free energy differences ΔG against those predicted by BioEmu-1. On the right, we show a protein in folded and unfolded structures.</figcaption></figure>
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="490" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-1024x490.png" alt="The left panel of the figure shows a scatter plot of the experimental folding free energies ΔG against those predicted by BioEmu-1. The plot shows a good correlation between the two. The right panel of the figure shows folded and unfolded structures of a protein." class="wp-image-1129461" style="width:662px;height:auto" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-1024x490.png 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-300x144.png 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-768x368.png 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-1536x736.png 1536w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3-240x115.png 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/02/BioEmu-1_Fig3.png 1750w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Figure 3: BioEmu-1 accurately predicts protein stability. On the left, we plot the experimentally measured free energy differences ΔG against those predicted by BioEmu-1. On the right, we show a protein in folded and unfolded structures.</figcaption></figure>
 
 
 
@@ -1121,29 +1249,29 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085514">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115766">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: blog post</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research blog</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/graphrag-auto-tuning-provides-rapid-adaptation-to-new-domains/" aria-label="GraphRAG auto-tuning provides rapid adaptation to new domains" data-bi-cN="GraphRAG auto-tuning provides rapid adaptation to new domains" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/09/GraphRag-3-BlogHeroFeature-1400x788-1.png" alt="GraphRAG image on blue to green gradient" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" aria-label="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1.png" alt="A diagram illustrating the joint optimization process of instructions and in-context examples in PromptWizard. The figure demonstrates how the framework iteratively refines both components, integrating feedback to enhance the overall prompt effectiveness and adaptability across tasks." />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">GraphRAG auto-tuning provides rapid adaptation to new domains</h2>
+									<h2 class="h4">PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts</h2>
 				
-								<p class="large">GraphRAG uses LLM-generated knowledge graphs to substantially improve complex Q&A over retrieval-augmented generation (RAG). Discover automatic tuning of GraphRAG for new datasets, making it more accurate and relevant.</p>
+								<p class="large">PromptWizard from Microsoft Research is now open source. It is designed to automate and simplify AI prompt optimization, combining iterative LLM feedback with efficient exploration and refinement techniques to create highly effective prompts in minutes.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/graphrag-auto-tuning-provides-rapid-adaptation-to-new-domains/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="GraphRAG auto-tuning provides rapid adaptation to new domains" target="_blank">
+						<a href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
 							Read more						</a>
 					</div>
 				</div>
@@ -2018,30 +2146,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085526">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115766">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research blog</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" aria-label="What’s Your Story: Lex Story" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/08/Lex-Story_WYS_Hero_Feature_1400x788.jpg" alt="photo of Lex Story for the What's Your Story episode of the Microsoft Research podcast" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" aria-label="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/PromptWizard-BlogHeroFeature-1400x788-1.png" alt="A diagram illustrating the joint optimization process of instructions and in-context examples in PromptWizard. The figure demonstrates how the framework iteratively refines both components, integrating feedback to enhance the overall prompt effectiveness and adaptability across tasks." />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">What’s Your Story: Lex Story</h2>
+									<h2 class="h4">PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts</h2>
 				
-								<p class="large">Model maker and fabricator Lex Story helps bring research to life through prototyping. He discusses his take on failure; the encouragement and advice that has supported his pursuit of art and science; and the sabbatical that might inspire his next career move.</p>
+								<p class="large">PromptWizard from Microsoft Research is now open source. It is designed to automate and simplify AI prompt optimization, combining iterative LLM feedback with efficient exploration and refinement techniques to create highly effective prompts in minutes.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/podcast/whats-your-story-lex-story/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="What’s Your Story: Lex Story" target="_blank">
-							Listen now						</a>
+						<a href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
+							Read more						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -2180,30 +2308,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="999693">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115757">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Event Series</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum" data-bi-cN="Microsoft Research Forum" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MRF-24_WebImage_1400x788.png" alt="various abstract 3D shapes on a light blue background" />
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/" aria-label="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" data-bi-cN="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Ginny Badanes, Madeleine Daepp and Robert Ness" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Microsoft Research Forum</h2>
+									<h2 class="h4">Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness</h2>
 				
-								<p class="large">Join us for a continuous exchange of ideas about research in the era of general AI. Watch the first four episodes on demand.</p>
+								<p class="large">As the “biggest election year in history” comes to an end, researchers Madeleine Daepp and Robert Osazuwa Ness and Democracy Forward GM Ginny Badanes discuss AI’s impact on democracy, including the tech’s use in Taiwan and India.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum" target="_blank">
-							Watch on-demand						</a>
+						<a href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" target="_blank">
+							Listen now						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -3109,304 +3237,6 @@
 	</div>
 </div>
 <span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/podcast/ideas-bug-hunting-with-shan-lu/">Ideas: Bug hunting with Shan Lu</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Research Focus: Week of January 13, 2025</title>
-		<link>https://www.microsoft.com/en-us/research/blog/research-focus-week-of-january-13-2025/</link>
-		
-		<dc:creator><![CDATA[Microsoft Research Team]]></dc:creator>
-		<pubDate>Fri, 17 Jan 2025 17:37:58 +0000</pubDate>
-				<category><![CDATA[Research Blog]]></category>
-		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1116780</guid>
-
-					<description><![CDATA[<p>In this edition: Privacy enhancements for multiparty deep learning; using smaller, open-source models to provide relevance judgments; new tool uses AI, data to automate innovation and development; Yasuyuki Matsushita named IEEE 2025 Computer Society Fellow.</p>
-<p>The post <a href="https://www.microsoft.com/en-us/research/blog/research-focus-week-of-january-13-2025/">Research Focus: Week of January 13, 2025</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<p class="has-text-align-center"><strong>In this edition:</strong></p>
-
-
-
-<ul class="wp-block-list">
-<li>We introduce privacy enhancements for multiparty deep learning, a framework using smaller, open-source models to provide relevance judgments, and other notable new research.</li>
-
-
-
-<li>We congratulate Yasuyuki Matsushita, who was named an IEEE Computer Society Fellow.</li>
-
-
-
-<li>We’ve included a recap of the extraordinary, far-reaching work done by researchers at Microsoft in 2024.&nbsp;&nbsp;</li>
-</ul>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1.jpg" alt="Decorative graphic with wavy shapes in the background in blues and purples. Text overlay in center left reads: “Research Focus: January 17, 2024”" class="wp-image-1122399" srcset="https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/uploads/prod/2025/01/NEW_RF56-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
-
-
-
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-<p class="has-blue-color has-text-color has-link-color wp-elements-8d9d7d4143e56f533f8c36e4237c1c8d">NEW RESEARCH</p>
-
-
-
-<h3 class="wp-block-heading h2" id="ai-meets-materials-discovery">AI meets materials discovery</h3>
-
-
-
-<p>Two of the transformative tools that play a central role in Microsoft’s work on AI for science are MatterGen and MatterSim. In the world of materials discovery, each plays a distinct yet complementary role in reshaping how researchers design and validate new materials.</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-6 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/story/ai-meets-materials-discovery/">Read the story</a></div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-
-
-
-<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
-
-
-
-<h3 class="wp-block-heading h2" id="heading">Communication Efficient Secure and Private Multi-Party Deep Learning</h3>
-
-
-
-<p>Distributed training enables multiple parties to jointly train a machine learning model on their respective datasets, which can help address the challenges posed by requirements in modern machine learning for large volumes of diverse data. However, this can raise security and privacy issues – protecting each party’s data <em>during</em> training and preventing leakage of private information from the model <em>after</em> training through various inference attacks.&nbsp;&nbsp;</p>
-
-
-
-<p>In a recent paper, <a href="https://www.microsoft.com/en-us/research/publication/communication-efficient-secure-and-private-multi-party-deep-learning/" target="_blank" rel="noreferrer noopener">Communication Efficient Secure and Private Multi-Party Deep Learning</a>, researchers from Microsoft address these concerns simultaneously by designing efficient Differentially Private, secure Multiparty Computation (DP-MPC) protocols for jointly training a model on data distributed among multiple parties. This DP-MPC protocol in the two-party setting is 56-to-794 times more communication-efficient and 16-to-182 times faster than previous such protocols. This work simplifies and improves on previous attempts to combine techniques from secure multiparty computation and differential privacy, especially in the context of training machine learning models.&nbsp;</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-7 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--9"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/communication-efficient-secure-and-private-multi-party-deep-learning/">Read the paper</a></div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-</div>
-
-
-
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
-
-
-
-<h3 class="wp-block-heading h2" id="heading">JudgeBlender: Ensembling Judgments for Automatic Relevance Assessment</h3>
-
-
-
-<p>Training and evaluating retrieval systems requires significant relevance judgments, which are traditionally collected from human assessors. This process is both costly and time-consuming. Large language models (LLMs) have shown promise in generating relevance labels for search tasks, offering a potential alternative to manual assessments. Current approaches often rely on a single LLM. While effective, this approach can be expensive and prone to intra-model biases that can favor systems leveraging similar models.</p>
-
-
-
-<p>In a recent paper: <a href="https://www.microsoft.com/en-us/research/publication/judgeblender-ensembling-judgments-for-automatic-relevance-assessment/">JudgeBlender: Ensembling Judgments for Automatic Relevance Assessment</a>, researchers from Microsoft we introduce a framework that employs smaller, open-source models to provide relevance judgments by combining evaluations across multiple LLMs (LLMBlender) or multiple prompts (PromptBlender). By leveraging the LLMJudge benchmark, they compare JudgeBlender with state-of-the-art methods and the top performers in the LLMJudge challenge. This research shows that JudgeBlender achieves competitive performance, demonstrating that very large models are often unnecessary for reliable relevance assessments.</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-8 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--10"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/judgeblender-ensembling-judgments-for-automatic-relevance-assessment/">Read the paper</a></div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-</div>
-
-
-
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
-
-
-
-<h3 class="wp-block-heading h2" id="heading">Convergence to Equilibrium of No-regret Dynamics in Congestion Games</h3>
-
-
-
-<p>Congestion games are used to describe the behavior of agents who share a set of resources. Each player chooses a combination of resources, which may become congested, decreasing utility for the players who choose them. Players can avoid congestion by choosing combinations that are less popular. This is useful for modeling a range of real-world scenarios, such as traffic flow, data routing, and wireless communication networks.</p>
-
-
-
-<p>In a recent paper: <a href="https://www.microsoft.com/en-us/research/publication/convergence-to-equilibrium-of-no-regret-dynamics-in-congestion-games/">Convergence to Equilibrium of No-regret Dynamics in Congestion Games</a>; researchers from Microsoft and external colleagues propose CongestEXP, a decentralized algorithm based on the classic exponential weights method. They evaluate CongestEXP in a traffic congestion game setting. As more drivers use a particular route, congestion increases, leading to higher travel times and lower utility. Players can choose a different route every day to optimize their utility, but the observed utility by each player may be subject to randomness due to uncertainty (e.g., bad weather). The researchers show that this approach provides both regret guarantees and convergence to Nash Equilibrium, where no player can unilaterally improve their outcome by changing their strategy.</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-9 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--11"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/convergence-to-equilibrium-of-no-regret-dynamics-in-congestion-games/">Read the paper</a></div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-</div>
-
-
-
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
-
-
-
-<h3 class="wp-block-heading h2" id="heading">RD-Agent: An open-source solution for smarter R&D</h3>
-
-
-
-<p>Research and development (R&D) plays a pivotal role in boosting industrial productivity. However, the rapid advance of AI has exposed the limitations of traditional R&D automation. Current methods often lack the intelligence needed to support innovative research and complex development tasks, underperforming human experts with deep knowledge.</p>
-
-
-
-<p>LLMs trained on vast datasets spanning many subjects are equipped with extensive knowledge and reasoning capabilities that support complex decision-making in diverse workflows. By autonomously performing tasks and analyzing data, LLMs can significantly increase the efficiency and precision of R&D processes.</p>
-
-
-
-<p>In a <a href="https://www.microsoft.com/en-us/research/articles/rd-agent-an-open-source-solution-for-smarter-rd/">recent article</a>, researchers from Microsoft introduce RD-Agent, a tool that integrates data-driven R&D systems and harnesses advanced AI to automate innovation and development.</p>
-
-
-
-<p>At the heart of RD-Agent is an autonomous agent framework with two key components: a) Research and b) Development. Research focuses on actively exploring and generating new ideas, while Development implements these ideas. Both components improve through an iterative process, illustrated in Figure 1 of the article, ensures the system becomes increasingly effective over time.</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-10 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--12"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/articles/rd-agent-an-open-source-solution-for-smarter-rd/">Read the article</a></div>
-</div>
-</div>
-
-
-
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="999693">
-		
-
-		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Event Series</span>
-	</p>
-	
-	<div class="row pt-3 pb-4 align-items-center">
-						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum" data-bi-cN="Microsoft Research Forum" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/uploads/prod/2024/01/MRF-24_WebImage_1400x788.png" alt="various abstract 3D shapes on a light blue background" />
-				</a>
-			</div>
-			
-			<div class="msr-promo__content p-3 px-5 col-12 col-md">
-
-									<h2 class="h4">Microsoft Research Forum</h2>
-				
-								<p class="large">Join us for a continuous exchange of ideas about research in the era of general AI. Watch the first four episodes on demand.</p>
-				
-								<div class="wp-block-buttons justify-content-center justify-content-md-start">
-					<div class="wp-block-button">
-						<a href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum" target="_blank">
-							Watch on-demand						</a>
-					</div>
-				</div>
-							</div><!--/.msr-promo__content-->
-	</div><!--/.msr-promo__inner-wrap-->
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
-	
-
-
-<div style="padding-bottom:64px; padding-top:64px" class="wp-block-msr-immersive-section alignfull row wp-block-msr-immersive-section">
-	
-	<div class="container">
-		<div class="wp-block-msr-immersive-section__inner">
-			<div class="wp-block-msr-cards msr-cards msr-cards--default mt-4 has-text-align-left" data-bi-aN="microsoft-research-in-case-you-missed-it">
-	<div class="msr-cards__inner">
-					<div class="heading-wrapper">
-				<h2 class="mb-5 ">Microsoft Research | In case you missed it</h2>
-			</div>
-		
-		<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
-	<div class="msr-cards__card msr-cards__card--default col">
-	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
-
-		
-		<div class="card-body bg-white p-4 pt-3">
-							<h3 class="h5">
-					<a
-						class="text-decoration-none text-black"
-						data-bi-cN="Microsoft Research 2024: A year in review"
-						href="https://www.microsoft.com/en-us/research/story/microsoft-research-2024-a-year-in-review/"
-					>
-						<span>Microsoft Research 2024: A year in review</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
-					</a>
-				</h3>
-										<div class="card__description card__citation small">
-					<p>December 20, 2024</p><p>Microsoft Research did extraordinary work this year, using AI and scientific research to make progress on real-world challenges like climate change, food security, global health, and human trafficking. Here’s a look back at the broad range of accomplishments and advances in 2024.</p>				</div>
-			
-					</div>
-	</div>
-</div>
-<div class="msr-cards__card msr-cards__card--default col">
-	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
-
-		
-		<div class="card-body bg-white p-4 pt-3">
-							<h3 class="h5">
-					<a
-						class="text-decoration-none text-black"
-						data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds"
-						href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/"
-					>
-						<span>AIOpsLab: Building AI agents for autonomous clouds</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
-					</a>
-				</h3>
-										<div class="card__description card__citation small">
-					<p>December 20, 2024</p><p>AIOpsLab is a holistic evaluation framework for researchers and developers, to enable the design, development, evaluation, and enhancement of AIOps agents, which also serves the purpose of reproducible, standardized, interoperable, and scalable benchmarks.</p>				</div>
-			
-					</div>
-	</div>
-</div>
-<div class="msr-cards__card msr-cards__card--default col">
-	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
-
-		
-		<div class="card-body bg-white p-4 pt-3">
-							<h3 class="h5">
-					<a
-						class="text-decoration-none text-black"
-						data-bi-cN="Yasuyuki Matsushita, IEEE Computer Society 2025 Fellow"
-						href="https://www.computer.org/press-room/2025-class-fellows"
-					>
-						<span>Yasuyuki Matsushita, IEEE Computer Society 2025 Fellow</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
-					</a>
-				</h3>
-										<div class="card__description card__citation small">
-					<p>December 19, 2024</p><p>Congratulations to Yasuyuki Matsushita, Senior Principal Research Manager at Microsoft Research, who was named a 2025 IEEE Computer Society Fellow. Matsushita was recognized for contributions to photometric 3D modeling and computational photography.</p>				</div>
-			
-					</div>
-	</div>
-</div>
-</div>
-
-					<div class="justify-content-center text-center mb-4">
-				<a
-					href="https://www.microsoft.com/en-us/research/news-and-awards/"
-					class="btn btn-outline-primary glyph-append glyph-append-small glyph-append-chevron-right msr-cards__cta"
-					data-bi-cN="View more news and awards"
-					data-bi-type="button"
-				>
-					View more news and awards				</a>
-			</div>
-			</div>
-</div>		</div>
-	</div>
-
-	</div>
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/research-focus-week-of-january-13-2025/">Research Focus: Week of January 13, 2025</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></content:encoded>
 					
 		

@@ -6,32 +6,7 @@
     <description>Latest posts from https://www.cve.org/Media/News/AllNews. follow.is: feedId:91496105774919680+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 25 Feb 2025 01:52:21 +0000</lastBuildDate>
-    <item>
-      <title>MegaZone Reelected as CNA Liaison Board Member</title>
-      <link>https://www.cve.org/Media/News/item/news/2025/02/11/MegaZone-Reelected-CNA-Liaison-Board-Member</link>
-      <description>MegaZone Reelected as CNA Liaison Board MembernewsFebruary 11, 2025TheCVE Programis pleased to announce that MegaZone ofF5, Inc.received the majority of votes from CNAs and was reelected as theCVE Numbering Authority (CNA)Liaison to theCVE Boardfor another one-year term.</description>
-    </item>
-    <item>
-      <title>Vulnerability Data Enrichment for CVE Records: 241 CNAs on the Enrichment Recognition List for February 10, 2025</title>
-      <link>https://www.cve.org/Media/News/item/blog/2025/02/11/CNA-Enrichment-Recognition-List-Update</link>
-      <description>Vulnerability Data Enrichment for CVE Records: 241 CNAs on the Enrichment Recognition List for February 10, 2025blogBy CVE Program|February 11, 2025The “CNA Enrichment Recognition List” for February 10, 2025, is now available with 241 CNAs listed. Published every two weeks on the CVE website, the list recognizes thoseCVE Numbering Authorities (CNAs)that are actively providing enhanced vulnerability data in theirCVE Records. CNAs are added to the list if they provideCommon Vulnerability Scoring System (CVSS)andCommon Weakness Enumeration (CWE™)information 98% of the time or more within the two-week period of their last published CVE Record.</description>
-    </item>
-    <item>
-      <title>Securepoint Added as CVE Numbering Authority (CNA)</title>
-      <link>https://www.cve.org/Media/News/item/news/2025/02/11/Securepoint-Added-as-CNA</link>
-      <description>Securepoint Added as CVE Numbering Authority (CNA)newsFebruary 11, 2025Securepoint GmbHis now aCVE Numbering Authority (CNA)for Securepoint GmbH issues only.</description>
-    </item>
-    <item>
-      <title>Centreon Added as CVE Numbering Authority (CNA)</title>
-      <link>https://www.cve.org/Media/News/item/news/2025/02/11/Centreon-Added-as-CNA</link>
-      <description>Centreon Added as CVE Numbering Authority (CNA)newsFebruary 11, 2025Centreonis now aCVE Numbering Authority (CNA)for all Centreon product issues only.</description>
-    </item>
-    <item>
-      <title>ATISoluciones Added as CVE Numbering Authority (CNA)</title>
-      <link>https://www.cve.org/Media/News/item/news/2025/02/11/ATISoluciones-Added-as-CNA</link>
-      <description>ATISoluciones Added as CVE Numbering Authority (CNA)newsFebruary 11, 2025ATISoluciones Diseño de Sistemas Electrónicos, S.L.is now aCVE Numbering Authority (CNA)for AtiSoluciones products only.</description>
-    </item>
+    <lastBuildDate>Wed, 26 Feb 2025 01:51:29 +0000</lastBuildDate>
     <item>
       <title>Minutes from CVE Board Teleconference Meeting on January 22 Now Available</title>
       <link>https://www.cve.org/Media/News/item/news/2025/02/18/CVE-Board-Minutes-from-January-22</link>
@@ -55,7 +30,32 @@
     <item>
       <title>CVE ID Assignment and CVE Record Publication for AI-Related Vulnerabilities</title>
       <link>https://www.cve.org/Media/News/item/blog/2025/02/18/CVE-ID-CVE-Record-AIrelated-Vulnerabilities</link>
-      <description>CVE ID Assignment and CVE Record Publication for AI-Related VulnerabilitiesblogBy CVE Program|February 18, 2025This is the second blog in a CVE Program AI Blog SeriesThis series is documenting the journey theCVE Boardis on determining how to addressvulnerabilitiesin a CVE context. It is the intent of theCVE Programto be transparent with our thinking and general guidance as we investigate the impact to CVE efforts and establish swim lanes for CVE assignments in an AI-enabled world.</description>
+      <description>CVE ID Assignment and CVE Record Publication for AI-Related VulnerabilitiesblogBy CVE Program|February 18, 2025This is the second blog in a CVE Program AI Blog Series. The first blog in the series, “CVE and AI-related Vulnerabilities,” is availablehere.This series is documenting the journey theCVE Boardis on determining how to addressvulnerabilitiesin a CVE context. It is the intent of theCVE Programto be transparent with our thinking and general guidance as we investigate the impact to CVE efforts and establish swim lanes for CVE assignments in an AI-enabled world.</description>
+    </item>
+    <item>
+      <title>CVE Program Report for Quarter 4 Calendar Year (Q4 CY) 2024</title>
+      <link>https://www.cve.org/Media/News/item/blog/2025/02/25/CVE-Program-Report-for-Q4-2024</link>
+      <description>CVE Program Report for Quarter 4 Calendar Year (Q4 CY) 2024blogBy CVE Program|February 25, 2025The CVE Program’s quarterly summary of program milestones and metrics for Q4 CY 2024.</description>
+    </item>
+    <item>
+      <title>Vulnerability Data Enrichment for CVE Records: 240 CNAs on the Enrichment Recognition List for February 24, 2025</title>
+      <link>https://www.cve.org/Media/News/item/blog/2025/02/25/CNA-Enrichment-Recognition-List-Update</link>
+      <description>Vulnerability Data Enrichment for CVE Records: 240 CNAs on the Enrichment Recognition List for February 24, 2025blogBy CVE Program|February 25, 2025</description>
+    </item>
+    <item>
+      <title>Saviynt Added as CVE Numbering Authority (CNA)</title>
+      <link>https://www.cve.org/Media/News/item/news/2025/02/25/Saviynt-Added-as-CNA</link>
+      <description>Saviynt Added as CVE Numbering Authority (CNA)newsFebruary 25, 2025Saviynt Inc.is now aCVE Numbering Authority (CNA)for vulnerabilities discovered in Saviynt products or vulnerabilities reported to Saviynt Labs that are not in another CNA’s scope.</description>
+    </item>
+    <item>
+      <title>CPAN Security Group Added as CVE Numbering Authority (CNA)</title>
+      <link>https://www.cve.org/Media/News/item/news/2025/02/25/CPAN-Security-Group-Added-as-CNA</link>
+      <description>CPAN Security Group Added as CVE Numbering Authority (CNA)newsFebruary 25, 2025CPAN Security Groupis now aCVE Numbering Authority (CNA)for vulnerabilities in Perl and CPAN Modules (including End-of-Life Perl versions) found athttps://perl.org,https://cpan.org, orhttps://metacpan.org/, excluding distributions of Perl or CPAN Modules maintained by third-party redistributors.</description>
+    </item>
+    <item>
+      <title>Red Hat Adds a CNA of Last Resort (CNA-LR) to its Root Hierarchy</title>
+      <link>https://www.cve.org/Media/News/item/blog/2025/02/25/Red-Hat-Root-Adds-CNA-LR</link>
+      <description>Red Hat Adds a CNA of Last Resort (CNA-LR) to its Root HierarchyblogBy CVE Program|February 25, 2025TheCVE Programis pleased to announce that theRed Hat Roothas now established a “CVE Numbering Authority of Last Resort (CNA-LR)” to assignCVE Identifiers (CVE IDs)and to publish correspondingCVE Recordsfor vulnerabilities in software developed by aCNAwithin the Red Hat Root hierarchy. As a Root, “Red Hat’s scope includes the open source community. Any open source organizations that prefer Red Hat as their Root; organizations are free to choose another Root if it suits them better.”</description>
     </item>
   </channel>
 </rss>

@@ -6,22 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 25 Feb 2025 01:52:05 +0000</lastBuildDate>
-    <item>
-      <title>Clara-fication: Data Onboarding Best Practices</title>
-      <link>https://www.splunk.com/en_us/blog/platform/clara-fication-data-onboarding-best-practices.html</link>
-      <description>The Splunk Security Center of Excellence outlines best practices they follow to bring data into Splunk.</description>
-    </item>
-    <item>
-      <title>LLMs vs. SLMs: The Differences in Large &amp; Small Language Models</title>
-      <link>https://www.splunk.com/en_us/blog/learn/language-models-slm-vs-llm.html</link>
-      <description>Today’s language models are powering ChatGPT and other popular AIs. Learn the differences between LLMs and SLMs in this detailed article.</description>
-    </item>
-    <item>
-      <title>Hey SDDL SDDL: Breaking Down Windows Security One ACE at a Time</title>
-      <link>https://www.splunk.com/en_us/blog/security/windows-security-sddl-guide-access-control.html</link>
-      <description>Explore SDDL in Windows security with our comprehensive guide to help enhance your defensive strategy against privilege escalation attacks.</description>
-    </item>
+    <lastBuildDate>Wed, 26 Feb 2025 01:51:14 +0000</lastBuildDate>
     <item>
       <title>What Is DNS? Domain Name Service, Explained</title>
       <link>https://www.splunk.com/en_us/blog/learn/dns-domain-name-service.html</link>
@@ -51,6 +36,21 @@
       <title>Key Management in Cryptography: A Complete Introduction</title>
       <link>https://www.splunk.com/en_us/blog/learn/key-management.html</link>
       <description>Today, we'll cover encryption key management including a definition and the establishment processes for private &amp; public key cryptography.</description>
+    </item>
+    <item>
+      <title>SRE Metrics: Core SRE Components, the Four Golden Signals &amp; SRE KPIs</title>
+      <link>https://www.splunk.com/en_us/blog/learn/sre-metrics-four-golden-signals-of-monitoring.html</link>
+      <description>Get the full story on SRE metrics, including latency, errors, saturation, and traffic, so you can better assess your system's reliability, performance, and efficiency.</description>
+    </item>
+    <item>
+      <title>What Is a Watering Hole Attack? Detection and Prevention</title>
+      <link>https://www.splunk.com/en_us/blog/learn/watering-hole-attacks.html</link>
+      <description>A watering hole attack is a kind of cyberattack, where hackers target websites that are frequently browsed by their target victims.</description>
+    </item>
+    <item>
+      <title>Dashboard Studio: Your Dashboards, Now Guest-Friendly</title>
+      <link>https://www.splunk.com/en_us/blog/platform/splunk-dashboard-studio-publish-guest-friendly.html</link>
+      <description>Learn how to share your Studio dashboards with the Publish Dashboard feature.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

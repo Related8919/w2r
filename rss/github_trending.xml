@@ -6,31 +6,16 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 25 Feb 2025 01:52:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Feb 2025 01:51:20 +0000</lastBuildDate>
     <item>
-      <title>yt-dlp /yt-dlp</title>
-      <link>https://github.com/yt-dlp/yt-dlp</link>
-      <description>A feature-rich command-line audio/video downloader</description>
+      <title>DS4SD /docling</title>
+      <link>https://github.com/DS4SD/docling</link>
+      <description>Get your documents ready for gen AI</description>
     </item>
     <item>
-      <title>codecrafters-io /build-your-own-x</title>
-      <link>https://github.com/codecrafters-io/build-your-own-x</link>
-      <description>Master programming by recreating your favorite technologies from scratch.</description>
-    </item>
-    <item>
-      <title>bregman-arie /devops-exercises</title>
-      <link>https://github.com/bregman-arie/devops-exercises</link>
-      <description>Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions</description>
-    </item>
-    <item>
-      <title>rustdesk /rustdesk</title>
-      <link>https://github.com/rustdesk/rustdesk</link>
-      <description>An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.</description>
-    </item>
-    <item>
-      <title>yamadashy /repomix</title>
-      <link>https://github.com/yamadashy/repomix</link>
-      <description>📦 Repomix (formerly Repopack) is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.</description>
+      <title>langgenius /dify</title>
+      <link>https://github.com/langgenius/dify</link>
+      <description>Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.</description>
     </item>
     <item>
       <title>Shubhamsaboo /awesome-llm-apps</title>
@@ -38,14 +23,24 @@
       <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
     </item>
     <item>
-      <title>neovim /neovim</title>
-      <link>https://github.com/neovim/neovim</link>
-      <description>Vim-fork focused on extensibility and usability</description>
+      <title>NVIDIA /cutlass</title>
+      <link>https://github.com/NVIDIA/cutlass</link>
+      <description>CUDA Templates for Linear Algebra Subroutines</description>
     </item>
     <item>
-      <title>sinaptik-ai /pandas-ai</title>
-      <link>https://github.com/sinaptik-ai/pandas-ai</link>
-      <description>Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG.</description>
+      <title>geekan /MetaGPT</title>
+      <link>https://github.com/geekan/MetaGPT</link>
+      <description>🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming</description>
+    </item>
+    <item>
+      <title>codecrafters-io /build-your-own-x</title>
+      <link>https://github.com/codecrafters-io/build-your-own-x</link>
+      <description>Master programming by recreating your favorite technologies from scratch.</description>
+    </item>
+    <item>
+      <title>siyuan-note /siyuan</title>
+      <link>https://github.com/siyuan-note/siyuan</link>
+      <description>A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.</description>
     </item>
     <item>
       <title>browser-use /browser-use</title>
@@ -53,19 +48,24 @@
       <description>Make websites accessible for AI agents</description>
     </item>
     <item>
-      <title>mishushakov /llm-scraper</title>
-      <link>https://github.com/mishushakov/llm-scraper</link>
-      <description>Turn any webpage into structured data using LLMs</description>
+      <title>laravel /laravel</title>
+      <link>https://github.com/laravel/laravel</link>
+      <description>Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.</description>
     </item>
     <item>
-      <title>shadps4-emu /shadPS4</title>
-      <link>https://github.com/shadps4-emu/shadPS4</link>
-      <description>PlayStation 4 emulator for Windows, Linux and macOS written in C++</description>
+      <title>sinaptik-ai /pandas-ai</title>
+      <link>https://github.com/sinaptik-ai/pandas-ai</link>
+      <description>Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG.</description>
     </item>
     <item>
-      <title>al1abb /invoify</title>
-      <link>https://github.com/al1abb/invoify</link>
-      <description>An invoice generator app built using Next.js, Typescript, and Shadcn</description>
+      <title>bregman-arie /devops-exercises</title>
+      <link>https://github.com/bregman-arie/devops-exercises</link>
+      <description>Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions</description>
+    </item>
+    <item>
+      <title>NirDiamant /GenAI_Agents</title>
+      <link>https://github.com/NirDiamant/GenAI_Agents</link>
+      <description>This repository provides tutorials and implementations for various Generative AI Agent techniques, from basic to advanced. It serves as a comprehensive guide for building intelligent, interactive AI systems.</description>
     </item>
     <item>
       <title>FreeTubeApp /FreeTube</title>
@@ -73,9 +73,9 @@
       <description>An Open Source YouTube app for privacy</description>
     </item>
     <item>
-      <title>mastra-ai /mastra</title>
-      <link>https://github.com/mastra-ai/mastra</link>
-      <description>the TypeScript AI agent framework</description>
+      <title>al1abb /invoify</title>
+      <link>https://github.com/al1abb/invoify</link>
+      <description>An invoice generator app built using Next.js, Typescript, and Shadcn</description>
     </item>
     <item>
       <title>vllm-project /aibrix</title>

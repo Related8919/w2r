@@ -6,17 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 26 Feb 2025 01:51:14 +0000</lastBuildDate>
-    <item>
-      <title>What Is DNS? Domain Name Service, Explained</title>
-      <link>https://www.splunk.com/en_us/blog/learn/dns-domain-name-service.html</link>
-      <description>DNS is the address book for the internet. Learn how the behind-the-scenes Domain Name System powers every single webpage you visit.</description>
-    </item>
-    <item>
-      <title>What Is a Data Platform? A Complete Introduction</title>
-      <link>https://www.splunk.com/en_us/blog/learn/data-platform.html</link>
-      <description>Let’s take a deep look at data platforms, including the definition, the benefits and use cases, and how to start building your data strategy.</description>
-    </item>
+    <lastBuildDate>Thu, 27 Feb 2025 01:52:25 +0000</lastBuildDate>
     <item>
       <title>Onboarding Windows Events to Powershell Threat Detection in UBA</title>
       <link>https://www.splunk.com/en_us/blog/security/onboard-windows-events-powershell-threat-detection-uba.html</link>
@@ -46,6 +36,16 @@
       <title>What Is a Watering Hole Attack? Detection and Prevention</title>
       <link>https://www.splunk.com/en_us/blog/learn/watering-hole-attacks.html</link>
       <description>A watering hole attack is a kind of cyberattack, where hackers target websites that are frequently browsed by their target victims.</description>
+    </item>
+    <item>
+      <title>Calling All SREs, DevOps, and Kubernetes Enthusiasts: Join Splunk at KubeCon Europe 2025 in London!</title>
+      <link>https://www.splunk.com/en_us/blog/observability/join-splunk-at-kubecon-europe-2025-in-london.html</link>
+      <description>Are you ready to revolutionize your observability game? Mark your calendars for KubeCon + CloudNativeCon Europe 2025, taking place from April 1-4 in Excel Center London. Splunk invites you to visit our booths at N290 &amp; S400 to discover how we're making troubleshooting cool again while helping you shift from reactive to predictive strategies for digital resilience.</description>
+    </item>
+    <item>
+      <title>AI Governance in 2025: A Full Perspective on Governance in Artificial Intelligence</title>
+      <link>https://www.splunk.com/en_us/blog/learn/ai-governance.html</link>
+      <description>In this article, we'll have a look at an overview of AI governance, exploring the key concepts, challenges, and potential solutions.</description>
     </item>
     <item>
       <title>Dashboard Studio: Your Dashboards, Now Guest-Friendly</title>

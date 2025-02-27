@@ -6,11 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 26 Feb 2025 01:51:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Feb 2025 01:52:33 +0000</lastBuildDate>
     <item>
-      <title>DS4SD /docling</title>
-      <link>https://github.com/DS4SD/docling</link>
-      <description>Get your documents ready for gen AI</description>
+      <title>FreeTubeApp /FreeTube</title>
+      <link>https://github.com/FreeTubeApp/FreeTube</link>
+      <description>An Open Source YouTube app for privacy</description>
     </item>
     <item>
       <title>langgenius /dify</title>
@@ -18,59 +18,29 @@
       <description>Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.</description>
     </item>
     <item>
-      <title>Shubhamsaboo /awesome-llm-apps</title>
-      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
-      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
+      <title>maybe-finance /maybe</title>
+      <link>https://github.com/maybe-finance/maybe</link>
+      <description>The OS for your personal finances</description>
     </item>
     <item>
-      <title>NVIDIA /cutlass</title>
-      <link>https://github.com/NVIDIA/cutlass</link>
-      <description>CUDA Templates for Linear Algebra Subroutines</description>
+      <title>ggerganov /ggwave</title>
+      <link>https://github.com/ggerganov/ggwave</link>
+      <description>Tiny data-over-sound library</description>
     </item>
     <item>
-      <title>geekan /MetaGPT</title>
-      <link>https://github.com/geekan/MetaGPT</link>
-      <description>🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming</description>
+      <title>drawdb-io /drawdb</title>
+      <link>https://github.com/drawdb-io/drawdb</link>
+      <description>Free, simple, and intuitive online database diagram editor and SQL generator.</description>
     </item>
     <item>
-      <title>codecrafters-io /build-your-own-x</title>
-      <link>https://github.com/codecrafters-io/build-your-own-x</link>
-      <description>Master programming by recreating your favorite technologies from scratch.</description>
-    </item>
-    <item>
-      <title>siyuan-note /siyuan</title>
-      <link>https://github.com/siyuan-note/siyuan</link>
-      <description>A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.</description>
-    </item>
-    <item>
-      <title>browser-use /browser-use</title>
-      <link>https://github.com/browser-use/browser-use</link>
-      <description>Make websites accessible for AI agents</description>
-    </item>
-    <item>
-      <title>laravel /laravel</title>
-      <link>https://github.com/laravel/laravel</link>
-      <description>Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.</description>
-    </item>
-    <item>
-      <title>sinaptik-ai /pandas-ai</title>
-      <link>https://github.com/sinaptik-ai/pandas-ai</link>
-      <description>Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG.</description>
-    </item>
-    <item>
-      <title>bregman-arie /devops-exercises</title>
-      <link>https://github.com/bregman-arie/devops-exercises</link>
-      <description>Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions</description>
+      <title>mishushakov /llm-scraper</title>
+      <link>https://github.com/mishushakov/llm-scraper</link>
+      <description>Turn any webpage into structured data using LLMs</description>
     </item>
     <item>
       <title>NirDiamant /GenAI_Agents</title>
       <link>https://github.com/NirDiamant/GenAI_Agents</link>
       <description>This repository provides tutorials and implementations for various Generative AI Agent techniques, from basic to advanced. It serves as a comprehensive guide for building intelligent, interactive AI systems.</description>
-    </item>
-    <item>
-      <title>FreeTubeApp /FreeTube</title>
-      <link>https://github.com/FreeTubeApp/FreeTube</link>
-      <description>An Open Source YouTube app for privacy</description>
     </item>
     <item>
       <title>al1abb /invoify</title>

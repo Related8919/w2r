@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.deeplearning.ai/the-batch/. follow.is: feedId:91496692463707136+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 26 Feb 2025 01:51:37 +0000</lastBuildDate>
-    <item>
-      <title>AI Controls Desktops, Agents Train Algorithms, Does Anyone Comply With the EU’s AI Act?, Robots on the Loading Dock</title>
-      <link>https://www.deeplearning.ai/the-batch/issue-274/</link>
-      <description>The Batch AI News and Insights: Trump and the Republican party chalked up huge wins this week. Did manipulation of social media by generative AI play any role in this election?</description>
-    </item>
+    <lastBuildDate>Thu, 27 Feb 2025 01:52:52 +0000</lastBuildDate>
     <item>
       <title>Llama On the Battlefield, Mixture of Experts Pulls Ahead, Open Agentic Platform, Voter Support Chatbot</title>
       <link>https://www.deeplearning.ai/the-batch/issue-275/</link>
@@ -84,8 +79,13 @@
     </item>
     <item>
       <title>Grok 3 Scales Up, Mobile Apps Generated To Order, Musk Moves On OpenAI, Officials Reverse Course on AI Regulation</title>
-      <link>https://www.deeplearning.ai/the-batch/tag/feb-19-2025/</link>
+      <link>https://www.deeplearning.ai/the-batch/issue-289/</link>
       <description>The Batch AI News and Insights: Last month, a drone from Skyfire AI was credited with saving a police officer’s life after a dramatic 2 a.m. traffic stop.</description>
+    </item>
+    <item>
+      <title>Meta Reads Minds, Big AI Spending Climbs, Deepfakes Appropriate Celeb Likenesses, Reasoning in Vectors</title>
+      <link>https://www.deeplearning.ai/the-batch/tag/feb-26-2025/</link>
+      <description>The Batch AI News and Insights: The Voice Stack is improving rapidly. Systems that interact with users via speaking and listening will drive many new applications.</description>
     </item>
   </channel>
 </rss>

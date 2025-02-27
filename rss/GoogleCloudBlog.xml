@@ -6,17 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 26 Feb 2025 01:51:33 +0000</lastBuildDate>
-    <item>
-      <title>How to use gen AI for better data schema handling, data quality, and data generation</title>
-      <link>https://cloud.google.com/blog/products/data-analytics/how-gemini-in-bigquery-helps-with-data-engineering-tasks</link>
-      <description>Data AnalyticsHow to use gen AI for better data schema handling, data quality, and data generationBy Deb Lee • 9-minute read</description>
-    </item>
-    <item>
-      <title>Signals of Trouble: Multiple Russia-Aligned Threat Actors Actively Targeting Signal Messenger</title>
-      <link>https://cloud.google.com/blog/topics/threat-intelligence/russia-targeting-signal-messenger</link>
-      <description>Threat IntelligenceSignals of Trouble: Multiple Russia-Aligned Threat Actors Actively Targeting Signal MessengerBy Google Threat Intelligence Group  • 15-minute read</description>
-    </item>
+    <lastBuildDate>Thu, 27 Feb 2025 01:52:47 +0000</lastBuildDate>
     <item>
       <title>Discover Google Cloud careers and credentials in our new Career Dreamer</title>
       <link>https://cloud.google.com/blog/topics/training-certifications/career-dreamer-tool-shows-google-cloud-careers-and-credentials</link>
@@ -56,6 +46,16 @@
       <title>How partners are unlocking scalable audio transcription with Gemini</title>
       <link>https://cloud.google.com/blog/topics/partners/how-partners-unlock-scalable-audio-transcription-with-gemini</link>
       <description>PartnersHow partners are unlocking scalable audio transcription with GeminiBy Schneider Larbi • 8-minute read</description>
+    </item>
+    <item>
+      <title>Partnering with leading mobile operators for API-based phone number verification</title>
+      <link>https://cloud.google.com/blog/topics/telecommunications/firebase-phone-number-verification-for-ogi-based-apps</link>
+      <description>TelecommunicationsPartnering with leading mobile operators for API-based phone number verificationBy Christiaan Brand • 5-minute read</description>
+    </item>
+    <item>
+      <title>Transforming data: How Vodafone Italy modernized its data architecture in the cloud</title>
+      <link>https://cloud.google.com/blog/topics/telecommunications/vodafone-italy-modernizes-with-amdocs-and-google-cloud</link>
+      <description>TelecommunicationsTransforming data: How Vodafone Italy modernized its data architecture in the cloudBy Naresh Rao • 5-minute read</description>
     </item>
   </channel>
 </rss>

@@ -6,21 +6,11 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 27 Feb 2025 01:52:25 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2025 01:51:59 +0000</lastBuildDate>
     <item>
-      <title>Onboarding Windows Events to Powershell Threat Detection in UBA</title>
-      <link>https://www.splunk.com/en_us/blog/security/onboard-windows-events-powershell-threat-detection-uba.html</link>
-      <description>Learn how to enhance PowerShell threat detection in UBA by effectively onboarding Windows events. Our step-by-step guide covers XML event log formats and Splunk integration, ensuring robust security against cyber threats.</description>
-    </item>
-    <item>
-      <title>What Is Machine Data? A Complete Intro To Machine Data, For Humans</title>
-      <link>https://www.splunk.com/en_us/blog/learn/machine-data.html</link>
-      <description>In this post, we'll discuss what machine data is, how it’s used, common examples of machine data, and why it’s important.</description>
-    </item>
-    <item>
-      <title>Customers Increasingly Choose Splunk for Observability</title>
-      <link>https://www.splunk.com/en_us/blog/observability/splunk-vs-new-relic-observability-advantages.html</link>
-      <description>In this blog post, learn what makes Splunk Observability different from other industry solutions like New Relic.</description>
+      <title>Top 7 AI Assistant Use Cases You Can Start Today for Enhanced Observability</title>
+      <link>https://www.splunk.com/en_us/blog/artificial-intelligence/top-splunk-ai-use-cases-for-observability.html</link>
+      <description>Discover the top 7 powerful features of Splunk's AI Assistant for enhanced observability in the Observability Cloud.</description>
     </item>
     <item>
       <title>Key Management in Cryptography: A Complete Introduction</title>
@@ -43,9 +33,19 @@
       <description>Are you ready to revolutionize your observability game? Mark your calendars for KubeCon + CloudNativeCon Europe 2025, taking place from April 1-4 in Excel Center London. Splunk invites you to visit our booths at N290 &amp; S400 to discover how we're making troubleshooting cool again while helping you shift from reactive to predictive strategies for digital resilience.</description>
     </item>
     <item>
-      <title>AI Governance in 2025: A Full Perspective on Governance in Artificial Intelligence</title>
+      <title>AI Governance in 2025: A Full Perspective on Governance for Artificial Intelligence</title>
       <link>https://www.splunk.com/en_us/blog/learn/ai-governance.html</link>
       <description>In this article, we'll have a look at an overview of AI governance, exploring the key concepts, challenges, and potential solutions.</description>
+    </item>
+    <item>
+      <title>Top 8 Incident Response Metrics To Know</title>
+      <link>https://www.splunk.com/en_us/blog/learn/incident-response-metrics.html</link>
+      <description>In this post, we'll cover eight key metrics essential to incident response, including clear definitions and examples.</description>
+    </item>
+    <item>
+      <title>Bridging the Gap: Splunk Helps Students Move from Classroom to Career</title>
+      <link>https://www.splunk.com/en_us/blog/leadership/bridging-the-gap-splunk-helps-students-move-from-classroom-to-career.html</link>
+      <description>Eric Fusilero, VP of Global Enablement and Education, shares how the Splunk Academic Alliance equips students with training, SOC experience, and certifications to launch cybersecurity careers.</description>
     </item>
     <item>
       <title>Dashboard Studio: Your Dashboards, Now Guest-Friendly</title>

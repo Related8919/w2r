@@ -6,17 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 27 Feb 2025 01:52:47 +0000</lastBuildDate>
-    <item>
-      <title>Discover Google Cloud careers and credentials in our new Career Dreamer</title>
-      <link>https://cloud.google.com/blog/topics/training-certifications/career-dreamer-tool-shows-google-cloud-careers-and-credentials</link>
-      <description>Training and CertificationsDiscover Google Cloud careers and credentials in our new Career DreamerBy Erin Rifkin • 2-minute read</description>
-    </item>
-    <item>
-      <title>Rethinking 5G: The cloud imperative</title>
-      <link>https://cloud.google.com/blog/topics/telecommunications/ericsson-and-google-cloud-collaborating-on-5g</link>
-      <description>TelecommunicationsRethinking 5G: The cloud imperativeBy Eric Parsons • 4-minute read</description>
-    </item>
+    <lastBuildDate>Fri, 28 Feb 2025 01:52:30 +0000</lastBuildDate>
     <item>
       <title>How to reduce costs with Managed Service for Apache Kafka: CUDs, compression and more</title>
       <link>https://cloud.google.com/blog/products/data-analytics/save-money-on-google-cloud-managed-service-for-apache-kafka</link>
@@ -48,14 +38,24 @@
       <description>PartnersHow partners are unlocking scalable audio transcription with GeminiBy Schneider Larbi • 8-minute read</description>
     </item>
     <item>
-      <title>Partnering with leading mobile operators for API-based phone number verification</title>
-      <link>https://cloud.google.com/blog/topics/telecommunications/firebase-phone-number-verification-for-ogi-based-apps</link>
-      <description>TelecommunicationsPartnering with leading mobile operators for API-based phone number verificationBy Christiaan Brand • 5-minute read</description>
-    </item>
-    <item>
       <title>Transforming data: How Vodafone Italy modernized its data architecture in the cloud</title>
       <link>https://cloud.google.com/blog/topics/telecommunications/vodafone-italy-modernizes-with-amdocs-and-google-cloud</link>
       <description>TelecommunicationsTransforming data: How Vodafone Italy modernized its data architecture in the cloudBy Naresh Rao • 5-minute read</description>
+    </item>
+    <item>
+      <title>The IT Admin’s Guide to Google AI</title>
+      <link>https://cloud.google.com/blog/products/chrome-enterprise/the-it-admins-guide-to-google-ai</link>
+      <description>Chrome EnterpriseThe IT Admin’s Guide to Google AIBy Ankur Mathur • 4-minute read</description>
+    </item>
+    <item>
+      <title>AI-powered network optimization: Unlocking 5G's potential with Amdocs</title>
+      <link>https://cloud.google.com/blog/topics/telecommunications/ai-powered-network-optimization-unlocking-5gs-potential-with-amdocs</link>
+      <description>TelecommunicationsAI-powered network optimization: Unlocking 5G's potential with AmdocsBy Niall Byrne • 5-minute read</description>
+    </item>
+    <item>
+      <title>Demonstrating the AI-driven telecom at Mobile World Congress</title>
+      <link>https://cloud.google.com/blog/topics/telecommunications/ai-driven-telecom-demos-at-mwc-2025</link>
+      <description>TelecommunicationsDemonstrating the AI-driven telecom at Mobile World CongressBy Brian Kracik • 4-minute read</description>
     </item>
   </channel>
 </rss>

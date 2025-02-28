@@ -6,16 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 27 Feb 2025 01:52:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Feb 2025 01:52:05 +0000</lastBuildDate>
     <item>
       <title>FreeTubeApp /FreeTube</title>
       <link>https://github.com/FreeTubeApp/FreeTube</link>
       <description>An Open Source YouTube app for privacy</description>
-    </item>
-    <item>
-      <title>langgenius /dify</title>
-      <link>https://github.com/langgenius/dify</link>
-      <description>Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.</description>
     </item>
     <item>
       <title>maybe-finance /maybe</title>
@@ -23,19 +18,29 @@
       <description>The OS for your personal finances</description>
     </item>
     <item>
-      <title>ggerganov /ggwave</title>
-      <link>https://github.com/ggerganov/ggwave</link>
-      <description>Tiny data-over-sound library</description>
+      <title>freddyaboulton /fastrtc</title>
+      <link>https://github.com/freddyaboulton/fastrtc</link>
+      <description>The python library for real-time communication</description>
     </item>
     <item>
-      <title>drawdb-io /drawdb</title>
-      <link>https://github.com/drawdb-io/drawdb</link>
-      <description>Free, simple, and intuitive online database diagram editor and SQL generator.</description>
+      <title>langgenius /dify</title>
+      <link>https://github.com/langgenius/dify</link>
+      <description>Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.</description>
     </item>
     <item>
-      <title>mishushakov /llm-scraper</title>
-      <link>https://github.com/mishushakov/llm-scraper</link>
-      <description>Turn any webpage into structured data using LLMs</description>
+      <title>twentyhq /twenty</title>
+      <link>https://github.com/twentyhq/twenty</link>
+      <description>Building a modern alternative to Salesforce, powered by the community.</description>
+    </item>
+    <item>
+      <title>allenai /olmocr</title>
+      <link>https://github.com/allenai/olmocr</link>
+      <description>Toolkit for linearizing PDFs for LLM datasets/training</description>
+    </item>
+    <item>
+      <title>Soulter /AstrBot</title>
+      <link>https://github.com/Soulter/AstrBot</link>
+      <description>✨易上手的多平台 LLM 聊天机器人及开发框架✨。支持 QQ、QQ频道、Telegram、微信个人号(Gewechat)、企业微信、飞书、内置 Web Chat，OpenAI GPT、DeepSeek、Ollama、Llama、GLM、Gemini、硅基流动、月之暗面、OneAPI、LLMTuner，支持 LLM Agent 插件开发，可视化面板。一键部署。支持 Dify 工作流、代码执行器、Whisper 语音转文字。</description>
     </item>
     <item>
       <title>NirDiamant /GenAI_Agents</title>
@@ -43,14 +48,19 @@
       <description>This repository provides tutorials and implementations for various Generative AI Agent techniques, from basic to advanced. It serves as a comprehensive guide for building intelligent, interactive AI systems.</description>
     </item>
     <item>
-      <title>al1abb /invoify</title>
-      <link>https://github.com/al1abb/invoify</link>
-      <description>An invoice generator app built using Next.js, Typescript, and Shadcn</description>
+      <title>NVIDIA /cutlass</title>
+      <link>https://github.com/NVIDIA/cutlass</link>
+      <description>CUDA Templates for Linear Algebra Subroutines</description>
     </item>
     <item>
-      <title>vllm-project /aibrix</title>
-      <link>https://github.com/vllm-project/aibrix</link>
-      <description>Cost-efficient and pluggable Infrastructure components for GenAI inference</description>
+      <title>modelscope /DiffSynth-Studio</title>
+      <link>https://github.com/modelscope/DiffSynth-Studio</link>
+      <description>Enjoy the magic of Diffusion models!</description>
+    </item>
+    <item>
+      <title>ggerganov /ggwave</title>
+      <link>https://github.com/ggerganov/ggwave</link>
+      <description>Tiny data-over-sound library</description>
     </item>
   </channel>
 </rss>

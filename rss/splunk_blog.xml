@@ -6,37 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 28 Feb 2025 01:51:59 +0000</lastBuildDate>
-    <item>
-      <title>Top 7 AI Assistant Use Cases You Can Start Today for Enhanced Observability</title>
-      <link>https://www.splunk.com/en_us/blog/artificial-intelligence/top-splunk-ai-use-cases-for-observability.html</link>
-      <description>Discover the top 7 powerful features of Splunk's AI Assistant for enhanced observability in the Observability Cloud.</description>
-    </item>
-    <item>
-      <title>Key Management in Cryptography: A Complete Introduction</title>
-      <link>https://www.splunk.com/en_us/blog/learn/key-management.html</link>
-      <description>Today, we'll cover encryption key management including a definition and the establishment processes for private &amp; public key cryptography.</description>
-    </item>
-    <item>
-      <title>SRE Metrics: Core SRE Components, the Four Golden Signals &amp; SRE KPIs</title>
-      <link>https://www.splunk.com/en_us/blog/learn/sre-metrics-four-golden-signals-of-monitoring.html</link>
-      <description>Get the full story on SRE metrics, including latency, errors, saturation, and traffic, so you can better assess your system's reliability, performance, and efficiency.</description>
-    </item>
-    <item>
-      <title>What Is a Watering Hole Attack? Detection and Prevention</title>
-      <link>https://www.splunk.com/en_us/blog/learn/watering-hole-attacks.html</link>
-      <description>A watering hole attack is a kind of cyberattack, where hackers target websites that are frequently browsed by their target victims.</description>
-    </item>
-    <item>
-      <title>Calling All SREs, DevOps, and Kubernetes Enthusiasts: Join Splunk at KubeCon Europe 2025 in London!</title>
-      <link>https://www.splunk.com/en_us/blog/observability/join-splunk-at-kubecon-europe-2025-in-london.html</link>
-      <description>Are you ready to revolutionize your observability game? Mark your calendars for KubeCon + CloudNativeCon Europe 2025, taking place from April 1-4 in Excel Center London. Splunk invites you to visit our booths at N290 &amp; S400 to discover how we're making troubleshooting cool again while helping you shift from reactive to predictive strategies for digital resilience.</description>
-    </item>
-    <item>
-      <title>AI Governance in 2025: A Full Perspective on Governance for Artificial Intelligence</title>
-      <link>https://www.splunk.com/en_us/blog/learn/ai-governance.html</link>
-      <description>In this article, we'll have a look at an overview of AI governance, exploring the key concepts, challenges, and potential solutions.</description>
-    </item>
+    <lastBuildDate>Sat, 01 Mar 2025 01:58:20 +0000</lastBuildDate>
     <item>
       <title>Top 8 Incident Response Metrics To Know</title>
       <link>https://www.splunk.com/en_us/blog/learn/incident-response-metrics.html</link>
@@ -46,6 +16,36 @@
       <title>Bridging the Gap: Splunk Helps Students Move from Classroom to Career</title>
       <link>https://www.splunk.com/en_us/blog/leadership/bridging-the-gap-splunk-helps-students-move-from-classroom-to-career.html</link>
       <description>Eric Fusilero, VP of Global Enablement and Education, shares how the Splunk Academic Alliance equips students with training, SOC experience, and certifications to launch cybersecurity careers.</description>
+    </item>
+    <item>
+      <title>Website Performance Monitoring: The Complete Guide</title>
+      <link>https://www.splunk.com/en_us/blog/learn/website-performance-monitoring.html</link>
+      <description>In this blog post we'll take a look at website performance monitoring best practices, why it matters, and how to improve your website's performance.</description>
+    </item>
+    <item>
+      <title>Splunk Security Content for Threat Detection &amp; Response: February 2025 Update</title>
+      <link>https://www.splunk.com/en_us/blog/security/latest-splunk-security-content.html</link>
+      <description>Learn about the latest security content from Splunk.</description>
+    </item>
+    <item>
+      <title>Risk Tolerance vs. Risk Appetite: How To Understand Risk &amp; Determine Your Risk Tolerance and Appetite</title>
+      <link>https://www.splunk.com/en_us/blog/learn/risk-tolerance-vs-risk-appetite.html</link>
+      <description>Learn about how risk tolerance and risk appetite shape how organizations identify and manage risks in line with wider corporate goals.</description>
+    </item>
+    <item>
+      <title>Infostealer Campaign against ISPs</title>
+      <link>https://www.splunk.com/en_us/blog/security/infostealer-campaign-against-isps.html</link>
+      <description>The Splunk Threat Research Team observed actors performing minimal intrusive operations to avoid detection, with the exception of artifacts created by accounts already compromised.</description>
+    </item>
+    <item>
+      <title>Why Security Teams Choose Splunk Enterprise Security: Three Core Benefits That Transform SecOps</title>
+      <link>https://www.splunk.com/en_us/blog/security/why-security-teams-choose-splunk-enterprise-security-benefits.html</link>
+      <description>Discover how Splunk Enterprise Security transforms SecOps with comprehensive visibility, contextual threat detection, and efficient operations. Learn from PeerSpot users how this leading SIEM solution enhances security management and improves threat response.</description>
+    </item>
+    <item>
+      <title>Security Staff Picks To Read This Month, Handpicked by Splunk Experts</title>
+      <link>https://www.splunk.com/en_us/blog/security/cybersecurity-recent-articles.html</link>
+      <description>Every month, our Splunk staff of security experts share their favorite reads of the month — this way, you can follow the most interesting, news-worthy, and innovative stories coming from the wide world of cybersecurity.</description>
     </item>
     <item>
       <title>Dashboard Studio: Your Dashboards, Now Guest-Friendly</title>

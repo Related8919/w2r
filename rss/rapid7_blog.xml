@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 28 Feb 2025 01:52:04 +0000</lastBuildDate>
-    <item>
-      <title>Vector Command Opportunistic Phishing Blog</title>
-      <link>https://www.rapid7.com/blog/post/2025/02/07/vector-command-opportunistic-phishing-blog/</link>
-      <description>Vector Command is Rapid7’s new continuous red teaming managed service, designed to  assess your external attack surface and identify gaps in the security defenses on an ongoing basis.</description>
-    </item>
+    <lastBuildDate>Sat, 01 Mar 2025 01:58:24 +0000</lastBuildDate>
     <item>
       <title>Interning at Rapid7 Prague: Meet Mko</title>
       <link>https://www.rapid7.com/blog/post/2025/02/10/interning-at-rapid7-prague-meet-mko/</link>
@@ -98,6 +93,22 @@ architectures. This allows the payloads to be use</description>
       <title>Why MDR In 2025 Is About Scaling With Purpose</title>
       <link>https://www.rapid7.com/blog/post/2025/02/27/why-mdr-in-2025-is-about-scaling-with-purpose/</link>
       <description>Forrester recently released “The Forrester Wave™: Managed Detection and Response (MDR) Services, Q1 2025,", highlighting the top 10 MDR providers out of more than 600 worldwide.</description>
+    </item>
+    <item>
+      <title>Metasploit Weekly Wrap-Up: 02/28/2025</title>
+      <link>https://www.rapid7.com/blog/post/2025/02/28/metasploit-weekly-wrap-up-02-28-2025/</link>
+      <description>New module content (5)
+mySCADA myPRO Manager Credential Harvester (CVE-2025-24865 and CVE-2025-22896)
+Author: Michael Heinzl
+Type: Auxiliary
+Pull request: #19878  
+contributed by h4x-x0r 
+Path: admin/scada/mypro_mgr_creds
+AttackerKB reference: CVE-2025-22896
+
+
+Description: This module adds credential harvesting for MySCADA MyPro Manager
+using CVE-20</description>
     </item>
   </channel>
 </rss>

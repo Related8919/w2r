@@ -6,62 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 28 Feb 2025 01:52:41 +0000</lastBuildDate>
-    <item>
-      <title>NVIDIA Grace CPU 与 Arm 软件生态系统集成</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-grace-cpu-integrates-with-the-arm-software-ecosystem/</link>
-      <description>2025年 2月 10日NVIDIA Grace CPU 与 Arm 软件生态系统集成NVIDIA Grace CPU 将节能高效的性能提升到了新的高度，正在改变数据中心的设计。Grace CPU 专为数据中心规模打造，2 MIN READ</description>
-    </item>
-    <item>
-      <title>适用于 RHEL9 的 NVIDIA 开放 GPU 数据中心驱动，由 Red Hat 签署</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-open-gpu-datacenter-drivers-for-rhel9-signed-by-red-hat/</link>
-      <description>2025年 2月 10日适用于 RHEL9 的 NVIDIA 开放 GPU 数据中心驱动，由 Red Hat 签署NVIDIA 和 Red Hat 合作，对 2020 年推出的预编译 NVIDIA Driver 进行持续改进。上个月，NVIDIA 宣布 ，2 MIN READ</description>
-    </item>
-    <item>
-      <title>聚焦：BRLi 和 Toulouse INP 使用 NVIDIA Modulus 开发基于 AI 的洪水模型</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/spotlight-brli-and-toulouse-inp-develop-ai-based-flood-models-using-nvidia-modulus/</link>
-      <description>2025年 2月 11日聚焦：BRLi 和 Toulouse INP 使用 NVIDIA Modulus 开发基于 AI 的洪水模型洪水对 15 亿人构成了重大威胁，使其成为重大自然灾害的最常见原因。洪水每年给全球带来高达 25 亿美元的经济损失。1 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA DGX 云推出即用型模板，更好地评估 AI 平台性能</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-dgx-cloud-introduces-ready-to-use-templates-to-benchmark-ai-platform-performance/</link>
-      <description>2025年 2月 11日NVIDIA DGX 云推出即用型模板，更好地评估 AI 平台性能在快速发展的 AI 系统和工作负载环境中，实现出色的模型训练性能远远超出芯片速度。这需要对整个堆栈进行全面评估，从计算到网络，再到模型框架。2 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA NeMo 框架进行 LLM 模型剪枝和知识蒸馏</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/llm-model-pruning-and-knowledge-distillation-with-nvidia-nemo-framework/</link>
-      <description>2025年 2月 12日使用 NVIDIA NeMo 框架进行 LLM 模型剪枝和知识蒸馏模型剪枝和知识蒸馏是功能强大且经济高效的策略，用于从最初较大的同级获得较小的语言模型。 在一篇“ 如何剪枝和蒸馏 Llama-3.1 8B ”…4 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NetworkX、Jaccard Similarity 和 cuGraph 预测您下一部最喜欢的电影</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/using-networkx-jaccard-similarity-and-cugraph-to-predict-your-next-favorite-movie/</link>
-      <description>2025年 2月 13日使用 NetworkX、Jaccard Similarity 和 cuGraph 预测您下一部最喜欢的电影随着全球每个人可用的数据量不断增加，消费者做出明智决策的能力也越来越难。幸运的是，对于推荐系统而言，大型数据集是一个非常有用的组件，3 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 DeepSeek-R1 和推理时间缩放实现自动化 GPU 内核生成</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/automating-gpu-kernel-generation-with-deepseek-r1-and-inference-time-scaling/</link>
-      <description>2025年 2月 13日使用 DeepSeek-R1 和推理时间缩放实现自动化 GPU 内核生成随着 AI 模型扩展其功能以解决更复杂的挑战，一种称为“ 测试时扩展 ”或“ 推理时扩展 ”的新扩展法则正在出现。2 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA TensorRT-LLM 前瞻性解码优化 Qwen2.5-Coder 吞吐量</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/optimizing-qwen2-5-coder-throughput-with-nvidia-tensorrt-llm-lookahead-decoding/</link>
-      <description>2025年 2月 14日使用 NVIDIA TensorRT-LLM 前瞻性解码优化 Qwen2.5-Coder 吞吐量专注于编码的 大语言模型（LLMs） 已稳步应用于开发者工作流程。从配对编程到自我改进的 AI 智能体 ，这些模型可帮助开发者完成各种任务，3 MIN READ</description>
-    </item>
-    <item>
-      <title>聚焦：药物发现初创公司 Protai 利用 AlphaFold、蛋白质组学和 NVIDIA NIM 提升复杂结构预测能力</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/spotlight-drug-discovery-startup-protai-advances-complex-structure-prediction-with-alphafold-proteomics-and-nvidia-nim/</link>
-      <description>2025年 2月 19日聚焦：药物发现初创公司 Protai 利用 AlphaFold、蛋白质组学和 NVIDIA NIM 提升复杂结构预测能力特别是借助 AlphaFold 和 RosettaFold 等突破性成果，3 MIN READ</description>
-    </item>
-    <item>
-      <title>利用 Evo 2 以全新规模跨进化研究生命生物分子的语言</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/understanding-the-language-of-lifes-biomolecules-across-evolution-at-a-new-scale-with-evo-2/</link>
-      <description>2025年 2月 19日利用 Evo 2 以全新规模跨进化研究生命生物分子的语言AI 已从实验好奇心发展为生物学研究的驱动力。 深度学习算法、3 MIN READ</description>
-    </item>
-    <item>
-      <title>制造业产品设计工作流程的生成式 AI 转型</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/transforming-product-design-workflows-in-manufacturing-with-generative-ai/</link>
-      <description>2025年 2月 20日制造业产品设计工作流程的生成式 AI 转型长期以来，制造行业的传统设计和工程工作流程一直以顺序迭代的方法为特征，这种方法通常既耗时又需要大量资源。这些传统方法通常涉及需求收集、2 MIN READ</description>
-    </item>
+    <lastBuildDate>Sat, 01 Mar 2025 01:58:51 +0000</lastBuildDate>
     <item>
       <title>使用 Whisper 和 Canary 架构部署 NVIDIA Riva 多语种 ASR，同时选择性地停用 NMT</title>
       <link>https://developer.nvidia.com/zh-cn/blog/deploying-nvidia-riva-multilingual-asr-with-whisper-and-canary-architectures-while-selectively-deactivating-nmt/</link>
@@ -86,6 +31,61 @@
       <title>聚焦：东京大学使用 NVIDIA Grace Hopper 进行开创性的节能地震研究</title>
       <link>https://developer.nvidia.com/zh-cn/blog/spotlight-university-of-tokyo-uses-nvidia-grace-hopper-for-groundbreaking-energy-efficient-seismic-research/</link>
       <description>2025年 2月 20日聚焦：东京大学使用 NVIDIA Grace Hopper 进行开创性的节能地震研究超级计算机是推动突破性发现的引擎。从预测极端天气到推进疾病研究，以及设计更安全、更高效的基础设施，这些机器可以模拟因规模、2 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA 视频编解码器 SDK 13.0 由 NVIDIA Blackwell 驱动</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-video-codec-sdk-13-0-powered-by-nvidia-blackwell/</link>
+      <description>2025年 2月 24日NVIDIA 视频编解码器 SDK 13.0 由 NVIDIA Blackwell 驱动NVIDIA Video Codec SDK 13.0 的发布标志着重大升级，增加了对新一代 NVIDIA Blackwell GPU…3 MIN READ</description>
+    </item>
+    <item>
+      <title>在 NVIDIA 视频编解码器 SDK 13.0 中使用 MV-HEVC 启用立体和 3D 视图</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/enabling-stereoscopic-and-3d-views-using-mv-hevc-in-nvidia-video-codec-sdk-13-0/</link>
+      <description>2025年 2月 24日在 NVIDIA 视频编解码器 SDK 13.0 中使用 MV-HEVC 启用立体和 3D 视图NVIDIA 宣布在最新的 NVIDIA 视频编解码器 SDK 版本 13.0 中实施多视图高效视频编码 (MV-HEVC) 编码器。2 MIN READ</description>
+    </item>
+    <item>
+      <title>基于 Marco 多 AI 智能体框架的可配置图形任务求解在芯片设计中的应用</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/configurable-graph-based-task-solving-with-the-marco-multi-ai-agent-framework-for-chip-design/</link>
+      <description>2025年 2月 25日基于 Marco 多 AI 智能体框架的可配置图形任务求解在芯片设计中的应用芯片和硬件设计因其复杂性和先进的技术而面临众多挑战。这些挑战导致在合成、验证、物理设计和可靠性循环期间优化性能、功耗、2 MIN READ</description>
+    </item>
+    <item>
+      <title>定义 LLM 红色团队</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/defining-llm-red-teaming/</link>
+      <description>2025年 2月 25日定义 LLM 红色团队在一项活动中，人们为生成式 AI 技术 (例如大语言模型 (LLMs)) 提供输入，以确定输出是否会偏离可接受的标准。1 MIN READ</description>
+    </item>
+    <item>
+      <title>代理自主级别与安全性</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/agentic-autonomy-levels-and-security/</link>
+      <description>2025年 2月 25日代理自主级别与安全性智能体工作流是 AI 赋能工具的下一次演进。它们使开发者能够将多个 AI 模型关联在一起以执行复杂的活动，2 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA cuDSS 提高工程和科学计算中的求解器技术</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-cudss-advances-solver-technologies-for-engineering-and-scientific-computing/</link>
+      <description>2025年 2月 25日NVIDIA cuDSS 提高工程和科学计算中的求解器技术NVIDIA cuDSS 是第一代稀疏直接求解器库，旨在加速工程和科学计算。cuDSS 正越来越多地应用于数据中心和其他环境，4 MIN READ</description>
+    </item>
+    <item>
+      <title>在 NVIDIA GPU 上训练的 Microsoft Phi SLM 的多模态最新进展</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/latest-multimodal-addition-to-microsoft-phi-slms-trained-on-nvidia-gpus/</link>
+      <description>2025年 2月 26日在 NVIDIA GPU 上训练的 Microsoft Phi SLM 的多模态最新进展大语言模型（LLMs）已渗透到各行各业，并改变了技术潜力。但是，由于规模庞大，它们对于许多公司目前面临的资源限制来说并不切实际。1 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 NVIDIA NIM 构建基于 VLM 的简单多模态信息检索系统</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/building-a-simple-vlm-based-multimodal-information-retrieval-system-with-nvidia-nim/</link>
+      <description>2025年 2月 26日使用 NVIDIA NIM 构建基于 VLM 的简单多模态信息检索系统在当今数据驱动的世界中，即使是从少量数据中检索准确信息的能力，对于寻求精简、有效的快速部署、原型设计或实验解决方案的开发者来说也至关重要。3 MIN READ</description>
+    </item>
+    <item>
+      <title>借助适用于 LLM 的 NVIDIA NIM 微服务加速科学文献审查</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/accelerating-scientific-literature-reviews-with-nvidia-nim-microservices-for-llms/</link>
+      <description>2025年 2月 26日借助适用于 LLM 的 NVIDIA NIM 微服务加速科学文献审查精心设计的系统审查通常是研究人员探索科学领域的第一步。对于刚刚接触该领域的科学家，它提供了该领域的结构化概述。对于专家而言，2 MIN READ</description>
+    </item>
+    <item>
+      <title>图像和视频理解的视觉语言模型提示工程实践指南</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/vision-language-model-prompt-engineering-guide-for-image-and-video-understanding/</link>
+      <description>2025年 2月 26日图像和视频理解的视觉语言模型提示工程实践指南视觉语言模型 (VLMs) 正在以极快的速度发展。2020 年，首批 VLMs 通过使用视觉编码器将视觉理解引入大语言模型 (LLMs) ，4 MIN READ</description>
+    </item>
+    <item>
+      <title>借助 NVIDIA KvikIO 实现高性能远程 IO</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/high-performance-remote-io-with-nvidia-kvikio/</link>
+      <description>2025年 2月 27日借助 NVIDIA KvikIO 实现高性能远程 IO处理大量数据的工作负载 (尤其是在云端运行的工作负载) 通常会使用对象存储服务 (S3、Google Cloud Storage、2 MIN READ</description>
     </item>
   </channel>
 </rss>

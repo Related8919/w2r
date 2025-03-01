@@ -6,36 +6,16 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 28 Feb 2025 01:52:30 +0000</lastBuildDate>
-    <item>
-      <title>How to reduce costs with Managed Service for Apache Kafka: CUDs, compression and more</title>
-      <link>https://cloud.google.com/blog/products/data-analytics/save-money-on-google-cloud-managed-service-for-apache-kafka</link>
-      <description>Data AnalyticsHow to reduce costs with Managed Service for Apache Kafka: CUDs, compression and moreBy Qiqi Wu • 5-minute read</description>
-    </item>
-    <item>
-      <title>Taking Flight: How the RAF Air Cadets bridged the digital divide with ChromeOS Flex</title>
-      <link>https://cloud.google.com/blog/products/chrome-enterprise/taking-flight-how-the-raf-air-cadets-bridged-the-digital-divide-with-chromeos-flex</link>
-      <description>Chrome EnterpriseTaking Flight: How the RAF Air Cadets bridged the digital divide with ChromeOS FlexBy Dr. Jill Matterface • 4-minute read</description>
-    </item>
-    <item>
-      <title>Unlock Inference-as-a-Service with Cloud Run and Vertex AI</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/improve-your-gen-ai-app-velocity-with-inference-as-a-service</link>
-      <description>AI &amp; Machine LearningUnlock Inference-as-a-Service with Cloud Run and Vertex AIBy Jason (Jay) Smith • 4-minute read</description>
-    </item>
-    <item>
-      <title>8 steps to ensuring a smooth Spanner go-live</title>
-      <link>https://cloud.google.com/blog/products/databases/your-spanner-launch-checklist</link>
-      <description>Databases8 steps to ensuring a smooth Spanner go-liveBy Szabolcs Rozsnyai • 4-minute read</description>
-    </item>
-    <item>
-      <title>What’s new with Google Cloud</title>
-      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
-      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 3-minute read</description>
-    </item>
+    <lastBuildDate>Sat, 01 Mar 2025 01:58:39 +0000</lastBuildDate>
     <item>
       <title>How partners are unlocking scalable audio transcription with Gemini</title>
       <link>https://cloud.google.com/blog/topics/partners/how-partners-unlock-scalable-audio-transcription-with-gemini</link>
       <description>PartnersHow partners are unlocking scalable audio transcription with GeminiBy Schneider Larbi • 8-minute read</description>
+    </item>
+    <item>
+      <title>Announcing Claude 3.7 Sonnet, Anthropic’s first hybrid reasoning model, is available on Vertex AI</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/anthropics-claude-3-7-sonnet-is-available-on-vertex-ai</link>
+      <description>AI &amp; Machine LearningAnnouncing Claude 3.7 Sonnet, Anthropic’s first hybrid reasoning model, is available on Vertex AIBy Nenshad Bardoliwalla • 6-minute read</description>
     </item>
     <item>
       <title>Transforming data: How Vodafone Italy modernized its data architecture in the cloud</title>
@@ -56,6 +36,26 @@
       <title>Demonstrating the AI-driven telecom at Mobile World Congress</title>
       <link>https://cloud.google.com/blog/topics/telecommunications/ai-driven-telecom-demos-at-mwc-2025</link>
       <description>TelecommunicationsDemonstrating the AI-driven telecom at Mobile World CongressBy Brian Kracik • 4-minute read</description>
+    </item>
+    <item>
+      <title>Investing in AI, collaboration and the next generation of leaders</title>
+      <link>https://cloud.google.com/blog/topics/public-sector/investing-in-ai-collaboration-and-the-next-generation-of-leaders</link>
+      <description>Public SectorInvesting in AI, collaboration and the next generation of leadersBy Brent Mitchell • 4-minute read</description>
+    </item>
+    <item>
+      <title>Dynamic 5G services, made possible by AI and intent-based automation</title>
+      <link>https://cloud.google.com/blog/topics/telecommunications/how-dynamic-5g-services-are-possible-with-ai</link>
+      <description>TelecommunicationsDynamic 5G services, made possible by AI and intent-based automationBy Naresh Rao • 7-minute read</description>
+    </item>
+    <item>
+      <title>African super app Yassir delivers on data with BigQuery migration</title>
+      <link>https://cloud.google.com/blog/products/data-analytics/african-super-app-delivers-on-data-with-bigquery-migration</link>
+      <description>Data AnalyticsAfrican super app Yassir delivers on data with BigQuery migrationBy Hamdi Amroun • 4-minute read</description>
+    </item>
+    <item>
+      <title>What’s new with Google Cloud</title>
+      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
+      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 4-minute read</description>
     </item>
   </channel>
 </rss>

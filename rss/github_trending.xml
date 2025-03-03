@@ -6,36 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 02 Mar 2025 01:57:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Mar 2025 01:55:04 +0000</lastBuildDate>
     <item>
-      <title>twentyhq /twenty</title>
-      <link>https://github.com/twentyhq/twenty</link>
-      <description>Building a modern alternative to Salesforce, powered by the community.</description>
-    </item>
-    <item>
-      <title>fish-shell /fish-shell</title>
-      <link>https://github.com/fish-shell/fish-shell</link>
-      <description>The user-friendly command line shell.</description>
-    </item>
-    <item>
-      <title>allenai /olmocr</title>
-      <link>https://github.com/allenai/olmocr</link>
-      <description>Toolkit for linearizing PDFs for LLM datasets/training</description>
-    </item>
-    <item>
-      <title>modelscope /DiffSynth-Studio</title>
-      <link>https://github.com/modelscope/DiffSynth-Studio</link>
-      <description>Enjoy the magic of Diffusion models!</description>
-    </item>
-    <item>
-      <title>clash-verge-rev /clash-verge-rev</title>
-      <link>https://github.com/clash-verge-rev/clash-verge-rev</link>
-      <description>A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience</description>
-    </item>
-    <item>
-      <title>freddyaboulton /fastrtc</title>
-      <link>https://github.com/freddyaboulton/fastrtc</link>
-      <description>The python library for real-time communication</description>
+      <title>praydog /REFramework</title>
+      <link>https://github.com/praydog/REFramework</link>
+      <description>Scripting platform, modding framework and VR support for all RE Engine games</description>
     </item>
     <item>
       <title>landing-ai /vision-agent</title>
@@ -43,9 +18,29 @@
       <description>Vision agent</description>
     </item>
     <item>
+      <title>unionlabs /union</title>
+      <link>https://github.com/unionlabs/union</link>
+      <description>The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.</description>
+    </item>
+    <item>
       <title>Soulter /AstrBot</title>
       <link>https://github.com/Soulter/AstrBot</link>
       <description>✨易上手的多平台 LLM 聊天机器人及开发框架✨。支持 QQ、QQ频道、Telegram、微信个人号(Gewechat)、企业微信、飞书、内置 Web Chat，OpenAI GPT、DeepSeek、Ollama、Llama、GLM、Gemini、硅基流动、月之暗面、OneAPI、LLMTuner，支持 LLM Agent 插件开发，可视化面板。一键部署。支持 Dify 工作流、代码执行器、Whisper 语音转文字。</description>
+    </item>
+    <item>
+      <title>immich-app /immich</title>
+      <link>https://github.com/immich-app/immich</link>
+      <description>High performance self-hosted photo and video management solution.</description>
+    </item>
+    <item>
+      <title>allenai /olmocr</title>
+      <link>https://github.com/allenai/olmocr</link>
+      <description>Toolkit for linearizing PDFs for LLM datasets/training</description>
+    </item>
+    <item>
+      <title>freddyaboulton /fastrtc</title>
+      <link>https://github.com/freddyaboulton/fastrtc</link>
+      <description>The python library for real-time communication</description>
     </item>
     <item>
       <title>LadybirdBrowser /ladybird</title>

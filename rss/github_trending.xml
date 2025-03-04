@@ -6,16 +6,16 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 03 Mar 2025 01:55:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Mar 2025 01:53:45 +0000</lastBuildDate>
     <item>
-      <title>praydog /REFramework</title>
-      <link>https://github.com/praydog/REFramework</link>
-      <description>Scripting platform, modding framework and VR support for all RE Engine games</description>
+      <title>codecrafters-io /build-your-own-x</title>
+      <link>https://github.com/codecrafters-io/build-your-own-x</link>
+      <description>Master programming by recreating your favorite technologies from scratch.</description>
     </item>
     <item>
-      <title>landing-ai /vision-agent</title>
-      <link>https://github.com/landing-ai/vision-agent</link>
-      <description>Vision agent</description>
+      <title>ocrmypdf /OCRmyPDF</title>
+      <link>https://github.com/ocrmypdf/OCRmyPDF</link>
+      <description>OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched</description>
     </item>
     <item>
       <title>unionlabs /union</title>
@@ -23,9 +23,14 @@
       <description>The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.</description>
     </item>
     <item>
-      <title>Soulter /AstrBot</title>
-      <link>https://github.com/Soulter/AstrBot</link>
-      <description>✨易上手的多平台 LLM 聊天机器人及开发框架✨。支持 QQ、QQ频道、Telegram、微信个人号(Gewechat)、企业微信、飞书、内置 Web Chat，OpenAI GPT、DeepSeek、Ollama、Llama、GLM、Gemini、硅基流动、月之暗面、OneAPI、LLMTuner，支持 LLM Agent 插件开发，可视化面板。一键部署。支持 Dify 工作流、代码执行器、Whisper 语音转文字。</description>
+      <title>nicbarker /clay</title>
+      <link>https://github.com/nicbarker/clay</link>
+      <description>High performance UI layout library in C.</description>
+    </item>
+    <item>
+      <title>microsoft /generative-ai-for-beginners</title>
+      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
+      <description>21 Lessons, Get Started Building with Generative AI 🔗https://microsoft.github.io/generative-ai-for-beginners/</description>
     </item>
     <item>
       <title>immich-app /immich</title>
@@ -33,14 +38,19 @@
       <description>High performance self-hosted photo and video management solution.</description>
     </item>
     <item>
-      <title>allenai /olmocr</title>
-      <link>https://github.com/allenai/olmocr</link>
-      <description>Toolkit for linearizing PDFs for LLM datasets/training</description>
+      <title>landing-ai /vision-agent</title>
+      <link>https://github.com/landing-ai/vision-agent</link>
+      <description>Vision agent</description>
     </item>
     <item>
       <title>freddyaboulton /fastrtc</title>
       <link>https://github.com/freddyaboulton/fastrtc</link>
       <description>The python library for real-time communication</description>
+    </item>
+    <item>
+      <title>allenai /olmocr</title>
+      <link>https://github.com/allenai/olmocr</link>
+      <description>Toolkit for linearizing PDFs for LLM datasets/training</description>
     </item>
     <item>
       <title>LadybirdBrowser /ladybird</title>

@@ -6,16 +6,11 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 03 Mar 2025 01:55:19 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Mar 2025 01:53:58 +0000</lastBuildDate>
     <item>
-      <title>How partners are unlocking scalable audio transcription with Gemini</title>
-      <link>https://cloud.google.com/blog/topics/partners/how-partners-unlock-scalable-audio-transcription-with-gemini</link>
-      <description>PartnersHow partners are unlocking scalable audio transcription with GeminiBy Schneider Larbi • 8-minute read</description>
-    </item>
-    <item>
-      <title>Announcing Claude 3.7 Sonnet, Anthropic’s first hybrid reasoning model, is available on Vertex AI</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/anthropics-claude-3-7-sonnet-is-available-on-vertex-ai</link>
-      <description>AI &amp; Machine LearningAnnouncing Claude 3.7 Sonnet, Anthropic’s first hybrid reasoning model, is available on Vertex AIBy Nenshad Bardoliwalla • 6-minute read</description>
+      <title>Enhancing AlloyDB vector search with inline filtering and enterprise observability</title>
+      <link>https://cloud.google.com/blog/products/databases/enhancing-alloydb-vector-search-with-inline-filtering-and-enterprise-observability</link>
+      <description>DatabasesEnhancing AlloyDB vector search with inline filtering and enterprise observabilityBy Sandy Ghai • 6-minute read</description>
     </item>
     <item>
       <title>Transforming data: How Vodafone Italy modernized its data architecture in the cloud</title>
@@ -46,6 +41,11 @@
       <title>Dynamic 5G services, made possible by AI and intent-based automation</title>
       <link>https://cloud.google.com/blog/topics/telecommunications/how-dynamic-5g-services-are-possible-with-ai</link>
       <description>TelecommunicationsDynamic 5G services, made possible by AI and intent-based automationBy Naresh Rao • 7-minute read</description>
+    </item>
+    <item>
+      <title>Evaluate gen AI models with Vertex AI evaluation service and LLM comparator</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/evaluate-ai-models-with-vertex-ai--llm-comparator</link>
+      <description>AI &amp; Machine LearningEvaluate gen AI models with Vertex AI evaluation service and LLM comparatorBy Jincheol Kim • 6-minute read</description>
     </item>
     <item>
       <title>African super app Yassir delivers on data with BigQuery migration</title>

@@ -6,17 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 04 Mar 2025 01:53:44 +0000</lastBuildDate>
-    <item>
-      <title>Interning at Rapid7 Prague: Meet Mko</title>
-      <link>https://www.rapid7.com/blog/post/2025/02/10/interning-at-rapid7-prague-meet-mko/</link>
-      <description>Mkrtich Hovsepyan – most people call him Mko –  is an intern at Rapid7’s fast-growing office in Prague. He was in our first impressive crop of interns, and is sharing his experience as we gear up for our next wave of intern hiring.</description>
-    </item>
-    <item>
-      <title>How To Protect Your Organization's Bluesky Account From Security Threats</title>
-      <link>https://www.rapid7.com/blog/post/2025/02/11/how-to-protect-your-organizations-bluesky-account-from-security-threats/</link>
-      <description>This blog explains how to secure your Bluesky account from security threats such as malware and phishing, as well as establishing your identity to help prevent fraud and impersonation.</description>
-    </item>
+    <lastBuildDate>Wed, 05 Mar 2025 01:54:52 +0000</lastBuildDate>
     <item>
       <title>Patch Tuesday - February 2025</title>
       <link>https://www.rapid7.com/blog/post/2025/02/11/microsoft-patch-tuesday/</link>
@@ -109,6 +99,16 @@ AttackerKB reference: CVE-2025-22896
 
 Description: This module adds credential harvesting for MySCADA MyPro Manager
 using CVE-20</description>
+    </item>
+    <item>
+      <title>Building a High Performance Team in India: Meet Swami Nathan</title>
+      <link>https://www.rapid7.com/blog/post/2025/03/04/building-a-high-performance-team-in-india-meet-swami-nathan/</link>
+      <description>Swami Nathan has a track record of building new teams from scratch for global companies. Through his experiences, he’s identified what it takes to build not just any team, but a high performing team that drives innovation for business while propelling career trajectories for those who take the ride.</description>
+    </item>
+    <item>
+      <title>Multiple zero-day vulnerabilities in Broadcom VMware ESXi and other products</title>
+      <link>https://www.rapid7.com/blog/post/2025/03/04/etr-multiple-zero-day-vulnerabilities-in-broadcom-vmware-esxi-and-other-products/</link>
+      <description>On Tuesday, March 4, 2025, Broadcom published a critical security advisory (VMSA-2025-0004) on 3 new zero-day vulnerabilities affecting multiple VMware products, including ESXi, Workstation, and Fusion.</description>
     </item>
   </channel>
 </rss>

@@ -6,17 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 04 Mar 2025 01:53:58 +0000</lastBuildDate>
-    <item>
-      <title>Enhancing AlloyDB vector search with inline filtering and enterprise observability</title>
-      <link>https://cloud.google.com/blog/products/databases/enhancing-alloydb-vector-search-with-inline-filtering-and-enterprise-observability</link>
-      <description>DatabasesEnhancing AlloyDB vector search with inline filtering and enterprise observabilityBy Sandy Ghai • 6-minute read</description>
-    </item>
-    <item>
-      <title>Transforming data: How Vodafone Italy modernized its data architecture in the cloud</title>
-      <link>https://cloud.google.com/blog/topics/telecommunications/vodafone-italy-modernizes-with-amdocs-and-google-cloud</link>
-      <description>TelecommunicationsTransforming data: How Vodafone Italy modernized its data architecture in the cloudBy Naresh Rao • 5-minute read</description>
-    </item>
+    <lastBuildDate>Wed, 05 Mar 2025 01:55:06 +0000</lastBuildDate>
     <item>
       <title>The IT Admin’s Guide to Google AI</title>
       <link>https://cloud.google.com/blog/products/chrome-enterprise/the-it-admins-guide-to-google-ai</link>
@@ -53,9 +43,19 @@
       <description>Data AnalyticsAfrican super app Yassir delivers on data with BigQuery migrationBy Hamdi Amroun • 4-minute read</description>
     </item>
     <item>
+      <title>Announcing Terraform providers for Oracle Database@Google Cloud</title>
+      <link>https://cloud.google.com/blog/products/databases/new-terraform-provider-for-oracle-database-at-google-cloud</link>
+      <description>DatabasesAnnouncing Terraform providers for Oracle Database@Google CloudBy Andy Colvin • 4-minute read</description>
+    </item>
+    <item>
       <title>What’s new with Google Cloud</title>
       <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
       <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 4-minute read</description>
+    </item>
+    <item>
+      <title>Unico builds cutting-edge IDTech with Spanner Vector Search</title>
+      <link>https://cloud.google.com/blog/products/databases/unico-builds-cutting-edge-idtech-with-spanner-vector-search</link>
+      <description>DatabasesUnico builds cutting-edge IDTech with Spanner Vector SearchBy Gustavo Monti Rocha • 4-minute read</description>
     </item>
   </channel>
 </rss>

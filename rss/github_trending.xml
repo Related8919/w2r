@@ -6,21 +6,56 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 04 Mar 2025 01:53:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Mar 2025 01:54:53 +0000</lastBuildDate>
     <item>
-      <title>codecrafters-io /build-your-own-x</title>
-      <link>https://github.com/codecrafters-io/build-your-own-x</link>
-      <description>Master programming by recreating your favorite technologies from scratch.</description>
+      <title>jjleng /copilot-more</title>
+      <link>https://github.com/jjleng/copilot-more</link>
+      <description>GPT-4o and Claude-3.7-Sonnet APIs for coding.</description>
     </item>
     <item>
-      <title>ocrmypdf /OCRmyPDF</title>
-      <link>https://github.com/ocrmypdf/OCRmyPDF</link>
-      <description>OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched</description>
+      <title>Floorp-Projects /Floorp</title>
+      <link>https://github.com/Floorp-Projects/Floorp</link>
+      <description>All of source code of version 10 or later of Floorp Browser, the most Advanced and Fastest Firefox derivative 🦊</description>
     </item>
     <item>
-      <title>unionlabs /union</title>
-      <link>https://github.com/unionlabs/union</link>
-      <description>The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.</description>
+      <title>Soulter /AstrBot</title>
+      <link>https://github.com/Soulter/AstrBot</link>
+      <description>✨ 易上手的多平台 LLM 聊天机器人及开发框架 ✨ 平台支持 QQ、QQ频道、Telegram、微信、企微、飞书 | OpenAI、DeepSeek、Gemini、硅基流动、月之暗面、Ollama、OneAPI、Dify 等。附带 WebUI。</description>
+    </item>
+    <item>
+      <title>acmesh-official /acme.sh</title>
+      <link>https://github.com/acmesh-official/acme.sh</link>
+      <description>A pure Unix shell script implementing ACME client protocol</description>
+    </item>
+    <item>
+      <title>hoppscotch /hoppscotch</title>
+      <link>https://github.com/hoppscotch/hoppscotch</link>
+      <description>Open source API development ecosystem -https://hoppscotch.io(open-source alternative to Postman, Insomnia)</description>
+    </item>
+    <item>
+      <title>apache /gravitino</title>
+      <link>https://github.com/apache/gravitino</link>
+      <description>World's most powerful open data catalog for building a high-performance, geo-distributed and federated metadata lake.</description>
+    </item>
+    <item>
+      <title>jackfrued /Python-100-Days</title>
+      <link>https://github.com/jackfrued/Python-100-Days</link>
+      <description>Python - 100天从新手到大师</description>
+    </item>
+    <item>
+      <title>webdriverio /webdriverio</title>
+      <link>https://github.com/webdriverio/webdriverio</link>
+      <description>Next-gen browser and mobile automation test framework for Node.js</description>
+    </item>
+    <item>
+      <title>hashicorp /terraform</title>
+      <link>https://github.com/hashicorp/terraform</link>
+      <description>Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.</description>
+    </item>
+    <item>
+      <title>tw93 /Pake</title>
+      <link>https://github.com/tw93/Pake</link>
+      <description>🤱🏻 Turn any webpage into a desktop app with Rust. 🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用</description>
     </item>
     <item>
       <title>nicbarker /clay</title>
@@ -28,34 +63,29 @@
       <description>High performance UI layout library in C.</description>
     </item>
     <item>
-      <title>microsoft /generative-ai-for-beginners</title>
-      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
-      <description>21 Lessons, Get Started Building with Generative AI 🔗https://microsoft.github.io/generative-ai-for-beginners/</description>
-    </item>
-    <item>
       <title>immich-app /immich</title>
       <link>https://github.com/immich-app/immich</link>
       <description>High performance self-hosted photo and video management solution.</description>
     </item>
     <item>
-      <title>landing-ai /vision-agent</title>
-      <link>https://github.com/landing-ai/vision-agent</link>
-      <description>Vision agent</description>
-    </item>
-    <item>
-      <title>freddyaboulton /fastrtc</title>
-      <link>https://github.com/freddyaboulton/fastrtc</link>
-      <description>The python library for real-time communication</description>
-    </item>
-    <item>
-      <title>allenai /olmocr</title>
-      <link>https://github.com/allenai/olmocr</link>
-      <description>Toolkit for linearizing PDFs for LLM datasets/training</description>
+      <title>ocrmypdf /OCRmyPDF</title>
+      <link>https://github.com/ocrmypdf/OCRmyPDF</link>
+      <description>OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched</description>
     </item>
     <item>
       <title>LadybirdBrowser /ladybird</title>
       <link>https://github.com/LadybirdBrowser/ladybird</link>
       <description>Truly independent web browser</description>
+    </item>
+    <item>
+      <title>virattt /ai-hedge-fund</title>
+      <link>https://github.com/virattt/ai-hedge-fund</link>
+      <description>An AI Hedge Fund Team</description>
+    </item>
+    <item>
+      <title>hedge-dev /UnleashedRecomp</title>
+      <link>https://github.com/hedge-dev/UnleashedRecomp</link>
+      <description>An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.</description>
     </item>
   </channel>
 </rss>

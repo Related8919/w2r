@@ -6,22 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 05 Mar 2025 01:55:06 +0000</lastBuildDate>
-    <item>
-      <title>The IT Admin’s Guide to Google AI</title>
-      <link>https://cloud.google.com/blog/products/chrome-enterprise/the-it-admins-guide-to-google-ai</link>
-      <description>Chrome EnterpriseThe IT Admin’s Guide to Google AIBy Ankur Mathur • 4-minute read</description>
-    </item>
-    <item>
-      <title>AI-powered network optimization: Unlocking 5G's potential with Amdocs</title>
-      <link>https://cloud.google.com/blog/topics/telecommunications/ai-powered-network-optimization-unlocking-5gs-potential-with-amdocs</link>
-      <description>TelecommunicationsAI-powered network optimization: Unlocking 5G's potential with AmdocsBy Niall Byrne • 5-minute read</description>
-    </item>
-    <item>
-      <title>Demonstrating the AI-driven telecom at Mobile World Congress</title>
-      <link>https://cloud.google.com/blog/topics/telecommunications/ai-driven-telecom-demos-at-mwc-2025</link>
-      <description>TelecommunicationsDemonstrating the AI-driven telecom at Mobile World CongressBy Brian Kracik • 4-minute read</description>
-    </item>
+    <lastBuildDate>Thu, 06 Mar 2025 01:54:09 +0000</lastBuildDate>
     <item>
       <title>Investing in AI, collaboration and the next generation of leaders</title>
       <link>https://cloud.google.com/blog/topics/public-sector/investing-in-ai-collaboration-and-the-next-generation-of-leaders</link>
@@ -53,9 +38,24 @@
       <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 4-minute read</description>
     </item>
     <item>
+      <title>Use Gemini 2.0 to speed up document extraction and lower costs</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/use-gemini-2-0-to-speed-up-data-processing</link>
+      <description>AI &amp; Machine LearningUse Gemini 2.0 to speed up document extraction and lower costsBy Meenu Bondili • 5-minute read</description>
+    </item>
+    <item>
       <title>Unico builds cutting-edge IDTech with Spanner Vector Search</title>
       <link>https://cloud.google.com/blog/products/databases/unico-builds-cutting-edge-idtech-with-spanner-vector-search</link>
       <description>DatabasesUnico builds cutting-edge IDTech with Spanner Vector SearchBy Gustavo Monti Rocha • 4-minute read</description>
+    </item>
+    <item>
+      <title>GoStringUngarbler: Deobfuscating Strings in Garbled Binaries</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/gostringungarbler-deobfuscating-strings-in-garbled-binaries</link>
+      <description>Threat IntelligenceGoStringUngarbler: Deobfuscating Strings in Garbled BinariesBy Mandiant  • 17-minute read</description>
+    </item>
+    <item>
+      <title>How Google AI is powering innovation at NARA, Air Force, and Aerospace Corporation</title>
+      <link>https://cloud.google.com/blog/topics/public-sector/how-google-ai-is-powering-innovation-at-nara-air-force-and-aerospace-corporation</link>
+      <description>Public SectorHow Google AI is powering innovation at NARA, Air Force, and Aerospace CorporationBy Chris Niehaus • 3-minute read</description>
     </item>
   </channel>
 </rss>

@@ -6,46 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 05 Mar 2025 01:54:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Mar 2025 01:53:56 +0000</lastBuildDate>
     <item>
-      <title>jjleng /copilot-more</title>
-      <link>https://github.com/jjleng/copilot-more</link>
-      <description>GPT-4o and Claude-3.7-Sonnet APIs for coding.</description>
+      <title>coturn /coturn</title>
+      <link>https://github.com/coturn/coturn</link>
+      <description>coturn TURN server project</description>
     </item>
     <item>
-      <title>Floorp-Projects /Floorp</title>
-      <link>https://github.com/Floorp-Projects/Floorp</link>
-      <description>All of source code of version 10 or later of Floorp Browser, the most Advanced and Fastest Firefox derivative 🦊</description>
+      <title>open-mmlab /mmsegmentation</title>
+      <link>https://github.com/open-mmlab/mmsegmentation</link>
+      <description>OpenMMLab Semantic Segmentation Toolbox and Benchmark.</description>
     </item>
     <item>
-      <title>Soulter /AstrBot</title>
-      <link>https://github.com/Soulter/AstrBot</link>
-      <description>✨ 易上手的多平台 LLM 聊天机器人及开发框架 ✨ 平台支持 QQ、QQ频道、Telegram、微信、企微、飞书 | OpenAI、DeepSeek、Gemini、硅基流动、月之暗面、Ollama、OneAPI、Dify 等。附带 WebUI。</description>
-    </item>
-    <item>
-      <title>acmesh-official /acme.sh</title>
-      <link>https://github.com/acmesh-official/acme.sh</link>
-      <description>A pure Unix shell script implementing ACME client protocol</description>
-    </item>
-    <item>
-      <title>hoppscotch /hoppscotch</title>
-      <link>https://github.com/hoppscotch/hoppscotch</link>
-      <description>Open source API development ecosystem -https://hoppscotch.io(open-source alternative to Postman, Insomnia)</description>
-    </item>
-    <item>
-      <title>apache /gravitino</title>
-      <link>https://github.com/apache/gravitino</link>
-      <description>World's most powerful open data catalog for building a high-performance, geo-distributed and federated metadata lake.</description>
-    </item>
-    <item>
-      <title>jackfrued /Python-100-Days</title>
-      <link>https://github.com/jackfrued/Python-100-Days</link>
-      <description>Python - 100天从新手到大师</description>
-    </item>
-    <item>
-      <title>webdriverio /webdriverio</title>
-      <link>https://github.com/webdriverio/webdriverio</link>
-      <description>Next-gen browser and mobile automation test framework for Node.js</description>
+      <title>stretchr /testify</title>
+      <link>https://github.com/stretchr/testify</link>
+      <description>A toolkit with common assertions and mocks that plays nicely with the standard library</description>
     </item>
     <item>
       <title>hashicorp /terraform</title>
@@ -53,39 +28,59 @@
       <description>Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.</description>
     </item>
     <item>
-      <title>tw93 /Pake</title>
-      <link>https://github.com/tw93/Pake</link>
-      <description>🤱🏻 Turn any webpage into a desktop app with Rust. 🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用</description>
+      <title>cypress-io /cypress</title>
+      <link>https://github.com/cypress-io/cypress</link>
+      <description>Fast, easy and reliable testing for anything that runs in a browser.</description>
     </item>
     <item>
-      <title>nicbarker /clay</title>
-      <link>https://github.com/nicbarker/clay</link>
-      <description>High performance UI layout library in C.</description>
+      <title>cloudwego /eino</title>
+      <link>https://github.com/cloudwego/eino</link>
+      <description>The ultimate LLM/AI application development framework in Golang.</description>
     </item>
     <item>
-      <title>immich-app /immich</title>
-      <link>https://github.com/immich-app/immich</link>
-      <description>High performance self-hosted photo and video management solution.</description>
+      <title>KRTirtho /spotube</title>
+      <link>https://github.com/KRTirtho/spotube</link>
+      <description>🎧 Open source Spotify client that doesn't require Premium nor uses Electron! Available for both desktop &amp; mobile!</description>
     </item>
     <item>
-      <title>ocrmypdf /OCRmyPDF</title>
-      <link>https://github.com/ocrmypdf/OCRmyPDF</link>
-      <description>OCRmyPDF adds an OCR text layer to scanned PDF files, allowing them to be searched</description>
+      <title>commixproject /commix</title>
+      <link>https://github.com/commixproject/commix</link>
+      <description>Automated All-in-One OS Command Injection Exploitation Tool.</description>
     </item>
     <item>
-      <title>LadybirdBrowser /ladybird</title>
-      <link>https://github.com/LadybirdBrowser/ladybird</link>
-      <description>Truly independent web browser</description>
+      <title>influxdata /telegraf</title>
+      <link>https://github.com/influxdata/telegraf</link>
+      <description>Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.</description>
+    </item>
+    <item>
+      <title>TanStack /form</title>
+      <link>https://github.com/TanStack/form</link>
+      <description>🤖 Headless, performant, and type-safe form state management for TS/JS, React, Vue, Angular, Solid, and Lit.</description>
+    </item>
+    <item>
+      <title>kubernetes-sigs /kubespray</title>
+      <link>https://github.com/kubernetes-sigs/kubespray</link>
+      <description>Deploy a Production Ready Kubernetes Cluster</description>
+    </item>
+    <item>
+      <title>grpc-ecosystem /grpc-gateway</title>
+      <link>https://github.com/grpc-ecosystem/grpc-gateway</link>
+      <description>gRPC to JSON proxy generator following the gRPC HTTP spec</description>
+    </item>
+    <item>
+      <title>hoppscotch /hoppscotch</title>
+      <link>https://github.com/hoppscotch/hoppscotch</link>
+      <description>Open source API development ecosystem -https://hoppscotch.io(open-source alternative to Postman, Insomnia)</description>
+    </item>
+    <item>
+      <title>gorhill /uBlock</title>
+      <link>https://github.com/gorhill/uBlock</link>
+      <description>uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.</description>
     </item>
     <item>
       <title>virattt /ai-hedge-fund</title>
       <link>https://github.com/virattt/ai-hedge-fund</link>
       <description>An AI Hedge Fund Team</description>
-    </item>
-    <item>
-      <title>hedge-dev /UnleashedRecomp</title>
-      <link>https://github.com/hedge-dev/UnleashedRecomp</link>
-      <description>An unofficial PC port of the Xbox 360 version of Sonic Unleashed created through the process of static recompilation.</description>
     </item>
   </channel>
 </rss>

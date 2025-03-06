@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 05 Mar 2025 01:54:52 +0000</lastBuildDate>
-    <item>
-      <title>Patch Tuesday - February 2025</title>
-      <link>https://www.rapid7.com/blog/post/2025/02/11/microsoft-patch-tuesday/</link>
-      <description>Four zero-days: AFD EoP, Storage EoP, NTLMv2 disclosure, Surface container escape. Critical RCEs in LDAP, DHCP client, Excel.</description>
-    </item>
+    <lastBuildDate>Thu, 06 Mar 2025 01:53:54 +0000</lastBuildDate>
     <item>
       <title>CVE-2025-1094: PostgreSQL psql SQL injection (FIXED)</title>
       <link>https://www.rapid7.com/blog/post/2025/02/13/cve-2025-1094-postgresql-psql-sql-injection-fixed/</link>
@@ -109,6 +104,11 @@ using CVE-20</description>
       <title>Multiple zero-day vulnerabilities in Broadcom VMware ESXi and other products</title>
       <link>https://www.rapid7.com/blog/post/2025/03/04/etr-multiple-zero-day-vulnerabilities-in-broadcom-vmware-esxi-and-other-products/</link>
       <description>On Tuesday, March 4, 2025, Broadcom published a critical security advisory (VMSA-2025-0004) on 3 new zero-day vulnerabilities affecting multiple VMware products, including ESXi, Workstation, and Fusion.</description>
+    </item>
+    <item>
+      <title>Inside the Take Command Summit 2025 Agenda: What’s in Store for This Year’s Event?</title>
+      <link>https://www.rapid7.com/blog/post/2025/03/05/inside-the-take-command-summit-2025-agenda-whats-in-store-for-this-years-event/</link>
+      <description>Join Take Command 2025, a free virtual cybersecurity event on April 9. Hear from industry experts on AI-driven security, real-world attack simulations, and frontline SOC threat hunting strategies. Register now!</description>
     </item>
   </channel>
 </rss>

@@ -6,7 +6,7 @@
     <description>Latest posts from https://www.deeplearning.ai/the-batch/. follow.is: feedId:91496692463707136+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 06 Mar 2025 01:54:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Mar 2025 01:54:36 +0000</lastBuildDate>
     <item>
       <title>Next-Gen Models Show Limited Gains, Real-Time Video Generation, China AI Chips Blocked, Transformer Training Streamlined</title>
       <link>https://www.deeplearning.ai/the-batch/issue-276/</link>
@@ -84,7 +84,7 @@
     </item>
     <item>
       <title>GPT-4.5 Goes Big, Claude 3.7 Reasons, Alexa+ Goes Agentic, Generating Text Like an Image</title>
-      <link>https://www.deeplearning.ai/the-batch/tag/march-05-2025/</link>
+      <link>https://www.deeplearning.ai/the-batch/tag/mar-05-2025/</link>
       <description>The Batch AI News and Insights: Continuing our discussion on the Voice Stack, I’d like to explore an area that today’s voice-based systems mostly struggle with: Voice Activity Detection (VAD) and the turn-taking paradigm of communication.</description>
     </item>
   </channel>

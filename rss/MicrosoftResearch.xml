@@ -12,7 +12,7 @@
 	<atom:link href="https://www.microsoft.com/en-us/research/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.microsoft.com/en-us/research/</link>
 	<description></description>
-	<lastBuildDate>Thu, 06 Mar 2025 00:35:36 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 06 Mar 2025 14:03:56 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,197 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.7.2</generator>
 	<item>
+		<title>The AI Revolution in Medicine, Revisited: An Introduction</title>
+		<link>https://www.microsoft.com/en-us/research/podcast/the-ai-revolution-in-medicine-revisited-an-introduction/</link>
+		
+		<dc:creator><![CDATA[Peter Lee]]></dc:creator>
+		<pubDate>Thu, 06 Mar 2025 14:00:00 +0000</pubDate>
+				<category><![CDATA[Microsoft Research Podcast]]></category>
+		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1132722</guid>
+
+					<description><![CDATA[<p>Host Peter Lee, Microsoft Research president, discusses the motivation behind the new series and the GPT-4 encounter that helped him view the tech not only as a potential tool for improving healthcare but a chance to reexamine what it means to care for people. </p>
+<p>The post <a href="https://www.microsoft.com/en-us/research/podcast/the-ai-revolution-in-medicine-revisited-an-introduction/">The AI Revolution in Medicine, Revisited: An Introduction</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="The AI Revolution in Medicine, Revisited: An Introduction" width="500" height="281" src="https://www.youtube-nocookie.com/embed/AzThcMAW0xs?feature=oembed&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+<div class="wp-block-msr-podcast-container my-4">
+	<iframe src="https://player.blubrry.com/?podcast_id=142968395&modern=1" class="podcast-player" frameborder="0" height="164px" width="100%" scrolling="no" title="Podcast Player"></iframe>
+</div>
+
+
+
+<p>Two years ago, OpenAI’s GPT-4 kick-started a new era in AI. In the months leading up to its public release, Peter Lee, president of Microsoft Research, cowrote a book full of optimism for the potential of advanced AI models to transform the world of healthcare. What has happened since? In this special podcast series, Lee revisits the book, exploring how patients, providers, and other medical professionals are experiencing and using generative AI today while examining what he and his coauthors got right—and what they didn’t foresee.</p>
+
+
+
+<p>In this introduction to the series, Lee talks about his early encounters with GPT-4, when the AI model was still in secret development with OpenAI, and the range of emotions he cycled through as he came to understand the new technology better. The emergence of generative AI has created a “new world,” Lee says, one he is eager to investigate with the aim of discovering the technology’s impact so far and what it means for the future of healthcare and medicine.</p>
+
+
+
+<div class="wp-block-group msr-pattern-link-list is-layout-flow wp-block-group-is-layout-flow">
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 class="wp-block-heading h5" id="learn-more-1">Learn more:</h2>
+
+
+
+<ul class="wp-block-list list-unstyled">
+<li><a href="https://www.microsoft.com/en-us/research/publication/the-ai-revolution-in-medicine-gpt-4-and-beyond/">The AI Revolution in Medicine: GPT-4 and Beyond</a><br>Book | April 2023</li>
+</ul>
+
+
+
+<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+</div>
+
+
+
+<section class="wp-block-msr-subscribe-to-podcast subscribe-to-podcast">
+	<div class="subscribe-to-podcast__inner border-top border-bottom border-width-2">
+		<h2 class="h5 subscribe-to-podcast__heading">
+			Subscribe to the <a href="https://www.microsoft.com/en-us/research/podcast">Microsoft Research Podcast</a>:		</h2>
+		<ul class="subscribe-to-podcast__list list-unstyled">
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://itunes.apple.com/us/podcast/microsoft-research-a-podcast/id1318021537?mt=2" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 32 32">  <path d="M7.12 0c-3.937-0.011-7.131 3.183-7.12 7.12v17.76c-0.011 3.937 3.183 7.131 7.12 7.12h17.76c3.937 0.011 7.131-3.183 7.12-7.12v-17.76c0.011-3.937-3.183-7.131-7.12-7.12zM15.817 3.421c3.115 0 5.932 1.204 8.079 3.453 1.631 1.693 2.547 3.489 3.016 5.855 0.161 0.787 0.161 2.932 0.009 3.817-0.5 2.817-2.041 5.339-4.317 7.063-0.812 0.615-2.797 1.683-3.115 1.683-0.12 0-0.129-0.12-0.077-0.615 0.099-0.792 0.192-0.953 0.64-1.141 0.713-0.296 1.932-1.167 2.677-1.911 1.301-1.303 2.229-2.932 2.677-4.719 0.281-1.1 0.244-3.543-0.063-4.672-0.969-3.595-3.907-6.385-7.5-7.136-1.041-0.213-2.943-0.213-4 0-3.636 0.751-6.647 3.683-7.563 7.371-0.245 1.004-0.245 3.448 0 4.448 0.609 2.443 2.188 4.681 4.255 6.015 0.407 0.271 0.896 0.547 1.1 0.631 0.447 0.192 0.547 0.355 0.629 1.14 0.052 0.485 0.041 0.62-0.072 0.62-0.073 0-0.62-0.235-1.199-0.511l-0.052-0.041c-3.297-1.62-5.407-4.364-6.177-8.016-0.187-0.943-0.224-3.187-0.036-4.052 0.479-2.323 1.396-4.135 2.921-5.739 2.199-2.319 5.027-3.543 8.172-3.543zM16 7.172c0.541 0.005 1.068 0.052 1.473 0.14 3.715 0.828 6.344 4.543 5.833 8.229-0.203 1.489-0.713 2.709-1.619 3.844-0.448 0.573-1.537 1.532-1.729 1.532-0.032 0-0.063-0.365-0.063-0.803v-0.808l0.552-0.661c2.093-2.505 1.943-6.005-0.339-8.296-0.885-0.896-1.912-1.423-3.235-1.661-0.853-0.161-1.031-0.161-1.927-0.011-1.364 0.219-2.417 0.744-3.355 1.672-2.291 2.271-2.443 5.791-0.348 8.296l0.552 0.661v0.813c0 0.448-0.037 0.807-0.084 0.807-0.036 0-0.349-0.213-0.683-0.479l-0.047-0.016c-1.109-0.885-2.088-2.453-2.495-3.995-0.244-0.932-0.244-2.697 0.011-3.625 0.672-2.505 2.521-4.448 5.079-5.359 0.547-0.193 1.509-0.297 2.416-0.281zM15.823 11.156c0.417 0 0.828 0.084 1.131 0.24 0.645 0.339 1.183 0.989 1.385 1.677 0.62 2.104-1.609 3.948-3.631 3.005h-0.015c-0.953-0.443-1.464-1.276-1.475-2.36 0-0.979 0.541-1.828 1.484-2.328 0.297-0.156 0.709-0.235 1.125-0.235zM15.812 17.464c1.319-0.005 2.271 0.463 2.625 1.291 0.265 0.62 0.167 2.573-0.292 5.735-0.307 2.208-0.479 2.765-0.905 3.141-0.589 0.52-1.417 0.667-2.209 0.385h-0.004c-0.953-0.344-1.157-0.808-1.553-3.527-0.452-3.161-0.552-5.115-0.285-5.735 0.348-0.823 1.296-1.285 2.624-1.291z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Apple Podcasts</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://subscribebyemail.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.4 6a2.392 2.392 0 00-2.372 2.119L16 15.6l11.972-7.481A2.392 2.392 0 0025.6 6H6.4zM4 10.502V22.8a2.4 2.4 0 002.4 2.4h19.2a2.4 2.4 0 002.4-2.4V10.502l-11.365 7.102a1.2 1.2 0 01-1.27 0L4 10.502z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Email</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://subscribeonandroid.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M12.414 4.02c-.062.012-.126.023-.18.06a.489.489 0 00-.12.675L13.149 6.3c-1.6.847-2.792 2.255-3.18 3.944h13.257c-.388-1.69-1.58-3.097-3.179-3.944l1.035-1.545a.489.489 0 00-.12-.675.492.492 0 00-.675.135l-1.14 1.68a7.423 7.423 0 00-2.55-.45c-.899 0-1.758.161-2.549.45l-1.14-1.68a.482.482 0 00-.494-.195zm1.545 3.824a.72.72 0 110 1.44.72.72 0 010-1.44zm5.278 0a.719.719 0 110 1.44.719.719 0 110-1.44zM8.44 11.204A1.44 1.44 0 007 12.644v6.718c0 .795.645 1.44 1.44 1.44.168 0 .33-.036.48-.09v-9.418a1.406 1.406 0 00-.48-.09zm1.44 0V21.76c0 .793.646 1.44 1.44 1.44h10.557c.793 0 1.44-.647 1.44-1.44V11.204H9.878zm14.876 0c-.169 0-.33.035-.48.09v9.418c.15.052.311.09.48.09a1.44 1.44 0 001.44-1.44v-6.719a1.44 1.44 0 00-1.44-1.44zM11.8 24.16v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84zm5.759 0v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Android</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://open.spotify.com/show/4ndjUXyL0hH1FXHgwIiTWU" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M16 4C9.383 4 4 9.383 4 16s5.383 12 12 12 12-5.383 12-12S22.617 4 16 4zm5.08 17.394a.781.781 0 01-1.086.217c-1.29-.86-3.477-1.434-5.303-1.434-1.937.002-3.389.477-3.403.482a.782.782 0 11-.494-1.484c.068-.023 1.71-.56 3.897-.562 1.826 0 4.365.492 6.171 1.696.36.24.457.725.217 1.085zm1.56-3.202a.895.895 0 01-1.234.286c-2.338-1.457-4.742-1.766-6.812-1.747-2.338.02-4.207.466-4.239.476a.895.895 0 11-.488-1.723c.145-.041 2.01-.5 4.564-.521 2.329-.02 5.23.318 7.923 1.995.419.26.547.814.286 1.234zm1.556-3.745a1.043 1.043 0 01-1.428.371c-2.725-1.6-6.039-1.94-8.339-1.942h-.033c-2.781 0-4.923.489-4.944.494a1.044 1.044 0 01-.474-2.031c.096-.023 2.385-.55 5.418-.55h.036c2.558.004 6.264.393 9.393 2.23.497.292.663.931.371 1.428z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Spotify</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.667 4a2.676 2.676 0 00-2.612 2.13v.003c-.036.172-.055.35-.055.534v18.666c0 .183.019.362.055.534v.003a2.676 2.676 0 002.076 2.075h.002c.172.036.35.055.534.055h18.666A2.676 2.676 0 0028 25.333V6.667a2.676 2.676 0 00-2.13-2.612h-.003A2.623 2.623 0 0025.333 4H6.667zM8 8h1.333C17.42 8 24 14.58 24 22.667V24h-2.667v-1.333c0-6.618-5.382-12-12-12H8V8zm0 5.333h1.333c5.146 0 9.334 4.188 9.334 9.334V24H16v-1.333A6.674 6.674 0 009.333 16H8v-2.667zM10 20a2 2 0 11-.001 4.001A2 2 0 0110 20z"/></svg>
+						<span class="subscribe-to-podcast__link-text">RSS Feed</span>
+					</a>
+				</li>
+					</ul>
+	</div>
+</section>
+
+
+<div class="wp-block-msr-show-more">
+	<div class="bg-neutral-100 p-5">
+		<div class="show-more-show-less" data-mount="show-more-show-less">
+			<div>
+				<span>
+					
+
+<h2 class="wp-block-heading" id="transcript">Transcript</h2>
+
+
+
+<p>[MUSIC]</p>
+
+
+
+<p><strong>PETER LEE:</strong> This is <em>The AI Revolution in Medicine, Revisited</em>. I’m Peter Lee, president of Microsoft Research, and I&#8217;m pretty excited to introduce this series of conversations as part of the Microsoft Research Podcast.</p>
+
+
+
+<p>About two years ago, with Carey Goldberg and Zak Kohane, we wrote a book, <em>The</em> <em>AI Revolution in Medicine</em>. This was a book that was intended to educate the world of healthcare and the world of medical research about this new thing that was emerging. This idea of generative AI. And we wrote the book in secret. In fact, the whole existence of what we now know of as OpenAI&#8217;s GPT-4 AI model hadn&#8217;t been publicly disclosed or revealed to the world. And so when we were working on this book, we had to make some guesses. What is this going to mean for healthcare? If you&#8217;re a doctor or a nurse, in what ways will AI impact your work? If you&#8217;re a patient, in what ways could AI change your experience as you try to navigate a complex healthcare system?</p>
+
+
+
+<p>And so now it&#8217;s been about two years. Two years hence, what did we get right? What did we get wrong? What things have come along much faster than we ever would have dreamed of? What did we miss? And what things have turned out to be much harder than we ever could have realized? And so this series of conversations is going to talk to people <em>in</em> the real world. We&#8217;ll delve into exactly what&#8217;s happening in the clinic, the patient experience, how people are thinking about safety and regulatory matters, and what this all means for discovery and advancements of medical science. And even then, we&#8217;ll have guests that will allow us to look into the future—the AI advances that are happening now and what is going to happen next.</p>
+
+
+
+				</span>
+				<span id="show-more-show-less-toggle-1" class="show-more-show-less-toggleable-content">
+					
+
+
+
+<p>[MUSIC TRANSITIONS TO SERIES THEME]</p>
+
+
+
+<p>[MUSIC FADES]</p>
+
+
+
+<p>So now, let me just take a step back here to talk about this book project. And I&#8217;d like to just read the first couple of sentences in Chapter 1, and Chapter 1 is entitled “First Contact.” And it starts with a quote. Quote, “I think that Zak and his mother deserve better than that,” unquote. “I was being scolded. And while I&#8217;ve been scolded plenty in my life, for the first time it wasn&#8217;t a person scolding me; it was an artificial intelligence system.” So that&#8217;s how we started this book, and I wanted to read that because, at least for me, it takes me back to the kind of awe and wonderment in those early days when in secret development, we had access from OpenAI to what we now know of as GPT-4.</p>
+
+
+
+<p>And what was that quote about? Well, after getting access to GPT-4, I became very interested in what this might mean for healthcare. But I, not being a doctor, knew I needed help. So I had reached out to a good colleague of mine who is a doctor, a pediatric endocrinologist, and head of the bioinformatics department at Harvard Medical School, Dr. Isaac “Zak” Kohane. And I sought his help. And in our back-and-forth discussions, one of the things that Zak shared with me was an article that he wrote for a magazine where he talked about his use of machine learning in the care of his 90-year-old mother, his 90-year-old mother, who—like many 90-year-old people—was having some health issues.</p>
+
+
+
+<p>And this article was very interesting. It really went into some detail about not only the machine learning technology that Zak had created in order to help manage his mother&#8217;s health but also the kind of emotional burden of doing this and in what ways technology was helping Zak cope with that. And so as I read that article, it touched me because at that time, I was struggling in a very similar way with my own father, who was at that time 89 years old and was also suffering from some very significant health issues. And, like Zak, I was feeling some pangs of guilt because my father was living in Southern California; I was way up in the Pacific Northwest, you know, just feeling guilty not being there, present for him, through his struggles. And reading that article a thought that occurred to me was, I wonder if in the future, AI could pretend to be me so that my father could always have a version of me to talk to. And I also had the thought in the other direction. Could AI someday capture enough of my father so that when and if he passes, I always have some memory of my father that I could interact with? A strange and bizarre thought, I admit, but a natural one, I think, for any human being that&#8217;s encountering this amazing AI technology for the first time. And so I ran an experiment. I used GPT-4 to read Zak&#8217;s article and then posed the question to GPT-4, “Based on this article, could you pretend to be Zak? I&#8217;ll pretend to be Zak&#8217;s mother, and let&#8217;s test whether it&#8217;s possible to have a mother-son conversation.”</p>
+
+
+
+<p>To my surprise, GPT-4’s response at that time was to scold me, basically saying that this is wrong; that this has a lot of dangers and risks. You know, what if Zak&#8217;s mother really needs the real Zak. And in those early days of this encounter with AI, that was incredibly startling. It just really forces you to reexamine yourself, and it kicked off our writing in the book as really not only being about a technology that could help lead to better diagnoses, help reduce medical errors, reduce the amount of paperwork and clerical burden that doctors go through, could help demystify and help patients navigate a healthcare system, but it could actually be a technology that forces people to reexamine their relationships and reexamine what it really means for people to take care of other people.</p>
+
+
+
+<p>And since then, of course, I&#8217;ve come to learn that many people have had similar experiences in their first encounters with AI. And in fact, I&#8217;ve come to think of this as, somewhat tongue in cheek, the <em>nine stages of AI grief</em>. And they actually relate to what we&#8217;ll try to address in this new series of conversations.</p>
+
+
+
+<p>For me, the first time that Greg Brockman and Sam Altman presented what we now know of as OpenAI&#8217;s GPT-4 to me, they made some claims about what it could do. And my first reaction was one of skepticism, and it seemed that the claims that were being made just couldn&#8217;t be true. Then that, kind of, passed into, I would say, a period of annoyance because I started to see my colleagues here in Microsoft Research start to show some amazement about the technology. I actually was annoyed because I felt they were being <em>duped</em> by this technology. So that&#8217;s the second phase. And then, the third phase was concern and maybe even a little bit of frustration because it became clear that, as a company here at Microsoft, we were on the verge of making a big bet on this new technology. And that was concerning to me because of my fundamental skepticism. But then I got my hands on the technology myself. And that enters into a fourth stage, of amazement. You start to encounter things that just are fundamentally amazing. This leads to a period of intensity because I immediately surmised that, wow, this could really change everything and in very few areas other than healthcare would be more important areas of change. And that is stage five, a period of serious intensity where you&#8217;re just losing sleep and working so hard to try to imagine what this all could mean. Running as many experiments as you can; trying to lean on as much real expertise as possible. You then lead from there into a period of what I call <em>chagrin</em> because as amazing as the technology is, actually understanding how to harness it in real life is not easy. You finally get into this stage of what I would call <em>enlightenment</em>. [MUSIC] And I won&#8217;t claim to be enlightened. But it is, sort of, a combination of acceptance that we are in a new world today, that things are happening for real, and that there&#8217;s, sort of, no turning back. And at that point, I think we can really get down to work. And so as we think about really the ultimate purpose of this series of conversations that we&#8217;re about to have, it&#8217;s really to help people get to that stage of enlightenment, to really, kind of, roll up our sleeves, to sit down and think through all of the best knowledge and experience that we&#8217;ve gathered over the last two years, and chart the future of this AI revolution in medicine.</p>
+
+
+
+<p>[MUSIC TRANSITIONS TO SERIES THEME]</p>
+
+
+
+<p>Let&#8217;s get going. <s></s></p>
+
+
+
+<p>[MUSIC FADES]</p>
+
+				</span>
+			</div>
+			<button
+				class="action-trigger glyph-prepend mt-2 mb-0 show-more-show-less-toggle"
+				aria-expanded="false"
+				data-show-less-text="Show less"
+				type="button"
+				aria-controls="show-more-show-less-toggle-1"
+				aria-label="Show more content"
+				data-alternate-aria-label="Show less content">
+				Show more			</button>
+		</div>
+	</div>
+</div>
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/podcast/the-ai-revolution-in-medicine-revisited-an-introduction/">The AI Revolution in Medicine, Revisited: An Introduction</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>Advancing biomedical discovery: Overcoming data challenges in precision medicine</title>
 		<link>https://www.microsoft.com/en-us/research/blog/advancing-biomedical-discovery-overcoming-data-challenges-in-precision-medicine/</link>
 		
@@ -146,7 +337,7 @@
 <p>The post <a href="https://www.microsoft.com/en-us/research/blog/magma-a-foundation-model-for-multimodal-ai-agents-across-digital-and-physical-worlds/">Magma: A foundation model for multimodal AI agents across digital and physical worlds</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1.jpg" alt="Gradient background transitioning from blue on the left to pink on the right. In the center, a rectangular box with ‘MAGMA’ written in bold white letters. To the left, an icon of a globe representing Earth. To the right, an icon of a computer monitor displaying a globe. Arrows connect these three elements in a circular flow, indicating interaction or data exchange between Earth, MAGMA, and the computer." class="wp-image-1131846" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1.jpg" alt="Gradient background transitioning from blue on the left to pink on the right. In the center, a rectangular box with ‘MAGMA’ written in bold white letters. To the left, an icon of a globe representing Earth. To the right, an icon of a computer monitor displaying a globe. Arrows connect these three elements in a circular flow, indicating interaction or data exchange between Earth, MAGMA, and the computer." class="wp-image-1131846" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Project-Magma-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
 
 
 
@@ -162,7 +353,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="4667" height="2100" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3.png" alt="Given a described goal, Magma can formulate plans and execute actions to achieve it. By effectively transferring knowledge from freely available visual and language data, Magma bridges verbal, spatial and temporal intelligence to navigate complex tasks and settings." class="wp-image-1131618" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3.png 4667w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3-300x135.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3-1024x461.png 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3-768x346.png 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3-1536x691.png 1536w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3-2048x922.png 2048w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3-240x108.png 240w" sizes="(max-width: 4667px) 100vw, 4667px" /><figcaption class="wp-element-caption">Figure 1: Magma is one of the first foundation models that is capable of interpreting and grounding multimodal inputs within both digital and physical environments. Given a described goal, Magma can formulate plans and execute actions to achieve it. By effectively transferring knowledge from freely available visual and language data, Magma bridges verbal, spatial and temporal intelligence to navigate complex tasks and settings.</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="4667" height="2100" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3.png" alt="Given a described goal, Magma can formulate plans and execute actions to achieve it. By effectively transferring knowledge from freely available visual and language data, Magma bridges verbal, spatial and temporal intelligence to navigate complex tasks and settings." class="wp-image-1131618" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3.png 4667w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3-300x135.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3-1024x461.png 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3-768x346.png 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3-1536x691.png 1536w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3-2048x922.png 2048w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/Figure-1-3-240x108.png 240w" sizes="auto, (max-width: 4667px) 100vw, 4667px" /><figcaption class="wp-element-caption">Figure 1: Magma is one of the first foundation models that is capable of interpreting and grounding multimodal inputs within both digital and physical environments. Given a described goal, Magma can formulate plans and execute actions to achieve it. By effectively transferring knowledge from freely available visual and language data, Magma bridges verbal, spatial and temporal intelligence to navigate complex tasks and settings.</figcaption></figure>
 
 
 
@@ -290,30 +481,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085514">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="999693">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: blog post</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Event Series</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/graphrag-auto-tuning-provides-rapid-adaptation-to-new-domains/" aria-label="GraphRAG auto-tuning provides rapid adaptation to new domains" data-bi-cN="GraphRAG auto-tuning provides rapid adaptation to new domains" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/09/GraphRag-3-BlogHeroFeature-1400x788-1.png" alt="GraphRAG image on blue to green gradient" />
+				<a class="bg-gray-300" href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum" data-bi-cN="Microsoft Research Forum" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/01/MRF-24_WebImage_1400x788.png" alt="various abstract 3D shapes on a light blue background" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">GraphRAG auto-tuning provides rapid adaptation to new domains</h2>
+									<h2 class="h4">Microsoft Research Forum</h2>
 				
-								<p class="large">GraphRAG uses LLM-generated knowledge graphs to substantially improve complex Q&A over retrieval-augmented generation (RAG). Discover automatic tuning of GraphRAG for new datasets, making it more accurate and relevant.</p>
+								<p class="large">Join us for a continuous exchange of ideas about research in the era of general AI. Watch the first four episodes on demand.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/graphrag-auto-tuning-provides-rapid-adaptation-to-new-domains/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="GraphRAG auto-tuning provides rapid adaptation to new domains" target="_blank">
-							Read more						</a>
+						<a href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum" target="_blank">
+							Watch on-demand						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -399,7 +590,7 @@
 
 
 
-<div class="wp-block-group is-style-default is-layout-grid wp-container-core-group-is-layout-1 wp-block-group-is-layout-grid">
+<div class="wp-block-group is-style-default is-layout-grid wp-container-core-group-is-layout-2 wp-block-group-is-layout-grid">
 <figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="300" height="180" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/wham_gen_1.gif" alt="10 seconds video generated by Muse. The character Gizmo from the game Bleeding Edge is attacking an enemy player, jumps forward, and then turns around." class="wp-image-1127328"/></figure>
 
 
@@ -599,7 +790,7 @@
 
 
 
-<div class="wp-block-group is-layout-grid wp-container-core-group-is-layout-2 wp-block-group-is-layout-grid">
+<div class="wp-block-group is-layout-grid wp-container-core-group-is-layout-3 wp-block-group-is-layout-grid">
 <figure class="wp-block-video aligncenter"><video controls src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/02/diversity1new.mp4"></video></figure>
 
 
@@ -866,7 +1057,7 @@
 
 
 				</span>
-				<span id="show-more-show-less-toggle-1" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-2" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -1204,7 +1395,7 @@
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-1"
+				aria-controls="show-more-show-less-toggle-2"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -1363,30 +1554,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1085496">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1002645">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Blog post</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: AI-POWERED EXPERIENCE</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" aria-label="Eureka: Evaluating and understanding progress in AI" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/09/NEWEureka-2024-BlogHeroFeature-1400x788-1-66e90c195464d.jpg" alt="White icons representing the Eureka Experiment Pipeline -- PromptProcessing, Inference, PromptProcessing, Inference, DataProcessing, EvalReporting -- on blue to green gradient background." />
+				<a class="bg-gray-300" href="https://aka.ms/research-copilot/?OCID=msr_researchforum_Copilot_MCR_Blog_Promo" aria-label="Microsoft research copilot experience" data-bi-cN="Microsoft research copilot experience" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/01/MSR-Chat-Promo.png" alt="" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Eureka: Evaluating and understanding progress in AI</h2>
+									<h2 class="h4">Microsoft research copilot experience</h2>
 				
-								<p class="large">How can we rigorously evaluate and understand state-of-the-art progress in AI? Eureka is an open-source framework for standardizing evaluations of large foundation models, beyond single-score reporting and rankings. Learn more about the extended findings. </p>
+								<p class="large">Discover more about research at Microsoft through our AI-powered experience</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/eureka-evaluating-and-understanding-progress-in-ai/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="Eureka: Evaluating and understanding progress in AI" target="_blank">
-							Read more						</a>
+						<a href="https://aka.ms/research-copilot/?OCID=msr_researchforum_Copilot_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Microsoft research copilot experience" data-bi-cN="Microsoft research copilot experience" target="_blank">
+							Start now						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -1852,7 +2043,7 @@
 
 
 				</span>
-				<span id="show-more-show-less-toggle-2" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-3" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -2022,7 +2213,7 @@
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-2"
+				aria-controls="show-more-show-less-toggle-3"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -2260,388 +2451,36 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="670821">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1002645">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Microsoft research newsletter</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: AI-POWERED EXPERIENCE</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://info.microsoft.com/ww-landing-microsoft-research-newsletter.html" aria-label="Microsoft Research Newsletter" data-bi-cN="Microsoft Research Newsletter" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2019/09/Newsletter_Banner_08_2019_v1_1920x1080.png" alt="" />
+				<a class="bg-gray-300" href="https://aka.ms/research-copilot/?OCID=msr_researchforum_Copilot_MCR_Blog_Promo" aria-label="Microsoft research copilot experience" data-bi-cN="Microsoft research copilot experience" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/01/MSR-Chat-Promo.png" alt="" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">Microsoft Research Newsletter</h2>
+									<h2 class="h4">Microsoft research copilot experience</h2>
 				
-								<p class="large">Stay connected to the research community at Microsoft.</p>
+								<p class="large">Discover more about research at Microsoft through our AI-powered experience</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
-					<div class="wp-block-button is-style-fill-chevron">
-						<a href="https://info.microsoft.com/ww-landing-microsoft-research-newsletter.html" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Microsoft Research Newsletter" data-bi-cN="Microsoft Research Newsletter" target="_blank">
-							Subscribe today						</a>
+					<div class="wp-block-button">
+						<a href="https://aka.ms/research-copilot/?OCID=msr_researchforum_Copilot_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Microsoft research copilot experience" data-bi-cN="Microsoft research copilot experience" target="_blank">
+							Start now						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
 	</div><!--/.msr-promo__inner-wrap-->
 <span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
 	<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/advances-to-low-bit-quantization-enable-llms-on-edge-devices/">Advances to low-bit quantization enable LLMs on edge devices</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Research Focus: Week of January 27, 2025</title>
-		<link>https://www.microsoft.com/en-us/research/blog/research-focus-week-of-january-27-2025/</link>
-		
-		<dc:creator><![CDATA[Microsoft Research Team]]></dc:creator>
-		<pubDate>Fri, 31 Jan 2025 17:17:08 +0000</pubDate>
-				<category><![CDATA[Research Blog]]></category>
-		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1124682</guid>
-
-					<description><![CDATA[<p>In this issue: A new approach to multimodal pretraining for remote sensing; Managed-retention memory for the AI era; Improving detection of macular telangiectasia type 2; Generalizing symbolic automata.</p>
-<p>The post <a href="https://www.microsoft.com/en-us/research/blog/research-focus-week-of-january-27-2025/">Research Focus: Week of January 27, 2025</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<p class="has-text-align-center"><strong>In this edition:</strong></p>
-
-
-
-<ul class="wp-block-list">
-<li>We introduce FLAVARS, a multimodal foundation language and vision alignment model for remote sensing; Managed-retention memory, a new class of memory which is more optimized to store key data structures for AI inference workloads; and Enhanced detection of macular telangiectasia type 2 (MacTel 2) using self-supervised learning and ensemble models.</li>
-
-
-
-<li>We present a new approach to generalizing symbolic automata, which brings together a variety of classic automata and logics in a unified framework with all the necessary ingredients to support symbolic model checking modulo <em>A</em>.&nbsp;</li>
-
-
-
-<li>And we invite you to join an upcoming workshop: LLM4Eval@WSDM 2025: Large Language Models for Evaluation in Information Retrieval. LLM4Eval is a promising technique in the areas of automated judgments, natural language generation, and retrieval augmented generation (RAG) systems. Researchers from Microsoft and experts from industry and academia will explore this technique at an interactive workshop on Friday, March 14, in Hanover, Germany.&nbsp;</li>
-</ul>
-
-
-
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/NEWRF57-BlogHeroFeature-1400x788-1.jpg" alt="Research Focus: Week of January 31, 2025" class="wp-image-1125636" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/NEWRF57-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/NEWRF57-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
-
-
-
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
-
-
-
-<h3 class="wp-block-heading h2" id="heading">FLAVARS: A Multimodal Foundational Language and Vision Alignment Model for Remote Sensing</h3>
-
-
-
-<p>In the field of remote sensing, imagery is generally dense with objects and visual content which can vary regionally across the globe. This creates a need for vision-language datasets to be highly detailed when describing imagery, and for pretraining to better balance visual task performance while retaining the ability to perform zero-shot classification and image-text retrieval.</p>
-
-
-
-<p>One strategy is to combine paired satellite images and text captions for pretraining performant encoders for downstream tasks. However, while contrastive image-text methods like CLIP enable vision-language alignment and zero-shot classification ability, CLIP’s vision-only downstream performance tends to degrade compared to image-only pretraining, such as Masked Autoencoders (MAE).</p>
-
-
-
-<p>To better approach multimodal pretraining for remote sensing, researchers from Microsoft propose a pretraining method that combines the best of both contrastive learning and masked modeling, along with geospatial alignment via contrastive location encoding, in the recent paper: <a href="https://www.microsoft.com/en-us/research/publication/flavars-a-multimodal-foundational-language-and-vision-alignment-model-for-remote-sensing/">FLAVARS: A Multimodal Foundational Language and Vision Alignment Model for Remote Sensing</a>. The research shows that FLAVARS significantly outperforms a baseline of SkyCLIP for vision-only tasks such as KNN classification and semantic segmentation, +6% mIOU on SpaceNet1, while retaining the ability to perform zero-shot classification, unlike MAE pretrained methods.</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--3"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/flavars-a-multimodal-foundational-language-and-vision-alignment-model-for-remote-sensing/">Read the paper</a></div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-</div>
-
-
-
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
-
-
-
-<h3 class="wp-block-heading h2" id="heading">Managed-Retention Memory: A New Class of Memory for the AI Era</h3>
-
-
-
-<p>AI clusters today are one of the major uses of high bandwidth memory (HBM), a high-performance type of computer memory. However, HBM is suboptimal for AI inference workloads for several reasons. Analysis shows that HBM is overprovisioned on write performance, underprovisioned on density and read bandwidth, and has significant energy-per-bit overhead. It is also expensive, with lower yield than DRAM due to manufacturing complexity.</p>
-
-
-
-<p>In a recent paper: <a href="https://www.microsoft.com/en-us/research/publication/managed-retention-memory-a-new-class-of-memory-for-the-ai-era/">Managed-Retention Memory: A New Class of Memory for the AI Era</a>, researchers from Microsoft propose a memory class which is more optimized to store key data structures for AI inference workloads. The paper makes the case that MRM may finally provide a path to viability for technologies that were originally proposed to support storage class memory (SCM). These technologies traditionally offered long-term persistence (10+ years) but provided poor IO performance and/or endurance. MRM makes different trade-offs, and by understanding the workload IO patterns, MRM foregoes long-term data retention and write performance for better potential performance on the metrics important for AI inference.</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-3 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--4"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/managed-retention-memory-a-new-class-of-memory-for-the-ai-era/">Read the paper</a></div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-</div>
-
-
-
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
-
-
-
-<h3 class="wp-block-heading h2" id="heading">Enhanced Macular Telangiectasia Type 2 Detection: Leveraging Self-Supervised Learning and Ensemble Models</h3>
-
-
-
-<p>Macular telangiectasia type 2 (MacTel) is a retinal disease that is challenging to diagnose. While increased awareness has led to improved diagnostic outcomes, MacTel diagnosis relies significantly upon a multimodal image set and the expertise of clinicians familiar with the disease. Optical coherence tomography (OCT) imaging has emerged as a valuable tool for the diagnosis and monitoring of various retinal diseases. With the increasing integration of OCT into clinical practice, deep learning models may be able to achieve accurate MacTel prediction comparable to that of retinal specialists, even when working with limited data.</p>
-
-
-
-<p>Researchers from Microsoft and external colleagues address this challenge in a recent paper: <a href="https://www.microsoft.com/en-us/research/publication/enhanced-macular-telangiectasia-type-2-detection-leveraging-self-supervised-learning-and-ensemble-models/">Enhanced Macular Telangiectasia Type 2 Detection: Leveraging Self-Supervised Learning and Ensemble Models</a>. Published in the journal of Ophthalmology Science, the paper focuses on the accurate classification of macular telangiectasia type 2 using OCT images, with the overarching goal of facilitating early and precise detection of this neurodegenerative disease.</p>
-
-
-
-<p>The researchers present results leveraging self-supervised learning and ensemble models, showing their approach improves both MacTel classification accuracy and interpretability when compared to the use of individual models. Ensemble models exhibited superior agreement with the assessments of the most experienced individual human experts, as well as the ensemble of human experts.</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-4 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--5"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/enhanced-macular-telangiectasia-type-2-detection-leveraging-self-supervised-learning-and-ensemble-models/">Read the paper</a></div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-</div>
-
-
-
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1116360">
-		
-
-		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft Research Blog</span>
-	</p>
-	
-	<div class="row pt-3 pb-4 align-items-center">
-						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/story/microsoft-research-2024-a-year-in-review/" aria-label="Research at Microsoft 2024: Meeting the challenge of a changing world" data-bi-cN="Research at Microsoft 2024: Meeting the challenge of a changing world" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/12/Year-in-review-2024_Stories_Hero_Feature-1400x788-1.jpg" alt="Research at Microsoft 2024 - Year in Review" />
-				</a>
-			</div>
-			
-			<div class="msr-promo__content p-3 px-5 col-12 col-md">
-
-									<h2 class="h4">Research at Microsoft 2024: Meeting the challenge of a changing world</h2>
-				
-								<p class="large">In this new AI era, technology is changing even faster than before, and the transition from research to reality, from concept to solution, now takes days or weeks rather than months or years.</p>
-				
-								<div class="wp-block-buttons justify-content-center justify-content-md-start">
-					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/story/microsoft-research-2024-a-year-in-review/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="Research at Microsoft 2024: Meeting the challenge of a changing world" target="_blank">
-							Read more						</a>
-					</div>
-				</div>
-							</div><!--/.msr-promo__content-->
-	</div><!--/.msr-promo__inner-wrap-->
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
-	
-
-
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-e734c6e9609233ab051742bb3beeed63" id="new-research">NEW RESEARCH</h2>
-
-
-
-<h3 class="wp-block-heading h2" id="heading">Symbolic Automata: Omega-Regularity Modulo Theories</h3>
-
-
-
-<p>Symbolic automata are finite state automata that support potentially infinite alphabets, such as the set of rational numbers, generally applied to regular expressions and languages over finite words. In symbolic automata (or automata modulo<em> A</em>), an alphabet is represented by an effective Boolean algebra <em>A</em>, supported by a decision procedure for satisfiability. Regular languages over infinite words (so called 𝜔-regular languages) have a rich history paralleling that of regular languages over finite words, with well-known applications to model checking via Büchi automata and temporal logics.</p>
-
-
-
-<p>In a recent paper: <a href="https://www.microsoft.com/en-us/research/publication/symbolic-automata-omega-regularity-modulo-theories/">Symbolic Automata: Omega-Regularity Modulo Theories</a>, researchers from Microsoft generalize symbolic automata to support 𝜔-regular languages via <em>transition terms</em> and <em>symbolic derivatives</em>. This brings together a variety of classic automata and logics in a unified framework that provides all the necessary ingredients to support symbolic model checking modulo <em>A</em>.</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-5 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--6"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/publication/symbolic-automata-omega-regularity-modulo-theories/">Read the paper</a></div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-</div>
-
-
-
-<div class="wp-block-group is-layout-constrained wp-block-group-is-layout-constrained">
-<h2 class="wp-block-heading h6 has-blue-color has-text-color has-link-color wp-elements-b60fbfa117bcce78e07885aa24d19fc7" id="new-research">EVENT</h2>
-
-
-
-<h3 class="wp-block-heading h2" id="heading">LLM4Eval@WSDM 2025: Large Language Models for Evaluation in Information Retrieval – March 14, 2025</h3>
-
-
-
-<p>LLMs have shown increasing task-solving abilities not present in smaller models. Using LLMs for automated evaluation (LLM4Eval) is a promising technique in the areas of automated judgments, natural language generation, and retrieval augmented generation (RAG) systems.</p>
-
-
-
-<p>Join researchers from Microsoft and experts from industry and academia for a discussion on using LLMs for evaluation in information retrieval at <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://llm4eval.github.io/WSDM2025/" target="_blank" rel="noreferrer noopener">LLM4Eval Workshop &#8211; WSDM 2025<span class="sr-only"> (opens in new tab)</span></a>, March 14, 2025, in Hanover, Germany.</p>
-
-
-
-<p>This interactive workshop will cover automated judgments, RAG pipeline evaluation, altering human evaluation, robustness, and trustworthiness of LLMs for evaluation in addition to their impact on real-world applications. The organizers believe that the information retrieval community can significantly contribute to this growing research area by designing, implementing, analyzing, and evaluating various aspects of LLMs with applications to LLM4Eval tasks.</p>
-
-
-
-<div class="wp-block-buttons is-content-justification-center is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-6 wp-block-buttons-is-layout-flex">
-<div class="wp-block-button is-style-outline is-style-outline--7"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://llm4eval.github.io/WSDM2025/" target="_blank" rel="noreferrer noopener">Learn more about the workshop</a></div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity is-style-dots"/>
-</div>
-
-
-
-<div style="padding-bottom:64px; padding-top:64px" class="wp-block-msr-immersive-section alignfull row wp-block-msr-immersive-section">
-	
-	<div class="container">
-		<div class="wp-block-msr-immersive-section__inner">
-			<div class="wp-block-msr-cards msr-cards msr-cards--default mt-4 has-text-align-left" data-bi-aN="microsoft-research-in-case-you-missed-it">
-	<div class="msr-cards__inner">
-					<div class="heading-wrapper">
-				<h2 class="mb-5 ">Microsoft Research | In case you missed it</h2>
-			</div>
-		
-		<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
-	<div class="msr-cards__card msr-cards__card--default col">
-	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
-
-		
-		<div class="card-body bg-white p-4 pt-3">
-							<h3 class="h5">
-					<a
-						class="text-decoration-none text-black"
-						data-bi-cN="Microsoft Team Uses Diffusion Model For Materials Science"
-						href="https://www.forbes.com/sites/johnwerner/2025/01/21/microsoft-team-uses-diffusion-model-for-materials-science/"
-					>
-						<span>Microsoft Team Uses Diffusion Model For Materials Science</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
-					</a>
-				</h3>
-										<div class="card__description card__citation small">
-					<p>January 21, 2025</p><p>“Finding a new material for a target application is like finding a needle in a haystack,” write the authors of a blog post at Microsoft, where they have been working on just such a program, something called, aptly, MatterGen.</p>				</div>
-			
-					</div>
-	</div>
-</div>
-<div class="msr-cards__card msr-cards__card--default col">
-	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
-
-		
-		<div class="card-body bg-white p-4 pt-3">
-							<h3 class="h5">
-					<a
-						class="text-decoration-none text-black"
-						data-bi-cN="Microsoft AutoGen v0.4: A turning point toward more intelligent AI agents for enterprise developers"
-						href="https://venturebeat.com/ai/microsoft-autogen-v0-4-a-turning-point-toward-more-intelligent-ai-agents-for-enterprise-developers/"
-					>
-						<span>Microsoft AutoGen v0.4: A turning point toward more intelligent AI agents for enterprise developers</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
-					</a>
-				</h3>
-										<div class="card__description card__citation small">
-					<p>January 18, 2025</p><p>The world of AI agents is undergoing a revolution, and Microsoft’s release of AutoGen v0.4 this week marked a significant leap forward in this journey. Positioned as a robust, scalable and extensible framework, AutoGen represents Microsoft’s latest attempt to address the challenges of building multi-agent systems for enterprise applications. </p>				</div>
-			
-					</div>
-	</div>
-</div>
-<div class="msr-cards__card msr-cards__card--default col">
-	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
-
-		
-		<div class="card-body bg-white p-4 pt-3">
-							<h3 class="h5">
-					<a
-						class="text-decoration-none text-black"
-						data-bi-cN="2 AI breakthroughs unlock new potential for health and science"
-						href="https://news.microsoft.com/source/features/ai/2-ai-breakthroughs-unlock-new-potential-for-health-and-science/"
-					>
-						<span>2 AI breakthroughs unlock new potential for health and science</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
-					</a>
-				</h3>
-										<div class="card__description card__citation small">
-					<p>January 17, 2025</p><p>Two new research papers published this week in scientific journals, one in Nature and one in Nature Machine Intelligence, show how generative AI foundation models can exponentially speed up scientific discovery of new materials and help doctors access and analyze radiology results faster.</p>				</div>
-			
-					</div>
-	</div>
-</div>
-<div class="msr-cards__card msr-cards__card--default col">
-	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
-
-		
-		<div class="card-body bg-white p-4 pt-3">
-							<h3 class="h5">
-					<a
-						class="text-decoration-none text-black"
-						data-bi-cN="ChatGPT gets proactive with 'Tasks'"
-						href="https://www.therundown.ai/p/chatgpt-gets-proactive-with-tasks"
-					>
-						<span>ChatGPT gets proactive with 'Tasks'</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
-					</a>
-				</h3>
-										<div class="card__description card__citation small">
-					<p>January 15, 2025</p><p>Good morning, AI enthusiasts. OpenAI’s AI agent era just got its unofficial start — with ChatGPT gaining the ability to schedule and manage daily tasks. With ‘Tasks’ rolling out and mysterious &#8216;Operator&#8217; whispers in the air, is OpenAI finally ready to move from chatbots to full-on autonomous assistants?</p>				</div>
-			
-					</div>
-	</div>
-</div>
-<div class="msr-cards__card msr-cards__card--default col">
-	<div class="card has-spectrum-border-top__hover material-card h-100 p-0" data-mount="click-group">
-
-		
-		<div class="card-body bg-white p-4 pt-3">
-							<h3 class="h5">
-					<a
-						class="text-decoration-none text-black"
-						data-bi-cN="Mayo Clinic and Microsoft partner to advance generative AI in radiology"
-						href="https://healthimaging.com/topics/artificial-intelligence/mayo-clinic-and-microsoft-partner-advance-generative-ai-radiology"
-					>
-						<span>Mayo Clinic and Microsoft partner to advance generative AI in radiology</span>&nbsp;<span class="glyph-prepend glyph-prepend-small glyph-prepend-chevron-right" aria-hidden="true"></span>
-					</a>
-				</h3>
-										<div class="card__description card__citation small">
-					<p>January 15, 2025</p><p>The Mayo Clinic is seeking to advance the use of generative artificial intelligence in imaging through a new collaboration with Microsoft Research. The duo made the announcement during the 43rd Annual J.P. Morgan Healthcare Conference taking place now in San Francisco. </p>				</div>
-			
-					</div>
-	</div>
-</div>
-</div>
-
-					<div class="justify-content-center text-center mb-4">
-				<a
-					href="https://www.microsoft.com/en-us/research/news-and-awards/"
-					class="btn btn-outline-primary glyph-append glyph-append-small glyph-append-chevron-right msr-cards__cta"
-					data-bi-cN="View more news and awards"
-					data-bi-type="button"
-				>
-					View more news and awards				</a>
-			</div>
-			</div>
-</div>		</div>
-	</div>
-
-	</div>
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/research-focus-week-of-january-27-2025/">Research Focus: Week of January 27, 2025</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></content:encoded>
 					
 		

@@ -6,61 +6,41 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 06 Mar 2025 01:53:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Mar 2025 01:54:17 +0000</lastBuildDate>
     <item>
-      <title>coturn /coturn</title>
-      <link>https://github.com/coturn/coturn</link>
-      <description>coturn TURN server project</description>
+      <title>Plachtaa /seed-vc</title>
+      <link>https://github.com/Plachtaa/seed-vc</link>
+      <description>zero-shot voice conversion &amp; singing voice conversion, with real-time support</description>
     </item>
     <item>
-      <title>open-mmlab /mmsegmentation</title>
-      <link>https://github.com/open-mmlab/mmsegmentation</link>
-      <description>OpenMMLab Semantic Segmentation Toolbox and Benchmark.</description>
+      <title>zigtools /zls</title>
+      <link>https://github.com/zigtools/zls</link>
+      <description>A Zig language server supporting Zig developers with features like autocomplete and goto definition</description>
     </item>
     <item>
-      <title>stretchr /testify</title>
-      <link>https://github.com/stretchr/testify</link>
-      <description>A toolkit with common assertions and mocks that plays nicely with the standard library</description>
+      <title>microsoft /PowerToys</title>
+      <link>https://github.com/microsoft/PowerToys</link>
+      <description>Windows system utilities to maximize productivity</description>
     </item>
     <item>
-      <title>hashicorp /terraform</title>
-      <link>https://github.com/hashicorp/terraform</link>
-      <description>Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.</description>
+      <title>gorhill /uBlock</title>
+      <link>https://github.com/gorhill/uBlock</link>
+      <description>uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.</description>
     </item>
     <item>
-      <title>cypress-io /cypress</title>
-      <link>https://github.com/cypress-io/cypress</link>
-      <description>Fast, easy and reliable testing for anything that runs in a browser.</description>
+      <title>clockworklabs /SpacetimeDB</title>
+      <link>https://github.com/clockworklabs/SpacetimeDB</link>
+      <description>Multiplayer at the speed of light</description>
     </item>
     <item>
-      <title>cloudwego /eino</title>
-      <link>https://github.com/cloudwego/eino</link>
-      <description>The ultimate LLM/AI application development framework in Golang.</description>
+      <title>sadmann7 /shadcn-table</title>
+      <link>https://github.com/sadmann7/shadcn-table</link>
+      <description>Shadcn table with server-side sorting, filtering, and pagination.</description>
     </item>
     <item>
-      <title>KRTirtho /spotube</title>
-      <link>https://github.com/KRTirtho/spotube</link>
-      <description>🎧 Open source Spotify client that doesn't require Premium nor uses Electron! Available for both desktop &amp; mobile!</description>
-    </item>
-    <item>
-      <title>commixproject /commix</title>
-      <link>https://github.com/commixproject/commix</link>
-      <description>Automated All-in-One OS Command Injection Exploitation Tool.</description>
-    </item>
-    <item>
-      <title>influxdata /telegraf</title>
-      <link>https://github.com/influxdata/telegraf</link>
-      <description>Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.</description>
-    </item>
-    <item>
-      <title>TanStack /form</title>
-      <link>https://github.com/TanStack/form</link>
-      <description>🤖 Headless, performant, and type-safe form state management for TS/JS, React, Vue, Angular, Solid, and Lit.</description>
-    </item>
-    <item>
-      <title>kubernetes-sigs /kubespray</title>
-      <link>https://github.com/kubernetes-sigs/kubespray</link>
-      <description>Deploy a Production Ready Kubernetes Cluster</description>
+      <title>microsoft /generative-ai-for-beginners</title>
+      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
+      <description>21 Lessons, Get Started Building with Generative AI 🔗https://microsoft.github.io/generative-ai-for-beginners/</description>
     </item>
     <item>
       <title>grpc-ecosystem /grpc-gateway</title>
@@ -68,14 +48,14 @@
       <description>gRPC to JSON proxy generator following the gRPC HTTP spec</description>
     </item>
     <item>
-      <title>hoppscotch /hoppscotch</title>
-      <link>https://github.com/hoppscotch/hoppscotch</link>
-      <description>Open source API development ecosystem -https://hoppscotch.io(open-source alternative to Postman, Insomnia)</description>
+      <title>unionlabs /union</title>
+      <link>https://github.com/unionlabs/union</link>
+      <description>The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.</description>
     </item>
     <item>
-      <title>gorhill /uBlock</title>
-      <link>https://github.com/gorhill/uBlock</link>
-      <description>uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.</description>
+      <title>hashicorp /terraform</title>
+      <link>https://github.com/hashicorp/terraform</link>
+      <description>Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.</description>
     </item>
     <item>
       <title>virattt /ai-hedge-fund</title>

@@ -6,11 +6,36 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 07 Mar 2025 01:54:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Mar 2025 01:25:35 +0000</lastBuildDate>
     <item>
-      <title>Plachtaa /seed-vc</title>
-      <link>https://github.com/Plachtaa/seed-vc</link>
-      <description>zero-shot voice conversion &amp; singing voice conversion, with real-time support</description>
+      <title>vllm-project /vllm</title>
+      <link>https://github.com/vllm-project/vllm</link>
+      <description>A high-throughput and memory-efficient inference and serving engine for LLMs</description>
+    </item>
+    <item>
+      <title>microsoft /vscode</title>
+      <link>https://github.com/microsoft/vscode</link>
+      <description>Visual Studio Code</description>
+    </item>
+    <item>
+      <title>linera-io /linera-protocol</title>
+      <link>https://github.com/linera-io/linera-protocol</link>
+      <description>Main repository for the Linera protocol</description>
+    </item>
+    <item>
+      <title>moby /moby</title>
+      <link>https://github.com/moby/moby</link>
+      <description>The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems</description>
+    </item>
+    <item>
+      <title>cloudwego /eino</title>
+      <link>https://github.com/cloudwego/eino</link>
+      <description>The ultimate LLM/AI application development framework in Golang.</description>
+    </item>
+    <item>
+      <title>stanford-oval /storm</title>
+      <link>https://github.com/stanford-oval/storm</link>
+      <description>An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.</description>
     </item>
     <item>
       <title>zigtools /zls</title>
@@ -23,29 +48,9 @@
       <description>Windows system utilities to maximize productivity</description>
     </item>
     <item>
-      <title>gorhill /uBlock</title>
-      <link>https://github.com/gorhill/uBlock</link>
-      <description>uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.</description>
-    </item>
-    <item>
       <title>clockworklabs /SpacetimeDB</title>
       <link>https://github.com/clockworklabs/SpacetimeDB</link>
       <description>Multiplayer at the speed of light</description>
-    </item>
-    <item>
-      <title>sadmann7 /shadcn-table</title>
-      <link>https://github.com/sadmann7/shadcn-table</link>
-      <description>Shadcn table with server-side sorting, filtering, and pagination.</description>
-    </item>
-    <item>
-      <title>microsoft /generative-ai-for-beginners</title>
-      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
-      <description>21 Lessons, Get Started Building with Generative AI 🔗https://microsoft.github.io/generative-ai-for-beginners/</description>
-    </item>
-    <item>
-      <title>grpc-ecosystem /grpc-gateway</title>
-      <link>https://github.com/grpc-ecosystem/grpc-gateway</link>
-      <description>gRPC to JSON proxy generator following the gRPC HTTP spec</description>
     </item>
     <item>
       <title>unionlabs /union</title>
@@ -53,9 +58,29 @@
       <description>The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.</description>
     </item>
     <item>
-      <title>hashicorp /terraform</title>
-      <link>https://github.com/hashicorp/terraform</link>
-      <description>Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.</description>
+      <title>grpc-ecosystem /grpc-gateway</title>
+      <link>https://github.com/grpc-ecosystem/grpc-gateway</link>
+      <description>gRPC to JSON proxy generator following the gRPC HTTP spec</description>
+    </item>
+    <item>
+      <title>EFForg /rayhunter</title>
+      <link>https://github.com/EFForg/rayhunter</link>
+      <description>Rust tool to detect cell site simulators on an orbic mobile hotspot</description>
+    </item>
+    <item>
+      <title>KRTirtho /spotube</title>
+      <link>https://github.com/KRTirtho/spotube</link>
+      <description>🎧 Open source Spotify client that doesn't require Premium nor uses Electron! Available for both desktop &amp; mobile!</description>
+    </item>
+    <item>
+      <title>microsoft /generative-ai-for-beginners</title>
+      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
+      <description>21 Lessons, Get Started Building with Generative AI 🔗https://microsoft.github.io/generative-ai-for-beginners/</description>
+    </item>
+    <item>
+      <title>ComposioHQ /composio</title>
+      <link>https://github.com/ComposioHQ/composio</link>
+      <description>Composio equip's your AI agents &amp; LLMs with 100+ high-quality integrations via function calling</description>
     </item>
     <item>
       <title>virattt /ai-hedge-fund</title>

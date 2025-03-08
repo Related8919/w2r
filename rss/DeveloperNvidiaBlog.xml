@@ -6,12 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 07 Mar 2025 01:54:43 +0000</lastBuildDate>
-    <item>
-      <title>使用 Whisper 和 Canary 架构部署 NVIDIA Riva 多语种 ASR，同时选择性地停用 NMT</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/deploying-nvidia-riva-multilingual-asr-with-whisper-and-canary-architectures-while-selectively-deactivating-nmt/</link>
-      <description>2025年 2月 20日使用 Whisper 和 Canary 架构部署 NVIDIA Riva 多语种 ASR，同时选择性地停用 NMTNVIDIA 持续开发自动语音识别 (ASR) 模型，这些模型在业内树立了基准。 早期版本的 NVIDIA Riva 是一种适用于 ASR 、4 MIN READ</description>
-    </item>
+    <lastBuildDate>Sat, 08 Mar 2025 01:26:02 +0000</lastBuildDate>
     <item>
       <title>NVIDIA GTC 2025 上的人工智能促进气候、能源和生态系统复原力</title>
       <link>https://developer.nvidia.com/zh-cn/blog/ai-for-climate-energy-and-ecosystem-resilience-at-nvidia-gtc-2025/</link>
@@ -86,6 +81,11 @@
       <title>借助 NVIDIA KvikIO 实现高性能远程 IO</title>
       <link>https://developer.nvidia.com/zh-cn/blog/high-performance-remote-io-with-nvidia-kvikio/</link>
       <description>2025年 2月 27日借助 NVIDIA KvikIO 实现高性能远程 IO处理大量数据的工作负载 (尤其是在云端运行的工作负载) 通常会使用对象存储服务 (S3、Google Cloud Storage、2 MIN READ</description>
+    </item>
+    <item>
+      <title>基于 1F1B 的 MoE A2A 通信计算 Overlap</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/1f1b-moe-a2a-computing-overlap/</link>
+      <description>2025年 3月 7日基于 1F1B 的 MoE A2A 通信计算 Overlap在 MoE 模型的训练过程中，EP rank 之间的 A2A 通信在端到端时间中占据了相当大比重，对训练效率影响很大，3 MIN READ</description>
     </item>
   </channel>
 </rss>

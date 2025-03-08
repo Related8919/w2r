@@ -6,7 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 07 Mar 2025 01:54:32 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Mar 2025 01:25:50 +0000</lastBuildDate>
     <item>
       <title>African super app Yassir delivers on data with BigQuery migration</title>
       <link>https://cloud.google.com/blog/products/data-analytics/african-super-app-delivers-on-data-with-bigquery-migration</link>
@@ -16,11 +16,6 @@
       <title>Announcing Terraform providers for Oracle Database@Google Cloud</title>
       <link>https://cloud.google.com/blog/products/databases/new-terraform-provider-for-oracle-database-at-google-cloud</link>
       <description>DatabasesAnnouncing Terraform providers for Oracle Database@Google CloudBy Andy Colvin • 4-minute read</description>
-    </item>
-    <item>
-      <title>What’s new with Google Cloud</title>
-      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
-      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 4-minute read</description>
     </item>
     <item>
       <title>How to calculate your AI costs on Google Cloud</title>
@@ -56,6 +51,11 @@
       <title>Chrome Enterprise improves work and personal profile separation and brings more advanced protections for unmanaged devices</title>
       <link>https://cloud.google.com/blog/products/chrome-enterprise/chrome-enterprise-improves-work-and-personal-profile-separation-and-brings-more-advanced-protections-for-unmanaged-devices</link>
       <description>Chrome EnterpriseChrome Enterprise improves work and personal profile separation and brings more advanced protections for unmanaged devicesBy Julia Lomakina • 4-minute read</description>
+    </item>
+    <item>
+      <title>What’s new with Google Cloud</title>
+      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
+      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 6-minute read</description>
     </item>
   </channel>
 </rss>

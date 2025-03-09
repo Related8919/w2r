@@ -6,56 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 08 Mar 2025 01:25:35 +0000</lastBuildDate>
-    <item>
-      <title>vllm-project /vllm</title>
-      <link>https://github.com/vllm-project/vllm</link>
-      <description>A high-throughput and memory-efficient inference and serving engine for LLMs</description>
-    </item>
-    <item>
-      <title>microsoft /vscode</title>
-      <link>https://github.com/microsoft/vscode</link>
-      <description>Visual Studio Code</description>
-    </item>
+    <lastBuildDate>Sun, 09 Mar 2025 01:37:58 +0000</lastBuildDate>
     <item>
       <title>linera-io /linera-protocol</title>
       <link>https://github.com/linera-io/linera-protocol</link>
       <description>Main repository for the Linera protocol</description>
     </item>
     <item>
-      <title>moby /moby</title>
-      <link>https://github.com/moby/moby</link>
-      <description>The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems</description>
+      <title>punkpeye /awesome-mcp-servers</title>
+      <link>https://github.com/punkpeye/awesome-mcp-servers</link>
+      <description>A collection of MCP servers.</description>
     </item>
     <item>
-      <title>cloudwego /eino</title>
-      <link>https://github.com/cloudwego/eino</link>
-      <description>The ultimate LLM/AI application development framework in Golang.</description>
-    </item>
-    <item>
-      <title>stanford-oval /storm</title>
-      <link>https://github.com/stanford-oval/storm</link>
-      <description>An LLM-powered knowledge curation system that researches a topic and generates a full-length report with citations.</description>
-    </item>
-    <item>
-      <title>zigtools /zls</title>
-      <link>https://github.com/zigtools/zls</link>
-      <description>A Zig language server supporting Zig developers with features like autocomplete and goto definition</description>
-    </item>
-    <item>
-      <title>microsoft /PowerToys</title>
-      <link>https://github.com/microsoft/PowerToys</link>
-      <description>Windows system utilities to maximize productivity</description>
-    </item>
-    <item>
-      <title>clockworklabs /SpacetimeDB</title>
-      <link>https://github.com/clockworklabs/SpacetimeDB</link>
-      <description>Multiplayer at the speed of light</description>
-    </item>
-    <item>
-      <title>unionlabs /union</title>
-      <link>https://github.com/unionlabs/union</link>
-      <description>The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.</description>
+      <title>deepseek-ai /awesome-deepseek-integration</title>
+      <link>https://github.com/deepseek-ai/awesome-deepseek-integration</link>
+      <description>Integrate the DeepSeek API into popular softwares</description>
     </item>
     <item>
       <title>grpc-ecosystem /grpc-gateway</title>
@@ -63,14 +28,14 @@
       <description>gRPC to JSON proxy generator following the gRPC HTTP spec</description>
     </item>
     <item>
-      <title>EFForg /rayhunter</title>
-      <link>https://github.com/EFForg/rayhunter</link>
-      <description>Rust tool to detect cell site simulators on an orbic mobile hotspot</description>
+      <title>VikParuchuri /marker</title>
+      <link>https://github.com/VikParuchuri/marker</link>
+      <description>Convert PDF to markdown + JSON quickly with high accuracy</description>
     </item>
     <item>
-      <title>KRTirtho /spotube</title>
-      <link>https://github.com/KRTirtho/spotube</link>
-      <description>🎧 Open source Spotify client that doesn't require Premium nor uses Electron! Available for both desktop &amp; mobile!</description>
+      <title>cloudwego /eino</title>
+      <link>https://github.com/cloudwego/eino</link>
+      <description>The ultimate LLM/AI application development framework in Golang.</description>
     </item>
     <item>
       <title>microsoft /generative-ai-for-beginners</title>
@@ -78,9 +43,49 @@
       <description>21 Lessons, Get Started Building with Generative AI 🔗https://microsoft.github.io/generative-ai-for-beginners/</description>
     </item>
     <item>
-      <title>ComposioHQ /composio</title>
-      <link>https://github.com/ComposioHQ/composio</link>
-      <description>Composio equip's your AI agents &amp; LLMs with 100+ high-quality integrations via function calling</description>
+      <title>microsoft /PowerToys</title>
+      <link>https://github.com/microsoft/PowerToys</link>
+      <description>Windows system utilities to maximize productivity</description>
+    </item>
+    <item>
+      <title>camel-ai /camel</title>
+      <link>https://github.com/camel-ai/camel</link>
+      <description>🐫 CAMEL: Finding the Scaling Law of Agents. The first and the best multi-agent framework.https://www.camel-ai.org</description>
+    </item>
+    <item>
+      <title>dagger /dagger</title>
+      <link>https://github.com/dagger/dagger</link>
+      <description>An open-source runtime for composable workflows. Great for AI agents and CI/CD.</description>
+    </item>
+    <item>
+      <title>browser-use /browser-use</title>
+      <link>https://github.com/browser-use/browser-use</link>
+      <description>Make websites accessible for AI agents</description>
+    </item>
+    <item>
+      <title>KRTirtho /spotube</title>
+      <link>https://github.com/KRTirtho/spotube</link>
+      <description>🎧 Open source Spotify client that doesn't require Premium nor uses Electron! Available for both desktop &amp; mobile!</description>
+    </item>
+    <item>
+      <title>EFForg /rayhunter</title>
+      <link>https://github.com/EFForg/rayhunter</link>
+      <description>Rust tool to detect cell site simulators on an orbic mobile hotspot</description>
+    </item>
+    <item>
+      <title>All-Hands-AI /OpenHands</title>
+      <link>https://github.com/All-Hands-AI/OpenHands</link>
+      <description>🙌 OpenHands: Code Less, Make More</description>
+    </item>
+    <item>
+      <title>Significant-Gravitas /AutoGPT</title>
+      <link>https://github.com/Significant-Gravitas/AutoGPT</link>
+      <description>AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.</description>
+    </item>
+    <item>
+      <title>geekan /MetaGPT</title>
+      <link>https://github.com/geekan/MetaGPT</link>
+      <description>🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming</description>
     </item>
     <item>
       <title>virattt /ai-hedge-fund</title>

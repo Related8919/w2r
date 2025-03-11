@@ -6,17 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 10 Mar 2025 01:36:40 +0000</lastBuildDate>
-    <item>
-      <title>African super app Yassir delivers on data with BigQuery migration</title>
-      <link>https://cloud.google.com/blog/products/data-analytics/african-super-app-delivers-on-data-with-bigquery-migration</link>
-      <description>Data AnalyticsAfrican super app Yassir delivers on data with BigQuery migrationBy Hamdi Amroun • 4-minute read</description>
-    </item>
-    <item>
-      <title>Announcing Terraform providers for Oracle Database@Google Cloud</title>
-      <link>https://cloud.google.com/blog/products/databases/new-terraform-provider-for-oracle-database-at-google-cloud</link>
-      <description>DatabasesAnnouncing Terraform providers for Oracle Database@Google CloudBy Andy Colvin • 4-minute read</description>
-    </item>
+    <lastBuildDate>Tue, 11 Mar 2025 01:55:09 +0000</lastBuildDate>
     <item>
       <title>How to calculate your AI costs on Google Cloud</title>
       <link>https://cloud.google.com/blog/topics/cost-management/unlock-the-true-cost-of-enterprise-ai-on-google-cloud</link>
@@ -56,6 +46,16 @@
       <title>What’s new with Google Cloud</title>
       <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
       <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 6-minute read</description>
+    </item>
+    <item>
+      <title>Unraveling Time: A Deep Dive into TTD Instruction Emulation Bugs</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/ttd-instruction-emulation-bugs</link>
+      <description>Threat IntelligenceUnraveling Time: A Deep Dive into TTD Instruction Emulation BugsBy Mandiant  • 14-minute read</description>
+    </item>
+    <item>
+      <title>Introducing tiered storage for Spanner</title>
+      <link>https://cloud.google.com/blog/products/databases/introducing-tiered-storage-for-spanner</link>
+      <description>DatabasesIntroducing tiered storage for SpannerBy Matthew Muckloo • 4-minute read</description>
     </item>
   </channel>
 </rss>

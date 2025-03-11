@@ -12,7 +12,7 @@
 	<atom:link href="https://www.microsoft.com/en-us/research/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.microsoft.com/en-us/research/</link>
 	<description></description>
-	<lastBuildDate>Thu, 06 Mar 2025 14:03:56 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 10 Mar 2025 17:03:06 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,206 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=6.7.2</generator>
 	<item>
+		<title>Semantic Telemetry: Understanding how users interact with AI systems</title>
+		<link>https://www.microsoft.com/en-us/research/blog/semantic-telemetry-understanding-how-users-interact-with-ai-systems/</link>
+		
+		<dc:creator><![CDATA[Amber Hoak, Scott Counts, Kate Lytvynets, David Tittsworth, Siddharth Suri, Ben Cutler, Weiwei Yang]]></dc:creator>
+		<pubDate>Mon, 10 Mar 2025 16:00:00 +0000</pubDate>
+				<category><![CDATA[Research Blog]]></category>
+		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1133598</guid>
+
+					<description><![CDATA[<p>AI interactions can be iterative and complex. Learn how the Semantic Telemetry project at Microsoft Research is developing a new data science approach to understand human-AI interactions and their value.</p>
+<p>The post <a href="https://www.microsoft.com/en-us/research/blog/semantic-telemetry-understanding-how-users-interact-with-ai-systems/">Semantic Telemetry: Understanding how users interact with AI systems</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-large"><img fetchpriority="high" decoding="async" width="1024" height="576" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry-BlogHeroFeature-1400x788-1-1024x576.jpg" alt="Semantic Telemetry blog | diagram showing relationships between chat, LLM prompt, and labeled data" class="wp-image-1133588" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry-BlogHeroFeature-1400x788-1.jpg 1400w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>AI tools are proving useful across a range of applications, from helping to drive the new era of business transformation to helping artists craft songs. But which applications are providing the most value to users? We’ll dig into that question in a series of blog posts that introduce the <a href="https://www.microsoft.com/en-us/research/project/semantic-telemetry/">Semantic Telemetry</a> project at Microsoft Research. In this initial post, we will introduce a new data science approach that we will use to analyze topics and task complexity of Copilot in Bing usage.</p>
+
+
+
+<p>Human-AI interactions can be iterative and complex, requiring a new data science approach to understand user behavior to build and support increasingly high value use cases. Imagine the following chat:</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="408" height="232" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure0_example_chat.png" alt="Example chat between user and AI" class="wp-image-1133589" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure0_example_chat.png 408w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure0_example_chat-300x171.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure0_example_chat-240x136.png 240w" sizes="(max-width: 408px) 100vw, 408px" /></figure>
+
+
+
+<p>Here we see that chats can be complex and span multiple topics, such as event planning, team building, and logistics. Generative AI has ushered in a two-fold paradigm shift. First, LLMs give us a new thing to measure, that is, how people interact with AI systems. Second, they give us a new way to measure those interactions, that is, they give us the capability to understand and make inferences on these interactions, at scale. The Semantic Telemetry project has created new measures to classify human-AI interactions and understand user behavior, contributing to efforts in developing new approaches for <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://news.microsoft.com/source/features/ai/measurement-is-the-key-to-helping-keep-ai-on-track/" target="_blank" rel="noreferrer noopener">measuring generative AI<span class="sr-only"> (opens in new tab)</span></a> across various use cases.</p>
+
+
+
+<p>Semantic Telemetry is a rethink of traditional telemetry&#8211;in which data is collected for understanding systems&#8211;designed for analyzing chat-based AI. We employ an innovative data science methodology that uses a large language model (LLM) to generate meaningful categorical labels, enabling us to gain insights into chat log data.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="650" height="280" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure1_llm_clasifier.png" alt="Flow chart illustrating the LLM classification process starting with chat input, then prompting LLM with chat using generated label taxonomy, and output is the labeled chat." class="wp-image-1133590" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure1_llm_clasifier.png 650w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure1_llm_clasifier-300x129.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure1_llm_clasifier-240x103.png 240w" sizes="(max-width: 650px) 100vw, 650px" /><figcaption class="wp-element-caption">Figure 1: Prompting an LLM to classify a conversation based on LLM generated label taxonomy</figcaption></figure>
+
+
+
+<p>This process begins with developing a set of classifications and definitions. We create these classifications by instructing an LLM to generate a short summary of the conversation, and then iteratively prompting the LLM to generate, update, and review classification labels on a batched set of summaries. This process is outlined in the paper: <a href="https://www.microsoft.com/en-us/research/publication/tnt-llm-text-mining-at-scale-with-large-language-models/">TnT-LLM: Text Mining at Scale with Large Language Models</a>. We then prompt an LLM with these generated classifiers to label new unstructured (and unlabeled) chat log data.</p>
+
+
+
+<figure class="wp-block-embed aligncenter is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Semantic Telemetry - taxonomy generation" width="500" height="281" src="https://www.youtube-nocookie.com/embed/9O2UaMCtj5c?feature=oembed&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div><figcaption class="wp-element-caption">Description of LLM generated label taxonomy process</figcaption></figure>
+
+
+
+<p>With this approach, we have analyzed how people interact with Copilot in Bing. In this blog, we examine insights into how people are using Copilot in Bing, including how that differs from traditional search engines. Note that all analyses were conducted on anonymous Copilot interactions containing no personal information.</p>
+
+
+
+<h2 class="wp-block-heading" id="topics">Topics</h2>
+
+
+
+<p>To get a clear picture of how people are using Copilot in Bing, we need to first classify sessions into topical categories. To do this, we developed a topic <strong>classifier</strong>. We used the LLM classification approach described above to label the primary topic (domain) for the entire content of the chat. Although a single chat can cover multiple topics, for this analysis, we generated a single label for the primary topic of the conversation. We sampled five million anonymized Copilot in Bing chats during August and September 2024, and found that globally, 21% of all chats were about <em>technology</em>, with a high concentration of these chats in <em>programming and scripting and computers and electronics</em>.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="564" height="467" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure2_topic_bubble_chart.png" alt="Bubble chart showing topics based on percentage of sample. Primary topics shown are Technology (21%), Entertainment (12.8%), Health (11%), Language, Writing, & Editing (11.6%), Lifestyle (9.2%), Money (8.5%), History, Events, & Law (8.5%), Career (7.8%), Science (6.3%)" class="wp-image-1133591" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure2_topic_bubble_chart.png 564w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure2_topic_bubble_chart-300x248.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure2_topic_bubble_chart-217x180.png 217w" sizes="auto, (max-width: 564px) 100vw, 564px" /><figcaption class="wp-element-caption">Figure 2: Top Copilot in Bing topics based on anonymized data (August-September 2024)</figcaption></figure>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="600" height="346" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure3_technology_topic_bubble_chart.png" alt="Bubble chart of Technology topic showing subtopics: Programming & scripting, Computers & electronics, Engineering & design, Data analysis, and ML & AI." class="wp-image-1133592" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure3_technology_topic_bubble_chart.png 600w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure3_technology_topic_bubble_chart-300x173.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure3_technology_topic_bubble_chart-240x138.png 240w" sizes="auto, (max-width: 600px) 100vw, 600px" /><figcaption class="wp-element-caption">Figure 3: Frequent topic summaries in Technology</figcaption></figure>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="600" height="430" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure4_entertainment_topic_bubble_chart.png" alt="Bubble chart of Entertainment showing subtopics: Entertainment, Sports & fitness, Travel & tourism, Small talk & chatbot, and Gaming" class="wp-image-1133593" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure4_entertainment_topic_bubble_chart.png 600w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure4_entertainment_topic_bubble_chart-300x215.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure4_entertainment_topic_bubble_chart-240x172.png 240w" sizes="auto, (max-width: 600px) 100vw, 600px" /><figcaption class="wp-element-caption">Figure 4: Frequent topic summaries in Entertainment</figcaption></figure>
+
+
+
+<p>Diving into the technology category, we find a lot of professional tasks in <em>programming and scripting</em>, where users request problem-specific assistance such as fixing a SQL query syntax error. In <em>computers and electronics</em>, we observe users getting help with tasks like adjusting screen brightness and troubleshooting internet connectivity issues. We can compare this with our second most common topic, <em>entertainment</em>, in which we see users seeking information related to personal activities like hiking and game nights.</p>
+
+
+
+<p>We also note that top topics differ by platform. The figure below depicts topic popularity based on mobile and desktop usage. Mobile device users tend to use the chat for more personal-related tasks such as helping to plant a garden or understanding medical symptoms whereas desktop users conduct more professional tasks like revising an email.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="600" height="501" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure5_sankey_platforms.png" alt="Sankey visual showing top topics for Desktop and Mobile users" class="wp-image-1133594" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure5_sankey_platforms.png 600w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure5_sankey_platforms-300x251.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure5_sankey_platforms-216x180.png 216w" sizes="auto, (max-width: 600px) 100vw, 600px" /><figcaption class="wp-element-caption">Figure 5: Top topics for desktop users and mobile users</figcaption></figure>
+
+
+
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115757">
+		
+
+		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
+	</p>
+	
+	<div class="row pt-3 pb-4 align-items-center">
+						<div class="msr-promo__media col-12 col-md-5">
+				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/" aria-label="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" data-bi-cN="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/12/NEWGinny-Madeleine-and-Robert_Ideas_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Ginny Badanes, Madeleine Daepp and Robert Ness" />
+				</a>
+			</div>
+			
+			<div class="msr-promo__content p-3 px-5 col-12 col-md">
+
+									<h2 class="h4">Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness</h2>
+				
+								<p class="large">As the “biggest election year in history” comes to an end, researchers Madeleine Daepp and Robert Osazuwa Ness and Democracy Forward GM Ginny Badanes discuss AI’s impact on democracy, including the tech’s use in Taiwan and India.</p>
+				
+								<div class="wp-block-buttons justify-content-center justify-content-md-start">
+					<div class="wp-block-button">
+						<a href="https://www.microsoft.com/en-us/research/podcast/ideas-ai-and-democracy-with-madeleine-daepp-and-robert-osazuwa-ness/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="Ideas: AI and democracy with Madeleine Daepp and Robert Osazuwa Ness" target="_blank">
+							Listen now						</a>
+					</div>
+				</div>
+							</div><!--/.msr-promo__content-->
+	</div><!--/.msr-promo__inner-wrap-->
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
+	
+
+
+<h2 class="wp-block-heading" id="search-versus-copilot">Search versus Copilot</h2>
+
+
+
+<p>Beyond analyzing topics, we compared Copilot in Bing usage to that of traditional search. Chat extends beyond traditional online search by enabling users to summarize, generate, compare, and analyze information. Human-AI interactions are conversational and more complex than traditional search (Figure 6).</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="3535" height="2069" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure6_venn_diagram_bing_vs_copilot_v2.png" alt="Venn diagram showing differences between Bing Search and Copilot in Bing, with intersection in information lookup." class="wp-image-1133922" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure6_venn_diagram_bing_vs_copilot_v2.png 3535w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure6_venn_diagram_bing_vs_copilot_v2-300x176.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure6_venn_diagram_bing_vs_copilot_v2-1024x599.png 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure6_venn_diagram_bing_vs_copilot_v2-768x450.png 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure6_venn_diagram_bing_vs_copilot_v2-1536x899.png 1536w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure6_venn_diagram_bing_vs_copilot_v2-2048x1199.png 2048w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure6_venn_diagram_bing_vs_copilot_v2-480x280.png 480w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure6_venn_diagram_bing_vs_copilot_v2-240x140.png 240w" sizes="auto, (max-width: 3535px) 100vw, 3535px" /><figcaption class="wp-element-caption">Figure 6: Bing Search Query compared to Copilot in Bing Conversation</figcaption></figure>
+
+
+
+<p>A major differentiation between search and chat is the ability to ask more complex questions, but how can we measure this? We think of complexity as a scale ranging from simply asking chat to look up information to evaluating several ideas. We aim to understand the difficulty of a task if performed by a human without the assistance of AI. To achieve this, we developed the <strong>task complexity classifier</strong>, which assesses task difficulty using <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.quincycollege.edu/wp-content/uploads/Anderson-and-Krathwohl_Revised-Blooms-Taxonomy.pdf" target="_blank" rel="noreferrer noopener">Anderson and Krathwohl’s Taxonomy of Learning Objectives<span class="sr-only"> (opens in new tab)</span></a>. For our analysis, we have grouped the learning objectives into two categories: <em>low complexity</em> and <em>high complexity</em>. Any task more complicated than information lookup is classified as <em>high complexity</em>. Note that this would be very challenging to classify using traditional data science techniques.</p>
+
+
+
+<figure class="wp-block-embed aligncenter is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Semantic Telemetry - task complexity classifier" width="500" height="281" src="https://www.youtube-nocookie.com/embed/T-Rt46aozu4?feature=oembed&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div><figcaption class="wp-element-caption">Description of task complexity and 6 categories of the Anderson and Krathwohl&#8217;s Taxonomy of Learning Objectives</figcaption></figure>
+
+
+
+<p>Comparing <em>low</em> versus <em>high complexity</em> tasks, most chat interactions were categorized as <em>high complexity</em> (78.9%), meaning that they were more complex than looking up information. <em>Programming and scripting, marketing and sales, and creative and professional writing</em> are topics in which users engage in higher complexity tasks (Figure 7) such as learning a skill, troubleshooting a problem, or writing an article.</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="600" height="356" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure7_high_complexity_tasks.png" alt="Highest and lowest complexity topics based on percent of high complexity chats" class="wp-image-1133596" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure7_high_complexity_tasks.png 600w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure7_high_complexity_tasks-300x178.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Semantic-Telemetry_figure7_high_complexity_tasks-240x142.png 240w" sizes="auto, (max-width: 600px) 100vw, 600px" /><figcaption class="wp-element-caption">Figure 7: Most and least complex topics based on percentage of high complexity tasks.</figcaption></figure>
+
+
+
+<p><em>Travel and tourism and history and culture </em>scored lowest in complexity, with users looking up information like flight times and latest news updates.</p>
+
+
+
+<figure class="wp-block-embed aligncenter is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Semantic Telemetry - Task Complexity Dashboard" width="500" height="281" src="https://www.youtube-nocookie.com/embed/7ucGpDLbv-U?feature=oembed&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div><figcaption class="wp-element-caption">Demo of task complexity and topics on anonymous Copilot interactions</figcaption></figure>
+
+
+
+<p>When should you use chat instead of search? A 2024 Microsoft Research study: <a href="https://www.microsoft.com/en-us/research/publication/the-use-of-generative-search-engines-for-knowledge-work-and-complex-tasks/">The Use of Generative Search Engines for Knowledge Work and Complex Tasks</a>, suggests that people are seeing value in technical, complex tasks such as web development and data analysis. Bing Search contained more queries with lower complexity focused on non-professional areas, like <em>gaming and entertainment</em>, <em>travel and tourism</em>, and <em>fashion and beauty</em>, while chat had a greater distribution of complex technical tasks. (Figure 8).</p>
+
+
+
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="2622" height="1628" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure8_bing_vs_copilot_v2.png" alt="Comparison of Bing Search and Copilot in Bing topics based on complexity and knowledge work. Copilot in Bing trends greater complexity and greater knowledge work than Bing Search." class="wp-image-1133909" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure8_bing_vs_copilot_v2.png 2622w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure8_bing_vs_copilot_v2-300x186.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure8_bing_vs_copilot_v2-1024x636.png 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure8_bing_vs_copilot_v2-768x477.png 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure8_bing_vs_copilot_v2-1536x954.png 1536w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure8_bing_vs_copilot_v2-2048x1272.png 2048w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/figure8_bing_vs_copilot_v2-240x149.png 240w" sizes="auto, (max-width: 2622px) 100vw, 2622px" /><figcaption class="wp-element-caption">Figure 8: Comparison of Bing Search and Copilot in Bing for anonymized sample data (May-June 2023)</figcaption></figure>
+
+
+
+<h2 class="wp-block-heading" id="conclusion">Conclusion</h2>
+
+
+
+<p>LLMs have enabled a new era of high-quality human-AI interaction, and with it, the capability to analyze those same interactions with high fidelity, at scale, and in near real-time. We are now able to obtain actionable insight from complex data that is not possible with traditional data science pattern-matching methods. LLM-generated classifications are pushing research into new directions that will ultimately improve user experience and satisfaction when using chat and other user-AI interaction tools.</p>
+
+
+
+<p>This analysis indicates that Copilot in Bing is enabling users to do more complex work, specifically in areas such as technology. In our next post, we will explore how Copilot in Bing is supporting professional knowledge work and how we can use these measures as indicators for retention and engagement.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p>FOOTNOTE: This research was conducted at the time the feature Copilot in Bing was available as part of the Bing service; since October 2024 Copilot in Bing has been deprecated in favor of the standalone Microsoft Copilot service.</p>
+
+
+
+<p><em>References:</em></p>
+
+
+
+<ol class="wp-block-list">
+<li>Krathwohl, D. R. (2002). A Revision of Bloom’s Taxonomy: An Overview. <em>Theory Into Practice</em>, 41(4), 212–218. <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://doi.org/10.1207/s15430421tip4104_2" target="_blank" rel="noreferrer noopener">https://doi.org/10.1207/s15430421tip4104_2<span class="sr-only"> (opens in new tab)</span></a></li>
+</ol>
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/semantic-telemetry-understanding-how-users-interact-with-ai-systems/">Semantic Telemetry: Understanding how users interact with AI systems</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>The AI Revolution in Medicine, Revisited: An Introduction</title>
 		<link>https://www.microsoft.com/en-us/research/podcast/the-ai-revolution-in-medicine-revisited-an-introduction/</link>
 		
@@ -33,12 +233,12 @@
 ]]></description>
 										<content:encoded><![CDATA[
 <figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe title="The AI Revolution in Medicine, Revisited: An Introduction" width="500" height="281" src="https://www.youtube-nocookie.com/embed/AzThcMAW0xs?feature=oembed&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe loading="lazy" title="The AI Revolution in Medicine, Revisited: An Introduction" width="500" height="281" src="https://www.youtube-nocookie.com/embed/AzThcMAW0xs?feature=oembed&rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div></figure>
 
 
 <div class="wp-block-msr-podcast-container my-4">
-	<iframe src="https://player.blubrry.com/?podcast_id=142968395&modern=1" class="podcast-player" frameborder="0" height="164px" width="100%" scrolling="no" title="Podcast Player"></iframe>
+	<iframe loading="lazy" src="https://player.blubrry.com/?podcast_id=142968395&modern=1" class="podcast-player" frameborder="0" height="164px" width="100%" scrolling="no" title="Podcast Player"></iframe>
 </div>
 
 
@@ -223,7 +423,7 @@
 <p>The post <a href="https://www.microsoft.com/en-us/research/blog/advancing-biomedical-discovery-overcoming-data-challenges-in-precision-medicine/">Advancing biomedical discovery: Overcoming data challenges in precision medicine</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1.jpg" alt="white line icon of a medical paper and of a computer with a person in front of it on a blue and green gradient background" class="wp-image-1133518" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1.jpg" alt="white line icon of a medical paper and of a computer with a person in front of it on a blue and green gradient background" class="wp-image-1133518" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/03/Biomedical-Data-Lifecycle-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
 
 
 
@@ -481,30 +681,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115760">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="670821">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research podcast</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Microsoft research newsletter</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/podcast/neurips-2024-the-co-evolution-of-ai-and-systems-with-lidong-zhou/" aria-label="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" data-bi-cN="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/12/Lidong-and-Eliza_Abstracts_Hero_Feature_No_Text_1400x788.jpg" alt="Illustrated headshots of Lidong Zhou and Eliza Strickland" />
+				<a class="bg-gray-300" href="https://info.microsoft.com/ww-landing-microsoft-research-newsletter.html" aria-label="Microsoft Research Newsletter" data-bi-cN="Microsoft Research Newsletter" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2019/09/Newsletter_Banner_08_2019_v1_1920x1080.png" alt="" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou</h2>
+									<h2 class="h4">Microsoft Research Newsletter</h2>
 				
-								<p class="large">Just after his NeurIPS 2024 keynote on the co-evolution of systems and AI, Microsoft CVP Lidong Zhou joins the podcast to discuss how rapidly advancing AI impacts the systems supporting it and the opportunities to use AI to enhance systems engineering itself.</p>
+								<p class="large">Stay connected to the research community at Microsoft.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
-					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/podcast/neurips-2024-the-co-evolution-of-ai-and-systems-with-lidong-zhou/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Listen now" data-bi-cN="NeurIPS 2024: The co-evolution of AI and systems with Lidong Zhou" target="_blank">
-							Listen now						</a>
+					<div class="wp-block-button is-style-fill-chevron">
+						<a href="https://info.microsoft.com/ww-landing-microsoft-research-newsletter.html" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Microsoft Research Newsletter" data-bi-cN="Microsoft Research Newsletter" target="_blank">
+							Subscribe today						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -1554,30 +1754,30 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115763">
+	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="999693">
 		
 
 		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft Research Blog</span>
+		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Spotlight: Event Series</span>
 	</p>
 	
 	<div class="row pt-3 pb-4 align-items-center">
 						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/" aria-label="AIOpsLab: Building AI agents for autonomous clouds" data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/12/AIOps-Lab-BlogHeroFeature-1400x788-1.png" alt="White outline illustrations for AIOps on a blue and green gradient background." />
+				<a class="bg-gray-300" href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" aria-label="Microsoft Research Forum" data-bi-cN="Microsoft Research Forum" target="_blank">
+					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/01/MRF-24_WebImage_1400x788.png" alt="various abstract 3D shapes on a light blue background" />
 				</a>
 			</div>
 			
 			<div class="msr-promo__content p-3 px-5 col-12 col-md">
 
-									<h2 class="h4">AIOpsLab: Building AI agents for autonomous clouds</h2>
+									<h2 class="h4">Microsoft Research Forum</h2>
 				
-								<p class="large">AIOpsLab is an open-source framework designed to evaluate and improve AI agents for cloud operations, offering standardized, scalable benchmarks for real-world testing, enhancing cloud system reliability.</p>
+								<p class="large">Join us for a continuous exchange of ideas about research in the era of general AI. Watch the first four episodes on demand.</p>
 				
 								<div class="wp-block-buttons justify-content-center justify-content-md-start">
 					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/aiopslab-building-ai-agents-for-autonomous-clouds/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="AIOpsLab: Building AI agents for autonomous clouds" target="_blank">
-							Read more						</a>
+						<a href="https://researchforum.microsoft.com/?OCID=msr_researchforum_MCR_Blog_Promo" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Watch on-demand" data-bi-cN="Microsoft Research Forum" target="_blank">
+							Watch on-demand						</a>
 					</div>
 				</div>
 							</div><!--/.msr-promo__content-->
@@ -2229,258 +2429,6 @@
 
 <p><a id="_ftn1" href="#_ftnref1">[1]</a> To ensure data privacy, all processing is done locally on the smartphone. This approach ensures that driving behavior insights remain private and secure with no personal data stored or shared.</p>
 <span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/podcast/ideas-building-ai-for-population-scale-systems-with-akshay-nambi/">Ideas: Building AI for population-scale systems with Akshay Nambi</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Advances to low-bit quantization enable LLMs on edge devices</title>
-		<link>https://www.microsoft.com/en-us/research/blog/advances-to-low-bit-quantization-enable-llms-on-edge-devices/</link>
-		
-		<dc:creator><![CDATA[Shijie Cao, Lingxiao Ma, Ting Cao]]></dc:creator>
-		<pubDate>Wed, 05 Feb 2025 17:32:32 +0000</pubDate>
-				<category><![CDATA[Research Blog]]></category>
-		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1123686</guid>
-
-					<description><![CDATA[<p>Advances in low-bit quantization techniques enable efficient operation of LLMs on resource-constrained edge devices. Discover how innovations like T-MAC, Ladder, and LUT Tensor Core improve computational efficiency and enhance hardware compatibility.</p>
-<p>The post <a href="https://www.microsoft.com/en-us/research/blog/advances-to-low-bit-quantization-enable-llms-on-edge-devices/">Advances to low-bit quantization enable LLMs on edge devices</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-Bit-BlogHeroFeature-1400x788-1.jpg" alt="Three white icons that represent artificial intelligence, systems, and networking. These icons sit on a purple to pink gradient background." class="wp-image-1124472" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-Bit-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-Bit-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="auto, (max-width: 1400px) 100vw, 1400px" /></figure>
-
-
-
-<p>Large language models (LLMs) are increasingly being deployed on edge devices—hardware that processes data locally near the data source, such as smartphones, laptops, and robots. Running LLMs on these devices supports advanced AI and real-time services, but their massive size, with hundreds of millions of parameters, requires significant memory and computational power, limiting widespread adoption. Low-bit quantization, a technique that compresses models and reduces memory demands, offers a solution by enabling more efficient operation.</p>
-
-
-
-<p>Recent advances in low-bit quantization have made mixed-precision matrix multiplication (mpGEMM) viable for LLMs. This deep learning technique allows data of the same or different formats to be multiplied, such as int8*int1, int8*int2, or FP16*int4. By combining a variety of precision levels, mpGEMM strikes a balance among speed, memory efficiency, and computational accuracy.&nbsp;</p>
-
-
-
-<p>However, most hardware supports only symmetric computations—operations on data of similar formats—creating challenges for mixed-precision calculations during General Matrix Multiplication (GEMM), a critical operation for LLMs. Overcoming these hardware limitations is essential to fully benefit from mpGEMM and support asymmetrical computations.&nbsp;</p>
-
-
-
-<p>To unlock the potential of low-bit quantization on resource-constrained edge devices, hardware must natively support mpGEMM. To address this, we developed the following three approaches for computing kernels and hardware architectures:&nbsp;</p>
-
-
-
-<ul class="wp-block-list">
-<li><strong>Ladder</strong> <strong>data type compiler:</strong> Supports various low-precision data types by converting unsupported types into hardware-compatible ones without data loss, while also generating high-performance conversion code.&nbsp;</li>
-
-
-
-<li><strong>T-MAC mpGEMM library:</strong> Implements GEMM using a lookup table (LUT) approach, eliminating multiplications to significantly reduce computational overhead. Optimized for diverse CPUs, T-MAC delivers several times the speed of other libraries.&nbsp;</li>
-
-
-
-<li><strong>LUT Tensor Core hardware architecture:</strong> Introduces a cutting-edge design for next-generation AI hardware, tailored for low-bit quantization and mixed-precision computations.</li>
-</ul>
-
-
-
-<p>The following sections describe these techniques in detail.</p>
-
-
-
-<h2 class="wp-block-heading" id="ladder-bridging-the-gap-between-custom-data-and-hardware-limits">Ladder: Bridging the gap between custom data and hardware limits</h2>
-
-
-
-<p>Cutting-edge hardware accelerators, such as GPUs, TPUs, and specialized chips, are designed to speed up computationally intensive tasks like deep learning by efficiently handling large-scale operations. These accelerators now integrate lower-bit computing units, such as FP32, FP16, and even FP8, into their architectures.&nbsp;&nbsp;</p>
-
-
-
-<p>However, constraints in chip area and hardware costs limit the availability of these units for standard data types. For instance, the NVIDIA V100 Tensor Core GPU supports only FP16, while the A100 supports int2, int4, and int8 but not newer formats like FP8 or OCP-MXFP. Additionally, the rapid development of LLMs often outpaces hardware upgrades, leaving many new data formats unsupported and complicating deployment.</p>
-
-
-
-<p>Additionally, while hardware accelerators may lack direct support for custom data types, their memory systems can convert these types into fixed-width data blocks that store any data format. For instance, NF4 tensors can be converted into FP16 or FP32 for floating-point operations.</p>
-
-
-
-<p>Building on these insights, we developed the <a href="https://www.microsoft.com/en-us/research/publication/ladder-enabling-efficient-low-precision-deep-learning-computing-through-hardware-aware-tensor-transformation/" target="_blank" rel="noreferrer noopener">Ladder</a> data type compiler, a method to separate data storage from computation, enabling broader support for custom data types. It bridges the gap between emerging custom data formats with the precision types supported by current hardware.</p>
-
-
-
-<p>Ladder offers a flexible system for converting between algorithm-specific and hardware-supported data types without data loss. For low-bit applications, it optimizes performance by translating low-bit data into the most efficient formats for the hardware being used. As shown in Figure 1, this includes mapping low-bit computations to supported instructions and efficiently managing data storage across the memory hierarchy.&nbsp;</p>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1024" height="465" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure1.png" alt="Figure 1: A diagram illustrating the Ladder architecture. At the top, the tTile-Graph shows a computational flow where inputs in NF4 and FP16 formats feed into a matrix multiplication (MatMul) operation, which outputs in FP16. This output, along with another FP16 input, proceeds to an addition (Add) operation, also in FP16. Below, the tTile-Device schematic depicts a hierarchical memory structure with L2/Global Memory, L1/Shared Memory, and L0/Register, organized under 'Core.' Transformations occur in the loading and storing stages around computation, with arrows indicating data flow. The scheduling mechanism assigns operations to different layers of the memory hierarchy to optimize performance." class="wp-image-1123677" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure1.png 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure1-300x136.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure1-768x349.png 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure1-240x109.png 240w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /><figcaption class="wp-element-caption">Figure 1: The Ladder architecture</figcaption></figure>
-
-
-
-<h3 class="wp-block-heading" id="evaluating-ladder">Evaluating Ladder</h3>
-
-
-
-<p>Evaluations of Ladder on NVIDIA and AMD GPUs show that it outperforms existing deep neural network (DNN) compilers for natively supported data types. It also handles custom data types not supported by GPUs, achieving speedups of up to 14.6 times.&nbsp;</p>
-
-
-
-<p>As the first system to support custom low-precision data types for running DNNs on modern hardware accelerators, Ladder provides researchers with flexibility in optimizing data types. It also enables hardware developers to support a wider range of data types without requiring hardware modifications.&nbsp;</p>
-
-
-
-<h2 class="wp-block-heading" id="t-mac-table-lookup-for-mpgemm-without-multiplication">T-MAC: Table-lookup for mpGEMM without multiplication</h2>
-
-
-
-<p>Deploying low-bit quantized LLMs on edge devices often requires dequantizing models to ensure hardware compatibility. However, this approach has two major drawbacks:&nbsp;</p>
-
-
-
-<ol class="wp-block-list">
-<li><strong>Performance:</strong> Dequantization overhead can result in poor performance, negating the benefits of low-bit quantization.</li>
-
-
-
-<li><strong>Development:</strong> Developers must redesign data layouts and kernels for different mixed precisions.</li>
-</ol>
-
-
-
-<p>To address these challenges, we introduce <a href="https://www.microsoft.com/en-us/research/publication/t-mac-cpu-renaissance-via-table-lookup-for-low-bit-llm-deployment-on-edge/" target="_blank" rel="noreferrer noopener">T-MAC</a>, a novel LUT-based method that enables mpGEMM without dequantization or multiplication.&nbsp;</p>
-
-
-
-<p>T-MAC replaces traditional multiplication operations with bit-wise table lookups, offering a unified and scalable solution for mpGEMM. It incorporates techniques to reduce the size of tables and store them directly on the chip, minimizing the overhead of accessing data from memory. By eliminating dequantization and lowering computational costs, T-MAC enables efficient inference of low-bit LLMs on resource-constrained edge devices. Figure 2 illustrates T-MAC’s architecture.&nbsp;</p>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1268" height="719" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure2.png" alt="Figure 2: A diagram showing offline and online processes for bit-serial computation. Offline: integer weights are decomposed into 1-bit indices and permuted into tiles. Online: activations are precomputed with 1-bit patterns, processed via a lookup table (LUT), and aggregated using weighted summation in bit-serial aggregation." class="wp-image-1123683" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure2.png 1268w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure2-300x170.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure2-1024x581.png 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure2-768x435.png 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure2-240x136.png 240w" sizes="auto, (max-width: 1268px) 100vw, 1268px" /><figcaption class="wp-element-caption">Figure 2. Overview of the T-MAC system</figcaption></figure>
-
-
-
-<h3 class="wp-block-heading" id="evaluating-t-mac">Evaluating T-MAC</h3>
-
-
-
-<p>Performance evaluations of T-MAC on low-bit models demonstrated substantial benefits in efficiency and speed. On the Surface Laptop 7 with the Qualcomm Snapdragon X Elite chipset, T-MAC achieved:&nbsp;</p>
-
-
-
-<ul class="wp-block-list">
-<li>48 tokens per second for the 3B BitNet-b1.58 model&nbsp;</li>
-
-
-
-<li>30 tokens per second for the 2-bit 7B Llama model&nbsp;</li>
-
-
-
-<li>20 tokens per second for the 4-bit 7B Llama model</li>
-</ul>
-
-
-
-<p>These speeds far exceed average human reading rates, outperforming llama.cpp by 4–5 times and doubling the speed of a dedicated NPU accelerator.&nbsp;Even on lower-end devices like the Raspberry Pi 5, T-MAC made it possible for the 3B BitNet-b1.58 model to generate 11 tokens per second. It also proved highly power-efficient, matching llama.cpp&#8217;s generation rate while using only <sup>1</sup>/<sub>4</sub> to <sup>1</sup>/<sub>6</sub> of the CPU cores.</p>
-
-
-
-<p>These results establish T-MAC as a practical solution for deploying LLMs on edge devices with standard CPUs, without relying on GPUs or NPUs. T-MAC allows LLMs to run efficiently on resource-constrained devices, expanding their applicability across a wider range of scenarios.</p>
-
-
-
-<h2 class="wp-block-heading" id="lut-tensor-core-driving-hardware-for-mpgemm">LUT Tensor Core: Driving hardware for mpGEMM</h2>
-
-
-
-<p>While T-MAC and Ladder optimize mpGEMM on existing CPU and GPU architectures, improving computational efficiency, they cannot match the performance of dedicated hardware accelerators with built-in LUT support. Achieving significant improvements in performance, power, and area (PPA) requires overcoming four key challenges:</p>
-
-
-
-<ol class="wp-block-list">
-<li><strong>Table precompute and storage:</strong> Precomputing and storing LUTs add overhead, increasing area usage, latency, and storage requirements, which can reduce overall efficiency gains.</li>
-
-
-
-<li><strong>Bit-width flexibility:</strong> Hardware must support various precision levels, such as int4/2/1 for weights and FP16/8 or int8 for activations, along with their combinations. This flexibility is crucial for accommodating diverse model architectures and use cases.</li>
-
-
-
-<li><strong>LUT tiling shape: </strong>Inefficient tiling shapes can raise storage costs and limit reuse opportunities, adversely affecting performance and efficiency.</li>
-
-
-
-<li><strong>Instruction and compilation: </strong>LUT-based mpGEMM requires a new instruction set. Existing compilation stacks, designed for standard GEMM hardware, may not optimally map and schedule these instructions, complicating integration with LLM inference software.</li>
-</ol>
-
-
-
-<p>In response, we developed <a href="https://www.microsoft.com/en-us/research/publication/lut-tensor-core-lookup-table-enables-efficient-low-bit-llm-inference-acceleration/">LUT Tensor Core</a>, a software-hardware codesign for low-bit LLM inference. To address precomputation overhead in conventional LUT-based methods, we introduce techniques like software-based DFG transformation, operator fusion, and table symmetrization to optimize table precomputation and storage. Additionally, we propose a hardware design with an elongated tiling shape to support table reuse and a bit-serial design to handle various precision combinations in mpGEMM.</p>
-
-
-
-<p>To integrate with existing GPU microarchitectures and software stacks, we extended the MMA instruction set, added new LMMA instructions, and developed a cuBLAS-like software stack for easy integration into existing DNN frameworks. We also created a compiler for end-to-end execution planning on GPUs with LUT Tensor Core. This design and workflow, illustrated in Figure 3, enabled the quick and seamless adoption of LUT Tensor Core.</p>
-
-
-
-<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="1266" height="533" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure3.png" alt="Figure 3: Diagram of the LUT Tensor Core workflow. The left side shows operator fusion, where 'Norm' produces activations for pre-computation, and 'Weight Reinterpretation' processes low-bit weights. Both feed into LUT-mpGEMM, utilizing an activation LUT table and reinterpreted weights. The right side illustrates the LUT Tensor Core, comprising a LUT table for precomputed values, low-bit weights, and multiplexers (MUX) for computation." class="wp-image-1123680" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure3.png 1266w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure3-300x126.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure3-1024x431.png 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure3-768x323.png 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/Low-bit_figure3-240x101.png 240w" sizes="auto, (max-width: 1266px) 100vw, 1266px" /><figcaption class="wp-element-caption">Figure 3. The LUT Tensor Core workflow</figcaption></figure>
-
-
-
-<h3 class="wp-block-heading" id="evaluating-lut-tensor-core">Evaluating LUT Tensor Core</h3>
-
-
-
-<p>Testing LUT Tensor Core on low-bit LLMs, such as BitNet and Llama, showed significant performance gains, achieving 6.93 times the inference speed while using just 38.3% of the area of a traditional Tensor Core. With nearly identical model accuracy, this results in a 20.9-fold increase in computational density and an 11.2-fold boost in energy efficiency. As AI models grow in scale and complexity, LUT Tensor Core enables low-bit LLMs to be applied in new and diverse scenarios.</p>
-
-
-
-<p>We believe the LUT technique could drive a paradigm shift in AI model inference. Traditional methods rely on multiplication and accumulation operations, whereas LUT implementations provide higher transistor density, greater throughput per chip area, lower energy costs, and better scalability. As large models adopt low-bit quantization, the LUT method could become the standard for system and hardware design, advancing the next generation of AI hardware innovation.</p>
-
-
-
-<h2 class="wp-block-heading" id="unlocking-new-possibilities-for-embodied-ai">Unlocking new possibilities for embodied AI</h2>
-
-
-
-<p>Low-bit quantization improves the efficiency of running large models on edge devices while also enabling model scaling by reducing the bits used to represent each parameter. This scaling enhances model capabilities, generality, and expressiveness, as shown by the <a href="https://www.microsoft.com/en-us/research/publication/the-era-of-1-bit-llms-all-large-language-models-are-in-1-58-bits/">BitNet model</a>, which starts with a low-bit configuration and expands.</p>
-
-
-
-<p>Technologies like T-MAC, Ladder, and LUT Tensor Core provide solutions for running low-bit quantized LLMs, supporting efficient operation across edge devices and encouraging researchers to design and optimize LLMs using low-bit quantization. By reducing memory and computational demands, low-bit LLMs could power embodied AI systems, such as robots, enabling dynamic perception and real-time environmental interaction.</p>
-
-
-
-<p><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/T-MAC" target="_blank" rel="noreferrer noopener">T-MAC<span class="sr-only"> (opens in new tab)</span></a> and <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://github.com/microsoft/BitBLAS" target="_blank" rel="noreferrer noopener">Ladder<span class="sr-only"> (opens in new tab)</span></a> are open source and available on GitHub. We invite you to test and explore these innovations in AI technology with Microsoft Research.</p>
-
-
-
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1115766">
-		
-
-		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">Microsoft research blog</span>
-	</p>
-	
-	<div class="row pt-3 pb-4 align-items-center">
-						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300" href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" aria-label="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2024/12/PromptWizard-BlogHeroFeature-1400x788-1.png" alt="A diagram illustrating the joint optimization process of instructions and in-context examples in PromptWizard. The figure demonstrates how the framework iteratively refines both components, integrating feedback to enhance the overall prompt effectiveness and adaptability across tasks." />
-				</a>
-			</div>
-			
-			<div class="msr-promo__content p-3 px-5 col-12 col-md">
-
-									<h2 class="h4">PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts</h2>
-				
-								<p class="large">PromptWizard from Microsoft Research is now open source. It is designed to automate and simplify AI prompt optimization, combining iterative LLM feedback with efficient exploration and refinement techniques to create highly effective prompts in minutes.</p>
-				
-								<div class="wp-block-buttons justify-content-center justify-content-md-start">
-					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/blog/promptwizard-the-future-of-prompt-optimization-through-feedback-driven-self-evolving-prompts/" class="btn btn-brand glyph-append glyph-append-chevron-right" aria-label="Read more" data-bi-cN="PromptWizard: The future of prompt optimization through feedback-driven self-evolving prompts" target="_blank">
-							Read more						</a>
-					</div>
-				</div>
-							</div><!--/.msr-promo__content-->
-	</div><!--/.msr-promo__inner-wrap-->
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
-	<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/advances-to-low-bit-quantization-enable-llms-on-edge-devices/">Advances to low-bit quantization enable LLMs on edge devices</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></content:encoded>
 					
 		

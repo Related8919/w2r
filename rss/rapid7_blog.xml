@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 10 Mar 2025 01:36:24 +0000</lastBuildDate>
-    <item>
-      <title>Xerox Versalink C7025 Multifunction Printer: Pass-Back Attack Vulnerabilities (FIXED)</title>
-      <link>https://www.rapid7.com/blog/post/2025/02/14/xerox-versalink-c7025-multifunction-printer-pass-back-attack-vulnerabilities-fixed/</link>
-      <description>During security testing, Rapid7 discovered that Xerox Versalink C7025 Multifunction printers (MFPs) were vulnerable to pass-back attacks.</description>
-    </item>
+    <lastBuildDate>Tue, 11 Mar 2025 01:54:54 +0000</lastBuildDate>
     <item>
       <title>Metasploit Weekly Wrap-Up 02/14/2025</title>
       <link>https://www.rapid7.com/blog/post/2025/02/14/metasploit-weekly-wrap-up-45/</link>
@@ -120,6 +115,11 @@ Description: Adds an auxiliary module which performs the retrieval of Network
 Access Account (NAA) credentials from an System Center Configuration Manager
 (SCCM) server. Given a computer name and password (which can typically be
 cr</description>
+    </item>
+    <item>
+      <title>Seeing The Whole Picture: A Better Way To Manage Your Attack Surface</title>
+      <link>https://www.rapid7.com/blog/post/2025/03/10/seeing-the-whole-picture-a-better-way-to-manage-your-attack-surface/</link>
+      <description>With cloud adoption, remote work, shadow IT, and AI, security teams face an overwhelming challenge: scoping their attack surface and continuously discovering all assets and exposures before threats emerge.</description>
     </item>
   </channel>
 </rss>

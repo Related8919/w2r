@@ -6,26 +6,41 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 10 Mar 2025 01:36:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Mar 2025 01:54:55 +0000</lastBuildDate>
     <item>
       <title>punkpeye /awesome-mcp-servers</title>
       <link>https://github.com/punkpeye/awesome-mcp-servers</link>
       <description>A collection of MCP servers.</description>
     </item>
     <item>
-      <title>KRTirtho /spotube</title>
-      <link>https://github.com/KRTirtho/spotube</link>
-      <description>🎧 Open source Spotify client that doesn't require Premium nor uses Electron! Available for both desktop &amp; mobile!</description>
+      <title>mfontanini /presenterm</title>
+      <link>https://github.com/mfontanini/presenterm</link>
+      <description>A markdown terminal slideshow tool</description>
     </item>
     <item>
-      <title>All-Hands-AI /OpenHands</title>
-      <link>https://github.com/All-Hands-AI/OpenHands</link>
-      <description>🙌 OpenHands: Code Less, Make More</description>
+      <title>EbookFoundation /free-programming-books</title>
+      <link>https://github.com/EbookFoundation/free-programming-books</link>
+      <description>📚 Freely available programming books</description>
     </item>
     <item>
-      <title>deepseek-ai /awesome-deepseek-integration</title>
-      <link>https://github.com/deepseek-ai/awesome-deepseek-integration</link>
-      <description>Integrate the DeepSeek API into popular softwares</description>
+      <title>n8n-io /n8n</title>
+      <link>https://github.com/n8n-io/n8n</link>
+      <description>Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.</description>
+    </item>
+    <item>
+      <title>freeCodeCamp /freeCodeCamp</title>
+      <link>https://github.com/freeCodeCamp/freeCodeCamp</link>
+      <description>freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.</description>
+    </item>
+    <item>
+      <title>public-apis /public-apis</title>
+      <link>https://github.com/public-apis/public-apis</link>
+      <description>A collective list of free APIs</description>
+    </item>
+    <item>
+      <title>kamranahmedse /developer-roadmap</title>
+      <link>https://github.com/kamranahmedse/developer-roadmap</link>
+      <description>Interactive roadmaps, guides and other educational content to help developers grow in their careers.</description>
     </item>
     <item>
       <title>codecrafters-io /build-your-own-x</title>
@@ -33,19 +48,14 @@
       <description>Master programming by recreating your favorite technologies from scratch.</description>
     </item>
     <item>
-      <title>yt-dlp /yt-dlp</title>
-      <link>https://github.com/yt-dlp/yt-dlp</link>
-      <description>A feature-rich command-line audio/video downloader</description>
+      <title>mendableai /firecrawl</title>
+      <link>https://github.com/mendableai/firecrawl</link>
+      <description>🔥 Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.</description>
     </item>
     <item>
-      <title>supabase /supabase</title>
-      <link>https://github.com/supabase/supabase</link>
-      <description>The open source Firebase alternative. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.</description>
-    </item>
-    <item>
-      <title>dagger /dagger</title>
-      <link>https://github.com/dagger/dagger</link>
-      <description>An open-source runtime for composable workflows. Great for AI agents and CI/CD.</description>
+      <title>virattt /ai-hedge-fund</title>
+      <link>https://github.com/virattt/ai-hedge-fund</link>
+      <description>An AI Hedge Fund Team</description>
     </item>
     <item>
       <title>Significant-Gravitas /AutoGPT</title>
@@ -58,19 +68,9 @@
       <description>Make websites accessible for AI agents</description>
     </item>
     <item>
-      <title>kamranahmedse /developer-roadmap</title>
-      <link>https://github.com/kamranahmedse/developer-roadmap</link>
-      <description>Interactive roadmaps, guides and other educational content to help developers grow in their careers.</description>
-    </item>
-    <item>
-      <title>EFForg /rayhunter</title>
-      <link>https://github.com/EFForg/rayhunter</link>
-      <description>Rust tool to detect cell site simulators on an orbic mobile hotspot</description>
-    </item>
-    <item>
-      <title>public-apis /public-apis</title>
-      <link>https://github.com/public-apis/public-apis</link>
-      <description>A collective list of free APIs</description>
+      <title>camel-ai /camel</title>
+      <link>https://github.com/camel-ai/camel</link>
+      <description>🐫 CAMEL: Finding the Scaling Law of Agents. The first and the best multi-agent framework.https://www.camel-ai.org</description>
     </item>
     <item>
       <title>clockworklabs /SpacetimeDB</title>
@@ -78,19 +78,9 @@
       <description>Multiplayer at the speed of light</description>
     </item>
     <item>
-      <title>geekan /MetaGPT</title>
-      <link>https://github.com/geekan/MetaGPT</link>
-      <description>🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming</description>
-    </item>
-    <item>
-      <title>camel-ai /camel</title>
-      <link>https://github.com/camel-ai/camel</link>
-      <description>🐫 CAMEL: Finding the Scaling Law of Agents. The first and the best multi-agent framework.https://www.camel-ai.org</description>
-    </item>
-    <item>
-      <title>virattt /ai-hedge-fund</title>
-      <link>https://github.com/virattt/ai-hedge-fund</link>
-      <description>An AI Hedge Fund Team</description>
+      <title>thalissonvs /pydoll</title>
+      <link>https://github.com/thalissonvs/pydoll</link>
+      <description>Pydoll is a library for automating chromium-based browsers without a WebDriver, offering realistic interactions. It supports Python's asynchronous features, enhancing performance and enabling event capturing and simultaneous web scraping.</description>
     </item>
   </channel>
 </rss>

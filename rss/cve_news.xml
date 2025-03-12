@@ -6,32 +6,7 @@
     <description>Latest posts from https://www.cve.org/Media/News/AllNews. follow.is: feedId:91496105774919680+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 11 Mar 2025 01:55:05 +0000</lastBuildDate>
-    <item>
-      <title>Softing Added as CVE Numbering Authority (CNA)</title>
-      <link>https://www.cve.org/Media/News/item/news/2025/02/18/Softing-Added-as-CNA</link>
-      <description>Softing Added as CVE Numbering Authority (CNA)newsFebruary 18, 2025Softingis now aCVE Numbering Authority (CNA)for Softing issues only.</description>
-    </item>
-    <item>
-      <title>Danfoss Added as CVE Numbering Authority (CNA)</title>
-      <link>https://www.cve.org/Media/News/item/news/2025/02/18/Danfoss-Added-as-CNA</link>
-      <description>Danfoss Added as CVE Numbering Authority (CNA)newsFebruary 18, 2025Danfossis now aCVE Numbering Authority (CNA)for Danfoss products only.</description>
-    </item>
-    <item>
-      <title>CVE ID Assignment and CVE Record Publication for AI-Related Vulnerabilities</title>
-      <link>https://www.cve.org/Media/News/item/blog/2025/02/18/CVE-ID-CVE-Record-AIrelated-Vulnerabilities</link>
-      <description>CVE ID Assignment and CVE Record Publication for AI-Related VulnerabilitiesblogBy CVE Program|February 18, 2025This is the second blog in a CVE Program AI Blog Series. The first blog in the series, “CVE and AI-related Vulnerabilities,” is availablehere.This series is documenting the journey theCVE Boardis on determining how to addressvulnerabilitiesin a CVE context. It is the intent of theCVE Programto be transparent with our thinking and general guidance as we investigate the impact to CVE efforts and establish swim lanes for CVE assignments in an AI-enabled world.</description>
-    </item>
-    <item>
-      <title>CVE Program Report for Quarter 4 Calendar Year (Q4 CY) 2024</title>
-      <link>https://www.cve.org/Media/News/item/blog/2025/02/25/CVE-Program-Report-for-Q4-2024</link>
-      <description>CVE Program Report for Quarter 4 Calendar Year (Q4 CY) 2024blogBy CVE Program|February 25, 2025The CVE Program’s quarterly summary of program milestones and metrics for Q4 CY 2024.</description>
-    </item>
-    <item>
-      <title>Vulnerability Data Enrichment for CVE Records: 240 CNAs on the Enrichment Recognition List for February 24, 2025</title>
-      <link>https://www.cve.org/Media/News/item/blog/2025/02/25/CNA-Enrichment-Recognition-List-Update</link>
-      <description>Vulnerability Data Enrichment for CVE Records: 240 CNAs on the Enrichment Recognition List for February 24, 2025blogBy CVE Program|February 25, 2025</description>
-    </item>
+    <lastBuildDate>Wed, 12 Mar 2025 01:53:58 +0000</lastBuildDate>
     <item>
       <title>Saviynt Added as CVE Numbering Authority (CNA)</title>
       <link>https://www.cve.org/Media/News/item/news/2025/02/25/Saviynt-Added-as-CNA</link>
@@ -56,6 +31,31 @@
       <title>Please Complete Our “CVE Data Usage and Satisfaction Survey” by April 4, 2025</title>
       <link>https://www.cve.org/Media/News/item/blog/2025/03/04/CVE-Data-Usage-and-Satisfaction-Survey</link>
       <description>Please Complete Our “CVE Data Usage and Satisfaction Survey” by April 4, 2025blogBy CVE Program|March 4, 2025TheCVE Programis continuously investigating new methods and offerings that will better inform the overall community regarding publicly disclosed vulnerabilities. To that end, we would greatly appreciate your feedback to our “CVE Data Usage and Satisfaction Survey.” The survey opens today and will close at 11:59 PM ET on April 4, 2025.</description>
+    </item>
+    <item>
+      <title>Full Agenda Now Available forCVE/FIRST VulnCon 2025on April 7-10, 2025!</title>
+      <link>https://www.cve.org/Media/News/item/blog/2025/03/11/Full-Agenda-for-CVE-FIRST-VulnCon-2025</link>
+      <description>Full Agenda Now Available forCVE/FIRST VulnCon 2025on April 7-10, 2025!blogBy CVE Program|March 11, 2025VulnCon 2025 Agenda</description>
+    </item>
+    <item>
+      <title>Vulnerability Data Enrichment for CVE Records: 246 CNAs on the Enrichment Recognition List for March 10, 2025</title>
+      <link>https://www.cve.org/Media/News/item/blog/2025/03/11/CNA-Enrichment-Recognition-List-Update</link>
+      <description>Vulnerability Data Enrichment for CVE Records: 246 CNAs on the Enrichment Recognition List for March 10, 2025blogBy CVE Program|March 11, 2025</description>
+    </item>
+    <item>
+      <title>GE Vernova CNA Has Replaced General Electric (Gas Power) CNA</title>
+      <link>https://www.cve.org/Media/News/item/news/2025/03/11/GE-Vernova-CNA-Replaced-General-Electric-Gas</link>
+      <description>GE Vernova CNA Has Replaced General Electric (Gas Power) CNAnewsMarch 11, 2025As of March 11, 2025, the General Electric (Gas Power)CVE Numbering Authority (CNA), which became a CVE Program partner in 2022, has been replaced by theGE VernovaCNA. The GE Vernova CNA’s scope is: “All GE Vernova products.”</description>
+    </item>
+    <item>
+      <title>Integrated DNA Technologies Added as CVE Numbering Authority (CNA)</title>
+      <link>https://www.cve.org/Media/News/item/news/2025/03/11/Integrated-DNA-Technologies-Added-as-CNA</link>
+      <description>Integrated DNA Technologies Added as CVE Numbering Authority (CNA)newsMarch 11, 2025Integrated DNA Technologies, Inc.(IDT) is now aCVE Numbering Authority (CNA)for vulnerabilities within IDT-manufactured products, software, and services that are in-service.</description>
+    </item>
+    <item>
+      <title>T-Mobile US Added as CVE Numbering Authority (CNA)</title>
+      <link>https://www.cve.org/Media/News/item/news/2025/03/11/TMobile-US-Added-as-CNA</link>
+      <description>T-Mobile US Added as CVE Numbering Authority (CNA)newsMarch 11, 2025T-Mobile USis now aCVE Numbering Authority (CNA)for all T-Mobile US products (including end-of-life/end-of-service products), as well as vulnerabilities in third-party software/hardware discovered by T-Mobile US that are not in another CNA’s scope.</description>
     </item>
   </channel>
 </rss>

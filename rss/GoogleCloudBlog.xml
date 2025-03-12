@@ -6,22 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 11 Mar 2025 01:55:09 +0000</lastBuildDate>
-    <item>
-      <title>How to calculate your AI costs on Google Cloud</title>
-      <link>https://cloud.google.com/blog/topics/cost-management/unlock-the-true-cost-of-enterprise-ai-on-google-cloud</link>
-      <description>Cost ManagementHow to calculate your AI costs on Google CloudBy Pathik Sharma • 8-minute read</description>
-    </item>
-    <item>
-      <title>Best practices for achieving high availability and scalability in Cloud SQL</title>
-      <link>https://cloud.google.com/blog/products/databases/understanding-cloud-sql-high-availability</link>
-      <description>DatabasesBest practices for achieving high availability and scalability in Cloud SQLBy Arkapravo Banerjee • 5-minute read</description>
-    </item>
-    <item>
-      <title>Use Gemini 2.0 to speed up document extraction and lower costs</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/use-gemini-2-0-to-speed-up-data-processing</link>
-      <description>AI &amp; Machine LearningUse Gemini 2.0 to speed up document extraction and lower costsBy Meenu Bondili • 5-minute read</description>
-    </item>
+    <lastBuildDate>Wed, 12 Mar 2025 01:54:02 +0000</lastBuildDate>
     <item>
       <title>Unico builds cutting-edge IDTech with Spanner Vector Search</title>
       <link>https://cloud.google.com/blog/products/databases/unico-builds-cutting-edge-idtech-with-spanner-vector-search</link>
@@ -38,9 +23,19 @@
       <description>Public SectorHow Google AI is powering innovation at NARA, Air Force, and Aerospace CorporationBy Chris Niehaus • 3-minute read</description>
     </item>
     <item>
+      <title>Forrester study reveals significant benefits and cost savings with Spanner</title>
+      <link>https://cloud.google.com/blog/products/databases/forrester-tei-study-on-spanner-shows-benefits-and-cost-savings</link>
+      <description>DatabasesForrester study reveals significant benefits and cost savings with SpannerBy Ashish Chopra • 5-minute read</description>
+    </item>
+    <item>
       <title>Chrome Enterprise improves work and personal profile separation and brings more advanced protections for unmanaged devices</title>
       <link>https://cloud.google.com/blog/products/chrome-enterprise/chrome-enterprise-improves-work-and-personal-profile-separation-and-brings-more-advanced-protections-for-unmanaged-devices</link>
       <description>Chrome EnterpriseChrome Enterprise improves work and personal profile separation and brings more advanced protections for unmanaged devicesBy Julia Lomakina • 4-minute read</description>
+    </item>
+    <item>
+      <title>Get Salesforce insights in BigQuery for unified analytics powered by Datastream</title>
+      <link>https://cloud.google.com/blog/products/databases/datastream-extracts-salesforce-data-cloud-data</link>
+      <description>DatabasesGet Salesforce insights in BigQuery for unified analytics powered by DatastreamBy Dhirendra Sinha • 3-minute read</description>
     </item>
     <item>
       <title>What’s new with Google Cloud</title>
@@ -53,9 +48,14 @@
       <description>Threat IntelligenceUnraveling Time: A Deep Dive into TTD Instruction Emulation BugsBy Mandiant  • 14-minute read</description>
     </item>
     <item>
-      <title>Introducing tiered storage for Spanner</title>
-      <link>https://cloud.google.com/blog/products/databases/introducing-tiered-storage-for-spanner</link>
-      <description>DatabasesIntroducing tiered storage for SpannerBy Matthew Muckloo • 4-minute read</description>
+      <title>5 ways ChromeOS uplevels the experience for Microsoft 365</title>
+      <link>https://cloud.google.com/blog/products/chrome-enterprise/5-ways-chromeos-uplevels-the-experience-for-microsoft-365</link>
+      <description>Chrome Enterprise5 ways ChromeOS uplevels the experience for Microsoft 365By Marcus Koehler • 3-minute read</description>
+    </item>
+    <item>
+      <title>How Google Cloud measures its climate impact through Life Cycle Assessment (LCA)</title>
+      <link>https://cloud.google.com/blog/topics/sustainability/google-cloud-measures-its-climate-impact-through-life-cycle-assessment</link>
+      <description>SustainabilityHow Google Cloud measures its climate impact through Life Cycle Assessment (LCA)By Malcolm Hegeman • 3-minute read</description>
     </item>
   </channel>
 </rss>

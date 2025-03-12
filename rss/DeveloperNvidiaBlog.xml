@@ -6,17 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 11 Mar 2025 01:55:19 +0000</lastBuildDate>
-    <item>
-      <title>NVIDIA GTC 2025 上的人工智能促进气候、能源和生态系统复原力</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/ai-for-climate-energy-and-ecosystem-resilience-at-nvidia-gtc-2025/</link>
-      <description>2025年 2月 20日NVIDIA GTC 2025 上的人工智能促进气候、能源和生态系统复原力从减缓气候变化到改进灾害响应和环境监测，AI 正在重塑我们应对重大全球挑战的方式。快速、高分辨率的气候预报、1 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA cuDF，pandas 读取 JSON 行文件速度提升100倍</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/json-lines-reading-with-pandas-100x-faster-using-nvidia-cudf/</link>
-      <description>2025年 2月 20日使用 NVIDIA cuDF，pandas 读取 JSON 行文件速度提升100倍JSON 是一种广泛采用的格式，用于在系统之间 (通常用于 Web 应用和大语言模型 (LLMs)) 以互操作方式运行的基于文本的信息。3 MIN READ</description>
-    </item>
+    <lastBuildDate>Wed, 12 Mar 2025 01:54:13 +0000</lastBuildDate>
     <item>
       <title>借助全新的游戏内推理 SDK，将 NVIDIA ACE AI 角色引入游戏</title>
       <link>https://developer.nvidia.com/zh-cn/blog/bring-nvidia-ace-ai-characters-to-games-with-the-new-in-game-inference-sdk/</link>
@@ -86,6 +76,16 @@
       <title>基于 1F1B 的 MoE A2A 通信计算 Overlap</title>
       <link>https://developer.nvidia.com/zh-cn/blog/1f1b-moe-a2a-computing-overlap/</link>
       <description>2025年 3月 7日基于 1F1B 的 MoE A2A 通信计算 Overlap在 MoE 模型的训练过程中，EP rank 之间的 A2A 通信在端到端时间中占据了相当大比重，对训练效率影响很大，3 MIN READ</description>
+    </item>
+    <item>
+      <title>借助 NVIDIA DriveOS LLM SDK 简化自动驾驶汽车应用的 LLM 部署</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/streamline-llm-deployment-for-autonomous-vehicle-applications-with-nvidia-driveos-llm-sdk/</link>
+      <description>2025年 3月 10日借助 NVIDIA DriveOS LLM SDK 简化自动驾驶汽车应用的 LLM 部署大语言模型 (LLMs) 在自然语言处理 (NLP) 中表现出非凡的泛化能力。它们广泛应用于翻译、数字助理、推荐系统、上下文分析、代码生成、2 MIN READ</description>
+    </item>
+    <item>
+      <title>优化 CUDA C++ 编译时间</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/optimizing-compile-times-for-cuda-c/</link>
+      <description>2025年 3月 10日优化 CUDA C++ 编译时间在现代软件开发中，时间是非常宝贵的资源，尤其是在编译过程中。对于在大规模 GPU 加速应用程序上使用 CUDA C++的开发者而言，2 MIN READ</description>
     </item>
   </channel>
 </rss>

@@ -6,62 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 12 Mar 2025 01:54:13 +0000</lastBuildDate>
-    <item>
-      <title>借助全新的游戏内推理 SDK，将 NVIDIA ACE AI 角色引入游戏</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/bring-nvidia-ace-ai-characters-to-games-with-the-new-in-game-inference-sdk/</link>
-      <description>2025年 2月 20日借助全新的游戏内推理 SDK，将 NVIDIA ACE AI 角色引入游戏NVIDIA ACE 是一套数字人技术，可借助生成式 AI 让游戏角色和数字助理如生。ACE 设备上模型为自主游戏角色提供代理工作流，4 MIN READ</description>
-    </item>
-    <item>
-      <title>聚焦：东京大学使用 NVIDIA Grace Hopper 进行开创性的节能地震研究</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/spotlight-university-of-tokyo-uses-nvidia-grace-hopper-for-groundbreaking-energy-efficient-seismic-research/</link>
-      <description>2025年 2月 20日聚焦：东京大学使用 NVIDIA Grace Hopper 进行开创性的节能地震研究超级计算机是推动突破性发现的引擎。从预测极端天气到推进疾病研究，以及设计更安全、更高效的基础设施，这些机器可以模拟因规模、2 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA 视频编解码器 SDK 13.0 由 NVIDIA Blackwell 驱动</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-video-codec-sdk-13-0-powered-by-nvidia-blackwell/</link>
-      <description>2025年 2月 24日NVIDIA 视频编解码器 SDK 13.0 由 NVIDIA Blackwell 驱动NVIDIA Video Codec SDK 13.0 的发布标志着重大升级，增加了对新一代 NVIDIA Blackwell GPU…3 MIN READ</description>
-    </item>
-    <item>
-      <title>在 NVIDIA 视频编解码器 SDK 13.0 中使用 MV-HEVC 启用立体和 3D 视图</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/enabling-stereoscopic-and-3d-views-using-mv-hevc-in-nvidia-video-codec-sdk-13-0/</link>
-      <description>2025年 2月 24日在 NVIDIA 视频编解码器 SDK 13.0 中使用 MV-HEVC 启用立体和 3D 视图NVIDIA 宣布在最新的 NVIDIA 视频编解码器 SDK 版本 13.0 中实施多视图高效视频编码 (MV-HEVC) 编码器。2 MIN READ</description>
-    </item>
-    <item>
-      <title>基于 Marco 多 AI 智能体框架的可配置图形任务求解在芯片设计中的应用</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/configurable-graph-based-task-solving-with-the-marco-multi-ai-agent-framework-for-chip-design/</link>
-      <description>2025年 2月 25日基于 Marco 多 AI 智能体框架的可配置图形任务求解在芯片设计中的应用芯片和硬件设计因其复杂性和先进的技术而面临众多挑战。这些挑战导致在合成、验证、物理设计和可靠性循环期间优化性能、功耗、2 MIN READ</description>
-    </item>
-    <item>
-      <title>定义 LLM 红色团队</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/defining-llm-red-teaming/</link>
-      <description>2025年 2月 25日定义 LLM 红色团队在一项活动中，人们为生成式 AI 技术 (例如大语言模型 (LLMs)) 提供输入，以确定输出是否会偏离可接受的标准。1 MIN READ</description>
-    </item>
-    <item>
-      <title>代理自主级别与安全性</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/agentic-autonomy-levels-and-security/</link>
-      <description>2025年 2月 25日代理自主级别与安全性智能体工作流是 AI 赋能工具的下一次演进。它们使开发者能够将多个 AI 模型关联在一起以执行复杂的活动，2 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA cuDSS 提高工程和科学计算中的求解器技术</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-cudss-advances-solver-technologies-for-engineering-and-scientific-computing/</link>
-      <description>2025年 2月 25日NVIDIA cuDSS 提高工程和科学计算中的求解器技术NVIDIA cuDSS 是第一代稀疏直接求解器库，旨在加速工程和科学计算。cuDSS 正越来越多地应用于数据中心和其他环境，4 MIN READ</description>
-    </item>
-    <item>
-      <title>在 NVIDIA GPU 上训练的 Microsoft Phi SLM 的多模态最新进展</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/latest-multimodal-addition-to-microsoft-phi-slms-trained-on-nvidia-gpus/</link>
-      <description>2025年 2月 26日在 NVIDIA GPU 上训练的 Microsoft Phi SLM 的多模态最新进展大语言模型（LLMs）已渗透到各行各业，并改变了技术潜力。但是，由于规模庞大，它们对于许多公司目前面临的资源限制来说并不切实际。1 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA NIM 构建基于 VLM 的简单多模态信息检索系统</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/building-a-simple-vlm-based-multimodal-information-retrieval-system-with-nvidia-nim/</link>
-      <description>2025年 2月 26日使用 NVIDIA NIM 构建基于 VLM 的简单多模态信息检索系统在当今数据驱动的世界中，即使是从少量数据中检索准确信息的能力，对于寻求精简、有效的快速部署、原型设计或实验解决方案的开发者来说也至关重要。3 MIN READ</description>
-    </item>
-    <item>
-      <title>借助适用于 LLM 的 NVIDIA NIM 微服务加速科学文献审查</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/accelerating-scientific-literature-reviews-with-nvidia-nim-microservices-for-llms/</link>
-      <description>2025年 2月 26日借助适用于 LLM 的 NVIDIA NIM 微服务加速科学文献审查精心设计的系统审查通常是研究人员探索科学领域的第一步。对于刚刚接触该领域的科学家，它提供了该领域的结构化概述。对于专家而言，2 MIN READ</description>
-    </item>
+    <lastBuildDate>Thu, 13 Mar 2025 01:55:57 +0000</lastBuildDate>
     <item>
       <title>图像和视频理解的视觉语言模型提示工程实践指南</title>
       <link>https://developer.nvidia.com/zh-cn/blog/vision-language-model-prompt-engineering-guide-for-image-and-video-understanding/</link>
@@ -73,9 +18,64 @@
       <description>2025年 2月 27日借助 NVIDIA KvikIO 实现高性能远程 IO处理大量数据的工作负载 (尤其是在云端运行的工作负载) 通常会使用对象存储服务 (S3、Google Cloud Storage、2 MIN READ</description>
     </item>
     <item>
+      <title>使用 DeepSeek-R1 NIM 构建具有专家推理功能的 AI 智能体</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/build-ai-agents-with-expert-reasoning-capabilities-using-deepseek-r1-nim/</link>
+      <description>2025年 2月 28日使用 DeepSeek-R1 NIM 构建具有专家推理功能的 AI 智能体AI 智能体 正在通过实现流程自动化、优化决策制定和简化操作来改变业务运营。其有效性取决于专家推理，从而实现更明智的规划和高效执行。2 MIN READ</description>
+    </item>
+    <item>
+      <title>借助 Databricks Pixels 2.0 和 MONAI 加速医学影像 AI 运营</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/accelerate-medical-imaging-ai-operations-with-databricks-pixels-2-0-and-monai/</link>
+      <description>2025年 2月 28日借助 Databricks Pixels 2.0 和 MONAI 加速医学影像 AI 运营根据世界卫生组织（WHO）的数据，全球每年都会进行 36 亿次医学影像检查，以诊断、监测和治疗各种疾病。3 MIN READ</description>
+    </item>
+    <item>
+      <title>聚焦：NAVER Place 利用 NVIDIA TensorRT-LLM 优化 SLM 基础的垂直服务</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/spotlight-naver-place-optimizes-slm-based-vertical-services-with-nvidia-tensorrt-llm/</link>
+      <description>2025年 2月 28日聚焦：NAVER Place 利用 NVIDIA TensorRT-LLM 优化 SLM 基础的垂直服务NAVER 是一家韩国热门搜索引擎公司，提供 Naver Place ，这是一项基于地理的服务，可提供有关韩国数百万家企业和兴趣点的详细信息。4 MIN READ</description>
+    </item>
+    <item>
+      <title>AI 模型为环保人士提供大规模保护渔业和野生动物的新工具</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/ai-model-offers-conservationists-new-tools-to-protect-fisheries-wildlife-at-scale/</link>
+      <description>2025年 3月 3日AI 模型为环保人士提供大规模保护渔业和野生动物的新工具为了遏制非法捕捞，研究人员发布了一个新的开源 AI 模型，该模型可以准确识别世界上几乎所有的航海船只的行为，包括船只是否可能非法捕捞。1 MIN READ</description>
+    </item>
+    <item>
+      <title>衡量 AI Guardrails 在生成式 AI 应用中的有效性和性能</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/measuring-the-effectiveness-and-performance-of-ai-guardrails-in-generative-ai-applications/</link>
+      <description>2025年 3月 3日衡量 AI Guardrails 在生成式 AI 应用中的有效性和性能保护 AI 智能体和其他对话式 AI 应用，以确保安全、品牌和可靠的行为，这对企业至关重要。3 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 Numba 将 GPU 加速的算法交易模拟提高 100 多倍</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/gpu-accelerate-algorithmic-trading-simulations-by-over-100x-with-numba/</link>
+      <description>2025年 3月 4日使用 Numba 将 GPU 加速的算法交易模拟提高 100 多倍量化开发者需要运行回测模拟，以便从损益（P&amp;L）的角度了解金融算法的表现。统计技术对于根据可能的损益路径可视化算法的可能结果非常重要。3 MIN READ</description>
+    </item>
+    <item>
+      <title>借助 NVIDIA NIM 和 NVIDIA Holoscan for Media 增强直播媒体工作流程效率</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/supercharging-live-media-workflows-with-nvidia-nim-and-nvidia-holoscan-for-media/</link>
+      <description>2025年 3月 5日借助 NVIDIA NIM 和 NVIDIA Holoscan for Media 增强直播媒体工作流程效率NVIDIA Holoscan for Media 是一个 NVIDIA 加速平台，专为多供应商实时制作和 AI 而设计。2 MIN READ</description>
+    </item>
+    <item>
+      <title>借助 NVIDIA Omniverse 将 AR 体验串流到 Apple iPad</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/stream-ar-experiences-to-the-apple-ipad-with-nvidia-omniverse/</link>
+      <description>2025年 3月 5日借助 NVIDIA Omniverse 将 AR 体验串流到 Apple iPad最近在 MWC 巴塞罗那宣布 ，开发者现在可以将使用 NVIDIA Omniverse 构建的增强现实（AR）体验流式传输到 Apple…1 MIN READ</description>
+    </item>
+    <item>
+      <title>在 NVIDIA GPU 上无需更改代码即可加速 Apache Spark ML</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/accelerate-apache-spark-ml-on-nvidia-gpus-with-zero-code-change/</link>
+      <description>2025年 3月 6日在 NVIDIA GPU 上无需更改代码即可加速 Apache Spark ML适用于 Apache Spark 软件插件的 NVIDIA RAPIDS 加速器 开创了零代码更改用户体验 (UX)，2 MIN READ</description>
+    </item>
+    <item>
+      <title>使用重排序微服务提升信息检索准确性和降低成本</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/how-using-a-reranking-microservice-can-improve-accuracy-and-costs-of-information-retrieval/</link>
+      <description>2025年 3月 6日使用重排序微服务提升信息检索准确性和降低成本需要高性能信息检索的应用涉及各个领域，包括搜索引擎、知识管理系统、AI 代理和 AI 助手。这些系统需要准确且计算高效的检索流程，2 MIN READ</description>
+    </item>
+    <item>
       <title>基于 1F1B 的 MoE A2A 通信计算 Overlap</title>
       <link>https://developer.nvidia.com/zh-cn/blog/1f1b-moe-a2a-computing-overlap/</link>
       <description>2025年 3月 7日基于 1F1B 的 MoE A2A 通信计算 Overlap在 MoE 模型的训练过程中，EP rank 之间的 A2A 通信在端到端时间中占据了相当大比重，对训练效率影响很大，3 MIN READ</description>
+    </item>
+    <item>
+      <title>在 NVIDIA DGX 云上确保模型训练可靠性</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/ensuring-reliable-model-training-on-nvidia-dgx-cloud/</link>
+      <description>2025年 3月 10日在 NVIDIA DGX 云上确保模型训练可靠性在大型 GPU 集群上训练 AI 模型给模型构建者带来了重大挑战。随着作业规模的增加，人工干预变得不切实际，1 MIN READ</description>
     </item>
     <item>
       <title>借助 NVIDIA DriveOS LLM SDK 简化自动驾驶汽车应用的 LLM 部署</title>

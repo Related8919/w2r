@@ -6,36 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 12 Mar 2025 01:53:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Mar 2025 01:55:32 +0000</lastBuildDate>
     <item>
-      <title>awesome-foss /awesome-sysadmin</title>
-      <link>https://github.com/awesome-foss/awesome-sysadmin</link>
-      <description>A curated list of amazingly awesome open-source sysadmin resources.</description>
+      <title>thalissonvs /pydoll</title>
+      <link>https://github.com/thalissonvs/pydoll</link>
+      <description>Pydoll is a library for automating chromium-based browsers without a WebDriver, offering realistic interactions. It supports Python's asynchronous features, enhancing performance and enabling event capturing and simultaneous web scraping.</description>
     </item>
     <item>
-      <title>mfontanini /presenterm</title>
-      <link>https://github.com/mfontanini/presenterm</link>
-      <description>A markdown terminal slideshow tool</description>
+      <title>CodePhiliaX /Chat2DB</title>
+      <link>https://github.com/CodePhiliaX/Chat2DB</link>
+      <description>🔥🔥🔥AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.</description>
     </item>
     <item>
-      <title>yuruotong1 /autoMate</title>
-      <link>https://github.com/yuruotong1/autoMate</link>
-      <description>Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves</description>
-    </item>
-    <item>
-      <title>clockworklabs /SpacetimeDB</title>
-      <link>https://github.com/clockworklabs/SpacetimeDB</link>
-      <description>Multiplayer at the speed of light</description>
-    </item>
-    <item>
-      <title>deepseek-ai /awesome-deepseek-integration</title>
-      <link>https://github.com/deepseek-ai/awesome-deepseek-integration</link>
-      <description>Integrate the DeepSeek API into popular softwares</description>
-    </item>
-    <item>
-      <title>kelseyhightower /kubernetes-the-hard-way</title>
-      <link>https://github.com/kelseyhightower/kubernetes-the-hard-way</link>
-      <description>Bootstrap Kubernetes the hard way. No scripts.</description>
+      <title>bytedance /flux</title>
+      <link>https://github.com/bytedance/flux</link>
+      <description>A fast communication-overlapping library for tensor/expert parallelism on GPUs.</description>
     </item>
     <item>
       <title>codecrafters-io /build-your-own-x</title>
@@ -43,9 +28,19 @@
       <description>Master programming by recreating your favorite technologies from scratch.</description>
     </item>
     <item>
-      <title>punkpeye /awesome-mcp-servers</title>
-      <link>https://github.com/punkpeye/awesome-mcp-servers</link>
-      <description>A collection of MCP servers.</description>
+      <title>kamranahmedse /developer-roadmap</title>
+      <link>https://github.com/kamranahmedse/developer-roadmap</link>
+      <description>Interactive roadmaps, guides and other educational content to help developers grow in their careers.</description>
+    </item>
+    <item>
+      <title>EbookFoundation /free-programming-books</title>
+      <link>https://github.com/EbookFoundation/free-programming-books</link>
+      <description>📚 Freely available programming books</description>
+    </item>
+    <item>
+      <title>cdozdil /OptiScaler</title>
+      <link>https://github.com/cdozdil/OptiScaler</link>
+      <description>OptiScaler bridges upscaling/frame gen across GPUs. Supports DLSS2+/XeSS/FSR2+ inputs, replaces native upscalers, enables FSR3 FG on non-FG titles. Supports Nukem mod for DLSSG-to-FSR3 FG.</description>
     </item>
     <item>
       <title>public-apis /public-apis</title>
@@ -53,34 +48,24 @@
       <description>A collective list of free APIs</description>
     </item>
     <item>
-      <title>PatrickJS /awesome-cursorrules</title>
-      <link>https://github.com/PatrickJS/awesome-cursorrules</link>
-      <description>📄 A curated list of awesome .cursorrules files</description>
-    </item>
-    <item>
-      <title>mem0ai /mem0</title>
-      <link>https://github.com/mem0ai/mem0</link>
-      <description>The Memory layer for AI Agents</description>
-    </item>
-    <item>
-      <title>thalissonvs /pydoll</title>
-      <link>https://github.com/thalissonvs/pydoll</link>
-      <description>Pydoll is a library for automating chromium-based browsers without a WebDriver, offering realistic interactions. It supports Python's asynchronous features, enhancing performance and enabling event capturing and simultaneous web scraping.</description>
-    </item>
-    <item>
       <title>browser-use /browser-use</title>
       <link>https://github.com/browser-use/browser-use</link>
       <description>Make websites accessible for AI agents</description>
     </item>
     <item>
-      <title>kamranahmedse /developer-roadmap</title>
-      <link>https://github.com/kamranahmedse/developer-roadmap</link>
-      <description>Interactive roadmaps, guides and other educational content to help developers grow in their careers.</description>
+      <title>microsoft /TypeScript</title>
+      <link>https://github.com/microsoft/TypeScript</link>
+      <description>TypeScript is a superset of JavaScript that compiles to clean JavaScript output.</description>
     </item>
     <item>
-      <title>camel-ai /camel</title>
-      <link>https://github.com/camel-ai/camel</link>
-      <description>🐫 CAMEL: Finding the Scaling Law of Agents. The first and the best multi-agent framework.https://www.camel-ai.org</description>
+      <title>PatrickJS /awesome-cursorrules</title>
+      <link>https://github.com/PatrickJS/awesome-cursorrules</link>
+      <description>📄 A curated list of awesome .cursorrules files</description>
+    </item>
+    <item>
+      <title>freeCodeCamp /freeCodeCamp</title>
+      <link>https://github.com/freeCodeCamp/freeCodeCamp</link>
+      <description>freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.</description>
     </item>
   </channel>
 </rss>

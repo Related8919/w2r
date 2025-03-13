@@ -6,36 +6,26 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 12 Mar 2025 01:54:02 +0000</lastBuildDate>
-    <item>
-      <title>Unico builds cutting-edge IDTech with Spanner Vector Search</title>
-      <link>https://cloud.google.com/blog/products/databases/unico-builds-cutting-edge-idtech-with-spanner-vector-search</link>
-      <description>DatabasesUnico builds cutting-edge IDTech with Spanner Vector SearchBy Gustavo Monti Rocha • 4-minute read</description>
-    </item>
-    <item>
-      <title>GoStringUngarbler: Deobfuscating Strings in Garbled Binaries</title>
-      <link>https://cloud.google.com/blog/topics/threat-intelligence/gostringungarbler-deobfuscating-strings-in-garbled-binaries</link>
-      <description>Threat IntelligenceGoStringUngarbler: Deobfuscating Strings in Garbled BinariesBy Mandiant  • 17-minute read</description>
-    </item>
-    <item>
-      <title>How Google AI is powering innovation at NARA, Air Force, and Aerospace Corporation</title>
-      <link>https://cloud.google.com/blog/topics/public-sector/how-google-ai-is-powering-innovation-at-nara-air-force-and-aerospace-corporation</link>
-      <description>Public SectorHow Google AI is powering innovation at NARA, Air Force, and Aerospace CorporationBy Chris Niehaus • 3-minute read</description>
-    </item>
-    <item>
-      <title>Forrester study reveals significant benefits and cost savings with Spanner</title>
-      <link>https://cloud.google.com/blog/products/databases/forrester-tei-study-on-spanner-shows-benefits-and-cost-savings</link>
-      <description>DatabasesForrester study reveals significant benefits and cost savings with SpannerBy Ashish Chopra • 5-minute read</description>
-    </item>
+    <lastBuildDate>Thu, 13 Mar 2025 01:55:46 +0000</lastBuildDate>
     <item>
       <title>Chrome Enterprise improves work and personal profile separation and brings more advanced protections for unmanaged devices</title>
       <link>https://cloud.google.com/blog/products/chrome-enterprise/chrome-enterprise-improves-work-and-personal-profile-separation-and-brings-more-advanced-protections-for-unmanaged-devices</link>
       <description>Chrome EnterpriseChrome Enterprise improves work and personal profile separation and brings more advanced protections for unmanaged devicesBy Julia Lomakina • 4-minute read</description>
     </item>
     <item>
+      <title>Introducing built-in performance monitoring for Vertex AI Model Garden</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/performance-monitoring-and-alerts-for-gen-ai-models-on-vertex-ai</link>
+      <description>AI &amp; Machine LearningIntroducing built-in performance monitoring for Vertex AI Model GardenBy Kate Brea • 2-minute read</description>
+    </item>
+    <item>
       <title>Get Salesforce insights in BigQuery for unified analytics powered by Datastream</title>
       <link>https://cloud.google.com/blog/products/databases/datastream-extracts-salesforce-data-cloud-data</link>
       <description>DatabasesGet Salesforce insights in BigQuery for unified analytics powered by DatastreamBy Dhirendra Sinha • 3-minute read</description>
+    </item>
+    <item>
+      <title>Guide: Our top four AI Hypercomputer use cases, reference architectures and tutorials</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/ai-hypercomputer-4-use-cases-tutorials-and-guides</link>
+      <description>AI &amp; Machine LearningGuide: Our top four AI Hypercomputer use cases, reference architectures and tutorialsBy Duncan Campbell • 7-minute read</description>
     </item>
     <item>
       <title>What’s new with Google Cloud</title>
@@ -48,14 +38,24 @@
       <description>Threat IntelligenceUnraveling Time: A Deep Dive into TTD Instruction Emulation BugsBy Mandiant  • 14-minute read</description>
     </item>
     <item>
+      <title>Introducing tiered storage for Spanner</title>
+      <link>https://cloud.google.com/blog/products/databases/introducing-tiered-storage-for-spanner</link>
+      <description>DatabasesIntroducing tiered storage for SpannerBy Matthew Muckloo • 4-minute read</description>
+    </item>
+    <item>
       <title>5 ways ChromeOS uplevels the experience for Microsoft 365</title>
       <link>https://cloud.google.com/blog/products/chrome-enterprise/5-ways-chromeos-uplevels-the-experience-for-microsoft-365</link>
       <description>Chrome Enterprise5 ways ChromeOS uplevels the experience for Microsoft 365By Marcus Koehler • 3-minute read</description>
     </item>
     <item>
-      <title>How Google Cloud measures its climate impact through Life Cycle Assessment (LCA)</title>
-      <link>https://cloud.google.com/blog/topics/sustainability/google-cloud-measures-its-climate-impact-through-life-cycle-assessment</link>
-      <description>SustainabilityHow Google Cloud measures its climate impact through Life Cycle Assessment (LCA)By Malcolm Hegeman • 3-minute read</description>
+      <title>Ghost in the Router: China-Nexus Espionage Actor UNC3886 Targets Juniper Routers</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/china-nexus-espionage-targets-juniper-routers</link>
+      <description>Threat IntelligenceGhost in the Router: China-Nexus Espionage Actor UNC3886 Targets Juniper RoutersBy Mandiant  • 41-minute read</description>
+    </item>
+    <item>
+      <title>Announcing Gemma 3 on Vertex AI</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/announcing-gemma-3-on-vertex-ai</link>
+      <description>AI &amp; Machine LearningAnnouncing Gemma 3 on Vertex AIBy Ivan Nardini • 6-minute read</description>
     </item>
   </channel>
 </rss>

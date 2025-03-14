@@ -6,41 +6,31 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 13 Mar 2025 01:55:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Mar 2025 01:53:04 +0000</lastBuildDate>
     <item>
-      <title>thalissonvs /pydoll</title>
-      <link>https://github.com/thalissonvs/pydoll</link>
-      <description>Pydoll is a library for automating chromium-based browsers without a WebDriver, offering realistic interactions. It supports Python's asynchronous features, enhancing performance and enabling event capturing and simultaneous web scraping.</description>
+      <title>awesome-foss /awesome-sysadmin</title>
+      <link>https://github.com/awesome-foss/awesome-sysadmin</link>
+      <description>A curated list of amazingly awesome open-source sysadmin resources.</description>
     </item>
     <item>
-      <title>CodePhiliaX /Chat2DB</title>
-      <link>https://github.com/CodePhiliaX/Chat2DB</link>
-      <description>🔥🔥🔥AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.</description>
+      <title>microsoft /RD-Agent</title>
+      <link>https://github.com/microsoft/RD-Agent</link>
+      <description>Research and development (R&amp;D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&amp;D are mainly focused on data and models. We are committed to automating these high-value generic R&amp;D processes through our open source R&amp;D automation tool RD-Agent, which lets AI drive data-driven AI.</description>
     </item>
     <item>
-      <title>bytedance /flux</title>
-      <link>https://github.com/bytedance/flux</link>
-      <description>A fast communication-overlapping library for tensor/expert parallelism on GPUs.</description>
+      <title>huggingface /lerobot</title>
+      <link>https://github.com/huggingface/lerobot</link>
+      <description>🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning</description>
     </item>
     <item>
-      <title>codecrafters-io /build-your-own-x</title>
-      <link>https://github.com/codecrafters-io/build-your-own-x</link>
-      <description>Master programming by recreating your favorite technologies from scratch.</description>
+      <title>xpipe-io /xpipe</title>
+      <link>https://github.com/xpipe-io/xpipe</link>
+      <description>Access your entire server infrastructure from your local desktop</description>
     </item>
     <item>
-      <title>kamranahmedse /developer-roadmap</title>
-      <link>https://github.com/kamranahmedse/developer-roadmap</link>
-      <description>Interactive roadmaps, guides and other educational content to help developers grow in their careers.</description>
-    </item>
-    <item>
-      <title>EbookFoundation /free-programming-books</title>
-      <link>https://github.com/EbookFoundation/free-programming-books</link>
-      <description>📚 Freely available programming books</description>
-    </item>
-    <item>
-      <title>cdozdil /OptiScaler</title>
-      <link>https://github.com/cdozdil/OptiScaler</link>
-      <description>OptiScaler bridges upscaling/frame gen across GPUs. Supports DLSS2+/XeSS/FSR2+ inputs, replaces native upscalers, enables FSR3 FG on non-FG titles. Supports Nukem mod for DLSSG-to-FSR3 FG.</description>
+      <title>YaLTeR /niri</title>
+      <link>https://github.com/YaLTeR/niri</link>
+      <description>A scrollable-tiling Wayland compositor.</description>
     </item>
     <item>
       <title>public-apis /public-apis</title>
@@ -48,9 +38,19 @@
       <description>A collective list of free APIs</description>
     </item>
     <item>
-      <title>browser-use /browser-use</title>
-      <link>https://github.com/browser-use/browser-use</link>
-      <description>Make websites accessible for AI agents</description>
+      <title>AgentOps-AI /agentops</title>
+      <link>https://github.com/AgentOps-AI/agentops</link>
+      <description>Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including OpenAI Agents SDK, CrewAI, Langchain, Autogen, AG2, and CamelAI</description>
+    </item>
+    <item>
+      <title>eosphoros-ai /DB-GPT</title>
+      <link>https://github.com/eosphoros-ai/DB-GPT</link>
+      <description>AI Native Data App Development framework with AWEL(Agentic Workflow Expression Language) and Agents</description>
+    </item>
+    <item>
+      <title>JackHopkins /factorio-learning-environment</title>
+      <link>https://github.com/JackHopkins/factorio-learning-environment</link>
+      <description>A non-saturating, open-ended environment for evaluating LLMs in Factorio</description>
     </item>
     <item>
       <title>microsoft /TypeScript</title>
@@ -58,14 +58,14 @@
       <description>TypeScript is a superset of JavaScript that compiles to clean JavaScript output.</description>
     </item>
     <item>
-      <title>PatrickJS /awesome-cursorrules</title>
-      <link>https://github.com/PatrickJS/awesome-cursorrules</link>
-      <description>📄 A curated list of awesome .cursorrules files</description>
-    </item>
-    <item>
       <title>freeCodeCamp /freeCodeCamp</title>
       <link>https://github.com/freeCodeCamp/freeCodeCamp</link>
       <description>freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.</description>
+    </item>
+    <item>
+      <title>johnbean393 /Sidekick</title>
+      <link>https://github.com/johnbean393/Sidekick</link>
+      <description>A native macOS app that allows users to chat with a local LLM that can respond with information from files, folders and websites on your Mac without installing any other software. Powered by llama.cpp.</description>
     </item>
   </channel>
 </rss>

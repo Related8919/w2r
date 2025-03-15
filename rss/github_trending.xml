@@ -6,36 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 14 Mar 2025 01:53:04 +0000</lastBuildDate>
-    <item>
-      <title>awesome-foss /awesome-sysadmin</title>
-      <link>https://github.com/awesome-foss/awesome-sysadmin</link>
-      <description>A curated list of amazingly awesome open-source sysadmin resources.</description>
-    </item>
+    <lastBuildDate>Sat, 15 Mar 2025 01:52:27 +0000</lastBuildDate>
     <item>
       <title>microsoft /RD-Agent</title>
       <link>https://github.com/microsoft/RD-Agent</link>
       <description>Research and development (R&amp;D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&amp;D are mainly focused on data and models. We are committed to automating these high-value generic R&amp;D processes through our open source R&amp;D automation tool RD-Agent, which lets AI drive data-driven AI.</description>
-    </item>
-    <item>
-      <title>huggingface /lerobot</title>
-      <link>https://github.com/huggingface/lerobot</link>
-      <description>🤗 LeRobot: Making AI for Robotics more accessible with end-to-end learning</description>
-    </item>
-    <item>
-      <title>xpipe-io /xpipe</title>
-      <link>https://github.com/xpipe-io/xpipe</link>
-      <description>Access your entire server infrastructure from your local desktop</description>
-    </item>
-    <item>
-      <title>YaLTeR /niri</title>
-      <link>https://github.com/YaLTeR/niri</link>
-      <description>A scrollable-tiling Wayland compositor.</description>
-    </item>
-    <item>
-      <title>public-apis /public-apis</title>
-      <link>https://github.com/public-apis/public-apis</link>
-      <description>A collective list of free APIs</description>
     </item>
     <item>
       <title>AgentOps-AI /agentops</title>
@@ -43,14 +18,14 @@
       <description>Python SDK for AI agent monitoring, LLM cost tracking, benchmarking, and more. Integrates with most LLMs and agent frameworks including OpenAI Agents SDK, CrewAI, Langchain, Autogen, AG2, and CamelAI</description>
     </item>
     <item>
-      <title>eosphoros-ai /DB-GPT</title>
-      <link>https://github.com/eosphoros-ai/DB-GPT</link>
-      <description>AI Native Data App Development framework with AWEL(Agentic Workflow Expression Language) and Agents</description>
+      <title>kern /filepizza</title>
+      <link>https://github.com/kern/filepizza</link>
+      <description>🍕 Peer-to-peer file transfers in your browser</description>
     </item>
     <item>
-      <title>JackHopkins /factorio-learning-environment</title>
-      <link>https://github.com/JackHopkins/factorio-learning-environment</link>
-      <description>A non-saturating, open-ended environment for evaluating LLMs in Factorio</description>
+      <title>yuaotian /go-cursor-help</title>
+      <link>https://github.com/yuaotian/go-cursor-help</link>
+      <description>解决Cursor在免费订阅期间出现以下提示的问题: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.</description>
     </item>
     <item>
       <title>microsoft /TypeScript</title>
@@ -58,14 +33,34 @@
       <description>TypeScript is a superset of JavaScript that compiles to clean JavaScript output.</description>
     </item>
     <item>
+      <title>YaLTeR /niri</title>
+      <link>https://github.com/YaLTeR/niri</link>
+      <description>A scrollable-tiling Wayland compositor.</description>
+    </item>
+    <item>
+      <title>hpcaitech /Open-Sora</title>
+      <link>https://github.com/hpcaitech/Open-Sora</link>
+      <description>Open-Sora: Democratizing Efficient Video Production for All</description>
+    </item>
+    <item>
+      <title>openai /openai-python</title>
+      <link>https://github.com/openai/openai-python</link>
+      <description>The official Python library for the OpenAI API</description>
+    </item>
+    <item>
+      <title>glanceapp /glance</title>
+      <link>https://github.com/glanceapp/glance</link>
+      <description>A self-hosted dashboard that puts all your feeds in one place</description>
+    </item>
+    <item>
       <title>freeCodeCamp /freeCodeCamp</title>
       <link>https://github.com/freeCodeCamp/freeCodeCamp</link>
       <description>freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.</description>
     </item>
     <item>
-      <title>johnbean393 /Sidekick</title>
-      <link>https://github.com/johnbean393/Sidekick</link>
-      <description>A native macOS app that allows users to chat with a local LLM that can respond with information from files, folders and websites on your Mac without installing any other software. Powered by llama.cpp.</description>
+      <title>xpipe-io /xpipe</title>
+      <link>https://github.com/xpipe-io/xpipe</link>
+      <description>Access your entire server infrastructure from your local desktop</description>
     </item>
   </channel>
 </rss>

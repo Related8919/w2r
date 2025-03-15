@@ -6,7 +6,12 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 14 Mar 2025 01:53:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Mar 2025 01:52:41 +0000</lastBuildDate>
+    <item>
+      <title>Introducing built-in performance monitoring for Vertex AI Model Garden</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/performance-monitoring-and-alerts-for-gen-ai-models-on-vertex-ai</link>
+      <description>AI &amp; Machine LearningIntroducing built-in performance monitoring for Vertex AI Model GardenBy Kate Brea • 2-minute read</description>
+    </item>
     <item>
       <title>Get Salesforce insights in BigQuery for unified analytics powered by Datastream</title>
       <link>https://cloud.google.com/blog/products/databases/datastream-extracts-salesforce-data-cloud-data</link>
@@ -16,16 +21,6 @@
       <title>Guide: Our top four AI Hypercomputer use cases, reference architectures and tutorials</title>
       <link>https://cloud.google.com/blog/products/ai-machine-learning/ai-hypercomputer-4-use-cases-tutorials-and-guides</link>
       <description>AI &amp; Machine LearningGuide: Our top four AI Hypercomputer use cases, reference architectures and tutorialsBy Duncan Campbell • 7-minute read</description>
-    </item>
-    <item>
-      <title>What’s new with Google Cloud</title>
-      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
-      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 6-minute read</description>
-    </item>
-    <item>
-      <title>Unraveling Time: A Deep Dive into TTD Instruction Emulation Bugs</title>
-      <link>https://cloud.google.com/blog/topics/threat-intelligence/ttd-instruction-emulation-bugs</link>
-      <description>Threat IntelligenceUnraveling Time: A Deep Dive into TTD Instruction Emulation BugsBy Mandiant  • 14-minute read</description>
     </item>
     <item>
       <title>Introducing tiered storage for Spanner</title>
@@ -40,7 +35,7 @@
     <item>
       <title>Ghost in the Router: China-Nexus Espionage Actor UNC3886 Targets Juniper Routers</title>
       <link>https://cloud.google.com/blog/topics/threat-intelligence/china-nexus-espionage-targets-juniper-routers</link>
-      <description>Threat IntelligenceGhost in the Router: China-Nexus Espionage Actor UNC3886 Targets Juniper RoutersBy Mandiant  • 41-minute read</description>
+      <description>Threat IntelligenceGhost in the Router: China-Nexus Espionage Actor UNC3886 Targets Juniper RoutersBy Mandiant  • 42-minute read</description>
     </item>
     <item>
       <title>Companies achieve stronger results with Customer Engagement Suite, plus new AI-enabled capabilities</title>
@@ -56,6 +51,11 @@
       <title>10 months to innovation: Definity's leap to data agility with BigQuery and Vertex AI</title>
       <link>https://cloud.google.com/blog/products/databases/definitys-leap-to-data-agility-with-bigquery-and-vertex-ai</link>
       <description>Databases10 months to innovation: Definity's leap to data agility with BigQuery and Vertex AIBy Nitin Mathur • 6-minute read</description>
+    </item>
+    <item>
+      <title>What’s new with Google Cloud</title>
+      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
+      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 8-minute read</description>
     </item>
   </channel>
 </rss>

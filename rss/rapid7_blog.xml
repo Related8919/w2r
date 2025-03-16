@@ -6,24 +6,7 @@
     <description>Latest posts from https://www.rapid7.com/blog/posts/. follow.is: feedId:91495107664785408+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 14 Mar 2025 01:53:03 +0000</lastBuildDate>
-    <item>
-      <title>Metasploit Weekly Wrap-Up 02/21/2025</title>
-      <link>https://www.rapid7.com/blog/post/2025/02/21/metasploit-weekly-wrap-up-46/</link>
-      <description>BeyondTrust exploit + fetch payload updates
-This Metasploit release includes an exploit module that chains two
-vulnerabilities, one exploited in the wild by APT groups and another one, a
-0-day discovered by Rapid7
- during
-the vulnerability analysis. This week's release also includes a significant
-enhancement to Metasploit's fetch payloads, which now support PPC, MIPS and ARM 
-architectures. This allows the payloads to be use</description>
-    </item>
-    <item>
-      <title>Under The Hoodie: The Pen Test Diaries</title>
-      <link>https://www.rapid7.com/blog/post/2025/02/24/under-the-hoodie-the-pen-test-diaries/</link>
-      <description>Welcome to Under the Hoodie, where we share stories straight from the frontlines of ethical hacking. Below are real accounts from our testers, revealing just how easy it can be to break into supposedly secure environments.</description>
-    </item>
+    <lastBuildDate>Sun, 16 Mar 2025 02:01:28 +0000</lastBuildDate>
     <item>
       <title>Command Platform Innovations Eliminate Data Blind Spots Through Complete Visibility and Context-Driven Risk Prioritization</title>
       <link>https://www.rapid7.com/blog/post/2025/02/25/command-platform-innovations-eliminate-data-blind-spots-through-complete-visibility-and-context-driven-risk-prioritization/</link>
@@ -66,7 +49,7 @@ using CVE-20</description>
       <description>Swami Nathan has a track record of building new teams from scratch for global companies. Through his experiences, he’s identified what it takes to build not just any team, but a high performing team that drives innovation for business while propelling career trajectories for those who take the ride.</description>
     </item>
     <item>
-      <title>Multiple zero-day vulnerabilities in Broadcom VMware ESXi and other products</title>
+      <title>Multiple Zero-Day Vulnerabilities in Broadcom VMware ESXi and Other Products</title>
       <link>https://www.rapid7.com/blog/post/2025/03/04/etr-multiple-zero-day-vulnerabilities-in-broadcom-vmware-esxi-and-other-products/</link>
       <description>On Tuesday, March 4, 2025, Broadcom published a critical security advisory (VMSA-2025-0004) on 3 new zero-day vulnerabilities affecting multiple VMware products, including ESXi, Workstation, and Fusion.</description>
     </item>
@@ -110,6 +93,27 @@ cr</description>
       <title>Explaining External Network Assessment with Vector Command</title>
       <link>https://www.rapid7.com/blog/post/2025/03/12/explaining-external-network-assessment-with-vector-command/</link>
       <description>Learn how external network assessment works within Vector Command, Rapid7’s continuous red team managed service.</description>
+    </item>
+    <item>
+      <title>Unlocking MSSP Success: Why CTEM is Critical</title>
+      <link>https://www.rapid7.com/blog/post/2025/03/14/unlocking-mssp-success-why-ctem-is-critical/</link>
+      <description>Discover why Continuous Threat Exposure Management (CTEM) is a game-changer for MSSPs. Learn how a proactive, risk-based security approach helps service providers stand out, reduce exposure, and deliver measurable security improvements.</description>
+    </item>
+    <item>
+      <title>Metasploit Weekly Wrap-Up 03/14/25</title>
+      <link>https://www.rapid7.com/blog/post/2025/03/14/metasploit-weekly-wrap-up-03-14-25/</link>
+      <description>New module content (1)
+InvoiceShelf unauthenticated PHP Deserialization Vulnerability
+Authors: Mickaël Benassouli, Rémi Matasse, and h00die-gr3y
+
+Type: Exploit
+Pull request: #19950  
+contributed by h00die-gr3y 
+Path: linux/http/invoiceshelf_unauth_rce_cve_2024_55556
+AttackerKB reference: CVE-2024-55556
+
+
+Descripti</description>
     </item>
   </channel>
 </rss>

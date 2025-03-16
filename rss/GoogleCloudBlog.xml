@@ -6,7 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 15 Mar 2025 01:52:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Mar 2025 02:01:43 +0000</lastBuildDate>
     <item>
       <title>Introducing built-in performance monitoring for Vertex AI Model Garden</title>
       <link>https://cloud.google.com/blog/products/ai-machine-learning/performance-monitoring-and-alerts-for-gen-ai-models-on-vertex-ai</link>

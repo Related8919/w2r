@@ -6,11 +6,51 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 16 Mar 2025 02:01:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Mar 2025 01:57:48 +0000</lastBuildDate>
+    <item>
+      <title>uutils /coreutils</title>
+      <link>https://github.com/uutils/coreutils</link>
+      <description>Cross-platform Rust rewrite of the GNU coreutils</description>
+    </item>
+    <item>
+      <title>RIP-Comm /sossoldi</title>
+      <link>https://github.com/RIP-Comm/sossoldi</link>
+      <description>"Sossoldi" is a wealth management / personal finance / Net Worth tracking app, made with Flutter.</description>
+    </item>
+    <item>
+      <title>milanm /DevOps-Roadmap</title>
+      <link>https://github.com/milanm/DevOps-Roadmap</link>
+      <description>DevOps Roadmap for 2025. with learning resources</description>
+    </item>
+    <item>
+      <title>hpcaitech /Open-Sora</title>
+      <link>https://github.com/hpcaitech/Open-Sora</link>
+      <description>Open-Sora: Democratizing Efficient Video Production for All</description>
+    </item>
+    <item>
+      <title>tj-actions /changed-files</title>
+      <link>https://github.com/tj-actions/changed-files</link>
+      <description>Github action to retrieve all (added, copied, modified, deleted, renamed, type changed, unmerged, unknown) files and directories.</description>
+    </item>
+    <item>
+      <title>TanStack /form</title>
+      <link>https://github.com/TanStack/form</link>
+      <description>🤖 Headless, performant, and type-safe form state management for TS/JS, React, Vue, Angular, Solid, and Lit.</description>
+    </item>
     <item>
       <title>langchain-ai /ollama-deep-researcher</title>
       <link>https://github.com/langchain-ai/ollama-deep-researcher</link>
       <description>Fully local web research and report writing assistant</description>
+    </item>
+    <item>
+      <title>ai-christianson /RA.Aid</title>
+      <link>https://github.com/ai-christianson/RA.Aid</link>
+      <description>Develop software autonomously.</description>
+    </item>
+    <item>
+      <title>calcom /cal.com</title>
+      <link>https://github.com/calcom/cal.com</link>
+      <description>Scheduling infrastructure for absolutely everyone.</description>
     </item>
     <item>
       <title>freeCodeCamp /freeCodeCamp</title>
@@ -18,34 +58,9 @@
       <description>freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.</description>
     </item>
     <item>
-      <title>nvim-lualine /lualine.nvim</title>
-      <link>https://github.com/nvim-lualine/lualine.nvim</link>
-      <description>A blazing fast and easy to configure neovim statusline plugin written in pure lua.</description>
-    </item>
-    <item>
-      <title>microsoft /RD-Agent</title>
-      <link>https://github.com/microsoft/RD-Agent</link>
-      <description>Research and development (R&amp;D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&amp;D are mainly focused on data and models. We are committed to automating these high-value generic R&amp;D processes through our open source R&amp;D automation tool RD-Agent, which lets AI drive data-driven AI.</description>
-    </item>
-    <item>
-      <title>openai /openai-python</title>
-      <link>https://github.com/openai/openai-python</link>
-      <description>The official Python library for the OpenAI API</description>
-    </item>
-    <item>
-      <title>ethereum /solidity</title>
-      <link>https://github.com/ethereum/solidity</link>
-      <description>Solidity, the Smart Contract Programming Language</description>
-    </item>
-    <item>
       <title>yuaotian /go-cursor-help</title>
       <link>https://github.com/yuaotian/go-cursor-help</link>
       <description>解决Cursor在免费订阅期间出现以下提示的问题: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.</description>
-    </item>
-    <item>
-      <title>glanceapp /glance</title>
-      <link>https://github.com/glanceapp/glance</link>
-      <description>A self-hosted dashboard that puts all your feeds in one place</description>
     </item>
     <item>
       <title>xpipe-io /xpipe</title>
@@ -53,9 +68,9 @@
       <description>Access your entire server infrastructure from your local desktop</description>
     </item>
     <item>
-      <title>hpcaitech /Open-Sora</title>
-      <link>https://github.com/hpcaitech/Open-Sora</link>
-      <description>Open-Sora: Democratizing Efficient Video Production for All</description>
+      <title>glanceapp /glance</title>
+      <link>https://github.com/glanceapp/glance</link>
+      <description>A self-hosted dashboard that puts all your feeds in one place</description>
     </item>
   </channel>
 </rss>

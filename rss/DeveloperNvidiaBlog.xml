@@ -6,7 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 17 Mar 2025 01:58:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Mar 2025 01:56:07 +0000</lastBuildDate>
     <item>
       <title>图像和视频理解的视觉语言模型提示工程实践指南</title>
       <link>https://developer.nvidia.com/zh-cn/blog/vision-language-model-prompt-engineering-guide-for-image-and-video-understanding/</link>

@@ -6,26 +6,11 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 17 Mar 2025 01:58:02 +0000</lastBuildDate>
-    <item>
-      <title>Introducing built-in performance monitoring for Vertex AI Model Garden</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/performance-monitoring-and-alerts-for-gen-ai-models-on-vertex-ai</link>
-      <description>AI &amp; Machine LearningIntroducing built-in performance monitoring for Vertex AI Model GardenBy Kate Brea • 2-minute read</description>
-    </item>
-    <item>
-      <title>Get Salesforce insights in BigQuery for unified analytics powered by Datastream</title>
-      <link>https://cloud.google.com/blog/products/databases/datastream-extracts-salesforce-data-cloud-data</link>
-      <description>DatabasesGet Salesforce insights in BigQuery for unified analytics powered by DatastreamBy Dhirendra Sinha • 3-minute read</description>
-    </item>
-    <item>
-      <title>Guide: Our top four AI Hypercomputer use cases, reference architectures and tutorials</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/ai-hypercomputer-4-use-cases-tutorials-and-guides</link>
-      <description>AI &amp; Machine LearningGuide: Our top four AI Hypercomputer use cases, reference architectures and tutorialsBy Duncan Campbell • 7-minute read</description>
-    </item>
+    <lastBuildDate>Tue, 18 Mar 2025 01:55:57 +0000</lastBuildDate>
     <item>
       <title>Introducing tiered storage for Spanner</title>
       <link>https://cloud.google.com/blog/products/databases/introducing-tiered-storage-for-spanner</link>
-      <description>DatabasesIntroducing tiered storage for SpannerBy Matthew Muckloo • 4-minute read</description>
+      <description>DatabasesIntroducing tiered storage for SpannerBy Matthew Mucklo • 4-minute read</description>
     </item>
     <item>
       <title>5 ways ChromeOS uplevels the experience for Microsoft 365</title>
@@ -36,6 +21,11 @@
       <title>Ghost in the Router: China-Nexus Espionage Actor UNC3886 Targets Juniper Routers</title>
       <link>https://cloud.google.com/blog/topics/threat-intelligence/china-nexus-espionage-targets-juniper-routers</link>
       <description>Threat IntelligenceGhost in the Router: China-Nexus Espionage Actor UNC3886 Targets Juniper RoutersBy Mandiant  • 42-minute read</description>
+    </item>
+    <item>
+      <title>How to deploy serverless AI with Gemma 3 on Cloud Run</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/serverless-ai-with-gemma-3-on-cloud-run</link>
+      <description>AI &amp; Machine LearningHow to deploy serverless AI with Gemma 3 on Cloud RunBy James Ma • 3-minute read</description>
     </item>
     <item>
       <title>Companies achieve stronger results with Customer Engagement Suite, plus new AI-enabled capabilities</title>
@@ -56,6 +46,16 @@
       <title>What’s new with Google Cloud</title>
       <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
       <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 8-minute read</description>
+    </item>
+    <item>
+      <title>BitM Up! Session Stealing in Seconds Using the Browser-in-the-Middle Technique</title>
+      <link>https://cloud.google.com/blog/topics/threat-intelligence/session-stealing-browser-in-the-middle</link>
+      <description>Threat IntelligenceBitM Up! Session Stealing in Seconds Using the Browser-in-the-Middle TechniqueBy Mandiant  • 8-minute read</description>
+    </item>
+    <item>
+      <title>Gemini in Workspace apps and the Gemini app are first to achieve FedRAMP High authorization</title>
+      <link>https://cloud.google.com/blog/topics/public-sector/gemini-in-workspace-apps-and-the-gemini-app-are-first-to-achieve-fedramp-high-authorization</link>
+      <description>Public SectorGemini in Workspace apps and the Gemini app are first to achieve FedRAMP High authorizationBy Alice Rison • 3-minute read</description>
     </item>
   </channel>
 </rss>

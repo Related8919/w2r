@@ -6,7 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 14 Apr 2025 02:05:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Apr 2025 02:02:09 +0000</lastBuildDate>
     <item>
       <title>工业设施数字孪生中的机器人仿真</title>
       <link>https://developer.nvidia.com/zh-cn/blog/simulating-robots-in-industrial-facility-digital-twins/</link>

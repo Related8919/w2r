@@ -6,16 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 25 Apr 2025 02:02:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Apr 2025 01:57:32 +0000</lastBuildDate>
     <item>
-      <title>tensorflow /tensorflow</title>
-      <link>https://github.com/tensorflow/tensorflow</link>
-      <description>An Open Source Machine Learning Framework for Everyone</description>
+      <title>FortAwesome /Font-Awesome</title>
+      <link>https://github.com/FortAwesome/Font-Awesome</link>
+      <description>The iconic SVG, font, and CSS toolkit</description>
     </item>
     <item>
-      <title>facebookresearch /dinov2</title>
-      <link>https://github.com/facebookresearch/dinov2</link>
-      <description>PyTorch code and models for the DINOv2 self-supervised learning method.</description>
+      <title>Stirling-Tools /Stirling-PDF</title>
+      <link>https://github.com/Stirling-Tools/Stirling-PDF</link>
+      <description>#1 Locally hosted web application that allows you to perform various operations on PDF files</description>
+    </item>
+    <item>
+      <title>BerriAI /litellm</title>
+      <link>https://github.com/BerriAI/litellm</link>
+      <description>Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]</description>
+    </item>
+    <item>
+      <title>tracel-ai /burn</title>
+      <link>https://github.com/tracel-ai/burn</link>
+      <description>Burn is a next generation Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.</description>
     </item>
     <item>
       <title>khoj-ai /khoj</title>
@@ -23,9 +33,34 @@
       <description>Your AI second brain. Self-hostable. Get answers from the web or your docs. Build custom agents, schedule automations, do deep research. Turn any online or local LLM into your personal, autonomous AI (gpt, claude, gemini, llama, qwen, mistral). Get started - free.</description>
     </item>
     <item>
-      <title>jujumilk3 /leaked-system-prompts</title>
-      <link>https://github.com/jujumilk3/leaked-system-prompts</link>
-      <description>Collection of leaked system prompts</description>
+      <title>joho /godotenv</title>
+      <link>https://github.com/joho/godotenv</link>
+      <description>A Go port of Ruby's dotenv library (Loads environment variables from .env files)</description>
+    </item>
+    <item>
+      <title>drawdb-io /drawdb</title>
+      <link>https://github.com/drawdb-io/drawdb</link>
+      <description>Free, simple, and intuitive online database diagram editor and SQL generator.</description>
+    </item>
+    <item>
+      <title>aquasecurity /trivy</title>
+      <link>https://github.com/aquasecurity/trivy</link>
+      <description>Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more</description>
+    </item>
+    <item>
+      <title>getzep /graphiti</title>
+      <link>https://github.com/getzep/graphiti</link>
+      <description>Build Real-Time Knowledge Graphs for AI Agents</description>
+    </item>
+    <item>
+      <title>fastrepl /hyprnote</title>
+      <link>https://github.com/fastrepl/hyprnote</link>
+      <description>AI Notepad for back-to-back meetings. Local-first &amp; Extensible.</description>
+    </item>
+    <item>
+      <title>go-playground /validator</title>
+      <link>https://github.com/go-playground/validator</link>
+      <description>💯Go Struct and Field validation, including Cross Field, Cross Struct, Map, Slice and Array diving</description>
     </item>
     <item>
       <title>microsoft /generative-ai-for-beginners</title>
@@ -33,14 +68,19 @@
       <description>21 Lessons, Get Started Building with Generative AI 🔗https://microsoft.github.io/generative-ai-for-beginners/</description>
     </item>
     <item>
+      <title>bregman-arie /devops-exercises</title>
+      <link>https://github.com/bregman-arie/devops-exercises</link>
+      <description>Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions</description>
+    </item>
+    <item>
       <title>cloudcommunity /Free-Certifications</title>
       <link>https://github.com/cloudcommunity/Free-Certifications</link>
       <description>A curated list of free courses with certifications. Also available athttps://free-certifications.com/</description>
     </item>
     <item>
-      <title>RVC-Boss /GPT-SoVITS</title>
-      <link>https://github.com/RVC-Boss/GPT-SoVITS</link>
-      <description>1 min voice data can also be used to train a good TTS model! (few shot voice cloning)</description>
+      <title>jujumilk3 /leaked-system-prompts</title>
+      <link>https://github.com/jujumilk3/leaked-system-prompts</link>
+      <description>Collection of leaked system prompts</description>
     </item>
     <item>
       <title>kortix-ai /suna</title>

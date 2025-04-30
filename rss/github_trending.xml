@@ -6,7 +6,57 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 29 Apr 2025 02:02:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Apr 2025 02:02:55 +0000</lastBuildDate>
+    <item>
+      <title>lobehub /lobe-chat</title>
+      <link>https://github.com/lobehub/lobe-chat</link>
+      <description>🤯 Lobe Chat - an open-source, modern-design AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Ollama / DeepSeek / Qwen), Knowledge Base (file upload / knowledge management / RAG ), Multi-Modals (Plugins/Artifacts) and Thinking. One-click FREE deployment of your private ChatGPT/ Claude / DeepSeek application.</description>
+    </item>
+    <item>
+      <title>jujumilk3 /leaked-system-prompts</title>
+      <link>https://github.com/jujumilk3/leaked-system-prompts</link>
+      <description>Collection of leaked system prompts</description>
+    </item>
+    <item>
+      <title>carykh /jes</title>
+      <link>https://github.com/carykh/jes</link>
+      <description>Jelly Evolution Simulator</description>
+    </item>
+    <item>
+      <title>codecrafters-io /build-your-own-x</title>
+      <link>https://github.com/codecrafters-io/build-your-own-x</link>
+      <description>Master programming by recreating your favorite technologies from scratch.</description>
+    </item>
+    <item>
+      <title>simular-ai /Agent-S</title>
+      <link>https://github.com/simular-ai/Agent-S</link>
+      <description>Agent S: an open agentic framework that uses computers like a human</description>
+    </item>
+    <item>
+      <title>juspay /hyperswitch</title>
+      <link>https://github.com/juspay/hyperswitch</link>
+      <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
+    </item>
+    <item>
+      <title>jackfrued /Python-100-Days</title>
+      <link>https://github.com/jackfrued/Python-100-Days</link>
+      <description>Python - 100天从新手到大师</description>
+    </item>
+    <item>
+      <title>LadybirdBrowser /ladybird</title>
+      <link>https://github.com/LadybirdBrowser/ladybird</link>
+      <description>Truly independent web browser</description>
+    </item>
+    <item>
+      <title>practical-tutorials /project-based-learning</title>
+      <link>https://github.com/practical-tutorials/project-based-learning</link>
+      <description>Curated list of project-based tutorials</description>
+    </item>
+    <item>
+      <title>microsoft /generative-ai-for-beginners</title>
+      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
+      <description>21 Lessons, Get Started Building with Generative AI 🔗https://microsoft.github.io/generative-ai-for-beginners/</description>
+    </item>
     <item>
       <title>0xk1h0 /ChatGPT_DAN</title>
       <link>https://github.com/0xk1h0/ChatGPT_DAN</link>
@@ -16,76 +66,6 @@
       <title>bgstaal /multipleWindow3dScene</title>
       <link>https://github.com/bgstaal/multipleWindow3dScene</link>
       <description>A quick example of how one can "synchronize" a 3d scene across multiple windows using three.js and localStorage</description>
-    </item>
-    <item>
-      <title>nikitabobko /AeroSpace</title>
-      <link>https://github.com/nikitabobko/AeroSpace</link>
-      <description>AeroSpace is an i3-like tiling window manager for macOS</description>
-    </item>
-    <item>
-      <title>rowboatlabs /rowboat</title>
-      <link>https://github.com/rowboatlabs/rowboat</link>
-      <description>AI-powered multi-agent builder</description>
-    </item>
-    <item>
-      <title>lobehub /lobe-chat</title>
-      <link>https://github.com/lobehub/lobe-chat</link>
-      <description>🤯 Lobe Chat - an open-source, modern-design AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Ollama / DeepSeek / Qwen), Knowledge Base (file upload / knowledge management / RAG ), Multi-Modals (Plugins/Artifacts) and Thinking. One-click FREE deployment of your private ChatGPT/ Claude / DeepSeek application.</description>
-    </item>
-    <item>
-      <title>patchy631 /ai-engineering-hub</title>
-      <link>https://github.com/patchy631/ai-engineering-hub</link>
-      <description>In-depth tutorials on LLMs, RAGs and real-world AI agent applications.</description>
-    </item>
-    <item>
-      <title>codecrafters-io /build-your-own-x</title>
-      <link>https://github.com/codecrafters-io/build-your-own-x</link>
-      <description>Master programming by recreating your favorite technologies from scratch.</description>
-    </item>
-    <item>
-      <title>langgenius /dify</title>
-      <link>https://github.com/langgenius/dify</link>
-      <description>Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.</description>
-    </item>
-    <item>
-      <title>trimstray /the-book-of-secret-knowledge</title>
-      <link>https://github.com/trimstray/the-book-of-secret-knowledge</link>
-      <description>A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.</description>
-    </item>
-    <item>
-      <title>kortix-ai /suna</title>
-      <link>https://github.com/kortix-ai/suna</link>
-      <description>Suna - Open Source Generalist AI Agent</description>
-    </item>
-    <item>
-      <title>Tencent /Hunyuan3D-2</title>
-      <link>https://github.com/Tencent/Hunyuan3D-2</link>
-      <description>High-Resolution 3D Assets Generation with Large Scale Hunyuan3D Diffusion Models.</description>
-    </item>
-    <item>
-      <title>microsoft /generative-ai-for-beginners</title>
-      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
-      <description>21 Lessons, Get Started Building with Generative AI 🔗https://microsoft.github.io/generative-ai-for-beginners/</description>
-    </item>
-    <item>
-      <title>drawdb-io /drawdb</title>
-      <link>https://github.com/drawdb-io/drawdb</link>
-      <description>Free, simple, and intuitive online database diagram editor and SQL generator.</description>
-    </item>
-    <item>
-      <title>jujumilk3 /leaked-system-prompts</title>
-      <link>https://github.com/jujumilk3/leaked-system-prompts</link>
-      <description>Collection of leaked system prompts</description>
-    </item>
-    <item>
-      <title>getzep /graphiti</title>
-      <link>https://github.com/getzep/graphiti</link>
-      <description>Build Real-Time Knowledge Graphs for AI Agents</description>
-    </item>
-    <item>
-      <title>lapce /lapce</title>
-      <link>https://github.com/lapce/lapce</link>
-      <description>Lightning-fast and Powerful Code Editor written in Rust</description>
     </item>
     <item>
       <title>hacksider /Deep-Live-Cam</title>

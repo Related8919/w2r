@@ -6,41 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 02 May 2025 02:03:35 +0000</lastBuildDate>
-    <item>
-      <title>dotnet /eShop</title>
-      <link>https://github.com/dotnet/eShop</link>
-      <description>A reference .NET application implementing an eCommerce site</description>
-    </item>
-    <item>
-      <title>littlefs-project /littlefs</title>
-      <link>https://github.com/littlefs-project/littlefs</link>
-      <description>A little fail-safe filesystem designed for microcontrollers</description>
-    </item>
-    <item>
-      <title>quarkusio /quarkus</title>
-      <link>https://github.com/quarkusio/quarkus</link>
-      <description>Quarkus: Supersonic Subatomic Java.</description>
-    </item>
+    <lastBuildDate>Sat, 03 May 2025 02:00:45 +0000</lastBuildDate>
     <item>
       <title>TheRobotStudio /SO-ARM100</title>
       <link>https://github.com/TheRobotStudio/SO-ARM100</link>
       <description>Standard Open Arm 100</description>
     </item>
     <item>
-      <title>alibaba /MNN</title>
-      <link>https://github.com/alibaba/MNN</link>
-      <description>MNN is a blazing fast, lightweight deep learning framework, battle-tested by business-critical use cases in Alibaba. Full multimodal LLM Android App:[MNN-LLM-Android](./apps/Android/MnnLlmChat/README.md)</description>
+      <title>aws /aws-sdk-java-v2</title>
+      <link>https://github.com/aws/aws-sdk-java-v2</link>
+      <description>The official AWS SDK for Java - Version 2</description>
     </item>
     <item>
-      <title>hzpt-inet-club /english-note</title>
-      <link>https://github.com/hzpt-inet-club/english-note</link>
-      <description>从0开始学习英语语法</description>
+      <title>bitcoin /bitcoin</title>
+      <link>https://github.com/bitcoin/bitcoin</link>
+      <description>Bitcoin Core integration/staging tree</description>
     </item>
     <item>
-      <title>transformerlab /transformerlab-app</title>
-      <link>https://github.com/transformerlab/transformerlab-app</link>
-      <description>Open Source Application for Advanced LLM Engineering: interact, train, fine-tune, and evaluate large language models on your own computer.</description>
+      <title>langwatch /langwatch</title>
+      <link>https://github.com/langwatch/langwatch</link>
+      <description>The open LLM Ops platform - Traces, Analytics, Evaluations, Datasets and Prompt Optimization ✨</description>
     </item>
     <item>
       <title>open-webui /open-webui</title>
@@ -48,39 +33,34 @@
       <description>User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</description>
     </item>
     <item>
-      <title>daytonaio /daytona</title>
-      <link>https://github.com/daytonaio/daytona</link>
-      <description>Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code</description>
+      <title>donnemartin /system-design-primer</title>
+      <link>https://github.com/donnemartin/system-design-primer</link>
+      <description>Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.</description>
     </item>
     <item>
-      <title>patchy631 /ai-engineering-hub</title>
-      <link>https://github.com/patchy631/ai-engineering-hub</link>
-      <description>In-depth tutorials on LLMs, RAGs and real-world AI agent applications.</description>
+      <title>QwenLM /Qwen-Agent</title>
+      <link>https://github.com/QwenLM/Qwen-Agent</link>
+      <description>Agent framework and applications built upon Qwen&gt;=2.0, featuring Function Calling, Code Interpreter, RAG, and Chrome extension.</description>
     </item>
     <item>
-      <title>zed-industries /zed</title>
-      <link>https://github.com/zed-industries/zed</link>
-      <description>Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.</description>
+      <title>DiceDB /dice</title>
+      <link>https://github.com/DiceDB/dice</link>
+      <description>DiceDB is an open-source, fast, reactive, in-memory database optimized for modern hardware.</description>
     </item>
     <item>
-      <title>louislam /uptime-kuma</title>
-      <link>https://github.com/louislam/uptime-kuma</link>
-      <description>A fancy self-hosted monitoring tool</description>
+      <title>cloudflare /agents</title>
+      <link>https://github.com/cloudflare/agents</link>
+      <description>Build and deploy AI Agents on Cloudflare</description>
     </item>
     <item>
-      <title>QwenLM /Qwen3</title>
-      <link>https://github.com/QwenLM/Qwen3</link>
-      <description>Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.</description>
+      <title>unionlabs /union</title>
+      <link>https://github.com/unionlabs/union</link>
+      <description>The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.</description>
     </item>
     <item>
-      <title>simular-ai /Agent-S</title>
-      <link>https://github.com/simular-ai/Agent-S</link>
-      <description>Agent S: an open agentic framework that uses computers like a human</description>
-    </item>
-    <item>
-      <title>jackfrued /Python-100-Days</title>
-      <link>https://github.com/jackfrued/Python-100-Days</link>
-      <description>Python - 100天从新手到大师</description>
+      <title>Atmosphere-NX /Atmosphere</title>
+      <link>https://github.com/Atmosphere-NX/Atmosphere</link>
+      <description>Atmosphère is a work-in-progress customized firmware for the Nintendo Switch.</description>
     </item>
     <item>
       <title>juspay /hyperswitch</title>
@@ -88,14 +68,19 @@
       <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
     </item>
     <item>
-      <title>teableio /teable</title>
-      <link>https://github.com/teableio/teable</link>
-      <description>✨ The Next Gen Airtable Alternative: No-Code Postgres</description>
+      <title>wonderwhy-er /DesktopCommanderMCP</title>
+      <link>https://github.com/wonderwhy-er/DesktopCommanderMCP</link>
+      <description>This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities</description>
     </item>
     <item>
-      <title>QwenLM /Qwen-Agent</title>
-      <link>https://github.com/QwenLM/Qwen-Agent</link>
-      <description>Agent framework and applications built upon Qwen&gt;=2.0, featuring Function Calling, Code Interpreter, RAG, and Chrome extension.</description>
+      <title>MODSetter /SurfSense</title>
+      <link>https://github.com/MODSetter/SurfSense</link>
+      <description>Open Source Alternative to NotebookLM / Perplexity / Glean, connected to external sources such as search engines (Tavily, Linkup), Slack, Linear, Notion, YouTube, GitHub and more.</description>
+    </item>
+    <item>
+      <title>aipotheosis-labs /aci</title>
+      <link>https://github.com/aipotheosis-labs/aci</link>
+      <description>ACI.dev is the open source platform that connects your AI agents to 600+ tool integrations with multi-tenant auth, granular permissions, and access through direct function calling or a unified MCP server.</description>
     </item>
     <item>
       <title>hacksider /Deep-Live-Cam</title>

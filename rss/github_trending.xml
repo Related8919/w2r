@@ -6,31 +6,41 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 03 May 2025 02:00:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 May 2025 02:12:46 +0000</lastBuildDate>
     <item>
-      <title>TheRobotStudio /SO-ARM100</title>
-      <link>https://github.com/TheRobotStudio/SO-ARM100</link>
-      <description>Standard Open Arm 100</description>
+      <title>sunnypilot /sunnypilot</title>
+      <link>https://github.com/sunnypilot/sunnypilot</link>
+      <description>sunnypilot is an open source driver assistance system. sunnypilot offers the user a unique driving experience for over 300 supported car makes and models with modified behaviors of driving assist engagements. sunnypilot complies with the safety policy from comma.ai's openpilot as accurately as possible.</description>
     </item>
     <item>
-      <title>aws /aws-sdk-java-v2</title>
-      <link>https://github.com/aws/aws-sdk-java-v2</link>
-      <description>The official AWS SDK for Java - Version 2</description>
+      <title>littlefs-project /littlefs</title>
+      <link>https://github.com/littlefs-project/littlefs</link>
+      <description>A little fail-safe filesystem designed for microcontrollers</description>
     </item>
     <item>
-      <title>bitcoin /bitcoin</title>
-      <link>https://github.com/bitcoin/bitcoin</link>
-      <description>Bitcoin Core integration/staging tree</description>
+      <title>htr-tech /zphisher</title>
+      <link>https://github.com/htr-tech/zphisher</link>
+      <description>An automated phishing tool with 30+ templates. This Tool is made for educational purpose only ! Author will not be responsible for any misuse of this toolkit !</description>
     </item>
     <item>
-      <title>langwatch /langwatch</title>
-      <link>https://github.com/langwatch/langwatch</link>
-      <description>The open LLM Ops platform - Traces, Analytics, Evaluations, Datasets and Prompt Optimization ✨</description>
+      <title>filamentphp /filament</title>
+      <link>https://github.com/filamentphp/filament</link>
+      <description>A collection of beautiful full-stack components for Laravel. The perfect starting point for your next app. Using Livewire, Alpine.js and Tailwind CSS.</description>
     </item>
     <item>
-      <title>open-webui /open-webui</title>
-      <link>https://github.com/open-webui/open-webui</link>
-      <description>User-friendly AI Interface (Supports Ollama, OpenAI API, ...)</description>
+      <title>alacritty /alacritty</title>
+      <link>https://github.com/alacritty/alacritty</link>
+      <description>A cross-platform, OpenGL terminal emulator.</description>
+    </item>
+    <item>
+      <title>pydantic /pydantic</title>
+      <link>https://github.com/pydantic/pydantic</link>
+      <description>Data validation using Python type hints</description>
+    </item>
+    <item>
+      <title>alibaba /MNN</title>
+      <link>https://github.com/alibaba/MNN</link>
+      <description>MNN is a blazing fast, lightweight deep learning framework, battle-tested by business-critical use cases in Alibaba. Full multimodal LLM Android App:[MNN-LLM-Android](./apps/Android/MnnLlmChat/README.md)</description>
     </item>
     <item>
       <title>donnemartin /system-design-primer</title>
@@ -38,24 +48,44 @@
       <description>Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.</description>
     </item>
     <item>
-      <title>QwenLM /Qwen-Agent</title>
-      <link>https://github.com/QwenLM/Qwen-Agent</link>
-      <description>Agent framework and applications built upon Qwen&gt;=2.0, featuring Function Calling, Code Interpreter, RAG, and Chrome extension.</description>
+      <title>Mail-0 /Zero</title>
+      <link>https://github.com/Mail-0/Zero</link>
+      <description>Experience email the way you want with 0 – the first open source email app that puts your privacy and safety first. Join the discord:https://discord.gg/0email</description>
     </item>
     <item>
-      <title>DiceDB /dice</title>
-      <link>https://github.com/DiceDB/dice</link>
-      <description>DiceDB is an open-source, fast, reactive, in-memory database optimized for modern hardware.</description>
+      <title>jj-vcs /jj</title>
+      <link>https://github.com/jj-vcs/jj</link>
+      <description>A Git-compatible VCS that is both simple and powerful</description>
     </item>
     <item>
-      <title>cloudflare /agents</title>
-      <link>https://github.com/cloudflare/agents</link>
-      <description>Build and deploy AI Agents on Cloudflare</description>
+      <title>koreader /koreader</title>
+      <link>https://github.com/koreader/koreader</link>
+      <description>An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices</description>
     </item>
     <item>
-      <title>unionlabs /union</title>
-      <link>https://github.com/unionlabs/union</link>
-      <description>The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.</description>
+      <title>juanfont /headscale</title>
+      <link>https://github.com/juanfont/headscale</link>
+      <description>An open source, self-hosted implementation of the Tailscale control server</description>
+    </item>
+    <item>
+      <title>jackfrued /Python-100-Days</title>
+      <link>https://github.com/jackfrued/Python-100-Days</link>
+      <description>Python - 100天从新手到大师</description>
+    </item>
+    <item>
+      <title>ChrisTitusTech /winutil</title>
+      <link>https://github.com/ChrisTitusTech/winutil</link>
+      <description>Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates</description>
+    </item>
+    <item>
+      <title>aws /aws-sdk-java-v2</title>
+      <link>https://github.com/aws/aws-sdk-java-v2</link>
+      <description>The official AWS SDK for Java - Version 2</description>
+    </item>
+    <item>
+      <title>hacksider /Deep-Live-Cam</title>
+      <link>https://github.com/hacksider/Deep-Live-Cam</link>
+      <description>real time face swap and one-click video deepfake with only a single image</description>
     </item>
     <item>
       <title>Atmosphere-NX /Atmosphere</title>
@@ -63,29 +93,14 @@
       <description>Atmosphère is a work-in-progress customized firmware for the Nintendo Switch.</description>
     </item>
     <item>
-      <title>juspay /hyperswitch</title>
-      <link>https://github.com/juspay/hyperswitch</link>
-      <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
-    </item>
-    <item>
-      <title>wonderwhy-er /DesktopCommanderMCP</title>
-      <link>https://github.com/wonderwhy-er/DesktopCommanderMCP</link>
-      <description>This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities</description>
-    </item>
-    <item>
-      <title>MODSetter /SurfSense</title>
-      <link>https://github.com/MODSetter/SurfSense</link>
-      <description>Open Source Alternative to NotebookLM / Perplexity / Glean, connected to external sources such as search engines (Tavily, Linkup), Slack, Linear, Notion, YouTube, GitHub and more.</description>
+      <title>unionlabs /union</title>
+      <link>https://github.com/unionlabs/union</link>
+      <description>The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.</description>
     </item>
     <item>
       <title>aipotheosis-labs /aci</title>
       <link>https://github.com/aipotheosis-labs/aci</link>
       <description>ACI.dev is the open source platform that connects your AI agents to 600+ tool integrations with multi-tenant auth, granular permissions, and access through direct function calling or a unified MCP server.</description>
-    </item>
-    <item>
-      <title>hacksider /Deep-Live-Cam</title>
-      <link>https://github.com/hacksider/Deep-Live-Cam</link>
-      <description>real time face swap and one-click video deepfake with only a single image</description>
     </item>
   </channel>
 </rss>

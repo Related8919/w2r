@@ -6,91 +6,56 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 04 May 2025 02:12:46 +0000</lastBuildDate>
-    <item>
-      <title>sunnypilot /sunnypilot</title>
-      <link>https://github.com/sunnypilot/sunnypilot</link>
-      <description>sunnypilot is an open source driver assistance system. sunnypilot offers the user a unique driving experience for over 300 supported car makes and models with modified behaviors of driving assist engagements. sunnypilot complies with the safety policy from comma.ai's openpilot as accurately as possible.</description>
-    </item>
-    <item>
-      <title>littlefs-project /littlefs</title>
-      <link>https://github.com/littlefs-project/littlefs</link>
-      <description>A little fail-safe filesystem designed for microcontrollers</description>
-    </item>
-    <item>
-      <title>htr-tech /zphisher</title>
-      <link>https://github.com/htr-tech/zphisher</link>
-      <description>An automated phishing tool with 30+ templates. This Tool is made for educational purpose only ! Author will not be responsible for any misuse of this toolkit !</description>
-    </item>
-    <item>
-      <title>filamentphp /filament</title>
-      <link>https://github.com/filamentphp/filament</link>
-      <description>A collection of beautiful full-stack components for Laravel. The perfect starting point for your next app. Using Livewire, Alpine.js and Tailwind CSS.</description>
-    </item>
-    <item>
-      <title>alacritty /alacritty</title>
-      <link>https://github.com/alacritty/alacritty</link>
-      <description>A cross-platform, OpenGL terminal emulator.</description>
-    </item>
-    <item>
-      <title>pydantic /pydantic</title>
-      <link>https://github.com/pydantic/pydantic</link>
-      <description>Data validation using Python type hints</description>
-    </item>
-    <item>
-      <title>alibaba /MNN</title>
-      <link>https://github.com/alibaba/MNN</link>
-      <description>MNN is a blazing fast, lightweight deep learning framework, battle-tested by business-critical use cases in Alibaba. Full multimodal LLM Android App:[MNN-LLM-Android](./apps/Android/MnnLlmChat/README.md)</description>
-    </item>
-    <item>
-      <title>donnemartin /system-design-primer</title>
-      <link>https://github.com/donnemartin/system-design-primer</link>
-      <description>Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.</description>
-    </item>
-    <item>
-      <title>Mail-0 /Zero</title>
-      <link>https://github.com/Mail-0/Zero</link>
-      <description>Experience email the way you want with 0 – the first open source email app that puts your privacy and safety first. Join the discord:https://discord.gg/0email</description>
-    </item>
-    <item>
-      <title>jj-vcs /jj</title>
-      <link>https://github.com/jj-vcs/jj</link>
-      <description>A Git-compatible VCS that is both simple and powerful</description>
-    </item>
-    <item>
-      <title>koreader /koreader</title>
-      <link>https://github.com/koreader/koreader</link>
-      <description>An ebook reader application supporting PDF, DjVu, EPUB, FB2 and many more formats, running on Cervantes, Kindle, Kobo, PocketBook and Android devices</description>
-    </item>
+    <lastBuildDate>Mon, 05 May 2025 02:07:14 +0000</lastBuildDate>
     <item>
       <title>juanfont /headscale</title>
       <link>https://github.com/juanfont/headscale</link>
       <description>An open source, self-hosted implementation of the Tailscale control server</description>
     </item>
     <item>
-      <title>jackfrued /Python-100-Days</title>
-      <link>https://github.com/jackfrued/Python-100-Days</link>
-      <description>Python - 100天从新手到大师</description>
+      <title>Koenkk /zigbee2mqtt</title>
+      <link>https://github.com/Koenkk/zigbee2mqtt</link>
+      <description>Zigbee 🐝 to MQTT bridge 🌉, get rid of your proprietary Zigbee bridges 🔨</description>
     </item>
     <item>
-      <title>ChrisTitusTech /winutil</title>
-      <link>https://github.com/ChrisTitusTech/winutil</link>
-      <description>Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates</description>
+      <title>EbookFoundation /free-programming-books</title>
+      <link>https://github.com/EbookFoundation/free-programming-books</link>
+      <description>📚 Freely available programming books</description>
     </item>
     <item>
-      <title>aws /aws-sdk-java-v2</title>
-      <link>https://github.com/aws/aws-sdk-java-v2</link>
-      <description>The official AWS SDK for Java - Version 2</description>
+      <title>FreeCAD /FreeCAD</title>
+      <link>https://github.com/FreeCAD/FreeCAD</link>
+      <description>This is the official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.</description>
     </item>
     <item>
-      <title>hacksider /Deep-Live-Cam</title>
-      <link>https://github.com/hacksider/Deep-Live-Cam</link>
-      <description>real time face swap and one-click video deepfake with only a single image</description>
+      <title>Klipper3d /klipper</title>
+      <link>https://github.com/Klipper3d/klipper</link>
+      <description>Klipper is a 3d-printer firmware</description>
     </item>
     <item>
-      <title>Atmosphere-NX /Atmosphere</title>
-      <link>https://github.com/Atmosphere-NX/Atmosphere</link>
-      <description>Atmosphère is a work-in-progress customized firmware for the Nintendo Switch.</description>
+      <title>MODSetter /SurfSense</title>
+      <link>https://github.com/MODSetter/SurfSense</link>
+      <description>Open Source Alternative to NotebookLM / Perplexity / Glean, connected to external sources such as search engines (Tavily, Linkup), Slack, Linear, Notion, YouTube, GitHub and more.</description>
+    </item>
+    <item>
+      <title>nodejs /node</title>
+      <link>https://github.com/nodejs/node</link>
+      <description>Node.js JavaScript runtime ✨🐢🚀✨</description>
+    </item>
+    <item>
+      <title>LadybirdBrowser /ladybird</title>
+      <link>https://github.com/LadybirdBrowser/ladybird</link>
+      <description>Truly independent web browser</description>
+    </item>
+    <item>
+      <title>daytonaio /daytona</title>
+      <link>https://github.com/daytonaio/daytona</link>
+      <description>Daytona is a Secure and Elastic Infrastructure for Running AI-Generated Code</description>
+    </item>
+    <item>
+      <title>BasedHardware /omi</title>
+      <link>https://github.com/BasedHardware/omi</link>
+      <description>AI wearables. Put it on, speak, transcribe, automatically</description>
     </item>
     <item>
       <title>unionlabs /union</title>
@@ -98,9 +63,29 @@
       <description>The trust-minimized, zero-knowledge bridging protocol, designed for censorship resistance, extremely high security, and usage in decentralized finance.</description>
     </item>
     <item>
+      <title>521xueweihan /HelloGitHub</title>
+      <link>https://github.com/521xueweihan/HelloGitHub</link>
+      <description>分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.</description>
+    </item>
+    <item>
+      <title>donnemartin /system-design-primer</title>
+      <link>https://github.com/donnemartin/system-design-primer</link>
+      <description>Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.</description>
+    </item>
+    <item>
       <title>aipotheosis-labs /aci</title>
       <link>https://github.com/aipotheosis-labs/aci</link>
       <description>ACI.dev is the open source platform that connects your AI agents to 600+ tool integrations with multi-tenant auth, granular permissions, and access through direct function calling or a unified MCP server.</description>
+    </item>
+    <item>
+      <title>jj-vcs /jj</title>
+      <link>https://github.com/jj-vcs/jj</link>
+      <description>A Git-compatible VCS that is both simple and powerful</description>
+    </item>
+    <item>
+      <title>hacksider /Deep-Live-Cam</title>
+      <link>https://github.com/hacksider/Deep-Live-Cam</link>
+      <description>real time face swap and one-click video deepfake with only a single image</description>
     </item>
   </channel>
 </rss>

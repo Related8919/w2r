@@ -6,26 +6,16 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 09 May 2025 02:04:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 May 2025 01:59:39 +0000</lastBuildDate>
     <item>
-      <title>rzane /docker2exe</title>
-      <link>https://github.com/rzane/docker2exe</link>
-      <description>Convert a Docker image to an executable</description>
+      <title>heroiclabs /nakama</title>
+      <link>https://github.com/heroiclabs/nakama</link>
+      <description>Distributed server for social and realtime games and apps.</description>
     </item>
     <item>
-      <title>NVIDIA /NeMo</title>
-      <link>https://github.com/NVIDIA/NeMo</link>
-      <description>A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)</description>
-    </item>
-    <item>
-      <title>LazyVim /LazyVim</title>
-      <link>https://github.com/LazyVim/LazyVim</link>
-      <description>Neovim config for the lazy</description>
-    </item>
-    <item>
-      <title>harry0703 /MoneyPrinterTurbo</title>
-      <link>https://github.com/harry0703/MoneyPrinterTurbo</link>
-      <description>利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</description>
+      <title>Lightricks /ComfyUI-LTXVideo</title>
+      <link>https://github.com/Lightricks/ComfyUI-LTXVideo</link>
+      <description>LTX-Video Support for ComfyUI</description>
     </item>
     <item>
       <title>Blaizzy /mlx-audio</title>
@@ -33,14 +23,9 @@
       <description>A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.</description>
     </item>
     <item>
-      <title>LadybirdBrowser /ladybird</title>
-      <link>https://github.com/LadybirdBrowser/ladybird</link>
-      <description>Truly independent web browser</description>
-    </item>
-    <item>
-      <title>MODSetter /SurfSense</title>
-      <link>https://github.com/MODSetter/SurfSense</link>
-      <description>Open Source Alternative to NotebookLM / Perplexity / Glean, connected to external sources such as search engines (Tavily, Linkup), Slack, Linear, Notion, YouTube, GitHub and more.</description>
+      <title>mason-org /mason.nvim</title>
+      <link>https://github.com/mason-org/mason.nvim</link>
+      <description>Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters.</description>
     </item>
     <item>
       <title>zed-industries /zed</title>
@@ -48,9 +33,14 @@
       <description>Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.</description>
     </item>
     <item>
-      <title>521xueweihan /HelloGitHub</title>
-      <link>https://github.com/521xueweihan/HelloGitHub</link>
-      <description>分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.</description>
+      <title>element-plus /element-plus</title>
+      <link>https://github.com/element-plus/element-plus</link>
+      <description>🎉 A Vue.js 3 UI Library made by Element team</description>
+    </item>
+    <item>
+      <title>Lightricks /LTX-Video</title>
+      <link>https://github.com/Lightricks/LTX-Video</link>
+      <description>Official repository for LTX-Video</description>
     </item>
     <item>
       <title>ruanyf /weekly</title>
@@ -58,19 +48,34 @@
       <description>科技爱好者周刊，每周五发布</description>
     </item>
     <item>
-      <title>78 /xiaozhi-esp32</title>
-      <link>https://github.com/78/xiaozhi-esp32</link>
-      <description>Build your own AI friend</description>
+      <title>ultralytics /ultralytics</title>
+      <link>https://github.com/ultralytics/ultralytics</link>
+      <description>Ultralytics YOLO11 🚀</description>
     </item>
     <item>
-      <title>awslabs /agent-squad</title>
-      <link>https://github.com/awslabs/agent-squad</link>
-      <description>Flexible and powerful framework for managing multiple AI agents and handling complex conversations</description>
+      <title>Byaidu /PDFMathTranslate</title>
+      <link>https://github.com/Byaidu/PDFMathTranslate</link>
+      <description>PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero</description>
+    </item>
+    <item>
+      <title>NVIDIA /NeMo</title>
+      <link>https://github.com/NVIDIA/NeMo</link>
+      <description>A scalable generative AI framework built for researchers and developers working on Large Language Models, Multimodal, and Speech AI (Automatic Speech Recognition and Text-to-Speech)</description>
     </item>
     <item>
       <title>GoogleCloudPlatform /kubectl-ai</title>
       <link>https://github.com/GoogleCloudPlatform/kubectl-ai</link>
       <description>AI powered Kubernetes Assistant</description>
+    </item>
+    <item>
+      <title>harry0703 /MoneyPrinterTurbo</title>
+      <link>https://github.com/harry0703/MoneyPrinterTurbo</link>
+      <description>利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</description>
+    </item>
+    <item>
+      <title>longbridge /gpui-component</title>
+      <link>https://github.com/longbridge/gpui-component</link>
+      <description>UI components for building fantastic desktop application by using GPUI.</description>
     </item>
   </channel>
 </rss>

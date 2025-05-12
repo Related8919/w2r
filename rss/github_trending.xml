@@ -6,41 +6,36 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 11 May 2025 02:10:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 May 2025 02:08:39 +0000</lastBuildDate>
+    <item>
+      <title>Blaizzy /mlx-audio</title>
+      <link>https://github.com/Blaizzy/mlx-audio</link>
+      <description>A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.</description>
+    </item>
+    <item>
+      <title>Lightricks /ComfyUI-LTXVideo</title>
+      <link>https://github.com/Lightricks/ComfyUI-LTXVideo</link>
+      <description>LTX-Video Support for ComfyUI</description>
+    </item>
     <item>
       <title>panaversity /learn-agentic-ai</title>
       <link>https://github.com/panaversity/learn-agentic-ai</link>
       <description>Learn Agentic AI using Dapr Agentic Cloud Ascent (DACA) Design Pattern and Agent-Native Cloud Technologies: OpenAI Agents SDK, Memory, MCP, A2A, Knowledge Graphs, Dapr, Rancher Desktop, and Kubernetes.</description>
     </item>
     <item>
-      <title>longbridge /gpui-component</title>
-      <link>https://github.com/longbridge/gpui-component</link>
-      <description>UI components for building fantastic desktop application by using GPUI.</description>
+      <title>solidtime-io /solidtime</title>
+      <link>https://github.com/solidtime-io/solidtime</link>
+      <description>Modern open-source time-tracking app</description>
     </item>
     <item>
-      <title>punkpeye /awesome-mcp-servers</title>
-      <link>https://github.com/punkpeye/awesome-mcp-servers</link>
-      <description>A collection of MCP servers.</description>
+      <title>Mail-0 /Zero</title>
+      <link>https://github.com/Mail-0/Zero</link>
+      <description>Experience email the way you want with 0 – the first open source email app that puts your privacy and safety first. Join the discord:https://discord.gg/0email</description>
     </item>
     <item>
-      <title>Lightricks /LTX-Video</title>
-      <link>https://github.com/Lightricks/LTX-Video</link>
-      <description>Official repository for LTX-Video</description>
-    </item>
-    <item>
-      <title>wolfpld /tracy</title>
-      <link>https://github.com/wolfpld/tracy</link>
-      <description>Frame profiler</description>
-    </item>
-    <item>
-      <title>shane-mason /FieldStation42</title>
-      <link>https://github.com/shane-mason/FieldStation42</link>
-      <description>Broadcast TV simulator</description>
-    </item>
-    <item>
-      <title>Peterande /D-FINE</title>
-      <link>https://github.com/Peterande/D-FINE</link>
-      <description>D-FINE: Redefine Regression Task of DETRs as Fine-grained Distribution Refinement [ICLR 2025 Spotlight]</description>
+      <title>kamranahmedse /developer-roadmap</title>
+      <link>https://github.com/kamranahmedse/developer-roadmap</link>
+      <description>Interactive roadmaps, guides and other educational content to help developers grow in their careers.</description>
     </item>
     <item>
       <title>zed-industries /zed</title>
@@ -48,9 +43,24 @@
       <description>Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.</description>
     </item>
     <item>
-      <title>Blaizzy /mlx-audio</title>
-      <link>https://github.com/Blaizzy/mlx-audio</link>
-      <description>A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.</description>
+      <title>isledecomp /isle</title>
+      <link>https://github.com/isledecomp/isle</link>
+      <description>A functionally complete decompilation of LEGO Island (1997)</description>
+    </item>
+    <item>
+      <title>ggml-org /llama.cpp</title>
+      <link>https://github.com/ggml-org/llama.cpp</link>
+      <description>LLM inference in C/C++</description>
+    </item>
+    <item>
+      <title>longbridge /gpui-component</title>
+      <link>https://github.com/longbridge/gpui-component</link>
+      <description>UI components for building fantastic desktop application by using GPUI.</description>
+    </item>
+    <item>
+      <title>Lightricks /LTX-Video</title>
+      <link>https://github.com/Lightricks/LTX-Video</link>
+      <description>Official repository for LTX-Video</description>
     </item>
     <item>
       <title>harry0703 /MoneyPrinterTurbo</title>

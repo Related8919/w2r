@@ -6,56 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 14 May 2025 02:04:33 +0000</lastBuildDate>
-    <item>
-      <title>pytorch /torchtitan</title>
-      <link>https://github.com/pytorch/torchtitan</link>
-      <description>A PyTorch native library for large-scale model training</description>
-    </item>
-    <item>
-      <title>Lightricks /LTX-Video</title>
-      <link>https://github.com/Lightricks/LTX-Video</link>
-      <description>Official repository for LTX-Video</description>
-    </item>
-    <item>
-      <title>nvim-lua /kickstart.nvim</title>
-      <link>https://github.com/nvim-lua/kickstart.nvim</link>
-      <description>A launch point for your personal nvim configuration</description>
-    </item>
-    <item>
-      <title>kamranahmedse /developer-roadmap</title>
-      <link>https://github.com/kamranahmedse/developer-roadmap</link>
-      <description>Interactive roadmaps, guides and other educational content to help developers grow in their careers.</description>
-    </item>
-    <item>
-      <title>aquasecurity /trivy</title>
-      <link>https://github.com/aquasecurity/trivy</link>
-      <description>Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more</description>
-    </item>
-    <item>
-      <title>comet-ml /opik</title>
-      <link>https://github.com/comet-ml/opik</link>
-      <description>Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.</description>
-    </item>
-    <item>
-      <title>Lightricks /ComfyUI-LTXVideo</title>
-      <link>https://github.com/Lightricks/ComfyUI-LTXVideo</link>
-      <description>LTX-Video Support for ComfyUI</description>
-    </item>
-    <item>
-      <title>microsoft /BitNet</title>
-      <link>https://github.com/microsoft/BitNet</link>
-      <description>Official inference framework for 1-bit LLMs</description>
-    </item>
+    <lastBuildDate>Thu, 15 May 2025 02:03:38 +0000</lastBuildDate>
     <item>
       <title>mlabonne /llm-course</title>
       <link>https://github.com/mlabonne/llm-course</link>
       <description>Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.</description>
     </item>
     <item>
-      <title>alibaba /spring-ai-alibaba</title>
-      <link>https://github.com/alibaba/spring-ai-alibaba</link>
-      <description>Agentic AI Framework for Java Developers</description>
+      <title>xaoyaoo /PyWxDump</title>
+      <link>https://github.com/xaoyaoo/PyWxDump</link>
+      <description>获取微信信息；读取数据库，本地查看聊天记录并导出为csv、html等格式用于AI训练，自动回复等。支持多账户信息获取，支持所有微信版本。</description>
+    </item>
+    <item>
+      <title>ahmedkhaleel2004 /gitdiagram</title>
+      <link>https://github.com/ahmedkhaleel2004/gitdiagram</link>
+      <description>Free, simple, fast interactive diagrams for any GitHub repository</description>
+    </item>
+    <item>
+      <title>xming521 /WeClone</title>
+      <link>https://github.com/xming521/WeClone</link>
+      <description>🚀从聊天记录创造数字分身的一站式解决方案💡 使用聊天记录微调大语言模型，让大模型有“那味儿”，并绑定到聊天机器人，实现自己的数字分身。 数字克隆/数字分身/数字永生/LLM/聊天机器人/LoRA</description>
     </item>
     <item>
       <title>harry0703 /MoneyPrinterTurbo</title>
@@ -63,9 +33,29 @@
       <description>利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</description>
     </item>
     <item>
-      <title>xming521 /WeClone</title>
-      <link>https://github.com/xming521/WeClone</link>
-      <description>🚀从聊天记录创造数字分身的一站式解决方案💡 使用微信聊天记录微调大语言模型，让大模型有“那味儿”，并绑定到聊天机器人，实现自己的数字分身。 数字克隆/数字分身/数字永生/声音克隆/LLM/大语言模型/微信聊天机器人/LoRA</description>
+      <title>ossu /computer-science</title>
+      <link>https://github.com/ossu/computer-science</link>
+      <description>🎓 Path to a free self-taught education in Computer Science!</description>
+    </item>
+    <item>
+      <title>alibaba /spring-ai-alibaba</title>
+      <link>https://github.com/alibaba/spring-ai-alibaba</link>
+      <description>Agentic AI Framework for Java Developers</description>
+    </item>
+    <item>
+      <title>airweave-ai /airweave</title>
+      <link>https://github.com/airweave-ai/airweave</link>
+      <description>Airweave lets agents search any app</description>
+    </item>
+    <item>
+      <title>mem0ai /mem0</title>
+      <link>https://github.com/mem0ai/mem0</link>
+      <description>Memory for AI Agents; SOTA in AI Agent Memory; Announcing OpenMemory MCP - local and secure memory management.</description>
+    </item>
+    <item>
+      <title>microsoft /BitNet</title>
+      <link>https://github.com/microsoft/BitNet</link>
+      <description>Official inference framework for 1-bit LLMs</description>
     </item>
   </channel>
 </rss>

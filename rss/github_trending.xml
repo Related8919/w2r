@@ -6,36 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 15 May 2025 02:03:38 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 May 2025 02:06:33 +0000</lastBuildDate>
     <item>
-      <title>mlabonne /llm-course</title>
-      <link>https://github.com/mlabonne/llm-course</link>
-      <description>Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.</description>
-    </item>
-    <item>
-      <title>xaoyaoo /PyWxDump</title>
-      <link>https://github.com/xaoyaoo/PyWxDump</link>
-      <description>获取微信信息；读取数据库，本地查看聊天记录并导出为csv、html等格式用于AI训练，自动回复等。支持多账户信息获取，支持所有微信版本。</description>
-    </item>
-    <item>
-      <title>ahmedkhaleel2004 /gitdiagram</title>
-      <link>https://github.com/ahmedkhaleel2004/gitdiagram</link>
-      <description>Free, simple, fast interactive diagrams for any GitHub repository</description>
-    </item>
-    <item>
-      <title>xming521 /WeClone</title>
-      <link>https://github.com/xming521/WeClone</link>
-      <description>🚀从聊天记录创造数字分身的一站式解决方案💡 使用聊天记录微调大语言模型，让大模型有“那味儿”，并绑定到聊天机器人，实现自己的数字分身。 数字克隆/数字分身/数字永生/LLM/聊天机器人/LoRA</description>
-    </item>
-    <item>
-      <title>harry0703 /MoneyPrinterTurbo</title>
-      <link>https://github.com/harry0703/MoneyPrinterTurbo</link>
-      <description>利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</description>
-    </item>
-    <item>
-      <title>ossu /computer-science</title>
-      <link>https://github.com/ossu/computer-science</link>
-      <description>🎓 Path to a free self-taught education in Computer Science!</description>
+      <title>trycua /cua</title>
+      <link>https://github.com/trycua/cua</link>
+      <description>c/ua is the Docker Container for Computer-Use AI Agents.</description>
     </item>
     <item>
       <title>alibaba /spring-ai-alibaba</title>
@@ -43,9 +18,39 @@
       <description>Agentic AI Framework for Java Developers</description>
     </item>
     <item>
+      <title>happycola233 /tchMaterial-parser</title>
+      <link>https://github.com/happycola233/tchMaterial-parser</link>
+      <description>国家中小学智慧教育平台 电子课本下载工具，帮助您从智慧教育平台中获取电子课本的 PDF 文件网址并进行下载，让您更方便地获取课本内容。</description>
+    </item>
+    <item>
+      <title>facebookresearch /fairchem</title>
+      <link>https://github.com/facebookresearch/fairchem</link>
+      <description>FAIR Chemistry's library of machine learning methods for chemistry</description>
+    </item>
+    <item>
+      <title>mlabonne /llm-course</title>
+      <link>https://github.com/mlabonne/llm-course</link>
+      <description>Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.</description>
+    </item>
+    <item>
       <title>airweave-ai /airweave</title>
       <link>https://github.com/airweave-ai/airweave</link>
       <description>Airweave lets agents search any app</description>
+    </item>
+    <item>
+      <title>overleaf /overleaf</title>
+      <link>https://github.com/overleaf/overleaf</link>
+      <description>A web-based collaborative LaTeX editor</description>
+    </item>
+    <item>
+      <title>mikumifa /biliTickerBuy</title>
+      <link>https://github.com/mikumifa/biliTickerBuy</link>
+      <description>b站 会员购 抢票 漫展 脚本 bilibili 图形化 纯接口 验证码预演练习</description>
+    </item>
+    <item>
+      <title>microsoft /BitNet</title>
+      <link>https://github.com/microsoft/BitNet</link>
+      <description>Official inference framework for 1-bit LLMs</description>
     </item>
     <item>
       <title>mem0ai /mem0</title>
@@ -53,9 +58,14 @@
       <description>Memory for AI Agents; SOTA in AI Agent Memory; Announcing OpenMemory MCP - local and secure memory management.</description>
     </item>
     <item>
-      <title>microsoft /BitNet</title>
-      <link>https://github.com/microsoft/BitNet</link>
-      <description>Official inference framework for 1-bit LLMs</description>
+      <title>xming521 /WeClone</title>
+      <link>https://github.com/xming521/WeClone</link>
+      <description>🚀从聊天记录创造数字分身的一站式解决方案💡 使用聊天记录微调大语言模型，让大模型有“那味儿”，并绑定到聊天机器人，实现自己的数字分身。 数字克隆/数字分身/数字永生/LLM/聊天机器人/LoRA</description>
+    </item>
+    <item>
+      <title>TapXWorld /ChinaTextbook</title>
+      <link>https://github.com/TapXWorld/ChinaTextbook</link>
+      <description>所有小初高、大学PDF教材。</description>
     </item>
   </channel>
 </rss>

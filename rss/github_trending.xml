@@ -6,51 +6,16 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 17 May 2025 02:02:30 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 May 2025 02:12:53 +0000</lastBuildDate>
     <item>
-      <title>virattt /ai-hedge-fund</title>
-      <link>https://github.com/virattt/ai-hedge-fund</link>
-      <description>An AI Hedge Fund Team</description>
+      <title>CopilotKit /CopilotKit</title>
+      <link>https://github.com/CopilotKit/CopilotKit</link>
+      <description>React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic last-mile 🪁</description>
     </item>
     <item>
-      <title>xaoyaoo /PyWxDump</title>
-      <link>https://github.com/xaoyaoo/PyWxDump</link>
-      <description>获取微信信息；读取数据库，本地查看聊天记录并导出为csv、html等格式用于AI训练，自动回复等。支持多账户信息获取，支持所有微信版本。</description>
-    </item>
-    <item>
-      <title>alibaba /spring-ai-alibaba</title>
-      <link>https://github.com/alibaba/spring-ai-alibaba</link>
-      <description>Agentic AI Framework for Java Developers</description>
-    </item>
-    <item>
-      <title>punkpeye /awesome-mcp-servers</title>
-      <link>https://github.com/punkpeye/awesome-mcp-servers</link>
-      <description>A collection of MCP servers.</description>
-    </item>
-    <item>
-      <title>trycua /cua</title>
-      <link>https://github.com/trycua/cua</link>
-      <description>c/ua is the Docker Container for Computer-Use AI Agents.</description>
-    </item>
-    <item>
-      <title>n8n-io /n8n</title>
-      <link>https://github.com/n8n-io/n8n</link>
-      <description>Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.</description>
-    </item>
-    <item>
-      <title>microsoft /PowerToys</title>
-      <link>https://github.com/microsoft/PowerToys</link>
-      <description>Windows system utilities to maximize productivity</description>
-    </item>
-    <item>
-      <title>git-bug /git-bug</title>
-      <link>https://github.com/git-bug/git-bug</link>
-      <description>Distributed, offline-first bug tracker embedded in git</description>
-    </item>
-    <item>
-      <title>happycola233 /tchMaterial-parser</title>
-      <link>https://github.com/happycola233/tchMaterial-parser</link>
-      <description>国家中小学智慧教育平台 电子课本下载工具，帮助您从智慧教育平台中获取电子课本的 PDF 文件网址并进行下载，让您更方便地获取课本内容。</description>
+      <title>google /perfetto</title>
+      <link>https://github.com/google/perfetto</link>
+      <description>Performance instrumentation and tracing for Android, Linux and Chrome</description>
     </item>
     <item>
       <title>neondatabase /neon</title>
@@ -58,14 +23,64 @@
       <description>Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.</description>
     </item>
     <item>
-      <title>mem0ai /mem0</title>
-      <link>https://github.com/mem0ai/mem0</link>
-      <description>Memory for AI Agents; SOTA in AI Agent Memory; Announcing OpenMemory MCP - local and secure memory management.</description>
+      <title>itdoginfo /podkop</title>
+      <link>https://github.com/itdoginfo/podkop</link>
+      <description>Dev podkop</description>
+    </item>
+    <item>
+      <title>facebookresearch /fairchem</title>
+      <link>https://github.com/facebookresearch/fairchem</link>
+      <description>FAIR Chemistry's library of machine learning methods for chemistry</description>
+    </item>
+    <item>
+      <title>th-ch /youtube-music</title>
+      <link>https://github.com/th-ch/youtube-music</link>
+      <description>YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)</description>
+    </item>
+    <item>
+      <title>Capsize-Games /airunner</title>
+      <link>https://github.com/Capsize-Games/airunner</link>
+      <description>Offline inference engine for art, real-time voice conversations, LLM powered chatbots and automated workflows</description>
+    </item>
+    <item>
+      <title>n8n-io /n8n</title>
+      <link>https://github.com/n8n-io/n8n</link>
+      <description>Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.</description>
     </item>
     <item>
       <title>xming521 /WeClone</title>
       <link>https://github.com/xming521/WeClone</link>
       <description>🚀从聊天记录创造数字分身的一站式解决方案💡 使用聊天记录微调大语言模型，让大模型有“那味儿”，并绑定到聊天机器人，实现自己的数字分身。 数字克隆/数字分身/数字永生/LLM/聊天机器人/LoRA</description>
+    </item>
+    <item>
+      <title>trycua /cua</title>
+      <link>https://github.com/trycua/cua</link>
+      <description>c/ua is the Docker Container for Computer-Use AI Agents.</description>
+    </item>
+    <item>
+      <title>happycola233 /tchMaterial-parser</title>
+      <link>https://github.com/happycola233/tchMaterial-parser</link>
+      <description>国家中小学智慧教育平台 电子课本下载工具，帮助您从智慧教育平台中获取电子课本的 PDF 文件网址并进行下载，让您更方便地获取课本内容。</description>
+    </item>
+    <item>
+      <title>f /awesome-chatgpt-prompts</title>
+      <link>https://github.com/f/awesome-chatgpt-prompts</link>
+      <description>This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.</description>
+    </item>
+    <item>
+      <title>mem0ai /mem0</title>
+      <link>https://github.com/mem0ai/mem0</link>
+      <description>Memory for AI Agents; SOTA in AI Agent Memory; Announcing OpenMemory MCP - local and secure memory management.</description>
+    </item>
+    <item>
+      <title>virattt /ai-hedge-fund</title>
+      <link>https://github.com/virattt/ai-hedge-fund</link>
+      <description>An AI Hedge Fund Team</description>
+    </item>
+    <item>
+      <title>public-apis /public-apis</title>
+      <link>https://github.com/public-apis/public-apis</link>
+      <description>A collective list of free APIs</description>
     </item>
     <item>
       <title>TapXWorld /ChinaTextbook</title>

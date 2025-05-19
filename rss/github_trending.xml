@@ -6,16 +6,41 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 18 May 2025 02:12:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 May 2025 02:11:14 +0000</lastBuildDate>
     <item>
-      <title>CopilotKit /CopilotKit</title>
-      <link>https://github.com/CopilotKit/CopilotKit</link>
-      <description>React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic last-mile 🪁</description>
+      <title>tiann /KernelSU</title>
+      <link>https://github.com/tiann/KernelSU</link>
+      <description>A Kernel based root solution for Android</description>
     </item>
     <item>
-      <title>google /perfetto</title>
-      <link>https://github.com/google/perfetto</link>
-      <description>Performance instrumentation and tracing for Android, Linux and Chrome</description>
+      <title>LizardByte /Sunshine</title>
+      <link>https://github.com/LizardByte/Sunshine</link>
+      <description>Self-hosted game stream host for Moonlight.</description>
+    </item>
+    <item>
+      <title>arendst /Tasmota</title>
+      <link>https://github.com/arendst/Tasmota</link>
+      <description>Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX. Full documentation at</description>
+    </item>
+    <item>
+      <title>ed-donner /llm_engineering</title>
+      <link>https://github.com/ed-donner/llm_engineering</link>
+      <description>Repo to accompany my mastering LLM engineering course</description>
+    </item>
+    <item>
+      <title>tursodatabase /limbo</title>
+      <link>https://github.com/tursodatabase/limbo</link>
+      <description>Limbo is a project to build the modern evolution of SQLite.</description>
+    </item>
+    <item>
+      <title>OpenBB-finance /OpenBB</title>
+      <link>https://github.com/OpenBB-finance/OpenBB</link>
+      <description>Investment Research for Everyone, Everywhere.</description>
+    </item>
+    <item>
+      <title>Stirling-Tools /Stirling-PDF</title>
+      <link>https://github.com/Stirling-Tools/Stirling-PDF</link>
+      <description>#1 Locally hosted web application that allows you to perform various operations on PDF files</description>
     </item>
     <item>
       <title>neondatabase /neon</title>
@@ -23,54 +48,19 @@
       <description>Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.</description>
     </item>
     <item>
-      <title>itdoginfo /podkop</title>
-      <link>https://github.com/itdoginfo/podkop</link>
-      <description>Dev podkop</description>
-    </item>
-    <item>
-      <title>facebookresearch /fairchem</title>
-      <link>https://github.com/facebookresearch/fairchem</link>
-      <description>FAIR Chemistry's library of machine learning methods for chemistry</description>
-    </item>
-    <item>
-      <title>th-ch /youtube-music</title>
-      <link>https://github.com/th-ch/youtube-music</link>
-      <description>YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)</description>
-    </item>
-    <item>
-      <title>Capsize-Games /airunner</title>
-      <link>https://github.com/Capsize-Games/airunner</link>
-      <description>Offline inference engine for art, real-time voice conversations, LLM powered chatbots and automated workflows</description>
-    </item>
-    <item>
-      <title>n8n-io /n8n</title>
-      <link>https://github.com/n8n-io/n8n</link>
-      <description>Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.</description>
-    </item>
-    <item>
-      <title>xming521 /WeClone</title>
-      <link>https://github.com/xming521/WeClone</link>
-      <description>🚀从聊天记录创造数字分身的一站式解决方案💡 使用聊天记录微调大语言模型，让大模型有“那味儿”，并绑定到聊天机器人，实现自己的数字分身。 数字克隆/数字分身/数字永生/LLM/聊天机器人/LoRA</description>
-    </item>
-    <item>
-      <title>trycua /cua</title>
-      <link>https://github.com/trycua/cua</link>
-      <description>c/ua is the Docker Container for Computer-Use AI Agents.</description>
-    </item>
-    <item>
-      <title>happycola233 /tchMaterial-parser</title>
-      <link>https://github.com/happycola233/tchMaterial-parser</link>
-      <description>国家中小学智慧教育平台 电子课本下载工具，帮助您从智慧教育平台中获取电子课本的 PDF 文件网址并进行下载，让您更方便地获取课本内容。</description>
-    </item>
-    <item>
       <title>f /awesome-chatgpt-prompts</title>
       <link>https://github.com/f/awesome-chatgpt-prompts</link>
       <description>This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.</description>
     </item>
     <item>
-      <title>mem0ai /mem0</title>
-      <link>https://github.com/mem0ai/mem0</link>
-      <description>Memory for AI Agents; SOTA in AI Agent Memory; Announcing OpenMemory MCP - local and secure memory management.</description>
+      <title>ventoy /Ventoy</title>
+      <link>https://github.com/ventoy/Ventoy</link>
+      <description>A new bootable USB solution.</description>
+    </item>
+    <item>
+      <title>unclecode /crawl4ai</title>
+      <link>https://github.com/unclecode/crawl4ai</link>
+      <description>🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don't be shy, join here:https://discord.gg/jP8KfhDhyN</description>
     </item>
     <item>
       <title>virattt /ai-hedge-fund</title>
@@ -78,14 +68,24 @@
       <description>An AI Hedge Fund Team</description>
     </item>
     <item>
-      <title>public-apis /public-apis</title>
-      <link>https://github.com/public-apis/public-apis</link>
-      <description>A collective list of free APIs</description>
+      <title>yt-dlp /yt-dlp</title>
+      <link>https://github.com/yt-dlp/yt-dlp</link>
+      <description>A feature-rich command-line audio/video downloader</description>
+    </item>
+    <item>
+      <title>th-ch /youtube-music</title>
+      <link>https://github.com/th-ch/youtube-music</link>
+      <description>YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)</description>
     </item>
     <item>
       <title>TapXWorld /ChinaTextbook</title>
       <link>https://github.com/TapXWorld/ChinaTextbook</link>
       <description>所有小初高、大学PDF教材。</description>
+    </item>
+    <item>
+      <title>public-apis /public-apis</title>
+      <link>https://github.com/public-apis/public-apis</link>
+      <description>A collective list of free APIs</description>
     </item>
   </channel>
 </rss>

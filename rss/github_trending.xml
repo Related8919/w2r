@@ -6,51 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 19 May 2025 02:11:14 +0000</lastBuildDate>
-    <item>
-      <title>tiann /KernelSU</title>
-      <link>https://github.com/tiann/KernelSU</link>
-      <description>A Kernel based root solution for Android</description>
-    </item>
-    <item>
-      <title>LizardByte /Sunshine</title>
-      <link>https://github.com/LizardByte/Sunshine</link>
-      <description>Self-hosted game stream host for Moonlight.</description>
-    </item>
-    <item>
-      <title>arendst /Tasmota</title>
-      <link>https://github.com/arendst/Tasmota</link>
-      <description>Alternative firmware for ESP8266 and ESP32 based devices with easy configuration using webUI, OTA updates, automation using timers or rules, expandability and entirely local control over MQTT, HTTP, Serial or KNX. Full documentation at</description>
-    </item>
+    <lastBuildDate>Tue, 20 May 2025 02:06:34 +0000</lastBuildDate>
     <item>
       <title>ed-donner /llm_engineering</title>
       <link>https://github.com/ed-donner/llm_engineering</link>
       <description>Repo to accompany my mastering LLM engineering course</description>
     </item>
     <item>
-      <title>tursodatabase /limbo</title>
-      <link>https://github.com/tursodatabase/limbo</link>
-      <description>Limbo is a project to build the modern evolution of SQLite.</description>
+      <title>facebook /pyrefly</title>
+      <link>https://github.com/facebook/pyrefly</link>
+      <description>A fast type checker and IDE for Python</description>
     </item>
     <item>
-      <title>OpenBB-finance /OpenBB</title>
-      <link>https://github.com/OpenBB-finance/OpenBB</link>
-      <description>Investment Research for Everyone, Everywhere.</description>
+      <title>sherlock-project /sherlock</title>
+      <link>https://github.com/sherlock-project/sherlock</link>
+      <description>Hunt down social media accounts by username across social networks</description>
     </item>
     <item>
-      <title>Stirling-Tools /Stirling-PDF</title>
-      <link>https://github.com/Stirling-Tools/Stirling-PDF</link>
-      <description>#1 Locally hosted web application that allows you to perform various operations on PDF files</description>
-    </item>
-    <item>
-      <title>neondatabase /neon</title>
-      <link>https://github.com/neondatabase/neon</link>
-      <description>Neon: Serverless Postgres. We separated storage and compute to offer autoscaling, code-like database branching, and scale to zero.</description>
-    </item>
-    <item>
-      <title>f /awesome-chatgpt-prompts</title>
-      <link>https://github.com/f/awesome-chatgpt-prompts</link>
-      <description>This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.</description>
+      <title>XTLS /Xray-core</title>
+      <link>https://github.com/XTLS/Xray-core</link>
+      <description>Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.</description>
     </item>
     <item>
       <title>ventoy /Ventoy</title>
@@ -58,19 +33,29 @@
       <description>A new bootable USB solution.</description>
     </item>
     <item>
-      <title>unclecode /crawl4ai</title>
-      <link>https://github.com/unclecode/crawl4ai</link>
-      <description>🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don't be shy, join here:https://discord.gg/jP8KfhDhyN</description>
+      <title>tinygrad /tinygrad</title>
+      <link>https://github.com/tinygrad/tinygrad</link>
+      <description>You like pytorch? You like micrograd? You love tinygrad! ❤️</description>
     </item>
     <item>
-      <title>virattt /ai-hedge-fund</title>
-      <link>https://github.com/virattt/ai-hedge-fund</link>
-      <description>An AI Hedge Fund Team</description>
+      <title>zen-browser /desktop</title>
+      <link>https://github.com/zen-browser/desktop</link>
+      <description>Welcome to a calmer internet</description>
     </item>
     <item>
-      <title>yt-dlp /yt-dlp</title>
-      <link>https://github.com/yt-dlp/yt-dlp</link>
-      <description>A feature-rich command-line audio/video downloader</description>
+      <title>kortix-ai /suna</title>
+      <link>https://github.com/kortix-ai/suna</link>
+      <description>Suna - Open Source Generalist AI Agent</description>
+    </item>
+    <item>
+      <title>f /awesome-chatgpt-prompts</title>
+      <link>https://github.com/f/awesome-chatgpt-prompts</link>
+      <description>This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.</description>
+    </item>
+    <item>
+      <title>Stirling-Tools /Stirling-PDF</title>
+      <link>https://github.com/Stirling-Tools/Stirling-PDF</link>
+      <description>#1 Locally hosted web application that allows you to perform various operations on PDF files</description>
     </item>
     <item>
       <title>th-ch /youtube-music</title>
@@ -78,14 +63,19 @@
       <description>YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)</description>
     </item>
     <item>
-      <title>TapXWorld /ChinaTextbook</title>
-      <link>https://github.com/TapXWorld/ChinaTextbook</link>
-      <description>所有小初高、大学PDF教材。</description>
+      <title>CopilotKit /CopilotKit</title>
+      <link>https://github.com/CopilotKit/CopilotKit</link>
+      <description>React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic last-mile 🪁</description>
     </item>
     <item>
       <title>public-apis /public-apis</title>
       <link>https://github.com/public-apis/public-apis</link>
       <description>A collective list of free APIs</description>
+    </item>
+    <item>
+      <title>virattt /ai-hedge-fund</title>
+      <link>https://github.com/virattt/ai-hedge-fund</link>
+      <description>An AI Hedge Fund Team</description>
     </item>
   </channel>
 </rss>

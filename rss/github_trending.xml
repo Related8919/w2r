@@ -6,46 +6,16 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 20 May 2025 02:06:34 +0000</lastBuildDate>
-    <item>
-      <title>ed-donner /llm_engineering</title>
-      <link>https://github.com/ed-donner/llm_engineering</link>
-      <description>Repo to accompany my mastering LLM engineering course</description>
-    </item>
-    <item>
-      <title>facebook /pyrefly</title>
-      <link>https://github.com/facebook/pyrefly</link>
-      <description>A fast type checker and IDE for Python</description>
-    </item>
-    <item>
-      <title>sherlock-project /sherlock</title>
-      <link>https://github.com/sherlock-project/sherlock</link>
-      <description>Hunt down social media accounts by username across social networks</description>
-    </item>
-    <item>
-      <title>XTLS /Xray-core</title>
-      <link>https://github.com/XTLS/Xray-core</link>
-      <description>Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.</description>
-    </item>
-    <item>
-      <title>ventoy /Ventoy</title>
-      <link>https://github.com/ventoy/Ventoy</link>
-      <description>A new bootable USB solution.</description>
-    </item>
+    <lastBuildDate>Wed, 21 May 2025 02:06:13 +0000</lastBuildDate>
     <item>
       <title>tinygrad /tinygrad</title>
       <link>https://github.com/tinygrad/tinygrad</link>
       <description>You like pytorch? You like micrograd? You love tinygrad! ❤️</description>
     </item>
     <item>
-      <title>zen-browser /desktop</title>
-      <link>https://github.com/zen-browser/desktop</link>
-      <description>Welcome to a calmer internet</description>
-    </item>
-    <item>
-      <title>kortix-ai /suna</title>
-      <link>https://github.com/kortix-ai/suna</link>
-      <description>Suna - Open Source Generalist AI Agent</description>
+      <title>DataExpert-io /data-engineer-handbook</title>
+      <link>https://github.com/DataExpert-io/data-engineer-handbook</link>
+      <description>This is a repo with links to everything you'd ever want to learn about data engineering</description>
     </item>
     <item>
       <title>f /awesome-chatgpt-prompts</title>
@@ -53,19 +23,54 @@
       <description>This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.</description>
     </item>
     <item>
-      <title>Stirling-Tools /Stirling-PDF</title>
-      <link>https://github.com/Stirling-Tools/Stirling-PDF</link>
-      <description>#1 Locally hosted web application that allows you to perform various operations on PDF files</description>
+      <title>kmeps4 /PSFree</title>
+      <link>https://github.com/kmeps4/PSFree</link>
+      <description>PSFree WebKit Exploit &amp; Lapse Kernel Exploit For PS4 9.00 [WIP] By abc</description>
     </item>
     <item>
-      <title>th-ch /youtube-music</title>
-      <link>https://github.com/th-ch/youtube-music</link>
-      <description>YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader)</description>
+      <title>Cysharp /ZLinq</title>
+      <link>https://github.com/Cysharp/ZLinq</link>
+      <description>Zero allocation LINQ with LINQ to Span, LINQ to SIMD, and LINQ to Tree (FileSystem, JSON, GameObject, etc.) for all .NET platforms and Unity, Godot.</description>
     </item>
     <item>
-      <title>CopilotKit /CopilotKit</title>
-      <link>https://github.com/CopilotKit/CopilotKit</link>
-      <description>React UI + elegant infrastructure for AI Copilots, AI chatbots, and in-app AI agents. The Agentic last-mile 🪁</description>
+      <title>colinhacks /zod</title>
+      <link>https://github.com/colinhacks/zod</link>
+      <description>TypeScript-first schema validation with static type inference</description>
+    </item>
+    <item>
+      <title>langgenius /dify</title>
+      <link>https://github.com/langgenius/dify</link>
+      <description>Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.</description>
+    </item>
+    <item>
+      <title>kortix-ai /suna</title>
+      <link>https://github.com/kortix-ai/suna</link>
+      <description>Suna - Open Source Generalist AI Agent</description>
+    </item>
+    <item>
+      <title>ventoy /Ventoy</title>
+      <link>https://github.com/ventoy/Ventoy</link>
+      <description>A new bootable USB solution.</description>
+    </item>
+    <item>
+      <title>HeyPuter /puter</title>
+      <link>https://github.com/HeyPuter/puter</link>
+      <description>🌐 The Internet OS! Free, Open-Source, and Self-Hostable.</description>
+    </item>
+    <item>
+      <title>ed-donner /llm_engineering</title>
+      <link>https://github.com/ed-donner/llm_engineering</link>
+      <description>Repo to accompany my mastering LLM engineering course</description>
+    </item>
+    <item>
+      <title>usememos /memos</title>
+      <link>https://github.com/usememos/memos</link>
+      <description>An open-source, lightweight note-taking solution. The pain-less way to create your meaningful notes. Your Notes, Your Way.</description>
+    </item>
+    <item>
+      <title>appwrite /appwrite</title>
+      <link>https://github.com/appwrite/appwrite</link>
+      <description>The open-source Vercel alternative</description>
     </item>
     <item>
       <title>public-apis /public-apis</title>

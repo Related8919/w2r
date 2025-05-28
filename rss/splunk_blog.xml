@@ -6,17 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 27 May 2025 02:07:40 +0000</lastBuildDate>
-    <item>
-      <title>Top Cybersecurity Trends in 2025: 9 Trends to Watch</title>
-      <link>https://www.splunk.com/en_us/blog/learn/cybersecurity-trends.html</link>
-      <description>Discover the top cybersecurity trends shaping 2025, highlighting key insights and strategies to help organizations stay resilient.</description>
-    </item>
-    <item>
-      <title>Enter the SOC of the Future in Splunk’s State of Security 2025</title>
-      <link>https://www.splunk.com/en_us/blog/security/enter-the-soc-of-the-future-in-splunks-state-of-security-2025.html</link>
-      <description>Splunk's State of Security 2025: The Stronger, Smarter SOC of the Future reveals the insights, aspirations, and challenges of security leaders.</description>
-    </item>
+    <lastBuildDate>Wed, 28 May 2025 02:09:29 +0000</lastBuildDate>
     <item>
       <title>QoS Explained: Quality of Service in Networks</title>
       <link>https://www.splunk.com/en_us/blog/learn/qos-quality-of-service.html</link>
@@ -48,9 +38,19 @@
       <description>Managing cloud costs isn’t easy. But it can be a lot simpler if you follow these expert tips and tools. Get the full story here.</description>
     </item>
     <item>
+      <title>How To Use Splunk To Monitor Security of Local LLMs (Part I)</title>
+      <link>https://www.splunk.com/en_us/blog/artificial-intelligence/splunk-monitor-security-local-llms.html</link>
+      <description>Learn how to use Splunk to monitor the security of local Large Language Models (LLMs) like Llama and GPT4ALL.</description>
+    </item>
+    <item>
       <title>Accelerating Security Operations with Splunk and Foundation AI’s First Open-Source Security Model</title>
       <link>https://www.splunk.com/en_us/blog/artificial-intelligence/accelerating-security-operations-with-splunk-and-foundation-ai-s-first-open-source-security-model.html</link>
       <description>Cisco Foundation AI’s Foundation-sec-8b model brings a new wave of innovations and efficiency to security operations. As a purpose-built, open-weight Large Language Model (LLM) designed specifically for cybersecurity, Foundation-sec-8b enables security teams to act faster, reduce fatigue, and scale operations without compromising accuracy.</description>
+    </item>
+    <item>
+      <title>What Is Extortionware? Going Beyond Ransomware</title>
+      <link>https://www.splunk.com/en_us/blog/learn/extortionware.html</link>
+      <description>Learn what extortionware is, how it works, its impact, and how to protect your business from data leaks and reputational damage.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

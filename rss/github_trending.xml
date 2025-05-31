@@ -6,21 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 30 May 2025 02:04:25 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 May 2025 02:04:14 +0000</lastBuildDate>
     <item>
-      <title>fastapi /fastapi</title>
-      <link>https://github.com/fastapi/fastapi</link>
-      <description>FastAPI framework, high performance, easy to learn, fast to code, ready for production</description>
+      <title>f /awesome-chatgpt-prompts</title>
+      <link>https://github.com/f/awesome-chatgpt-prompts</link>
+      <description>This repo includes ChatGPT prompt curation to use ChatGPT and other LLM tools better.</description>
     </item>
     <item>
-      <title>ant-design /ant-design</title>
-      <link>https://github.com/ant-design/ant-design</link>
-      <description>An enterprise-class UI design language and React UI library</description>
+      <title>langgenius /dify</title>
+      <link>https://github.com/langgenius/dify</link>
+      <description>Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.</description>
     </item>
     <item>
-      <title>78 /xiaozhi-esp32</title>
-      <link>https://github.com/78/xiaozhi-esp32</link>
-      <description>Build your own AI friend</description>
+      <title>Fosowl /agenticSeek</title>
+      <link>https://github.com/Fosowl/agenticSeek</link>
+      <description>Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity.</description>
     </item>
     <item>
       <title>KwaiVGI /LivePortrait</title>
@@ -28,29 +28,29 @@
       <description>Bring portraits to life!</description>
     </item>
     <item>
-      <title>angular /angular</title>
-      <link>https://github.com/angular/angular</link>
-      <description>Deliver web apps with confidence 🚀</description>
+      <title>coleam00 /local-ai-packaged</title>
+      <link>https://github.com/coleam00/local-ai-packaged</link>
+      <description>Run all your local AI together in one package - Ollama, Supabase, n8n, Open WebUI, and more!</description>
     </item>
     <item>
-      <title>zhayujie /chatgpt-on-wechat</title>
-      <link>https://github.com/zhayujie/chatgpt-on-wechat</link>
-      <description>基于大模型搭建的聊天机器人，同时支持 微信公众号、企业微信应用、飞书、钉钉 等接入，可选择GPT4.1/GPT-4o/GPT-o1/ DeepSeek/Claude/文心一言/讯飞星火/通义千问/ Gemini/GLM-4/Kimi/LinkAI，能处理文本、语音和图片，访问操作系统和互联网，支持基于自有知识库进行定制企业智能客服。</description>
+      <title>ccxt /ccxt</title>
+      <link>https://github.com/ccxt/ccxt</link>
+      <description>A JavaScript / TypeScript / Python / C# / PHP / Go cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges</description>
     </item>
     <item>
-      <title>facebook /react-native</title>
-      <link>https://github.com/facebook/react-native</link>
-      <description>A framework for building native applications using React</description>
+      <title>anthropics /courses</title>
+      <link>https://github.com/anthropics/courses</link>
+      <description>Anthropic's educational courses</description>
     </item>
     <item>
-      <title>langflow-ai /langflow</title>
-      <link>https://github.com/langflow-ai/langflow</link>
-      <description>Langflow is a powerful tool for building and deploying AI-powered agents and workflows.</description>
+      <title>getzep /graphiti</title>
+      <link>https://github.com/getzep/graphiti</link>
+      <description>Build Real-Time Knowledge Graphs for AI Agents</description>
     </item>
     <item>
-      <title>AppFlowy-IO /AppFlowy</title>
-      <link>https://github.com/AppFlowy-IO/AppFlowy</link>
-      <description>Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.</description>
+      <title>aaPanel /BillionMail</title>
+      <link>https://github.com/aaPanel/BillionMail</link>
+      <description>BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord:https://discord.gg/fD6rDkDV</description>
     </item>
     <item>
       <title>trimstray /the-book-of-secret-knowledge</title>
@@ -58,44 +58,14 @@
       <description>A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.</description>
     </item>
     <item>
-      <title>n8n-io /n8n</title>
-      <link>https://github.com/n8n-io/n8n</link>
-      <description>Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.</description>
-    </item>
-    <item>
-      <title>ossu /computer-science</title>
-      <link>https://github.com/ossu/computer-science</link>
-      <description>🎓 Path to a free self-taught education in Computer Science!</description>
-    </item>
-    <item>
       <title>microsoft /ai-agents-for-beginners</title>
       <link>https://github.com/microsoft/ai-agents-for-beginners</link>
       <description>11 Lessons to Get Started Building AI Agents</description>
     </item>
     <item>
-      <title>livestorejs /livestore</title>
-      <link>https://github.com/livestorejs/livestore</link>
-      <description>LiveStore is a next-generation state management framework based on reactive SQLite and built-in sync engine.</description>
-    </item>
-    <item>
       <title>anthropics /prompt-eng-interactive-tutorial</title>
       <link>https://github.com/anthropics/prompt-eng-interactive-tutorial</link>
       <description>Anthropic's Interactive Prompt Engineering Tutorial</description>
-    </item>
-    <item>
-      <title>vuejs /core</title>
-      <link>https://github.com/vuejs/core</link>
-      <description>🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.</description>
-    </item>
-    <item>
-      <title>WhiskeySockets /Baileys</title>
-      <link>https://github.com/WhiskeySockets/Baileys</link>
-      <description>Lightweight full-featured typescript/javascript WhatsApp Web API</description>
-    </item>
-    <item>
-      <title>Fosowl /agenticSeek</title>
-      <link>https://github.com/Fosowl/agenticSeek</link>
-      <description>Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity.</description>
     </item>
   </channel>
 </rss>

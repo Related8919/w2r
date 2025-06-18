@@ -6,7 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 18 Jun 2025 04:56:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jun 2025 04:59:55 +0000</lastBuildDate>
     <item>
       <title>New G4 VMs with NVIDIA RTX PRO 6000 Blackwell power AI, graphics, gaming and beyond</title>
       <link>https://cloud.google.com/blog/products/compute/introducing-g4-vm-with-nvidia-rtx-pro-6000</link>

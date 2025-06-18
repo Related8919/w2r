@@ -55,15 +55,10 @@ def fetch_blog_posts(config):
         else:
             link = block.select_one(config['link_css']) if config['link_css'] else block
         if title and description and link:
-        # 处理相对链接
-            if not link.startswith(('http://', 'https://')):
-                link = urljoin(config['url'], link)
-        
-        posts.append({
-            'title': title.get_text(strip=True),
-            'description': description.get_text(strip=True),
-            'link': link
-        })
+            posts.append({
+                'title': title.get_text(strip=True),
+                'description': description.get_text(strip=True),
+                'link': link['href'] if link['href'].startswith('http') else urljoin(config['url'], link['href'])})
 
     return posts
 

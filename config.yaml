@@ -123,5 +123,5 @@ sites:
     block_css: "div.accordion"  # 父元素的 CSS 选择器
     title_css: "a.accordion-title"  # 在父元素内部的标题选择器
     description_css: "div.accordion-content"  # 在父元素内部的描述选择器
-    link_css: "https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-s10"  # 在父元素内部的链接选择器
+    link_css: https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-s10  # 在父元素内部的链接选择器
     use_headless_browser: true

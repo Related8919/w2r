@@ -54,11 +54,19 @@ def fetch_blog_posts(config):
             link = config['link_css']  # 直接使用给定的 URL
         else:
             link = block.select_one(config['link_css']) if config['link_css'] else block
-        if title and description and link:
-            posts.append({
-                'title': title.get_text(strip=True),
-                'description': description.get_text(strip=True),
-                'link': link['href'] if link['href'].startswith('http') else urljoin(config['url'], link['href'])})
+    if title and description and link:
+        # 判断 link 是一个字符串 URL 还是一个 Beautiful Soup 元素
+        if isinstance(link, str): # 如果 link 是一个字符串（即 config['link_css'] 就是 URL）
+            final_link = link
+        else: # 如果 link 是一个 Beautiful Soup 元素
+            final_link = link['href'] if link.has_attr('href') else "" # 检查是否有 'href' 属性
+            if not final_link.startswith(('http://', 'https://')):
+                final_link = urljoin(config['url'], final_link)
+        posts.append({
+            'title': title.get_text(strip=True),
+            'description': description.get_text(strip=True),
+            'link': final_link
+        })
 
     return posts
 

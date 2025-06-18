@@ -50,14 +50,20 @@ def fetch_blog_posts(config):
     for block in blocks:
         title = block.select_one(config['title_css'])
         description = block.select_one(config['description_css'])
-        link = block.select_one(config['link_css']) if config['link_css'] else block
-
+        if config['link_css'].startswith(('http://', 'https://')):
+            link = config['link_css']  # 直接使用给定的 URL
+        else:
+            link = block.select_one(config['link_css']) if config['link_css'] else block
         if title and description and link:
-            posts.append({
-                'title': title.get_text(strip=True),
-                'description': description.get_text(strip=True),
-                'link': link['href'] if link['href'].startswith('http') else urljoin(config['url'], link['href'])
-            })
+        # 处理相对链接
+            if not link.startswith(('http://', 'https://')):
+                link = urljoin(config['url'], link)
+        
+        posts.append({
+            'title': title.get_text(strip=True),
+            'description': description.get_text(strip=True),
+            'link': link
+        })
 
     return posts
 

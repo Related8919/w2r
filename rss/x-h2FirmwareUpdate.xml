@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>x-h2FirmwareUpdate</title>
+    <link>https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-h2/</link>
+    <description>Latest posts from https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-h2/. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <lastBuildDate>Wed, 18 Jun 2025 04:56:23 +0000</lastBuildDate>
+    <item>
+      <title>Ver.5.20</title>
+      <link>javascript:;</link>
+      <description>The firmware update Ver.5.20 from Ver.5.10/Ver.5.11 incorporates the following issues:Regarding the details of No.2, download the “X-H2 New Features Guide［Ver.5.20]” from our website.・X-H2 New Features Guide:English,Français,Deutsch,Español,Italiano,Nederland,Polski,Svenska,Norsk,Dansk,Pусский,Suomi,中文简,中文繁體,한국어,ภาษาไทย,ArabicExposure tracking during aperture movement gets smoothed when used with the XF16-55mmF2.8 R LM WR II.The above exposure tracking function is enabled under the following setting conditions.[Setting conditions]・StillMovie mode ➔ Movie・Shooting Mode ➔ Manual (M) Mode・ISO ➔ Fixed SensitivityThe “LINEAR” setting in “Focus ring operation” menu can now be set by the focus ring rotating angle.The above function is enabled when used with the following applicable lenses.[Applicable lenses]・XF/XC series Prime lenses and zoom lensesNote:Interchangeable lenses with distance indicators (XF14mmF2.8 R,XF23mmF1.4 Rand XF16mmF1.4 R WR) are not applicable.A firmware bug is fixed that the settings will not be renewed in “CUSTOM SETTING” after camera is turned off and on when you save the following settings in “EDIT/SAVE CUSTOM SETTING”,[Settings]・“ISO SETTING”・Some of the “AUDIO SETTINGS” (ex. “MIC JACK SETTING”, “INTERNAL MIC LEVEL ADJUSTMENT”, “EXTERNAL MIC LEVEL ADJUSTMENT”, etc.)A firmware bug is fixed that the camera does not turn on even if the power lever is on when a specific SD memory card is inserted.A firmware bug is fixed that the “WRITE ERROR” occurs in rare cases after shooting when using specific SD memory cards.A firmware bug is fixed that the camera freezes in rare cases during “CH HIGH SPEED BURST” shooting under the following specific conditions.[Settings]・Shooting Mode ➔ CH HIGH SPEED BURST・Shutter Type ➔ E-FRONT CURTAIN SHUTTER・FLICKER REDUCTION ➔ ALL FRAMESOther minor bugs are also fixed.</description>
+    </item>
+  </channel>
+</rss>

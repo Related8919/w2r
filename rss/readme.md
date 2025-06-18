@@ -45,3 +45,8 @@
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/VulnersBlog.xml
 - Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/VulnersBlog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/VulnersBlog.xml)
 
+## x-h2FirmwareUpdate
+- 原网址：https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-h2/
+- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-h2FirmwareUpdate.xml
+- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-h2FirmwareUpdate.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-h2FirmwareUpdate.xml)
+

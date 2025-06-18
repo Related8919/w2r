@@ -6,46 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 18 Jun 2025 09:58:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jun 2025 10:19:24 +0000</lastBuildDate>
     <item>
       <title>continuedev /continue</title>
       <link>https://github.com/continuedev/continue</link>
       <description>⏩ Create, share, and use custom AI code assistants with our open-source IDE extensions and hub of models, rules, prompts, docs, and other building blocks</description>
-    </item>
-    <item>
-      <title>Shubhamsaboo /awesome-llm-apps</title>
-      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
-      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
-    </item>
-    <item>
-      <title>automatisch /automatisch</title>
-      <link>https://github.com/automatisch/automatisch</link>
-      <description>The open source Zapier alternative. Build workflow automation without spending time and money.</description>
-    </item>
-    <item>
-      <title>deepseek-ai /DeepEP</title>
-      <link>https://github.com/deepseek-ai/DeepEP</link>
-      <description>DeepEP: an efficient expert-parallel communication library</description>
-    </item>
-    <item>
-      <title>infiniflow /ragflow</title>
-      <link>https://github.com/infiniflow/ragflow</link>
-      <description>RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.</description>
-    </item>
-    <item>
-      <title>anthropics /anthropic-cookbook</title>
-      <link>https://github.com/anthropics/anthropic-cookbook</link>
-      <description>A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.</description>
-    </item>
-    <item>
-      <title>menloresearch /jan</title>
-      <link>https://github.com/menloresearch/jan</link>
-      <description>Jan is an open source alternative to ChatGPT that runs 100% offline on your computer</description>
-    </item>
-    <item>
-      <title>microsoft /fluentui-system-icons</title>
-      <link>https://github.com/microsoft/fluentui-system-icons</link>
-      <description>Fluent System Icons are a collection of familiar, friendly and modern icons from Microsoft.</description>
     </item>
   </channel>
 </rss>

@@ -6,86 +6,11 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 18 Jun 2025 09:59:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Jun 2025 10:20:19 +0000</lastBuildDate>
     <item>
       <title>借助统一的 NVIDIA NIM 工作流简化 LLM 部署和 AI 推理</title>
       <link>https://developer.nvidia.com/zh-cn/blog/simplify-llm-deployment-and-ai-inference-with-unified-nvidia-nim-workflow/</link>
       <description>2025年 6月 11日借助统一的 NVIDIA NIM 工作流简化 LLM 部署和 AI 推理将大语言模型 (LLM) 集成到真实用户与之大规模交互的生产环境中，是任何 AI 工作流中最重要的部分。这不仅仅是让模型运行，3 MIN READ</description>
-    </item>
-    <item>
-      <title>利用 NVIDIA Data Flywheel Blueprint 通过模型蒸馏构建高效的 AI 智能体</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/build-efficient-ai-agents-through-model-distillation-with-nvidias-data-flywheel-blueprint/</link>
-      <description>2025年 6月 11日利用 NVIDIA Data Flywheel Blueprint 通过模型蒸馏构建高效的 AI 智能体随着企业加速采用代理式 AI，团队在扩展智能应用程序的同时管理推理成本方面面临着越来越大的挑战。大语言模型 (LLM) 提供强大的性能，2 MIN READ</description>
-    </item>
-    <item>
-      <title>使用开源 NVIDIA cuOpt 加速决策优化</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/accelerate-decision-optimization-using-open-source-nvidia-cuopt/</link>
-      <description>2025年 6月 11日使用开源 NVIDIA cuOpt 加速决策优化企业每天都会做出成千上万的决策，包括生产什么、在哪里发货、如何分配资源。大规模优化这些决策成为一项计算挑战。线性规划 (LP) 、2 MIN READ</description>
-    </item>
-    <item>
-      <title>使用适用于物理 AI 的 NVIDIA NeMo Agent 工具包扩展逼真的机器人仿真</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/scale-realistic-robot-simulation-using-the-nvidia-nemo-agent-toolkit-for-physical-ai/</link>
-      <description>2025年 6月 11日使用适用于物理 AI 的 NVIDIA NeMo Agent 工具包扩展逼真的机器人仿真物理 AI 使自主系统 (例如机器人、自动驾驶汽车和智能空间) 能够在现实世界中智能地感知、理解和行动。但是，4 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA Cosmos Predict-2 构建自定义物理人工智能基础模型</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/develop-custom-physical-ai-foundation-models-with-nvidia-cosmos-predict-2/</link>
-      <description>2025年 6月 11日使用 NVIDIA Cosmos Predict-2 构建自定义物理人工智能基础模型构建更智能的机器人和自动驾驶汽车 (AV) 始于能够理解现实世界动态的物理 AI 模型。这些模型发挥着两个关键作用：2 MIN READ</description>
-    </item>
-    <item>
-      <title>隆重推出 NVIDIA DGX 云 Lepton：面向开发者的统一 AI 平台</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/introducing-nvidia-dgx-cloud-lepton-a-unified-ai-platform-built-for-developers/</link>
-      <description>2025年 6月 11日隆重推出 NVIDIA DGX 云 Lepton：面向开发者的统一 AI 平台AI 原生应用的时代已经到来。开发者正在构建先进的代理式 AI 和物理 AI 系统，但跨地区和 GPU 提供商进行扩展仍然是一项挑战。2 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA NIM 安全部署 AI 模型</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/securely-deploy-ai-models-with-nvidia-nim/</link>
-      <description>2025年 6月 11日使用 NVIDIA NIM 安全部署 AI 模型想象一下，您正在领导大型企业的安全工作，并且您的团队渴望将 AI 用于越来越多的项目。不过，这是一个问题。与任何项目一样，2 MIN READ</description>
-    </item>
-    <item>
-      <title>借助 MMseqs2-GPU 和 NVIDIA NIM 加速蛋白质科学序列对齐</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/accelerated-sequence-alignment-for-protein-design-with-mmseqs2-and-nvidia-nim/</link>
-      <description>2025年 6月 12日借助 MMseqs2-GPU 和 NVIDIA NIM 加速蛋白质科学序列对齐蛋白质序列对齐 (比较蛋白质序列的相似性) 是现代生物学和医学的基础。它通过重建进化关系 (技术上称为 homology…3 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA Nsight Profiler 简化 EDF 流体动力学模拟的 GPU 移植</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/streamlining-gpu-porting-for-edfs-fluid-dynamics-simulations-with-nvidia-nsight-profilers/</link>
-      <description>2025年 6月 12日使用 NVIDIA Nsight Profiler 简化 EDF 流体动力学模拟的 GPU 移植将现有 CPU 应用程序移植到 NVIDIA GPU 可以释放性能提升，使用户能够以更大的规模和更快的速度解决问题。2 MIN READ</description>
-    </item>
-    <item>
-      <title>借助 RAPIDS 单细胞技术推动十亿细胞分析和生物学突破</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/driving-toward-billion-cell-analysis-and-biological-breakthroughs-with-rapids-singlecell/</link>
-      <description>2025年 6月 12日借助 RAPIDS 单细胞技术推动十亿细胞分析和生物学突破细胞生物学和虚拟细胞模型的未来取决于大规模测量和分析数据。在过去 10 年里，单细胞实验一直以惊人的速度增长，从数百个细胞开始，2 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA TensorRT for RTX 运行高性能 AI 应用</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/run-high-performance-ai-applications-with-nvidia-tensorrt-for-rtx/</link>
-      <description>2025年 6月 12日使用 NVIDIA TensorRT for RTX 运行高性能 AI 应用NVIDIA TensorRT for RTX 现可作为 SDK 下载，该 SDK 可集成到 Windows 和 Linux 的 C++ 和…2 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA Holoscan 传感器桥接技术赋予开发者实时数据处理能力</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/nvidia-holoscan-sensor-bridge-empowers-developers-with-real-time-data-processing/</link>
-      <description>2025年 6月 12日NVIDIA Holoscan 传感器桥接技术赋予开发者实时数据处理能力在快速发展的机器人和边缘 AI 领域，高效处理和传输传感器数据的能力至关重要。许多边缘应用正在摆脱单传感器固定功能解决方案，3 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 FlashInfer 运行 NVIDIA 的高性能 LLM 推理内核</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/run-high-performance-llm-inference-kernels-from-nvidia-using-flashinfer/</link>
-      <description>2025年 6月 13日使用 FlashInfer 运行 NVIDIA 的高性能 LLM 推理内核出色的 LLM 推理需要两个关键要素：速度和开发者速度。速度是指通过使用高度优化的计算内核算法，最大限度地提高底层硬件的效率。2 MIN READ</description>
-    </item>
-    <item>
-      <title>Isaac Sim 和 Isaac Lab 现已推出早期开发者预览版</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/isaac-sim-and-isaac-lab-are-now-available-for-early-developer-preview/</link>
-      <description>2025年 6月 16日Isaac Sim 和 Isaac Lab 现已推出早期开发者预览版NVIDIA 今天发布了 NVIDIA Isaac Sim 和 NVIDIA Isaac Lab 的开发者预览版…2 MIN READ</description>
-    </item>
-    <item>
-      <title>使用世界基础模型生成的合成轨迹数据提高机器人学习效果</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/enhance-robot-learning-with-synthetic-trajectory-data-generated-by-world-foundation-models/</link>
-      <description>2025年 6月 16日使用世界基础模型生成的合成轨迹数据提高机器人学习效果在机电一体化和机器人 AI 基础模型的进步的推动下，通用型机器人技术已经问世。但关键的瓶颈依然存在：2 MIN READ</description>
-    </item>
-    <item>
-      <title>人工智能致力于为法律领域带来秩序</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/ai-aims-to-bring-order-to-the-law/</link>
-      <description>2025年 6月 16日人工智能致力于为法律领域带来秩序斯坦福大学的一个研究团队开发了一个 LLM 系统，以减少官样文章。 被称为“System for Statutory Research”…1 MIN READ</description>
     </item>
   </channel>
 </rss>

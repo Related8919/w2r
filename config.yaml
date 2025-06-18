@@ -109,9 +109,19 @@ sites:
 
   - name: x-h2FirmwareUpdate
     follow_desc: feedId:91056610732250112+userId:43946731810334720
-    url: "https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-h2/"
+    url: https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-h2
     block_css: "div.accordion"  # 父元素的 CSS 选择器
     title_css: "a.accordion-title"  # 在父元素内部的标题选择器
     description_css: "div.accordion-content"  # 在父元素内部的描述选择器
     link_css: "div.p.has-green-color.has-text-color.has-link-color.wp-elements-e783910aab6b1028ff42223a4abe89a0"  # 在父元素内部的链接选择器
+    use_headless_browser: true
+
+
+  - name: x-s10FirmwareUpdate
+    follow_desc: feedId:91056610732250112+userId:43946731810334720
+    url: https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-s10
+    block_css: "div.accordion"  # 父元素的 CSS 选择器
+    title_css: "a.accordion-title"  # 在父元素内部的标题选择器
+    description_css: "div.accordion-content"  # 在父元素内部的描述选择器
+    link_css: "#post-80311 > div.wp-block-group.alignwide.is-style-support-overview.is-layout-constrained.wp-block-group-is-layout-constrained > div.wp-block-group.is-style-disclaimer-notes.is-layout-constrained.wp-block-group-is-layout-constrained > p.has-green-color.has-text-color.has-link-color.wp-elements-e783910aab6b1028ff42223a4abe89a0 > a"  # 在父元素内部的链接选择器
     use_headless_browser: true

@@ -116,7 +116,6 @@ sites:
     link_css: "a"  # 在父元素内部的链接选择器
     use_headless_browser: true
 
-
   - name: x-s10FirmwareUpdate
     follow_desc: feedId:158099404044625920+userId:43946731810334720
     url: https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-s10
@@ -124,4 +123,13 @@ sites:
     title_css: "a.accordion-title"  # 在父元素内部的标题选择器
     description_css: "div.accordion-content"  # 在父元素内部的描述选择器
     link_css: https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-s10  # 在父元素内部的链接选择器
+    use_headless_browser: true
+
+  - name: 工信部车辆准入许可
+    follow_desc: feedId:158099404044625920+userId:43946731810334720
+    url: https://www.miit-eidc.org.cn/col/col1691/index.html
+    block_css: "div.white_pgContainer"  # 父元素的 CSS 选择器
+    title_css: "li"  # 在父元素内部的标题选择器
+    description_css: "span.art_time"  # 在父元素内部的描述选择器
+    link_css: a  # 在父元素内部的链接选择器
     use_headless_browser: true

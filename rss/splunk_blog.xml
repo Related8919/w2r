@@ -6,11 +6,11 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 18 Jun 2025 10:19:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jun 2025 01:49:04 +0000</lastBuildDate>
     <item>
-      <title>Unlock Context-Aware Network Observability with New AI and Integrations</title>
-      <link>https://www.splunk.com/en_us/blog/observability/context-aware-network-observability-ai-integrations.html</link>
-      <description>Unlock context-aware network observability with Splunk's new AI and integrations.</description>
+      <title>London to Bruges 2025: Riding for a Cause, Powered by Data</title>
+      <link>https://www.splunk.com/en_us/blog/splunk-for-good/london-to-bruges-2025-riding-for-a-cause-powered-by-data.html</link>
+      <description>What has 40 wheels, 20 hearts, and one powerful mission? A team of dedicated riders from Cisco, Splunk, Adarma, and RiverSafe embarking on a 400km ride from London to Bruges — all to raise awareness and funds for Prostate Cancer Research. Follow their journey filled with determination, data, and heart.</description>
     </item>
   </channel>
 </rss>

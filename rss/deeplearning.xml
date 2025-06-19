@@ -6,11 +6,11 @@
     <description>Latest posts from https://www.deeplearning.ai/the-batch/. follow.is: feedId:91496692463707136+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 18 Jun 2025 10:19:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jun 2025 01:49:28 +0000</lastBuildDate>
     <item>
-      <title>Meta Reads Minds, Big AI Spending Climbs, Deepfakes Appropriate Celeb Likenesses, Reasoning in Vectors</title>
-      <link>https://www.deeplearning.ai/the-batch/issue-290/</link>
-      <description>The Batch AI News and Insights: The Voice Stack is improving rapidly. Systems that interact with users via speaking and listening will drive many new applications.</description>
+      <title>GPT-4.5 Goes Big, Claude 3.7 Reasons, Alexa+ Goes Agentic, Generating Text Like an Image</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-291/</link>
+      <description>The Batch AI News and Insights: Continuing our discussion on the Voice Stack, I’d like to explore an area that today’s voice-based systems mostly struggle with: Voice Activity Detection (VAD) and the turn-taking paradigm of communication.</description>
     </item>
   </channel>
 </rss>

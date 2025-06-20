@@ -6,11 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 19 Jun 2025 02:09:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Jun 2025 02:08:57 +0000</lastBuildDate>
     <item>
-      <title>nvm-sh /nvm</title>
-      <link>https://github.com/nvm-sh/nvm</link>
-      <description>Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions</description>
+      <title>MystenLabs /sui</title>
+      <link>https://github.com/MystenLabs/sui</link>
+      <description>Sui, a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language</description>
     </item>
   </channel>
 </rss>

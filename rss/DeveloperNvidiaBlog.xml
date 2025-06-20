@@ -6,11 +6,11 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 19 Jun 2025 02:10:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Jun 2025 02:09:23 +0000</lastBuildDate>
     <item>
-      <title>借助统一的 NVIDIA NIM 工作流简化 LLM 部署和 AI 推理</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/simplify-llm-deployment-and-ai-inference-with-unified-nvidia-nim-workflow/</link>
-      <description>2025年 6月 11日借助统一的 NVIDIA NIM 工作流简化 LLM 部署和 AI 推理将大语言模型 (LLM) 集成到真实用户与之大规模交互的生产环境中，是任何 AI 工作流中最重要的部分。这不仅仅是让模型运行，3 MIN READ</description>
+      <title>利用 NVIDIA Data Flywheel Blueprint 通过模型蒸馏构建高效的 AI 智能体</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/build-efficient-ai-agents-through-model-distillation-with-nvidias-data-flywheel-blueprint/</link>
+      <description>2025年 6月 11日利用 NVIDIA Data Flywheel Blueprint 通过模型蒸馏构建高效的 AI 智能体随着企业加速采用代理式 AI，团队在扩展智能应用程序的同时管理推理成本方面面临着越来越大的挑战。大语言模型 (LLM) 提供强大的性能，2 MIN READ</description>
     </item>
   </channel>
 </rss>

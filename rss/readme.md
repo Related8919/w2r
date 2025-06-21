@@ -51,7 +51,7 @@
 - Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-s10FirmwareUpdate.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-s10FirmwareUpdate.xml)
 
 ## 工信部车辆准入许可
-- 原网址：https://www.miit-eidc.org.cn/col/col1691/index.html
+- 原网址：https://www.miit.gov.cn/RRSdy/index.html
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/工信部车辆准入许可.xml
 - Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/工信部车辆准入许可.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/工信部车辆准入许可.xml)
 

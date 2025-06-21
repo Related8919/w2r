@@ -6,11 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 20 Jun 2025 02:08:57 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Jun 2025 01:01:26 +0000</lastBuildDate>
     <item>
-      <title>MystenLabs /sui</title>
-      <link>https://github.com/MystenLabs/sui</link>
-      <description>Sui, a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the Move programming language</description>
+      <title>moby /buildkit</title>
+      <link>https://github.com/moby/buildkit</link>
+      <description>concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit</description>
     </item>
   </channel>
 </rss>

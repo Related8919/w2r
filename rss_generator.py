@@ -45,6 +45,7 @@ def fetch_blog_posts(config):
 
     # 基于文本块选择器获取所有相关块
     blocks = soup.select(config['block_css'])
+    print(f"DEBUG: Found {len(blocks)} blocks using selector '{config['block_css']}'") 
 
     posts = []
     for block in blocks:

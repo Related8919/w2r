@@ -6,11 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 21 Jun 2025 02:06:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jun 2025 02:22:53 +0000</lastBuildDate>
     <item>
-      <title>moby /buildkit</title>
-      <link>https://github.com/moby/buildkit</link>
-      <description>concurrent, cache-efficient, and Dockerfile-agnostic builder toolkit</description>
+      <title>n8n-io /n8n</title>
+      <link>https://github.com/n8n-io/n8n</link>
+      <description>Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.</description>
     </item>
   </channel>
 </rss>

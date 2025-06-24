@@ -6,11 +6,11 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 23 Jun 2025 02:23:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jun 2025 02:10:53 +0000</lastBuildDate>
     <item>
-      <title>Improving Bigtable single-row read throughput by 70%: How we did it</title>
-      <link>https://cloud.google.com/blog/products/databases/exploring-bigtable-read-throughput-performance-gains</link>
-      <description>DatabasesImproving Bigtable single-row read throughput by 70%: How we did itBy Nick Suttle • 7-minute read</description>
+      <title>Graduating the Google for Startups Accelerator: AI First in Europe &amp; Israel</title>
+      <link>https://cloud.google.com/blog/topics/startups/graduating-ai-first-accelerator-in-europe-and-israel</link>
+      <description>StartupsGraduating the Google for Startups Accelerator: AI First in Europe &amp; IsraelBy Helene Ambiana • 4-minute read</description>
     </item>
   </channel>
 </rss>

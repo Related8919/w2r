@@ -6,11 +6,11 @@
     <description>Latest posts from https://www.deeplearning.ai/the-batch/. follow.is: feedId:91496692463707136+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 25 Jun 2025 02:11:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jun 2025 02:10:03 +0000</lastBuildDate>
     <item>
-      <title>GPT-4.5 Goes Big, Claude 3.7 Reasons, Alexa+ Goes Agentic, Generating Text Like an Image</title>
-      <link>https://www.deeplearning.ai/the-batch/issue-291/</link>
-      <description>The Batch AI News and Insights: Continuing our discussion on the Voice Stack, I’d like to explore an area that today’s voice-based systems mostly struggle with: Voice Activity Detection (VAD) and the turn-taking paradigm of communication.</description>
+      <title>DeepSeek-R1 Uncensored, QwQ-32B Puts Reasoning in Smaller Model, Phi-4-multimodal Takes Spoken Input, Training AI May Not Be Fair Use</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-292/</link>
+      <description>The Batch AI News and Insights: Some people today are discouraging others from learning programming on the grounds AI will automate it.</description>
     </item>
   </channel>
 </rss>

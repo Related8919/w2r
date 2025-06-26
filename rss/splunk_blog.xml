@@ -6,11 +6,11 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 25 Jun 2025 02:10:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jun 2025 02:09:38 +0000</lastBuildDate>
     <item>
-      <title>The Guide to Network Forensics: Importance, Tools, and Use Cases</title>
-      <link>https://www.splunk.com/en_us/blog/learn/network-forensics.html</link>
-      <description>Learn how network forensics helps investigate cyberattacks, detect real-time threats, and protect systems with tools, techniques, and real-world use cases.</description>
+      <title>Why Modern Incident Response Strategies Need Network and Service Intelligence: Part 2</title>
+      <link>https://www.splunk.com/en_us/blog/observability/modern-incident-response-network-intelligence-part-2.html</link>
+      <description>Modern incident response isn’t just about fast reflexes – it's about smarter responses. In part 2 of our series, we cover how network telemetry should influence incident response, accelerate root cause analysis, and drive business-aware action across teams.</description>
     </item>
   </channel>
 </rss>

@@ -6,11 +6,11 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 25 Jun 2025 02:11:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Jun 2025 02:10:10 +0000</lastBuildDate>
     <item>
-      <title>利用 NVIDIA Data Flywheel Blueprint 通过模型蒸馏构建高效的 AI 智能体</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/build-efficient-ai-agents-through-model-distillation-with-nvidias-data-flywheel-blueprint/</link>
-      <description>2025年 6月 11日利用 NVIDIA Data Flywheel Blueprint 通过模型蒸馏构建高效的 AI 智能体随着企业加速采用代理式 AI，团队在扩展智能应用程序的同时管理推理成本方面面临着越来越大的挑战。大语言模型 (LLM) 提供强大的性能，2 MIN READ</description>
+      <title>使用 FlashInfer 运行 NVIDIA 的高性能 LLM 推理内核</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/run-high-performance-llm-inference-kernels-from-nvidia-using-flashinfer/</link>
+      <description>2025年 6月 13日使用 FlashInfer 运行 NVIDIA 的高性能 LLM 推理内核出色的 LLM 推理需要两个关键要素：速度和开发者速度。速度是指通过使用高度优化的计算内核算法，最大限度地提高底层硬件的效率。2 MIN READ</description>
     </item>
   </channel>
 </rss>

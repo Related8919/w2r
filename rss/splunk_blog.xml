@@ -6,11 +6,11 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 28 Jun 2025 02:05:55 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jun 2025 02:27:15 +0000</lastBuildDate>
     <item>
-      <title>Building the Future: Splunk Developer Sessions You Can't Miss at .conf25</title>
-      <link>https://www.splunk.com/en_us/blog/conf-splunklive/splunk-developer-sessions-at-conf25.html</link>
-      <description>Join us at .conf25 for an amazing lineup of sessions, activities, and expert staff covering best practices that are tailored to elevate your Splunk development game.</description>
+      <title>Deep Packet Inspection (DPI) Explained: OSI Layers, Real-World Applications &amp; Ethical Considerations</title>
+      <link>https://www.splunk.com/en_us/blog/learn/deep-packet-inspection-dpi.html</link>
+      <description>Explore Deep Packet Inspection (DPI): how it boosts security &amp; network ops, its applications, and the crucial privacy vs. security debate.</description>
     </item>
   </channel>
 </rss>

@@ -6,11 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 28 Jun 2025 02:06:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jun 2025 02:27:21 +0000</lastBuildDate>
     <item>
-      <title>cline /cline</title>
-      <link>https://github.com/cline/cline</link>
-      <description>Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way.</description>
+      <title>pot-app /pot-desktop</title>
+      <link>https://github.com/pot-app/pot-desktop</link>
+      <description>🌈一个跨平台的划词翻译和OCR软件 | A cross-platform software for text translation and recognition.</description>
     </item>
   </channel>
 </rss>

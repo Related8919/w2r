@@ -6,11 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 30 Jun 2025 02:21:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 02:28:40 +0000</lastBuildDate>
     <item>
-      <title>zyronon /typing-word</title>
-      <link>https://github.com/zyronon/typing-word</link>
-      <description>在网页上背单词</description>
+      <title>coleam00 /ottomator-agents</title>
+      <link>https://github.com/coleam00/ottomator-agents</link>
+      <description>All the open source AI Agents hosted on the oTTomator Live Agent Studio platform!</description>
     </item>
   </channel>
 </rss>

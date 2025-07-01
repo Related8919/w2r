@@ -6,11 +6,11 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 30 Jun 2025 02:21:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 02:28:34 +0000</lastBuildDate>
     <item>
-      <title>Deep Packet Inspection (DPI) Explained: OSI Layers, Real-World Applications &amp; Ethical Considerations</title>
-      <link>https://www.splunk.com/en_us/blog/learn/deep-packet-inspection-dpi.html</link>
-      <description>Explore Deep Packet Inspection (DPI): how it boosts security &amp; network ops, its applications, and the crucial privacy vs. security debate.</description>
+      <title>Splunk Named a Leader in The Forrester Wave™: Security Analytics Platforms, Q2 2025</title>
+      <link>https://www.splunk.com/en_us/blog/security/splunk-named-a-leader-in-the-forrester-wave-security-analytics-platforms-q2-2025.html</link>
+      <description>Splunk has been named a Leader in The Forrester Wave: Security Analytics Platforms, Q2 2025.</description>
     </item>
   </channel>
 </rss>

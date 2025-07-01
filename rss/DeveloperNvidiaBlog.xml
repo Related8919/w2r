@@ -6,11 +6,11 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 01 Jul 2025 02:29:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 06:38:43 +0000</lastBuildDate>
     <item>
-      <title>Isaac Sim 和 Isaac Lab 现已推出早期开发者预览版</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/isaac-sim-and-isaac-lab-are-now-available-for-early-developer-preview/</link>
-      <description>2025年 6月 16日Isaac Sim 和 Isaac Lab 现已推出早期开发者预览版NVIDIA 今天发布了 NVIDIA Isaac Sim 和 NVIDIA Isaac Lab 的开发者预览版…2 MIN READ</description>
+      <title>使用世界基础模型生成的合成轨迹数据提高机器人学习效果</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/enhance-robot-learning-with-synthetic-trajectory-data-generated-by-world-foundation-models/</link>
+      <description>2025年 6月 16日使用世界基础模型生成的合成轨迹数据提高机器人学习效果在机电一体化和机器人 AI 基础模型的进步的推动下，通用型机器人技术已经问世。但关键的瓶颈依然存在：2 MIN READ</description>
     </item>
   </channel>
 </rss>

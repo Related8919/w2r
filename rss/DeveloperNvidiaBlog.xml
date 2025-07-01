@@ -6,11 +6,11 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 01 Jul 2025 07:28:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 08:52:45 +0000</lastBuildDate>
     <item>
-      <title>使用世界基础模型生成的合成轨迹数据提高机器人学习效果</title>
-      <link>https://developer.nvidia.com/zh-cn/blog/enhance-robot-learning-with-synthetic-trajectory-data-generated-by-world-foundation-models/</link>
-      <description>2025年 6月 16日使用世界基础模型生成的合成轨迹数据提高机器人学习效果在机电一体化和机器人 AI 基础模型的进步的推动下，通用型机器人技术已经问世。但关键的瓶颈依然存在：2 MIN READ</description>
+      <title>人工智能致力于为法律领域带来秩序</title>
+      <link>https://developer.nvidia.com/zh-cn/blog/ai-aims-to-bring-order-to-the-law/</link>
+      <description>2025年 6月 16日人工智能致力于为法律领域带来秩序斯坦福大学的一个研究团队开发了一个 LLM 系统，以减少官样文章。 被称为“System for Statutory Research”…1 MIN READ</description>
     </item>
   </channel>
 </rss>

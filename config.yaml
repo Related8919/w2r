@@ -128,8 +128,8 @@ sites:
   - name: 工信部车辆准入许可
     follow_desc: feedId:158342442182353920+userId:43946731810334720
     url: https://www.miit.gov.cn/RRSdy/index.html
-    block_css: "ul:nth-child(4) li"  # 父元素的 CSS 选择器
+    block_css: "dt.qcol-l:contains('文件发布') + .clear + ul[ergodic='view'] > li"  # 父元素的 CSS 选择器
     title_css: "a"  # 在父元素内部的标题选择器
-    description_css: "span"  # 在父元素内部的描述选择器
+    description_css: "a"  # 在父元素内部的描述选择器
     link_css: a  # 在父元素内部的链接选择器
     use_headless_browser: true

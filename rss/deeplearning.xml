@@ -6,11 +6,86 @@
     <description>Latest posts from https://www.deeplearning.ai/the-batch/. follow.is: feedId:91496692463707136+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 01 Jul 2025 09:30:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 10:00:29 +0000</lastBuildDate>
     <item>
       <title>DeepSeek-R1 Uncensored, QwQ-32B Puts Reasoning in Smaller Model, Phi-4-multimodal Takes Spoken Input, Training AI May Not Be Fair Use</title>
       <link>https://www.deeplearning.ai/the-batch/issue-292/</link>
       <description>The Batch AI News and Insights: Some people today are discouraging others from learning programming on the grounds AI will automate it.</description>
+    </item>
+    <item>
+      <title>Inside Google’s Co-Scientist, Copyright Office Weighs Generated Works, Multilingual (and Good at All of Them), Diffusion for Materials Design</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-293/</link>
+      <description>The Batch AI News and Insights: Last Friday on Pi Day, we held AI Dev 25, a new conference for AI Developers.</description>
+    </item>
+    <item>
+      <title>Compact Vision-Language with Open Weights, Faster Learning, Diffusion in Few Steps, LLMs Aid Tutors</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-294/</link>
+      <description>The Batch AI News and Insights: Fine-tuning small language models has been gaining traction over the past half year.</description>
+    </item>
+    <item>
+      <title>Open Voice-to-Voice With Vision, ChatGPT Creates Emotional Bonds, Human Action in 3D, Web Scrapers Caught in Maze</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-295/</link>
+      <description>The Batch AI News and Insights: Contrary to standard prompting advice that you should give LLMs the context they need to succeed, I find it’s sometimes faster to be lazy and dash off a quick, imprecise prompt and see what happens.</description>
+    </item>
+    <item>
+      <title>Inside the Mind of Claude, Llama 4’s Mixture of Vision-Language Experts, More Open Multimodal Models, Neural Net for Tabular Data</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-296/</link>
+      <description>The Batch AI News and Insights: I am so sorry that the U.S. is letting down our friends and allies.</description>
+    </item>
+    <item>
+      <title>Google Unveils Gemini 2.5, MCP Gains Momentum, Behind Sam Altman’s Fall and Rise, LLMs That Understand Misspellings</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-297/</link>
+      <description>The Batch AI News and Insights: I’ve noticed that many GenAI application projects put in automated evaluations (evals) of the system’s output probably later — and rely on humans to manually examine and judge outputs longer — than they should.</description>
+    </item>
+    <item>
+      <title>OpenAI’s Five New Models, Hugging Face’s Open Robot, U.S. Tightens Grip on AI Chips, Text-Only LLMs Go Multimodal</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-298/</link>
+      <description>The Batch AI News and Insights: Even though I’m a much better Python than JavaScript developer, with AI assistance, I’ve been writing a lot of JavaScript code recently.</description>
+    </item>
+    <item>
+      <title>OpenAI’s Hit Image Generator, Hot AI Startups, Better Recommendations, Music Generation for Pros</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-299/</link>
+      <description>The Batch AI News and Insights: I hope we can empower everyone to build with AI.</description>
+    </item>
+    <item>
+      <title>ChatGPT Grovels, Qwen3 Takes on DeepSeek-R1, Johnson &amp; Johnson Reveals AI Strategy, Easy Reasoning Hack</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-300/</link>
+      <description>The Batch AI News and Insights: I’m delighted to announce that AI Fund has closed $190M for our new fund, in an oversubscribed round.</description>
+    </item>
+    <item>
+      <title>Recipes For Reasoning, Open and Compact Code Generator, Looser AI Regulations, More Factual Output</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-301/</link>
+      <description>The Batch AI News and Insights: AI’s ability to make tasks not just cheaper, but also faster, is underrated in its importance in creating business value.</description>
+    </item>
+    <item>
+      <title>Codex’s Robot Dev Team, Grok’s Fixation on South Africa, Saudi Arabia’s AI Power Play, 4-Bit Efficiency With 16-Bit Accuracy</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-302/</link>
+      <description>The Batch AI News and Insights: In the age of AI, large corporations — not just startups — can move fast. I often speak with large companies’ C-suite and Boards about AI strategy and implementation, and would like to share some ideas that are applicable to big companies.</description>
+    </item>
+    <item>
+      <title>Claude 4 Advances Code Gen, How DeepSeek Built V3 For $5.6m, Google I/O Roundup, O’Reilly Versus OpenAI</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-303/</link>
+      <description>The Batch AI News and Insights: I am alarmed by the proposed cuts to U.S. funding for basic research, analyzed here, and the impact this would have for U.S. competitiveness in AI and other areas.</description>
+    </item>
+    <item>
+      <title>DeepSeek-R1 Refreshed, AI’s Energy Conundrum, Agents Get Phished, Machine Translation in Action</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-304/</link>
+      <description>The Batch AI News and Insights: Everyone can benefit by learning to code with AI! At AI Fund, the venture studio I lead, everyone — not just the engineers — can vibe code or use more sophisticated AI-assisted coding techniques.</description>
+    </item>
+    <item>
+      <title>FLUX.1 Kontext’s Consistent Characters, Benchmarking Costs Climb, Mary Meeker’s Action-Packed AI Report, Better Video Gen</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-305/</link>
+      <description>The Batch AI News and Insights: There’s a new breed of GenAI Application Engineers who can build more-powerful applications faster than was possible before, thanks to generative AI.</description>
+    </item>
+    <item>
+      <title>Apple Sharpens Its GenAI Profile, Hollywood Joins Copyright Fight, OpenAI Ups Reasoning Quotient, LLM Rights Historical Wrongs</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-306/</link>
+      <description>The Batch AI News and Insights: One of the most effective things the U.S. or any other nation can do to ensure its competitiveness in AI is to welcome high-skilled immigration and international students who have the potential to become high-skilled.</description>
+    </item>
+    <item>
+      <title>Judge Rules Training AI on Copyrighted Works Is Fair Use, Agentic Biology Evolves, Meta Befriends Alexandr Wang</title>
+      <link>https://www.deeplearning.ai/the-batch/tag/jun-25-2025/</link>
+      <description>The Batch AI News and Insights: On Monday, a United States District Court ruled that training LLMs on copyrighted books constitutes fair use.</description>
     </item>
   </channel>
 </rss>

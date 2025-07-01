@@ -6,7 +6,7 @@
     <description>Latest posts from https://www.prefect.io/blog. follow.is: feedId:91496891568160768+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 18 Jun 2025 08:49:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 10:00:34 +0000</lastBuildDate>
     <item>
       <title>Prefect ProductThe Golden SpikeJanuary 2019</title>
       <link>https://www.prefect.io/blog/golden-spike</link>
@@ -586,6 +586,11 @@
       <title>Case StudiesKraft Analytics Group Platform Evolution with PrefectMay 2025</title>
       <link>https://www.prefect.io/blog/kraft-analytics-group-platform-evolution-with-prefect</link>
       <description>Case StudiesKraft Analytics Group Platform Evolution with PrefectMay 2025</description>
+    </item>
+    <item>
+      <title>Workflow OrchestrationHow to Cut Data Pipeline Costs by 75% with Kubernetes Spot InstancesJune 2025</title>
+      <link>https://www.prefect.io/blog/how-to-cut-data-pipeline-costs-by-75-with-kubernetes-spot-instances</link>
+      <description>Workflow OrchestrationHow to Cut Data Pipeline Costs by 75% with Kubernetes Spot InstancesJune 2025</description>
     </item>
   </channel>
 </rss>

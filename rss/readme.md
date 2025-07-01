@@ -30,6 +30,11 @@
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/deeplearning.xml
 - Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/deeplearning.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/deeplearning.xml)
 
+## PrefectBlog
+- 原网址：https://www.prefect.io/blog
+- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/PrefectBlog.xml
+- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/PrefectBlog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/PrefectBlog.xml)
+
 ## DeveloperNvidiaBlog
 - 原网址：https://developer.nvidia.com/zh-cn/blog/recent-posts/
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/DeveloperNvidiaBlog.xml
@@ -44,11 +49,6 @@
 - 原网址：https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-h2
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-h2FirmwareUpdate.xml
 - Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-h2FirmwareUpdate.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-h2FirmwareUpdate.xml)
-
-## x-s10FirmwareUpdate
-- 原网址：https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-s10
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-s10FirmwareUpdate.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-s10FirmwareUpdate.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-s10FirmwareUpdate.xml)
 
 ## 工信部车辆准入许可
 - 原网址：https://www.miit.gov.cn/RRSdy/index.html

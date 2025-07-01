@@ -6,11 +6,276 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 01 Jul 2025 09:30:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Jul 2025 10:00:05 +0000</lastBuildDate>
     <item>
       <title>Splunk Named a Leader in The Forrester Wave™: Security Analytics Platforms, Q2 2025</title>
       <link>https://www.splunk.com/en_us/blog/security/splunk-named-a-leader-in-the-forrester-wave-security-analytics-platforms-q2-2025.html</link>
       <description>Splunk has been named a Leader in The Forrester Wave: Security Analytics Platforms, Q2 2025.</description>
+    </item>
+    <item>
+      <title>Behind the Curtain: Detecting Remote Employment Fraud Inside Your Organization</title>
+      <link>https://www.splunk.com/en_us/blog/security/remote-employment-fraud-operations.html</link>
+      <description>Detect Remote Employment Fraud using Splunk Enterprise Security with actionable detection strategies to identify and respond to fraudulent activity.</description>
+    </item>
+    <item>
+      <title>UK Needn’t Fear The Data Deluge</title>
+      <link>https://www.splunk.com/en_us/blog/leadership/uk-neednt-fear-the-data-deluge.html</link>
+      <description>UK businesses face a data explosion—fueling growth but also raising risks in security, compliance, and operations. With smart data management strategies, organisations can regain control, boost resilience, and turn data into a true competitive edge.</description>
+    </item>
+    <item>
+      <title>Drive Public Sector Efficiencies of Scale with Splunk and AWS</title>
+      <link>https://www.splunk.com/en_us/blog/industries/drive-public-sector-efficiencies-of-scale-with-splunk-and-aws.html</link>
+      <description>Splunker Eduardo Nzambi shares how Splunk and AWS drive ROI, data control and digital resilience for the public sector.</description>
+    </item>
+    <item>
+      <title>Introducing Splunk Attack Range v4.0</title>
+      <link>https://www.splunk.com/en_us/blog/security/splunk-attack-range-v4-threat-detection-emulation.html</link>
+      <description>Splunk Attack Range v4.0 empowers security teams to build detections &amp; emulate adversaries.</description>
+    </item>
+    <item>
+      <title>What Is Splunk? The Complete Overview of What Splunk Does</title>
+      <link>https://www.splunk.com/en_us/blog/learn/what-splunk-does.html</link>
+      <description>Splunk is a powerful, unified data platform that supports enterprise environments. Now a Cisco company, we want to clear up any confusion about what Splunk does.  Find out about Splunk – straight from Splunk.</description>
+    </item>
+    <item>
+      <title>Infrastructure Security Explained: Threats and Protection Strategies</title>
+      <link>https://www.splunk.com/en_us/blog/learn/infrastructure-security.html</link>
+      <description>Learn the essentials of infrastructure security, including key components, common threats, and best practices to protect physical and digital assets effectively.</description>
+    </item>
+    <item>
+      <title>Partners Are the Strategy: Momentum and Opportunity After Cisco Live 2025</title>
+      <link>https://www.splunk.com/en_us/blog/partners/partners-are-the-strategy-momentum-and-opportunity-after-cisco-live-2025.html</link>
+      <description>Splunk's Gretchen O'Hara shares a closer look at the innovations and groundbreaking partner solutions unveiled at Cisco Live 2025.</description>
+    </item>
+    <item>
+      <title>Celebrate 10 Years of Boss of the SOC at .conf25</title>
+      <link>https://www.splunk.com/en_us/blog/conf-splunklive/celebrate-10-years-of-boss-of-the-soc-at-conf25.html</link>
+      <description>We're proud to celebrate a decade of BOTS with BOTS10 at .conf25, featuring an evening of unique experiences and surprises.</description>
+    </item>
+    <item>
+      <title>What is Observability? An Introduction</title>
+      <link>https://www.splunk.com/en_us/blog/learn/observability.html</link>
+      <description>In this blog post, we'll look at definitions, best practices, and key concepts around Observability in IT.</description>
+    </item>
+    <item>
+      <title>What are SaaS, PaaS, &amp; IaaS?</title>
+      <link>https://www.splunk.com/en_us/blog/learn/cloud-service-models-saas-vs-paas-vs-iaas.html</link>
+      <description>Yes, the cloud makes work better. But which cloud model is right for you? Understand how SaaS, PaaS, and IaaS works in this ultimate guide.</description>
+    </item>
+    <item>
+      <title>Telemetry 101: An Introduction To Telemetry</title>
+      <link>https://www.splunk.com/en_us/blog/learn/what-is-telemetry.html</link>
+      <description>Telemetry is powerful data that can tell you all sorts of important information. Know what you can do with this useful data — get the full telemetry 101 here.</description>
+    </item>
+    <item>
+      <title>What Are SLMs? Small Language Models, Explained</title>
+      <link>https://www.splunk.com/en_us/blog/learn/small-language-models-slms.html</link>
+      <description>Large language models have changed the world. What about small language models? Learn what SLMs are, how they differ from LLMs, and why SLMs are the future.</description>
+    </item>
+    <item>
+      <title>IT and Technology Spending &amp; Budgets for 2025: Trends &amp; Forecasts</title>
+      <link>https://www.splunk.com/en_us/blog/learn/it-tech-spending.html</link>
+      <description>Tech &amp; IT spending is on the rise in 2025 across the globe. Read more on investment trends and see which regions will spend the most.</description>
+    </item>
+    <item>
+      <title>SIEM: Security Information &amp; Event Management Explained</title>
+      <link>https://www.splunk.com/en_us/blog/learn/siem-security-information-event-management.html</link>
+      <description>SIEM is a cybersecurity game-changer, especially for large organizations. Learn key SIEM features and functions &amp; how to choose the right SIEM tool.</description>
+    </item>
+    <item>
+      <title>What is Observability? An Introduction</title>
+      <link>https://www.splunk.com/en_us/blog/learn/observability.html</link>
+      <description>In this blog post, we'll look at definitions, best practices, and key concepts around Observability in IT.</description>
+    </item>
+    <item>
+      <title>What are SaaS, PaaS, &amp; IaaS?</title>
+      <link>https://www.splunk.com/en_us/blog/learn/cloud-service-models-saas-vs-paas-vs-iaas.html</link>
+      <description>Yes, the cloud makes work better. But which cloud model is right for you? Understand how SaaS, PaaS, and IaaS works in this ultimate guide.</description>
+    </item>
+    <item>
+      <title>Telemetry 101: An Introduction To Telemetry</title>
+      <link>https://www.splunk.com/en_us/blog/learn/what-is-telemetry.html</link>
+      <description>Telemetry is powerful data that can tell you all sorts of important information. Know what you can do with this useful data — get the full telemetry 101 here.</description>
+    </item>
+    <item>
+      <title>What Are SLMs? Small Language Models, Explained</title>
+      <link>https://www.splunk.com/en_us/blog/learn/small-language-models-slms.html</link>
+      <description>Large language models have changed the world. What about small language models? Learn what SLMs are, how they differ from LLMs, and why SLMs are the future.</description>
+    </item>
+    <item>
+      <title>IT and Technology Spending &amp; Budgets for 2025: Trends &amp; Forecasts</title>
+      <link>https://www.splunk.com/en_us/blog/learn/it-tech-spending.html</link>
+      <description>Tech &amp; IT spending is on the rise in 2025 across the globe. Read more on investment trends and see which regions will spend the most.</description>
+    </item>
+    <item>
+      <title>SIEM: Security Information &amp; Event Management Explained</title>
+      <link>https://www.splunk.com/en_us/blog/learn/siem-security-information-event-management.html</link>
+      <description>SIEM is a cybersecurity game-changer, especially for large organizations. Learn key SIEM features and functions &amp; how to choose the right SIEM tool.</description>
+    </item>
+    <item>
+      <title>What is Observability? An Introduction</title>
+      <link>https://www.splunk.com/en_us/blog/learn/observability.html</link>
+      <description>In this blog post, we'll look at definitions, best practices, and key concepts around Observability in IT.</description>
+    </item>
+    <item>
+      <title>What are SaaS, PaaS, &amp; IaaS?</title>
+      <link>https://www.splunk.com/en_us/blog/learn/cloud-service-models-saas-vs-paas-vs-iaas.html</link>
+      <description>Yes, the cloud makes work better. But which cloud model is right for you? Understand how SaaS, PaaS, and IaaS works in this ultimate guide.</description>
+    </item>
+    <item>
+      <title>Telemetry 101: An Introduction To Telemetry</title>
+      <link>https://www.splunk.com/en_us/blog/learn/what-is-telemetry.html</link>
+      <description>Telemetry is powerful data that can tell you all sorts of important information. Know what you can do with this useful data — get the full telemetry 101 here.</description>
+    </item>
+    <item>
+      <title>Hey SDDL SDDL: Breaking Down Windows Security One ACE at a Time</title>
+      <link>https://www.splunk.com/en_us/blog/security/windows-security-sddl-guide-access-control.html</link>
+      <description>Explore SDDL in Windows security with our comprehensive guide to help enhance your defensive strategy against privilege escalation attacks.</description>
+    </item>
+    <item>
+      <title>Splunk Security Ops: Building the Blueprint for Success</title>
+      <link>https://www.splunk.com/en_us/blog/security/splunk-security-operations-blueprint-for-success.html</link>
+      <description>Learn how Splunk Global Security runs ops at scale and enables the business by focusing on what matters—solving problems through data, automation, and collaboration.</description>
+    </item>
+    <item>
+      <title>Splunk Security Content for Threat Detection &amp; Response: May Recap</title>
+      <link>https://www.splunk.com/en_us/blog/security/splunk-security-content-for-threat-detection-response-may-recap.html</link>
+      <description>There are 13 new analytics and 4 new analytic stories now available in Splunk Enterprise Security via the ESCU application update process.</description>
+    </item>
+    <item>
+      <title>Security Staff Picks To Read This Month, Handpicked by Splunk Experts</title>
+      <link>https://www.splunk.com/en_us/blog/security/cybersecurity-recent-articles.html</link>
+      <description>Our Splunk security experts share their favorite reads of the month so you can follow the most interesting, news-worthy, and innovative stories coming from the wide world of cybersecurity.</description>
+    </item>
+    <item>
+      <title>Splunk Named a Leader in The Forrester Wave™: Security Analytics Platforms, Q2 2025</title>
+      <link>https://www.splunk.com/en_us/blog/security/splunk-named-a-leader-in-the-forrester-wave-security-analytics-platforms-q2-2025.html</link>
+      <description>Splunk has been named a Leader in The Forrester Wave: Security Analytics Platforms, Q2 2025.</description>
+    </item>
+    <item>
+      <title>Defending at Machine Speed: Guiding LLMs with Security Context</title>
+      <link>https://www.splunk.com/en_us/blog/security/guiding-llms-with-security-context.html</link>
+      <description>Enhance LLM performance for cybersecurity tasks with few-shot learning, RAG, &amp; fine-tuning guide models for accurate PowerShell classification.</description>
+    </item>
+    <item>
+      <title>Hey SDDL SDDL: Breaking Down Windows Security One ACE at a Time</title>
+      <link>https://www.splunk.com/en_us/blog/security/windows-security-sddl-guide-access-control.html</link>
+      <description>Explore SDDL in Windows security with our comprehensive guide to help enhance your defensive strategy against privilege escalation attacks.</description>
+    </item>
+    <item>
+      <title>Splunk Security Ops: Building the Blueprint for Success</title>
+      <link>https://www.splunk.com/en_us/blog/security/splunk-security-operations-blueprint-for-success.html</link>
+      <description>Learn how Splunk Global Security runs ops at scale and enables the business by focusing on what matters—solving problems through data, automation, and collaboration.</description>
+    </item>
+    <item>
+      <title>Splunk Security Content for Threat Detection &amp; Response: May Recap</title>
+      <link>https://www.splunk.com/en_us/blog/security/splunk-security-content-for-threat-detection-response-may-recap.html</link>
+      <description>There are 13 new analytics and 4 new analytic stories now available in Splunk Enterprise Security via the ESCU application update process.</description>
+    </item>
+    <item>
+      <title>Security Staff Picks To Read This Month, Handpicked by Splunk Experts</title>
+      <link>https://www.splunk.com/en_us/blog/security/cybersecurity-recent-articles.html</link>
+      <description>Our Splunk security experts share their favorite reads of the month so you can follow the most interesting, news-worthy, and innovative stories coming from the wide world of cybersecurity.</description>
+    </item>
+    <item>
+      <title>Splunk Named a Leader in The Forrester Wave™: Security Analytics Platforms, Q2 2025</title>
+      <link>https://www.splunk.com/en_us/blog/security/splunk-named-a-leader-in-the-forrester-wave-security-analytics-platforms-q2-2025.html</link>
+      <description>Splunk has been named a Leader in The Forrester Wave: Security Analytics Platforms, Q2 2025.</description>
+    </item>
+    <item>
+      <title>Defending at Machine Speed: Guiding LLMs with Security Context</title>
+      <link>https://www.splunk.com/en_us/blog/security/guiding-llms-with-security-context.html</link>
+      <description>Enhance LLM performance for cybersecurity tasks with few-shot learning, RAG, &amp; fine-tuning guide models for accurate PowerShell classification.</description>
+    </item>
+    <item>
+      <title>Hey SDDL SDDL: Breaking Down Windows Security One ACE at a Time</title>
+      <link>https://www.splunk.com/en_us/blog/security/windows-security-sddl-guide-access-control.html</link>
+      <description>Explore SDDL in Windows security with our comprehensive guide to help enhance your defensive strategy against privilege escalation attacks.</description>
+    </item>
+    <item>
+      <title>Splunk Security Ops: Building the Blueprint for Success</title>
+      <link>https://www.splunk.com/en_us/blog/security/splunk-security-operations-blueprint-for-success.html</link>
+      <description>Learn how Splunk Global Security runs ops at scale and enables the business by focusing on what matters—solving problems through data, automation, and collaboration.</description>
+    </item>
+    <item>
+      <title>Splunk Security Content for Threat Detection &amp; Response: May Recap</title>
+      <link>https://www.splunk.com/en_us/blog/security/splunk-security-content-for-threat-detection-response-may-recap.html</link>
+      <description>There are 13 new analytics and 4 new analytic stories now available in Splunk Enterprise Security via the ESCU application update process.</description>
+    </item>
+    <item>
+      <title>Imposters at the Gate: Spotting Remote Employment Fraud Before It Crosses the Wire</title>
+      <link>https://www.splunk.com/en_us/blog/security/remote-employment-fraud-detection.html</link>
+      <description>Remote Employment Fraud actors don’t steal credentials—they’re issued them. This blog explores early detection and why security can’t face this threat alone.</description>
+    </item>
+    <item>
+      <title>The Splunkie Awards Are Back for 2025 — Let the Nominations Begin!</title>
+      <link>https://www.splunk.com/en_us/blog/conf-splunklive/splunkie-awards.html</link>
+      <description>Nominate data rockstars for the 2025 Splunkie Awards! Recognize customers and partners driving innovation with Splunk.</description>
+    </item>
+    <item>
+      <title>SOAR on Azure Now Available</title>
+      <link>https://www.splunk.com/en_us/blog/partners/soar-on-azure-now-available.html</link>
+      <description>Splunk Security Orchestration, Automation and Response (SOAR) is now available as a native SaaS solution on Azure.</description>
+    </item>
+    <item>
+      <title>AI and the Data Value Challenge: Why It’s Time to Rewrite the Rules of Data Management</title>
+      <link>https://www.splunk.com/en_us/blog/leadership/ai-and-the-data-value-challenge.html</link>
+      <description>Splunk's 'The New Rules of Data Management: Creating Value in the AI Era' report captures trending shifts in data management and examines how organizations are structuring — and should be potentially rethinking — their data strategies.</description>
+    </item>
+    <item>
+      <title>Enter the SOC of the Future in Splunk’s State of Security 2025</title>
+      <link>https://www.splunk.com/en_us/blog/security/enter-the-soc-of-the-future-in-splunks-state-of-security-2025.html</link>
+      <description>Splunk's State of Security 2025: The Stronger, Smarter SOC of the Future reveals the insights, aspirations, and challenges of security leaders.</description>
+    </item>
+    <item>
+      <title>Top 5 Reasons to Attend .conf25 in Boston</title>
+      <link>https://www.splunk.com/en_us/blog/conf-splunklive/top-5-reasons-to-attend-conf25-in-boston.html</link>
+      <description>Here are the top five reasons you won't want to miss Splunk .conf25 – registration is now open.</description>
+    </item>
+    <item>
+      <title>Imposters at the Gate: Spotting Remote Employment Fraud Before It Crosses the Wire</title>
+      <link>https://www.splunk.com/en_us/blog/security/remote-employment-fraud-detection.html</link>
+      <description>Remote Employment Fraud actors don’t steal credentials—they’re issued them. This blog explores early detection and why security can’t face this threat alone.</description>
+    </item>
+    <item>
+      <title>The Splunkie Awards Are Back for 2025 — Let the Nominations Begin!</title>
+      <link>https://www.splunk.com/en_us/blog/conf-splunklive/splunkie-awards.html</link>
+      <description>Nominate data rockstars for the 2025 Splunkie Awards! Recognize customers and partners driving innovation with Splunk.</description>
+    </item>
+    <item>
+      <title>SOAR on Azure Now Available</title>
+      <link>https://www.splunk.com/en_us/blog/partners/soar-on-azure-now-available.html</link>
+      <description>Splunk Security Orchestration, Automation and Response (SOAR) is now available as a native SaaS solution on Azure.</description>
+    </item>
+    <item>
+      <title>AI and the Data Value Challenge: Why It’s Time to Rewrite the Rules of Data Management</title>
+      <link>https://www.splunk.com/en_us/blog/leadership/ai-and-the-data-value-challenge.html</link>
+      <description>Splunk's 'The New Rules of Data Management: Creating Value in the AI Era' report captures trending shifts in data management and examines how organizations are structuring — and should be potentially rethinking — their data strategies.</description>
+    </item>
+    <item>
+      <title>Enter the SOC of the Future in Splunk’s State of Security 2025</title>
+      <link>https://www.splunk.com/en_us/blog/security/enter-the-soc-of-the-future-in-splunks-state-of-security-2025.html</link>
+      <description>Splunk's State of Security 2025: The Stronger, Smarter SOC of the Future reveals the insights, aspirations, and challenges of security leaders.</description>
+    </item>
+    <item>
+      <title>Top 5 Reasons to Attend .conf25 in Boston</title>
+      <link>https://www.splunk.com/en_us/blog/conf-splunklive/top-5-reasons-to-attend-conf25-in-boston.html</link>
+      <description>Here are the top five reasons you won't want to miss Splunk .conf25 – registration is now open.</description>
+    </item>
+    <item>
+      <title>Imposters at the Gate: Spotting Remote Employment Fraud Before It Crosses the Wire</title>
+      <link>https://www.splunk.com/en_us/blog/security/remote-employment-fraud-detection.html</link>
+      <description>Remote Employment Fraud actors don’t steal credentials—they’re issued them. This blog explores early detection and why security can’t face this threat alone.</description>
+    </item>
+    <item>
+      <title>The Splunkie Awards Are Back for 2025 — Let the Nominations Begin!</title>
+      <link>https://www.splunk.com/en_us/blog/conf-splunklive/splunkie-awards.html</link>
+      <description>Nominate data rockstars for the 2025 Splunkie Awards! Recognize customers and partners driving innovation with Splunk.</description>
+    </item>
+    <item>
+      <title>SOAR on Azure Now Available</title>
+      <link>https://www.splunk.com/en_us/blog/partners/soar-on-azure-now-available.html</link>
+      <description>Splunk Security Orchestration, Automation and Response (SOAR) is now available as a native SaaS solution on Azure.</description>
     </item>
   </channel>
 </rss>

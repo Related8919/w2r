@@ -6,16 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 02 Jul 2025 02:10:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jul 2025 02:11:02 +0000</lastBuildDate>
     <item>
-      <title>snailyp /gemini-balance</title>
-      <link>https://github.com/snailyp/gemini-balance</link>
-      <description>Gemini polling proxy service （gemini轮询代理服务）</description>
+      <title>mrdoob /three.js</title>
+      <link>https://github.com/mrdoob/three.js</link>
+      <description>JavaScript 3D Library.</description>
     </item>
     <item>
-      <title>jnsahaj /tweakcn</title>
-      <link>https://github.com/jnsahaj/tweakcn</link>
-      <description>A visual no-code theme editor for shadcn/ui components</description>
+      <title>tadata-org /fastapi_mcp</title>
+      <link>https://github.com/tadata-org/fastapi_mcp</link>
+      <description>Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!</description>
+    </item>
+    <item>
+      <title>openssl /openssl</title>
+      <link>https://github.com/openssl/openssl</link>
+      <description>TLS/SSL and crypto library</description>
+    </item>
+    <item>
+      <title>PaddlePaddle /ERNIE</title>
+      <link>https://github.com/PaddlePaddle/ERNIE</link>
+      <description>The official repository for ERNIE 4.5 and ERNIEKit – its industrial-grade development toolkit based on PaddlePaddle.</description>
     </item>
     <item>
       <title>onlook-dev /onlook</title>
@@ -23,9 +33,19 @@
       <description>The Cursor for Designers • An Open-Source Visual Vibecoding Editor • Visually build, style, and edit your React App with AI</description>
     </item>
     <item>
-      <title>The-Cool-Coders /Project-Ideas-And-Resources</title>
-      <link>https://github.com/The-Cool-Coders/Project-Ideas-And-Resources</link>
-      <description>A Collection of application ideas that can be used to improve your coding skills ❤.</description>
+      <title>danielmiessler /Fabric</title>
+      <link>https://github.com/danielmiessler/Fabric</link>
+      <description>Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.</description>
+    </item>
+    <item>
+      <title>snailyp /gemini-balance</title>
+      <link>https://github.com/snailyp/gemini-balance</link>
+      <description>Gemini polling proxy service （gemini轮询代理服务）</description>
+    </item>
+    <item>
+      <title>NginxProxyManager /nginx-proxy-manager</title>
+      <link>https://github.com/NginxProxyManager/nginx-proxy-manager</link>
+      <description>Docker container for managing Nginx proxy hosts with a simple, powerful interface</description>
     </item>
     <item>
       <title>TapXWorld /ChinaTextbook</title>
@@ -33,39 +53,34 @@
       <description>所有小初高、大学PDF教材。</description>
     </item>
     <item>
-      <title>swisskyrepo /PayloadsAllTheThings</title>
-      <link>https://github.com/swisskyrepo/PayloadsAllTheThings</link>
-      <description>A list of useful payloads and bypass for Web Application Security and Pentest/CTF</description>
+      <title>The-Cool-Coders /Project-Ideas-And-Resources</title>
+      <link>https://github.com/The-Cool-Coders/Project-Ideas-And-Resources</link>
+      <description>A Collection of application ideas that can be used to improve your coding skills ❤.</description>
+    </item>
+    <item>
+      <title>GraphiteEditor /Graphite</title>
+      <link>https://github.com/GraphiteEditor/Graphite</link>
+      <description>An open source graphics editor for 2025: comprehensive 2D content creation tool suite for graphic design, digital art, and interactive real-time motion graphics — featuring node-based procedural editing</description>
+    </item>
+    <item>
+      <title>binwiederhier /ntfy</title>
+      <link>https://github.com/binwiederhier/ntfy</link>
+      <description>Send push notifications to your phone or desktop using PUT/POST</description>
+    </item>
+    <item>
+      <title>microsoft /Mastering-GitHub-Copilot-for-Paired-Programming</title>
+      <link>https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming</link>
+      <description>A multi-module course teaching everything you need to know about using GitHub Copilot as an AI Peer Programming resource.</description>
+    </item>
+    <item>
+      <title>zaidmukaddam /scira</title>
+      <link>https://github.com/zaidmukaddam/scira</link>
+      <description>Scira (Formerly MiniPerplx) is a minimalistic AI-powered search engine that helps you find information on the internet and cites it too. Powered by Vercel AI SDK! Search with models like xAI's Grok 3.</description>
     </item>
     <item>
       <title>NanmiCoder /MediaCrawler</title>
       <link>https://github.com/NanmiCoder/MediaCrawler</link>
       <description>小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫</description>
-    </item>
-    <item>
-      <title>actualbudget /actual</title>
-      <link>https://github.com/actualbudget/actual</link>
-      <description>A local-first personal finance app</description>
-    </item>
-    <item>
-      <title>twentyhq /twenty</title>
-      <link>https://github.com/twentyhq/twenty</link>
-      <description>Building a modern alternative to Salesforce, powered by the community.</description>
-    </item>
-    <item>
-      <title>ColorlibHQ /AdminLTE</title>
-      <link>https://github.com/ColorlibHQ/AdminLTE</link>
-      <description>AdminLTE - Free admin dashboard template based on Bootstrap 5</description>
-    </item>
-    <item>
-      <title>confident-ai /deepeval</title>
-      <link>https://github.com/confident-ai/deepeval</link>
-      <description>The LLM Evaluation Framework</description>
-    </item>
-    <item>
-      <title>GraphiteEditor /Graphite</title>
-      <link>https://github.com/GraphiteEditor/Graphite</link>
-      <description>An open source graphics editor for 2025: comprehensive 2D content creation tool for graphic design, digital art, and interactive real-time motion graphics — featuring node-based procedural editing</description>
     </item>
     <item>
       <title>microsoft /generative-ai-for-beginners</title>

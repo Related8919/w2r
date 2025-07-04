@@ -6,51 +6,41 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 03 Jul 2025 02:11:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jul 2025 02:09:58 +0000</lastBuildDate>
     <item>
-      <title>mrdoob /three.js</title>
-      <link>https://github.com/mrdoob/three.js</link>
-      <description>JavaScript 3D Library.</description>
+      <title>ashishpatel26 /500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code</title>
+      <link>https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code</link>
+      <description>500 AI Machine learning Deep learning Computer vision NLP Projects with code</description>
     </item>
     <item>
-      <title>tadata-org /fastapi_mcp</title>
-      <link>https://github.com/tadata-org/fastapi_mcp</link>
-      <description>Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!</description>
+      <title>swagger-api /swagger-ui</title>
+      <link>https://github.com/swagger-api/swagger-ui</link>
+      <description>Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.</description>
     </item>
     <item>
-      <title>openssl /openssl</title>
-      <link>https://github.com/openssl/openssl</link>
-      <description>TLS/SSL and crypto library</description>
+      <title>llmware-ai /llmware</title>
+      <link>https://github.com/llmware-ai/llmware</link>
+      <description>Unified framework for building enterprise RAG pipelines with small, specialized models</description>
     </item>
     <item>
-      <title>PaddlePaddle /ERNIE</title>
-      <link>https://github.com/PaddlePaddle/ERNIE</link>
-      <description>The official repository for ERNIE 4.5 and ERNIEKit – its industrial-grade development toolkit based on PaddlePaddle.</description>
+      <title>datawhalechina /happy-llm</title>
+      <link>https://github.com/datawhalechina/happy-llm</link>
+      <description>📚 从零开始的大语言模型原理与实践教程</description>
     </item>
     <item>
-      <title>onlook-dev /onlook</title>
-      <link>https://github.com/onlook-dev/onlook</link>
-      <description>The Cursor for Designers • An Open-Source Visual Vibecoding Editor • Visually build, style, and edit your React App with AI</description>
+      <title>MotiaDev /motia</title>
+      <link>https://github.com/MotiaDev/motia</link>
+      <description>Unified Backend Framework for APIs, Events, and AI Agents</description>
     </item>
     <item>
-      <title>danielmiessler /Fabric</title>
-      <link>https://github.com/danielmiessler/Fabric</link>
-      <description>Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.</description>
+      <title>btjawa /BiliTools</title>
+      <link>https://github.com/btjawa/BiliTools</link>
+      <description>A cross-platform bilibili toolbox. 跨平台哔哩哔哩工具箱，支持下载视频、番剧等等各类资源</description>
     </item>
     <item>
-      <title>snailyp /gemini-balance</title>
-      <link>https://github.com/snailyp/gemini-balance</link>
-      <description>Gemini polling proxy service （gemini轮询代理服务）</description>
-    </item>
-    <item>
-      <title>NginxProxyManager /nginx-proxy-manager</title>
-      <link>https://github.com/NginxProxyManager/nginx-proxy-manager</link>
-      <description>Docker container for managing Nginx proxy hosts with a simple, powerful interface</description>
-    </item>
-    <item>
-      <title>TapXWorld /ChinaTextbook</title>
-      <link>https://github.com/TapXWorld/ChinaTextbook</link>
-      <description>所有小初高、大学PDF教材。</description>
+      <title>danny-avila /LibreChat</title>
+      <link>https://github.com/danny-avila/LibreChat</link>
+      <description>Enhanced ChatGPT Clone: Features Agents, DeepSeek, Anthropic, AWS, OpenAI, Assistants API, Azure, Groq, o1, GPT-4o, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active project.</description>
     </item>
     <item>
       <title>The-Cool-Coders /Project-Ideas-And-Resources</title>
@@ -58,34 +48,44 @@
       <description>A Collection of application ideas that can be used to improve your coding skills ❤.</description>
     </item>
     <item>
-      <title>GraphiteEditor /Graphite</title>
-      <link>https://github.com/GraphiteEditor/Graphite</link>
-      <description>An open source graphics editor for 2025: comprehensive 2D content creation tool suite for graphic design, digital art, and interactive real-time motion graphics — featuring node-based procedural editing</description>
+      <title>cloudcommunity /Free-Certifications</title>
+      <link>https://github.com/cloudcommunity/Free-Certifications</link>
+      <description>A curated list of free courses with certifications. Also available athttps://free-certifications.com/</description>
     </item>
     <item>
-      <title>binwiederhier /ntfy</title>
-      <link>https://github.com/binwiederhier/ntfy</link>
-      <description>Send push notifications to your phone or desktop using PUT/POST</description>
+      <title>Genesis-Embodied-AI /Genesis</title>
+      <link>https://github.com/Genesis-Embodied-AI/Genesis</link>
+      <description>A generative world for general-purpose robotics &amp; embodied AI learning.</description>
     </item>
     <item>
-      <title>microsoft /Mastering-GitHub-Copilot-for-Paired-Programming</title>
-      <link>https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming</link>
-      <description>A multi-module course teaching everything you need to know about using GitHub Copilot as an AI Peer Programming resource.</description>
+      <title>openssl /openssl</title>
+      <link>https://github.com/openssl/openssl</link>
+      <description>TLS/SSL and crypto library</description>
     </item>
     <item>
-      <title>zaidmukaddam /scira</title>
-      <link>https://github.com/zaidmukaddam/scira</link>
-      <description>Scira (Formerly MiniPerplx) is a minimalistic AI-powered search engine that helps you find information on the internet and cites it too. Powered by Vercel AI SDK! Search with models like xAI's Grok 3.</description>
+      <title>isaac-sim /IsaacLab</title>
+      <link>https://github.com/isaac-sim/IsaacLab</link>
+      <description>Unified framework for robot learning built on NVIDIA Isaac Sim</description>
     </item>
     <item>
-      <title>NanmiCoder /MediaCrawler</title>
-      <link>https://github.com/NanmiCoder/MediaCrawler</link>
-      <description>小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫</description>
+      <title>LadybirdBrowser /ladybird</title>
+      <link>https://github.com/LadybirdBrowser/ladybird</link>
+      <description>Truly independent web browser</description>
     </item>
     <item>
       <title>microsoft /generative-ai-for-beginners</title>
       <link>https://github.com/microsoft/generative-ai-for-beginners</link>
       <description>21 Lessons, Get Started Building with Generative AI 🔗https://microsoft.github.io/generative-ai-for-beginners/</description>
+    </item>
+    <item>
+      <title>mrdoob /three.js</title>
+      <link>https://github.com/mrdoob/three.js</link>
+      <description>JavaScript 3D Library.</description>
+    </item>
+    <item>
+      <title>NanmiCoder /MediaCrawler</title>
+      <link>https://github.com/NanmiCoder/MediaCrawler</link>
+      <description>小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫</description>
     </item>
   </channel>
 </rss>

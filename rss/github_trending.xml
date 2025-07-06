@@ -6,46 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 05 Jul 2025 02:06:11 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Jul 2025 02:25:33 +0000</lastBuildDate>
     <item>
-      <title>trekhleb /javascript-algorithms</title>
-      <link>https://github.com/trekhleb/javascript-algorithms</link>
-      <description>📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings</description>
+      <title>codecrafters-io /build-your-own-x</title>
+      <link>https://github.com/codecrafters-io/build-your-own-x</link>
+      <description>Master programming by recreating your favorite technologies from scratch.</description>
     </item>
     <item>
-      <title>Infisical /infisical</title>
-      <link>https://github.com/Infisical/infisical</link>
-      <description>Infisical is the open-source platform for secrets management, PKI, and SSH access.</description>
+      <title>google /perfetto</title>
+      <link>https://github.com/google/perfetto</link>
+      <description>Production-grade client-side tracing, profiling, and analysis for complex software systems.</description>
     </item>
     <item>
-      <title>btjawa /BiliTools</title>
-      <link>https://github.com/btjawa/BiliTools</link>
-      <description>A cross-platform bilibili toolbox. 跨平台哔哩哔哩工具箱，支持下载视频、番剧等等各类资源</description>
-    </item>
-    <item>
-      <title>iib0011 /omni-tools</title>
-      <link>https://github.com/iib0011/omni-tools</link>
-      <description>Self-hosted collection of powerful web-based tools for everyday tasks. No ads, no tracking, just fast, accessible utilities right from your browser!</description>
-    </item>
-    <item>
-      <title>onlook-dev /onlook</title>
-      <link>https://github.com/onlook-dev/onlook</link>
-      <description>The Cursor for Designers • An Open-Source Visual Vibecoding Editor • Visually build, style, and edit your React App with AI</description>
-    </item>
-    <item>
-      <title>dockur /macos</title>
-      <link>https://github.com/dockur/macos</link>
-      <description>macOS inside a Docker container.</description>
-    </item>
-    <item>
-      <title>argoproj /argo-rollouts</title>
-      <link>https://github.com/argoproj/argo-rollouts</link>
-      <description>Progressive Delivery for Kubernetes</description>
-    </item>
-    <item>
-      <title>drawdb-io /drawdb</title>
-      <link>https://github.com/drawdb-io/drawdb</link>
-      <description>Free, simple, and intuitive online database diagram editor and SQL generator.</description>
+      <title>directus /directus</title>
+      <link>https://github.com/directus/directus</link>
+      <description>The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth &amp; more.</description>
     </item>
     <item>
       <title>MotiaDev /motia</title>
@@ -53,29 +28,24 @@
       <description>Unified Backend Framework for APIs, Events, and AI Agents</description>
     </item>
     <item>
+      <title>bregman-arie /devops-exercises</title>
+      <link>https://github.com/bregman-arie/devops-exercises</link>
+      <description>Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions</description>
+    </item>
+    <item>
+      <title>megadose /toutatis</title>
+      <link>https://github.com/megadose/toutatis</link>
+      <description>Toutatis is a tool that allows you to extract information from instagrams accounts such as e-mails, phone numbers and more</description>
+    </item>
+    <item>
+      <title>Universidade-Livre /ciencia-da-computacao</title>
+      <link>https://github.com/Universidade-Livre/ciencia-da-computacao</link>
+      <description>🎓 Um caminho para a educação autodidata em Ciência da Computação!</description>
+    </item>
+    <item>
       <title>datawhalechina /happy-llm</title>
       <link>https://github.com/datawhalechina/happy-llm</link>
       <description>📚 从零开始的大语言模型原理与实践教程</description>
-    </item>
-    <item>
-      <title>juspay /hyperswitch</title>
-      <link>https://github.com/juspay/hyperswitch</link>
-      <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
-    </item>
-    <item>
-      <title>toeverything /AFFiNE</title>
-      <link>https://github.com/toeverything/AFFiNE</link>
-      <description>There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.</description>
-    </item>
-    <item>
-      <title>HumanSignal /label-studio</title>
-      <link>https://github.com/HumanSignal/label-studio</link>
-      <description>Label Studio is a multi-type data labeling and annotation tool with standardized output format</description>
-    </item>
-    <item>
-      <title>swagger-api /swagger-ui</title>
-      <link>https://github.com/swagger-api/swagger-ui</link>
-      <description>Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.</description>
     </item>
     <item>
       <title>LadybirdBrowser /ladybird</title>
@@ -83,9 +53,9 @@
       <description>Truly independent web browser</description>
     </item>
     <item>
-      <title>Genesis-Embodied-AI /Genesis</title>
-      <link>https://github.com/Genesis-Embodied-AI/Genesis</link>
-      <description>A generative world for general-purpose robotics &amp; embodied AI learning.</description>
+      <title>rustfs /rustfs</title>
+      <link>https://github.com/rustfs/rustfs</link>
+      <description>🚀 High-performance distributed object storage for MinIO alternative.</description>
     </item>
     <item>
       <title>NanmiCoder /MediaCrawler</title>

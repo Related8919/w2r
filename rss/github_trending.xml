@@ -6,56 +6,46 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 06 Jul 2025 02:25:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Jul 2025 02:22:27 +0000</lastBuildDate>
+    <item>
+      <title>home-assistant /home-assistant.io</title>
+      <link>https://github.com/home-assistant/home-assistant.io</link>
+      <description>📘 Home Assistant User documentation</description>
+    </item>
+    <item>
+      <title>iib0011 /omni-tools</title>
+      <link>https://github.com/iib0011/omni-tools</link>
+      <description>Self-hosted collection of powerful web-based tools for everyday tasks. No ads, no tracking, just fast, accessible utilities right from your browser!</description>
+    </item>
     <item>
       <title>codecrafters-io /build-your-own-x</title>
       <link>https://github.com/codecrafters-io/build-your-own-x</link>
       <description>Master programming by recreating your favorite technologies from scratch.</description>
     </item>
     <item>
-      <title>google /perfetto</title>
-      <link>https://github.com/google/perfetto</link>
-      <description>Production-grade client-side tracing, profiling, and analysis for complex software systems.</description>
+      <title>Alex313031 /thorium</title>
+      <link>https://github.com/Alex313031/thorium</link>
+      <description>Chromium fork named after radioactive element No. 90. Windows and MacOS/Raspi/Android/Special builds are in different repositories, links are towards the top of the README.md.</description>
     </item>
     <item>
-      <title>directus /directus</title>
-      <link>https://github.com/directus/directus</link>
-      <description>The flexible backend for all your projects 🐰 Turn your DB into a headless CMS, admin panels, or apps with a custom UI, instant APIs, auth &amp; more.</description>
+      <title>GyulyVGC /sniffnet</title>
+      <link>https://github.com/GyulyVGC/sniffnet</link>
+      <description>Comfortably monitor your Internet traffic 🕵️‍♂️</description>
     </item>
     <item>
-      <title>MotiaDev /motia</title>
-      <link>https://github.com/MotiaDev/motia</link>
-      <description>Unified Backend Framework for APIs, Events, and AI Agents</description>
+      <title>vosen /ZLUDA</title>
+      <link>https://github.com/vosen/ZLUDA</link>
+      <description>CUDA on non-NVIDIA GPUs</description>
     </item>
     <item>
-      <title>bregman-arie /devops-exercises</title>
-      <link>https://github.com/bregman-arie/devops-exercises</link>
-      <description>Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions</description>
+      <title>anthropics /prompt-eng-interactive-tutorial</title>
+      <link>https://github.com/anthropics/prompt-eng-interactive-tutorial</link>
+      <description>Anthropic's Interactive Prompt Engineering Tutorial</description>
     </item>
     <item>
-      <title>megadose /toutatis</title>
-      <link>https://github.com/megadose/toutatis</link>
-      <description>Toutatis is a tool that allows you to extract information from instagrams accounts such as e-mails, phone numbers and more</description>
-    </item>
-    <item>
-      <title>Universidade-Livre /ciencia-da-computacao</title>
-      <link>https://github.com/Universidade-Livre/ciencia-da-computacao</link>
-      <description>🎓 Um caminho para a educação autodidata em Ciência da Computação!</description>
-    </item>
-    <item>
-      <title>datawhalechina /happy-llm</title>
-      <link>https://github.com/datawhalechina/happy-llm</link>
-      <description>📚 从零开始的大语言模型原理与实践教程</description>
-    </item>
-    <item>
-      <title>LadybirdBrowser /ladybird</title>
-      <link>https://github.com/LadybirdBrowser/ladybird</link>
-      <description>Truly independent web browser</description>
-    </item>
-    <item>
-      <title>rustfs /rustfs</title>
-      <link>https://github.com/rustfs/rustfs</link>
-      <description>🚀 High-performance distributed object storage for MinIO alternative.</description>
+      <title>dockur /macos</title>
+      <link>https://github.com/dockur/macos</link>
+      <description>macOS inside a Docker container.</description>
     </item>
     <item>
       <title>NanmiCoder /MediaCrawler</title>

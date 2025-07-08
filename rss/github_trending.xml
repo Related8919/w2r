@@ -6,41 +6,36 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 07 Jul 2025 02:22:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jul 2025 02:11:16 +0000</lastBuildDate>
     <item>
-      <title>home-assistant /home-assistant.io</title>
-      <link>https://github.com/home-assistant/home-assistant.io</link>
-      <description>📘 Home Assistant User documentation</description>
+      <title>CodeWithHarry /Sigma-Web-Dev-Course</title>
+      <link>https://github.com/CodeWithHarry/Sigma-Web-Dev-Course</link>
+      <description>Source Code for Sigma Web Development Course</description>
     </item>
     <item>
-      <title>iib0011 /omni-tools</title>
-      <link>https://github.com/iib0011/omni-tools</link>
-      <description>Self-hosted collection of powerful web-based tools for everyday tasks. No ads, no tracking, just fast, accessible utilities right from your browser!</description>
+      <title>ed-donner /llm_engineering</title>
+      <link>https://github.com/ed-donner/llm_engineering</link>
+      <description>Repo to accompany my mastering LLM engineering course</description>
     </item>
     <item>
-      <title>codecrafters-io /build-your-own-x</title>
-      <link>https://github.com/codecrafters-io/build-your-own-x</link>
-      <description>Master programming by recreating your favorite technologies from scratch.</description>
+      <title>humanlayer /12-factor-agents</title>
+      <link>https://github.com/humanlayer/12-factor-agents</link>
+      <description>What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?</description>
     </item>
     <item>
-      <title>Alex313031 /thorium</title>
-      <link>https://github.com/Alex313031/thorium</link>
-      <description>Chromium fork named after radioactive element No. 90. Windows and MacOS/Raspi/Android/Special builds are in different repositories, links are towards the top of the README.md.</description>
+      <title>smallcloudai /refact</title>
+      <link>https://github.com/smallcloudai/refact</link>
+      <description>AI Agent that handles engineering tasks end-to-end: integrates with developers’ tools, plans, executes, and iterates until it achieves a successful result.</description>
     </item>
     <item>
-      <title>GyulyVGC /sniffnet</title>
-      <link>https://github.com/GyulyVGC/sniffnet</link>
-      <description>Comfortably monitor your Internet traffic 🕵️‍♂️</description>
+      <title>commaai /openpilot</title>
+      <link>https://github.com/commaai/openpilot</link>
+      <description>openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.</description>
     </item>
     <item>
-      <title>vosen /ZLUDA</title>
-      <link>https://github.com/vosen/ZLUDA</link>
-      <description>CUDA on non-NVIDIA GPUs</description>
-    </item>
-    <item>
-      <title>anthropics /prompt-eng-interactive-tutorial</title>
-      <link>https://github.com/anthropics/prompt-eng-interactive-tutorial</link>
-      <description>Anthropic's Interactive Prompt Engineering Tutorial</description>
+      <title>pocketbase /pocketbase</title>
+      <link>https://github.com/pocketbase/pocketbase</link>
+      <description>Open Source realtime backend in 1 file</description>
     </item>
     <item>
       <title>dockur /macos</title>
@@ -48,9 +43,19 @@
       <description>macOS inside a Docker container.</description>
     </item>
     <item>
-      <title>NanmiCoder /MediaCrawler</title>
-      <link>https://github.com/NanmiCoder/MediaCrawler</link>
-      <description>小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫</description>
+      <title>th-ch /youtube-music</title>
+      <link>https://github.com/th-ch/youtube-music</link>
+      <description>YouTube Music Desktop App bundled with custom plugins</description>
+    </item>
+    <item>
+      <title>anthropics /prompt-eng-interactive-tutorial</title>
+      <link>https://github.com/anthropics/prompt-eng-interactive-tutorial</link>
+      <description>Anthropic's Interactive Prompt Engineering Tutorial</description>
+    </item>
+    <item>
+      <title>rustfs /rustfs</title>
+      <link>https://github.com/rustfs/rustfs</link>
+      <description>🚀 High-performance distributed object storage for MinIO alternative.</description>
     </item>
   </channel>
 </rss>

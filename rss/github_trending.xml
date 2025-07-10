@@ -6,66 +6,56 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 09 Jul 2025 02:12:40 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Jul 2025 02:13:50 +0000</lastBuildDate>
     <item>
-      <title>forthespada /CS-Books</title>
-      <link>https://github.com/forthespada/CS-Books</link>
-      <description>🔥🔥超过1000本的计算机经典书籍、个人笔记资料以及本人在各平台发表文章中所涉及的资源等。书籍资源包括C/C++、Java、Python、Go语言、数据结构与算法、操作系统、后端架构、计算机系统知识、数据库、计算机网络、设计模式、前端、汇编以及校招社招各种面经~</description>
+      <title>junegunn /fzf</title>
+      <link>https://github.com/junegunn/fzf</link>
+      <description>🌸 A command-line fuzzy finder</description>
     </item>
     <item>
-      <title>NirDiamant /GenAI_Agents</title>
-      <link>https://github.com/NirDiamant/GenAI_Agents</link>
-      <description>This repository provides tutorials and implementations for various Generative AI Agent techniques, from basic to advanced. It serves as a comprehensive guide for building intelligent, interactive AI systems.</description>
+      <title>ed-donner /llm_engineering</title>
+      <link>https://github.com/ed-donner/llm_engineering</link>
+      <description>Repo to accompany my mastering LLM engineering course</description>
     </item>
     <item>
-      <title>florinpop17 /app-ideas</title>
-      <link>https://github.com/florinpop17/app-ideas</link>
-      <description>A Collection of application ideas which can be used to improve your coding skills.</description>
+      <title>alibaba /MNN</title>
+      <link>https://github.com/alibaba/MNN</link>
+      <description>MNN is a blazing fast, lightweight deep learning framework, battle-tested by business-critical use cases in Alibaba. Full multimodal LLM Android App:[MNN-LLM-Android](./apps/Android/MnnLlmChat/README.md). MNN TaoAvatar Android - Local 3D Avatar Intelligence: apps/Android/Mnn3dAvatar/README.md</description>
     </item>
     <item>
-      <title>dockur /macos</title>
-      <link>https://github.com/dockur/macos</link>
-      <description>macOS inside a Docker container.</description>
+      <title>microsoft /MoGe</title>
+      <link>https://github.com/microsoft/MoGe</link>
+      <description>[CVPR'25 Oral] MoGe: Unlocking Accurate Monocular Geometry Estimation for Open-Domain Images with Optimal Training Supervision</description>
     </item>
     <item>
-      <title>jbhuang0604 /awesome-computer-vision</title>
-      <link>https://github.com/jbhuang0604/awesome-computer-vision</link>
-      <description>A curated list of awesome computer vision resources</description>
+      <title>strapi /strapi</title>
+      <link>https://github.com/strapi/strapi</link>
+      <description>🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.</description>
     </item>
     <item>
-      <title>FujiwaraChoki /MoneyPrinterV2</title>
-      <link>https://github.com/FujiwaraChoki/MoneyPrinterV2</link>
-      <description>Automate the process of making money online.</description>
+      <title>punkpeye /awesome-mcp-clients</title>
+      <link>https://github.com/punkpeye/awesome-mcp-clients</link>
+      <description>A collection of MCP clients.</description>
     </item>
     <item>
-      <title>commaai /openpilot</title>
-      <link>https://github.com/commaai/openpilot</link>
-      <description>openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.</description>
+      <title>microsoft /ai-agents-for-beginners</title>
+      <link>https://github.com/microsoft/ai-agents-for-beginners</link>
+      <description>11 Lessons to Get Started Building AI Agents</description>
     </item>
     <item>
-      <title>rustfs /rustfs</title>
-      <link>https://github.com/rustfs/rustfs</link>
-      <description>🚀 High-performance distributed object storage for MinIO alternative.</description>
+      <title>wanghongenpin /proxypin</title>
+      <link>https://github.com/wanghongenpin/proxypin</link>
+      <description>Open source free capture HTTP(S) traffic software ProxyPin, supporting full platform systems</description>
     </item>
     <item>
-      <title>anthropics /prompt-eng-interactive-tutorial</title>
-      <link>https://github.com/anthropics/prompt-eng-interactive-tutorial</link>
-      <description>Anthropic's Interactive Prompt Engineering Tutorial</description>
+      <title>ed-donner /agents</title>
+      <link>https://github.com/ed-donner/agents</link>
+      <description>Repo for the Complete Agentic AI Engineering Course</description>
     </item>
     <item>
-      <title>gusmanb /logicanalyzer</title>
-      <link>https://github.com/gusmanb/logicanalyzer</link>
-      <description>24 channel, 100Msps logic analyzer hardware and software</description>
-    </item>
-    <item>
-      <title>HandsOnLLM /Hands-On-Large-Language-Models</title>
-      <link>https://github.com/HandsOnLLM/Hands-On-Large-Language-Models</link>
-      <description>Official code repo for the O'Reilly Book - "Hands-On Large Language Models"</description>
-    </item>
-    <item>
-      <title>th-ch /youtube-music</title>
-      <link>https://github.com/th-ch/youtube-music</link>
-      <description>YouTube Music Desktop App bundled with custom plugins</description>
+      <title>putyy /res-downloader</title>
+      <link>https://github.com/putyy/res-downloader</link>
+      <description>视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!</description>
     </item>
     <item>
       <title>Alibaba-NLP /WebAgent</title>
@@ -73,9 +63,19 @@
       <description>🌐 WebAgent for Information Seeking bulit by Tongyi Lab: WebWalker &amp; WebDancer &amp; WebSailorhttps://arxiv.org/pdf/2507.02592</description>
     </item>
     <item>
-      <title>humanlayer /12-factor-agents</title>
-      <link>https://github.com/humanlayer/12-factor-agents</link>
-      <description>What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?</description>
+      <title>anthropics /prompt-eng-interactive-tutorial</title>
+      <link>https://github.com/anthropics/prompt-eng-interactive-tutorial</link>
+      <description>Anthropic's Interactive Prompt Engineering Tutorial</description>
+    </item>
+    <item>
+      <title>rustfs /rustfs</title>
+      <link>https://github.com/rustfs/rustfs</link>
+      <description>🚀 High-performance distributed object storage for MinIO alternative.</description>
+    </item>
+    <item>
+      <title>googleapis /genai-toolbox</title>
+      <link>https://github.com/googleapis/genai-toolbox</link>
+      <description>MCP Toolbox for Databases is an open source MCP server for databases.</description>
     </item>
   </channel>
 </rss>

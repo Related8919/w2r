@@ -6,11 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 11 Jul 2025 02:22:01 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Jul 2025 02:22:27 +0000</lastBuildDate>
     <item>
-      <title>flutter /packages</title>
-      <link>https://github.com/flutter/packages</link>
-      <description>A collection of useful packages maintained by the Flutter team</description>
+      <title>antiwork /flexile</title>
+      <link>https://github.com/antiwork/flexile</link>
+      <description>Contractor payments as easy as 1-2-3</description>
+    </item>
+    <item>
+      <title>getsentry /sentry</title>
+      <link>https://github.com/getsentry/sentry</link>
+      <description>Developer-first error tracking and performance monitoring</description>
+    </item>
+    <item>
+      <title>open-telemetry /opentelemetry-go</title>
+      <link>https://github.com/open-telemetry/opentelemetry-go</link>
+      <description>OpenTelemetry Go API and SDK</description>
+    </item>
+    <item>
+      <title>landing-ai /agentic-doc</title>
+      <link>https://github.com/landing-ai/agentic-doc</link>
+      <description>Python library for Agentic Document Extraction from LandingAI</description>
     </item>
     <item>
       <title>hashicorp /terraform</title>
@@ -18,54 +33,9 @@
       <description>Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.</description>
     </item>
     <item>
-      <title>volcengine /verl</title>
-      <link>https://github.com/volcengine/verl</link>
-      <description>verl: Volcano Engine Reinforcement Learning for LLMs</description>
-    </item>
-    <item>
-      <title>HandsOnLLM /Hands-On-Large-Language-Models</title>
-      <link>https://github.com/HandsOnLLM/Hands-On-Large-Language-Models</link>
-      <description>Official code repo for the O'Reilly Book - "Hands-On Large Language Models"</description>
-    </item>
-    <item>
-      <title>coleam00 /ai-agents-masterclass</title>
-      <link>https://github.com/coleam00/ai-agents-masterclass</link>
-      <description>Follow along with my AI Agents Masterclass videos! All of the code I create and use in this series on YouTube will be here for you to use and even build on top of!</description>
-    </item>
-    <item>
-      <title>helm /helm</title>
-      <link>https://github.com/helm/helm</link>
-      <description>The Kubernetes Package Manager</description>
-    </item>
-    <item>
-      <title>FujiwaraChoki /MoneyPrinterV2</title>
-      <link>https://github.com/FujiwaraChoki/MoneyPrinterV2</link>
-      <description>Automate the process of making money online.</description>
-    </item>
-    <item>
       <title>punkpeye /awesome-mcp-clients</title>
       <link>https://github.com/punkpeye/awesome-mcp-clients</link>
       <description>A collection of MCP clients.</description>
-    </item>
-    <item>
-      <title>pybind /pybind11</title>
-      <link>https://github.com/pybind/pybind11</link>
-      <description>Seamless operability between C++11 and Python</description>
-    </item>
-    <item>
-      <title>snap-stanford /Biomni</title>
-      <link>https://github.com/snap-stanford/Biomni</link>
-      <description>Biomni: a general-purpose biomedical AI agent</description>
-    </item>
-    <item>
-      <title>ByteByteGoHq /system-design-101</title>
-      <link>https://github.com/ByteByteGoHq/system-design-101</link>
-      <description>Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.</description>
-    </item>
-    <item>
-      <title>forthespada /CS-Books</title>
-      <link>https://github.com/forthespada/CS-Books</link>
-      <description>🔥🔥超过1000本的计算机经典书籍、个人笔记资料以及本人在各平台发表文章中所涉及的资源等。书籍资源包括C/C++、Java、Python、Go语言、数据结构与算法、操作系统、后端架构、计算机系统知识、数据库、计算机网络、设计模式、前端、汇编以及校招社招各种面经~</description>
     </item>
     <item>
       <title>LMCache /LMCache</title>
@@ -73,9 +43,24 @@
       <description>Supercharge Your LLM with the Fastest KV Cache Layer</description>
     </item>
     <item>
-      <title>googleapis /genai-toolbox</title>
-      <link>https://github.com/googleapis/genai-toolbox</link>
-      <description>MCP Toolbox for Databases is an open source MCP server for databases.</description>
+      <title>goauthentik /authentik</title>
+      <link>https://github.com/goauthentik/authentik</link>
+      <description>The authentication glue you need.</description>
+    </item>
+    <item>
+      <title>ByteByteGoHq /system-design-101</title>
+      <link>https://github.com/ByteByteGoHq/system-design-101</link>
+      <description>Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.</description>
+    </item>
+    <item>
+      <title>google /googletest</title>
+      <link>https://github.com/google/googletest</link>
+      <description>GoogleTest - Google Testing and Mocking Framework</description>
+    </item>
+    <item>
+      <title>snap-stanford /Biomni</title>
+      <link>https://github.com/snap-stanford/Biomni</link>
+      <description>Biomni: a general-purpose biomedical AI agent</description>
     </item>
     <item>
       <title>WordPress /wordpress-develop</title>
@@ -85,7 +70,17 @@
     <item>
       <title>Alibaba-NLP /WebAgent</title>
       <link>https://github.com/Alibaba-NLP/WebAgent</link>
-      <description>🌐 WebAgent for Information Seeking bulit by Tongyi Lab: WebWalker &amp; WebDancer &amp; WebSailorhttps://arxiv.org/pdf/2507.02592</description>
+      <description>🌐 WebAgent for Information Seeking built by Tongyi Lab: WebWalker &amp; WebDancer &amp; WebSailorhttps://arxiv.org/pdf/2507.02592</description>
+    </item>
+    <item>
+      <title>googleapis /genai-toolbox</title>
+      <link>https://github.com/googleapis/genai-toolbox</link>
+      <description>MCP Toolbox for Databases is an open source MCP server for databases.</description>
+    </item>
+    <item>
+      <title>protocolbuffers /protobuf</title>
+      <link>https://github.com/protocolbuffers/protobuf</link>
+      <description>Protocol Buffers - Google's data interchange format</description>
     </item>
   </channel>
 </rss>

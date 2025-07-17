@@ -134,11 +134,11 @@ sites:
     link_css: a
     use_headless_browser: true
 
-  - name: trellix Blogs
+  - name: trellixBlogs
     follow_desc: feedId:158342442182353920+userId:43946731810334720
     url: https://www.trellix.com/blogs/research/
     block_css: "#mresults > div:nth-child(1) > div > div.col-md.col-12
-    title_css: "a"  
+    title_css: "a"
     description_css: "text"
     link_css: a
     use_headless_browser: true

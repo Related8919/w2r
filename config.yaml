@@ -2,10 +2,10 @@ sites:
   - name: splunk_blog
     follow_desc: feedId:91056610732250112+userId:43946731810334720
     url: "https://www.splunk.com/en_us/blog"
-    block_css: ".card"  # 父元素的 CSS 选择器
-    title_css: "a h3.splunk2-h4"  # 在父元素内部的标题选择器
-    description_css: ".splunk-body.shorter-height"  # 在父元素内部的描述选择器
-    link_css: "a.headline"  # 在父元素内部的链接选择器
+    block_css: ".card"
+    title_css: "a h3.splunk2-h4"  
+    description_css: ".splunk-body.shorter-height"
+    link_css: "a.headline"
     use_headless_browser: true
 
   - name: sonarsource_blog
@@ -110,26 +110,35 @@ sites:
   - name: x-h2FirmwareUpdate
     follow_desc: feedId:158025688252171264+userId:43946731810334720
     url: https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-h2
-    block_css: "div.accordion"  # 父元素的 CSS 选择器
-    title_css: "a.accordion-title"  # 在父元素内部的标题选择器
-    description_css: "div.accordion-content"  # 在父元素内部的描述选择器
-    link_css: "a"  # 在父元素内部的链接选择器
+    block_css: "div.accordion"
+    title_css: "a.accordion-title"  
+    description_css: "div.accordion-content"
+    link_css: "a"
     use_headless_browser: true
 
   - name: x-s10FirmwareUpdate
     follow_desc: feedId:158099404044625920+userId:43946731810334720
     url: https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-s10
-    block_css: "div.accordion"  # 父元素的 CSS 选择器
-    title_css: "a.accordion-title"  # 在父元素内部的标题选择器
-    description_css: "div.accordion-content"  # 在父元素内部的描述选择器
-    link_css: https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-s10  # 在父元素内部的链接选择器
+    block_css: "div.accordion"
+    title_css: "a.accordion-title"  
+    description_css: "div.accordion-content"
+    link_css: https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-s10
     use_headless_browser: true
 
   - name: 工信部车辆准入许可
     follow_desc: feedId:158342442182353920+userId:43946731810334720
     url: https://www.miit.gov.cn/RRSdy/index.html
-    block_css: "#barrierfree_container > div.clist.w980.center > table > tbody > tr > td:nth-child(1) > div > ul:nth-child(6) > li"  # 父元素的 CSS 选择器
-    title_css: "a"  # 在父元素内部的标题选择器
-    description_css: "a"  # 在父元素内部的描述选择器
-    link_css: a  # 在父元素内部的链接选择器
+    block_css: "#barrierfree_container > div.clist.w980.center > table > tbody > tr > td:nth-child(1) > div > ul:nth-child(6) > li"
+    title_css: "a"  
+    description_css: "a"
+    link_css: a
+    use_headless_browser: true
+
+  - name: trellix Blogs
+    follow_desc: feedId:158342442182353920+userId:43946731810334720
+    url: https://www.trellix.com/blogs/research/
+    block_css: "#mresults > div:nth-child(1) > div > div.col-md.col-12
+    title_css: "a"  
+    description_css: "text"
+    link_css: a
     use_headless_browser: true

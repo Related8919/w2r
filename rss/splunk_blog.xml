@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 17 Jul 2025 02:23:07 +0000</lastBuildDate>
-    <item>
-      <title>Splunk @ SAPPHIRE 2025 Recap: How SAP Customers Use Splunk for World-Class Observability and Security</title>
-      <link>https://www.splunk.com/en_us/blog/security/splunk-sapphire-2025-recap.html</link>
-      <description>Splunker Keith Hontz shares a look at the Splunk highlights from SAP SAPPHIRE 2025.</description>
-    </item>
+    <lastBuildDate>Thu, 17 Jul 2025 16:31:59 +0000</lastBuildDate>
     <item>
       <title>Unified Threat Management (UTM): The Complete Guide to Modern Cybersecurity Solutions</title>
       <link>https://www.splunk.com/en_us/blog/learn/unified-threat-management.html</link>
@@ -51,6 +46,11 @@
       <title>.conf25: Reinventing Digital Resilience for the Agentic Era</title>
       <link>https://www.splunk.com/en_us/blog/leadership/conf25-reinventing-digital-resilience-for-the-agentic-era.html</link>
       <description>Kamal Hathi shares how Cisco and Splunk deliver the data foundation, agentic intelligence, and cross-domain insights needed to build a more secure, resilient, and always-on digital enterprise.</description>
+    </item>
+    <item>
+      <title>Service Resilience - What Is It And Why Is It Needed?</title>
+      <link>https://www.splunk.com/en_us/blog/observability/service-resilience-what-is-it-and-why-is-it-needed.html</link>
+      <description>Discover why service resilience is crucial in today’s digital world. Learn what it means, the key challenges, and how AI/ML-driven observability and custom KPIs help businesses ensure their services stay available, performant, and quickly recover from issues.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

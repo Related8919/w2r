@@ -30,11 +30,6 @@
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/deeplearning.xml
 - Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/deeplearning.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/deeplearning.xml)
 
-## PrefectBlog
-- 原网址：https://www.prefect.io/blog
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/PrefectBlog.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/PrefectBlog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/PrefectBlog.xml)
-
 ## DeveloperNvidiaBlog
 - 原网址：https://developer.nvidia.com/zh-cn/blog/recent-posts/
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/DeveloperNvidiaBlog.xml

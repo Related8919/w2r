@@ -6,21 +6,46 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 17 Jul 2025 02:23:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Jul 2025 16:32:05 +0000</lastBuildDate>
     <item>
-      <title>facebookresearch /segment-anything</title>
-      <link>https://github.com/facebookresearch/segment-anything</link>
-      <description>The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model.</description>
+      <title>Kyome22 /RunCat365</title>
+      <link>https://github.com/Kyome22/RunCat365</link>
+      <description>A cute running cat animation on your windows taskbar.</description>
     </item>
     <item>
-      <title>TomBursch /kitchenowl</title>
-      <link>https://github.com/TomBursch/kitchenowl</link>
-      <description>KitchenOwl is a self-hosted grocery list and recipe manager. The backend is made with Flask and the frontend with Flutter. Easily add items to your shopping list before you go shopping. You can also create recipes and add items based on what you want to cook.</description>
+      <title>cloudcommunity /Free-Certifications</title>
+      <link>https://github.com/cloudcommunity/Free-Certifications</link>
+      <description>A curated list of free courses with certifications. Also available athttps://free-certifications.com/</description>
     </item>
     <item>
-      <title>nicklockwood /SwiftFormat</title>
-      <link>https://github.com/nicklockwood/SwiftFormat</link>
-      <description>A command-line tool and Xcode Extension for formatting Swift code</description>
+      <title>freeCodeCamp /devdocs</title>
+      <link>https://github.com/freeCodeCamp/devdocs</link>
+      <description>API Documentation Browser</description>
+    </item>
+    <item>
+      <title>helix-editor /helix</title>
+      <link>https://github.com/helix-editor/helix</link>
+      <description>A post-modern modal text editor.</description>
+    </item>
+    <item>
+      <title>strapi /strapi</title>
+      <link>https://github.com/strapi/strapi</link>
+      <description>🚀 Strapi is the leading open-source headless CMS. It’s 100% JavaScript/TypeScript, fully customizable, and developer-first.</description>
+    </item>
+    <item>
+      <title>WasmEdge /WasmEdge</title>
+      <link>https://github.com/WasmEdge/WasmEdge</link>
+      <description>WasmEdge is a lightweight, high-performance, and extensible WebAssembly runtime for cloud native, edge, and decentralized applications. It powers serverless apps, embedded functions, microservices, smart contracts, and IoT devices.</description>
+    </item>
+    <item>
+      <title>musistudio /claude-code-router</title>
+      <link>https://github.com/musistudio/claude-code-router</link>
+      <description>Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.</description>
+    </item>
+    <item>
+      <title>AykutSarac /jsoncrack.com</title>
+      <link>https://github.com/AykutSarac/jsoncrack.com</link>
+      <description>✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.</description>
     </item>
     <item>
       <title>vanna-ai /vanna</title>
@@ -28,44 +53,9 @@
       <description>🤖 Chat with your SQL database 📊. Accurate Text-to-SQL Generation via LLMs using RAG 🔄.</description>
     </item>
     <item>
-      <title>rustdesk /rustdesk</title>
-      <link>https://github.com/rustdesk/rustdesk</link>
-      <description>An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.</description>
-    </item>
-    <item>
-      <title>lastmile-ai /mcp-agent</title>
-      <link>https://github.com/lastmile-ai/mcp-agent</link>
-      <description>Build effective agents using Model Context Protocol and simple workflow patterns</description>
-    </item>
-    <item>
-      <title>vpnhood /VpnHood</title>
-      <link>https://github.com/vpnhood/VpnHood</link>
-      <description>Undetectable Fast Portable VPN</description>
-    </item>
-    <item>
-      <title>aws /amazon-q-developer-cli</title>
-      <link>https://github.com/aws/amazon-q-developer-cli</link>
-      <description>✨ Agentic chat experience in your terminal. Build applications using natural language.</description>
-    </item>
-    <item>
-      <title>OpenPipe /ART</title>
-      <link>https://github.com/OpenPipe/ART</link>
-      <description>Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen2.5, Qwen3, Llama, Kimi, and more!</description>
-    </item>
-    <item>
-      <title>anthropics /claude-code</title>
-      <link>https://github.com/anthropics/claude-code</link>
-      <description>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</description>
-    </item>
-    <item>
-      <title>arc53 /DocsGPT</title>
-      <link>https://github.com/arc53/DocsGPT</link>
-      <description>DocsGPT is an open-source genAI tool that helps users get reliable answers from knowledge source, while avoiding hallucinations. It enables private and reliable information retrieval, with tooling and agentic system capability built in.</description>
-    </item>
-    <item>
-      <title>frappe /erpnext</title>
-      <link>https://github.com/frappe/erpnext</link>
-      <description>Free and Open Source Enterprise Resource Planning (ERP)</description>
+      <title>PromtEngineer /localGPT</title>
+      <link>https://github.com/PromtEngineer/localGPT</link>
+      <description>Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.</description>
     </item>
     <item>
       <title>maotoumao /MusicFree</title>
@@ -73,9 +63,14 @@
       <description>插件化、定制化、无广告的免费音乐播放器</description>
     </item>
     <item>
-      <title>PromtEngineer /localGPT</title>
-      <link>https://github.com/PromtEngineer/localGPT</link>
-      <description>Chat with your documents on your local device using GPT models. No data leaves your device and 100% private.</description>
+      <title>soxoj /maigret</title>
+      <link>https://github.com/soxoj/maigret</link>
+      <description>🕵️‍♂️ Collect a dossier on a person by username from thousands of sites</description>
+    </item>
+    <item>
+      <title>gitleaks /gitleaks</title>
+      <link>https://github.com/gitleaks/gitleaks</link>
+      <description>Find secrets with Gitleaks 🔑</description>
     </item>
     <item>
       <title>microsoft /markitdown</title>

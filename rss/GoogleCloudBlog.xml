@@ -6,27 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 17 Jul 2025 02:23:26 +0000</lastBuildDate>
-    <item>
-      <title>What’s new with Google Cloud</title>
-      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
-      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 21-minute read</description>
-    </item>
-    <item>
-      <title>Ulta Beauty redefines beauty retail with BigQuery</title>
-      <link>https://cloud.google.com/blog/products/data-analytics/ulta-beauty-redefines-beauty-retail-with-google-bigquery</link>
-      <description>Data AnalyticsUlta Beauty redefines beauty retail with BigQueryBy Krish Das • 5-minute read</description>
-    </item>
-    <item>
-      <title>Engineering Deutsche Telekom's sovereign data platform</title>
-      <link>https://cloud.google.com/blog/topics/customers/engineering-deutsche-telekoms-sovereign-data-platform</link>
-      <description>CustomersEngineering Deutsche Telekom's sovereign data platformBy Ashutosh Mishra • 5-minute read</description>
-    </item>
-    <item>
-      <title>How to enable real time semantic search and RAG applications with Dataflow ML</title>
-      <link>https://cloud.google.com/blog/topics/developers-practitioners/create-and-retrieve-embeddings-with-a-few-lines-of-dataflow-ml-code</link>
-      <description>Developers &amp; PractitionersHow to enable real time semantic search and RAG applications with Dataflow MLBy Reza Rokni • 5-minute read</description>
-    </item>
+    <lastBuildDate>Thu, 17 Jul 2025 16:32:20 +0000</lastBuildDate>
     <item>
       <title>Implementing High-Performance LLM Serving on GKE: An Inference Gateway Walkthrough</title>
       <link>https://cloud.google.com/blog/topics/developers-practitioners/implementing-high-performance-llm-serving-on-gke-an-inference-gateway-walkthrough</link>
@@ -56,6 +36,26 @@
       <title>Build with more flexibility: New open models arrive in the Vertex AI Model Garden</title>
       <link>https://cloud.google.com/blog/products/ai-machine-learning/deepseek-r1-is-available-for-everyone-in-vertex-ai-model-garden</link>
       <description>AI &amp; Machine LearningBuild with more flexibility: New open models arrive in the Vertex AI Model GardenBy Ivan Nardini • 3-minute read</description>
+    </item>
+    <item>
+      <title>Tzafon selects Google Cloud to build next generation agentic machine intelligence</title>
+      <link>https://cloud.google.com/blog/topics/startups/tzafon-builds-the-next-generation-of-agentic-machine-intelligence-with-google-cloud-infrastructure</link>
+      <description>StartupsTzafon selects Google Cloud to build next generation agentic machine intelligenceBy Darren Mowry • 2-minute read</description>
+    </item>
+    <item>
+      <title>Cloud CISO Perspectives: Our Big Sleep agent makes a big leap, and other AI news</title>
+      <link>https://cloud.google.com/blog/products/identity-security/cloud-ciso-perspectives-our-big-sleep-agent-makes-big-leap</link>
+      <description>Security &amp; IdentityCloud CISO Perspectives: Our Big Sleep agent makes a big leap, and other AI newsBy Sandra Joyce • 6-minute read</description>
+    </item>
+    <item>
+      <title>AI/ML-ready Apache Spark with Dataproc</title>
+      <link>https://cloud.google.com/blog/products/data-analytics/dataproc-features-enable-aiml-ready-apache-spark</link>
+      <description>Data AnalyticsAI/ML-ready Apache Spark with DataprocBy Vaibhav Sethi • 6-minute read</description>
+    </item>
+    <item>
+      <title>Shaping the future together with our partners: The potential of agentic AI</title>
+      <link>https://cloud.google.com/blog/topics/partners/sharing-new-report-on-the-potential-of-agentic-ai</link>
+      <description>PartnersShaping the future together with our partners: The potential of agentic AIBy Kevin Ichhpurani • 5-minute read</description>
     </item>
   </channel>
 </rss>

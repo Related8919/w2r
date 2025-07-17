@@ -3,7 +3,7 @@ sites:
     follow_desc: feedId:91056610732250112+userId:43946731810334720
     url: "https://www.splunk.com/en_us/blog"
     block_css: ".card"
-    title_css: "a h3.splunk2-h4"  
+    title_css: "a h3.splunk2-h4"
     description_css: ".splunk-body.shorter-height"
     link_css: "a.headline"
     use_headless_browser: true
@@ -111,7 +111,7 @@ sites:
     follow_desc: feedId:158025688252171264+userId:43946731810334720
     url: https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-h2
     block_css: "div.accordion"
-    title_css: "a.accordion-title"  
+    title_css: "a.accordion-title"
     description_css: "div.accordion-content"
     link_css: "a"
     use_headless_browser: true
@@ -129,7 +129,7 @@ sites:
     follow_desc: feedId:158342442182353920+userId:43946731810334720
     url: https://www.miit.gov.cn/RRSdy/index.html
     block_css: "#barrierfree_container > div.clist.w980.center > table > tbody > tr > td:nth-child(1) > div > ul:nth-child(6) > li"
-    title_css: "a"  
+    title_css: "a"
     description_css: "a"
     link_css: a
     use_headless_browser: true
@@ -137,7 +137,7 @@ sites:
   - name: trellixBlogs
     follow_desc: feedId:158342442182353920+userId:43946731810334720
     url: https://www.trellix.com/blogs/research/
-    block_css: "#mresults > div:nth-child(1) > div > div.col-md.col-12
+    block_css: "#mresults > div:nth-child(1) > div > div.col-md.col-12"
     title_css: "a"
     description_css: "text"
     link_css: a

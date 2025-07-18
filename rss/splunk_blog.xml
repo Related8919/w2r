@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 17 Jul 2025 16:31:59 +0000</lastBuildDate>
-    <item>
-      <title>Unified Threat Management (UTM): The Complete Guide to Modern Cybersecurity Solutions</title>
-      <link>https://www.splunk.com/en_us/blog/learn/unified-threat-management.html</link>
-      <description>Discover how Unified Threat Management (UTM) simplifies cybersecurity by integrating multiple security tools to protect your business from evolving threats.</description>
-    </item>
+    <lastBuildDate>Fri, 18 Jul 2025 02:24:21 +0000</lastBuildDate>
     <item>
       <title>Beyond The Click: Unveiling Fake CAPTCHA Campaigns</title>
       <link>https://www.splunk.com/en_us/blog/security/unveiling-fake-captcha-clickfix-attacks.html</link>
@@ -51,6 +46,11 @@
       <title>Service Resilience - What Is It And Why Is It Needed?</title>
       <link>https://www.splunk.com/en_us/blog/observability/service-resilience-what-is-it-and-why-is-it-needed.html</link>
       <description>Discover why service resilience is crucial in today’s digital world. Learn what it means, the key challenges, and how AI/ML-driven observability and custom KPIs help businesses ensure their services stay available, performant, and quickly recover from issues.</description>
+    </item>
+    <item>
+      <title>12 Must-Have Data Analysis Tools for 2025 | Python, SQL &amp; AI</title>
+      <link>https://www.splunk.com/en_us/blog/learn/data-analysis-tools.html</link>
+      <description>Discover the 12 must-have data analysis tools for 2025. Compare options for Python, SQL, and AI to boost productivity, insights, and automation.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

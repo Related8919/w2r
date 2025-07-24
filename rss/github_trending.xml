@@ -6,66 +6,66 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 23 Jul 2025 02:25:14 +0000</lastBuildDate>
-    <item>
-      <title>simstudioai /sim</title>
-      <link>https://github.com/simstudioai/sim</link>
-      <description>Sim Studio is an open-source AI agent workflow builder. Sim Studio's interface is a lightweight, intuitive way to quickly build and deploy LLMs that connect with your favorite tools.</description>
-    </item>
-    <item>
-      <title>microsoft /OmniParser</title>
-      <link>https://github.com/microsoft/OmniParser</link>
-      <description>A simple screen parsing tool towards pure vision based GUI agent</description>
-    </item>
-    <item>
-      <title>ankitects /anki</title>
-      <link>https://github.com/ankitects/anki</link>
-      <description>Anki is a smart spaced repetition flashcard program</description>
-    </item>
-    <item>
-      <title>hyprwm /Hyprland</title>
-      <link>https://github.com/hyprwm/Hyprland</link>
-      <description>Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.</description>
-    </item>
-    <item>
-      <title>tracel-ai /burn</title>
-      <link>https://github.com/tracel-ai/burn</link>
-      <description>Burn is a next generation Deep Learning Framework that doesn't compromise on flexibility, efficiency and portability.</description>
-    </item>
-    <item>
-      <title>HandsOnLLM /Hands-On-Large-Language-Models</title>
-      <link>https://github.com/HandsOnLLM/Hands-On-Large-Language-Models</link>
-      <description>Official code repo for the O'Reilly Book - "Hands-On Large Language Models"</description>
-    </item>
-    <item>
-      <title>hesreallyhim /awesome-claude-code</title>
-      <link>https://github.com/hesreallyhim/awesome-claude-code</link>
-      <description>A curated list of awesome commands, files, and workflows for Claude Code</description>
-    </item>
+    <lastBuildDate>Thu, 24 Jul 2025 02:24:30 +0000</lastBuildDate>
     <item>
       <title>C4illin /ConvertX</title>
       <link>https://github.com/C4illin/ConvertX</link>
       <description>💾 Self-hosted online file converter. Supports 1000+ formats ⚙️</description>
     </item>
     <item>
-      <title>p1ngul1n0 /blackbird</title>
-      <link>https://github.com/p1ngul1n0/blackbird</link>
-      <description>An OSINT tool to search for accounts by username and email in social networks.</description>
+      <title>yuaotian /go-cursor-help</title>
+      <link>https://github.com/yuaotian/go-cursor-help</link>
+      <description>解决Cursor在免费订阅期间出现以下提示的问题: Your request has been blocked as our system has detected suspicious activity / You've reached your trial request limit. / Too many free trial accounts used on this machine.</description>
     </item>
     <item>
-      <title>fujiapple852 /trippy</title>
-      <link>https://github.com/fujiapple852/trippy</link>
-      <description>A network diagnostic tool</description>
+      <title>QwenLM /Qwen3</title>
+      <link>https://github.com/QwenLM/Qwen3</link>
+      <description>Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.</description>
     </item>
     <item>
-      <title>karpathy /nn-zero-to-hero</title>
-      <link>https://github.com/karpathy/nn-zero-to-hero</link>
-      <description>Neural Networks: Zero to Hero</description>
+      <title>steven2358 /awesome-generative-ai</title>
+      <link>https://github.com/steven2358/awesome-generative-ai</link>
+      <description>A curated list of modern Generative Artificial Intelligence projects and services</description>
     </item>
     <item>
-      <title>better-auth /better-auth</title>
-      <link>https://github.com/better-auth/better-auth</link>
-      <description>The most comprehensive authentication framework for TypeScript</description>
+      <title>jj-vcs /jj</title>
+      <link>https://github.com/jj-vcs/jj</link>
+      <description>A Git-compatible VCS that is both simple and powerful</description>
+    </item>
+    <item>
+      <title>yeongpin /cursor-free-vip</title>
+      <link>https://github.com/yeongpin/cursor-free-vip</link>
+      <description>[Support 0.49.x]（Reset Cursor AI MachineID &amp; Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.</description>
+    </item>
+    <item>
+      <title>Sjj1024 /PakePlus</title>
+      <link>https://github.com/Sjj1024/PakePlus</link>
+      <description>Turn any webpage/Vue/React and so on into desktop and mobile app under 5M with easy in few minutes. 轻松将任意网站/Vue/React等项目构建为轻量级(小于5M)多端桌面应用和手机应用仅需几分钟.https://ppofficial.netlify.app</description>
+    </item>
+    <item>
+      <title>frappe /hrms</title>
+      <link>https://github.com/frappe/hrms</link>
+      <description>Open Source HR and Payroll Software</description>
+    </item>
+    <item>
+      <title>microsoft /ai-agents-for-beginners</title>
+      <link>https://github.com/microsoft/ai-agents-for-beginners</link>
+      <description>11 Lessons to Get Started Building AI Agents</description>
+    </item>
+    <item>
+      <title>zephyrproject-rtos /zephyr</title>
+      <link>https://github.com/zephyrproject-rtos/zephyr</link>
+      <description>Primary Git Repository for the Zephyr Project. Zephyr is a new generation, scalable, optimized, secure RTOS for multiple hardware architectures.</description>
+    </item>
+    <item>
+      <title>roboflow /supervision</title>
+      <link>https://github.com/roboflow/supervision</link>
+      <description>We write your reusable computer vision tools. 💜</description>
+    </item>
+    <item>
+      <title>donnemartin /system-design-primer</title>
+      <link>https://github.com/donnemartin/system-design-primer</link>
+      <description>Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.</description>
     </item>
     <item>
       <title>remoteintech /remote-jobs</title>
@@ -73,19 +73,19 @@
       <description>A list of semi to fully remote-friendly companies (jobs) in tech.</description>
     </item>
     <item>
-      <title>ChatGPTNextWeb /NextChat</title>
-      <link>https://github.com/ChatGPTNextWeb/NextChat</link>
-      <description>✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android | Linux | Windows</description>
+      <title>juspay /hyperswitch</title>
+      <link>https://github.com/juspay/hyperswitch</link>
+      <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
     </item>
     <item>
-      <title>unclecode /crawl4ai</title>
-      <link>https://github.com/unclecode/crawl4ai</link>
-      <description>🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don't be shy, join here:https://discord.gg/jP8KfhDhyN</description>
+      <title>moby /moby</title>
+      <link>https://github.com/moby/moby</link>
+      <description>The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems</description>
     </item>
     <item>
-      <title>roboflow /supervision</title>
-      <link>https://github.com/roboflow/supervision</link>
-      <description>We write your reusable computer vision tools. 💜</description>
+      <title>OpenBB-finance /OpenBB</title>
+      <link>https://github.com/OpenBB-finance/OpenBB</link>
+      <description>Investment Research for Everyone, Everywhere.</description>
     </item>
     <item>
       <title>maybe-finance /maybe</title>

@@ -6,11 +6,41 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 28 Jul 2025 02:31:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Jul 2025 02:35:55 +0000</lastBuildDate>
     <item>
-      <title>Infisical /infisical</title>
-      <link>https://github.com/Infisical/infisical</link>
-      <description>Infisical is the open-source platform for secrets management, PKI, and SSH access.</description>
+      <title>SillyTavern /SillyTavern</title>
+      <link>https://github.com/SillyTavern/SillyTavern</link>
+      <description>LLM Frontend for Power Users.</description>
+    </item>
+    <item>
+      <title>mattermost-community /focalboard</title>
+      <link>https://github.com/mattermost-community/focalboard</link>
+      <description>Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.</description>
+    </item>
+    <item>
+      <title>ashishpatel26 /500-AI-Agents-Projects</title>
+      <link>https://github.com/ashishpatel26/500-AI-Agents-Projects</link>
+      <description>The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.</description>
+    </item>
+    <item>
+      <title>outline /outline</title>
+      <link>https://github.com/outline/outline</link>
+      <description>The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.</description>
+    </item>
+    <item>
+      <title>mikf /gallery-dl</title>
+      <link>https://github.com/mikf/gallery-dl</link>
+      <description>Command-line program to download image galleries and collections from several image hosting sites</description>
+    </item>
+    <item>
+      <title>dgtlmoon /changedetection.io</title>
+      <link>https://github.com/dgtlmoon/changedetection.io</link>
+      <description>Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!</description>
+    </item>
+    <item>
+      <title>microsoft /generative-ai-for-beginners</title>
+      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
+      <description>21 Lessons, Get Started Building with Generative AI 🔗https://microsoft.github.io/generative-ai-for-beginners/</description>
     </item>
     <item>
       <title>tldr-pages /tldr</title>
@@ -23,24 +53,14 @@
       <description>Examples and tutorials to help developers build AI systems</description>
     </item>
     <item>
-      <title>juspay /hyperswitch</title>
-      <link>https://github.com/juspay/hyperswitch</link>
-      <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
-    </item>
-    <item>
-      <title>frappe /hrms</title>
-      <link>https://github.com/frappe/hrms</link>
-      <description>Open Source HR and Payroll Software</description>
+      <title>Genesis-Embodied-AI /Genesis</title>
+      <link>https://github.com/Genesis-Embodied-AI/Genesis</link>
+      <description>A generative world for general-purpose robotics &amp; embodied AI learning.</description>
     </item>
     <item>
       <title>Shubhamsaboo /awesome-llm-apps</title>
       <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
       <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
-    </item>
-    <item>
-      <title>Genesis-Embodied-AI /Genesis</title>
-      <link>https://github.com/Genesis-Embodied-AI/Genesis</link>
-      <description>A generative world for general-purpose robotics &amp; embodied AI learning.</description>
     </item>
   </channel>
 </rss>

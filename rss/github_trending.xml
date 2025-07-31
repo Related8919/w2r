@@ -6,21 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 30 Jul 2025 02:27:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Jul 2025 02:26:46 +0000</lastBuildDate>
     <item>
-      <title>musistudio /claude-code-router</title>
-      <link>https://github.com/musistudio/claude-code-router</link>
-      <description>Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.</description>
+      <title>LMCache /LMCache</title>
+      <link>https://github.com/LMCache/LMCache</link>
+      <description>Supercharge Your LLM with the Fastest KV Cache Layer</description>
     </item>
     <item>
-      <title>outline /outline</title>
-      <link>https://github.com/outline/outline</link>
-      <description>The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.</description>
+      <title>mattermost-community /focalboard</title>
+      <link>https://github.com/mattermost-community/focalboard</link>
+      <description>Focalboard is an open source, self-hosted alternative to Trello, Notion, and Asana.</description>
     </item>
     <item>
-      <title>linshenkx /prompt-optimizer</title>
-      <link>https://github.com/linshenkx/prompt-optimizer</link>
-      <description>一款提示词优化器，助力于编写高质量的提示词</description>
+      <title>cloudwego /eino</title>
+      <link>https://github.com/cloudwego/eino</link>
+      <description>The ultimate LLM/AI application development framework in Golang.</description>
     </item>
     <item>
       <title>ashishpatel26 /500-AI-Agents-Projects</title>
@@ -28,19 +28,14 @@
       <description>The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.</description>
     </item>
     <item>
-      <title>lapce /lapce</title>
-      <link>https://github.com/lapce/lapce</link>
-      <description>Lightning-fast and Powerful Code Editor written in Rust</description>
+      <title>sindresorhus /awesome</title>
+      <link>https://github.com/sindresorhus/awesome</link>
+      <description>😎 Awesome lists about all kinds of interesting topics</description>
     </item>
     <item>
-      <title>microsoft /PowerToys</title>
-      <link>https://github.com/microsoft/PowerToys</link>
-      <description>Windows system utilities to maximize productivity</description>
-    </item>
-    <item>
-      <title>Shubhamsaboo /awesome-llm-apps</title>
-      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
-      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
+      <title>mikf /gallery-dl</title>
+      <link>https://github.com/mikf/gallery-dl</link>
+      <description>Command-line program to download image galleries and collections from several image hosting sites</description>
     </item>
     <item>
       <title>tldr-pages /tldr</title>
@@ -48,14 +43,19 @@
       <description>📚 Collaborative cheatsheets for console commands</description>
     </item>
     <item>
-      <title>n0-computer /iroh</title>
-      <link>https://github.com/n0-computer/iroh</link>
-      <description>peer-2-peer that just works</description>
+      <title>linshenkx /prompt-optimizer</title>
+      <link>https://github.com/linshenkx/prompt-optimizer</link>
+      <description>一款提示词优化器，助力于编写高质量的提示词</description>
     </item>
     <item>
-      <title>cloudwego /eino</title>
-      <link>https://github.com/cloudwego/eino</link>
-      <description>The ultimate LLM/AI application development framework in Golang.</description>
+      <title>outline /outline</title>
+      <link>https://github.com/outline/outline</link>
+      <description>The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.</description>
+    </item>
+    <item>
+      <title>roboflow /supervision</title>
+      <link>https://github.com/roboflow/supervision</link>
+      <description>We write your reusable computer vision tools. 💜</description>
     </item>
     <item>
       <title>9001 /copyparty</title>

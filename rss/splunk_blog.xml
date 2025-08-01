@@ -6,17 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 31 Jul 2025 02:26:41 +0000</lastBuildDate>
-    <item>
-      <title>Dashboard Studio: What's New in Splunk Enterprise 10.0 and 9.4</title>
-      <link>https://www.splunk.com/en_us/blog/platform/splunk-enterprise-10-0-and-9-4.html</link>
-      <description>Learn about top highlighted Dashboard Studio features available in Splunk Enterprise 10.0 and 9.4 such as version history tabbed dashboards, version history, publish dashboards, and more!</description>
-    </item>
-    <item>
-      <title>Splunk Expands Data Management Capabilities To Include Agent Management</title>
-      <link>https://www.splunk.com/en_us/blog/platform/splunk-expands-data-management-capabilities-to-include-agent-management.html</link>
-      <description>Announcing the expansion of its Data Management capabilities to now include agent management to streamline operations in your Splunk environment.</description>
-    </item>
+    <lastBuildDate>Fri, 01 Aug 2025 02:38:15 +0000</lastBuildDate>
     <item>
       <title>Splunk Expands Data Management Capabilities To Include Ingest Monitoring</title>
       <link>https://www.splunk.com/en_us/blog/platform/splunk-expands-data-management-capabilities-to-include-ingest-monitoring.html</link>
@@ -31,11 +21,6 @@
       <title>Preparing Your Agency for Splunk 10 Now</title>
       <link>https://www.splunk.com/en_us/blog/industries/preparing-your-agency-for-splunk-10-now.html</link>
       <description>Splunk is ready to support you through the transition to a more secure and resilient platform with the announcement of a major upgrade to Splunk Cloud Platform and Splunk Enterprise.</description>
-    </item>
-    <item>
-      <title>Urgent Threat Briefing: Tactical Response to the SharePoint Vulnerability for CISOs and Incident Responders</title>
-      <link>https://www.splunk.com/en_us/blog/industries/tactical-response-to-the-sharepoint-vulnerability.html</link>
-      <description>The recent SharePoint vulnerability presents a critical risk vector that demands immediate, coordinated action from security leaders and incident response teams.</description>
     </item>
     <item>
       <title>IT Service Delivery Explained: Key Processes, Best Practices, and Technologies for Enterprises</title>
@@ -53,6 +38,21 @@
       <description>Ready to elevate your observability strategy and drive digital resilience? Explore how Cisco and Splunk solutions can transform your plant operations.</description>
     </item>
     <item>
+      <title>Urgent Threat Briefing: Tactical Response to the SharePoint Vulnerability for CISOs and Incident Responders</title>
+      <link>https://www.splunk.com/en_us/blog/industries/tactical-response-to-the-sharepoint-vulnerability.html</link>
+      <description>The recent SharePoint vulnerability presents a critical risk vector that demands immediate, coordinated action from security leaders and incident response teams.</description>
+    </item>
+    <item>
+      <title>AI Use Cases for the SOC: How Generative AI Transforms Security Operations</title>
+      <link>https://www.splunk.com/en_us/blog/learn/ai-use-cases-soc.html</link>
+      <description>Generative AI is helping SOC teams detect threats faster, reduce triage time, and empower analysts. Learn how it's transforming core security operations.</description>
+    </item>
+    <item>
+      <title>Splunk Security Content for Threat Detection &amp; Response: July Recap</title>
+      <link>https://www.splunk.com/en_us/blog/security/splunk-security-content-for-threat-detection-response-july-recap.html</link>
+      <description>Learn about the latest security content from Splunk.</description>
+    </item>
+    <item>
       <title>What is Observability? An Introduction</title>
       <link>https://www.splunk.com/en_us/blog/learn/observability.html</link>
       <description>In this blog post, we'll look at definitions, best practices, and key concepts around Observability in IT.</description>
@@ -208,9 +208,34 @@
       <description>We're proud to celebrate a decade of BOTS with BOTS10 at .conf25, featuring an evening of unique experiences and surprises.</description>
     </item>
     <item>
-      <title>SOAR on Azure Now Available</title>
-      <link>https://www.splunk.com/en_us/blog/partners/soar-on-azure-now-available.html</link>
-      <description>Splunk Security Orchestration, Automation and Response (SOAR) is now available as a native SaaS solution on Azure.</description>
+      <title>Enter the SOC of the Future in Splunk’s State of Security 2025</title>
+      <link>https://www.splunk.com/en_us/blog/security/enter-the-soc-of-the-future-in-splunks-state-of-security-2025.html</link>
+      <description>Splunk's State of Security 2025: The Stronger, Smarter SOC of the Future reveals the insights, aspirations, and challenges of security leaders.</description>
+    </item>
+    <item>
+      <title>Top 5 Reasons to Attend .conf25 in Boston</title>
+      <link>https://www.splunk.com/en_us/blog/conf-splunklive/top-5-reasons-to-attend-conf25-in-boston.html</link>
+      <description>Here are the top five reasons you won't want to miss Splunk .conf25 – registration is now open.</description>
+    </item>
+    <item>
+      <title>Splunk Named a Leader in the 2025 Gartner® Magic Quadrant™ for Observability Platforms</title>
+      <link>https://www.splunk.com/en_us/blog/observability/splunk-leader-in-2025-gartner-magic-quadrant-for-observability-platforms.html</link>
+      <description>Splunk has been named a Leader in the 2025 Gartner® Magic Quadrant™ for Observability Platforms for the third year in a row.</description>
+    </item>
+    <item>
+      <title>Cisco and Splunk Strengthen Enterprise Digital Resilience in the AI Era</title>
+      <link>https://www.splunk.com/en_us/blog/leadership/cisco-and-splunk-strengthen-enterprise-digital-resilience-in-the-ai-era.html</link>
+      <description>Splunk announces innovations across its observability portfolio to provide organizations deeper visibility into their network health through integrations with Cisco, and faster troubleshooting with the help of AI.</description>
+    </item>
+    <item>
+      <title>Introducing Splunk 10: Empowering a Secure and Compliant Future</title>
+      <link>https://www.splunk.com/en_us/blog/platform/introducing-splunk-10-empowering-a-secure-and-compliant-future.html</link>
+      <description>Announcing the general availability of Splunk Enterprise 10.0 and Splunk Cloud Platform 10.0, the most secure, stable, and modernized platform for a digitally resilient, compliance-ready future.</description>
+    </item>
+    <item>
+      <title>Celebrate 10 Years of Boss of the SOC at .conf25</title>
+      <link>https://www.splunk.com/en_us/blog/conf-splunklive/celebrate-10-years-of-boss-of-the-soc-at-conf25.html</link>
+      <description>We're proud to celebrate a decade of BOTS with BOTS10 at .conf25, featuring an evening of unique experiences and surprises.</description>
     </item>
     <item>
       <title>Enter the SOC of the Future in Splunk’s State of Security 2025</title>
@@ -233,14 +258,14 @@
       <description>Splunk announces innovations across its observability portfolio to provide organizations deeper visibility into their network health through integrations with Cisco, and faster troubleshooting with the help of AI.</description>
     </item>
     <item>
+      <title>Introducing Splunk 10: Empowering a Secure and Compliant Future</title>
+      <link>https://www.splunk.com/en_us/blog/platform/introducing-splunk-10-empowering-a-secure-and-compliant-future.html</link>
+      <description>Announcing the general availability of Splunk Enterprise 10.0 and Splunk Cloud Platform 10.0, the most secure, stable, and modernized platform for a digitally resilient, compliance-ready future.</description>
+    </item>
+    <item>
       <title>Celebrate 10 Years of Boss of the SOC at .conf25</title>
       <link>https://www.splunk.com/en_us/blog/conf-splunklive/celebrate-10-years-of-boss-of-the-soc-at-conf25.html</link>
       <description>We're proud to celebrate a decade of BOTS with BOTS10 at .conf25, featuring an evening of unique experiences and surprises.</description>
-    </item>
-    <item>
-      <title>SOAR on Azure Now Available</title>
-      <link>https://www.splunk.com/en_us/blog/partners/soar-on-azure-now-available.html</link>
-      <description>Splunk Security Orchestration, Automation and Response (SOAR) is now available as a native SaaS solution on Azure.</description>
     </item>
     <item>
       <title>Enter the SOC of the Future in Splunk’s State of Security 2025</title>
@@ -251,31 +276,6 @@
       <title>Top 5 Reasons to Attend .conf25 in Boston</title>
       <link>https://www.splunk.com/en_us/blog/conf-splunklive/top-5-reasons-to-attend-conf25-in-boston.html</link>
       <description>Here are the top five reasons you won't want to miss Splunk .conf25 – registration is now open.</description>
-    </item>
-    <item>
-      <title>Splunk Named a Leader in the 2025 Gartner® Magic Quadrant™ for Observability Platforms</title>
-      <link>https://www.splunk.com/en_us/blog/observability/splunk-leader-in-2025-gartner-magic-quadrant-for-observability-platforms.html</link>
-      <description>Splunk has been named a Leader in the 2025 Gartner® Magic Quadrant™ for Observability Platforms for the third year in a row.</description>
-    </item>
-    <item>
-      <title>Cisco and Splunk Strengthen Enterprise Digital Resilience in the AI Era</title>
-      <link>https://www.splunk.com/en_us/blog/leadership/cisco-and-splunk-strengthen-enterprise-digital-resilience-in-the-ai-era.html</link>
-      <description>Splunk announces innovations across its observability portfolio to provide organizations deeper visibility into their network health through integrations with Cisco, and faster troubleshooting with the help of AI.</description>
-    </item>
-    <item>
-      <title>Celebrate 10 Years of Boss of the SOC at .conf25</title>
-      <link>https://www.splunk.com/en_us/blog/conf-splunklive/celebrate-10-years-of-boss-of-the-soc-at-conf25.html</link>
-      <description>We're proud to celebrate a decade of BOTS with BOTS10 at .conf25, featuring an evening of unique experiences and surprises.</description>
-    </item>
-    <item>
-      <title>SOAR on Azure Now Available</title>
-      <link>https://www.splunk.com/en_us/blog/partners/soar-on-azure-now-available.html</link>
-      <description>Splunk Security Orchestration, Automation and Response (SOAR) is now available as a native SaaS solution on Azure.</description>
-    </item>
-    <item>
-      <title>Enter the SOC of the Future in Splunk’s State of Security 2025</title>
-      <link>https://www.splunk.com/en_us/blog/security/enter-the-soc-of-the-future-in-splunks-state-of-security-2025.html</link>
-      <description>Splunk's State of Security 2025: The Stronger, Smarter SOC of the Future reveals the insights, aspirations, and challenges of security leaders.</description>
     </item>
   </channel>
 </rss>

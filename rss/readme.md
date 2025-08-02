@@ -20,11 +20,6 @@
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/GoogleCloudBlog.xml
 - Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/GoogleCloudBlog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/GoogleCloudBlog.xml)
 
-## XbowBlog
-- 原网址：https://xbow.com/blog/
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/XbowBlog.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/XbowBlog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/XbowBlog.xml)
-
 ## deeplearning
 - 原网址：https://www.deeplearning.ai/the-batch/
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/deeplearning.xml

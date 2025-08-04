@@ -6,26 +6,61 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 03 Aug 2025 02:36:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Aug 2025 02:36:24 +0000</lastBuildDate>
     <item>
-      <title>Huanshere /VideoLingo</title>
-      <link>https://github.com/Huanshere/VideoLingo</link>
-      <description>Netflix-level subtitle cutting, translation, alignment, and even dubbing - one-click fully automated AI video subtitle team | Netflix级字幕切割、翻译、对齐、甚至加上配音，一键全自动视频搬运AI字幕组</description>
+      <title>pointfreeco /swift-composable-architecture</title>
+      <link>https://github.com/pointfreeco/swift-composable-architecture</link>
+      <description>A library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind.</description>
     </item>
     <item>
-      <title>trimstray /the-book-of-secret-knowledge</title>
-      <link>https://github.com/trimstray/the-book-of-secret-knowledge</link>
-      <description>A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.</description>
+      <title>flydelabs /flyde</title>
+      <link>https://github.com/flydelabs/flyde</link>
+      <description>Open-source Visual programming for backend logic that integrates with existing codebases. Flyde bridges the gap between technical and non-technical team members. Product managers, designers, and backend developers can collaborate on the same visual flows.</description>
     </item>
     <item>
-      <title>lydiahallie /javascript-questions</title>
-      <link>https://github.com/lydiahallie/javascript-questions</link>
-      <description>A long list of (advanced) JavaScript questions, and their explanations ✨</description>
+      <title>reflex-dev /reflex</title>
+      <link>https://github.com/reflex-dev/reflex</link>
+      <description>🕸️ Web apps in pure Python 🐍</description>
     </item>
     <item>
-      <title>jlevy /the-art-of-command-line</title>
-      <link>https://github.com/jlevy/the-art-of-command-line</link>
-      <description>Master the command line, in one page</description>
+      <title>MotiaDev /motia</title>
+      <link>https://github.com/MotiaDev/motia</link>
+      <description>Modern Backend Framework that unifies APIs, background jobs, workflows, and AI agents into a single cohesive system with built-in observability and state management.</description>
+    </item>
+    <item>
+      <title>TandoorRecipes /recipes</title>
+      <link>https://github.com/TandoorRecipes/recipes</link>
+      <description>Application for managing recipes, planning meals, building shopping lists and much much more!</description>
+    </item>
+    <item>
+      <title>TideDra /zotero-arxiv-daily</title>
+      <link>https://github.com/TideDra/zotero-arxiv-daily</link>
+      <description>Recommend new arxiv papers of your interest daily according to your Zotero libarary.</description>
+    </item>
+    <item>
+      <title>sst /opencode</title>
+      <link>https://github.com/sst/opencode</link>
+      <description>AI coding agent, built for the terminal.</description>
+    </item>
+    <item>
+      <title>LadybirdBrowser /ladybird</title>
+      <link>https://github.com/LadybirdBrowser/ladybird</link>
+      <description>Truly independent web browser</description>
+    </item>
+    <item>
+      <title>rasbt /LLMs-from-scratch</title>
+      <link>https://github.com/rasbt/LLMs-from-scratch</link>
+      <description>Implement a ChatGPT-like LLM in PyTorch from scratch, step by step</description>
+    </item>
+    <item>
+      <title>jellyfin /jellyfin</title>
+      <link>https://github.com/jellyfin/jellyfin</link>
+      <description>The Free Software Media System - Server Backend &amp; API</description>
+    </item>
+    <item>
+      <title>XTLS /Xray-core</title>
+      <link>https://github.com/XTLS/Xray-core</link>
+      <description>Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.</description>
     </item>
     <item>
       <title>trekhleb /javascript-algorithms</title>
@@ -33,29 +68,14 @@
       <description>📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings</description>
     </item>
     <item>
-      <title>kubesphere /kubesphere</title>
-      <link>https://github.com/kubesphere/kubesphere</link>
-      <description>The container platform tailored for Kubernetes multi-cloud, datacenter, and edge management ⎈ 🖥 ☁️</description>
+      <title>eclipse-sumo /sumo</title>
+      <link>https://github.com/eclipse-sumo/sumo</link>
+      <description>Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation.</description>
     </item>
     <item>
-      <title>tonsky /FiraCode</title>
-      <link>https://github.com/tonsky/FiraCode</link>
-      <description>Free monospaced font with programming ligatures</description>
-    </item>
-    <item>
-      <title>OpenBAS-Platform /openbas</title>
-      <link>https://github.com/OpenBAS-Platform/openbas</link>
-      <description>Open Adversary Exposure Validation Platform</description>
-    </item>
-    <item>
-      <title>MotiaDev /motia</title>
-      <link>https://github.com/MotiaDev/motia</link>
-      <description>Unified Backend Framework for APIs, Events, and AI Agents</description>
-    </item>
-    <item>
-      <title>pointfreeco /swift-composable-architecture</title>
-      <link>https://github.com/pointfreeco/swift-composable-architecture</link>
-      <description>A library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind.</description>
+      <title>wg-easy /wg-easy</title>
+      <link>https://github.com/wg-easy/wg-easy</link>
+      <description>The easiest way to run WireGuard VPN + Web-based Admin UI.</description>
     </item>
     <item>
       <title>dyad-sh /dyad</title>

@@ -6,7 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 03 Aug 2025 02:37:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Aug 2025 02:36:39 +0000</lastBuildDate>
     <item>
       <title>Celebrating 10 years of GKE: Incredible customer journeys, amazing AI futures</title>
       <link>https://cloud.google.com/blog/products/containers-kubernetes/10-years-of-gke-ebook</link>

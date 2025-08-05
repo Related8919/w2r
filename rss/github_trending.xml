@@ -6,51 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 04 Aug 2025 02:36:24 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Aug 2025 02:31:16 +0000</lastBuildDate>
     <item>
-      <title>pointfreeco /swift-composable-architecture</title>
-      <link>https://github.com/pointfreeco/swift-composable-architecture</link>
-      <description>A library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind.</description>
-    </item>
-    <item>
-      <title>flydelabs /flyde</title>
-      <link>https://github.com/flydelabs/flyde</link>
-      <description>Open-source Visual programming for backend logic that integrates with existing codebases. Flyde bridges the gap between technical and non-technical team members. Product managers, designers, and backend developers can collaborate on the same visual flows.</description>
-    </item>
-    <item>
-      <title>reflex-dev /reflex</title>
-      <link>https://github.com/reflex-dev/reflex</link>
-      <description>🕸️ Web apps in pure Python 🐍</description>
-    </item>
-    <item>
-      <title>MotiaDev /motia</title>
-      <link>https://github.com/MotiaDev/motia</link>
-      <description>Modern Backend Framework that unifies APIs, background jobs, workflows, and AI agents into a single cohesive system with built-in observability and state management.</description>
-    </item>
-    <item>
-      <title>TandoorRecipes /recipes</title>
-      <link>https://github.com/TandoorRecipes/recipes</link>
-      <description>Application for managing recipes, planning meals, building shopping lists and much much more!</description>
-    </item>
-    <item>
-      <title>TideDra /zotero-arxiv-daily</title>
-      <link>https://github.com/TideDra/zotero-arxiv-daily</link>
-      <description>Recommend new arxiv papers of your interest daily according to your Zotero libarary.</description>
-    </item>
-    <item>
-      <title>sst /opencode</title>
-      <link>https://github.com/sst/opencode</link>
-      <description>AI coding agent, built for the terminal.</description>
-    </item>
-    <item>
-      <title>LadybirdBrowser /ladybird</title>
-      <link>https://github.com/LadybirdBrowser/ladybird</link>
-      <description>Truly independent web browser</description>
-    </item>
-    <item>
-      <title>rasbt /LLMs-from-scratch</title>
-      <link>https://github.com/rasbt/LLMs-from-scratch</link>
-      <description>Implement a ChatGPT-like LLM in PyTorch from scratch, step by step</description>
+      <title>wg-easy /wg-easy</title>
+      <link>https://github.com/wg-easy/wg-easy</link>
+      <description>The easiest way to run WireGuard VPN + Web-based Admin UI.</description>
     </item>
     <item>
       <title>jellyfin /jellyfin</title>
@@ -58,24 +18,34 @@
       <description>The Free Software Media System - Server Backend &amp; API</description>
     </item>
     <item>
-      <title>XTLS /Xray-core</title>
-      <link>https://github.com/XTLS/Xray-core</link>
-      <description>Xray, Penetrates Everything. Also the best v2ray-core. Where the magic happens. An open platform for various uses.</description>
+      <title>reflex-dev /reflex</title>
+      <link>https://github.com/reflex-dev/reflex</link>
+      <description>🕸️ Web apps in pure Python 🐍</description>
     </item>
     <item>
-      <title>trekhleb /javascript-algorithms</title>
-      <link>https://github.com/trekhleb/javascript-algorithms</link>
-      <description>📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings</description>
+      <title>MaaAssistantArknights /MaaAssistantArknights</title>
+      <link>https://github.com/MaaAssistantArknights/MaaAssistantArknights</link>
+      <description>《明日方舟》小助手，全日常一键长草！| A one-click tool for the daily tasks of Arknights, supporting all clients.</description>
     </item>
     <item>
-      <title>eclipse-sumo /sumo</title>
-      <link>https://github.com/eclipse-sumo/sumo</link>
-      <description>Eclipse SUMO is an open source, highly portable, microscopic and continuous traffic simulation package designed to handle large networks. It allows for intermodal simulation including pedestrians and comes with a large set of tools for scenario creation.</description>
+      <title>rasbt /LLMs-from-scratch</title>
+      <link>https://github.com/rasbt/LLMs-from-scratch</link>
+      <description>Implement a ChatGPT-like LLM in PyTorch from scratch, step by step</description>
     </item>
     <item>
-      <title>wg-easy /wg-easy</title>
-      <link>https://github.com/wg-easy/wg-easy</link>
-      <description>The easiest way to run WireGuard VPN + Web-based Admin UI.</description>
+      <title>MotiaDev /motia</title>
+      <link>https://github.com/MotiaDev/motia</link>
+      <description>Modern Backend Framework that unifies APIs, background jobs, workflows, and AI agents into a single cohesive system with built-in observability and state management.</description>
+    </item>
+    <item>
+      <title>actualbudget /actual</title>
+      <link>https://github.com/actualbudget/actual</link>
+      <description>A local-first personal finance app</description>
+    </item>
+    <item>
+      <title>souzatharsis /podcastfy</title>
+      <link>https://github.com/souzatharsis/podcastfy</link>
+      <description>An Open Source Python alternative to NotebookLM's podcast feature: Transforming Multimodal Content into Captivating Multilingual Audio Conversations with GenAI</description>
     </item>
     <item>
       <title>dyad-sh /dyad</title>

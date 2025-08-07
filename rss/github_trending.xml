@@ -6,56 +6,51 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 06 Aug 2025 02:28:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Aug 2025 02:28:14 +0000</lastBuildDate>
     <item>
-      <title>thewh1teagle /vibe</title>
-      <link>https://github.com/thewh1teagle/vibe</link>
-      <description>Transcribe on your own!</description>
+      <title>openai /openai-cookbook</title>
+      <link>https://github.com/openai/openai-cookbook</link>
+      <description>Examples and guides for using the OpenAI API</description>
     </item>
     <item>
-      <title>wg-easy /wg-easy</title>
-      <link>https://github.com/wg-easy/wg-easy</link>
-      <description>The easiest way to run WireGuard VPN + Web-based Admin UI.</description>
+      <title>prisma /prisma</title>
+      <link>https://github.com/prisma/prisma</link>
+      <description>Next-generation ORM for Node.js &amp; TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB</description>
     </item>
     <item>
-      <title>huiyadanli /RevokeMsgPatcher</title>
-      <link>https://github.com/huiyadanli/RevokeMsgPatcher</link>
-      <description>A hex editor for WeChat/QQ/TIM - PC版微信/QQ/TIM防撤回补丁（我已经看到了，撤回也没用了）</description>
+      <title>confident-ai /deepeval</title>
+      <link>https://github.com/confident-ai/deepeval</link>
+      <description>The LLM Evaluation Framework</description>
     </item>
     <item>
-      <title>TideDra /zotero-arxiv-daily</title>
-      <link>https://github.com/TideDra/zotero-arxiv-daily</link>
-      <description>Recommend new arxiv papers of your interest daily according to your Zotero libarary.</description>
+      <title>open-edge-platform /anomalib</title>
+      <link>https://github.com/open-edge-platform/anomalib</link>
+      <description>An anomaly detection library comprising state-of-the-art algorithms and features such as experiment management, hyper-parameter optimization, and edge inference.</description>
     </item>
     <item>
-      <title>hashcat /hashcat</title>
-      <link>https://github.com/hashcat/hashcat</link>
-      <description>World's fastest and most advanced password recovery utility</description>
+      <title>JetBrains /intellij-community</title>
+      <link>https://github.com/JetBrains/intellij-community</link>
+      <description>IntelliJ IDEA &amp; IntelliJ Platform</description>
     </item>
     <item>
-      <title>public-apis /public-apis</title>
-      <link>https://github.com/public-apis/public-apis</link>
-      <description>A collective list of free APIs</description>
+      <title>MaaAssistantArknights /MaaAssistantArknights</title>
+      <link>https://github.com/MaaAssistantArknights/MaaAssistantArknights</link>
+      <description>《明日方舟》小助手，全日常一键长草！| A one-click tool for the daily tasks of Arknights, supporting all clients.</description>
     </item>
     <item>
-      <title>pointfreeco /swift-composable-architecture</title>
-      <link>https://github.com/pointfreeco/swift-composable-architecture</link>
-      <description>A library for building applications in a consistent and understandable way, with composition, testing, and ergonomics in mind.</description>
+      <title>dstotijn /hetty</title>
+      <link>https://github.com/dstotijn/hetty</link>
+      <description>An HTTP toolkit for security research.</description>
     </item>
     <item>
-      <title>actualbudget /actual</title>
-      <link>https://github.com/actualbudget/actual</link>
-      <description>A local-first personal finance app</description>
+      <title>themactep /thingino-firmware</title>
+      <link>https://github.com/themactep/thingino-firmware</link>
+      <description>Open-source firmware for Ingenic SoC IP cameras</description>
     </item>
     <item>
-      <title>simstudioai /sim</title>
-      <link>https://github.com/simstudioai/sim</link>
-      <description>Sim is an open-source AI agent workflow builder. Sim Studio's interface is a lightweight, intuitive way to quickly build and deploy LLMs that connect with your favorite tools.</description>
-    </item>
-    <item>
-      <title>microsoft /mcp-for-beginners</title>
-      <link>https://github.com/microsoft/mcp-for-beginners</link>
-      <description>This open-source curriculum introduces the fundamentals of Model Context Protocol (MCP) through real-world, cross-language examples in .NET, Java, TypeScript, JavaScript, and Python. Designed for developers, it focuses on practical techniques for building modular, scalable, and secure AI workflows from session setup to service orchestration.</description>
+      <title>openssl /openssl</title>
+      <link>https://github.com/openssl/openssl</link>
+      <description>TLS/SSL and crypto library</description>
     </item>
     <item>
       <title>ethereum /solidity</title>
@@ -63,14 +58,34 @@
       <description>Solidity, the Smart Contract Programming Language</description>
     </item>
     <item>
-      <title>reflex-dev /reflex</title>
-      <link>https://github.com/reflex-dev/reflex</link>
-      <description>🕸️ Web apps in pure Python 🐍</description>
+      <title>blakeblackshear /frigate</title>
+      <link>https://github.com/blakeblackshear/frigate</link>
+      <description>NVR with realtime local object detection for IP cameras</description>
+    </item>
+    <item>
+      <title>python-poetry /poetry</title>
+      <link>https://github.com/python-poetry/poetry</link>
+      <description>Python packaging and dependency management made easy</description>
+    </item>
+    <item>
+      <title>browserbase /stagehand</title>
+      <link>https://github.com/browserbase/stagehand</link>
+      <description>The AI Browser Automation Framework</description>
+    </item>
+    <item>
+      <title>simstudioai /sim</title>
+      <link>https://github.com/simstudioai/sim</link>
+      <description>Sim is an open-source AI agent workflow builder. Sim Studio's interface is a lightweight, intuitive way to quickly build and deploy LLMs that connect with your favorite tools.</description>
     </item>
     <item>
       <title>dyad-sh /dyad</title>
       <link>https://github.com/dyad-sh/dyad</link>
       <description>Free, local, open-source AI app builder ✨ v0 / lovable / Bolt alternative 🌟 Star if you like it!</description>
+    </item>
+    <item>
+      <title>nautechsystems /nautilus_trader</title>
+      <link>https://github.com/nautechsystems/nautilus_trader</link>
+      <description>A high-performance algorithmic trading platform and event-driven backtester</description>
     </item>
   </channel>
 </rss>

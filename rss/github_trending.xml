@@ -6,51 +6,36 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 10 Aug 2025 02:32:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Aug 2025 02:27:25 +0000</lastBuildDate>
     <item>
-      <title>zumerlab /snapdom</title>
-      <link>https://github.com/zumerlab/snapdom</link>
-      <description>snapDOM captures HTML elements to images with exceptional speed and accuracy.</description>
+      <title>xiaoyaocz /dart_simple_live</title>
+      <link>https://github.com/xiaoyaocz/dart_simple_live</link>
+      <description>简简单单的看直播</description>
     </item>
     <item>
-      <title>datawhalechina /self-llm</title>
-      <link>https://github.com/datawhalechina/self-llm</link>
-      <description>《开源大模型食用指南》针对中国宝宝量身打造的基于Linux环境快速微调（全参数/Lora）、部署国内外开源大模型（LLM）/多模态大模型（MLLM）教程</description>
+      <title>openai /openai-node</title>
+      <link>https://github.com/openai/openai-node</link>
+      <description>Official JavaScript / TypeScript library for the OpenAI API</description>
     </item>
     <item>
-      <title>tadata-org /fastapi_mcp</title>
-      <link>https://github.com/tadata-org/fastapi_mcp</link>
-      <description>Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!</description>
+      <title>binhnguyennus /awesome-scalability</title>
+      <link>https://github.com/binhnguyennus/awesome-scalability</link>
+      <description>The Patterns of Scalable, Reliable, and Performant Large-Scale Systems</description>
     </item>
     <item>
-      <title>openai /openai-python</title>
-      <link>https://github.com/openai/openai-python</link>
-      <description>The official Python library for the OpenAI API</description>
+      <title>idosal /git-mcp</title>
+      <link>https://github.com/idosal/git-mcp</link>
+      <description>Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project</description>
     </item>
     <item>
-      <title>sinaptik-ai /pandas-ai</title>
-      <link>https://github.com/sinaptik-ai/pandas-ai</link>
-      <description>Chat with your database or your datalake (SQL, CSV, parquet). PandasAI makes data analysis conversational using LLMs and RAG.</description>
+      <title>topjohnwu /Magisk</title>
+      <link>https://github.com/topjohnwu/Magisk</link>
+      <description>The Magic Mask for Android</description>
     </item>
     <item>
-      <title>libsdl-org /SDL</title>
-      <link>https://github.com/libsdl-org/SDL</link>
-      <description>Simple Directmedia Layer</description>
-    </item>
-    <item>
-      <title>lfnovo /open-notebook</title>
-      <link>https://github.com/lfnovo/open-notebook</link>
-      <description>An Open Source implementation of Notebook LM with more flexibility and features</description>
-    </item>
-    <item>
-      <title>steveiliop56 /tinyauth</title>
-      <link>https://github.com/steveiliop56/tinyauth</link>
-      <description>The simplest way to protect your apps with a login screen.</description>
-    </item>
-    <item>
-      <title>exo-explore /exo</title>
-      <link>https://github.com/exo-explore/exo</link>
-      <description>Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚</description>
+      <title>fastapi /full-stack-fastapi-template</title>
+      <link>https://github.com/fastapi/full-stack-fastapi-template</link>
+      <description>Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.</description>
     </item>
     <item>
       <title>polarsource /polar</title>
@@ -58,24 +43,34 @@
       <description>An open source engine for your digital products. Sell SaaS and digital products in minutes.</description>
     </item>
     <item>
-      <title>nomic-ai /gpt4all</title>
-      <link>https://github.com/nomic-ai/gpt4all</link>
-      <description>GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.</description>
-    </item>
-    <item>
-      <title>nautechsystems /nautilus_trader</title>
-      <link>https://github.com/nautechsystems/nautilus_trader</link>
-      <description>A high-performance algorithmic trading platform and event-driven backtester</description>
-    </item>
-    <item>
-      <title>xiaoyaocz /dart_simple_live</title>
-      <link>https://github.com/xiaoyaocz/dart_simple_live</link>
-      <description>简简单单的看直播</description>
+      <title>RSSNext /Folo</title>
+      <link>https://github.com/RSSNext/Folo</link>
+      <description>🧡 Follow everything in one place</description>
     </item>
     <item>
       <title>openai /codex</title>
       <link>https://github.com/openai/codex</link>
       <description>Lightweight coding agent that runs in your terminal</description>
+    </item>
+    <item>
+      <title>nomic-ai /gpt4all</title>
+      <link>https://github.com/nomic-ai/gpt4all</link>
+      <description>GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.</description>
+    </item>
+    <item>
+      <title>menloresearch /jan</title>
+      <link>https://github.com/menloresearch/jan</link>
+      <description>Jan is an open source alternative to ChatGPT that runs 100% offline on your computer</description>
+    </item>
+    <item>
+      <title>libsdl-org /SDL</title>
+      <link>https://github.com/libsdl-org/SDL</link>
+      <description>Simple Directmedia Layer</description>
+    </item>
+    <item>
+      <title>umami-software /umami</title>
+      <link>https://github.com/umami-software/umami</link>
+      <description>Umami is a modern, privacy-focused alternative to Google Analytics.</description>
     </item>
   </channel>
 </rss>

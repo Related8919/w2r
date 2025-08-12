@@ -6,61 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 11 Aug 2025 02:27:25 +0000</lastBuildDate>
-    <item>
-      <title>xiaoyaocz /dart_simple_live</title>
-      <link>https://github.com/xiaoyaocz/dart_simple_live</link>
-      <description>简简单单的看直播</description>
-    </item>
-    <item>
-      <title>openai /openai-node</title>
-      <link>https://github.com/openai/openai-node</link>
-      <description>Official JavaScript / TypeScript library for the OpenAI API</description>
-    </item>
-    <item>
-      <title>binhnguyennus /awesome-scalability</title>
-      <link>https://github.com/binhnguyennus/awesome-scalability</link>
-      <description>The Patterns of Scalable, Reliable, and Performant Large-Scale Systems</description>
-    </item>
+    <lastBuildDate>Tue, 12 Aug 2025 02:09:38 +0000</lastBuildDate>
     <item>
       <title>idosal /git-mcp</title>
       <link>https://github.com/idosal/git-mcp</link>
       <description>Put an end to code hallucinations! GitMCP is a free, open-source, remote MCP server for any GitHub project</description>
-    </item>
-    <item>
-      <title>topjohnwu /Magisk</title>
-      <link>https://github.com/topjohnwu/Magisk</link>
-      <description>The Magic Mask for Android</description>
-    </item>
-    <item>
-      <title>fastapi /full-stack-fastapi-template</title>
-      <link>https://github.com/fastapi/full-stack-fastapi-template</link>
-      <description>Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.</description>
-    </item>
-    <item>
-      <title>polarsource /polar</title>
-      <link>https://github.com/polarsource/polar</link>
-      <description>An open source engine for your digital products. Sell SaaS and digital products in minutes.</description>
-    </item>
-    <item>
-      <title>RSSNext /Folo</title>
-      <link>https://github.com/RSSNext/Folo</link>
-      <description>🧡 Follow everything in one place</description>
-    </item>
-    <item>
-      <title>openai /codex</title>
-      <link>https://github.com/openai/codex</link>
-      <description>Lightweight coding agent that runs in your terminal</description>
-    </item>
-    <item>
-      <title>nomic-ai /gpt4all</title>
-      <link>https://github.com/nomic-ai/gpt4all</link>
-      <description>GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.</description>
-    </item>
-    <item>
-      <title>menloresearch /jan</title>
-      <link>https://github.com/menloresearch/jan</link>
-      <description>Jan is an open source alternative to ChatGPT that runs 100% offline on your computer</description>
     </item>
     <item>
       <title>libsdl-org /SDL</title>
@@ -71,6 +21,56 @@
       <title>umami-software /umami</title>
       <link>https://github.com/umami-software/umami</link>
       <description>Umami is a modern, privacy-focused alternative to Google Analytics.</description>
+    </item>
+    <item>
+      <title>mendableai /firecrawl</title>
+      <link>https://github.com/mendableai/firecrawl</link>
+      <description>🔥 Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.</description>
+    </item>
+    <item>
+      <title>fastapi /full-stack-fastapi-template</title>
+      <link>https://github.com/fastapi/full-stack-fastapi-template</link>
+      <description>Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.</description>
+    </item>
+    <item>
+      <title>xiaoyaocz /dart_simple_live</title>
+      <link>https://github.com/xiaoyaocz/dart_simple_live</link>
+      <description>简简单单的看直播</description>
+    </item>
+    <item>
+      <title>midday-ai /midday</title>
+      <link>https://github.com/midday-ai/midday</link>
+      <description>Invoicing, Time tracking, File reconciliation, Storage, Financial Overview &amp; your own Assistant made for Freelancers</description>
+    </item>
+    <item>
+      <title>microsoft /generative-ai-for-beginners</title>
+      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
+      <description>21 Lessons, Get Started Building with Generative AI 🔗https://microsoft.github.io/generative-ai-for-beginners/</description>
+    </item>
+    <item>
+      <title>menloresearch /jan</title>
+      <link>https://github.com/menloresearch/jan</link>
+      <description>Jan is an open source alternative to ChatGPT that runs 100% offline on your computer</description>
+    </item>
+    <item>
+      <title>openai /codex</title>
+      <link>https://github.com/openai/codex</link>
+      <description>Lightweight coding agent that runs in your terminal</description>
+    </item>
+    <item>
+      <title>patchy631 /ai-engineering-hub</title>
+      <link>https://github.com/patchy631/ai-engineering-hub</link>
+      <description>In-depth tutorials on LLMs, RAGs and real-world AI agent applications.</description>
+    </item>
+    <item>
+      <title>tadata-org /fastapi_mcp</title>
+      <link>https://github.com/tadata-org/fastapi_mcp</link>
+      <description>Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!</description>
+    </item>
+    <item>
+      <title>nomic-ai /gpt4all</title>
+      <link>https://github.com/nomic-ai/gpt4all</link>
+      <description>GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.</description>
     </item>
   </channel>
 </rss>

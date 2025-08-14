@@ -6,66 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 13 Aug 2025 02:11:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Aug 2025 02:12:09 +0000</lastBuildDate>
     <item>
-      <title>FiloSottile /mkcert</title>
-      <link>https://github.com/FiloSottile/mkcert</link>
-      <description>A simple zero-config tool to make locally trusted development certificates with any names you'd like.</description>
-    </item>
-    <item>
-      <title>actions /checkout</title>
-      <link>https://github.com/actions/checkout</link>
-      <description>Action for checking out a repo</description>
-    </item>
-    <item>
-      <title>ChrisTitusTech /linutil</title>
-      <link>https://github.com/ChrisTitusTech/linutil</link>
-      <description>Chris Titus Tech's Linux Toolbox - Linutil is a distro-agnostic toolbox designed to simplify everyday Linux tasks.</description>
-    </item>
-    <item>
-      <title>redis /go-redis</title>
-      <link>https://github.com/redis/go-redis</link>
-      <description>Redis Go client</description>
-    </item>
-    <item>
-      <title>conductor-oss /conductor</title>
-      <link>https://github.com/conductor-oss/conductor</link>
-      <description>Conductor is an event driven orchestration platform providing durable and highly resilient execution engine for your applications</description>
-    </item>
-    <item>
-      <title>xiaoyaocz /dart_simple_live</title>
-      <link>https://github.com/xiaoyaocz/dart_simple_live</link>
-      <description>简简单单的看直播</description>
-    </item>
-    <item>
-      <title>libsdl-org /SDL</title>
-      <link>https://github.com/libsdl-org/SDL</link>
-      <description>Simple Directmedia Layer</description>
-    </item>
-    <item>
-      <title>x1xhlol /system-prompts-and-models-of-ai-tools</title>
-      <link>https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools</link>
-      <description>FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Xcode, Trae AI, Cluely &amp; Orchids.app (And other Open Sourced) System Prompts, Tools &amp; AI Models.</description>
-    </item>
-    <item>
-      <title>apple /embedding-atlas</title>
-      <link>https://github.com/apple/embedding-atlas</link>
-      <description>Embedding Atlas is a tool that provides interactive visualizations for large embeddings. It allows you to visualize, cross-filter, and search embeddings and metadata.</description>
-    </item>
-    <item>
-      <title>donnemartin /system-design-primer</title>
-      <link>https://github.com/donnemartin/system-design-primer</link>
-      <description>Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.</description>
-    </item>
-    <item>
-      <title>open-telemetry /opentelemetry-collector</title>
-      <link>https://github.com/open-telemetry/opentelemetry-collector</link>
-      <description>OpenTelemetry Collector</description>
-    </item>
-    <item>
-      <title>fastapi /full-stack-fastapi-template</title>
-      <link>https://github.com/fastapi/full-stack-fastapi-template</link>
-      <description>Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.</description>
+      <title>practical-tutorials /project-based-learning</title>
+      <link>https://github.com/practical-tutorials/project-based-learning</link>
+      <description>Curated list of project-based tutorials</description>
     </item>
     <item>
       <title>unslothai /notebooks</title>
@@ -73,9 +18,29 @@
       <description>100+ Fine-tuning LLM Notebooks on Google Colab, Kaggle, and more.</description>
     </item>
     <item>
-      <title>umami-software /umami</title>
-      <link>https://github.com/umami-software/umami</link>
-      <description>Umami is a modern, privacy-focused alternative to Google Analytics.</description>
+      <title>fastapi /full-stack-fastapi-template</title>
+      <link>https://github.com/fastapi/full-stack-fastapi-template</link>
+      <description>Full stack, modern web application template. Using FastAPI, React, SQLModel, PostgreSQL, Docker, GitHub Actions, automatic HTTPS and more.</description>
+    </item>
+    <item>
+      <title>open-telemetry /opentelemetry-collector-contrib</title>
+      <link>https://github.com/open-telemetry/opentelemetry-collector-contrib</link>
+      <description>Contrib repository for the OpenTelemetry Collector</description>
+    </item>
+    <item>
+      <title>x1xhlol /system-prompts-and-models-of-ai-tools</title>
+      <link>https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools</link>
+      <description>FULL v0, Cursor, Manus, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Xcode, Trae AI, Cluely &amp; Orchids.app (And other Open Sourced) System Prompts, Tools &amp; AI Models.</description>
+    </item>
+    <item>
+      <title>microsoft /poml</title>
+      <link>https://github.com/microsoft/poml</link>
+      <description>Prompt Orchestration Markup Language</description>
+    </item>
+    <item>
+      <title>conductor-oss /conductor</title>
+      <link>https://github.com/conductor-oss/conductor</link>
+      <description>Conductor is an event driven orchestration platform providing durable and highly resilient execution engine for your applications</description>
     </item>
     <item>
       <title>nomic-ai /gpt4all</title>
@@ -83,14 +48,44 @@
       <description>GPT4All: Run Local LLMs on Any Device. Open-source and available for commercial use.</description>
     </item>
     <item>
-      <title>denizsafak /abogen</title>
-      <link>https://github.com/denizsafak/abogen</link>
-      <description>Generate audiobooks from EPUBs, PDFs and text with synchronized captions.</description>
+      <title>open-telemetry /opentelemetry-collector</title>
+      <link>https://github.com/open-telemetry/opentelemetry-collector</link>
+      <description>OpenTelemetry Collector</description>
     </item>
     <item>
-      <title>microsoft /poml</title>
-      <link>https://github.com/microsoft/poml</link>
-      <description>Prompt Orchestration Markup Language</description>
+      <title>filamentphp /filament</title>
+      <link>https://github.com/filamentphp/filament</link>
+      <description>A powerful open source UI framework for Laravel • Build and ship admin panels &amp; apps fast with Livewire</description>
+    </item>
+    <item>
+      <title>FiloSottile /mkcert</title>
+      <link>https://github.com/FiloSottile/mkcert</link>
+      <description>A simple zero-config tool to make locally trusted development certificates with any names you'd like.</description>
+    </item>
+    <item>
+      <title>bytedance /UI-TARS-desktop</title>
+      <link>https://github.com/bytedance/UI-TARS-desktop</link>
+      <description>The Open-sourced Multimodal AI Agent Stack connecting Cutting-edge AI Models and Agent Infra.</description>
+    </item>
+    <item>
+      <title>menloresearch /jan</title>
+      <link>https://github.com/menloresearch/jan</link>
+      <description>Jan is an open source alternative to ChatGPT that runs 100% offline on your computer</description>
+    </item>
+    <item>
+      <title>tadata-org /fastapi_mcp</title>
+      <link>https://github.com/tadata-org/fastapi_mcp</link>
+      <description>Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!</description>
+    </item>
+    <item>
+      <title>jitsi /jitsi-meet</title>
+      <link>https://github.com/jitsi/jitsi-meet</link>
+      <description>Jitsi Meet - Secure, Simple and Scalable Video Conferences that you use as a standalone app or embed in your web application.</description>
+    </item>
+    <item>
+      <title>apple /embedding-atlas</title>
+      <link>https://github.com/apple/embedding-atlas</link>
+      <description>Embedding Atlas is a tool that provides interactive visualizations for large embeddings. It allows you to visualize, cross-filter, and search embeddings and metadata.</description>
     </item>
     <item>
       <title>ubicloud /ubicloud</title>

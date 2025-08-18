@@ -6,51 +6,31 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 17 Aug 2025 02:24:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Aug 2025 02:24:54 +0000</lastBuildDate>
     <item>
-      <title>dtyq /magic</title>
-      <link>https://github.com/dtyq/magic</link>
-      <description>Super Magic (超级麦吉). The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)</description>
+      <title>MotiaDev /motia</title>
+      <link>https://github.com/MotiaDev/motia</link>
+      <description>Modern Backend Framework that unifies APIs, background jobs, workflows, and AI agents into a single cohesive system with built-in observability and state management.</description>
     </item>
     <item>
-      <title>Shubhamsaboo /awesome-llm-apps</title>
-      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
-      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
+      <title>clash-verge-rev /clash-verge-rev</title>
+      <link>https://github.com/clash-verge-rev/clash-verge-rev</link>
+      <description>A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience</description>
     </item>
     <item>
-      <title>PixiEditor /PixiEditor</title>
-      <link>https://github.com/PixiEditor/PixiEditor</link>
-      <description>PixiEditor is a Universal Editor for all your 2D needs</description>
+      <title>DataExpert-io /data-engineer-handbook</title>
+      <link>https://github.com/DataExpert-io/data-engineer-handbook</link>
+      <description>This is a repo with links to everything you'd ever want to learn about data engineering</description>
     </item>
     <item>
-      <title>emcie-co /parlant</title>
-      <link>https://github.com/emcie-co/parlant</link>
-      <description>LLM agents built for control. Designed for real-world use. Deployed in minutes.</description>
+      <title>OpenBB-finance /OpenBB</title>
+      <link>https://github.com/OpenBB-finance/OpenBB</link>
+      <description>Financial data aggregator for humans and AI agents.</description>
     </item>
     <item>
-      <title>IBM /mcp-context-forge</title>
-      <link>https://github.com/IBM/mcp-context-forge</link>
-      <description>A Model Context Protocol (MCP) Gateway &amp; Registry. Serves as a central management point for tools, resources, and prompts that can be accessed by MCP-compatible LLM applications. Converts REST API endpoints to MCP, composes virtual MCP servers with added security and observability, and converts between protocols (stdio, SSE, Streamable HTTP).</description>
-    </item>
-    <item>
-      <title>tsoding /nob.h</title>
-      <link>https://github.com/tsoding/nob.h</link>
-      <description>Header only library for writing build recipes in C.</description>
-    </item>
-    <item>
-      <title>jaywcjlove /awesome-mac</title>
-      <link>https://github.com/jaywcjlove/awesome-mac</link>
-      <description> Now we have become very big, Different from the original idea. Collect premium software in various categories.</description>
-    </item>
-    <item>
-      <title>farhanashrafdev /90DaysOfCyberSecurity</title>
-      <link>https://github.com/farhanashrafdev/90DaysOfCyberSecurity</link>
-      <description>This repository contains a 90-day cybersecurity study plan, along with resources and materials for learning various cybersecurity concepts and technologies. The plan is organized into daily tasks, covering topics such as Network+, Security+, Linux, Python, Traffic Analysis, Git, ELK, AWS, Azure, and Hacking. The repository also includes a `LEARN.md</description>
-    </item>
-    <item>
-      <title>codecrafters-io /build-your-own-x</title>
-      <link>https://github.com/codecrafters-io/build-your-own-x</link>
-      <description>Master programming by recreating your favorite technologies from scratch.</description>
+      <title>colmap /colmap</title>
+      <link>https://github.com/colmap/colmap</link>
+      <description>COLMAP - Structure-from-Motion and Multi-View Stereo</description>
     </item>
     <item>
       <title>LMCache /LMCache</title>
@@ -58,9 +38,34 @@
       <description>Supercharge Your LLM with the Fastest KV Cache Layer</description>
     </item>
     <item>
-      <title>microsoft /poml</title>
-      <link>https://github.com/microsoft/poml</link>
-      <description>Prompt Orchestration Markup Language</description>
+      <title>dtyq /magic</title>
+      <link>https://github.com/dtyq/magic</link>
+      <description>Super Magic (超级麦吉). The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)</description>
+    </item>
+    <item>
+      <title>PixiEditor /PixiEditor</title>
+      <link>https://github.com/PixiEditor/PixiEditor</link>
+      <description>PixiEditor is a Universal Editor for all your 2D needs</description>
+    </item>
+    <item>
+      <title>aliasrobotics /cai</title>
+      <link>https://github.com/aliasrobotics/cai</link>
+      <description>Cybersecurity AI (CAI), an open Bug Bounty-ready Artificial Intelligence</description>
+    </item>
+    <item>
+      <title>tsoding /nob.h</title>
+      <link>https://github.com/tsoding/nob.h</link>
+      <description>Header only library for writing build recipes in C.</description>
+    </item>
+    <item>
+      <title>Shubhamsaboo /awesome-llm-apps</title>
+      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
+      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
+    </item>
+    <item>
+      <title>emcie-co /parlant</title>
+      <link>https://github.com/emcie-co/parlant</link>
+      <description>LLM agents built for control. Designed for real-world use. Deployed in minutes.</description>
     </item>
     <item>
       <title>coleam00 /Archon</title>

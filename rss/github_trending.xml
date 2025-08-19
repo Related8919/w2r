@@ -6,21 +6,16 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 18 Aug 2025 02:24:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 Aug 2025 02:05:24 +0000</lastBuildDate>
     <item>
-      <title>MotiaDev /motia</title>
-      <link>https://github.com/MotiaDev/motia</link>
-      <description>Modern Backend Framework that unifies APIs, background jobs, workflows, and AI agents into a single cohesive system with built-in observability and state management.</description>
+      <title>mfts /papermark</title>
+      <link>https://github.com/mfts/papermark</link>
+      <description>Papermark is the open-source DocSend alternative with built-in analytics and custom domains.</description>
     </item>
     <item>
-      <title>clash-verge-rev /clash-verge-rev</title>
-      <link>https://github.com/clash-verge-rev/clash-verge-rev</link>
-      <description>A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience</description>
-    </item>
-    <item>
-      <title>DataExpert-io /data-engineer-handbook</title>
-      <link>https://github.com/DataExpert-io/data-engineer-handbook</link>
-      <description>This is a repo with links to everything you'd ever want to learn about data engineering</description>
+      <title>bytebot-ai /bytebot</title>
+      <link>https://github.com/bytebot-ai/bytebot</link>
+      <description>Bytebot is a self-hosted AI desktop agent that automates computer tasks through natural language commands, operating within a containerized Linux desktop environment.</description>
     </item>
     <item>
       <title>OpenBB-finance /OpenBB</title>
@@ -28,19 +23,19 @@
       <description>Financial data aggregator for humans and AI agents.</description>
     </item>
     <item>
-      <title>colmap /colmap</title>
-      <link>https://github.com/colmap/colmap</link>
-      <description>COLMAP - Structure-from-Motion and Multi-View Stereo</description>
+      <title>MotiaDev /motia</title>
+      <link>https://github.com/MotiaDev/motia</link>
+      <description>Modern Backend Framework that unifies APIs, background jobs, workflows, and AI agents into a single cohesive system with built-in observability and state management.</description>
     </item>
     <item>
-      <title>LMCache /LMCache</title>
-      <link>https://github.com/LMCache/LMCache</link>
-      <description>Supercharge Your LLM with the Fastest KV Cache Layer</description>
+      <title>Shubhamsaboo /awesome-llm-apps</title>
+      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
+      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
     </item>
     <item>
-      <title>dtyq /magic</title>
-      <link>https://github.com/dtyq/magic</link>
-      <description>Super Magic (超级麦吉). The first open-source all-in-one AI productivity platform (Generalist AI Agent + Workflow Engine + IM + Online collaborative office system)</description>
+      <title>immich-app /immich</title>
+      <link>https://github.com/immich-app/immich</link>
+      <description>High performance self-hosted photo and video management solution.</description>
     </item>
     <item>
       <title>PixiEditor /PixiEditor</title>
@@ -48,19 +43,19 @@
       <description>PixiEditor is a Universal Editor for all your 2D needs</description>
     </item>
     <item>
-      <title>aliasrobotics /cai</title>
-      <link>https://github.com/aliasrobotics/cai</link>
-      <description>Cybersecurity AI (CAI), an open Bug Bounty-ready Artificial Intelligence</description>
+      <title>enescingoz /awesome-n8n-templates</title>
+      <link>https://github.com/enescingoz/awesome-n8n-templates</link>
+      <description>Supercharge your workflow automation with this curated collection of n8n templates! Instantly connect your favorite apps-like Gmail, Telegram, Google Drive, Slack, and more-with ready-to-use, AI-powered automations. Save time, boost productivity, and unlock the true potential of n8n in just a few clicks.</description>
     </item>
     <item>
-      <title>tsoding /nob.h</title>
-      <link>https://github.com/tsoding/nob.h</link>
-      <description>Header only library for writing build recipes in C.</description>
+      <title>rasbt /LLMs-from-scratch</title>
+      <link>https://github.com/rasbt/LLMs-from-scratch</link>
+      <description>Implement a ChatGPT-like LLM in PyTorch from scratch, step by step</description>
     </item>
     <item>
-      <title>Shubhamsaboo /awesome-llm-apps</title>
-      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
-      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
+      <title>DataExpert-io /data-engineer-handbook</title>
+      <link>https://github.com/DataExpert-io/data-engineer-handbook</link>
+      <description>This is a repo with links to everything you'd ever want to learn about data engineering</description>
     </item>
     <item>
       <title>emcie-co /parlant</title>

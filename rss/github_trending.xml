@@ -6,61 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 21 Aug 2025 02:02:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Aug 2025 02:03:00 +0000</lastBuildDate>
     <item>
-      <title>microsoft /BitNet</title>
-      <link>https://github.com/microsoft/BitNet</link>
-      <description>Official inference framework for 1-bit LLMs</description>
-    </item>
-    <item>
-      <title>PixiEditor /PixiEditor</title>
-      <link>https://github.com/PixiEditor/PixiEditor</link>
-      <description>PixiEditor is a Universal Editor for all your 2D needs</description>
-    </item>
-    <item>
-      <title>epicenter-so /epicenter</title>
-      <link>https://github.com/epicenter-so/epicenter</link>
-      <description>Press shortcut → speak → get text. Free and open source. More local-first apps soon ❤️</description>
-    </item>
-    <item>
-      <title>ComposersDesktop /CDP8</title>
-      <link>https://github.com/ComposersDesktop/CDP8</link>
-      <description>New version of CDP software</description>
-    </item>
-    <item>
-      <title>laude-institute /terminal-bench</title>
-      <link>https://github.com/laude-institute/terminal-bench</link>
-      <description>A benchmark for LLMs on complicated tasks in the terminal</description>
-    </item>
-    <item>
-      <title>rasbt /LLMs-from-scratch</title>
-      <link>https://github.com/rasbt/LLMs-from-scratch</link>
-      <description>Implement a ChatGPT-like LLM in PyTorch from scratch, step by step</description>
-    </item>
-    <item>
-      <title>DataExpert-io /data-engineer-handbook</title>
-      <link>https://github.com/DataExpert-io/data-engineer-handbook</link>
-      <description>This is a repo with links to everything you'd ever want to learn about data engineering</description>
-    </item>
-    <item>
-      <title>MotiaDev /motia</title>
-      <link>https://github.com/MotiaDev/motia</link>
-      <description>Modern Backend Framework that unifies APIs, background jobs, workflows, and AI Agents into a single core primitive with built-in observability and state management.</description>
-    </item>
-    <item>
-      <title>n8n-io /self-hosted-ai-starter-kit</title>
-      <link>https://github.com/n8n-io/self-hosted-ai-starter-kit</link>
-      <description>The Self-hosted AI Starter Kit is an open-source template that quickly sets up a local AI environment. Curated by n8n, it provides essential tools for creating secure, self-hosted AI workflows.</description>
-    </item>
-    <item>
-      <title>Leantime /leantime</title>
-      <link>https://github.com/Leantime/leantime</link>
-      <description>Leantime is a goals focused project management system for non-project managers. Building with ADHD, Autism, and dyslexia in mind.</description>
-    </item>
-    <item>
-      <title>bitwarden /clients</title>
-      <link>https://github.com/bitwarden/clients</link>
-      <description>Bitwarden client apps (web, browser extension, desktop, and cli).</description>
+      <title>skills /introduction-to-github</title>
+      <link>https://github.com/skills/introduction-to-github</link>
+      <description>Get started using GitHub in less than an hour.</description>
     </item>
     <item>
       <title>puppeteer /puppeteer</title>
@@ -68,14 +18,54 @@
       <description>JavaScript API for Chrome and Firefox</description>
     </item>
     <item>
-      <title>moeru-ai /airi</title>
-      <link>https://github.com/moeru-ai/airi</link>
-      <description>💖🧸 Self hosted, you owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.</description>
+      <title>HeyPuter /puter</title>
+      <link>https://github.com/HeyPuter/puter</link>
+      <description>🌐 The Internet OS! Free, Open-Source, and Self-Hostable.</description>
+    </item>
+    <item>
+      <title>plait-board /drawnix</title>
+      <link>https://github.com/plait-board/drawnix</link>
+      <description>开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等。All in one open-source whiteboard tool with mind, flowchart, freehand and etc.</description>
+    </item>
+    <item>
+      <title>nextjs /saas-starter</title>
+      <link>https://github.com/nextjs/saas-starter</link>
+      <description>Get started quickly with Next.js, Postgres, Stripe, and shadcn/ui.</description>
+    </item>
+    <item>
+      <title>HunxByts /GhostTrack</title>
+      <link>https://github.com/HunxByts/GhostTrack</link>
+      <description>Useful tool to track location or mobile number</description>
+    </item>
+    <item>
+      <title>firecrawl /firecrawl</title>
+      <link>https://github.com/firecrawl/firecrawl</link>
+      <description>The Web Data API for AI - Turn entire websites into LLM-ready markdown or structured data 🔥</description>
+    </item>
+    <item>
+      <title>Budibase /budibase</title>
+      <link>https://github.com/Budibase/budibase</link>
+      <description>Create business apps and automate workflows in minutes. Supports PostgreSQL, MySQL, MariaDB, MSSQL, MongoDB, Rest API, Docker, K8s, and more 🚀 No code / Low code platform..</description>
+    </item>
+    <item>
+      <title>bitwarden /clients</title>
+      <link>https://github.com/bitwarden/clients</link>
+      <description>Bitwarden client apps (web, browser extension, desktop, and cli).</description>
+    </item>
+    <item>
+      <title>google /googletest</title>
+      <link>https://github.com/google/googletest</link>
+      <description>GoogleTest - Google Testing and Mocking Framework</description>
     </item>
     <item>
       <title>simstudioai /sim</title>
       <link>https://github.com/simstudioai/sim</link>
       <description>Sim is an open-source AI agent workflow builder. Sim Studio's interface is a lightweight, intuitive way to quickly build and deploy LLMs that connect with your favorite tools.</description>
+    </item>
+    <item>
+      <title>moeru-ai /airi</title>
+      <link>https://github.com/moeru-ai/airi</link>
+      <description>💖🧸 Self hosted, you owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.</description>
     </item>
   </channel>
 </rss>

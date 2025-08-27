@@ -6,16 +6,31 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 26 Aug 2025 02:03:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Aug 2025 02:00:09 +0000</lastBuildDate>
     <item>
-      <title>rothgar /awesome-tuis</title>
-      <link>https://github.com/rothgar/awesome-tuis</link>
-      <description>List of projects that provide terminal user interfaces</description>
+      <title>HandsOnLLM /Hands-On-Large-Language-Models</title>
+      <link>https://github.com/HandsOnLLM/Hands-On-Large-Language-Models</link>
+      <description>Official code repo for the O'Reilly Book - "Hands-On Large Language Models"</description>
     </item>
     <item>
-      <title>yt-dlp /yt-dlp</title>
-      <link>https://github.com/yt-dlp/yt-dlp</link>
-      <description>A feature-rich command-line audio/video downloader</description>
+      <title>onlook-dev /onlook</title>
+      <link>https://github.com/onlook-dev/onlook</link>
+      <description>The Cursor for Designers • An Open-Source AI-First Design tool • Visually build, style, and edit your React App with AI</description>
+    </item>
+    <item>
+      <title>opf /openproject</title>
+      <link>https://github.com/opf/openproject</link>
+      <description>OpenProject is the leading open source project management software.</description>
+    </item>
+    <item>
+      <title>vanshb03 /Summer2026-Internships</title>
+      <link>https://github.com/vanshb03/Summer2026-Internships</link>
+      <description>Collection of Summer 2026 tech internships!</description>
+    </item>
+    <item>
+      <title>IBM /mcp-context-forge</title>
+      <link>https://github.com/IBM/mcp-context-forge</link>
+      <description>A Model Context Protocol (MCP) Gateway &amp; Registry. Serves as a central management point for tools, resources, and prompts that can be accessed by MCP-compatible LLM applications. Converts REST API endpoints to MCP, composes virtual MCP servers with added security and observability, and converts between protocols (stdio, SSE, Streamable HTTP).</description>
     </item>
     <item>
       <title>GitHubDaily /GitHubDaily</title>
@@ -23,49 +38,29 @@
       <description>坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.</description>
     </item>
     <item>
-      <title>microsoft /generative-ai-for-beginners</title>
-      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
-      <description>21 Lessons, Get Started Building with Generative AI</description>
+      <title>tw93 /Pake</title>
+      <link>https://github.com/tw93/Pake</link>
+      <description>🤱🏻 Turn any webpage into a desktop app with Rust. 🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用</description>
     </item>
     <item>
-      <title>asgeirtj /system_prompts_leaks</title>
-      <link>https://github.com/asgeirtj/system_prompts_leaks</link>
-      <description>Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude &amp; Gemini</description>
+      <title>SimplifyJobs /Summer2026-Internships</title>
+      <link>https://github.com/SimplifyJobs/Summer2026-Internships</link>
+      <description>Collection of Summer 2026 tech internships!</description>
     </item>
     <item>
-      <title>karpathy /nn-zero-to-hero</title>
-      <link>https://github.com/karpathy/nn-zero-to-hero</link>
-      <description>Neural Networks: Zero to Hero</description>
+      <title>eythaann /Seelen-UI</title>
+      <link>https://github.com/eythaann/Seelen-UI</link>
+      <description>The Fully Customizable Desktop Environment for Windows 10/11.</description>
     </item>
     <item>
-      <title>anuraghazra /github-readme-stats</title>
-      <link>https://github.com/anuraghazra/github-readme-stats</link>
-      <description>⚡ Dynamically generated stats for your github readmes</description>
+      <title>MODSetter /SurfSense</title>
+      <link>https://github.com/MODSetter/SurfSense</link>
+      <description>Open Source Alternative to NotebookLM / Perplexity, connected to external sources such as Search Engines, Slack, Linear, Jira, ClickUp, Confluence, Notion, YouTube, GitHub, Discord and more. Join our discord:https://discord.gg/ejRNvftDp9</description>
     </item>
     <item>
-      <title>spotDL /spotify-downloader</title>
-      <link>https://github.com/spotDL/spotify-downloader</link>
-      <description>Download your Spotify playlists and songs along with album art and metadata (from YouTube if a match is found).</description>
-    </item>
-    <item>
-      <title>willccbb /verifiers</title>
-      <link>https://github.com/willccbb/verifiers</link>
-      <description>Verifiers for LLM Reinforcement Learning</description>
-    </item>
-    <item>
-      <title>HunxByts /GhostTrack</title>
-      <link>https://github.com/HunxByts/GhostTrack</link>
-      <description>Useful tool to track location or mobile number</description>
-    </item>
-    <item>
-      <title>moeru-ai /airi</title>
-      <link>https://github.com/moeru-ai/airi</link>
-      <description>💖🧸 Self hosted, you owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.</description>
-    </item>
-    <item>
-      <title>winapps-org /winapps</title>
-      <link>https://github.com/winapps-org/winapps</link>
-      <description>Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration. Hard fork ofhttps://github.com/Fmstrat/winapps/</description>
+      <title>TheAlgorithms /Java</title>
+      <link>https://github.com/TheAlgorithms/Java</link>
+      <description>All Algorithms implemented in Java</description>
     </item>
     <item>
       <title>HKUDS /DeepCode</title>
@@ -73,9 +68,19 @@
       <description>"DeepCode: Open Agentic Coding (Paper2Code &amp; Text2Web &amp; Text2Backend)"</description>
     </item>
     <item>
+      <title>willccbb /verifiers</title>
+      <link>https://github.com/willccbb/verifiers</link>
+      <description>Verifiers for LLM Reinforcement Learning</description>
+    </item>
+    <item>
       <title>plait-board /drawnix</title>
       <link>https://github.com/plait-board/drawnix</link>
       <description>开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等。All in one open-source whiteboard tool with mind, flowchart, freehand and etc.</description>
+    </item>
+    <item>
+      <title>asgeirtj /system_prompts_leaks</title>
+      <link>https://github.com/asgeirtj/system_prompts_leaks</link>
+      <description>Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude &amp; Gemini</description>
     </item>
   </channel>
 </rss>

@@ -6,51 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 28 Aug 2025 01:59:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 29 Aug 2025 01:58:42 +0000</lastBuildDate>
     <item>
-      <title>spf13 /cobra</title>
-      <link>https://github.com/spf13/cobra</link>
-      <description>A Commander for modern Go CLI interactions</description>
-    </item>
-    <item>
-      <title>willccbb /verifiers</title>
-      <link>https://github.com/willccbb/verifiers</link>
-      <description>Verifiers for LLM Reinforcement Learning</description>
-    </item>
-    <item>
-      <title>twbs /bootstrap</title>
-      <link>https://github.com/twbs/bootstrap</link>
-      <description>The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.</description>
-    </item>
-    <item>
-      <title>eythaann /Seelen-UI</title>
-      <link>https://github.com/eythaann/Seelen-UI</link>
-      <description>The Fully Customizable Desktop Environment for Windows 10/11.</description>
-    </item>
-    <item>
-      <title>OpenPipe /ART</title>
-      <link>https://github.com/OpenPipe/ART</link>
-      <description>Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen2.5, Qwen3, Llama, and more!</description>
-    </item>
-    <item>
-      <title>googleapis /genai-toolbox</title>
-      <link>https://github.com/googleapis/genai-toolbox</link>
-      <description>MCP Toolbox for Databases is an open source MCP server for databases.</description>
-    </item>
-    <item>
-      <title>santinic /audiblez</title>
-      <link>https://github.com/santinic/audiblez</link>
-      <description>Generate audiobooks from e-books</description>
-    </item>
-    <item>
-      <title>karpathy /nn-zero-to-hero</title>
-      <link>https://github.com/karpathy/nn-zero-to-hero</link>
-      <description>Neural Networks: Zero to Hero</description>
-    </item>
-    <item>
-      <title>firecracker-microvm /firecracker</title>
-      <link>https://github.com/firecracker-microvm/firecracker</link>
-      <description>Secure and fast microVMs for serverless computing.</description>
+      <title>opf /openproject</title>
+      <link>https://github.com/opf/openproject</link>
+      <description>OpenProject is the leading open source project management software.</description>
     </item>
     <item>
       <title>microsoft /terminal</title>
@@ -58,14 +18,44 @@
       <description>The new Windows Terminal and the original Windows console host, all in the same place!</description>
     </item>
     <item>
-      <title>QuentinFuxa /WhisperLiveKit</title>
-      <link>https://github.com/QuentinFuxa/WhisperLiveKit</link>
-      <description>Python package for Real-time, Local Speech-to-Text and Speaker Diarization. FastAPI Server &amp; Web Interface</description>
+      <title>MODSetter /SurfSense</title>
+      <link>https://github.com/MODSetter/SurfSense</link>
+      <description>Open Source Alternative to NotebookLM / Perplexity, connected to external sources such as Search Engines, Slack, Linear, Jira, ClickUp, Confluence, Notion, YouTube, GitHub, Discord and more. Join our discord:https://discord.gg/ejRNvftDp9</description>
     </item>
     <item>
-      <title>plait-board /drawnix</title>
-      <link>https://github.com/plait-board/drawnix</link>
-      <description>开源白板工具（SaaS），一体化白板，包含思维导图、流程图、自由画等。All in one open-source whiteboard tool with mind, flowchart, freehand and etc.</description>
+      <title>hashicorp /terraform</title>
+      <link>https://github.com/hashicorp/terraform</link>
+      <description>Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.</description>
+    </item>
+    <item>
+      <title>karpathy /nn-zero-to-hero</title>
+      <link>https://github.com/karpathy/nn-zero-to-hero</link>
+      <description>Neural Networks: Zero to Hero</description>
+    </item>
+    <item>
+      <title>santinic /audiblez</title>
+      <link>https://github.com/santinic/audiblez</link>
+      <description>Generate audiobooks from e-books</description>
+    </item>
+    <item>
+      <title>twbs /bootstrap</title>
+      <link>https://github.com/twbs/bootstrap</link>
+      <description>The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.</description>
+    </item>
+    <item>
+      <title>chroma-core /chroma</title>
+      <link>https://github.com/chroma-core/chroma</link>
+      <description>Open-source search and retrieval database for AI applications.</description>
+    </item>
+    <item>
+      <title>firecracker-microvm /firecracker</title>
+      <link>https://github.com/firecracker-microvm/firecracker</link>
+      <description>Secure and fast microVMs for serverless computing.</description>
+    </item>
+    <item>
+      <title>Canner /WrenAI</title>
+      <link>https://github.com/Canner/WrenAI</link>
+      <description>⚡️ GenBI (Generative BI) queries any database in natural language, generates accurate SQL (Text-to-SQL), charts (Text-to-Chart), and AI-powered insights in seconds.</description>
     </item>
     <item>
       <title>asgeirtj /system_prompts_leaks</title>

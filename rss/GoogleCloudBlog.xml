@@ -6,7 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 06 Sep 2025 01:53:31 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Sep 2025 02:02:59 +0000</lastBuildDate>
     <item>
       <title>Storage Insights datasets: How to optimize storage spend with deep visibility</title>
       <link>https://cloud.google.com/blog/products/storage-data-transfer/storage-insights-datasets-optimizes-storage-footprint</link>

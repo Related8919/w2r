@@ -6,56 +6,46 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 08 Sep 2025 02:02:11 +0000</lastBuildDate>
-    <item>
-      <title>Vector-Wangel /XLeRobot</title>
-      <link>https://github.com/Vector-Wangel/XLeRobot</link>
-      <description>XLeRobot: Practical Dual-Arm Mobile Home Robot for $660</description>
-    </item>
-    <item>
-      <title>LadybirdBrowser /ladybird</title>
-      <link>https://github.com/LadybirdBrowser/ladybird</link>
-      <description>Truly independent web browser</description>
-    </item>
-    <item>
-      <title>ossu /computer-science</title>
-      <link>https://github.com/ossu/computer-science</link>
-      <description>🎓 Path to a free self-taught education in Computer Science!</description>
-    </item>
-    <item>
-      <title>henrygd /beszel</title>
-      <link>https://github.com/henrygd/beszel</link>
-      <description>Lightweight server monitoring hub with historical data, docker stats, and alerts.</description>
-    </item>
-    <item>
-      <title>pathwaycom /llm-app</title>
-      <link>https://github.com/pathwaycom/llm-app</link>
-      <description>Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.</description>
-    </item>
-    <item>
-      <title>pathwaycom /pathway</title>
-      <link>https://github.com/pathwaycom/pathway</link>
-      <description>Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.</description>
-    </item>
+    <lastBuildDate>Tue, 09 Sep 2025 01:58:24 +0000</lastBuildDate>
     <item>
       <title>uutils /coreutils</title>
       <link>https://github.com/uutils/coreutils</link>
       <description>Cross-platform Rust rewrite of the GNU coreutils</description>
     </item>
     <item>
-      <title>microsoft /BitNet</title>
-      <link>https://github.com/microsoft/BitNet</link>
-      <description>Official inference framework for 1-bit LLMs</description>
+      <title>Vector-Wangel /XLeRobot</title>
+      <link>https://github.com/Vector-Wangel/XLeRobot</link>
+      <description>XLeRobot: Practical Dual-Arm Mobile Home Robot for $660</description>
     </item>
     <item>
-      <title>Eventual-Inc /Daft</title>
-      <link>https://github.com/Eventual-Inc/Daft</link>
-      <description>Distributed query engine providing simple and reliable data processing for any modality and scale</description>
+      <title>Zie619 /n8n-workflows</title>
+      <link>https://github.com/Zie619/n8n-workflows</link>
+      <description>all of the workflows of n8n i could find (also from the site itself)</description>
+    </item>
+    <item>
+      <title>Cinnamon /kotaemon</title>
+      <link>https://github.com/Cinnamon/kotaemon</link>
+      <description>An open-source RAG-based tool for chatting with your documents.</description>
     </item>
     <item>
       <title>Stirling-Tools /Stirling-PDF</title>
       <link>https://github.com/Stirling-Tools/Stirling-PDF</link>
       <description>#1 Locally hosted web application that allows you to perform various operations on PDF files</description>
+    </item>
+    <item>
+      <title>microsoft /generative-ai-for-beginners</title>
+      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
+      <description>21 Lessons, Get Started Building with Generative AI</description>
+    </item>
+    <item>
+      <title>x1xhlol /system-prompts-and-models-of-ai-tools</title>
+      <link>https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools</link>
+      <description>FULL v0, Cursor, Manus, Augment Code, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Xcode, Trae AI, Cluely &amp; Orchids.app (And other Open Sourced) System Prompts, Tools &amp; AI Models.</description>
+    </item>
+    <item>
+      <title>11cafe /jaaz</title>
+      <link>https://github.com/11cafe/jaaz</link>
+      <description>The world's first open-source multimodal creative assistant This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.</description>
     </item>
     <item>
       <title>Kilo-Org /kilocode</title>
@@ -68,24 +58,19 @@
       <description>This repository is a mirror ofhttps://git.openwrt.org/openwrt/openwrt.gitIt is for reference only and is not active for check-ins. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.</description>
     </item>
     <item>
-      <title>FIRST-Tech-Challenge /FtcRobotController</title>
-      <link>https://github.com/FIRST-Tech-Challenge/FtcRobotController</link>
-      <description>FTC Android Studio Workspace for robot programming in Android Studio</description>
-    </item>
-    <item>
-      <title>juspay /hyperswitch</title>
-      <link>https://github.com/juspay/hyperswitch</link>
-      <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
-    </item>
-    <item>
-      <title>coleam00 /ottomator-agents</title>
-      <link>https://github.com/coleam00/ottomator-agents</link>
-      <description>All the open source AI Agents hosted on the oTTomator Live Agent Studio platform!</description>
+      <title>bytedance /UI-TARS-desktop</title>
+      <link>https://github.com/bytedance/UI-TARS-desktop</link>
+      <description>The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra</description>
     </item>
     <item>
       <title>zama-ai /fhevm</title>
       <link>https://github.com/zama-ai/fhevm</link>
       <description>FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications</description>
+    </item>
+    <item>
+      <title>microsoft /ai-agents-for-beginners</title>
+      <link>https://github.com/microsoft/ai-agents-for-beginners</link>
+      <description>12 Lessons to Get Started Building AI Agents</description>
     </item>
     <item>
       <title>emcie-co /parlant</title>

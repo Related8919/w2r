@@ -6,41 +6,36 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 09 Sep 2025 01:58:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Sep 2025 01:55:05 +0000</lastBuildDate>
     <item>
-      <title>uutils /coreutils</title>
-      <link>https://github.com/uutils/coreutils</link>
-      <description>Cross-platform Rust rewrite of the GNU coreutils</description>
+      <title>HKUDS /AutoAgent</title>
+      <link>https://github.com/HKUDS/AutoAgent</link>
+      <description>"AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework"</description>
     </item>
     <item>
-      <title>Vector-Wangel /XLeRobot</title>
-      <link>https://github.com/Vector-Wangel/XLeRobot</link>
-      <description>XLeRobot: Practical Dual-Arm Mobile Home Robot for $660</description>
+      <title>immich-app /immich</title>
+      <link>https://github.com/immich-app/immich</link>
+      <description>High performance self-hosted photo and video management solution.</description>
     </item>
     <item>
-      <title>Zie619 /n8n-workflows</title>
-      <link>https://github.com/Zie619/n8n-workflows</link>
-      <description>all of the workflows of n8n i could find (also from the site itself)</description>
+      <title>Eventual-Inc /Daft</title>
+      <link>https://github.com/Eventual-Inc/Daft</link>
+      <description>Distributed query engine providing simple and reliable data processing for any modality and scale</description>
     </item>
     <item>
-      <title>Cinnamon /kotaemon</title>
-      <link>https://github.com/Cinnamon/kotaemon</link>
-      <description>An open-source RAG-based tool for chatting with your documents.</description>
+      <title>juspay /hyperswitch</title>
+      <link>https://github.com/juspay/hyperswitch</link>
+      <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
     </item>
     <item>
-      <title>Stirling-Tools /Stirling-PDF</title>
-      <link>https://github.com/Stirling-Tools/Stirling-PDF</link>
-      <description>#1 Locally hosted web application that allows you to perform various operations on PDF files</description>
+      <title>ClemensElflein /OpenMower</title>
+      <link>https://github.com/ClemensElflein/OpenMower</link>
+      <description>Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots!</description>
     </item>
     <item>
-      <title>microsoft /generative-ai-for-beginners</title>
-      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
-      <description>21 Lessons, Get Started Building with Generative AI</description>
-    </item>
-    <item>
-      <title>x1xhlol /system-prompts-and-models-of-ai-tools</title>
-      <link>https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools</link>
-      <description>FULL v0, Cursor, Manus, Augment Code, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Xcode, Trae AI, Cluely &amp; Orchids.app (And other Open Sourced) System Prompts, Tools &amp; AI Models.</description>
+      <title>pathwaycom /pathway</title>
+      <link>https://github.com/pathwaycom/pathway</link>
+      <description>Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.</description>
     </item>
     <item>
       <title>11cafe /jaaz</title>
@@ -48,29 +43,39 @@
       <description>The world's first open-source multimodal creative assistant This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.</description>
     </item>
     <item>
-      <title>Kilo-Org /kilocode</title>
-      <link>https://github.com/Kilo-Org/kilocode</link>
-      <description>Open Source AI coding assistant for planning, building, and fixing code. We frequently merge features from open-source projects like Roo Code and Cline, while building our own vision. Follow us: kilocode.ai/social</description>
+      <title>hiroi-sora /Umi-OCR</title>
+      <link>https://github.com/hiroi-sora/Umi-OCR</link>
+      <description>OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。</description>
     </item>
     <item>
-      <title>openwrt /openwrt</title>
-      <link>https://github.com/openwrt/openwrt</link>
-      <description>This repository is a mirror ofhttps://git.openwrt.org/openwrt/openwrt.gitIt is for reference only and is not active for check-ins. We will continue to accept Pull Requests here. They will be merged via staging trees then into openwrt.git.</description>
+      <title>pathwaycom /llm-app</title>
+      <link>https://github.com/pathwaycom/llm-app</link>
+      <description>Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.</description>
     </item>
     <item>
-      <title>bytedance /UI-TARS-desktop</title>
-      <link>https://github.com/bytedance/UI-TARS-desktop</link>
-      <description>The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra</description>
+      <title>Cinnamon /kotaemon</title>
+      <link>https://github.com/Cinnamon/kotaemon</link>
+      <description>An open-source RAG-based tool for chatting with your documents.</description>
     </item>
     <item>
-      <title>zama-ai /fhevm</title>
-      <link>https://github.com/zama-ai/fhevm</link>
-      <description>FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications</description>
+      <title>vercel /examples</title>
+      <link>https://github.com/vercel/examples</link>
+      <description>Enjoy our curated collection of examples and solutions. Use these patterns to build your own robust and scalable applications.</description>
     </item>
     <item>
-      <title>microsoft /ai-agents-for-beginners</title>
-      <link>https://github.com/microsoft/ai-agents-for-beginners</link>
-      <description>12 Lessons to Get Started Building AI Agents</description>
+      <title>Stirling-Tools /Stirling-PDF</title>
+      <link>https://github.com/Stirling-Tools/Stirling-PDF</link>
+      <description>#1 Locally hosted web application that allows you to perform various operations on PDF files</description>
+    </item>
+    <item>
+      <title>x1xhlol /system-prompts-and-models-of-ai-tools</title>
+      <link>https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools</link>
+      <description>FULL v0, Cursor, Manus, Augment Code, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Xcode, Trae AI, Cluely &amp; Orchids.app (And other Open Sourced) System Prompts, Tools &amp; AI Models.</description>
+    </item>
+    <item>
+      <title>Vector-Wangel /XLeRobot</title>
+      <link>https://github.com/Vector-Wangel/XLeRobot</link>
+      <description>XLeRobot: Practical Dual-Arm Mobile Home Robot for $660</description>
     </item>
     <item>
       <title>emcie-co /parlant</title>

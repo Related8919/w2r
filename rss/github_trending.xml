@@ -6,26 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 10 Sep 2025 01:55:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 01:57:21 +0000</lastBuildDate>
     <item>
-      <title>HKUDS /AutoAgent</title>
-      <link>https://github.com/HKUDS/AutoAgent</link>
-      <description>"AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework"</description>
+      <title>microsoft /terminal</title>
+      <link>https://github.com/microsoft/terminal</link>
+      <description>The new Windows Terminal and the original Windows console host, all in the same place!</description>
     </item>
     <item>
-      <title>immich-app /immich</title>
-      <link>https://github.com/immich-app/immich</link>
-      <description>High performance self-hosted photo and video management solution.</description>
+      <title>ntdevlabs /tiny11builder</title>
+      <link>https://github.com/ntdevlabs/tiny11builder</link>
+      <description>Scripts to build a trimmed-down Windows 11 image.</description>
     </item>
     <item>
-      <title>Eventual-Inc /Daft</title>
-      <link>https://github.com/Eventual-Inc/Daft</link>
-      <description>Distributed query engine providing simple and reliable data processing for any modality and scale</description>
-    </item>
-    <item>
-      <title>juspay /hyperswitch</title>
-      <link>https://github.com/juspay/hyperswitch</link>
-      <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
+      <title>1Panel-dev /MaxKB</title>
+      <link>https://github.com/1Panel-dev/MaxKB</link>
+      <description>🔥 MaxKB is an open-source platform for building enterprise-grade agents. MaxKB 是强大易用的开源企业级智能体平台。</description>
     </item>
     <item>
       <title>ClemensElflein /OpenMower</title>
@@ -33,34 +28,9 @@
       <description>Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots!</description>
     </item>
     <item>
-      <title>pathwaycom /pathway</title>
-      <link>https://github.com/pathwaycom/pathway</link>
-      <description>Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.</description>
-    </item>
-    <item>
-      <title>11cafe /jaaz</title>
-      <link>https://github.com/11cafe/jaaz</link>
-      <description>The world's first open-source multimodal creative assistant This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.</description>
-    </item>
-    <item>
-      <title>hiroi-sora /Umi-OCR</title>
-      <link>https://github.com/hiroi-sora/Umi-OCR</link>
-      <description>OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。</description>
-    </item>
-    <item>
-      <title>pathwaycom /llm-app</title>
-      <link>https://github.com/pathwaycom/llm-app</link>
-      <description>Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.</description>
-    </item>
-    <item>
-      <title>Cinnamon /kotaemon</title>
-      <link>https://github.com/Cinnamon/kotaemon</link>
-      <description>An open-source RAG-based tool for chatting with your documents.</description>
-    </item>
-    <item>
-      <title>vercel /examples</title>
-      <link>https://github.com/vercel/examples</link>
-      <description>Enjoy our curated collection of examples and solutions. Use these patterns to build your own robust and scalable applications.</description>
+      <title>heroui-inc /heroui</title>
+      <link>https://github.com/heroui-inc/heroui</link>
+      <description>🚀 Beautiful, fast and modern React UI library. (Previously NextUI)</description>
     </item>
     <item>
       <title>Stirling-Tools /Stirling-PDF</title>
@@ -68,19 +38,54 @@
       <description>#1 Locally hosted web application that allows you to perform various operations on PDF files</description>
     </item>
     <item>
+      <title>HKUDS /AutoAgent</title>
+      <link>https://github.com/HKUDS/AutoAgent</link>
+      <description>"AutoAgent: Fully-Automated and Zero-Code LLM Agent Framework"</description>
+    </item>
+    <item>
       <title>x1xhlol /system-prompts-and-models-of-ai-tools</title>
       <link>https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools</link>
       <description>FULL v0, Cursor, Manus, Augment Code, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Xcode, Trae AI, Cluely &amp; Orchids.app (And other Open Sourced) System Prompts, Tools &amp; AI Models.</description>
     </item>
     <item>
-      <title>Vector-Wangel /XLeRobot</title>
-      <link>https://github.com/Vector-Wangel/XLeRobot</link>
-      <description>XLeRobot: Practical Dual-Arm Mobile Home Robot for $660</description>
+      <title>huggingface /aisheets</title>
+      <link>https://github.com/huggingface/aisheets</link>
+      <description>Build, enrich, and transform datasets using AI models with no code</description>
     </item>
     <item>
-      <title>emcie-co /parlant</title>
-      <link>https://github.com/emcie-co/parlant</link>
-      <description>LLM agents built for control. Designed for real-world use. Deployed in minutes.</description>
+      <title>tesseract-ocr /tesseract</title>
+      <link>https://github.com/tesseract-ocr/tesseract</link>
+      <description>Tesseract Open Source OCR Engine (main repository)</description>
+    </item>
+    <item>
+      <title>ZuodaoTech /everyone-can-use-english</title>
+      <link>https://github.com/ZuodaoTech/everyone-can-use-english</link>
+      <description>人人都能用英语</description>
+    </item>
+    <item>
+      <title>twitter /the-algorithm</title>
+      <link>https://github.com/twitter/the-algorithm</link>
+      <description>Source code for the X Recommendation Algorithm</description>
+    </item>
+    <item>
+      <title>11cafe /jaaz</title>
+      <link>https://github.com/11cafe/jaaz</link>
+      <description>The world's first open-source multimodal creative assistant This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.</description>
+    </item>
+    <item>
+      <title>microsoft /ai-agents-for-beginners</title>
+      <link>https://github.com/microsoft/ai-agents-for-beginners</link>
+      <description>12 Lessons to Get Started Building AI Agents</description>
+    </item>
+    <item>
+      <title>vercel /examples</title>
+      <link>https://github.com/vercel/examples</link>
+      <description>Enjoy our curated collection of examples and solutions. Use these patterns to build your own robust and scalable applications.</description>
+    </item>
+    <item>
+      <title>modelcontextprotocol /registry</title>
+      <link>https://github.com/modelcontextprotocol/registry</link>
+      <description>A community driven registry service for Model Context Protocol (MCP) servers.</description>
     </item>
   </channel>
 </rss>

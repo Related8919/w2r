@@ -6,21 +6,36 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 12 Sep 2025 01:53:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Sep 2025 01:47:59 +0000</lastBuildDate>
     <item>
-      <title>TapXWorld /ChinaTextbook</title>
-      <link>https://github.com/TapXWorld/ChinaTextbook</link>
-      <description>所有小初高、大学PDF教材。</description>
+      <title>modelcontextprotocol /registry</title>
+      <link>https://github.com/modelcontextprotocol/registry</link>
+      <description>A community driven registry service for Model Context Protocol (MCP) servers.</description>
     </item>
     <item>
-      <title>Zie619 /n8n-workflows</title>
-      <link>https://github.com/Zie619/n8n-workflows</link>
-      <description>all of the workflows of n8n i could find (also from the site itself)</description>
+      <title>kyverno /kyverno</title>
+      <link>https://github.com/kyverno/kyverno</link>
+      <description>Cloud Native Policy Management</description>
     </item>
     <item>
-      <title>x1xhlol /system-prompts-and-models-of-ai-tools</title>
-      <link>https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools</link>
-      <description>FULL v0, Cursor, Manus, Augment Code, Same.dev, Lovable, Devin, Replit Agent, Windsurf Agent, VSCode Agent, Dia Browser, Xcode, Trae AI, Cluely &amp; Orchids.app (And other Open Sourced) System Prompts, Tools &amp; AI Models.</description>
+      <title>PowerShell /PowerShell</title>
+      <link>https://github.com/PowerShell/PowerShell</link>
+      <description>PowerShell for every system!</description>
+    </item>
+    <item>
+      <title>grpc /grpc-go</title>
+      <link>https://github.com/grpc/grpc-go</link>
+      <description>The Go language implementation of gRPC. HTTP/2 based RPC</description>
+    </item>
+    <item>
+      <title>kamranahmedse /developer-roadmap</title>
+      <link>https://github.com/kamranahmedse/developer-roadmap</link>
+      <description>Interactive roadmaps, guides and other educational content to help developers grow in their careers.</description>
+    </item>
+    <item>
+      <title>ZuodaoTech /everyone-can-use-english</title>
+      <link>https://github.com/ZuodaoTech/everyone-can-use-english</link>
+      <description>人人都能用英语</description>
     </item>
     <item>
       <title>Azure /azure-sdk-for-python</title>
@@ -28,14 +43,29 @@
       <description>This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs athttps://learn.microsoft.com/python/azure/or our versioned developer docs athttps://azure.github.io/azure-sdk-for-python.</description>
     </item>
     <item>
-      <title>supabase /supabase</title>
-      <link>https://github.com/supabase/supabase</link>
-      <description>The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.</description>
+      <title>livekit /livekit</title>
+      <link>https://github.com/livekit/livekit</link>
+      <description>End-to-end realtime stack for connecting humans and AI</description>
     </item>
     <item>
-      <title>NationalSecurityAgency /ghidra</title>
-      <link>https://github.com/NationalSecurityAgency/ghidra</link>
-      <description>Ghidra is a software reverse engineering (SRE) framework</description>
+      <title>punkpeye /awesome-mcp-servers</title>
+      <link>https://github.com/punkpeye/awesome-mcp-servers</link>
+      <description>A collection of MCP servers.</description>
+    </item>
+    <item>
+      <title>milvus-io /milvus</title>
+      <link>https://github.com/milvus-io/milvus</link>
+      <description>Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search</description>
+    </item>
+    <item>
+      <title>NVIDIA /garak</title>
+      <link>https://github.com/NVIDIA/garak</link>
+      <description>the LLM vulnerability scanner</description>
+    </item>
+    <item>
+      <title>expo /expo</title>
+      <link>https://github.com/expo/expo</link>
+      <description>An open-source framework for making universal native apps with React. Expo runs on Android, iOS, and the web.</description>
     </item>
     <item>
       <title>epfml /ML_course</title>
@@ -43,59 +73,29 @@
       <description>EPFL Machine Learning Course, Fall 2025</description>
     </item>
     <item>
-      <title>ClemensElflein /OpenMower</title>
-      <link>https://github.com/ClemensElflein/OpenMower</link>
-      <description>Let's upgrade cheap off-the-shelf robotic mowers to modern, smart RTK GPS based lawn mowing robots!</description>
+      <title>Zie619 /n8n-workflows</title>
+      <link>https://github.com/Zie619/n8n-workflows</link>
+      <description>all of the workflows of n8n i could find (also from the site itself)</description>
     </item>
     <item>
-      <title>heroui-inc /heroui</title>
-      <link>https://github.com/heroui-inc/heroui</link>
-      <description>🚀 Beautiful, fast and modern React UI library. (Previously NextUI)</description>
+      <title>firebase /genkit</title>
+      <link>https://github.com/firebase/genkit</link>
+      <description>An open source framework for building AI-powered apps with familiar code-centric patterns. Genkit makes it easy to develop, integrate, and test AI features with observability and evaluations. Genkit works with various models and platforms.</description>
     </item>
     <item>
-      <title>MotiaDev /motia</title>
-      <link>https://github.com/MotiaDev/motia</link>
-      <description>Modern Backend Framework that unifies APIs, background jobs, workflows, and AI Agents into a single core primitive with built-in observability and state management.</description>
+      <title>sentient-agi /ROMA</title>
+      <link>https://github.com/sentient-agi/ROMA</link>
+      <description>Recursive-Open-Meta-Agent v0.1 (Beta). A meta-agent framework to build high-performance multi-agent systems.</description>
     </item>
     <item>
-      <title>aaPanel /BillionMail</title>
-      <link>https://github.com/aaPanel/BillionMail</link>
-      <description>BillionMail gives you open-source MailServer, NewsLetter, Email Marketing — fully self-hosted, dev-friendly, and free from monthly fees. Join the discord:https://discord.gg/asfXzBUhZr</description>
+      <title>CodebuffAI /codebuff</title>
+      <link>https://github.com/CodebuffAI/codebuff</link>
+      <description>Generate code from the terminal!</description>
     </item>
     <item>
       <title>trueadm /ripple</title>
       <link>https://github.com/trueadm/ripple</link>
       <description>the elegant TypeScript UI framework</description>
-    </item>
-    <item>
-      <title>agno-agi /agno</title>
-      <link>https://github.com/agno-agi/agno</link>
-      <description>High-performance runtime for multi-agent systems. Build, run and manage secure multi-agent systems in your cloud.</description>
-    </item>
-    <item>
-      <title>mxrch /GHunt</title>
-      <link>https://github.com/mxrch/GHunt</link>
-      <description>🕵️‍♂️ Offensive Google framework.</description>
-    </item>
-    <item>
-      <title>ccfos /nightingale</title>
-      <link>https://github.com/ccfos/nightingale</link>
-      <description>Nightingale for monitoring and alerting, just as Grafana for visualization.</description>
-    </item>
-    <item>
-      <title>google /material-design-icons</title>
-      <link>https://github.com/google/material-design-icons</link>
-      <description>Material Design icons by Google (Material Symbols)</description>
-    </item>
-    <item>
-      <title>twitter /the-algorithm</title>
-      <link>https://github.com/twitter/the-algorithm</link>
-      <description>Source code for the X Recommendation Algorithm</description>
-    </item>
-    <item>
-      <title>modelcontextprotocol /registry</title>
-      <link>https://github.com/modelcontextprotocol/registry</link>
-      <description>A community driven registry service for Model Context Protocol (MCP) servers.</description>
     </item>
   </channel>
 </rss>

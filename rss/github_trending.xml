@@ -6,16 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 14 Sep 2025 02:01:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 02:03:31 +0000</lastBuildDate>
     <item>
-      <title>NVIDIA /garak</title>
-      <link>https://github.com/NVIDIA/garak</link>
-      <description>the LLM vulnerability scanner</description>
+      <title>ml-explore /mlx-lm</title>
+      <link>https://github.com/ml-explore/mlx-lm</link>
+      <description>Run LLMs with MLX</description>
     </item>
     <item>
-      <title>fla-org /flash-linear-attention</title>
-      <link>https://github.com/fla-org/flash-linear-attention</link>
-      <description>🚀 Efficient implementations of state-of-the-art linear attention models</description>
+      <title>donnemartin /system-design-primer</title>
+      <link>https://github.com/donnemartin/system-design-primer</link>
+      <description>Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.</description>
+    </item>
+    <item>
+      <title>Arindam200 /awesome-ai-apps</title>
+      <link>https://github.com/Arindam200/awesome-ai-apps</link>
+      <description>A collection of projects showcasing RAG, agents, workflows, and other AI use cases</description>
+    </item>
+    <item>
+      <title>unclecode /crawl4ai</title>
+      <link>https://github.com/unclecode/crawl4ai</link>
+      <description>🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler &amp; Scraper. Don't be shy, join here:https://discord.gg/jP8KfhDhyN</description>
     </item>
     <item>
       <title>simdjson /simdjson</title>
@@ -23,34 +33,19 @@
       <description>Parsing gigabytes of JSON per second : used by Facebook/Meta Velox, the Node.js runtime, ClickHouse, WatermelonDB, Apache Doris, Milvus, StarRocks</description>
     </item>
     <item>
-      <title>datawhalechina /happy-llm</title>
-      <link>https://github.com/datawhalechina/happy-llm</link>
-      <description>📚 从零开始的大语言模型原理与实践教程</description>
+      <title>firebase /genkit</title>
+      <link>https://github.com/firebase/genkit</link>
+      <description>Google's multi-model AI framework in Javascript, Go and Python</description>
     </item>
     <item>
-      <title>huggingface /transformers</title>
-      <link>https://github.com/huggingface/transformers</link>
-      <description>🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.</description>
+      <title>docker /mcp-gateway</title>
+      <link>https://github.com/docker/mcp-gateway</link>
+      <description>docker mcp CLI plugin / MCP Gateway</description>
     </item>
     <item>
-      <title>facebook /folly</title>
-      <link>https://github.com/facebook/folly</link>
-      <description>An open-source C++ library developed and used at Facebook.</description>
-    </item>
-    <item>
-      <title>protocolbuffers /protobuf</title>
-      <link>https://github.com/protocolbuffers/protobuf</link>
-      <description>Protocol Buffers - Google's data interchange format</description>
-    </item>
-    <item>
-      <title>CodebuffAI /codebuff</title>
-      <link>https://github.com/CodebuffAI/codebuff</link>
-      <description>Generate code from the terminal!</description>
-    </item>
-    <item>
-      <title>Azure /azure-sdk-for-python</title>
-      <link>https://github.com/Azure/azure-sdk-for-python</link>
-      <description>This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs athttps://learn.microsoft.com/python/azure/or our versioned developer docs athttps://azure.github.io/azure-sdk-for-python.</description>
+      <title>deepset-ai /haystack</title>
+      <link>https://github.com/deepset-ai/haystack</link>
+      <description>AI orchestration framework to build customizable, production-ready LLM applications. Connect components (models, vector DBs, file converters) to pipelines or agents that can interact with your data. With advanced retrieval methods, it's best suited for building RAG, question answering, semantic search or conversational agent chatbots.</description>
     </item>
     <item>
       <title>ReVanced /revanced-patches</title>
@@ -58,19 +53,29 @@
       <description>🧩 Patches for ReVanced</description>
     </item>
     <item>
-      <title>sentient-agi /ROMA</title>
-      <link>https://github.com/sentient-agi/ROMA</link>
-      <description>Recursive-Open-Meta-Agent v0.1 (Beta). A meta-agent framework to build high-performance multi-agent systems.</description>
+      <title>midday-ai /midday</title>
+      <link>https://github.com/midday-ai/midday</link>
+      <description>Invoicing, Time tracking, File reconciliation, Storage, Financial Overview &amp; your own Assistant made for Freelancers</description>
     </item>
     <item>
-      <title>grpc /grpc-go</title>
-      <link>https://github.com/grpc/grpc-go</link>
-      <description>The Go language implementation of gRPC. HTTP/2 based RPC</description>
+      <title>ItzCrazyKns /Perplexica</title>
+      <link>https://github.com/ItzCrazyKns/Perplexica</link>
+      <description>Perplexica is an AI-powered search engine. It is an Open source alternative to Perplexity AI</description>
     </item>
     <item>
-      <title>MotiaDev /motia</title>
-      <link>https://github.com/MotiaDev/motia</link>
-      <description>Modern Backend Framework that unifies APIs, background jobs, workflows, and AI Agents into a single core primitive with built-in observability and state management.</description>
+      <title>Shubhamsaboo /awesome-llm-apps</title>
+      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
+      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
+    </item>
+    <item>
+      <title>ccxt /ccxt</title>
+      <link>https://github.com/ccxt/ccxt</link>
+      <description>A cryptocurrency trading API with more than 100 exchanges in JavaScript / TypeScript / Python / C# / PHP / Go</description>
+    </item>
+    <item>
+      <title>SkyworkAI /DeepResearchAgent</title>
+      <link>https://github.com/SkyworkAI/DeepResearchAgent</link>
+      <description>DeepResearchAgent is a hierarchical multi-agent system designed not only for deep research tasks but also for general-purpose task solving. The framework leverages a top-level planning agent to coordinate multiple specialized lower-level agents, enabling automated task decomposition and efficient execution across diverse and complex domains.</description>
     </item>
     <item>
       <title>trueadm /ripple</title>

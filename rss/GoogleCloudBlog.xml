@@ -6,7 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 14 Sep 2025 02:02:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 02:03:45 +0000</lastBuildDate>
     <item>
       <title>Calling all devs: Join the GKE Turns 10 Hackathon and build with agentic AI</title>
       <link>https://cloud.google.com/blog/topics/training-certifications/join-the-gke-turns-10-hackathon</link>

@@ -6,51 +6,41 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 17 Sep 2025 01:53:56 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Sep 2025 01:54:00 +0000</lastBuildDate>
     <item>
-      <title>TheAlgorithms /Python</title>
-      <link>https://github.com/TheAlgorithms/Python</link>
-      <description>All Algorithms implemented in Python</description>
+      <title>curl /curl</title>
+      <link>https://github.com/curl/curl</link>
+      <description>A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features</description>
     </item>
     <item>
-      <title>ItzCrazyKns /Perplexica</title>
-      <link>https://github.com/ItzCrazyKns/Perplexica</link>
-      <description>Perplexica is an AI-powered search engine. It is an Open source alternative to Perplexity AI</description>
+      <title>facebookresearch /detectron2</title>
+      <link>https://github.com/facebookresearch/detectron2</link>
+      <description>Detectron2 is a platform for object detection, segmentation and other visual recognition tasks.</description>
     </item>
     <item>
-      <title>PowerShell /PowerShell</title>
-      <link>https://github.com/PowerShell/PowerShell</link>
-      <description>PowerShell for every system!</description>
+      <title>flutter /flutter</title>
+      <link>https://github.com/flutter/flutter</link>
+      <description>Flutter makes it easy and fast to build beautiful apps for mobile and beyond</description>
     </item>
     <item>
-      <title>ArthurBrussee /brush</title>
-      <link>https://github.com/ArthurBrussee/brush</link>
-      <description>3D Reconstruction for all</description>
+      <title>jordanbaird /Ice</title>
+      <link>https://github.com/jordanbaird/Ice</link>
+      <description>Powerful menu bar manager for macOS</description>
     </item>
     <item>
-      <title>BasedHardware /omi</title>
-      <link>https://github.com/BasedHardware/omi</link>
-      <description>AI wearables. Put it on, speak, transcribe, automatically</description>
+      <title>nanobrowser /nanobrowser</title>
+      <link>https://github.com/nanobrowser/nanobrowser</link>
+      <description>Open-Source Chrome extension for AI-powered web automation. Run multi-agent workflows using your own LLM API key. Alternative to OpenAI Operator.</description>
     </item>
     <item>
-      <title>Plachtaa /seed-vc</title>
-      <link>https://github.com/Plachtaa/seed-vc</link>
-      <description>zero-shot voice conversion &amp; singing voice conversion, with real-time support</description>
+      <title>sst /opencode</title>
+      <link>https://github.com/sst/opencode</link>
+      <description>AI coding agent, built for the terminal.</description>
     </item>
     <item>
-      <title>PaddlePaddle /PaddleOCR</title>
-      <link>https://github.com/PaddlePaddle/PaddleOCR</link>
-      <description>Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 80+ languages.</description>
-    </item>
-    <item>
-      <title>HKUDS /DeepCode</title>
-      <link>https://github.com/HKUDS/DeepCode</link>
-      <description>"DeepCode: Open Agentic Coding (Paper2Code &amp; Text2Web &amp; Text2Backend)"</description>
-    </item>
-    <item>
-      <title>ccxt /ccxt</title>
-      <link>https://github.com/ccxt/ccxt</link>
-      <description>A cryptocurrency trading API with more than 100 exchanges in JavaScript / TypeScript / Python / C# / PHP / Go</description>
+      <title>Alibaba-NLP /DeepResearch</title>
+      <link>https://github.com/Alibaba-NLP/DeepResearch</link>
+      <description>Tongyi DeepResearch, the Leading Open-source DeepResearch Agent</description>
     </item>
     <item>
       <title>virattt /ai-hedge-fund</title>
@@ -58,9 +48,9 @@
       <description>An AI Hedge Fund Team</description>
     </item>
     <item>
-      <title>SkyworkAI /DeepResearchAgent</title>
-      <link>https://github.com/SkyworkAI/DeepResearchAgent</link>
-      <description>DeepResearchAgent is a hierarchical multi-agent system designed not only for deep research tasks but also for general-purpose task solving. The framework leverages a top-level planning agent to coordinate multiple specialized lower-level agents, enabling automated task decomposition and efficient execution across diverse and complex domains.</description>
+      <title>google-research /timesfm</title>
+      <link>https://github.com/google-research/timesfm</link>
+      <description>TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.</description>
     </item>
     <item>
       <title>dataease /SQLBot</title>
@@ -68,9 +58,24 @@
       <description>基于大模型和 RAG 的智能问数系统。Text-to-SQL Generation via LLMs using RAG.</description>
     </item>
     <item>
-      <title>ml-explore /mlx-lm</title>
-      <link>https://github.com/ml-explore/mlx-lm</link>
-      <description>Run LLMs with MLX</description>
+      <title>nocodb /nocodb</title>
+      <link>https://github.com/nocodb/nocodb</link>
+      <description>🔥 🔥 🔥 Open Source Airtable Alternative</description>
+    </item>
+    <item>
+      <title>openai /codex</title>
+      <link>https://github.com/openai/codex</link>
+      <description>Lightweight coding agent that runs in your terminal</description>
+    </item>
+    <item>
+      <title>ItzCrazyKns /Perplexica</title>
+      <link>https://github.com/ItzCrazyKns/Perplexica</link>
+      <description>Perplexica is an AI-powered search engine. It is an Open source alternative to Perplexity AI</description>
+    </item>
+    <item>
+      <title>WebKit /WebKit</title>
+      <link>https://github.com/WebKit/WebKit</link>
+      <description>Home of the WebKit project, the browser engine used by Safari, Mail, App Store and many other applications on macOS, iOS and Linux.</description>
     </item>
     <item>
       <title>microsoft /markitdown</title>

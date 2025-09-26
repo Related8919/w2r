@@ -6,81 +6,31 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 25 Sep 2025 01:57:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Sep 2025 01:56:12 +0000</lastBuildDate>
     <item>
-      <title>exo-explore /exo</title>
-      <link>https://github.com/exo-explore/exo</link>
-      <description>Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚</description>
+      <title>onyx-dot-app /onyx</title>
+      <link>https://github.com/onyx-dot-app/onyx</link>
+      <description>Open Source AI Platform - AI Chat with advanced features that works with every LLM</description>
     </item>
     <item>
-      <title>ByteByteGoHq /system-design-101</title>
-      <link>https://github.com/ByteByteGoHq/system-design-101</link>
-      <description>Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.</description>
+      <title>smartcontractkit /chainlink</title>
+      <link>https://github.com/smartcontractkit/chainlink</link>
+      <description>node of the decentralized oracle network, bridging on and off-chain computation</description>
     </item>
     <item>
-      <title>django /django</title>
-      <link>https://github.com/django/django</link>
-      <description>The Web framework for perfectionists with deadlines.</description>
+      <title>cloudflare /capnweb</title>
+      <link>https://github.com/cloudflare/capnweb</link>
+      <description>JavaScript/TypeScript-native, low-boilerplate, object-capability RPC system</description>
     </item>
     <item>
-      <title>siyuan-note /siyuan</title>
-      <link>https://github.com/siyuan-note/siyuan</link>
-      <description>A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.</description>
+      <title>confident-ai /deepeval</title>
+      <link>https://github.com/confident-ai/deepeval</link>
+      <description>The LLM Evaluation Framework</description>
     </item>
     <item>
-      <title>solana-labs /solana</title>
-      <link>https://github.com/solana-labs/solana</link>
-      <description>Web-Scale Blockchain for fast, secure, scalable, decentralized apps and marketplaces.</description>
-    </item>
-    <item>
-      <title>mtdvio /every-programmer-should-know</title>
-      <link>https://github.com/mtdvio/every-programmer-should-know</link>
-      <description>A collection of (mostly) technical things every software developer should know about</description>
-    </item>
-    <item>
-      <title>Gar-b-age /CookLikeHOC</title>
-      <link>https://github.com/Gar-b-age/CookLikeHOC</link>
-      <description>🥢像老乡鸡🐔那样做饭。主要部分于2024年完工，非老乡鸡官方仓库。文字来自《老乡鸡菜品溯源报告》，并做归纳、编辑与整理。CookLikeHOC.</description>
-    </item>
-    <item>
-      <title>aliasrobotics /cai</title>
-      <link>https://github.com/aliasrobotics/cai</link>
-      <description>Cybersecurity AI (CAI), the framework for AI Security</description>
-    </item>
-    <item>
-      <title>bytedance /Dolphin</title>
-      <link>https://github.com/bytedance/Dolphin</link>
-      <description>The official repo for “Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting”, ACL, 2025.</description>
-    </item>
-    <item>
-      <title>freqtrade /freqtrade</title>
-      <link>https://github.com/freqtrade/freqtrade</link>
-      <description>Free, open source crypto trading bot</description>
-    </item>
-    <item>
-      <title>gin-gonic /gin</title>
-      <link>https://github.com/gin-gonic/gin</link>
-      <description>Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.</description>
-    </item>
-    <item>
-      <title>istio /istio</title>
-      <link>https://github.com/istio/istio</link>
-      <description>Connect, secure, control, and observe services.</description>
-    </item>
-    <item>
-      <title>ultralytics /ultralytics</title>
-      <link>https://github.com/ultralytics/ultralytics</link>
-      <description>Ultralytics YOLO 🚀</description>
-    </item>
-    <item>
-      <title>HKUDS /RAG-Anything</title>
-      <link>https://github.com/HKUDS/RAG-Anything</link>
-      <description>"RAG-Anything: All-in-One RAG Framework"</description>
-    </item>
-    <item>
-      <title>LadybirdBrowser /ladybird</title>
-      <link>https://github.com/LadybirdBrowser/ladybird</link>
-      <description>Truly independent web browser</description>
+      <title>OpenZeppelin /openzeppelin-contracts</title>
+      <link>https://github.com/OpenZeppelin/openzeppelin-contracts</link>
+      <description>OpenZeppelin Contracts is a library for secure smart contract development.</description>
     </item>
     <item>
       <title>elastic /elasticsearch</title>
@@ -88,9 +38,54 @@
       <description>Free and Open Source, Distributed, RESTful Search Engine</description>
     </item>
     <item>
-      <title>cloudflare /capnweb</title>
-      <link>https://github.com/cloudflare/capnweb</link>
-      <description>JavaScript/TypeScript-native, low-boilerplate, object-capability RPC system</description>
+      <title>Asabeneh /30-Days-Of-Python</title>
+      <link>https://github.com/Asabeneh/30-Days-Of-Python</link>
+      <description>30 days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than100 days, follow your own pace. These videos may help too:https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw</description>
+    </item>
+    <item>
+      <title>coinbase /x402</title>
+      <link>https://github.com/coinbase/x402</link>
+      <description>A payments protocol for the internet. Built on HTTP.</description>
+    </item>
+    <item>
+      <title>LadybirdBrowser /ladybird</title>
+      <link>https://github.com/LadybirdBrowser/ladybird</link>
+      <description>Truly independent web browser</description>
+    </item>
+    <item>
+      <title>TanStack /router</title>
+      <link>https://github.com/TanStack/router</link>
+      <description>🤖 Fully typesafe Router for React (and friends) w/ built-in caching, 1st class search-param APIs, client-side cache integration and isomorphic rendering.</description>
+    </item>
+    <item>
+      <title>Olow304 /memvid</title>
+      <link>https://github.com/Olow304/memvid</link>
+      <description>Video-based AI memory library. Store millions of text chunks in MP4 files with lightning-fast semantic search. No database needed.</description>
+    </item>
+    <item>
+      <title>ZuodaoTech /everyone-can-use-english</title>
+      <link>https://github.com/ZuodaoTech/everyone-can-use-english</link>
+      <description>人人都能用英语</description>
+    </item>
+    <item>
+      <title>TheAlgorithms /Python</title>
+      <link>https://github.com/TheAlgorithms/Python</link>
+      <description>All Algorithms implemented in Python</description>
+    </item>
+    <item>
+      <title>yt-dlp /yt-dlp</title>
+      <link>https://github.com/yt-dlp/yt-dlp</link>
+      <description>A feature-rich command-line audio/video downloader</description>
+    </item>
+    <item>
+      <title>humanlayer /humanlayer</title>
+      <link>https://github.com/humanlayer/humanlayer</link>
+      <description>The best way to get AI to solve hard problems in complex codebases.</description>
+    </item>
+    <item>
+      <title>gin-gonic /gin</title>
+      <link>https://github.com/gin-gonic/gin</link>
+      <description>Gin is a high-performance HTTP web framework written in Go. It provides a Martini-like API but with significantly better performance—up to 40 times faster—thanks to httprouter. Gin is designed for building REST APIs, web applications, and microservices.</description>
     </item>
   </channel>
 </rss>

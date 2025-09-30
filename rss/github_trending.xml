@@ -6,16 +6,31 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 29 Sep 2025 01:59:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Sep 2025 01:54:24 +0000</lastBuildDate>
     <item>
-      <title>microsoft /ai-agents-for-beginners</title>
-      <link>https://github.com/microsoft/ai-agents-for-beginners</link>
-      <description>12 Lessons to Get Started Building AI Agents</description>
+      <title>sst /opencode</title>
+      <link>https://github.com/sst/opencode</link>
+      <description>AI coding agent, built for the terminal.</description>
     </item>
     <item>
-      <title>yt-dlp /yt-dlp</title>
-      <link>https://github.com/yt-dlp/yt-dlp</link>
-      <description>A feature-rich command-line audio/video downloader</description>
+      <title>jsvine /pdfplumber</title>
+      <link>https://github.com/jsvine/pdfplumber</link>
+      <description>Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables.</description>
+    </item>
+    <item>
+      <title>langgenius /dify</title>
+      <link>https://github.com/langgenius/dify</link>
+      <description>Production-ready platform for agentic workflow development.</description>
+    </item>
+    <item>
+      <title>oauth2-proxy /oauth2-proxy</title>
+      <link>https://github.com/oauth2-proxy/oauth2-proxy</link>
+      <description>A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.</description>
+    </item>
+    <item>
+      <title>florinpop17 /app-ideas</title>
+      <link>https://github.com/florinpop17/app-ideas</link>
+      <description>A Collection of application ideas which can be used to improve your coding skills.</description>
     </item>
     <item>
       <title>onyx-dot-app /onyx</title>
@@ -23,54 +38,19 @@
       <description>Open Source AI Platform - AI Chat with advanced features that works with every LLM</description>
     </item>
     <item>
-      <title>rapid7 /metasploit-framework</title>
-      <link>https://github.com/rapid7/metasploit-framework</link>
-      <description>Metasploit Framework</description>
-    </item>
-    <item>
       <title>jellyfin /jellyfin</title>
       <link>https://github.com/jellyfin/jellyfin</link>
       <description>The Free Software Media System - Server Backend &amp; API</description>
     </item>
     <item>
-      <title>basecamp /omarchy</title>
-      <link>https://github.com/basecamp/omarchy</link>
-      <description>Opinionated Arch/Hyprland Setup</description>
+      <title>microsoft /ai-agents-for-beginners</title>
+      <link>https://github.com/microsoft/ai-agents-for-beginners</link>
+      <description>12 Lessons to Get Started Building AI Agents</description>
     </item>
     <item>
-      <title>frappe /erpnext</title>
-      <link>https://github.com/frappe/erpnext</link>
-      <description>Free and Open Source Enterprise Resource Planning (ERP)</description>
-    </item>
-    <item>
-      <title>ZuodaoTech /everyone-can-use-english</title>
-      <link>https://github.com/ZuodaoTech/everyone-can-use-english</link>
-      <description>人人都能用英语</description>
-    </item>
-    <item>
-      <title>harry0703 /MoneyPrinterTurbo</title>
-      <link>https://github.com/harry0703/MoneyPrinterTurbo</link>
-      <description>利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</description>
-    </item>
-    <item>
-      <title>sst /opencode</title>
-      <link>https://github.com/sst/opencode</link>
-      <description>AI coding agent, built for the terminal.</description>
-    </item>
-    <item>
-      <title>microsoft /qlib</title>
-      <link>https://github.com/microsoft/qlib</link>
-      <description>Qlib is an AI-oriented Quant investment platform that aims to use AI tech to empower Quant Research, from exploring ideas to implementing productions. Qlib supports diverse ML modeling paradigms, including supervised learning, market dynamics modeling, and RL, and is now equipped withhttps://github.com/microsoft/RD-Agentto automate R&amp;D process.</description>
-    </item>
-    <item>
-      <title>Shubhamsaboo /awesome-llm-apps</title>
-      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
-      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
-    </item>
-    <item>
-      <title>typst /typst</title>
-      <link>https://github.com/typst/typst</link>
-      <description>A new markup-based typesetting system that is powerful and easy to learn.</description>
+      <title>adityatelange /hugo-PaperMod</title>
+      <link>https://github.com/adityatelange/hugo-PaperMod</link>
+      <description>A fast, clean, responsive Hugo theme.</description>
     </item>
     <item>
       <title>humanlayer /humanlayer</title>
@@ -78,9 +58,19 @@
       <description>The best way to get AI coding agents to solve hard problems in complex codebases.</description>
     </item>
     <item>
-      <title>rasbt /LLMs-from-scratch</title>
-      <link>https://github.com/rasbt/LLMs-from-scratch</link>
-      <description>Implement a ChatGPT-like LLM in PyTorch from scratch, step by step</description>
+      <title>snarktank /ai-dev-tasks</title>
+      <link>https://github.com/snarktank/ai-dev-tasks</link>
+      <description>A simple task management system for managing AI dev agents</description>
+    </item>
+    <item>
+      <title>frappe /erpnext</title>
+      <link>https://github.com/frappe/erpnext</link>
+      <description>Free and Open Source Enterprise Resource Planning (ERP)</description>
+    </item>
+    <item>
+      <title>Done-0 /fuck-u-code</title>
+      <link>https://github.com/Done-0/fuck-u-code</link>
+      <description>Legacy-Mess Detector – assess the “legacy-mess level” of your code and output a beautiful report | 屎山代码检测器，评估代码的“屎山等级”并输出美观的报告</description>
     </item>
     <item>
       <title>kamranahmedse /developer-roadmap</title>
@@ -91,6 +81,11 @@
       <title>commaai /openpilot</title>
       <link>https://github.com/commaai/openpilot</link>
       <description>openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.</description>
+    </item>
+    <item>
+      <title>harry0703 /MoneyPrinterTurbo</title>
+      <link>https://github.com/harry0703/MoneyPrinterTurbo</link>
+      <description>利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</description>
     </item>
   </channel>
 </rss>

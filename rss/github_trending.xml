@@ -6,66 +6,46 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 30 Sep 2025 01:54:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Oct 2025 02:07:23 +0000</lastBuildDate>
     <item>
-      <title>sst /opencode</title>
-      <link>https://github.com/sst/opencode</link>
-      <description>AI coding agent, built for the terminal.</description>
+      <title>SDWebImage /SDWebImage</title>
+      <link>https://github.com/SDWebImage/SDWebImage</link>
+      <description>Asynchronous image downloader with cache support as a UIImageView category</description>
     </item>
     <item>
-      <title>jsvine /pdfplumber</title>
-      <link>https://github.com/jsvine/pdfplumber</link>
-      <description>Plumb a PDF for detailed information about each char, rectangle, line, et cetera — and easily extract text and tables.</description>
+      <title>cjpais /Handy</title>
+      <link>https://github.com/cjpais/Handy</link>
+      <description>A free, open source, and extensible speech-to-text application that works completely offline.</description>
     </item>
     <item>
-      <title>langgenius /dify</title>
-      <link>https://github.com/langgenius/dify</link>
-      <description>Production-ready platform for agentic workflow development.</description>
+      <title>Byaidu /PDFMathTranslate</title>
+      <link>https://github.com/Byaidu/PDFMathTranslate</link>
+      <description>PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero</description>
     </item>
     <item>
-      <title>oauth2-proxy /oauth2-proxy</title>
-      <link>https://github.com/oauth2-proxy/oauth2-proxy</link>
-      <description>A reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers.</description>
+      <title>Shubhamsaboo /awesome-llm-apps</title>
+      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
+      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
     </item>
     <item>
-      <title>florinpop17 /app-ideas</title>
-      <link>https://github.com/florinpop17/app-ideas</link>
-      <description>A Collection of application ideas which can be used to improve your coding skills.</description>
+      <title>bregman-arie /devops-exercises</title>
+      <link>https://github.com/bregman-arie/devops-exercises</link>
+      <description>Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions</description>
     </item>
     <item>
-      <title>onyx-dot-app /onyx</title>
-      <link>https://github.com/onyx-dot-app/onyx</link>
-      <description>Open Source AI Platform - AI Chat with advanced features that works with every LLM</description>
+      <title>anthropics /claude-code</title>
+      <link>https://github.com/anthropics/claude-code</link>
+      <description>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</description>
     </item>
     <item>
-      <title>jellyfin /jellyfin</title>
-      <link>https://github.com/jellyfin/jellyfin</link>
-      <description>The Free Software Media System - Server Backend &amp; API</description>
+      <title>rasbt /LLMs-from-scratch</title>
+      <link>https://github.com/rasbt/LLMs-from-scratch</link>
+      <description>Implement a ChatGPT-like LLM in PyTorch from scratch, step by step</description>
     </item>
     <item>
       <title>microsoft /ai-agents-for-beginners</title>
       <link>https://github.com/microsoft/ai-agents-for-beginners</link>
       <description>12 Lessons to Get Started Building AI Agents</description>
-    </item>
-    <item>
-      <title>adityatelange /hugo-PaperMod</title>
-      <link>https://github.com/adityatelange/hugo-PaperMod</link>
-      <description>A fast, clean, responsive Hugo theme.</description>
-    </item>
-    <item>
-      <title>humanlayer /humanlayer</title>
-      <link>https://github.com/humanlayer/humanlayer</link>
-      <description>The best way to get AI coding agents to solve hard problems in complex codebases.</description>
-    </item>
-    <item>
-      <title>snarktank /ai-dev-tasks</title>
-      <link>https://github.com/snarktank/ai-dev-tasks</link>
-      <description>A simple task management system for managing AI dev agents</description>
-    </item>
-    <item>
-      <title>frappe /erpnext</title>
-      <link>https://github.com/frappe/erpnext</link>
-      <description>Free and Open Source Enterprise Resource Planning (ERP)</description>
     </item>
     <item>
       <title>Done-0 /fuck-u-code</title>
@@ -78,9 +58,29 @@
       <description>Interactive roadmaps, guides and other educational content to help developers grow in their careers.</description>
     </item>
     <item>
+      <title>juliangarnier /anime</title>
+      <link>https://github.com/juliangarnier/anime</link>
+      <description>JavaScript animation engine</description>
+    </item>
+    <item>
       <title>commaai /openpilot</title>
       <link>https://github.com/commaai/openpilot</link>
       <description>openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.</description>
+    </item>
+    <item>
+      <title>fastapi /fastapi</title>
+      <link>https://github.com/fastapi/fastapi</link>
+      <description>FastAPI framework, high performance, easy to learn, fast to code, ready for production</description>
+    </item>
+    <item>
+      <title>typst /typst</title>
+      <link>https://github.com/typst/typst</link>
+      <description>A new markup-based typesetting system that is powerful and easy to learn.</description>
+    </item>
+    <item>
+      <title>nextcloud /server</title>
+      <link>https://github.com/nextcloud/server</link>
+      <description>☁️ Nextcloud server, a safe home for all your data</description>
     </item>
     <item>
       <title>harry0703 /MoneyPrinterTurbo</title>

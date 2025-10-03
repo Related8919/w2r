@@ -6,46 +6,76 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 02 Oct 2025 01:54:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Oct 2025 01:54:52 +0000</lastBuildDate>
     <item>
-      <title>x1xhlol /system-prompts-and-models-of-ai-tools</title>
-      <link>https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools</link>
-      <description>FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus Agent Tools, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, dia &amp; v0. (And other Open Sourced) System Prompts, Internal Tools &amp; AI Models</description>
+      <title>tigerbeetle /tigerbeetle</title>
+      <link>https://github.com/tigerbeetle/tigerbeetle</link>
+      <description>The financial transactions database designed for mission critical safety and performance.</description>
     </item>
     <item>
-      <title>YILING0013 /AI_NovelGenerator</title>
-      <link>https://github.com/YILING0013/AI_NovelGenerator</link>
-      <description>使用ai生成多章节的长篇小说，自动衔接上下文、伏笔</description>
+      <title>kestra-io /kestra</title>
+      <link>https://github.com/kestra-io/kestra</link>
+      <description>Orchestrate everything - from scripts to data, infra, AI, and business - as code, with UI and AI Copilot. Simple. Fast. Scalable.</description>
     </item>
     <item>
-      <title>microsoft /ai-agents-for-beginners</title>
-      <link>https://github.com/microsoft/ai-agents-for-beginners</link>
-      <description>12 Lessons to Get Started Building AI Agents</description>
+      <title>enescingoz /awesome-n8n-templates</title>
+      <link>https://github.com/enescingoz/awesome-n8n-templates</link>
+      <description>Supercharge your workflow automation with this curated collection of n8n templates! Instantly connect your favorite apps-like Gmail, Telegram, Google Drive, Slack, and more-with ready-to-use, AI-powered automations. Save time, boost productivity, and unlock the true potential of n8n in just a few clicks.</description>
     </item>
     <item>
-      <title>commaai /openpilot</title>
-      <link>https://github.com/commaai/openpilot</link>
-      <description>openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.</description>
+      <title>anthropics /claude-code</title>
+      <link>https://github.com/anthropics/claude-code</link>
+      <description>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</description>
     </item>
     <item>
-      <title>PHPMailer /PHPMailer</title>
-      <link>https://github.com/PHPMailer/PHPMailer</link>
-      <description>The classic email sending library for PHP</description>
+      <title>quarkusio /quarkus</title>
+      <link>https://github.com/quarkusio/quarkus</link>
+      <description>Quarkus: Supersonic Subatomic Java.</description>
     </item>
     <item>
-      <title>lukas-blecher /LaTeX-OCR</title>
-      <link>https://github.com/lukas-blecher/LaTeX-OCR</link>
-      <description>pix2tex: Using a ViT to convert images of equations into LaTeX code.</description>
+      <title>hsliuping /TradingAgents-CN</title>
+      <link>https://github.com/hsliuping/TradingAgents-CN</link>
+      <description>基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版</description>
     </item>
     <item>
-      <title>aquasecurity /trivy</title>
-      <link>https://github.com/aquasecurity/trivy</link>
-      <description>Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more</description>
+      <title>MudBlazor /MudBlazor</title>
+      <link>https://github.com/MudBlazor/MudBlazor</link>
+      <description>Blazor Component Library based on Material Design principles with an emphasis on ease of use and extensibility</description>
     </item>
     <item>
-      <title>mlabonne /llm-course</title>
-      <link>https://github.com/mlabonne/llm-course</link>
-      <description>Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.</description>
+      <title>simstudioai /sim</title>
+      <link>https://github.com/simstudioai/sim</link>
+      <description>Open-source platform to build and deploy AI agent workflows.</description>
+    </item>
+    <item>
+      <title>harry0703 /MoneyPrinterTurbo</title>
+      <link>https://github.com/harry0703/MoneyPrinterTurbo</link>
+      <description>利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</description>
+    </item>
+    <item>
+      <title>actions /runner-images</title>
+      <link>https://github.com/actions/runner-images</link>
+      <description>GitHub Actions runner images</description>
+    </item>
+    <item>
+      <title>chiphuyen /aie-book</title>
+      <link>https://github.com/chiphuyen/aie-book</link>
+      <description>[WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025)</description>
+    </item>
+    <item>
+      <title>immich-app /immich</title>
+      <link>https://github.com/immich-app/immich</link>
+      <description>High performance self-hosted photo and video management solution.</description>
+    </item>
+    <item>
+      <title>juspay /hyperswitch</title>
+      <link>https://github.com/juspay/hyperswitch</link>
+      <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
+    </item>
+    <item>
+      <title>Lightricks /LTX-Video</title>
+      <link>https://github.com/Lightricks/LTX-Video</link>
+      <description>Official repository for LTX-Video</description>
     </item>
     <item>
       <title>SDWebImage /SDWebImage</title>
@@ -53,29 +83,29 @@
       <description>Asynchronous image downloader with cache support as a UIImageView category</description>
     </item>
     <item>
-      <title>github /awesome-copilot</title>
-      <link>https://github.com/github/awesome-copilot</link>
-      <description>Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot.</description>
+      <title>atuinsh /desktop</title>
+      <link>https://github.com/atuinsh/desktop</link>
+      <description>📖 Runbooks that run</description>
+    </item>
+    <item>
+      <title>cjpais /Handy</title>
+      <link>https://github.com/cjpais/Handy</link>
+      <description>A free, open source, and extensible speech-to-text application that works completely offline.</description>
+    </item>
+    <item>
+      <title>pathwaycom /pathway</title>
+      <link>https://github.com/pathwaycom/pathway</link>
+      <description>Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.</description>
+    </item>
+    <item>
+      <title>google /tunix</title>
+      <link>https://github.com/google/tunix</link>
+      <description>A JAX-native LLM Post-Training Library</description>
     </item>
     <item>
       <title>nextcloud /server</title>
       <link>https://github.com/nextcloud/server</link>
       <description>☁️ Nextcloud server, a safe home for all your data</description>
-    </item>
-    <item>
-      <title>lobehub /lobe-chat</title>
-      <link>https://github.com/lobehub/lobe-chat</link>
-      <description>🤯 Lobe Chat - an open-source, modern design AI chat framework. Supports multiple AI providers (OpenAI / Claude 4 / Gemini / DeepSeek / Ollama / Qwen), Knowledge Base (file upload / RAG ), one click install MCP Marketplace and Artifacts / Thinking. One-click FREE deployment of your private AI Agent application.</description>
-    </item>
-    <item>
-      <title>Done-0 /fuck-u-code</title>
-      <link>https://github.com/Done-0/fuck-u-code</link>
-      <description>Legacy-Mess Detector – assess the “legacy-mess level” of your code and output a beautiful report | 屎山代码检测器，评估代码的“屎山等级”并输出美观的报告</description>
-    </item>
-    <item>
-      <title>harry0703 /MoneyPrinterTurbo</title>
-      <link>https://github.com/harry0703/MoneyPrinterTurbo</link>
-      <description>利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.</description>
     </item>
   </channel>
 </rss>

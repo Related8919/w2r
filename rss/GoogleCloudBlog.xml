@@ -6,7 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 05 Oct 2025 02:05:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 01:58:16 +0000</lastBuildDate>
     <item>
       <title>Accelerating cloud migrations to Google Cloud with Searce to drive profitable growth</title>
       <link>https://cloud.google.com/blog/products/containers-kubernetes/recent-migrations-to-google-cloud-by-searce</link>

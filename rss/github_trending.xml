@@ -6,56 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 05 Oct 2025 02:05:44 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Oct 2025 01:58:02 +0000</lastBuildDate>
     <item>
-      <title>MotiaDev /motia</title>
-      <link>https://github.com/MotiaDev/motia</link>
-      <description>Multi-Language Backend Framework that unifies APIs, background jobs, workflows, and AI Agents into a single core primitive with built-in observability and state management.</description>
+      <title>amir1376 /ab-download-manager</title>
+      <link>https://github.com/amir1376/ab-download-manager</link>
+      <description>A Download Manager that speeds up your downloads</description>
     </item>
     <item>
-      <title>pathwaycom /llm-app</title>
-      <link>https://github.com/pathwaycom/llm-app</link>
-      <description>Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.</description>
+      <title>expressjs /express</title>
+      <link>https://github.com/expressjs/express</link>
+      <description>Fast, unopinionated, minimalist web framework for node.</description>
     </item>
     <item>
-      <title>microsoft /agent-framework</title>
-      <link>https://github.com/microsoft/agent-framework</link>
-      <description>A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.</description>
-    </item>
-    <item>
-      <title>airweave-ai /airweave</title>
-      <link>https://github.com/airweave-ai/airweave</link>
-      <description>Airweave lets agents search any app</description>
-    </item>
-    <item>
-      <title>hsliuping /TradingAgents-CN</title>
-      <link>https://github.com/hsliuping/TradingAgents-CN</link>
-      <description>基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版</description>
-    </item>
-    <item>
-      <title>dbt-labs /dbt-core</title>
-      <link>https://github.com/dbt-labs/dbt-core</link>
-      <description>dbt enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.</description>
-    </item>
-    <item>
-      <title>glide-browser /glide</title>
-      <link>https://github.com/glide-browser/glide</link>
-      <description>An extensible and keyboard-focused web browser</description>
-    </item>
-    <item>
-      <title>pathwaycom /pathway</title>
-      <link>https://github.com/pathwaycom/pathway</link>
-      <description>Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.</description>
-    </item>
-    <item>
-      <title>MudBlazor /MudBlazor</title>
-      <link>https://github.com/MudBlazor/MudBlazor</link>
-      <description>Blazor Component Library based on Material Design principles with an emphasis on ease of use and extensibility</description>
-    </item>
-    <item>
-      <title>signalapp /libsignal</title>
-      <link>https://github.com/signalapp/libsignal</link>
-      <description>Home to the Signal Protocol as well as other cryptographic primitives which make Signal possible.</description>
+      <title>aandrew-me /ytDownloader</title>
+      <link>https://github.com/aandrew-me/ytDownloader</link>
+      <description>Desktop App for downloading Videos and Audios from hundreds of sites</description>
     </item>
     <item>
       <title>Infisical /infisical</title>
@@ -63,9 +28,39 @@
       <description>Infisical is the open-source platform for secrets management, PKI, and SSH access.</description>
     </item>
     <item>
-      <title>microsoft /BitNet</title>
-      <link>https://github.com/microsoft/BitNet</link>
-      <description>Official inference framework for 1-bit LLMs</description>
+      <title>evcc-io /evcc</title>
+      <link>https://github.com/evcc-io/evcc</link>
+      <description>solar charging ☀️🚘</description>
+    </item>
+    <item>
+      <title>airweave-ai /airweave</title>
+      <link>https://github.com/airweave-ai/airweave</link>
+      <description>Airweave lets agents search any app</description>
+    </item>
+    <item>
+      <title>xtekky /gpt4free</title>
+      <link>https://github.com/xtekky/gpt4free</link>
+      <description>The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5</description>
+    </item>
+    <item>
+      <title>audacity /audacity</title>
+      <link>https://github.com/audacity/audacity</link>
+      <description>Audio Editor</description>
+    </item>
+    <item>
+      <title>YaLTeR /niri</title>
+      <link>https://github.com/YaLTeR/niri</link>
+      <description>A scrollable-tiling Wayland compositor.</description>
+    </item>
+    <item>
+      <title>pathwaycom /pathway</title>
+      <link>https://github.com/pathwaycom/pathway</link>
+      <description>Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.</description>
+    </item>
+    <item>
+      <title>meshtastic /firmware</title>
+      <link>https://github.com/meshtastic/firmware</link>
+      <description>The official firmware for Meshtastic, an open-source, off-grid mesh communication system.</description>
     </item>
     <item>
       <title>kestra-io /kestra</title>
@@ -73,34 +68,24 @@
       <description>Orchestrate everything - from scripts to data, infra, AI, and business - as code, with UI and AI Copilot. Simple. Fast. Scalable.</description>
     </item>
     <item>
-      <title>simular-ai /Agent-S</title>
-      <link>https://github.com/simular-ai/Agent-S</link>
-      <description>Agent S: an open agentic framework that uses computers like a human</description>
+      <title>hsliuping /TradingAgents-CN</title>
+      <link>https://github.com/hsliuping/TradingAgents-CN</link>
+      <description>基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版</description>
     </item>
     <item>
-      <title>AykutSarac /jsoncrack.com</title>
-      <link>https://github.com/AykutSarac/jsoncrack.com</link>
-      <description>✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.</description>
+      <title>comfyanonymous /ComfyUI</title>
+      <link>https://github.com/comfyanonymous/ComfyUI</link>
+      <description>The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.</description>
     </item>
     <item>
-      <title>paaatrick /playball</title>
-      <link>https://github.com/paaatrick/playball</link>
-      <description>Watch MLB games from the comfort of your own terminal</description>
-    </item>
-    <item>
-      <title>tigerbeetle /tigerbeetle</title>
-      <link>https://github.com/tigerbeetle/tigerbeetle</link>
-      <description>The financial transactions database designed for mission critical safety and performance.</description>
+      <title>glide-browser /glide</title>
+      <link>https://github.com/glide-browser/glide</link>
+      <description>An extensible and keyboard-focused web browser</description>
     </item>
     <item>
       <title>Stremio /stremio-web</title>
       <link>https://github.com/Stremio/stremio-web</link>
       <description>Stremio - Freedom to Stream</description>
-    </item>
-    <item>
-      <title>google /tunix</title>
-      <link>https://github.com/google/tunix</link>
-      <description>A JAX-native LLM Post-Training Library</description>
     </item>
     <item>
       <title>meshery /meshery</title>
@@ -111,6 +96,11 @@
       <title>juspay /hyperswitch</title>
       <link>https://github.com/juspay/hyperswitch</link>
       <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
+    </item>
+    <item>
+      <title>microsoft /BitNet</title>
+      <link>https://github.com/microsoft/BitNet</link>
+      <description>Official inference framework for 1-bit LLMs</description>
     </item>
   </channel>
 </rss>

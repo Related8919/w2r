@@ -6,66 +6,16 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 07 Oct 2025 01:55:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 01:55:36 +0000</lastBuildDate>
     <item>
       <title>dyad-sh /dyad</title>
       <link>https://github.com/dyad-sh/dyad</link>
       <description>Free, local, open-source AI app builder ✨ v0 / lovable / Bolt alternative 🌟 Star if you like it!</description>
     </item>
     <item>
-      <title>shadcn-ui /ui</title>
-      <link>https://github.com/shadcn-ui/ui</link>
-      <description>A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.</description>
-    </item>
-    <item>
-      <title>firefly-iii /firefly-iii</title>
-      <link>https://github.com/firefly-iii/firefly-iii</link>
-      <description>Firefly III: a personal finances manager</description>
-    </item>
-    <item>
-      <title>google /osv.dev</title>
-      <link>https://github.com/google/osv.dev</link>
-      <description>Open source vulnerability DB and triage service.</description>
-    </item>
-    <item>
-      <title>EbookFoundation /free-programming-books</title>
-      <link>https://github.com/EbookFoundation/free-programming-books</link>
-      <description>📚 Freely available programming books</description>
-    </item>
-    <item>
-      <title>htr-tech /zphisher</title>
-      <link>https://github.com/htr-tech/zphisher</link>
-      <description>An automated phishing tool with 30+ templates. This Tool is made for educational purpose only ! Author will not be responsible for any misuse of this toolkit !</description>
-    </item>
-    <item>
-      <title>kestra-io /kestra</title>
-      <link>https://github.com/kestra-io/kestra</link>
-      <description>Orchestrate everything - from scripts to data, infra, AI, and business - as code, with UI and AI Copilot. Simple. Fast. Scalable.</description>
-    </item>
-    <item>
-      <title>TheAlgorithms /Python</title>
-      <link>https://github.com/TheAlgorithms/Python</link>
-      <description>All Algorithms implemented in Python</description>
-    </item>
-    <item>
-      <title>pathwaycom /pathway</title>
-      <link>https://github.com/pathwaycom/pathway</link>
-      <description>Python ETL framework for stream processing, real-time analytics, LLM pipelines, and RAG.</description>
-    </item>
-    <item>
-      <title>zama-ai /fhevm</title>
-      <link>https://github.com/zama-ai/fhevm</link>
-      <description>FHEVM, a full-stack framework for integrating Fully Homomorphic Encryption (FHE) with blockchain applications</description>
-    </item>
-    <item>
-      <title>aandrew-me /ytDownloader</title>
-      <link>https://github.com/aandrew-me/ytDownloader</link>
-      <description>Desktop App for downloading Videos and Audios from hundreds of sites</description>
-    </item>
-    <item>
-      <title>dgtlmoon /changedetection.io</title>
-      <link>https://github.com/dgtlmoon/changedetection.io</link>
-      <description>Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!</description>
+      <title>is-a-dev /register</title>
+      <link>https://github.com/is-a-dev/register</link>
+      <description>Grab your own sweet-looking '.is-a.dev' subdomain.</description>
     </item>
     <item>
       <title>openemr /openemr</title>
@@ -73,19 +23,9 @@
       <description>The most popular open source electronic health records and medical practice management solution.</description>
     </item>
     <item>
-      <title>juspay /hyperswitch</title>
-      <link>https://github.com/juspay/hyperswitch</link>
-      <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
-    </item>
-    <item>
-      <title>audacity /audacity</title>
-      <link>https://github.com/audacity/audacity</link>
-      <description>Audio Editor</description>
-    </item>
-    <item>
-      <title>TapXWorld /ChinaTextbook</title>
-      <link>https://github.com/TapXWorld/ChinaTextbook</link>
-      <description>所有小初高、大学PDF教材。</description>
+      <title>Morganamilo /paru</title>
+      <link>https://github.com/Morganamilo/paru</link>
+      <description>Feature packed AUR helper</description>
     </item>
     <item>
       <title>microsoft /BitNet</title>
@@ -93,9 +33,34 @@
       <description>Official inference framework for 1-bit LLMs</description>
     </item>
     <item>
-      <title>Stremio /stremio-web</title>
-      <link>https://github.com/Stremio/stremio-web</link>
-      <description>Stremio - Freedom to Stream</description>
+      <title>openai /openai-agents-python</title>
+      <link>https://github.com/openai/openai-agents-python</link>
+      <description>A lightweight, powerful framework for multi-agent workflows</description>
+    </item>
+    <item>
+      <title>firefly-iii /firefly-iii</title>
+      <link>https://github.com/firefly-iii/firefly-iii</link>
+      <description>Firefly III: a personal finances manager</description>
+    </item>
+    <item>
+      <title>audacity /audacity</title>
+      <link>https://github.com/audacity/audacity</link>
+      <description>Audio Editor</description>
+    </item>
+    <item>
+      <title>dgtlmoon /changedetection.io</title>
+      <link>https://github.com/dgtlmoon/changedetection.io</link>
+      <description>Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!</description>
+    </item>
+    <item>
+      <title>aandrew-me /ytDownloader</title>
+      <link>https://github.com/aandrew-me/ytDownloader</link>
+      <description>Desktop App for downloading Videos and Audios from hundreds of sites</description>
+    </item>
+    <item>
+      <title>FlowiseAI /Flowise</title>
+      <link>https://github.com/FlowiseAI/Flowise</link>
+      <description>Build AI Agents, Visually</description>
     </item>
     <item>
       <title>BeehiveInnovations /zen-mcp-server</title>
@@ -103,14 +68,24 @@
       <description>The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.</description>
     </item>
     <item>
-      <title>meshery /meshery</title>
-      <link>https://github.com/meshery/meshery</link>
-      <description>Meshery, the cloud native manager</description>
-    </item>
-    <item>
       <title>Infisical /infisical</title>
       <link>https://github.com/Infisical/infisical</link>
       <description>Infisical is the open-source platform for secrets management, PKI, and SSH access.</description>
+    </item>
+    <item>
+      <title>simstudioai /sim</title>
+      <link>https://github.com/simstudioai/sim</link>
+      <description>Open-source platform to build and deploy AI agent workflows.</description>
+    </item>
+    <item>
+      <title>trycua /cua</title>
+      <link>https://github.com/trycua/cua</link>
+      <description>Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).</description>
+    </item>
+    <item>
+      <title>Stremio /stremio-web</title>
+      <link>https://github.com/Stremio/stremio-web</link>
+      <description>Stremio - Freedom to Stream</description>
     </item>
   </channel>
 </rss>

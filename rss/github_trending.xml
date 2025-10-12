@@ -6,21 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 11 Oct 2025 01:52:41 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Oct 2025 02:00:56 +0000</lastBuildDate>
     <item>
-      <title>WECENG /ticket-purchase</title>
-      <link>https://github.com/WECENG/ticket-purchase</link>
-      <description>大麦自动抢票，支持人员、城市、日期场次、价格选择</description>
+      <title>clash-verge-rev /clash-verge-rev</title>
+      <link>https://github.com/clash-verge-rev/clash-verge-rev</link>
+      <description>A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience</description>
     </item>
     <item>
-      <title>coze-dev /coze-studio</title>
-      <link>https://github.com/coze-dev/coze-studio</link>
-      <description>An AI agent development platform with all-in-one visual tools, simplifying agent creation, debugging, and deployment like never before. Coze your way to AI Agent creation.</description>
+      <title>TibixDev /winboat</title>
+      <link>https://github.com/TibixDev/winboat</link>
+      <description>Run Windows apps on 🐧 Linux with ✨ seamless integration</description>
     </item>
     <item>
-      <title>PixelGuys /Cubyz</title>
-      <link>https://github.com/PixelGuys/Cubyz</link>
-      <description>Voxel sandbox game with a large render distance, procedurally generated content and some cool graphical effects.</description>
+      <title>dataease /SQLBot</title>
+      <link>https://github.com/dataease/SQLBot</link>
+      <description>🔥 基于大模型和 RAG 的智能问数系统。Text-to-SQL Generation via LLMs using RAG.</description>
+    </item>
+    <item>
+      <title>CapSoftware /Cap</title>
+      <link>https://github.com/CapSoftware/Cap</link>
+      <description>Open source Loom alternative. Beautiful, shareable screen recordings.</description>
     </item>
     <item>
       <title>evershopcommerce /evershop</title>
@@ -33,19 +38,19 @@
       <description>Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.</description>
     </item>
     <item>
-      <title>xyflow /xyflow</title>
-      <link>https://github.com/xyflow/xyflow</link>
-      <description>React Flow | Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable.</description>
+      <title>PixelGuys /Cubyz</title>
+      <link>https://github.com/PixelGuys/Cubyz</link>
+      <description>Voxel sandbox game with a large render distance, procedurally generated content and some cool graphical effects.</description>
     </item>
     <item>
-      <title>Stremio /stremio-web</title>
-      <link>https://github.com/Stremio/stremio-web</link>
-      <description>Stremio - Freedom to Stream</description>
+      <title>timelinize /timelinize</title>
+      <link>https://github.com/timelinize/timelinize</link>
+      <description>Store your data from all your accounts and devices in a single cohesive timeline on your own computer</description>
     </item>
     <item>
-      <title>CapSoftware /Cap</title>
-      <link>https://github.com/CapSoftware/Cap</link>
-      <description>Open source Loom alternative. Beautiful, shareable screen recordings.</description>
+      <title>davila7 /claude-code-templates</title>
+      <link>https://github.com/davila7/claude-code-templates</link>
+      <description>CLI tool for configuring and monitoring Claude Code</description>
     </item>
     <item>
       <title>MODSetter /SurfSense</title>
@@ -53,34 +58,14 @@
       <description>Open Source Alternative to NotebookLM / Perplexity, connected to external sources such as Search Engines, Slack, Linear, Jira, ClickUp, Confluence, Notion, YouTube, GitHub, Discord and more. Join our discord:https://discord.gg/ejRNvftDp9</description>
     </item>
     <item>
-      <title>microsoft /RD-Agent</title>
-      <link>https://github.com/microsoft/RD-Agent</link>
-      <description>Research and development (R&amp;D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&amp;D are mainly focused on data and models. We are committed to automating these high-value generic R&amp;D processes through R&amp;D-Agent, which lets AI drive data-driven AI. 🔗https://aka.ms/RD-Agent-Tech-Report</description>
-    </item>
-    <item>
-      <title>TibixDev /winboat</title>
-      <link>https://github.com/TibixDev/winboat</link>
-      <description>Run Windows apps on 🐧 Linux with ✨ seamless integration</description>
-    </item>
-    <item>
-      <title>TapXWorld /ChinaTextbook</title>
-      <link>https://github.com/TapXWorld/ChinaTextbook</link>
-      <description>所有小初高、大学PDF教材。</description>
+      <title>QwenLM /Qwen3-VL</title>
+      <link>https://github.com/QwenLM/Qwen3-VL</link>
+      <description>Qwen3-VL is the multimodal large language model series developed by Qwen team, Alibaba Cloud.</description>
     </item>
     <item>
       <title>anthropics /claude-code</title>
       <link>https://github.com/anthropics/claude-code</link>
       <description>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</description>
-    </item>
-    <item>
-      <title>78 /xiaozhi-esp32</title>
-      <link>https://github.com/78/xiaozhi-esp32</link>
-      <description>An MCP-based chatbot | 一个基于MCP的聊天机器人</description>
-    </item>
-    <item>
-      <title>browserbase /stagehand</title>
-      <link>https://github.com/browserbase/stagehand</link>
-      <description>The AI Browser Automation Framework</description>
     </item>
   </channel>
 </rss>

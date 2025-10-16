@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.miit.gov.cn/RRSdy/index.html. follow.is: feedId:158342442182353920+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 15 Oct 2025 02:01:27 +0000</lastBuildDate>
-    <item>
-      <title>中华人民共和国工业和信息化部公告2025年第19号</title>
-      <link>https://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2025/art_6270d6fd51464a03adaa5a80ef93543d.html</link>
-      <description>中华人民共和国工业和信息化部公告2025年第19号</description>
-    </item>
+    <lastBuildDate>Thu, 16 Oct 2025 02:00:04 +0000</lastBuildDate>
     <item>
       <title>中华人民共和国工业和信息化部 国家发展改革委 生态环境部公告2025年第21号</title>
       <link>https://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2025/art_dd99789c9aba4900942418f37c505387.html</link>
@@ -36,6 +31,11 @@
       <title>《道路机动车辆生产企业及产品》（第399批）、《享受车船税减免优惠的节约能源 使用新能源汽车车...</title>
       <link>https://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2025/art_37b10f3a05584b0caec576b6f5576764.html</link>
       <description>《道路机动车辆生产企业及产品》（第399批）、《享受车船税减免优惠的节约能源 使用新能源汽车车...</description>
+    </item>
+    <item>
+      <title>中华人民共和国工业和信息化部公告2025年第29号</title>
+      <link>https://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2025/art_22e115e996b5400abccb027137e79152.html</link>
+      <description>中华人民共和国工业和信息化部公告2025年第29号</description>
     </item>
   </channel>
 </rss>

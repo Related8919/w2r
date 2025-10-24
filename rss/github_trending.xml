@@ -6,46 +6,46 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 23 Oct 2025 02:00:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 01:56:15 +0000</lastBuildDate>
+    <item>
+      <title>hoppscotch /hoppscotch</title>
+      <link>https://github.com/hoppscotch/hoppscotch</link>
+      <description>Open source API development ecosystem -https://hoppscotch.io(open-source alternative to Postman, Insomnia)</description>
+    </item>
+    <item>
+      <title>jaywcjlove /awesome-mac</title>
+      <link>https://github.com/jaywcjlove/awesome-mac</link>
+      <description> Now we have become very big, Different from the original idea. Collect premium software in various categories.</description>
+    </item>
+    <item>
+      <title>guofei9987 /scikit-opt</title>
+      <link>https://github.com/guofei9987/scikit-opt</link>
+      <description>Genetic Algorithm, Particle Swarm Optimization, Simulated Annealing, Ant Colony Optimization Algorithm,Immune Algorithm, Artificial Fish Swarm Algorithm, Differential Evolution and TSP(Traveling salesman)</description>
+    </item>
+    <item>
+      <title>lukasmasuch /best-of-ml-python</title>
+      <link>https://github.com/lukasmasuch/best-of-ml-python</link>
+      <description>🏆 A ranked list of awesome machine learning Python libraries. Updated weekly.</description>
+    </item>
+    <item>
+      <title>meta-pytorch /torchforge</title>
+      <link>https://github.com/meta-pytorch/torchforge</link>
+      <description>PyTorch-native post-training at scale</description>
+    </item>
+    <item>
+      <title>yt-dlp /yt-dlp</title>
+      <link>https://github.com/yt-dlp/yt-dlp</link>
+      <description>A feature-rich command-line audio/video downloader</description>
+    </item>
     <item>
       <title>harvard-edge /cs249r_book</title>
       <link>https://github.com/harvard-edge/cs249r_book</link>
       <description>Introduction to Machine Learning Systems</description>
     </item>
     <item>
-      <title>remix-run /react-router</title>
-      <link>https://github.com/remix-run/react-router</link>
-      <description>Declarative routing for React</description>
-    </item>
-    <item>
-      <title>tauri-apps /tauri</title>
-      <link>https://github.com/tauri-apps/tauri</link>
-      <description>Build smaller, faster, and more secure desktop and mobile applications with a web frontend.</description>
-    </item>
-    <item>
-      <title>zyronon /TypeWords</title>
-      <link>https://github.com/zyronon/TypeWords</link>
-      <description>练习英语，一次敲击，一点进步；Practice English, One Keystroke at a Time.</description>
-    </item>
-    <item>
-      <title>anthropics /claude-cookbooks</title>
-      <link>https://github.com/anthropics/claude-cookbooks</link>
-      <description>A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.</description>
-    </item>
-    <item>
-      <title>clockworklabs /SpacetimeDB</title>
-      <link>https://github.com/clockworklabs/SpacetimeDB</link>
-      <description>Multiplayer at the speed of light</description>
-    </item>
-    <item>
-      <title>DrewThomasson /ebook2audiobook</title>
-      <link>https://github.com/DrewThomasson/ebook2audiobook</link>
-      <description>Generate audiobooks from e-books, voice cloning &amp; 1107+ languages!</description>
-    </item>
-    <item>
-      <title>drawdb-io /drawdb</title>
-      <link>https://github.com/drawdb-io/drawdb</link>
-      <description>Free, simple, and intuitive online database diagram editor and SQL generator.</description>
+      <title>louislam /uptime-kuma</title>
+      <link>https://github.com/louislam/uptime-kuma</link>
+      <description>A fancy self-hosted monitoring tool</description>
     </item>
     <item>
       <title>rossant /awesome-math</title>
@@ -53,14 +53,9 @@
       <description>A curated list of awesome mathematics resources</description>
     </item>
     <item>
-      <title>huggingface /chat-ui</title>
-      <link>https://github.com/huggingface/chat-ui</link>
-      <description>Open source codebase powering the HuggingChat app</description>
-    </item>
-    <item>
-      <title>fishaudio /fish-speech</title>
-      <link>https://github.com/fishaudio/fish-speech</link>
-      <description>SOTA Open Source TTS</description>
+      <title>k2-fsa /sherpa-onnx</title>
+      <link>https://github.com/k2-fsa/sherpa-onnx</link>
+      <description>Speech-to-text, text-to-speech, speaker diarization, speech enhancement, source separation, and VAD using next-gen Kaldi with onnxruntime without Internet connection. Support embedded systems, Android, iOS, HarmonyOS, Raspberry Pi, RISC-V, x86_64 servers, websocket server/client, support 12 programming languages</description>
     </item>
     <item>
       <title>dyad-sh /dyad</title>
@@ -68,9 +63,19 @@
       <description>Free, local, open-source AI app builder ✨ v0 / lovable / Bolt alternative 🌟 Star if you like it!</description>
     </item>
     <item>
-      <title>lfnovo /open-notebook</title>
-      <link>https://github.com/lfnovo/open-notebook</link>
-      <description>An Open Source implementation of Notebook LM with more flexibility and features</description>
+      <title>paperless-ngx /paperless-ngx</title>
+      <link>https://github.com/paperless-ngx/paperless-ngx</link>
+      <description>A community-supported supercharged document management system: scan, index and archive all your documents</description>
+    </item>
+    <item>
+      <title>LadybirdBrowser /ladybird</title>
+      <link>https://github.com/LadybirdBrowser/ladybird</link>
+      <description>Truly independent web browser</description>
+    </item>
+    <item>
+      <title>mountain-loop /yaak</title>
+      <link>https://github.com/mountain-loop/yaak</link>
+      <description>The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬</description>
     </item>
     <item>
       <title>guofei9987 /blind_watermark</title>
@@ -78,19 +83,9 @@
       <description>Blind&amp;Invisible Watermark ，图片盲水印，提取水印无须原图！</description>
     </item>
     <item>
-      <title>emcie-co /parlant</title>
-      <link>https://github.com/emcie-co/parlant</link>
-      <description>LLM agents built for control. Designed for real-world use. Deployed in minutes.</description>
-    </item>
-    <item>
-      <title>servo /servo</title>
-      <link>https://github.com/servo/servo</link>
-      <description>Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.</description>
-    </item>
-    <item>
-      <title>mountain-loop /yaak</title>
-      <link>https://github.com/mountain-loop/yaak</link>
-      <description>The most intuitive desktop API client. Organize and execute REST, GraphQL, WebSockets, Server Sent Events, and gRPC 🦬</description>
+      <title>minio /minio</title>
+      <link>https://github.com/minio/minio</link>
+      <description>MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.</description>
     </item>
   </channel>
 </rss>

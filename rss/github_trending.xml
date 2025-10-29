@@ -6,31 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 28 Oct 2025 02:00:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Oct 2025 02:07:27 +0000</lastBuildDate>
+    <item>
+      <title>codecrafters-io /build-your-own-x</title>
+      <link>https://github.com/codecrafters-io/build-your-own-x</link>
+      <description>Master programming by recreating your favorite technologies from scratch.</description>
+    </item>
+    <item>
+      <title>iam-veeramalla /aws-devops-zero-to-hero</title>
+      <link>https://github.com/iam-veeramalla/aws-devops-zero-to-hero</link>
+      <description>AWS zero to hero repo for devops engineers to learn AWS in 30 Days. This repo includes projects, presentations, interview questions and real time examples.</description>
+    </item>
+    <item>
+      <title>cjpais /Handy</title>
+      <link>https://github.com/cjpais/Handy</link>
+      <description>A free, open source, and extensible speech-to-text application that works completely offline.</description>
+    </item>
     <item>
       <title>Shubhamsaboo /awesome-llm-apps</title>
       <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
       <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
-    </item>
-    <item>
-      <title>qeeqbox /social-analyzer</title>
-      <link>https://github.com/qeeqbox/social-analyzer</link>
-      <description>API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites</description>
-    </item>
-    <item>
-      <title>block /goose</title>
-      <link>https://github.com/block/goose</link>
-      <description>an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM</description>
-    </item>
-    <item>
-      <title>bol-van /zapret</title>
-      <link>https://github.com/bol-van/zapret</link>
-      <description>DPI bypass multi platform</description>
-    </item>
-    <item>
-      <title>public-apis /public-apis</title>
-      <link>https://github.com/public-apis/public-apis</link>
-      <description>A collective list of free APIs</description>
     </item>
     <item>
       <title>coinbase /x402</title>
@@ -38,24 +33,44 @@
       <description>A payments protocol for the internet. Built on HTTP.</description>
     </item>
     <item>
-      <title>TheRobotStudio /SO-ARM100</title>
-      <link>https://github.com/TheRobotStudio/SO-ARM100</link>
-      <description>Standard Open Arm 100</description>
+      <title>cloudcommunity /Free-Certifications</title>
+      <link>https://github.com/cloudcommunity/Free-Certifications</link>
+      <description>A curated list of free courses with certifications. Also available athttps://free-certifications.com/</description>
     </item>
     <item>
-      <title>LadybirdBrowser /ladybird</title>
-      <link>https://github.com/LadybirdBrowser/ladybird</link>
-      <description>Truly independent web browser</description>
+      <title>patchy631 /ai-engineering-hub</title>
+      <link>https://github.com/patchy631/ai-engineering-hub</link>
+      <description>In-depth tutorials on LLMs, RAGs and real-world AI agent applications.</description>
+    </item>
+    <item>
+      <title>qeeqbox /social-analyzer</title>
+      <link>https://github.com/qeeqbox/social-analyzer</link>
+      <description>API, CLI, and Web App for analyzing and finding a person's profile in 1000 social media \ websites</description>
+    </item>
+    <item>
+      <title>harvard-edge /cs249r_book</title>
+      <link>https://github.com/harvard-edge/cs249r_book</link>
+      <description>Introduction to Machine Learning Systems</description>
+    </item>
+    <item>
+      <title>juanfont /headscale</title>
+      <link>https://github.com/juanfont/headscale</link>
+      <description>An open source, self-hosted implementation of the Tailscale control server</description>
+    </item>
+    <item>
+      <title>longbridge /gpui-component</title>
+      <link>https://github.com/longbridge/gpui-component</link>
+      <description>Rust GUI components for building fantastic cross-platform desktop application by using GPUI.</description>
+    </item>
+    <item>
+      <title>spipm /Depixelization_poc</title>
+      <link>https://github.com/spipm/Depixelization_poc</link>
+      <description>Depix is a PoC for a technique to recover plaintext from pixelized screenshots.</description>
     </item>
     <item>
       <title>microsoft /agent-lightning</title>
       <link>https://github.com/microsoft/agent-lightning</link>
       <description>The absolute trainer to light up AI agents.</description>
-    </item>
-    <item>
-      <title>codecrafters-io /build-your-own-x</title>
-      <link>https://github.com/codecrafters-io/build-your-own-x</link>
-      <description>Master programming by recreating your favorite technologies from scratch.</description>
     </item>
     <item>
       <title>yeongpin /cursor-free-vip</title>

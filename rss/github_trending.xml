@@ -6,71 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 02 Nov 2025 02:09:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Nov 2025 02:08:57 +0000</lastBuildDate>
     <item>
-      <title>ossu /computer-science</title>
-      <link>https://github.com/ossu/computer-science</link>
-      <description>🎓 Path to a free self-taught education in Computer Science!</description>
+      <title>hmjz100 /LinkSwift</title>
+      <link>https://github.com/hmjz100/LinkSwift</link>
+      <description>一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘</description>
     </item>
     <item>
-      <title>lingodotdev /lingo.dev</title>
-      <link>https://github.com/lingodotdev/lingo.dev</link>
-      <description>⚡ Lingo.dev - open-source, AI-powered i18n toolkit for instant localization with LLMs. Bring your own LLM or use Lingo.dev Localization Engine. Join discord:</description>
+      <title>HandsOnLLM /Hands-On-Large-Language-Models</title>
+      <link>https://github.com/HandsOnLLM/Hands-On-Large-Language-Models</link>
+      <description>Official code repo for the O'Reilly Book - "Hands-On Large Language Models"</description>
     </item>
     <item>
-      <title>pathwaycom /llm-app</title>
-      <link>https://github.com/pathwaycom/llm-app</link>
-      <description>Ready-to-run cloud templates for RAG, AI pipelines, and enterprise search with live data. 🐳Docker-friendly.⚡Always in sync with Sharepoint, Google Drive, S3, Kafka, PostgreSQL, real-time data APIs, and more.</description>
-    </item>
-    <item>
-      <title>666ghj /BettaFish</title>
-      <link>https://github.com/666ghj/BettaFish</link>
-      <description>微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。</description>
-    </item>
-    <item>
-      <title>hanxi /xiaomusic</title>
-      <link>https://github.com/hanxi/xiaomusic</link>
-      <description>使用小爱音箱播放音乐，音乐使用 yt-dlp 下载。</description>
-    </item>
-    <item>
-      <title>YunaiV /ruoyi-vue-pro</title>
-      <link>https://github.com/YunaiV/ruoyi-vue-pro</link>
-      <description>🔥 官方推荐 🔥 RuoYi-Vue 全新 Pro 版本，优化重构所有功能。基于 Spring Boot + MyBatis Plus + Vue &amp; Element 实现的后台管理系统 + 微信小程序，支持 RBAC 动态权限、数据权限、SaaS 多租户、Flowable 工作流、三方登录、支付、短信、商城、CRM、ERP、AI 大模型等功能。你的 ⭐️ Star ⭐️，是作者生发的动力！</description>
-    </item>
-    <item>
-      <title>github /copilot-cli</title>
-      <link>https://github.com/github/copilot-cli</link>
-      <description>GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal.</description>
-    </item>
-    <item>
-      <title>nvm-sh /nvm</title>
-      <link>https://github.com/nvm-sh/nvm</link>
-      <description>Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions</description>
-    </item>
-    <item>
-      <title>juspay /hyperswitch</title>
-      <link>https://github.com/juspay/hyperswitch</link>
-      <description>An open source payments switch written in Rust to make payments fast, reliable and affordable</description>
-    </item>
-    <item>
-      <title>hacksider /Deep-Live-Cam</title>
-      <link>https://github.com/hacksider/Deep-Live-Cam</link>
-      <description>real time face swap and one-click video deepfake with only a single image</description>
-    </item>
-    <item>
-      <title>microsoft /Web-Dev-For-Beginners</title>
-      <link>https://github.com/microsoft/Web-Dev-For-Beginners</link>
-      <description>24 Lessons, 12 Weeks, Get Started as a Web Developer</description>
-    </item>
-    <item>
-      <title>janhq /jan</title>
-      <link>https://github.com/janhq/jan</link>
-      <description>Jan is an open source alternative to ChatGPT that runs 100% offline on your computer.</description>
-    </item>
-    <item>
-      <title>Tencent /WeKnora</title>
-      <link>https://github.com/Tencent/WeKnora</link>
-      <description>LLM-powered framework for deep document understanding, semantic retrieval, and context-aware answers using RAG paradigm.</description>
+      <title>Fosowl /agenticSeek</title>
+      <link>https://github.com/Fosowl/agenticSeek</link>
+      <description>Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)</description>
     </item>
     <item>
       <title>suitenumerique /docs</title>
@@ -78,9 +28,49 @@
       <description>A collaborative note taking, wiki and documentation platform that scales. Built with Django and React.</description>
     </item>
     <item>
-      <title>get-convex /chef</title>
-      <link>https://github.com/get-convex/chef</link>
-      <description>The only AI app builder that knows backend</description>
+      <title>moondevonyt /moon-dev-ai-agents</title>
+      <link>https://github.com/moondevonyt/moon-dev-ai-agents</link>
+      <description>autonomous ai agents for trading in python</description>
+    </item>
+    <item>
+      <title>NARKOZ /hacker-scripts</title>
+      <link>https://github.com/NARKOZ/hacker-scripts</link>
+      <description>Based on a true story</description>
+    </item>
+    <item>
+      <title>charmbracelet /glow</title>
+      <link>https://github.com/charmbracelet/glow</link>
+      <description>Render markdown on the CLI, with pizzazz! 💅🏻</description>
+    </item>
+    <item>
+      <title>sst /opencode</title>
+      <link>https://github.com/sst/opencode</link>
+      <description>The AI coding agent built for the terminal.</description>
+    </item>
+    <item>
+      <title>GeeeekExplorer /nano-vllm</title>
+      <link>https://github.com/GeeeekExplorer/nano-vllm</link>
+      <description>Nano vLLM</description>
+    </item>
+    <item>
+      <title>HKUDS /DeepCode</title>
+      <link>https://github.com/HKUDS/DeepCode</link>
+      <description>"DeepCode: Open Agentic Coding (Paper2Code &amp; Text2Web &amp; Text2Backend)"</description>
+    </item>
+    <item>
+      <title>microsoft /agent-lightning</title>
+      <link>https://github.com/microsoft/agent-lightning</link>
+      <description>The absolute trainer to light up AI agents.</description>
+    </item>
+    <item>
+      <title>Wei-Shaw /claude-relay-service</title>
+      <link>https://github.com/Wei-Shaw/claude-relay-service</link>
+      <description>CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。</description>
+    </item>
+    <item>
+      <title>666ghj /BettaFish</title>
+      <link>https://github.com/666ghj/BettaFish</link>
+      <description>微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。</description>
     </item>
   </channel>
 </rss>

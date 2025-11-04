@@ -6,16 +6,41 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 03 Nov 2025 02:08:57 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Nov 2025 02:03:50 +0000</lastBuildDate>
     <item>
-      <title>hmjz100 /LinkSwift</title>
-      <link>https://github.com/hmjz100/LinkSwift</link>
-      <description>一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘</description>
+      <title>DearVa /Everywhere</title>
+      <link>https://github.com/DearVa/Everywhere</link>
+      <description>A context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools.</description>
     </item>
     <item>
-      <title>HandsOnLLM /Hands-On-Large-Language-Models</title>
-      <link>https://github.com/HandsOnLLM/Hands-On-Large-Language-Models</link>
-      <description>Official code repo for the O'Reilly Book - "Hands-On Large Language Models"</description>
+      <title>sst /opentui</title>
+      <link>https://github.com/sst/opentui</link>
+      <description>OpenTUI is a library for building terminal user interfaces (TUIs)</description>
+    </item>
+    <item>
+      <title>hacksider /Deep-Live-Cam</title>
+      <link>https://github.com/hacksider/Deep-Live-Cam</link>
+      <description>real time face swap and one-click video deepfake with only a single image</description>
+    </item>
+    <item>
+      <title>VectifyAI /PageIndex</title>
+      <link>https://github.com/VectifyAI/PageIndex</link>
+      <description>📄🧠 PageIndex: Document Index for Reasoning-based RAG</description>
+    </item>
+    <item>
+      <title>fastfire /deepdarkCTI</title>
+      <link>https://github.com/fastfire/deepdarkCTI</link>
+      <description>Collection of Cyber Threat Intelligence sources from the deep and dark web</description>
+    </item>
+    <item>
+      <title>1Panel-dev /MaxKB</title>
+      <link>https://github.com/1Panel-dev/MaxKB</link>
+      <description>🔥 MaxKB is an open-source platform for building enterprise-grade agents. MaxKB 是强大易用的开源企业级智能体平台。</description>
+    </item>
+    <item>
+      <title>mudler /LocalAI</title>
+      <link>https://github.com/mudler/LocalAI</link>
+      <description>🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference</description>
     </item>
     <item>
       <title>Fosowl /agenticSeek</title>
@@ -23,24 +48,14 @@
       <description>Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)</description>
     </item>
     <item>
-      <title>suitenumerique /docs</title>
-      <link>https://github.com/suitenumerique/docs</link>
-      <description>A collaborative note taking, wiki and documentation platform that scales. Built with Django and React.</description>
+      <title>pytorch /pytorch</title>
+      <link>https://github.com/pytorch/pytorch</link>
+      <description>Tensors and Dynamic neural networks in Python with strong GPU acceleration</description>
     </item>
     <item>
-      <title>moondevonyt /moon-dev-ai-agents</title>
-      <link>https://github.com/moondevonyt/moon-dev-ai-agents</link>
-      <description>autonomous ai agents for trading in python</description>
-    </item>
-    <item>
-      <title>NARKOZ /hacker-scripts</title>
-      <link>https://github.com/NARKOZ/hacker-scripts</link>
-      <description>Based on a true story</description>
-    </item>
-    <item>
-      <title>charmbracelet /glow</title>
-      <link>https://github.com/charmbracelet/glow</link>
-      <description>Render markdown on the CLI, with pizzazz! 💅🏻</description>
+      <title>get-convex /chef</title>
+      <link>https://github.com/get-convex/chef</link>
+      <description>The only AI app builder that knows backend</description>
     </item>
     <item>
       <title>sst /opencode</title>
@@ -48,9 +63,9 @@
       <description>The AI coding agent built for the terminal.</description>
     </item>
     <item>
-      <title>GeeeekExplorer /nano-vllm</title>
-      <link>https://github.com/GeeeekExplorer/nano-vllm</link>
-      <description>Nano vLLM</description>
+      <title>charmbracelet /glow</title>
+      <link>https://github.com/charmbracelet/glow</link>
+      <description>Render markdown on the CLI, with pizzazz! 💅🏻</description>
     </item>
     <item>
       <title>HKUDS /DeepCode</title>
@@ -58,14 +73,9 @@
       <description>"DeepCode: Open Agentic Coding (Paper2Code &amp; Text2Web &amp; Text2Backend)"</description>
     </item>
     <item>
-      <title>microsoft /agent-lightning</title>
-      <link>https://github.com/microsoft/agent-lightning</link>
-      <description>The absolute trainer to light up AI agents.</description>
-    </item>
-    <item>
-      <title>Wei-Shaw /claude-relay-service</title>
-      <link>https://github.com/Wei-Shaw/claude-relay-service</link>
-      <description>CRS-自建Claude Code镜像，一站式开源中转服务，让 Claude、OpenAI、Gemini、Droid 订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。</description>
+      <title>GeeeekExplorer /nano-vllm</title>
+      <link>https://github.com/GeeeekExplorer/nano-vllm</link>
+      <description>Nano vLLM</description>
     </item>
     <item>
       <title>666ghj /BettaFish</title>

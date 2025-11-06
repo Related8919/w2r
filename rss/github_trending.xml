@@ -6,31 +6,31 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 05 Nov 2025 02:05:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 06 Nov 2025 02:05:50 +0000</lastBuildDate>
     <item>
-      <title>Skyvern-AI /skyvern</title>
-      <link>https://github.com/Skyvern-AI/skyvern</link>
-      <description>Automate browser-based workflows with LLMs and Computer Vision</description>
+      <title>jwasham /coding-interview-university</title>
+      <link>https://github.com/jwasham/coding-interview-university</link>
+      <description>A complete computer science study plan to become a software engineer.</description>
     </item>
     <item>
-      <title>mindsdb /mindsdb</title>
-      <link>https://github.com/mindsdb/mindsdb</link>
-      <description>Federated query engine for AI - The only MCP Server you'll ever need</description>
+      <title>localstack /localstack</title>
+      <link>https://github.com/localstack/localstack</link>
+      <description>💻 A fully functional local AWS cloud stack. Develop and test your cloud &amp; Serverless apps offline</description>
     </item>
     <item>
-      <title>HandsOnLLM /Hands-On-Large-Language-Models</title>
-      <link>https://github.com/HandsOnLLM/Hands-On-Large-Language-Models</link>
-      <description>Official code repo for the O'Reilly Book - "Hands-On Large Language Models"</description>
+      <title>sst /opencode</title>
+      <link>https://github.com/sst/opencode</link>
+      <description>The AI coding agent built for the terminal.</description>
     </item>
     <item>
-      <title>cloudcommunity /Free-Certifications</title>
-      <link>https://github.com/cloudcommunity/Free-Certifications</link>
-      <description>A curated list of free courses with certifications. Also available athttps://free-certifications.com/</description>
+      <title>aandrew-me /ytDownloader</title>
+      <link>https://github.com/aandrew-me/ytDownloader</link>
+      <description>Desktop App for downloading Videos and Audios from hundreds of sites</description>
     </item>
     <item>
-      <title>PKUFlyingPig /cs-self-learning</title>
-      <link>https://github.com/PKUFlyingPig/cs-self-learning</link>
-      <description>计算机自学指南</description>
+      <title>NickvisionApps /Parabolic</title>
+      <link>https://github.com/NickvisionApps/Parabolic</link>
+      <description>Download web video and audio</description>
     </item>
     <item>
       <title>coleam00 /ottomator-agents</title>
@@ -38,34 +38,14 @@
       <description>All the open source AI Agents hosted on the oTTomator Live Agent Studio platform!</description>
     </item>
     <item>
-      <title>hmjz100 /LinkSwift</title>
-      <link>https://github.com/hmjz100/LinkSwift</link>
-      <description>一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘</description>
+      <title>VectifyAI /PageIndex</title>
+      <link>https://github.com/VectifyAI/PageIndex</link>
+      <description>📑 PageIndex: Document Index for Reasoning-based RAG</description>
     </item>
     <item>
-      <title>mudler /edgevpn</title>
-      <link>https://github.com/mudler/edgevpn</link>
-      <description>⛵ The immutable, decentralized, statically built p2p VPN without any central server and automatic discovery! Create decentralized introspectable tunnels over p2p with shared tokens</description>
-    </item>
-    <item>
-      <title>charmbracelet /glow</title>
-      <link>https://github.com/charmbracelet/glow</link>
-      <description>Render markdown on the CLI, with pizzazz! 💅🏻</description>
-    </item>
-    <item>
-      <title>Fosowl /agenticSeek</title>
-      <link>https://github.com/Fosowl/agenticSeek</link>
-      <description>Fully Local Manus AI. No APIs, No $200 monthly bills. Enjoy an autonomous agent that thinks, browses the web, and code for the sole cost of electricity. 🔔 Official updates only via twitter @Martin993886460 (Beware of fake account)</description>
-    </item>
-    <item>
-      <title>HKUDS /DeepCode</title>
-      <link>https://github.com/HKUDS/DeepCode</link>
-      <description>"DeepCode: Open Agentic Coding (Paper2Code &amp; Text2Web &amp; Text2Backend)"</description>
-    </item>
-    <item>
-      <title>DearVa /Everywhere</title>
-      <link>https://github.com/DearVa/Everywhere</link>
-      <description>A context-aware AI assistant for your desktop. Ready to respond intelligently, seamlessly integrating multiple LLMs and MCP tools.</description>
+      <title>GoogleCloudPlatform /vertex-ai-creative-studio</title>
+      <link>https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio</link>
+      <description>GenMedia Creative Studio is a Vertex AI generative media user experience highlighting the use of Imagen, Veo, Gemini 🍌, Gemini TTS, Chirp 3, Lyria and other generative media APIs on Google Cloud.</description>
     </item>
     <item>
       <title>Raphire /Win11Debloat</title>
@@ -78,9 +58,19 @@
       <description>An evolving how-to guide for securing a Linux server.</description>
     </item>
     <item>
-      <title>1Panel-dev /MaxKB</title>
-      <link>https://github.com/1Panel-dev/MaxKB</link>
-      <description>🔥 MaxKB is an open-source platform for building enterprise-grade agents. MaxKB 是强大易用的开源企业级智能体平台。</description>
+      <title>GopeedLab /gopeed</title>
+      <link>https://github.com/GopeedLab/gopeed</link>
+      <description>A modern download manager that supports all platforms. Built with Golang and Flutter.</description>
+    </item>
+    <item>
+      <title>prometheus /alertmanager</title>
+      <link>https://github.com/prometheus/alertmanager</link>
+      <description>Prometheus Alertmanager</description>
+    </item>
+    <item>
+      <title>sst /opentui</title>
+      <link>https://github.com/sst/opentui</link>
+      <description>OpenTUI is a library for building terminal user interfaces (TUIs)</description>
     </item>
     <item>
       <title>mudler /LocalAI</title>
@@ -88,14 +78,19 @@
       <description>🤖 The free, Open Source alternative to OpenAI, Claude and others. Self-hosted and local-first. Drop-in replacement for OpenAI, running on consumer-grade hardware. No GPU required. Runs gguf, transformers, diffusers and many more. Features: Generate Text, Audio, Video, Images, Voice Cloning, Distributed, P2P and decentralized inference</description>
     </item>
     <item>
-      <title>GeeeekExplorer /nano-vllm</title>
-      <link>https://github.com/GeeeekExplorer/nano-vllm</link>
-      <description>Nano vLLM</description>
+      <title>nocobase /nocobase</title>
+      <link>https://github.com/nocobase/nocobase</link>
+      <description>NocoBase is the most extensible AI-powered no-code/low-code platform for building business applications and enterprise solutions.</description>
     </item>
     <item>
-      <title>sst /opentui</title>
-      <link>https://github.com/sst/opentui</link>
-      <description>OpenTUI is a library for building terminal user interfaces (TUIs)</description>
+      <title>HKUDS /DeepCode</title>
+      <link>https://github.com/HKUDS/DeepCode</link>
+      <description>"DeepCode: Open Agentic Coding (Paper2Code &amp; Text2Web &amp; Text2Backend)"</description>
+    </item>
+    <item>
+      <title>Skyvern-AI /skyvern</title>
+      <link>https://github.com/Skyvern-AI/skyvern</link>
+      <description>Automate browser based workflows with AI</description>
     </item>
     <item>
       <title>666ghj /BettaFish</title>

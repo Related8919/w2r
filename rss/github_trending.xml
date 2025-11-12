@@ -6,56 +6,66 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 11 Nov 2025 02:06:21 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Nov 2025 02:05:02 +0000</lastBuildDate>
     <item>
-      <title>Zie619 /n8n-workflows</title>
-      <link>https://github.com/Zie619/n8n-workflows</link>
-      <description>all of the workflows of n8n i could find (also from the site itself)</description>
+      <title>WICG /email-verification-protocol</title>
+      <link>https://github.com/WICG/email-verification-protocol</link>
+      <description>verified autofill</description>
     </item>
     <item>
-      <title>end-4 /dots-hyprland</title>
-      <link>https://github.com/end-4/dots-hyprland</link>
-      <description>uhh questioning the meaning of dotfiles</description>
+      <title>google /adk-web</title>
+      <link>https://github.com/google/adk-web</link>
+      <description>Agent Development Kit Web (adk web) is the built-in developer UI that is integrated with Agent Development Kit for easier agent development and debugging.</description>
     </item>
     <item>
-      <title>opencloud-eu /opencloud</title>
-      <link>https://github.com/opencloud-eu/opencloud</link>
-      <description>🌤️This is the main repository of the OpenCloud server. It contains the golang codebase for the backend services.</description>
+      <title>AtsushiSakai /PythonRobotics</title>
+      <link>https://github.com/AtsushiSakai/PythonRobotics</link>
+      <description>Python sample codes and textbook for robotics algorithms.</description>
     </item>
     <item>
-      <title>librespot-org /librespot</title>
-      <link>https://github.com/librespot-org/librespot</link>
-      <description>Open Source Spotify client library</description>
+      <title>nvm-sh /nvm</title>
+      <link>https://github.com/nvm-sh/nvm</link>
+      <description>Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions</description>
     </item>
     <item>
-      <title>microsoft /call-center-ai</title>
-      <link>https://github.com/microsoft/call-center-ai</link>
-      <description>Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!</description>
+      <title>google /adk-docs</title>
+      <link>https://github.com/google/adk-docs</link>
+      <description>An open-source, code-first toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.</description>
     </item>
     <item>
-      <title>bobeff /open-source-games</title>
-      <link>https://github.com/bobeff/open-source-games</link>
-      <description>A list of open source games.</description>
+      <title>davila7 /claude-code-templates</title>
+      <link>https://github.com/davila7/claude-code-templates</link>
+      <description>CLI tool for configuring and monitoring Claude Code</description>
     </item>
     <item>
-      <title>YaLTeR /niri</title>
-      <link>https://github.com/YaLTeR/niri</link>
-      <description>A scrollable-tiling Wayland compositor.</description>
+      <title>dgtlmoon /changedetection.io</title>
+      <link>https://github.com/dgtlmoon/changedetection.io</link>
+      <description>Best and simplest tool for website change detection, web page monitoring, and website change alerts. Perfect for tracking content changes, price drops, restock alerts, and website defacement monitoring—all for free or enjoy our SaaS plan!</description>
     </item>
     <item>
-      <title>lzhoang2801 /OpCore-Simplify</title>
-      <link>https://github.com/lzhoang2801/OpCore-Simplify</link>
-      <description>A tool designed to simplify the creation of OpenCore EFI</description>
+      <title>LizardByte /Sunshine</title>
+      <link>https://github.com/LizardByte/Sunshine</link>
+      <description>Self-hosted game stream host for Moonlight.</description>
     </item>
     <item>
-      <title>iptv-org /iptv</title>
-      <link>https://github.com/iptv-org/iptv</link>
-      <description>Collection of publicly available IPTV channels from all over the world</description>
+      <title>microsoft /ai-agents-for-beginners</title>
+      <link>https://github.com/microsoft/ai-agents-for-beginners</link>
+      <description>12 Lessons to Get Started Building AI Agents</description>
     </item>
     <item>
-      <title>thinking-machines-lab /tinker-cookbook</title>
-      <link>https://github.com/thinking-machines-lab/tinker-cookbook</link>
-      <description>Post-training with Tinker</description>
+      <title>yangshun /tech-interview-handbook</title>
+      <link>https://github.com/yangshun/tech-interview-handbook</link>
+      <description>💯 Curated coding interview preparation materials for busy software engineers</description>
+    </item>
+    <item>
+      <title>yichuan-w /LEANN</title>
+      <link>https://github.com/yichuan-w/LEANN</link>
+      <description>RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.</description>
+    </item>
+    <item>
+      <title>serverless-dns /serverless-dns</title>
+      <link>https://github.com/serverless-dns/serverless-dns</link>
+      <description>The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io</description>
     </item>
     <item>
       <title>TapXWorld /ChinaTextbook</title>
@@ -63,9 +73,9 @@
       <description>所有小初高、大学PDF教材。</description>
     </item>
     <item>
-      <title>umami-software /umami</title>
-      <link>https://github.com/umami-software/umami</link>
-      <description>Umami is a modern, privacy-focused alternative to Google Analytics.</description>
+      <title>bobeff /open-source-games</title>
+      <link>https://github.com/bobeff/open-source-games</link>
+      <description>A list of open source games.</description>
     </item>
     <item>
       <title>usestrix /strix</title>
@@ -76,6 +86,11 @@
       <title>google /adk-go</title>
       <link>https://github.com/google/adk-go</link>
       <description>An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.</description>
+    </item>
+    <item>
+      <title>sansan0 /TrendRadar</title>
+      <link>https://github.com/sansan0/TrendRadar</link>
+      <description>🎯 告别信息过载，AI 助你看懂新闻资讯热点，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+AI对话分析（用自然语言深度挖掘新闻：趋势追踪、情感分析、相似检索等13种工具）。支持企业微信/飞书/钉钉/Telegram/邮件/ntfy推送，30秒网页部署，1分钟手机通知，无需编程。支持Docker部署⭐ 让算法为你服务，用AI理解热点</description>
     </item>
   </channel>
 </rss>

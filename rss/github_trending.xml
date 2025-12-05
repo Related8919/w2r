@@ -6,96 +6,81 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 04 Dec 2025 02:09:06 +0000</lastBuildDate>
-    <item>
-      <title>wolfpld /tracy</title>
-      <link>https://github.com/wolfpld/tracy</link>
-      <description>Frame profiler</description>
-    </item>
-    <item>
-      <title>milvus-io /milvus</title>
-      <link>https://github.com/milvus-io/milvus</link>
-      <description>Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search</description>
-    </item>
-    <item>
-      <title>Zie619 /n8n-workflows</title>
-      <link>https://github.com/Zie619/n8n-workflows</link>
-      <description>all of the workflows of n8n i could find (also from the site itself)</description>
-    </item>
-    <item>
-      <title>iptv-org /iptv</title>
-      <link>https://github.com/iptv-org/iptv</link>
-      <description>Collection of publicly available IPTV channels from all over the world</description>
-    </item>
-    <item>
-      <title>playcanvas /engine</title>
-      <link>https://github.com/playcanvas/engine</link>
-      <description>Powerful web graphics runtime built on WebGL, WebGPU, WebXR and glTF</description>
-    </item>
-    <item>
-      <title>MustardChef /WSABuilds</title>
-      <link>https://github.com/MustardChef/WSABuilds</link>
-      <description>Run Windows Subsystem For Android on your Windows 10 and Windows 11 PC using prebuilt binaries with Google Play Store (MindTheGapps) and/or Magisk or KernelSU (root solutions) built in.</description>
-    </item>
-    <item>
-      <title>microsoft /call-center-ai</title>
-      <link>https://github.com/microsoft/call-center-ai</link>
-      <description>Send a phone call from AI agent, in an API call. Or, directly call the bot from the configured phone number!</description>
-    </item>
-    <item>
-      <title>yangshun /tech-interview-handbook</title>
-      <link>https://github.com/yangshun/tech-interview-handbook</link>
-      <description>Curated coding interview preparation materials for busy software engineers</description>
-    </item>
-    <item>
-      <title>MemoriLabs /Memori</title>
-      <link>https://github.com/MemoriLabs/Memori</link>
-      <description>Open-Source Memory Engine for LLMs, AI Agents &amp; Multi-Agent Systems</description>
-    </item>
-    <item>
-      <title>volcengine /verl</title>
-      <link>https://github.com/volcengine/verl</link>
-      <description>verl: Volcano Engine Reinforcement Learning for LLMs</description>
-    </item>
+    <lastBuildDate>Fri, 05 Dec 2025 02:09:25 +0000</lastBuildDate>
     <item>
       <title>bobeff /open-source-games</title>
       <link>https://github.com/bobeff/open-source-games</link>
       <description>A list of open source games.</description>
     </item>
     <item>
-      <title>HKUDS /LightRAG</title>
-      <link>https://github.com/HKUDS/LightRAG</link>
-      <description>[EMNLP2025] "LightRAG: Simple and Fast Retrieval-Augmented Generation"</description>
+      <title>bin456789 /reinstall</title>
+      <link>https://github.com/bin456789/reinstall</link>
+      <description>一键DD/重装脚本 (One-click reinstall OS on VPS)</description>
     </item>
     <item>
-      <title>traefik /traefik</title>
-      <link>https://github.com/traefik/traefik</link>
-      <description>The Cloud Native Application Proxy</description>
+      <title>wshobson /agents</title>
+      <link>https://github.com/wshobson/agents</link>
+      <description>Intelligent automation and multi-agent orchestration for Claude Code</description>
     </item>
     <item>
-      <title>nvm-sh /nvm</title>
-      <link>https://github.com/nvm-sh/nvm</link>
-      <description>Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions</description>
+      <title>codecrafters-io /build-your-own-x</title>
+      <link>https://github.com/codecrafters-io/build-your-own-x</link>
+      <description>Master programming by recreating your favorite technologies from scratch.</description>
     </item>
     <item>
-      <title>yeongpin /cursor-free-vip</title>
-      <link>https://github.com/yeongpin/cursor-free-vip</link>
-      <description>[Support 0.49.x]（Reset Cursor AI MachineID &amp; Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.</description>
+      <title>lynx-family /lynx</title>
+      <link>https://github.com/lynx-family/lynx</link>
+      <description>Empower the Web community and invite more to build across platforms.</description>
     </item>
     <item>
-      <title>TapXWorld /ChinaTextbook</title>
-      <link>https://github.com/TapXWorld/ChinaTextbook</link>
-      <description>所有小初高、大学PDF教材。</description>
+      <title>kubernetes /kubernetes</title>
+      <link>https://github.com/kubernetes/kubernetes</link>
+      <description>Production-Grade Container Scheduling and Management</description>
     </item>
     <item>
-      <title>google /adk-go</title>
-      <link>https://github.com/google/adk-go</link>
-      <description>An open-source, code-first Go toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.</description>
+      <title>microsoft /ML-For-Beginners</title>
+      <link>https://github.com/microsoft/ML-For-Beginners</link>
+      <description>12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all</description>
     </item>
     <item>
-      <title>sansan0 /TrendRadar</title>
-      <link>https://github.com/sansan0/TrendRadar</link>
-      <description>🎯 告别信息过载，AI 助你看懂新闻资讯热点，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+AI对话分析（用自然语言深度挖掘新闻：趋势追踪、情感分析、相似检索等13种工具）。支持企业微信/个人微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 推送，30秒网页部署，1分钟手机通知，无需编程。支持Docker部署⭐ 让算法为你服务，用AI理解热点</description>
+      <title>trustedsec /social-engineer-toolkit</title>
+      <link>https://github.com/trustedsec/social-engineer-toolkit</link>
+      <description>The Social-Engineer Toolkit (SET) repository from TrustedSec - All new versions of SET will be deployed here.</description>
+    </item>
+    <item>
+      <title>sst /opencode</title>
+      <link>https://github.com/sst/opencode</link>
+      <description>The AI coding agent built for the terminal.</description>
+    </item>
+    <item>
+      <title>ashishpatel26 /500-AI-Agents-Projects</title>
+      <link>https://github.com/ashishpatel26/500-AI-Agents-Projects</link>
+      <description>The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.</description>
+    </item>
+    <item>
+      <title>LadybirdBrowser /ladybird</title>
+      <link>https://github.com/LadybirdBrowser/ladybird</link>
+      <description>Truly independent web browser</description>
+    </item>
+    <item>
+      <title>openai /codex</title>
+      <link>https://github.com/openai/codex</link>
+      <description>Lightweight coding agent that runs in your terminal</description>
+    </item>
+    <item>
+      <title>DayuanJiang /next-ai-draw-io</title>
+      <link>https://github.com/DayuanJiang/next-ai-draw-io</link>
+      <description>A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.</description>
+    </item>
+    <item>
+      <title>oven-sh /bun</title>
+      <link>https://github.com/oven-sh/bun</link>
+      <description>Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one</description>
+    </item>
+    <item>
+      <title>basecamp /fizzy</title>
+      <link>https://github.com/basecamp/fizzy</link>
+      <description>Kanban as it should be. Not as it has been.</description>
     </item>
   </channel>
 </rss>

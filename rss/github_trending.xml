@@ -6,46 +6,16 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 08 Dec 2025 02:10:22 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Dec 2025 02:09:15 +0000</lastBuildDate>
     <item>
-      <title>activepieces /activepieces</title>
-      <link>https://github.com/activepieces/activepieces</link>
-      <description>AI Agents &amp; MCPs &amp; AI Workflow Automation • (~400 MCP servers for AI agents) • AI Automation / AI Agent with MCPs • AI Workflows &amp; AI Agents • MCPs for AI Agents</description>
+      <title>microsoft /ML-For-Beginners</title>
+      <link>https://github.com/microsoft/ML-For-Beginners</link>
+      <description>12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all</description>
     </item>
     <item>
-      <title>lfnovo /open-notebook</title>
-      <link>https://github.com/lfnovo/open-notebook</link>
-      <description>An Open Source implementation of Notebook LM with more flexibility and features</description>
-    </item>
-    <item>
-      <title>blakeblackshear /frigate</title>
-      <link>https://github.com/blakeblackshear/frigate</link>
-      <description>NVR with realtime local object detection for IP cameras</description>
-    </item>
-    <item>
-      <title>ashishpatel26 /500-AI-Agents-Projects</title>
-      <link>https://github.com/ashishpatel26/500-AI-Agents-Projects</link>
-      <description>The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.</description>
-    </item>
-    <item>
-      <title>sinelaw /fresh</title>
-      <link>https://github.com/sinelaw/fresh</link>
-      <description>Text editor for your terminal: easy, powerful and fast</description>
-    </item>
-    <item>
-      <title>BeehiveInnovations /pal-mcp-server</title>
-      <link>https://github.com/BeehiveInnovations/pal-mcp-server</link>
-      <description>The power of Claude Code / GeminiCLI / CodexCLI + [Gemini / OpenAI / OpenRouter / Azure / Grok / Ollama / Custom Model / All Of The Above] working as one.</description>
-    </item>
-    <item>
-      <title>sst /opencode</title>
-      <link>https://github.com/sst/opencode</link>
-      <description>The open source coding agent.</description>
-    </item>
-    <item>
-      <title>rustfs /rustfs</title>
-      <link>https://github.com/rustfs/rustfs</link>
-      <description>🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.</description>
+      <title>666ghj /BettaFish</title>
+      <link>https://github.com/666ghj/BettaFish</link>
+      <description>微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。</description>
     </item>
     <item>
       <title>anthropics /claude-quickstarts</title>
@@ -53,9 +23,19 @@
       <description>A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API</description>
     </item>
     <item>
-      <title>TelegramMessenger /Telegram-iOS</title>
-      <link>https://github.com/TelegramMessenger/Telegram-iOS</link>
-      <description>Telegram-iOS</description>
+      <title>lfnovo /open-notebook</title>
+      <link>https://github.com/lfnovo/open-notebook</link>
+      <description>An Open Source implementation of Notebook LM with more flexibility and features</description>
+    </item>
+    <item>
+      <title>cloudflare /vibesdk</title>
+      <link>https://github.com/cloudflare/vibesdk</link>
+      <description>An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack</description>
+    </item>
+    <item>
+      <title>slidevjs /slidev</title>
+      <link>https://github.com/slidevjs/slidev</link>
+      <description>Presentation Slides for Developers</description>
     </item>
     <item>
       <title>patchy631 /ai-engineering-hub</title>
@@ -63,9 +43,14 @@
       <description>In-depth tutorials on LLMs, RAGs and real-world AI agent applications.</description>
     </item>
     <item>
-      <title>NVIDIA /cutile-python</title>
-      <link>https://github.com/NVIDIA/cutile-python</link>
-      <description>cuTile is a programming model for writing parallel kernels for NVIDIA GPUs</description>
+      <title>winapps-org /winapps</title>
+      <link>https://github.com/winapps-org/winapps</link>
+      <description>Run Windows apps such as Microsoft Office/Adobe in Linux (Ubuntu/Fedora) and GNOME/KDE as if they were a part of the native OS, including Nautilus integration. Hard fork ofhttps://github.com/Fmstrat/winapps/</description>
+    </item>
+    <item>
+      <title>sinelaw /fresh</title>
+      <link>https://github.com/sinelaw/fresh</link>
+      <description>Text editor for your terminal: easy, powerful and fast</description>
     </item>
     <item>
       <title>microsoft /VibeVoice</title>

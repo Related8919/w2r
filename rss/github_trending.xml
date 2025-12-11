@@ -6,36 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 10 Dec 2025 02:11:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 02:13:17 +0000</lastBuildDate>
     <item>
-      <title>Johnshall /Shadowrocket-ADBlock-Rules-Forever</title>
-      <link>https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever</link>
-      <description>提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。</description>
-    </item>
-    <item>
-      <title>srbhr /Resume-Matcher</title>
-      <link>https://github.com/srbhr/Resume-Matcher</link>
-      <description>Improve your resumes with Resume Matcher. Get insights, keyword suggestions and tune your resumes to job descriptions.</description>
-    </item>
-    <item>
-      <title>sst /opencode</title>
-      <link>https://github.com/sst/opencode</link>
-      <description>The open source coding agent.</description>
-    </item>
-    <item>
-      <title>microsoft /generative-ai-for-beginners</title>
-      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
-      <description>21 Lessons, Get Started Building with Generative AI</description>
-    </item>
-    <item>
-      <title>666ghj /BettaFish</title>
-      <link>https://github.com/666ghj/BettaFish</link>
-      <description>微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。</description>
-    </item>
-    <item>
-      <title>patchy631 /ai-engineering-hub</title>
-      <link>https://github.com/patchy631/ai-engineering-hub</link>
-      <description>In-depth tutorials on LLMs, RAGs and real-world AI agent applications.</description>
+      <title>microsoft /ML-For-Beginners</title>
+      <link>https://github.com/microsoft/ML-For-Beginners</link>
+      <description>12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all</description>
     </item>
     <item>
       <title>google /adk-samples</title>
@@ -43,9 +18,29 @@
       <description>A collection of sample agents built with Agent Development Kit (ADK)</description>
     </item>
     <item>
-      <title>NVIDIA /cutile-python</title>
-      <link>https://github.com/NVIDIA/cutile-python</link>
-      <description>cuTile is a programming model for writing parallel kernels for NVIDIA GPUs</description>
+      <title>infiniflow /ragflow</title>
+      <link>https://github.com/infiniflow/ragflow</link>
+      <description>RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs</description>
+    </item>
+    <item>
+      <title>microsoft /generative-ai-for-beginners</title>
+      <link>https://github.com/microsoft/generative-ai-for-beginners</link>
+      <description>21 Lessons, Get Started Building with Generative AI</description>
+    </item>
+    <item>
+      <title>cloudflare /vibesdk</title>
+      <link>https://github.com/cloudflare/vibesdk</link>
+      <description>An open-source vibe coding platform that helps you build your own vibe-coding platform, built entirely on Cloudflare stack</description>
+    </item>
+    <item>
+      <title>666ghj /BettaFish</title>
+      <link>https://github.com/666ghj/BettaFish</link>
+      <description>微舆：人人可用的多Agent舆情分析助手，打破信息茧房，还原舆情原貌，预测未来走向，辅助决策！从0实现，不依赖任何框架。</description>
+    </item>
+    <item>
+      <title>block /goose</title>
+      <link>https://github.com/block/goose</link>
+      <description>an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM</description>
     </item>
     <item>
       <title>microsoft /VibeVoice</title>
@@ -53,19 +48,34 @@
       <description>Open-Source Frontier Voice AI</description>
     </item>
     <item>
+      <title>datawhalechina /hello-agents</title>
+      <link>https://github.com/datawhalechina/hello-agents</link>
+      <description>📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程</description>
+    </item>
+    <item>
       <title>dyad-sh /dyad</title>
       <link>https://github.com/dyad-sh/dyad</link>
       <description>Free, local, open-source AI app builder ✨ v0 / lovable / Bolt alternative 🌟 Star if you like it!</description>
     </item>
     <item>
-      <title>thedotmack /claude-mem</title>
-      <link>https://github.com/thedotmack/claude-mem</link>
-      <description>A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.</description>
+      <title>lfnovo /open-notebook</title>
+      <link>https://github.com/lfnovo/open-notebook</link>
+      <description>An Open Source implementation of Notebook LM with more flexibility and features</description>
+    </item>
+    <item>
+      <title>agentsmd /agents.md</title>
+      <link>https://github.com/agentsmd/agents.md</link>
+      <description>AGENTS.md — a simple, open format for guiding coding agents</description>
     </item>
     <item>
       <title>KaijuEngine /kaiju</title>
       <link>https://github.com/KaijuEngine/kaiju</link>
       <description>General purpose 3D and 2D game engine using Go (golang) and Vulkan with built in editor</description>
+    </item>
+    <item>
+      <title>thedotmack /claude-mem</title>
+      <link>https://github.com/thedotmack/claude-mem</link>
+      <description>A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.</description>
     </item>
   </channel>
 </rss>

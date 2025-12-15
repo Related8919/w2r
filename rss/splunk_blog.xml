@@ -6,7 +6,32 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 14 Dec 2025 02:25:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 02:23:14 +0000</lastBuildDate>
+    <item>
+      <title>Executive Q&amp;A: Accelerating AI Success with Splunk and AWS</title>
+      <link>https://www.splunk.com/en_us/blog/partners/accelerating-ai-success-with-splunk-and-aws.html</link>
+      <description>Two leaders discuss shaping the future of AI: Hao Yang, VP &amp; Head of AI at Splunk, and Bill Fine, Product Leader – Agentic AI at AWS.</description>
+    </item>
+    <item>
+      <title>Accelerate Operations with AI: New Splunk and AWS Integrations</title>
+      <link>https://www.splunk.com/en_us/blog/partners/accelerate-operations-with-ai-new-splunk-and-aws-integrations.html</link>
+      <description>Two new integrations with AWS have created seamless workflows that activate your Splunk data where it lives, removing friction and accelerating time-to-value.</description>
+    </item>
+    <item>
+      <title>Splunk Cloud Platform: Accelerating Digital Resilience for the Agentic AI Era in Kingdom of Saudi Arabia with Google Cloud</title>
+      <link>https://www.splunk.com/en_us/blog/partners/splunk-cloud-platform-in-kingdom-of-saudi-arabia-with-google-cloud.html</link>
+      <description>We're thrilled to announce the availability of Splunk Cloud Platform on Google Cloud in the Kingdom of Saudi Arabia.</description>
+    </item>
+    <item>
+      <title>Redefining Trust in the Era of Agentic AI</title>
+      <link>https://www.splunk.com/en_us/blog/ciso-circle/soc-ai-trust-challenges.html</link>
+      <description>See how the rise of agentic AI is changing the game for security teams. Get tips on trust, adoption, and staying ahead in the evolving SOC landscape.</description>
+    </item>
+    <item>
+      <title>Introducing Splunk Victoria Experience on Google Cloud: Faster, Clearer, More Resilient</title>
+      <link>https://www.splunk.com/en_us/blog/partners/introducing-splunk-victoria-experience-on-google-cloud.html</link>
+      <description>Splunk VE is now available on Google Cloud, giving organizations and admins a more transparent, responsive, and flexible Splunk Cloud Platform experience.</description>
+    </item>
     <item>
       <title>Beyond Deepfakes: Why Digital Provenance is Critical Now</title>
       <link>https://www.splunk.com/en_us/blog/learn/digital-provenance.html</link>
@@ -26,31 +51,6 @@
       <title>Security Staff Picks To Read This Month, Handpicked by Splunk Experts</title>
       <link>https://www.splunk.com/en_us/blog/security/cybersecurity-recent-articles.html</link>
       <description>Our Splunk security experts share their favorite reads of the month so you can follow the most interesting, news-worthy, and innovative stories coming from the wide world of cybersecurity.</description>
-    </item>
-    <item>
-      <title>Splunk Security Content for Threat Detection &amp; Response: November Recap</title>
-      <link>https://www.splunk.com/en_us/blog/security/splunk-security-content-updates-november.html</link>
-      <description>Discover Splunk's November security content updates, featuring enhanced Castle RAT threat detection, UAC bypass analytics, and deeper insights for validating detections on research.splunk.com.</description>
-    </item>
-    <item>
-      <title>How to Manage Planned Downtime the Right Way, with Synthetics</title>
-      <link>https://www.splunk.com/en_us/blog/observability/synthetics-planned-downtime-management.html</link>
-      <description>Planned downtime management ensures clean synthetic tests and meaningful signals during environment changes. Manage downtime the right way, with synthetics.</description>
-    </item>
-    <item>
-      <title>Unlocking New Possibilities: Splunk and AWS Better Together</title>
-      <link>https://www.splunk.com/en_us/blog/partners/unlocking-new-possibilities-splunk-and-aws-better-together.html</link>
-      <description>Discover how Splunk and AWS are revolutionizing security and AI/ML for EMEA organizations. Learn about federated search for S3, SageMaker integration, and real-world analytics innovations from the recent Splunk Partner Team event in Amsterdam.</description>
-    </item>
-    <item>
-      <title>How to Use LLMs for Log File Analysis: Examples, Workflows, and Best Practices</title>
-      <link>https://www.splunk.com/en_us/blog/learn/log-file-analysis-llms.html</link>
-      <description>Learn how to use LLMs for log file analysis, from parsing unstructured logs to detecting anomalies, summarizing incidents, and accelerating root cause analysis.</description>
-    </item>
-    <item>
-      <title>How Splunk is Helping Shape the Future of Higher Education IT by Tackling EDUCAUSE 2026 Top Issues</title>
-      <link>https://www.splunk.com/en_us/blog/industries/splunk-tackling-educause-2026-top-issues.html</link>
-      <description>Dive into how Splunk aligns with key priorities highlighted at EDUCAUSE 2025.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

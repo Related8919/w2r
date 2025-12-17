@@ -6,17 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 16 Dec 2025 02:16:50 +0000</lastBuildDate>
-    <item>
-      <title>Unlocking New Possibilities: Splunk and AWS Better Together</title>
-      <link>https://www.splunk.com/en_us/blog/partners/unlocking-new-possibilities-splunk-and-aws-better-together.html</link>
-      <description>Discover how Splunk and AWS are revolutionizing security and AI/ML for EMEA organizations. Learn about federated search for S3, SageMaker integration, and real-world analytics innovations from the recent Splunk Partner Team event in Amsterdam.</description>
-    </item>
-    <item>
-      <title>How to Use LLMs for Log File Analysis: Examples, Workflows, and Best Practices</title>
-      <link>https://www.splunk.com/en_us/blog/learn/log-file-analysis-llms.html</link>
-      <description>Learn how to use LLMs for log file analysis, from parsing unstructured logs to detecting anomalies, summarizing incidents, and accelerating root cause analysis.</description>
-    </item>
+    <lastBuildDate>Wed, 17 Dec 2025 02:08:23 +0000</lastBuildDate>
     <item>
       <title>How Unified Observability Practices Power Stronger Collaboration</title>
       <link>https://www.splunk.com/en_us/blog/ciso-circle/unified-observability-for-itops-and-security-teams.html</link>
@@ -28,14 +18,14 @@
       <description>Dive into how Splunk aligns with key priorities highlighted at EDUCAUSE 2025.</description>
     </item>
     <item>
-      <title>The Architecture of Intelligent Integration</title>
-      <link>https://www.splunk.com/en_us/blog/cio-office/intelligent-integration-modern-data-architecture.html</link>
-      <description>See how CIOs and CTOs can modernize data environments with intelligent integration strategies that drive coherence, reduce risk, and enable AI at scale.</description>
-    </item>
-    <item>
       <title>The Performance Playbook: Why Business Context Is the Key to Customer-Centric Visibility</title>
       <link>https://www.splunk.com/en_us/blog/leadership/business-context-is-the-key-to-customer-centric-visibility.html</link>
       <description>Systems show symptoms. Business context shows impact. Discover why the future of observability is understanding what matters most to your customers.</description>
+    </item>
+    <item>
+      <title>The Architecture of Intelligent Integration</title>
+      <link>https://www.splunk.com/en_us/blog/cio-office/intelligent-integration-modern-data-architecture.html</link>
+      <description>See how CIOs and CTOs can modernize data environments with intelligent integration strategies that drive coherence, reduce risk, and enable AI at scale.</description>
     </item>
     <item>
       <title>The Next Step in your Metric Data Optimization Starts Now</title>
@@ -51,6 +41,16 @@
       <title>Predicting Cyber Fraud Through Real-World Events: Insights from Domain Registration Trends</title>
       <link>https://www.splunk.com/en_us/blog/security/insights-from-domain-registration-trends.html</link>
       <description>By analyzing new domain registrations around major real-world events, researchers show how fraud campaigns take shape early, helping defenders spot threats before scams surface.</description>
+    </item>
+    <item>
+      <title>What the North Pole Can Teach Us About Digital Resilience</title>
+      <link>https://www.splunk.com/en_us/blog/observability/what-the-north-pole-can-teach-us-about-digital-resilience.html</link>
+      <description>Discover North Pole lessons for digital resilience. Prioritise operations, just like the reliable Santa Tracker, for guaranteed outcomes. Explore our dashboards for deeper insights!</description>
+    </item>
+    <item>
+      <title>Security Predictions 2026: What Agentic AI Means for the People Running the SOC</title>
+      <link>https://www.splunk.com/en_us/blog/leadership/security-predictions-2026-what-agentic-ai-means-for-the-people-running-the-soc.html</link>
+      <description>Splunk's Hao Yang shares our security predictions for 2026 and how agentic AI is reshaping how we see the SOC.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

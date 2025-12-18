@@ -6,17 +6,7 @@
     <description>Latest posts from https://www.splunk.com/en_us/blog. follow.is: feedId:91056610732250112+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 17 Dec 2025 02:08:23 +0000</lastBuildDate>
-    <item>
-      <title>How Unified Observability Practices Power Stronger Collaboration</title>
-      <link>https://www.splunk.com/en_us/blog/ciso-circle/unified-observability-for-itops-and-security-teams.html</link>
-      <description>See how unified observability strengthens cross-functional alignment, accelerates decisions, and drives measurable business impact.</description>
-    </item>
-    <item>
-      <title>How Splunk is Helping Shape the Future of Higher Education IT by Tackling EDUCAUSE 2026 Top Issues</title>
-      <link>https://www.splunk.com/en_us/blog/industries/splunk-tackling-educause-2026-top-issues.html</link>
-      <description>Dive into how Splunk aligns with key priorities highlighted at EDUCAUSE 2025.</description>
-    </item>
+    <lastBuildDate>Thu, 18 Dec 2025 02:09:25 +0000</lastBuildDate>
     <item>
       <title>The Performance Playbook: Why Business Context Is the Key to Customer-Centric Visibility</title>
       <link>https://www.splunk.com/en_us/blog/leadership/business-context-is-the-key-to-customer-centric-visibility.html</link>
@@ -51,6 +41,16 @@
       <title>Security Predictions 2026: What Agentic AI Means for the People Running the SOC</title>
       <link>https://www.splunk.com/en_us/blog/leadership/security-predictions-2026-what-agentic-ai-means-for-the-people-running-the-soc.html</link>
       <description>Splunk's Hao Yang shares our security predictions for 2026 and how agentic AI is reshaping how we see the SOC.</description>
+    </item>
+    <item>
+      <title>Data Doesn’t Have Borders, But You Do: Embrace the Fusion Center for Today’s Digital World</title>
+      <link>https://www.splunk.com/en_us/blog/ciso-circle/global-fusion-centers-data-security.html</link>
+      <description>Security professionals: Learn how fusion centers unify data, people, and processes for global, proactive risk management and business resilience in a connected world.</description>
+    </item>
+    <item>
+      <title>Splunk Lantern Annual Refresh: Navigating a Smarter Path to Success</title>
+      <link>https://www.splunk.com/en_us/blog/customers/navigating-a-smarter-path-to-success.html</link>
+      <description>New use cases are now available on Splunk Lantern, plus much more new and valuable content.</description>
     </item>
     <item>
       <title>What is Observability? An Introduction</title>

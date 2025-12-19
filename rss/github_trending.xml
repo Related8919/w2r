@@ -6,46 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 18 Dec 2025 02:09:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Dec 2025 02:13:04 +0000</lastBuildDate>
     <item>
-      <title>NVIDIA-NeMo /Gym</title>
-      <link>https://github.com/NVIDIA-NeMo/Gym</link>
-      <description>Build RL environments for LLM training</description>
+      <title>resemble-ai /chatterbox</title>
+      <link>https://github.com/resemble-ai/chatterbox</link>
+      <description>SoTA open-source TTS</description>
     </item>
     <item>
-      <title>jellyfin /jellyfin-desktop</title>
-      <link>https://github.com/jellyfin/jellyfin-desktop</link>
-      <description>Jellyfin Desktop Client</description>
+      <title>schollz /croc</title>
+      <link>https://github.com/schollz/croc</link>
+      <description>Easily and securely send things from one computer to another 🐊 📦</description>
     </item>
     <item>
-      <title>nicotsx /zerobyte</title>
-      <link>https://github.com/nicotsx/zerobyte</link>
-      <description>Backup automation for self-hosters. Built on top of restic</description>
+      <title>letta-ai /letta</title>
+      <link>https://github.com/letta-ai/letta</link>
+      <description>Letta is the platform for building stateful agents: open AI with advanced memory that can learn and self-improve over time.</description>
     </item>
     <item>
-      <title>public-apis /public-apis</title>
-      <link>https://github.com/public-apis/public-apis</link>
-      <description>A collective list of free APIs</description>
-    </item>
-    <item>
-      <title>0xk1h0 /ChatGPT_DAN</title>
-      <link>https://github.com/0xk1h0/ChatGPT_DAN</link>
-      <description>ChatGPT DAN, Jailbreaks prompt</description>
-    </item>
-    <item>
-      <title>TapXWorld /ChinaTextbook</title>
-      <link>https://github.com/TapXWorld/ChinaTextbook</link>
-      <description>所有小初高、大学PDF教材。</description>
-    </item>
-    <item>
-      <title>Free-TV /IPTV</title>
-      <link>https://github.com/Free-TV/IPTV</link>
-      <description>M3U Playlist for free TV channels</description>
-    </item>
-    <item>
-      <title>simstudioai /sim</title>
-      <link>https://github.com/simstudioai/sim</link>
-      <description>Open-source platform to build and deploy AI agent workflows.</description>
+      <title>astral-sh /ty</title>
+      <link>https://github.com/astral-sh/ty</link>
+      <description>An extremely fast Python type checker and language server, written in Rust.</description>
     </item>
     <item>
       <title>virattt /ai-hedge-fund</title>
@@ -53,14 +33,9 @@
       <description>An AI Hedge Fund Team</description>
     </item>
     <item>
-      <title>resemble-ai /chatterbox</title>
-      <link>https://github.com/resemble-ai/chatterbox</link>
-      <description>SoTA open-source TTS</description>
-    </item>
-    <item>
-      <title>C4illin /ConvertX</title>
-      <link>https://github.com/C4illin/ConvertX</link>
-      <description>💾 Self-hosted online file converter. Supports 1000+ formats ⚙️</description>
+      <title>anthropics /claude-code</title>
+      <link>https://github.com/anthropics/claude-code</link>
+      <description>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</description>
     </item>
   </channel>
 </rss>

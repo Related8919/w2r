@@ -6,31 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 20 Dec 2025 02:05:45 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Dec 2025 02:25:14 +0000</lastBuildDate>
     <item>
-      <title>metabase /metabase</title>
-      <link>https://github.com/metabase/metabase</link>
-      <description>The easy-to-use open source Business Intelligence and Embedded Analytics tool that lets everyone work with data 📊</description>
+      <title>iptv-org /iptv</title>
+      <link>https://github.com/iptv-org/iptv</link>
+      <description>Collection of publicly available IPTV channels from all over the world</description>
     </item>
     <item>
-      <title>afshinea /stanford-cs-229-machine-learning</title>
-      <link>https://github.com/afshinea/stanford-cs-229-machine-learning</link>
-      <description>VIP cheatsheets for Stanford's CS 229 Machine Learning</description>
+      <title>astral-sh /ty</title>
+      <link>https://github.com/astral-sh/ty</link>
+      <description>An extremely fast Python type checker and language server, written in Rust.</description>
     </item>
     <item>
-      <title>google /adk-js</title>
-      <link>https://github.com/google/adk-js</link>
-      <description>An open-source, code-first Typescript toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control.</description>
-    </item>
-    <item>
-      <title>swisskyrepo /PayloadsAllTheThings</title>
-      <link>https://github.com/swisskyrepo/PayloadsAllTheThings</link>
-      <description>A list of useful payloads and bypass for Web Application Security and Pentest/CTF</description>
-    </item>
-    <item>
-      <title>exo-explore /exo</title>
-      <link>https://github.com/exo-explore/exo</link>
-      <description>Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚</description>
+      <title>NexaAI /nexa-sdk</title>
+      <link>https://github.com/NexaAI/nexa-sdk</link>
+      <description>Run the latest LLMs and VLMs across GPU, NPU, and CPU with PC (Python/C++) &amp; mobile (Android &amp; iOS) support, running quickly with OpenAI gpt-oss, Granite4, Qwen3VL, Gemma 3n and more.</description>
     </item>
     <item>
       <title>GreyDGL /PentestGPT</title>
@@ -38,9 +28,19 @@
       <description>A GPT-empowered penetration testing tool</description>
     </item>
     <item>
-      <title>NVIDIA-NeMo /Gym</title>
-      <link>https://github.com/NVIDIA-NeMo/Gym</link>
-      <description>Build RL environments for LLM training</description>
+      <title>cloudcommunity /Free-Certifications</title>
+      <link>https://github.com/cloudcommunity/Free-Certifications</link>
+      <description>A curated list of free courses with certifications. Also available athttps://free-certifications.com/</description>
+    </item>
+    <item>
+      <title>swisskyrepo /PayloadsAllTheThings</title>
+      <link>https://github.com/swisskyrepo/PayloadsAllTheThings</link>
+      <description>A list of useful payloads and bypass for Web Application Security and Pentest/CTF</description>
+    </item>
+    <item>
+      <title>github /awesome-copilot</title>
+      <link>https://github.com/github/awesome-copilot</link>
+      <description>Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot.</description>
     </item>
     <item>
       <title>anthropics /claude-code</title>
@@ -48,9 +48,14 @@
       <description>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</description>
     </item>
     <item>
-      <title>jaywcjlove /awesome-mac</title>
-      <link>https://github.com/jaywcjlove/awesome-mac</link>
-      <description> Now we have become very big, Different from the original idea. Collect premium software in various categories.</description>
+      <title>lintsinghua /DeepAudit</title>
+      <link>https://github.com/lintsinghua/DeepAudit</link>
+      <description>DeepAudit：人人拥有的 AI 黑客战队，让漏洞挖掘触手可及。国内首个开源的代码漏洞挖掘多智能体系统。小白一键部署运行，自主协作审计 + 自动化沙箱 PoC 验证。支持 Ollama 私有部署 ，一键生成报告。​让安全不再昂贵，让审计不再复杂。</description>
+    </item>
+    <item>
+      <title>exo-explore /exo</title>
+      <link>https://github.com/exo-explore/exo</link>
+      <description>Run your own AI cluster at home with everyday devices 📱💻 🖥️⌚</description>
     </item>
   </channel>
 </rss>

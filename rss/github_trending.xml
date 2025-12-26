@@ -6,66 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 25 Dec 2025 02:20:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Dec 2025 02:13:03 +0000</lastBuildDate>
     <item>
-      <title>vendure-ecommerce /vendure</title>
-      <link>https://github.com/vendure-ecommerce/vendure</link>
-      <description>The most customizable commerce platform built with TypeScript, NestJS and GraphQL.</description>
-    </item>
-    <item>
-      <title>facebookresearch /dinov3</title>
-      <link>https://github.com/facebookresearch/dinov3</link>
-      <description>Reference PyTorch implementation and models for DINOv3</description>
-    </item>
-    <item>
-      <title>etcd-io /etcd</title>
-      <link>https://github.com/etcd-io/etcd</link>
-      <description>Distributed reliable key-value store for the most critical data of a distributed system</description>
-    </item>
-    <item>
-      <title>anthropics /skills</title>
-      <link>https://github.com/anthropics/skills</link>
-      <description>Public repository for Agent Skills</description>
-    </item>
-    <item>
-      <title>langgenius /dify</title>
-      <link>https://github.com/langgenius/dify</link>
-      <description>Production-ready platform for agentic workflow development.</description>
-    </item>
-    <item>
-      <title>apurvsinghgautam /robin</title>
-      <link>https://github.com/apurvsinghgautam/robin</link>
-      <description>AI-Powered Dark Web OSINT Tool</description>
-    </item>
-    <item>
-      <title>danielmiessler /Fabric</title>
-      <link>https://github.com/danielmiessler/Fabric</link>
-      <description>Fabric is an open-source framework for augmenting humans using AI. It provides a modular system for solving specific problems using a crowdsourced set of AI prompts that can be used anywhere.</description>
-    </item>
-    <item>
-      <title>yichuan-w /LEANN</title>
-      <link>https://github.com/yichuan-w/LEANN</link>
-      <description>RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.</description>
-    </item>
-    <item>
-      <title>makeplane /plane</title>
-      <link>https://github.com/makeplane/plane</link>
-      <description>🔥 🔥 🔥 Open Source JIRA, Linear, Monday, and Asana Alternative. Plane helps you track your issues, epics, and cycles the easiest way on the planet.</description>
-    </item>
-    <item>
-      <title>safety-research /bloom</title>
-      <link>https://github.com/safety-research/bloom</link>
-      <description>bloom - evaluate any behavior immediately  🌸🌱</description>
-    </item>
-    <item>
-      <title>davila7 /claude-code-templates</title>
-      <link>https://github.com/davila7/claude-code-templates</link>
-      <description>CLI tool for configuring and monitoring Claude Code</description>
-    </item>
-    <item>
-      <title>stan-smith /FossFLOW</title>
-      <link>https://github.com/stan-smith/FossFLOW</link>
-      <description>Make beautiful isometric infrastructure diagrams</description>
+      <title>ModelTC /LightX2V</title>
+      <link>https://github.com/ModelTC/LightX2V</link>
+      <description>Light Video Generation Inference Framework</description>
     </item>
     <item>
       <title>vllm-project /vllm-omni</title>
@@ -73,9 +18,24 @@
       <description>A framework for efficient model inference with omni-modality models</description>
     </item>
     <item>
-      <title>google /langextract</title>
-      <link>https://github.com/google/langextract</link>
-      <description>A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.</description>
+      <title>makeplane /plane</title>
+      <link>https://github.com/makeplane/plane</link>
+      <description>🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.</description>
+    </item>
+    <item>
+      <title>resemble-ai /chatterbox</title>
+      <link>https://github.com/resemble-ai/chatterbox</link>
+      <description>SoTA open-source TTS</description>
+    </item>
+    <item>
+      <title>yichuan-w /LEANN</title>
+      <link>https://github.com/yichuan-w/LEANN</link>
+      <description>RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.</description>
+    </item>
+    <item>
+      <title>vendure-ecommerce /vendure</title>
+      <link>https://github.com/vendure-ecommerce/vendure</link>
+      <description>The most customizable commerce platform built with TypeScript, NestJS and GraphQL.</description>
     </item>
     <item>
       <title>twitter /the-algorithm</title>
@@ -83,9 +43,14 @@
       <description>Source code for the X Recommendation Algorithm</description>
     </item>
     <item>
+      <title>xerrors /Yuxi-Know</title>
+      <link>https://github.com/xerrors/Yuxi-Know</link>
+      <description>结合LightRAG 知识库的知识图谱智能体平台。 An agent platform that integrates a LightRAG knowledge base and knowledge graphs. Build with LangChain v1 + Vue + FastAPI, support DeepAgents、MinerU PDF、Neo4j 、MCP.</description>
+    </item>
+    <item>
       <title>rendercv /rendercv</title>
       <link>https://github.com/rendercv/rendercv</link>
-      <description>Typst-based CV/resume generator for academics and engineers</description>
+      <description>CV/resume generator for academics and engineers, YAML to PDF</description>
     </item>
   </channel>
 </rss>

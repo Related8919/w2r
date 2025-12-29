@@ -6,11 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 28 Dec 2025 02:31:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 02:29:28 +0000</lastBuildDate>
     <item>
-      <title>rendercv /rendercv</title>
-      <link>https://github.com/rendercv/rendercv</link>
-      <description>CV/resume generator for academics and engineers, YAML to PDF</description>
+      <title>sinelaw /fresh</title>
+      <link>https://github.com/sinelaw/fresh</link>
+      <description>Text editor for your terminal: easy, powerful and fast</description>
     </item>
     <item>
       <title>Shubhamsaboo /awesome-llm-apps</title>
@@ -18,19 +18,34 @@
       <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
     </item>
     <item>
-      <title>agrinman /tunnelto</title>
-      <link>https://github.com/agrinman/tunnelto</link>
-      <description>Expose your local web server to the internet with a public URL.</description>
+      <title>QuantConnect /Lean</title>
+      <link>https://github.com/QuantConnect/Lean</link>
+      <description>Lean Algorithmic Trading Engine by QuantConnect (Python, C#)</description>
     </item>
     <item>
-      <title>xerrors /Yuxi-Know</title>
-      <link>https://github.com/xerrors/Yuxi-Know</link>
-      <description>结合LightRAG 知识库的知识图谱智能体平台。 An agent platform that integrates a LightRAG knowledge base and knowledge graphs. Build with LangChain v1 + Vue + FastAPI, support DeepAgents、MinerU PDF、Neo4j 、MCP.</description>
+      <title>RustPython /RustPython</title>
+      <link>https://github.com/RustPython/RustPython</link>
+      <description>A Python Interpreter written in Rust</description>
+    </item>
+    <item>
+      <title>BloopAI /vibe-kanban</title>
+      <link>https://github.com/BloopAI/vibe-kanban</link>
+      <description>Get 10X more out of Claude Code, Codex or any coding agent</description>
+    </item>
+    <item>
+      <title>Sergeydigl3 /zapret-discord-youtube-linux</title>
+      <link>https://github.com/Sergeydigl3/zapret-discord-youtube-linux</link>
+      <description>(NOW ONLY FOR NFTABLES) Port zapret-discord-youtube from Flowseal and bol-van for easy to use on linux</description>
     </item>
     <item>
       <title>TheAlgorithms /Python</title>
       <link>https://github.com/TheAlgorithms/Python</link>
       <description>All Algorithms implemented in Python</description>
+    </item>
+    <item>
+      <title>tw93 /Mole</title>
+      <link>https://github.com/tw93/Mole</link>
+      <description>🐹 Deep clean and optimize your Mac.</description>
     </item>
   </channel>
 </rss>

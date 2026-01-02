@@ -6,41 +6,31 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 01 Jan 2026 02:32:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 02:22:30 +0000</lastBuildDate>
     <item>
-      <title>nocodb /nocodb</title>
-      <link>https://github.com/nocodb/nocodb</link>
-      <description>🔥 🔥 🔥 Open Source Airtable Alternative</description>
+      <title>DayuanJiang /next-ai-draw-io</title>
+      <link>https://github.com/DayuanJiang/next-ai-draw-io</link>
+      <description>A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.</description>
     </item>
     <item>
-      <title>resemble-ai /chatterbox</title>
-      <link>https://github.com/resemble-ai/chatterbox</link>
-      <description>SoTA open-source TTS</description>
+      <title>livekit /agents</title>
+      <link>https://github.com/livekit/agents</link>
+      <description>A powerful framework for building realtime voice AI agents 🤖🎙️📹</description>
     </item>
     <item>
-      <title>organicmaps /organicmaps</title>
-      <link>https://github.com/organicmaps/organicmaps</link>
-      <description>🍃 Organic Maps is a free Android &amp; iOS offline maps app for travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!</description>
+      <title>yichuan-w /LEANN</title>
+      <link>https://github.com/yichuan-w/LEANN</link>
+      <description>RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.</description>
     </item>
     <item>
-      <title>openai /openai-cookbook</title>
-      <link>https://github.com/openai/openai-cookbook</link>
-      <description>Examples and guides for using the OpenAI API</description>
+      <title>HandsOnLLM /Hands-On-Large-Language-Models</title>
+      <link>https://github.com/HandsOnLLM/Hands-On-Large-Language-Models</link>
+      <description>Official code repo for the O'Reilly Book - "Hands-On Large Language Models"</description>
     </item>
     <item>
-      <title>sansan0 /TrendRadar</title>
-      <link>https://github.com/sansan0/TrendRadar</link>
-      <description>🎯 告别信息过载，AI 助你看懂新闻资讯热点，支持 RSS 订阅，简单的舆情监控分析 - 多平台热点聚合+基于 MCP 的AI分析工具。监控35个平台（抖音、知乎、B站、华尔街见闻、财联社等），智能筛选+自动推送+AI对话分析（用自然语言深度挖掘新闻：趋势追踪、情感分析、相似检索等20种工具）。支持企业微信/个人微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 推送，30秒快速部署，1分钟手机通知，无需编程。支持Docker部署，支持数据远程云存储⭐ 让算法为你服务，用AI理解热点</description>
-    </item>
-    <item>
-      <title>timescale /pg-aiguide</title>
-      <link>https://github.com/timescale/pg-aiguide</link>
-      <description>MCP server and Claude plugin for Postgres skills and documentation. Helps AI coding tools generate better PostgreSQL code.</description>
-    </item>
-    <item>
-      <title>BloopAI /vibe-kanban</title>
-      <link>https://github.com/BloopAI/vibe-kanban</link>
-      <description>Get 10X more out of Claude Code, Codex or any coding agent</description>
+      <title>Polymarket /agents</title>
+      <link>https://github.com/Polymarket/agents</link>
+      <description>Trade autonomously on Polymarket using AI Agents</description>
     </item>
     <item>
       <title>harvard-edge /cs249r_book</title>
@@ -48,9 +38,34 @@
       <description>Introduction to Machine Learning Systems</description>
     </item>
     <item>
+      <title>HQarroum /docker-android</title>
+      <link>https://github.com/HQarroum/docker-android</link>
+      <description>🤖 A minimal and customizable Docker image running the Android emulator as a service.</description>
+    </item>
+    <item>
       <title>afkarxyz /SpotiFLAC</title>
       <link>https://github.com/afkarxyz/SpotiFLAC</link>
       <description>Get Spotify tracks in true FLAC from Tidal, Qobuz &amp; Amazon Music — no account required.</description>
+    </item>
+    <item>
+      <title>organicmaps /organicmaps</title>
+      <link>https://github.com/organicmaps/organicmaps</link>
+      <description>🍃 Organic Maps is a free Android &amp; iOS offline maps app for travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!</description>
+    </item>
+    <item>
+      <title>usememos /memos</title>
+      <link>https://github.com/usememos/memos</link>
+      <description>An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.</description>
+    </item>
+    <item>
+      <title>BloopAI /vibe-kanban</title>
+      <link>https://github.com/BloopAI/vibe-kanban</link>
+      <description>Get 10X more out of Claude Code, Codex or any coding agent</description>
+    </item>
+    <item>
+      <title>awslabs /amazon-bedrock-agentcore-samples</title>
+      <link>https://github.com/awslabs/amazon-bedrock-agentcore-samples</link>
+      <description>Amazon Bedrock Agentcore accelerates AI agents into production with the scale, reliability, and security, critical to real-world deployment.</description>
     </item>
   </channel>
 </rss>

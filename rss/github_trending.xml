@@ -6,51 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 02 Jan 2026 02:22:30 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jan 2026 02:10:07 +0000</lastBuildDate>
     <item>
-      <title>DayuanJiang /next-ai-draw-io</title>
-      <link>https://github.com/DayuanJiang/next-ai-draw-io</link>
-      <description>A next.js web application that integrates AI capabilities with draw.io diagrams. This app allows you to create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.</description>
+      <title>Koenkk /zigbee2mqtt</title>
+      <link>https://github.com/Koenkk/zigbee2mqtt</link>
+      <description>Zigbee 🐝 to MQTT bridge 🌉, get rid of your proprietary Zigbee bridges 🔨</description>
     </item>
     <item>
-      <title>livekit /agents</title>
-      <link>https://github.com/livekit/agents</link>
-      <description>A powerful framework for building realtime voice AI agents 🤖🎙️📹</description>
+      <title>SYSTRAN /faster-whisper</title>
+      <link>https://github.com/SYSTRAN/faster-whisper</link>
+      <description>Faster Whisper transcription with CTranslate2</description>
     </item>
     <item>
-      <title>yichuan-w /LEANN</title>
-      <link>https://github.com/yichuan-w/LEANN</link>
-      <description>RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.</description>
-    </item>
-    <item>
-      <title>HandsOnLLM /Hands-On-Large-Language-Models</title>
-      <link>https://github.com/HandsOnLLM/Hands-On-Large-Language-Models</link>
-      <description>Official code repo for the O'Reilly Book - "Hands-On Large Language Models"</description>
-    </item>
-    <item>
-      <title>Polymarket /agents</title>
-      <link>https://github.com/Polymarket/agents</link>
-      <description>Trade autonomously on Polymarket using AI Agents</description>
-    </item>
-    <item>
-      <title>harvard-edge /cs249r_book</title>
-      <link>https://github.com/harvard-edge/cs249r_book</link>
-      <description>Introduction to Machine Learning Systems</description>
-    </item>
-    <item>
-      <title>HQarroum /docker-android</title>
-      <link>https://github.com/HQarroum/docker-android</link>
-      <description>🤖 A minimal and customizable Docker image running the Android emulator as a service.</description>
-    </item>
-    <item>
-      <title>afkarxyz /SpotiFLAC</title>
-      <link>https://github.com/afkarxyz/SpotiFLAC</link>
-      <description>Get Spotify tracks in true FLAC from Tidal, Qobuz &amp; Amazon Music — no account required.</description>
-    </item>
-    <item>
-      <title>organicmaps /organicmaps</title>
-      <link>https://github.com/organicmaps/organicmaps</link>
-      <description>🍃 Organic Maps is a free Android &amp; iOS offline maps app for travelers, tourists, hikers, and cyclists. It uses crowd-sourced OpenStreetMap data and is developed with love by the community. No ads, no tracking, no data collection, no crapware. Please donate to support the development!</description>
+      <title>GitHubDaily /GitHubDaily</title>
+      <link>https://github.com/GitHubDaily/GitHubDaily</link>
+      <description>坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.</description>
     </item>
     <item>
       <title>usememos /memos</title>
@@ -58,14 +28,29 @@
       <description>An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.</description>
     </item>
     <item>
-      <title>BloopAI /vibe-kanban</title>
-      <link>https://github.com/BloopAI/vibe-kanban</link>
-      <description>Get 10X more out of Claude Code, Codex or any coding agent</description>
+      <title>rossant /awesome-math</title>
+      <link>https://github.com/rossant/awesome-math</link>
+      <description>A curated list of awesome mathematics resources</description>
     </item>
     <item>
-      <title>awslabs /amazon-bedrock-agentcore-samples</title>
-      <link>https://github.com/awslabs/amazon-bedrock-agentcore-samples</link>
-      <description>Amazon Bedrock Agentcore accelerates AI agents into production with the scale, reliability, and security, critical to real-world deployment.</description>
+      <title>ourongxing /newsnow</title>
+      <link>https://github.com/ourongxing/newsnow</link>
+      <description>Elegant reading of real-time and hottest news</description>
+    </item>
+    <item>
+      <title>openai /openai-cookbook</title>
+      <link>https://github.com/openai/openai-cookbook</link>
+      <description>Examples and guides for using the OpenAI API</description>
+    </item>
+    <item>
+      <title>nocodb /nocodb</title>
+      <link>https://github.com/nocodb/nocodb</link>
+      <description>🔥 🔥 🔥 Open Source Airtable Alternative</description>
+    </item>
+    <item>
+      <title>HQarroum /docker-android</title>
+      <link>https://github.com/HQarroum/docker-android</link>
+      <description>🤖 A minimal and customizable Docker image running the Android emulator as a service.</description>
     </item>
   </channel>
 </rss>

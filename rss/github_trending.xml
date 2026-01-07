@@ -6,56 +6,51 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 06 Jan 2026 02:22:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 02:22:12 +0000</lastBuildDate>
     <item>
-      <title>anthropics /claude-code</title>
-      <link>https://github.com/anthropics/claude-code</link>
-      <description>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</description>
+      <title>bobbyiliev /introduction-to-bash-scripting</title>
+      <link>https://github.com/bobbyiliev/introduction-to-bash-scripting</link>
+      <description>Free Introduction to Bash Scripting eBook</description>
     </item>
     <item>
-      <title>maplibre /maplibre-gl-js</title>
-      <link>https://github.com/maplibre/maplibre-gl-js</link>
-      <description>MapLibre GL JS - Interactive vector tile maps in the browser</description>
+      <title>VectifyAI /PageIndex</title>
+      <link>https://github.com/VectifyAI/PageIndex</link>
+      <description>📑 PageIndex: Document Index for Reasoning-based RAG</description>
     </item>
     <item>
-      <title>3b1b /manim</title>
-      <link>https://github.com/3b1b/manim</link>
-      <description>Animation engine for explanatory math videos</description>
+      <title>LuckyOne7777 /ChatGPT-Micro-Cap-Experiment</title>
+      <link>https://github.com/LuckyOne7777/ChatGPT-Micro-Cap-Experiment</link>
+      <description>This repo powers my experiment where ChatGPT manages a real-money micro-cap stock portfolio.</description>
     </item>
     <item>
-      <title>microsoft /VibeVoice</title>
-      <link>https://github.com/microsoft/VibeVoice</link>
-      <description>Open-Source Frontier Voice AI</description>
+      <title>kirodotdev /Kiro</title>
+      <link>https://github.com/kirodotdev/Kiro</link>
+      <description>Kiro is an agentic IDE that works alongside you from prototype to production.</description>
     </item>
     <item>
-      <title>python /cpython</title>
-      <link>https://github.com/python/cpython</link>
-      <description>The Python programming language</description>
+      <title>marcelscruz /public-apis</title>
+      <link>https://github.com/marcelscruz/public-apis</link>
+      <description>A collaborative list of public APIs for developers</description>
     </item>
     <item>
-      <title>virattt /ai-hedge-fund</title>
-      <link>https://github.com/virattt/ai-hedge-fund</link>
-      <description>An AI Hedge Fund Team</description>
+      <title>microsoft /BitNet</title>
+      <link>https://github.com/microsoft/BitNet</link>
+      <description>Official inference framework for 1-bit LLMs</description>
     </item>
     <item>
-      <title>ourongxing /newsnow</title>
-      <link>https://github.com/ourongxing/newsnow</link>
-      <description>Elegant reading of real-time and hottest news</description>
+      <title>microsoft /PowerToys</title>
+      <link>https://github.com/microsoft/PowerToys</link>
+      <description>Microsoft PowerToys is a collection of utilities that help you customize Windows and streamline everyday tasks</description>
     </item>
     <item>
-      <title>OpenBB-finance /OpenBB</title>
-      <link>https://github.com/OpenBB-finance/OpenBB</link>
-      <description>Financial data platform for analysts, quants and AI agents.</description>
+      <title>Lissy93 /web-check</title>
+      <link>https://github.com/Lissy93/web-check</link>
+      <description>🕵️‍♂️ All-in-one OSINT tool for analysing any website</description>
     </item>
     <item>
-      <title>usememos /memos</title>
-      <link>https://github.com/usememos/memos</link>
-      <description>An open-source, self-hosted note-taking service. Your thoughts, your data, your control — no tracking, no ads, no subscription fees.</description>
-    </item>
-    <item>
-      <title>anomalyco /opencode</title>
-      <link>https://github.com/anomalyco/opencode</link>
-      <description>The open source coding agent.</description>
+      <title>protocolbuffers /protobuf</title>
+      <link>https://github.com/protocolbuffers/protobuf</link>
+      <description>Protocol Buffers - Google's data interchange format</description>
     </item>
   </channel>
 </rss>

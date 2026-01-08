@@ -6,26 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 07 Jan 2026 02:22:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 02:22:38 +0000</lastBuildDate>
     <item>
-      <title>bobbyiliev /introduction-to-bash-scripting</title>
-      <link>https://github.com/bobbyiliev/introduction-to-bash-scripting</link>
-      <description>Free Introduction to Bash Scripting eBook</description>
+      <title>anthropics /prompt-eng-interactive-tutorial</title>
+      <link>https://github.com/anthropics/prompt-eng-interactive-tutorial</link>
+      <description>Anthropic's Interactive Prompt Engineering Tutorial</description>
     </item>
     <item>
-      <title>VectifyAI /PageIndex</title>
-      <link>https://github.com/VectifyAI/PageIndex</link>
-      <description>📑 PageIndex: Document Index for Reasoning-based RAG</description>
+      <title>MiroMindAI /MiroThinker</title>
+      <link>https://github.com/MiroMindAI/MiroThinker</link>
+      <description>MiroThinker is a series of open-source search agent designed to advance tool-augmented reasoning and information-seeking capabilities.</description>
     </item>
     <item>
-      <title>LuckyOne7777 /ChatGPT-Micro-Cap-Experiment</title>
-      <link>https://github.com/LuckyOne7777/ChatGPT-Micro-Cap-Experiment</link>
-      <description>This repo powers my experiment where ChatGPT manages a real-money micro-cap stock portfolio.</description>
-    </item>
-    <item>
-      <title>kirodotdev /Kiro</title>
-      <link>https://github.com/kirodotdev/Kiro</link>
-      <description>Kiro is an agentic IDE that works alongside you from prototype to production.</description>
+      <title>prateek-chaubey /YTPro</title>
+      <link>https://github.com/prateek-chaubey/YTPro</link>
+      <description>Youtube client with older Android version support, background player, Google Gemini ✨ and many more features.</description>
     </item>
     <item>
       <title>marcelscruz /public-apis</title>
@@ -33,9 +28,29 @@
       <description>A collaborative list of public APIs for developers</description>
     </item>
     <item>
-      <title>microsoft /BitNet</title>
-      <link>https://github.com/microsoft/BitNet</link>
-      <description>Official inference framework for 1-bit LLMs</description>
+      <title>DrewThomasson /ebook2audiobook</title>
+      <link>https://github.com/DrewThomasson/ebook2audiobook</link>
+      <description>Generate audiobooks from e-books, voice cloning &amp; 1158+ languages!</description>
+    </item>
+    <item>
+      <title>patchy631 /ai-engineering-hub</title>
+      <link>https://github.com/patchy631/ai-engineering-hub</link>
+      <description>In-depth tutorials on LLMs, RAGs and real-world AI agent applications.</description>
+    </item>
+    <item>
+      <title>memvid /memvid</title>
+      <link>https://github.com/memvid/memvid</link>
+      <description>Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.</description>
+    </item>
+    <item>
+      <title>ChromeDevTools /chrome-devtools-mcp</title>
+      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
+      <description>Chrome DevTools for coding agents</description>
+    </item>
+    <item>
+      <title>protocolbuffers /protobuf</title>
+      <link>https://github.com/protocolbuffers/protobuf</link>
+      <description>Protocol Buffers - Google's data interchange format</description>
     </item>
     <item>
       <title>microsoft /PowerToys</title>
@@ -48,9 +63,14 @@
       <description>🕵️‍♂️ All-in-one OSINT tool for analysing any website</description>
     </item>
     <item>
-      <title>protocolbuffers /protobuf</title>
-      <link>https://github.com/protocolbuffers/protobuf</link>
-      <description>Protocol Buffers - Google's data interchange format</description>
+      <title>google /googletest</title>
+      <link>https://github.com/google/googletest</link>
+      <description>GoogleTest - Google Testing and Mocking Framework</description>
+    </item>
+    <item>
+      <title>thedotmack /claude-mem</title>
+      <link>https://github.com/thedotmack/claude-mem</link>
+      <description>A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.</description>
     </item>
   </channel>
 </rss>

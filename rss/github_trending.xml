@@ -6,31 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 09 Jan 2026 02:23:34 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 02:13:02 +0000</lastBuildDate>
     <item>
-      <title>HKUDS /VideoRAG</title>
-      <link>https://github.com/HKUDS/VideoRAG</link>
-      <description>[KDD'2026] "VideoRAG: Chat with Your Videos"</description>
+      <title>anomalyco /opencode</title>
+      <link>https://github.com/anomalyco/opencode</link>
+      <description>The open source coding agent.</description>
     </item>
     <item>
-      <title>NevaMind-AI /memU</title>
-      <link>https://github.com/NevaMind-AI/memU</link>
-      <description>Memory infrastructure for LLMs and AI agents</description>
+      <title>Johnshall /Shadowrocket-ADBlock-Rules-Forever</title>
+      <link>https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever</link>
+      <description>提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。</description>
     </item>
     <item>
-      <title>Lightricks /ComfyUI-LTXVideo</title>
-      <link>https://github.com/Lightricks/ComfyUI-LTXVideo</link>
-      <description>LTX-Video Support for ComfyUI</description>
-    </item>
-    <item>
-      <title>memvid /memvid</title>
-      <link>https://github.com/memvid/memvid</link>
-      <description>Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer. Give your agents instant retrieval and long-term memory.</description>
-    </item>
-    <item>
-      <title>apache /superset</title>
-      <link>https://github.com/apache/superset</link>
-      <description>Apache Superset is a Data Visualization and Data Exploration Platform</description>
+      <title>bytedance /UI-TARS-desktop</title>
+      <link>https://github.com/bytedance/UI-TARS-desktop</link>
+      <description>The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra</description>
     </item>
     <item>
       <title>google /googletest</title>
@@ -38,34 +28,34 @@
       <description>GoogleTest - Google Testing and Mocking Framework</description>
     </item>
     <item>
-      <title>Lissy93 /web-check</title>
-      <link>https://github.com/Lissy93/web-check</link>
-      <description>🕵️‍♂️ All-in-one OSINT tool for analysing any website</description>
-    </item>
-    <item>
-      <title>xpipe-io /xpipe</title>
-      <link>https://github.com/xpipe-io/xpipe</link>
-      <description>Access your entire server infrastructure from your local desktop</description>
-    </item>
-    <item>
-      <title>thedotmack /claude-mem</title>
-      <link>https://github.com/thedotmack/claude-mem</link>
-      <description>A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.</description>
-    </item>
-    <item>
-      <title>protocolbuffers /protobuf</title>
-      <link>https://github.com/protocolbuffers/protobuf</link>
-      <description>Protocol Buffers - Google's data interchange format</description>
-    </item>
-    <item>
       <title>MiroMindAI /MiroThinker</title>
       <link>https://github.com/MiroMindAI/MiroThinker</link>
-      <description>MiroThinker is an open-source search agent suite, built for tool-augmented reasoning and real-world information seeking, aiming to match the deep research experience of OpenAI Deep Research and Gemini Deep Research.</description>
+      <description>MiroThinker is an open-source search agent model, built for tool-augmented reasoning and real-world information seeking, aiming to match the deep research experience of OpenAI Deep Research and Gemini Deep Research.</description>
     </item>
     <item>
-      <title>nothings /stb</title>
-      <link>https://github.com/nothings/stb</link>
-      <description>stb single-file public domain libraries for C/C++</description>
+      <title>Lightricks /ComfyUI-LTXVideo</title>
+      <link>https://github.com/Lightricks/ComfyUI-LTXVideo</link>
+      <description>LTX-Video Support for ComfyUI</description>
+    </item>
+    <item>
+      <title>C4illin /ConvertX</title>
+      <link>https://github.com/C4illin/ConvertX</link>
+      <description>💾 Self-hosted online file converter. Supports 1000+ formats ⚙️</description>
+    </item>
+    <item>
+      <title>netbirdio /netbird</title>
+      <link>https://github.com/netbirdio/netbird</link>
+      <description>Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.</description>
+    </item>
+    <item>
+      <title>tailwindlabs /tailwindcss</title>
+      <link>https://github.com/tailwindlabs/tailwindcss</link>
+      <description>A utility-first CSS framework for rapid UI development.</description>
+    </item>
+    <item>
+      <title>obra /superpowers</title>
+      <link>https://github.com/obra/superpowers</link>
+      <description>Claude Code superpowers: core skills library</description>
     </item>
     <item>
       <title>anthropics /claude-code</title>

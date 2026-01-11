@@ -6,26 +6,16 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 10 Jan 2026 02:13:02 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 02:33:36 +0000</lastBuildDate>
     <item>
-      <title>anomalyco /opencode</title>
-      <link>https://github.com/anomalyco/opencode</link>
-      <description>The open source coding agent.</description>
+      <title>twentyhq /twenty</title>
+      <link>https://github.com/twentyhq/twenty</link>
+      <description>Building a modern alternative to Salesforce, powered by the community.</description>
     </item>
     <item>
-      <title>Johnshall /Shadowrocket-ADBlock-Rules-Forever</title>
-      <link>https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever</link>
-      <description>提供多款 Shadowrocket 规则，拥有强劲的广告过滤功能。每日 8 时重新构建规则。</description>
-    </item>
-    <item>
-      <title>bytedance /UI-TARS-desktop</title>
-      <link>https://github.com/bytedance/UI-TARS-desktop</link>
-      <description>The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra</description>
-    </item>
-    <item>
-      <title>google /googletest</title>
-      <link>https://github.com/google/googletest</link>
-      <description>GoogleTest - Google Testing and Mocking Framework</description>
+      <title>hacksider /Deep-Live-Cam</title>
+      <link>https://github.com/hacksider/Deep-Live-Cam</link>
+      <description>real time face swap and one-click video deepfake with only a single image</description>
     </item>
     <item>
       <title>MiroMindAI /MiroThinker</title>
@@ -33,9 +23,9 @@
       <description>MiroThinker is an open-source search agent model, built for tool-augmented reasoning and real-world information seeking, aiming to match the deep research experience of OpenAI Deep Research and Gemini Deep Research.</description>
     </item>
     <item>
-      <title>Lightricks /ComfyUI-LTXVideo</title>
-      <link>https://github.com/Lightricks/ComfyUI-LTXVideo</link>
-      <description>LTX-Video Support for ComfyUI</description>
+      <title>opf /openproject</title>
+      <link>https://github.com/opf/openproject</link>
+      <description>OpenProject is the leading open source project management software.</description>
     </item>
     <item>
       <title>C4illin /ConvertX</title>
@@ -43,14 +33,19 @@
       <description>💾 Self-hosted online file converter. Supports 1000+ formats ⚙️</description>
     </item>
     <item>
-      <title>netbirdio /netbird</title>
-      <link>https://github.com/netbirdio/netbird</link>
-      <description>Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.</description>
+      <title>bytedance /UI-TARS-desktop</title>
+      <link>https://github.com/bytedance/UI-TARS-desktop</link>
+      <description>The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra</description>
     </item>
     <item>
-      <title>tailwindlabs /tailwindcss</title>
-      <link>https://github.com/tailwindlabs/tailwindcss</link>
-      <description>A utility-first CSS framework for rapid UI development.</description>
+      <title>xpipe-io /xpipe</title>
+      <link>https://github.com/xpipe-io/xpipe</link>
+      <description>Access your entire server infrastructure from your local desktop</description>
+    </item>
+    <item>
+      <title>google /googletest</title>
+      <link>https://github.com/google/googletest</link>
+      <description>GoogleTest - Google Testing and Mocking Framework</description>
     </item>
     <item>
       <title>obra /superpowers</title>
@@ -58,14 +53,24 @@
       <description>Claude Code superpowers: core skills library</description>
     </item>
     <item>
-      <title>anthropics /claude-code</title>
-      <link>https://github.com/anthropics/claude-code</link>
-      <description>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</description>
+      <title>NevaMind-AI /memU</title>
+      <link>https://github.com/NevaMind-AI/memU</link>
+      <description>Memory infrastructure for LLMs and AI agents</description>
+    </item>
+    <item>
+      <title>github /awesome-copilot</title>
+      <link>https://github.com/github/awesome-copilot</link>
+      <description>Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot.</description>
     </item>
     <item>
       <title>ChromeDevTools /chrome-devtools-mcp</title>
       <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
       <description>Chrome DevTools for coding agents</description>
+    </item>
+    <item>
+      <title>anthropics /claude-code</title>
+      <link>https://github.com/anthropics/claude-code</link>
+      <description>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</description>
     </item>
   </channel>
 </rss>

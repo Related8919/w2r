@@ -6,26 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 11 Jan 2026 02:33:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 02:28:55 +0000</lastBuildDate>
     <item>
-      <title>twentyhq /twenty</title>
-      <link>https://github.com/twentyhq/twenty</link>
-      <description>Building a modern alternative to Salesforce, powered by the community.</description>
-    </item>
-    <item>
-      <title>hacksider /Deep-Live-Cam</title>
-      <link>https://github.com/hacksider/Deep-Live-Cam</link>
-      <description>real time face swap and one-click video deepfake with only a single image</description>
-    </item>
-    <item>
-      <title>MiroMindAI /MiroThinker</title>
-      <link>https://github.com/MiroMindAI/MiroThinker</link>
-      <description>MiroThinker is an open-source search agent model, built for tool-augmented reasoning and real-world information seeking, aiming to match the deep research experience of OpenAI Deep Research and Gemini Deep Research.</description>
-    </item>
-    <item>
-      <title>opf /openproject</title>
-      <link>https://github.com/opf/openproject</link>
-      <description>OpenProject is the leading open source project management software.</description>
+      <title>simstudioai /sim</title>
+      <link>https://github.com/simstudioai/sim</link>
+      <description>Open-source platform to build and deploy AI agent workflows.</description>
     </item>
     <item>
       <title>C4illin /ConvertX</title>
@@ -33,19 +18,44 @@
       <description>💾 Self-hosted online file converter. Supports 1000+ formats ⚙️</description>
     </item>
     <item>
+      <title>anthropics /claude-code</title>
+      <link>https://github.com/anthropics/claude-code</link>
+      <description>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</description>
+    </item>
+    <item>
+      <title>home-assistant /home-assistant.io</title>
+      <link>https://github.com/home-assistant/home-assistant.io</link>
+      <description>📘 Home Assistant User documentation</description>
+    </item>
+    <item>
+      <title>twentyhq /twenty</title>
+      <link>https://github.com/twentyhq/twenty</link>
+      <description>Building a modern alternative to Salesforce, powered by the community.</description>
+    </item>
+    <item>
       <title>bytedance /UI-TARS-desktop</title>
       <link>https://github.com/bytedance/UI-TARS-desktop</link>
       <description>The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra</description>
     </item>
     <item>
-      <title>xpipe-io /xpipe</title>
-      <link>https://github.com/xpipe-io/xpipe</link>
-      <description>Access your entire server infrastructure from your local desktop</description>
+      <title>twitter /twemoji</title>
+      <link>https://github.com/twitter/twemoji</link>
+      <description>Emoji for everyone.https://twemoji.twitter.com/</description>
     </item>
     <item>
-      <title>google /googletest</title>
-      <link>https://github.com/google/googletest</link>
-      <description>GoogleTest - Google Testing and Mocking Framework</description>
+      <title>makeplane /plane</title>
+      <link>https://github.com/makeplane/plane</link>
+      <description>🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.</description>
+    </item>
+    <item>
+      <title>davila7 /claude-code-templates</title>
+      <link>https://github.com/davila7/claude-code-templates</link>
+      <description>CLI tool for configuring and monitoring Claude Code</description>
+    </item>
+    <item>
+      <title>frankbria /ralph-claude-code</title>
+      <link>https://github.com/frankbria/ralph-claude-code</link>
+      <description>Autonomous AI development loop for Claude Code with intelligent exit detection</description>
     </item>
     <item>
       <title>obra /superpowers</title>
@@ -53,24 +63,9 @@
       <description>Claude Code superpowers: core skills library</description>
     </item>
     <item>
-      <title>NevaMind-AI /memU</title>
-      <link>https://github.com/NevaMind-AI/memU</link>
-      <description>Memory infrastructure for LLMs and AI agents</description>
-    </item>
-    <item>
-      <title>github /awesome-copilot</title>
-      <link>https://github.com/github/awesome-copilot</link>
-      <description>Community-contributed instructions, prompts, and configurations to help you make the most of GitHub Copilot.</description>
-    </item>
-    <item>
-      <title>ChromeDevTools /chrome-devtools-mcp</title>
-      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
-      <description>Chrome DevTools for coding agents</description>
-    </item>
-    <item>
-      <title>anthropics /claude-code</title>
-      <link>https://github.com/anthropics/claude-code</link>
-      <description>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</description>
+      <title>anomalyco /opencode</title>
+      <link>https://github.com/anomalyco/opencode</link>
+      <description>The open source coding agent.</description>
     </item>
   </channel>
 </rss>

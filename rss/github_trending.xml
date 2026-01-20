@@ -6,16 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 19 Jan 2026 02:29:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jan 2026 02:24:49 +0000</lastBuildDate>
     <item>
-      <title>Mebus /cupp</title>
-      <link>https://github.com/Mebus/cupp</link>
-      <description>Common User Passwords Profiler (CUPP)</description>
-    </item>
-    <item>
-      <title>tobi /try</title>
-      <link>https://github.com/tobi/try</link>
-      <description>fresh directories for every vibe</description>
+      <title>DavidXanatos /TaskExplorer</title>
+      <link>https://github.com/DavidXanatos/TaskExplorer</link>
+      <description>Power full Task Manager</description>
     </item>
     <item>
       <title>yichuan-w /LEANN</title>
@@ -23,9 +18,19 @@
       <description>RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.</description>
     </item>
     <item>
-      <title>OpenBMB /VoxCPM</title>
-      <link>https://github.com/OpenBMB/VoxCPM</link>
-      <description>VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning</description>
+      <title>nautechsystems /nautilus_trader</title>
+      <link>https://github.com/nautechsystems/nautilus_trader</link>
+      <description>A high-performance algorithmic trading platform and event-driven backtester</description>
+    </item>
+    <item>
+      <title>czlonkowski /n8n-mcp</title>
+      <link>https://github.com/czlonkowski/n8n-mcp</link>
+      <description>A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you</description>
+    </item>
+    <item>
+      <title>iOfficeAI /AionUi</title>
+      <link>https://github.com/iOfficeAI/AionUi</link>
+      <description>Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it!</description>
     </item>
     <item>
       <title>google /langextract</title>
@@ -33,19 +38,9 @@
       <description>A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.</description>
     </item>
     <item>
-      <title>nautechsystems /nautilus_trader</title>
-      <link>https://github.com/nautechsystems/nautilus_trader</link>
-      <description>A high-performance algorithmic trading platform and event-driven backtester</description>
-    </item>
-    <item>
-      <title>yt-dlp /yt-dlp</title>
-      <link>https://github.com/yt-dlp/yt-dlp</link>
-      <description>A feature-rich command-line audio/video downloader</description>
-    </item>
-    <item>
-      <title>iOfficeAI /AionUi</title>
-      <link>https://github.com/iOfficeAI/AionUi</link>
-      <description>Free, local, open-source Cowork for Gemini CLI, Claude Code, Codex, Opencode, Qwen Code, Goose Cli, Auggie, and more | 🌟 Star if you like it!</description>
+      <title>OpenBMB /VoxCPM</title>
+      <link>https://github.com/OpenBMB/VoxCPM</link>
+      <description>VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning</description>
     </item>
   </channel>
 </rss>

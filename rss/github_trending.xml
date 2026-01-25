@@ -6,56 +6,31 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 24 Jan 2026 02:20:01 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Jan 2026 02:35:57 +0000</lastBuildDate>
     <item>
-      <title>KellerJordan /modded-nanogpt</title>
-      <link>https://github.com/KellerJordan/modded-nanogpt</link>
-      <description>NanoGPT (124M) in 2 minutes</description>
+      <title>AI4Finance-Foundation /FinRobot</title>
+      <link>https://github.com/AI4Finance-Foundation/FinRobot</link>
+      <description>FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀</description>
     </item>
     <item>
-      <title>lyogavin /airllm</title>
-      <link>https://github.com/lyogavin/airllm</link>
-      <description>AirLLM 70B inference with single 4GB GPU</description>
+      <title>putyy /res-downloader</title>
+      <link>https://github.com/putyy/res-downloader</link>
+      <description>视频号、小程序、抖音、快手、小红书、直播流、m3u8、酷狗、QQ音乐等常见网络资源下载!</description>
     </item>
     <item>
-      <title>OpenBMB /UltraRAG</title>
-      <link>https://github.com/OpenBMB/UltraRAG</link>
-      <description>UltraRAG v3: A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines</description>
+      <title>microsoft /VibeVoice</title>
+      <link>https://github.com/microsoft/VibeVoice</link>
+      <description>Open-Source Frontier Voice AI</description>
     </item>
     <item>
-      <title>microsoft /Data-Science-For-Beginners</title>
-      <link>https://github.com/microsoft/Data-Science-For-Beginners</link>
-      <description>10 Weeks, 20 Lessons, Data Science for All!</description>
+      <title>simstudioai /sim</title>
+      <link>https://github.com/simstudioai/sim</link>
+      <description>Open-source platform to build and deploy AI agent workflows.</description>
     </item>
     <item>
-      <title>deepseek-ai /FlashMLA</title>
-      <link>https://github.com/deepseek-ai/FlashMLA</link>
-      <description>FlashMLA: Efficient Multi-head Latent Attention Kernels</description>
-    </item>
-    <item>
-      <title>anthropics /claude-code</title>
-      <link>https://github.com/anthropics/claude-code</link>
-      <description>Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.</description>
-    </item>
-    <item>
-      <title>Asabeneh /30-Days-Of-Python</title>
-      <link>https://github.com/Asabeneh/30-Days-Of-Python</link>
-      <description>The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own pace. These videos may help too:https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw</description>
-    </item>
-    <item>
-      <title>github /copilot-cli</title>
-      <link>https://github.com/github/copilot-cli</link>
-      <description>GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal.</description>
-    </item>
-    <item>
-      <title>browser-use /browser-use</title>
-      <link>https://github.com/browser-use/browser-use</link>
-      <description>🌐 Make websites accessible for AI agents. Automate tasks online with ease.</description>
-    </item>
-    <item>
-      <title>ai-dynamo /dynamo</title>
-      <link>https://github.com/ai-dynamo/dynamo</link>
-      <description>A Datacenter Scale Distributed Inference Serving Framework</description>
+      <title>Blaizzy /mlx-audio</title>
+      <link>https://github.com/Blaizzy/mlx-audio</link>
+      <description>A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.</description>
     </item>
     <item>
       <title>block /goose</title>
@@ -63,9 +38,19 @@
       <description>an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM</description>
     </item>
     <item>
-      <title>microsoft /VibeVoice</title>
-      <link>https://github.com/microsoft/VibeVoice</link>
-      <description>Open-Source Frontier Voice AI</description>
+      <title>browser-use /browser-use</title>
+      <link>https://github.com/browser-use/browser-use</link>
+      <description>🌐 Make websites accessible for AI agents. Automate tasks online with ease.</description>
+    </item>
+    <item>
+      <title>OpenBMB /UltraRAG</title>
+      <link>https://github.com/OpenBMB/UltraRAG</link>
+      <description>UltraRAG v3: A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines</description>
+    </item>
+    <item>
+      <title>VectifyAI /PageIndex</title>
+      <link>https://github.com/VectifyAI/PageIndex</link>
+      <description>📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG</description>
     </item>
     <item>
       <title>remotion-dev /remotion</title>

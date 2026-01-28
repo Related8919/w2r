@@ -6,31 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 27 Jan 2026 02:30:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 02:26:36 +0000</lastBuildDate>
     <item>
-      <title>business-science /ai-data-science-team</title>
-      <link>https://github.com/business-science/ai-data-science-team</link>
-      <description>An AI-powered data science team of agents to help you perform common data science tasks 10X faster.</description>
+      <title>Shubhamsaboo /awesome-llm-apps</title>
+      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
+      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
     </item>
     <item>
-      <title>k4yt3x /video2x</title>
-      <link>https://github.com/k4yt3x/video2x</link>
-      <description>A machine learning-based video super resolution and frame interpolation framework. Est. Hack the Valley II, 2018.</description>
+      <title>hashicorp /vault</title>
+      <link>https://github.com/hashicorp/vault</link>
+      <description>A tool for secrets management, encryption as a service, and privileged access management</description>
     </item>
     <item>
-      <title>AI4Finance-Foundation /FinRobot</title>
-      <link>https://github.com/AI4Finance-Foundation/FinRobot</link>
-      <description>FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀</description>
+      <title>Free-TV /IPTV</title>
+      <link>https://github.com/Free-TV/IPTV</link>
+      <description>M3U Playlist for free TV channels</description>
     </item>
     <item>
-      <title>remotion-dev /remotion</title>
-      <link>https://github.com/remotion-dev/remotion</link>
-      <description>🎥 Make videos programmatically with React</description>
-    </item>
-    <item>
-      <title>block /goose</title>
-      <link>https://github.com/block/goose</link>
-      <description>an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM</description>
+      <title>Blaizzy /mlx-audio</title>
+      <link>https://github.com/Blaizzy/mlx-audio</link>
+      <description>A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.</description>
     </item>
     <item>
       <title>supermemoryai /supermemory</title>
@@ -38,14 +33,9 @@
       <description>Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.</description>
     </item>
     <item>
-      <title>VectifyAI /PageIndex</title>
-      <link>https://github.com/VectifyAI/PageIndex</link>
-      <description>📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG</description>
-    </item>
-    <item>
-      <title>Blaizzy /mlx-audio</title>
-      <link>https://github.com/Blaizzy/mlx-audio</link>
-      <description>A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.</description>
+      <title>badlogic /pi-mono</title>
+      <link>https://github.com/badlogic/pi-mono</link>
+      <description>AI agent toolkit: coding agent CLI, unified LLM API, TUI &amp; web UI libraries, Slack bot, vLLM pods</description>
     </item>
   </channel>
 </rss>

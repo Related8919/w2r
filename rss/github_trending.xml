@@ -6,7 +6,7 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 30 Jan 2026 02:44:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jan 2026 02:40:02 +0000</lastBuildDate>
     <item>
       <title>lobehub /lobehub</title>
       <link>https://github.com/lobehub/lobehub</link>
@@ -50,7 +50,7 @@
     <item>
       <title>NevaMind-AI /memU</title>
       <link>https://github.com/NevaMind-AI/memU</link>
-      <description>Memory for 24/7 proactive agents like moltbot (clawdbot).</description>
+      <description>Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot).</description>
     </item>
     <item>
       <title>modelcontextprotocol /ext-apps</title>
@@ -68,8 +68,8 @@
       <description>Collection of extracted System Prompts from popular chatbots like ChatGPT, Claude &amp; Gemini</description>
     </item>
     <item>
-      <title>moltbot /moltbot</title>
-      <link>https://github.com/moltbot/moltbot</link>
+      <title>openclaw /openclaw</title>
+      <link>https://github.com/openclaw/openclaw</link>
       <description>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞</description>
     </item>
   </channel>

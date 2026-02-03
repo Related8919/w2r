@@ -6,36 +6,21 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 02 Feb 2026 02:54:21 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 02:50:40 +0000</lastBuildDate>
     <item>
-      <title>vita-epfl /Stable-Video-Infinity</title>
-      <link>https://github.com/vita-epfl/Stable-Video-Infinity</link>
-      <description>[ICLR 26] Stable Video Infinity: Infinite-Length Video Generation with Error Recycling</description>
+      <title>kovidgoyal /calibre</title>
+      <link>https://github.com/kovidgoyal/calibre</link>
+      <description>The official source code repository for the calibre ebook manager</description>
     </item>
     <item>
-      <title>j178 /prek</title>
-      <link>https://github.com/j178/prek</link>
-      <description>⚡ Better `pre-commit`, re-engineered in Rust</description>
+      <title>karpathy /nanochat</title>
+      <link>https://github.com/karpathy/nanochat</link>
+      <description>The best ChatGPT that $100 can buy.</description>
     </item>
     <item>
-      <title>steipete /CodexBar</title>
-      <link>https://github.com/steipete/CodexBar</link>
-      <description>Show usage stats for OpenAI Codex and Claude Code, without having to login.</description>
-    </item>
-    <item>
-      <title>amantus-ai /vibetunnel</title>
-      <link>https://github.com/amantus-ai/vibetunnel</link>
-      <description>Turn any browser into your terminal &amp; command your agents on the go.</description>
-    </item>
-    <item>
-      <title>microsoft /agent-lightning</title>
-      <link>https://github.com/microsoft/agent-lightning</link>
-      <description>The absolute trainer to light up AI agents.</description>
-    </item>
-    <item>
-      <title>thedotmack /claude-mem</title>
-      <link>https://github.com/thedotmack/claude-mem</link>
-      <description>A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.</description>
+      <title>VectifyAI /PageIndex</title>
+      <link>https://github.com/VectifyAI/PageIndex</link>
+      <description>📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG</description>
     </item>
     <item>
       <title>badlogic /pi-mono</title>
@@ -43,9 +28,19 @@
       <description>AI agent toolkit: coding agent CLI, unified LLM API, TUI &amp; web UI libraries, Slack bot, vLLM pods</description>
     </item>
     <item>
-      <title>kovidgoyal /calibre</title>
-      <link>https://github.com/kovidgoyal/calibre</link>
-      <description>The official source code repository for the calibre ebook manager</description>
+      <title>autobrr /qui</title>
+      <link>https://github.com/autobrr/qui</link>
+      <description>A fast, single-binary qBittorrent web UI: manage multiple instances, automate torrent workflows, and cross-seed across trackers.</description>
+    </item>
+    <item>
+      <title>OpenBMB /ChatDev</title>
+      <link>https://github.com/OpenBMB/ChatDev</link>
+      <description>ChatDev 2.0: Dev All through LLM-powered Multi-Agent Collaboration</description>
+    </item>
+    <item>
+      <title>netbirdio /netbird</title>
+      <link>https://github.com/netbirdio/netbird</link>
+      <description>Connect your devices into a secure WireGuard®-based overlay network with SSO, MFA and granular access controls.</description>
     </item>
     <item>
       <title>pedramamini /Maestro</title>
@@ -53,14 +48,19 @@
       <description>Agent Orchestration Command Center</description>
     </item>
     <item>
+      <title>termux /termux-app</title>
+      <link>https://github.com/termux/termux-app</link>
+      <description>Termux - a terminal emulator application for Android OS extendible by variety of packages.</description>
+    </item>
+    <item>
       <title>ThePrimeagen /99</title>
       <link>https://github.com/ThePrimeagen/99</link>
       <description>Neovim AI agent done right</description>
     </item>
     <item>
-      <title>openclaw /openclaw</title>
-      <link>https://github.com/openclaw/openclaw</link>
-      <description>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞</description>
+      <title>thedotmack /claude-mem</title>
+      <link>https://github.com/thedotmack/claude-mem</link>
+      <description>A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.</description>
     </item>
   </channel>
 </rss>

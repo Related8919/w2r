@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.miit.gov.cn/RRSdy/index.html. follow.is: feedId:158342442182353920+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 01 Feb 2026 03:22:48 +0000</lastBuildDate>
-    <item>
-      <title>中华人民共和国工业和信息化部公告2025年第44号</title>
-      <link>https://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2025/art_c157671d4b3a4f5bb6a1bf4335adb2c4.html</link>
-      <description>中华人民共和国工业和信息化部公告2025年第44号</description>
-    </item>
+    <lastBuildDate>Tue, 03 Feb 2026 02:51:33 +0000</lastBuildDate>
     <item>
       <title>《道路机动车辆生产企业及产品》（第402批）、《享受车船税减免优惠的节约能源 使用新能源汽车车...</title>
       <link>https://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2025/art_17312be59baa470fb39e04e3a56519f3.html</link>
@@ -36,6 +31,11 @@
       <title>工业和信息化部关于2025年第四季度电信服务质量的通告</title>
       <link>https://www.miit.gov.cn/zwgk/zcwj/wjfb/tg/art/2026/art_da0ff11972a64087bf2155218a6f2f3e.html</link>
       <description>工业和信息化部关于2025年第四季度电信服务质量的通告</description>
+    </item>
+    <item>
+      <title>工业和信息化部等四部门关于公布工业产品碳足迹核算规则团体标准推荐清单（第三批）的通告</title>
+      <link>https://www.miit.gov.cn/zwgk/zcwj/wjfb/tg/art/2026/art_fb5457ff0687440cafebaa7c262b5dd7.html</link>
+      <description>工业和信息化部等四部门关于公布工业产品碳足迹核算规则团体标准推荐清单（第三批）的通告</description>
     </item>
   </channel>
 </rss>

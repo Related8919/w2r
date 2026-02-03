@@ -25,8 +25,18 @@
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/DeveloperNvidiaBlog.xml
 - Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/DeveloperNvidiaBlog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/DeveloperNvidiaBlog.xml)
 
+## VulnersBlog
+- 原网址：https://vulners.com/blog/
+- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/VulnersBlog.xml
+- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/VulnersBlog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/VulnersBlog.xml)
+
 ## x-h2FirmwareUpdate
 - 原网址：https://www.fujifilm-x.com/zh-cn/support/download/firmware/cameras/x-h2
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-h2FirmwareUpdate.xml
 - Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-h2FirmwareUpdate.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-h2FirmwareUpdate.xml)
+
+## 工信部车辆准入许可
+- 原网址：https://www.miit.gov.cn/RRSdy/index.html
+- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/工信部车辆准入许可.xml
+- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/工信部车辆准入许可.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/工信部车辆准入许可.xml)
 

@@ -6,36 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 08 Feb 2026 03:27:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 02:55:00 +0000</lastBuildDate>
     <item>
       <title>gitbutlerapp /gitbutler</title>
       <link>https://github.com/gitbutlerapp/gitbutler</link>
       <description>The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte</description>
     </item>
     <item>
+      <title>home-assistant /addons</title>
+      <link>https://github.com/home-assistant/addons</link>
+      <description>➕ Docker add-ons for Home Assistant</description>
+    </item>
+    <item>
+      <title>iOfficeAI /AionUi</title>
+      <link>https://github.com/iOfficeAI/AionUi</link>
+      <description>Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!</description>
+    </item>
+    <item>
       <title>likec4 /likec4</title>
       <link>https://github.com/likec4/likec4</link>
       <description>Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code</description>
-    </item>
-    <item>
-      <title>ComposioHQ /awesome-claude-skills</title>
-      <link>https://github.com/ComposioHQ/awesome-claude-skills</link>
-      <description>A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows</description>
-    </item>
-    <item>
-      <title>viarotel-org /escrcpy</title>
-      <link>https://github.com/viarotel-org/escrcpy</link>
-      <description>📱 Display and control your Android device graphically with scrcpy.</description>
-    </item>
-    <item>
-      <title>wavetermdev /waveterm</title>
-      <link>https://github.com/wavetermdev/waveterm</link>
-      <description>An open-source, cross-platform terminal for seamless workflows</description>
-    </item>
-    <item>
-      <title>aquasecurity /trivy</title>
-      <link>https://github.com/aquasecurity/trivy</link>
-      <description>Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more</description>
     </item>
     <item>
       <title>OpenBMB /MiniCPM-o</title>
@@ -48,9 +38,9 @@
       <description>An agentic skills framework &amp; software development methodology that works.</description>
     </item>
     <item>
-      <title>p-e-w /heretic</title>
-      <link>https://github.com/p-e-w/heretic</link>
-      <description>Fully automatic censorship removal for language models</description>
+      <title>google /langextract</title>
+      <link>https://github.com/google/langextract</link>
+      <description>A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.</description>
     </item>
     <item>
       <title>microsoft /litebox</title>
@@ -58,9 +48,19 @@
       <description>A security-focused library OS supporting kernel- and user-mode execution</description>
     </item>
     <item>
+      <title>virattt /dexter</title>
+      <link>https://github.com/virattt/dexter</link>
+      <description>An autonomous agent for deep financial research</description>
+    </item>
+    <item>
       <title>openai /skills</title>
       <link>https://github.com/openai/skills</link>
       <description>Skills Catalog for Codex</description>
+    </item>
+    <item>
+      <title>pydantic /monty</title>
+      <link>https://github.com/pydantic/monty</link>
+      <description>A minimal, secure Python interpreter written in Rust for use by AI</description>
     </item>
     <item>
       <title>KeygraphHQ /shannon</title>

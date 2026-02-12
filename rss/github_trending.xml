@@ -6,51 +6,16 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 11 Feb 2026 03:18:24 +0000</lastBuildDate>
-    <item>
-      <title>virattt /dexter</title>
-      <link>https://github.com/virattt/dexter</link>
-      <description>An autonomous agent for deep financial research</description>
-    </item>
-    <item>
-      <title>Jeffallan /claude-skills</title>
-      <link>https://github.com/Jeffallan/claude-skills</link>
-      <description>65 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.</description>
-    </item>
+    <lastBuildDate>Thu, 12 Feb 2026 02:57:19 +0000</lastBuildDate>
     <item>
       <title>cheahjs /free-llm-api-resources</title>
       <link>https://github.com/cheahjs/free-llm-api-resources</link>
       <description>A list of free LLM inference resources accessible via API.</description>
     </item>
     <item>
-      <title>pydantic /monty</title>
-      <link>https://github.com/pydantic/monty</link>
-      <description>A minimal, secure Python interpreter written in Rust for use by AI</description>
-    </item>
-    <item>
-      <title>drawdb-io /drawdb</title>
-      <link>https://github.com/drawdb-io/drawdb</link>
-      <description>Free, simple, and intuitive online database diagram editor and SQL generator.</description>
-    </item>
-    <item>
-      <title>Shubhamsaboo /awesome-llm-apps</title>
-      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
-      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
-    </item>
-    <item>
-      <title>carlvellotti /claude-code-pm-course</title>
-      <link>https://github.com/carlvellotti/claude-code-pm-course</link>
-      <description>Interactive course teaching Product Managers how to use Claude Code effectively</description>
-    </item>
-    <item>
-      <title>gitbutlerapp /gitbutler</title>
-      <link>https://github.com/gitbutlerapp/gitbutler</link>
-      <description>The GitButler version control client, backed by Git, powered by Tauri/Rust/Svelte</description>
-    </item>
-    <item>
-      <title>hsliuping /TradingAgents-CN</title>
-      <link>https://github.com/hsliuping/TradingAgents-CN</link>
-      <description>基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版</description>
+      <title>patchy631 /ai-engineering-hub</title>
+      <link>https://github.com/patchy631/ai-engineering-hub</link>
+      <description>In-depth tutorials on LLMs, RAGs and real-world AI agent applications.</description>
     </item>
     <item>
       <title>EveryInc /compound-engineering-plugin</title>
@@ -58,19 +23,19 @@
       <description>Official Claude Code compound engineering plugin</description>
     </item>
     <item>
+      <title>ChromeDevTools /chrome-devtools-mcp</title>
+      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
+      <description>Chrome DevTools for coding agents</description>
+    </item>
+    <item>
+      <title>microsoft /PowerToys</title>
+      <link>https://github.com/microsoft/PowerToys</link>
+      <description>Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows</description>
+    </item>
+    <item>
       <title>github /gh-aw</title>
       <link>https://github.com/github/gh-aw</link>
       <description>GitHub Agentic Workflows</description>
-    </item>
-    <item>
-      <title>KeygraphHQ /shannon</title>
-      <link>https://github.com/KeygraphHQ/shannon</link>
-      <description>Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.</description>
-    </item>
-    <item>
-      <title>iOfficeAI /AionUi</title>
-      <link>https://github.com/iOfficeAI/AionUi</link>
-      <description>Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!</description>
     </item>
     <item>
       <title>google /langextract</title>

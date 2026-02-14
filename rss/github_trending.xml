@@ -6,61 +6,31 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 13 Feb 2026 02:57:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 02:45:16 +0000</lastBuildDate>
+    <item>
+      <title>DebugSwift /DebugSwift</title>
+      <link>https://github.com/DebugSwift/DebugSwift</link>
+      <description>A toolkit to make debugging iOS applications easier 🚀</description>
+    </item>
+    <item>
+      <title>THUDM /slime</title>
+      <link>https://github.com/THUDM/slime</link>
+      <description>slime is an LLM post-training framework for RL Scaling.</description>
+    </item>
     <item>
       <title>HandsOnLLM /Hands-On-Large-Language-Models</title>
       <link>https://github.com/HandsOnLLM/Hands-On-Large-Language-Models</link>
       <description>Official code repo for the O'Reilly Book - "Hands-On Large Language Models"</description>
     </item>
     <item>
-      <title>Jeffallan /claude-skills</title>
-      <link>https://github.com/Jeffallan/claude-skills</link>
-      <description>66 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.</description>
+      <title>cheahjs /free-llm-api-resources</title>
+      <link>https://github.com/cheahjs/free-llm-api-resources</link>
+      <description>A list of free LLM inference resources accessible via API.</description>
     </item>
     <item>
-      <title>cinnyapp /cinny</title>
-      <link>https://github.com/cinnyapp/cinny</link>
-      <description>Yet another matrix client</description>
-    </item>
-    <item>
-      <title>unslothai /unsloth</title>
-      <link>https://github.com/unslothai/unsloth</link>
-      <description>Fine-tuning &amp; Reinforcement Learning for LLMs. 🦥 Train OpenAI gpt-oss, DeepSeek, Qwen, Llama, Gemma, TTS 2x faster with 70% less VRAM.</description>
-    </item>
-    <item>
-      <title>github /gh-aw</title>
-      <link>https://github.com/github/gh-aw</link>
-      <description>GitHub Agentic Workflows</description>
-    </item>
-    <item>
-      <title>rowboatlabs /rowboat</title>
-      <link>https://github.com/rowboatlabs/rowboat</link>
-      <description>Open-source AI coworker, with memory</description>
-    </item>
-    <item>
-      <title>Shubhamsaboo /awesome-llm-apps</title>
-      <link>https://github.com/Shubhamsaboo/awesome-llm-apps</link>
-      <description>Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.</description>
-    </item>
-    <item>
-      <title>iOfficeAI /AionUi</title>
-      <link>https://github.com/iOfficeAI/AionUi</link>
-      <description>Free, local, open-source 24/7 Cowork and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!</description>
-    </item>
-    <item>
-      <title>microsoft /PowerToys</title>
-      <link>https://github.com/microsoft/PowerToys</link>
-      <description>Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows</description>
-    </item>
-    <item>
-      <title>ChromeDevTools /chrome-devtools-mcp</title>
-      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
-      <description>Chrome DevTools for coding agents</description>
-    </item>
-    <item>
-      <title>google /langextract</title>
-      <link>https://github.com/google/langextract</link>
-      <description>A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.</description>
+      <title>patchy631 /ai-engineering-hub</title>
+      <link>https://github.com/patchy631/ai-engineering-hub</link>
+      <description>In-depth tutorials on LLMs, RAGs and real-world AI agent applications.</description>
     </item>
     <item>
       <title>danielmiessler /Personal_AI_Infrastructure</title>
@@ -68,9 +38,14 @@
       <description>Agentic AI Infrastructure for magnifying HUMAN capabilities.</description>
     </item>
     <item>
-      <title>tambo-ai /tambo</title>
-      <link>https://github.com/tambo-ai/tambo</link>
-      <description>Generative UI SDK for React</description>
+      <title>ChromeDevTools /chrome-devtools-mcp</title>
+      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
+      <description>Chrome DevTools for coding agents</description>
+    </item>
+    <item>
+      <title>SynkraAI /aios-core</title>
+      <link>https://github.com/SynkraAI/aios-core</link>
+      <description>Synkra AIOS: AI-Orchestrated System for Full Stack Development - Core Framework v4.0</description>
     </item>
   </channel>
 </rss>

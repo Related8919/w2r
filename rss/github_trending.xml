@@ -6,36 +6,36 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 14 Feb 2026 02:45:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 03:14:34 +0000</lastBuildDate>
     <item>
-      <title>DebugSwift /DebugSwift</title>
-      <link>https://github.com/DebugSwift/DebugSwift</link>
-      <description>A toolkit to make debugging iOS applications easier 🚀</description>
+      <title>cinnyapp /cinny</title>
+      <link>https://github.com/cinnyapp/cinny</link>
+      <description>Yet another matrix client</description>
     </item>
     <item>
-      <title>THUDM /slime</title>
-      <link>https://github.com/THUDM/slime</link>
-      <description>slime is an LLM post-training framework for RL Scaling.</description>
+      <title>ruby /ruby</title>
+      <link>https://github.com/ruby/ruby</link>
+      <description>The Ruby Programming Language</description>
     </item>
     <item>
-      <title>HandsOnLLM /Hands-On-Large-Language-Models</title>
-      <link>https://github.com/HandsOnLLM/Hands-On-Large-Language-Models</link>
-      <description>Official code repo for the O'Reilly Book - "Hands-On Large Language Models"</description>
+      <title>letta-ai /letta-code</title>
+      <link>https://github.com/letta-ai/letta-code</link>
+      <description>The memory-first coding agent</description>
     </item>
     <item>
-      <title>cheahjs /free-llm-api-resources</title>
-      <link>https://github.com/cheahjs/free-llm-api-resources</link>
-      <description>A list of free LLM inference resources accessible via API.</description>
+      <title>Zipstack /unstract</title>
+      <link>https://github.com/Zipstack/unstract</link>
+      <description>No-code LLM Platform to launch APIs and ETL Pipelines to structure unstructured documents</description>
     </item>
     <item>
-      <title>patchy631 /ai-engineering-hub</title>
-      <link>https://github.com/patchy631/ai-engineering-hub</link>
-      <description>In-depth tutorials on LLMs, RAGs and real-world AI agent applications.</description>
+      <title>ruvnet /wifi-densepose</title>
+      <link>https://github.com/ruvnet/wifi-densepose</link>
+      <description>Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers</description>
     </item>
     <item>
-      <title>danielmiessler /Personal_AI_Infrastructure</title>
-      <link>https://github.com/danielmiessler/Personal_AI_Infrastructure</link>
-      <description>Agentic AI Infrastructure for magnifying HUMAN capabilities.</description>
+      <title>alibaba /zvec</title>
+      <link>https://github.com/alibaba/zvec</link>
+      <description>A lightweight, lightning-fast, in-process vector database</description>
     </item>
     <item>
       <title>ChromeDevTools /chrome-devtools-mcp</title>
@@ -43,9 +43,24 @@
       <description>Chrome DevTools for coding agents</description>
     </item>
     <item>
+      <title>minio /minio</title>
+      <link>https://github.com/minio/minio</link>
+      <description>MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.</description>
+    </item>
+    <item>
+      <title>rowboatlabs /rowboat</title>
+      <link>https://github.com/rowboatlabs/rowboat</link>
+      <description>Open-source AI coworker, with memory</description>
+    </item>
+    <item>
       <title>SynkraAI /aios-core</title>
       <link>https://github.com/SynkraAI/aios-core</link>
       <description>Synkra AIOS: AI-Orchestrated System for Full Stack Development - Core Framework v4.0</description>
+    </item>
+    <item>
+      <title>tambo-ai /tambo</title>
+      <link>https://github.com/tambo-ai/tambo</link>
+      <description>Generative UI SDK for React</description>
     </item>
   </channel>
 </rss>

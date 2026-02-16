@@ -6,31 +6,31 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 15 Feb 2026 03:14:34 +0000</lastBuildDate>
-    <item>
-      <title>cinnyapp /cinny</title>
-      <link>https://github.com/cinnyapp/cinny</link>
-      <description>Yet another matrix client</description>
-    </item>
-    <item>
-      <title>ruby /ruby</title>
-      <link>https://github.com/ruby/ruby</link>
-      <description>The Ruby Programming Language</description>
-    </item>
-    <item>
-      <title>letta-ai /letta-code</title>
-      <link>https://github.com/letta-ai/letta-code</link>
-      <description>The memory-first coding agent</description>
-    </item>
-    <item>
-      <title>Zipstack /unstract</title>
-      <link>https://github.com/Zipstack/unstract</link>
-      <description>No-code LLM Platform to launch APIs and ETL Pipelines to structure unstructured documents</description>
-    </item>
+    <lastBuildDate>Mon, 16 Feb 2026 02:54:03 +0000</lastBuildDate>
     <item>
       <title>ruvnet /wifi-densepose</title>
       <link>https://github.com/ruvnet/wifi-densepose</link>
       <description>Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers</description>
+    </item>
+    <item>
+      <title>SynkraAI /aios-core</title>
+      <link>https://github.com/SynkraAI/aios-core</link>
+      <description>Synkra AIOS: AI-Orchestrated System for Full Stack Development - Core Framework v4.0</description>
+    </item>
+    <item>
+      <title>brave /brave-browser</title>
+      <link>https://github.com/brave/brave-browser</link>
+      <description>Brave browser for Android, iOS, Linux, macOS, Windows.</description>
+    </item>
+    <item>
+      <title>moonshine-ai /moonshine</title>
+      <link>https://github.com/moonshine-ai/moonshine</link>
+      <description>Fast and accurate automatic speech recognition (ASR) for edge devices</description>
+    </item>
+    <item>
+      <title>openclaw /openclaw</title>
+      <link>https://github.com/openclaw/openclaw</link>
+      <description>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞</description>
     </item>
     <item>
       <title>alibaba /zvec</title>
@@ -43,9 +43,9 @@
       <description>Chrome DevTools for coding agents</description>
     </item>
     <item>
-      <title>minio /minio</title>
-      <link>https://github.com/minio/minio</link>
-      <description>MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.</description>
+      <title>github /gh-aw</title>
+      <link>https://github.com/github/gh-aw</link>
+      <description>GitHub Agentic Workflows</description>
     </item>
     <item>
       <title>rowboatlabs /rowboat</title>
@@ -53,14 +53,14 @@
       <description>Open-source AI coworker, with memory</description>
     </item>
     <item>
-      <title>SynkraAI /aios-core</title>
-      <link>https://github.com/SynkraAI/aios-core</link>
-      <description>Synkra AIOS: AI-Orchestrated System for Full Stack Development - Core Framework v4.0</description>
+      <title>steipete /gogcli</title>
+      <link>https://github.com/steipete/gogcli</link>
+      <description>Google Suite CLI: Gmail, GCal, GDrive, GContacts.</description>
     </item>
     <item>
-      <title>tambo-ai /tambo</title>
-      <link>https://github.com/tambo-ai/tambo</link>
-      <description>Generative UI SDK for React</description>
+      <title>nautechsystems /nautilus_trader</title>
+      <link>https://github.com/nautechsystems/nautilus_trader</link>
+      <description>A high-performance algorithmic trading platform and event-driven backtester</description>
     </item>
   </channel>
 </rss>

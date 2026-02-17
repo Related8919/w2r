@@ -6,11 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 16 Feb 2026 02:54:03 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 02:50:23 +0000</lastBuildDate>
+    <item>
+      <title>hummingbot /hummingbot</title>
+      <link>https://github.com/hummingbot/hummingbot</link>
+      <description>Open source software that helps you create and deploy high-frequency crypto trading bots</description>
+    </item>
+    <item>
+      <title>seerr-team /seerr</title>
+      <link>https://github.com/seerr-team/seerr</link>
+      <description>Open-source media request and discovery manager for Jellyfin, Plex, and Emby.</description>
+    </item>
     <item>
       <title>ruvnet /wifi-densepose</title>
       <link>https://github.com/ruvnet/wifi-densepose</link>
       <description>Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers</description>
+    </item>
+    <item>
+      <title>letta-ai /letta-code</title>
+      <link>https://github.com/letta-ai/letta-code</link>
+      <description>The memory-first coding agent</description>
     </item>
     <item>
       <title>SynkraAI /aios-core</title>
@@ -18,39 +33,9 @@
       <description>Synkra AIOS: AI-Orchestrated System for Full Stack Development - Core Framework v4.0</description>
     </item>
     <item>
-      <title>brave /brave-browser</title>
-      <link>https://github.com/brave/brave-browser</link>
-      <description>Brave browser for Android, iOS, Linux, macOS, Windows.</description>
-    </item>
-    <item>
-      <title>moonshine-ai /moonshine</title>
-      <link>https://github.com/moonshine-ai/moonshine</link>
-      <description>Fast and accurate automatic speech recognition (ASR) for edge devices</description>
-    </item>
-    <item>
       <title>openclaw /openclaw</title>
       <link>https://github.com/openclaw/openclaw</link>
       <description>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞</description>
-    </item>
-    <item>
-      <title>alibaba /zvec</title>
-      <link>https://github.com/alibaba/zvec</link>
-      <description>A lightweight, lightning-fast, in-process vector database</description>
-    </item>
-    <item>
-      <title>ChromeDevTools /chrome-devtools-mcp</title>
-      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
-      <description>Chrome DevTools for coding agents</description>
-    </item>
-    <item>
-      <title>github /gh-aw</title>
-      <link>https://github.com/github/gh-aw</link>
-      <description>GitHub Agentic Workflows</description>
-    </item>
-    <item>
-      <title>rowboatlabs /rowboat</title>
-      <link>https://github.com/rowboatlabs/rowboat</link>
-      <description>Open-source AI coworker, with memory</description>
     </item>
     <item>
       <title>steipete /gogcli</title>
@@ -58,9 +43,19 @@
       <description>Google Suite CLI: Gmail, GCal, GDrive, GContacts.</description>
     </item>
     <item>
+      <title>rowboatlabs /rowboat</title>
+      <link>https://github.com/rowboatlabs/rowboat</link>
+      <description>Open-source AI coworker, with memory</description>
+    </item>
+    <item>
       <title>nautechsystems /nautilus_trader</title>
       <link>https://github.com/nautechsystems/nautilus_trader</link>
       <description>A high-performance algorithmic trading platform and event-driven backtester</description>
+    </item>
+    <item>
+      <title>alibaba /zvec</title>
+      <link>https://github.com/alibaba/zvec</link>
+      <description>A lightweight, lightning-fast, in-process vector database</description>
     </item>
   </channel>
 </rss>

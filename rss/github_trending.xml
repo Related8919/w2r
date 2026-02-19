@@ -6,56 +6,26 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 18 Feb 2026 02:53:39 +0000</lastBuildDate>
-    <item>
-      <title>OpenCTI-Platform /opencti</title>
-      <link>https://github.com/OpenCTI-Platform/opencti</link>
-      <description>Open Cyber Threat Intelligence Platform</description>
-    </item>
-    <item>
-      <title>davila7 /claude-code-templates</title>
-      <link>https://github.com/davila7/claude-code-templates</link>
-      <description>CLI tool for configuring and monitoring Claude Code</description>
-    </item>
-    <item>
-      <title>anthropics /claude-quickstarts</title>
-      <link>https://github.com/anthropics/claude-quickstarts</link>
-      <description>A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API</description>
-    </item>
-    <item>
-      <title>hummingbot /hummingbot</title>
-      <link>https://github.com/hummingbot/hummingbot</link>
-      <description>Open source software that helps you create and deploy high-frequency crypto trading bots</description>
-    </item>
-    <item>
-      <title>steipete /summarize</title>
-      <link>https://github.com/steipete/summarize</link>
-      <description>Point at any URL/YouTube/Podcast or file. Get the gist. CLI and Chrome Extension.</description>
-    </item>
-    <item>
-      <title>ashishps1 /awesome-system-design-resources</title>
-      <link>https://github.com/ashishps1/awesome-system-design-resources</link>
-      <description>Learn System Design concepts and prepare for interviews using free resources.</description>
-    </item>
-    <item>
-      <title>SynkraAI /aios-core</title>
-      <link>https://github.com/SynkraAI/aios-core</link>
-      <description>Synkra AIOS: AI-Orchestrated System for Full Stack Development - Core Framework v4.0</description>
-    </item>
+    <lastBuildDate>Thu, 19 Feb 2026 02:52:33 +0000</lastBuildDate>
     <item>
       <title>openclaw /openclaw</title>
       <link>https://github.com/openclaw/openclaw</link>
       <description>Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞</description>
     </item>
     <item>
-      <title>alibaba /zvec</title>
-      <link>https://github.com/alibaba/zvec</link>
-      <description>A lightweight, lightning-fast, in-process vector database</description>
+      <title>p2r3 /convert</title>
+      <link>https://github.com/p2r3/convert</link>
+      <description>Truly universal online file converter</description>
     </item>
     <item>
-      <title>steipete /gogcli</title>
-      <link>https://github.com/steipete/gogcli</link>
-      <description>Google Suite CLI: Gmail, GCal, GDrive, GContacts.</description>
+      <title>ComposioHQ /composio</title>
+      <link>https://github.com/ComposioHQ/composio</link>
+      <description>Composio powers 1000+ toolkits, tool search, context management, authentication, and a sandboxed workbench to help you build AI agents that turn intent into action.</description>
+    </item>
+    <item>
+      <title>HailToDodongo /pyrite64</title>
+      <link>https://github.com/HailToDodongo/pyrite64</link>
+      <description>N64 Game-Engine and Editor using libdragon &amp; tiny3d</description>
     </item>
     <item>
       <title>obra /superpowers</title>
@@ -63,14 +33,34 @@
       <description>An agentic skills framework &amp; software development methodology that works.</description>
     </item>
     <item>
-      <title>seerr-team /seerr</title>
-      <link>https://github.com/seerr-team/seerr</link>
-      <description>Open-source media request and discovery manager for Jellyfin, Plex, and Emby.</description>
+      <title>harvard-edge /cs249r_book</title>
+      <link>https://github.com/harvard-edge/cs249r_book</link>
+      <description>Introduction to Machine Learning Systems</description>
+    </item>
+    <item>
+      <title>NirDiamant /RAG_Techniques</title>
+      <link>https://github.com/NirDiamant/RAG_Techniques</link>
+      <description>This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. RAG systems combine information retrieval with generative models to provide accurate and contextually rich responses.</description>
+    </item>
+    <item>
+      <title>QwenLM /qwen-code</title>
+      <link>https://github.com/QwenLM/qwen-code</link>
+      <description>An open-source AI agent that lives in your terminal.</description>
+    </item>
+    <item>
+      <title>OpenCTI-Platform /opencti</title>
+      <link>https://github.com/OpenCTI-Platform/opencti</link>
+      <description>Open Cyber Threat Intelligence Platform</description>
     </item>
     <item>
       <title>p-e-w /heretic</title>
       <link>https://github.com/p-e-w/heretic</link>
       <description>Fully automatic censorship removal for language models</description>
+    </item>
+    <item>
+      <title>alibaba /zvec</title>
+      <link>https://github.com/alibaba/zvec</link>
+      <description>A lightweight, lightning-fast, in-process vector database</description>
     </item>
   </channel>
 </rss>

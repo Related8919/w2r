@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.miit.gov.cn/RRSdy/index.html. follow.is: feedId:158342442182353920+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 05 Mar 2026 02:48:03 +0000</lastBuildDate>
-    <item>
-      <title>中华人民共和国工业和信息化部公告2026年第1号</title>
-      <link>https://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_38716cc92c6047169da8a3ec84fa940a.html</link>
-      <description>中华人民共和国工业和信息化部公告2026年第1号</description>
-    </item>
+    <lastBuildDate>Fri, 06 Mar 2026 02:45:29 +0000</lastBuildDate>
     <item>
       <title>五部门公告2025年第47号</title>
       <link>https://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_770573cdf3464566acd0d9ad9d6a43aa.html</link>
@@ -36,6 +31,11 @@
       <title>中华人民共和国工业和信息化部公告2026年第5号</title>
       <link>https://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_b27da8133cf04e2c94d35cbb0e5d84c0.html</link>
       <description>中华人民共和国工业和信息化部公告2026年第5号</description>
+    </item>
+    <item>
+      <title>中华人民共和国工业和信息化部公告2026年第4号</title>
+      <link>https://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2026/art_09d1085bb85e468d9fa2bba4d5c67a69.html</link>
+      <description>中华人民共和国工业和信息化部公告2026年第4号</description>
     </item>
   </channel>
 </rss>

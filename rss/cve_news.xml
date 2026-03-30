@@ -6,7 +6,7 @@
     <description>Latest posts from https://www.cve.org/Media/News/AllNews. follow.is: feedId:91496105774919680+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 29 Mar 2026 03:27:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 03:30:50 +0000</lastBuildDate>
     <item>
       <title>Vulnerability Data Enrichment for CVE Records: 259 CNAs on the Enrichment Recognition List for March 2, 2026</title>
       <link>https://www.cve.org/Media/News/item/blog/2026/03/03/CNA-Enrichment-Recognition-List-Update</link>

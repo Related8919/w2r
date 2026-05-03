@@ -6,56 +6,16 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 30 Apr 2026 03:54:38 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 04:01:36 +0000</lastBuildDate>
     <item>
-      <title>microsoft /PowerToys</title>
-      <link>https://github.com/microsoft/PowerToys</link>
-      <description>Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows</description>
+      <title>jwasham /coding-interview-university</title>
+      <link>https://github.com/jwasham/coding-interview-university</link>
+      <description>A complete computer science study plan to become a software engineer.</description>
     </item>
     <item>
-      <title>gorhill /uBlock</title>
-      <link>https://github.com/gorhill/uBlock</link>
-      <description>uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.</description>
-    </item>
-    <item>
-      <title>iv-org /invidious</title>
-      <link>https://github.com/iv-org/invidious</link>
-      <description>Invidious is an alternative front-end to YouTube</description>
-    </item>
-    <item>
-      <title>soxoj /maigret</title>
-      <link>https://github.com/soxoj/maigret</link>
-      <description>🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites</description>
-    </item>
-    <item>
-      <title>EbookFoundation /free-programming-books</title>
-      <link>https://github.com/EbookFoundation/free-programming-books</link>
-      <description>📚 Freely available programming books</description>
-    </item>
-    <item>
-      <title>ZhuLinsen /daily_stock_analysis</title>
-      <link>https://github.com/ZhuLinsen/daily_stock_analysis</link>
-      <description>LLM驱动的 A/H/美股智能分析器：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.</description>
-    </item>
-    <item>
-      <title>obra /superpowers</title>
-      <link>https://github.com/obra/superpowers</link>
-      <description>An agentic skills framework &amp; software development methodology that works.</description>
-    </item>
-    <item>
-      <title>CJackHwang /ds2api</title>
-      <link>https://github.com/CJackHwang/ds2api</link>
-      <description>Deepseek to API: A lightweight, high-performance full-stack middleware converting client protocols to universal APIs. Supports multi-account rotation, compiled binaries, Vercel Serverless, and Docker. Compatible with Google, Claude, and OpenAI API formats.</description>
-    </item>
-    <item>
-      <title>microsoft /VibeVoice</title>
-      <link>https://github.com/microsoft/VibeVoice</link>
-      <description>Open-Source Frontier Voice AI</description>
-    </item>
-    <item>
-      <title>abhigyanpatwari /GitNexus</title>
-      <link>https://github.com/abhigyanpatwari/GitNexus</link>
-      <description>GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a GitHub repo or ZIP file, and get an interactive knowledge graph wit a built in Graph RAG Agent. Perfect for code exploration</description>
+      <title>ShareX /ShareX</title>
+      <link>https://github.com/ShareX/ShareX</link>
+      <description>ShareX is a free and open-source application that enables users to capture or record any area of their screen with a single keystroke. It also supports uploading images, text, and various file types to a wide range of destinations.</description>
     </item>
     <item>
       <title>1jehuang /jcode</title>
@@ -63,24 +23,24 @@
       <description>Coding Agent Harness</description>
     </item>
     <item>
-      <title>ComposioHQ /awesome-codex-skills</title>
-      <link>https://github.com/ComposioHQ/awesome-codex-skills</link>
-      <description>A curated list of practical Codex skills for automating workflows across the Codex CLI and API.</description>
+      <title>soxoj /maigret</title>
+      <link>https://github.com/soxoj/maigret</link>
+      <description>🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites</description>
     </item>
     <item>
-      <title>HunxByts /GhostTrack</title>
-      <link>https://github.com/HunxByts/GhostTrack</link>
-      <description>Useful tool to track location or mobile number</description>
+      <title>browserbase /skills</title>
+      <link>https://github.com/browserbase/skills</link>
+      <description>Claude Agent SDK with a web browsing tool</description>
     </item>
     <item>
-      <title>mattpocock /skills</title>
-      <link>https://github.com/mattpocock/skills</link>
-      <description>Skills for Real Engineers. Straight from my .claude directory.</description>
+      <title>ruvnet /ruflo</title>
+      <link>https://github.com/ruvnet/ruflo</link>
+      <description>🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, distributed swarm intelligence, RAG integration, and native Claude Code / Codex Integration</description>
     </item>
     <item>
-      <title>warpdotdev /warp</title>
-      <link>https://github.com/warpdotdev/warp</link>
-      <description>Warp is an agentic development environment, born out of the terminal.</description>
+      <title>TauricResearch /TradingAgents</title>
+      <link>https://github.com/TauricResearch/TradingAgents</link>
+      <description>TradingAgents: Multi-Agents LLM Financial Trading Framework</description>
     </item>
   </channel>
 </rss>

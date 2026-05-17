@@ -6,7 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 16 May 2026 03:52:50 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 May 2026 04:10:56 +0000</lastBuildDate>
     <item>
       <title>Architecting a resilient, scalable and secure foundation for the agentic era</title>
       <link>https://cloud.google.com/blog/topics/public-sector/architecting-a-resilient-scalable-and-secure-foundation-for-the-agentic-era</link>

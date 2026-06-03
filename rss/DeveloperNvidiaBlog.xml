@@ -6,12 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 02 Jun 2026 04:52:57 +0000</lastBuildDate>
-    <item>
-      <title>如何借助 NVIDIA 构建云端协同的座舱 AI 智能体</title>
-      <link>https://developer.nvidia.cn/blog/how-to-build-in-vehicle-ai-agents-with-nvidia-from-cloud-to-car/</link>
-      <description>2026年 5月 5日如何借助 NVIDIA 构建云端协同的座舱 AI 智能体汽车座舱正在经历一场根本性的变革：从基于规则的传统交互界面，转向具备推理、规划和执行能力的代理式多模态 AI 系统。2 MIN READ</description>
-    </item>
+    <lastBuildDate>Wed, 03 Jun 2026 05:03:26 +0000</lastBuildDate>
     <item>
       <title>借助 NCCL Inspector 和 Prometheus 实现实时性能监控和快速调试</title>
       <link>https://developer.nvidia.cn/blog/real-time-performance-monitoring-and-faster-debugging-with-nccl-inspector-and-prometheus/</link>
@@ -76,6 +71,11 @@
       <title>NVIDIA 认证的智能体技能为 AI 智能体提供能力治理</title>
       <link>https://developer.nvidia.cn/blog/nvidia-verified-agent-skills-provide-capability-governance-for-ai-agents/</link>
       <description>2026年 5月 19日NVIDIA 认证的智能体技能为 AI 智能体提供能力治理自主 AI 智能体的能力正不断增强。开放模型、模型上下文协议（MCP）连接的工具以及可移植技能，使得智能体更易于扩展。然而，1 MIN READ</description>
+    </item>
+    <item>
+      <title>为智能体线束添加专门的深度研究技能</title>
+      <link>https://developer.nvidia.cn/blog/add-a-specialized-deep-research-skill-to-agent-harnesses/</link>
+      <description>2026年 5月 20日为智能体线束添加专门的深度研究技能Claude Code、Codex 和 LangChain Deep Agents 等智能体工具是优秀的任务编排工具，能够管理会话、2 MIN READ</description>
     </item>
     <item>
       <title>NVIDIA CUDA 13.3 通过 C++ 中的平铺式编程、编译器自动调整和 Python 更新来增强 GPU 开发</title>

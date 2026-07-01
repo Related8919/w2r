@@ -6,12 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 30 Jun 2026 04:20:30 +0000</lastBuildDate>
-    <item>
-      <title>如何使用 NVIDIA Alpamayo 在闭环中对自动驾驶车辆模型进行后训练</title>
-      <link>https://developer.nvidia.cn/blog/how-to-post-train-autonomous-vehicle-models-in-closed-loop-with-nvidia-alpamayo/</link>
-      <description>2026年 5月 31日如何使用 NVIDIA Alpamayo 在闭环中对自动驾驶车辆模型进行后训练开发自动驾驶车辆（AV）政策需要弥合训练与部署之间的一个重要差距。2 MIN READ</description>
-    </item>
+    <lastBuildDate>Wed, 01 Jul 2026 04:48:16 +0000</lastBuildDate>
     <item>
       <title>在 NVIDIA DGX Spark 上使用更快的模型和多节点集群运行本地 AI 智能体</title>
       <link>https://developer.nvidia.cn/blog/run-local-ai-agents-with-faster-models-and-multi-node-clustering-on-nvidia-dgx-spark/</link>
@@ -86,6 +81,11 @@
       <title>借助 NVIDIA Quantum InfiniBand 实现一键式多租户安全</title>
       <link>https://developer.nvidia.cn/blog/one-click-multi-tenant-security-with-nvidia-quantum-infiniband/</link>
       <description>2026年 6月 11日借助 NVIDIA Quantum InfiniBand 实现一键式多租户安全NVIDIA Quantum InfiniBand 现可在 Unified Fabric Manager (UFM)…2 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA BlueField DPU：助力 AI 云兼顾效率与可信</title>
+      <link>https://developer.nvidia.cn/blog/nvidia-bluefield-dpu-ai-cloud-efficiency-trust/</link>
+      <description>2026年 7月 1日NVIDIA BlueField DPU：助力 AI 云兼顾效率与可信随着大模型和高性能 AI 业务全面上云，用户的核心诉求正在从“有没有算力”转向“算力是否可控、是否隔离可信、能否高效调度”。1 MIN READ</description>
     </item>
   </channel>
 </rss>

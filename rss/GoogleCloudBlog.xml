@@ -6,21 +6,16 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 13 Jul 2026 03:43:58 +0000</lastBuildDate>
-    <item>
-      <title>Shift into high gear with agents: Securing the software-defined vehicle</title>
-      <link>https://cloud.google.com/blog/products/identity-security/shift-into-high-gear-with-agents-securing-the-software-defined-vehicle</link>
-      <description>Security &amp; IdentityShift into high gear with agents: Securing the software-defined vehicleBy Florian Haubner • 5-minute read</description>
-    </item>
-    <item>
-      <title>The ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPI</title>
-      <link>https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi</link>
-      <description>Threat IntelligenceThe ‘Ghost’ in the Database: Recovering Active ADFS Signing Keys via Machine DPAPIBy Mandiant  • 8-minute read</description>
-    </item>
+    <lastBuildDate>Tue, 14 Jul 2026 03:39:42 +0000</lastBuildDate>
     <item>
       <title>Google Cloud Labs: Accelerate AI with Cloud Run</title>
       <link>https://cloud.google.com/blog/topics/developers-practitioners/google-cloud-labs-accelerate-ai-with-cloud-run</link>
       <description>Developers &amp; PractitionersGoogle Cloud Labs: Accelerate AI with Cloud RunBy Shir Meir Lador • 4-minute read</description>
+    </item>
+    <item>
+      <title>Drive proactive security, prioritize risks with Google Threat Intelligence and Wiz ASM</title>
+      <link>https://cloud.google.com/blog/products/identity-security/drive-proactive-security-prioritize-risks-with-google-threat-intelligence-and-wiz-asm</link>
+      <description>Security &amp; IdentityDrive proactive security, prioritize risks with Google Threat Intelligence and Wiz ASMBy Megan DeBlois • 3-minute read</description>
     </item>
     <item>
       <title>20 questions for the Agentic Enterprise (and how Agent Platform can help)</title>
@@ -43,19 +38,24 @@
       <description>Developers &amp; PractitionersAutopilot Clusters with GKE managed DRANET: GPUs and TPUsBy Ammett Williams • 4-minute read</description>
     </item>
     <item>
-      <title>Frontier and Center: Who evaluates the evaluations?</title>
-      <link>https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance</link>
-      <description>Data AnalyticsFrontier and Center: Who evaluates the evaluations?By Manav Garg • 10-minute read</description>
-    </item>
-    <item>
       <title>What’s new with Google Cloud</title>
       <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
       <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 24-minute read</description>
     </item>
     <item>
-      <title>Contributing to U.K. financial sector resilience as a critical third party</title>
-      <link>https://cloud.google.com/blog/products/identity-security/contributing-to-uk-financial-sector-resilience-as-a-critical-third-party</link>
-      <description>Security &amp; IdentityContributing to U.K. financial sector resilience as a critical third partyBy Jeanette Manfra  • 2-minute read</description>
+      <title>Building the AI-defined vehicle with Android, Google Cloud, and Nexus SDV</title>
+      <link>https://cloud.google.com/blog/products/databases/nexus-sdv-uses-bigtable-android-automotive-for-agentic-vehicles</link>
+      <description>DatabasesBuilding the AI-defined vehicle with Android, Google Cloud, and Nexus SDVBy Peter Ivanov • 7-minute read</description>
+    </item>
+    <item>
+      <title>Securing the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMs</title>
+      <link>https://cloud.google.com/blog/products/identity-security/introducing-k8s-aibom-on-gke-for-automated-ai-bills-of-materials</link>
+      <description>Security &amp; IdentitySecuring the AI supply chain on GKE: Introducing k8s-aibom for automated AI BOMsBy Glen Messenger • 5-minute read</description>
+    </item>
+    <item>
+      <title>Key findings from the 2026 Public Sector M-Trends report and beyond</title>
+      <link>https://cloud.google.com/blog/topics/public-sector/key-findings-from-the-2026-public-sector-m-trends-report-and-beyond</link>
+      <description>Public SectorKey findings from the 2026 Public Sector M-Trends report and beyondBy Fernando Tomlinson Jr. • 4-minute read</description>
     </item>
   </channel>
 </rss>

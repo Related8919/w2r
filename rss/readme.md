@@ -31,7 +31,7 @@
 - Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-h2FirmwareUpdate.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/x-h2FirmwareUpdate.xml)
 
 ## 工信部车辆准入许可
-- 原网址：https://www.miit.gov.cn/RRSdy/index.html
+- 原网址：https://www.miit.gov.cn/search/zcwjk.html?websiteid=110000000000000&pg=&p=&tpl=14&category=183&q=%E9%81%93%E8%B7%AF%E6%9C%BA%E5%8A%A8%E8%BD%A6%E8%BE%86%E7%94%9F%E4%BA%A7%E4%BC%81%E4%B8%9A%E5%8F%8A%E4%BA%A7%E5%93%81
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/工信部车辆准入许可.xml
 - Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/工信部车辆准入许可.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/工信部车辆准入许可.xml)
 

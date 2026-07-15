@@ -54,6 +54,11 @@ def fetch_blog_posts(config):
     posts = []
     for block in blocks:
         title = block.select_one(config['title_css'])
+        title_text = title.get_text(strip=True) if title else ''
+        title_contains = config.get('title_contains')
+        if title_contains and title_contains not in title_text:
+            continue
+
         description = block.select_one(config['description_css']) if config['description_css'] else block
         link = block.select_one(config['link_css']) if config['link_css'] else block
         
@@ -70,7 +75,7 @@ def fetch_blog_posts(config):
 
         if title and description and link:
             posts.append({
-                'title': title.get_text(strip=True),
+                'title': title_text,
                 'description': description.get_text(strip=True),
                 'link': link['href'] if link['href'].startswith('http') else urljoin(config['url'], link['href']),
                 'extra_info': extra_info

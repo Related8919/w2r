@@ -127,11 +127,12 @@ sites:
 
   - name: 工信部车辆准入许可
     follow_desc: feedId:158342442182353920+userId:43946731810334720
-    url: https://www.miit.gov.cn/RRSdy/index.html
-    block_css: "#barrierfree_container > div.clist.w980.center > table > tbody > tr > td:nth-child(1) > div > ul:nth-child(6) > li"
-    title_css: "a"
-    description_css: "a"
-    link_css: a
+    url: "https://www.miit.gov.cn/search/zcwjk.html?websiteid=110000000000000&pg=&p=&tpl=14&category=183&q=%E9%81%93%E8%B7%AF%E6%9C%BA%E5%8A%A8%E8%BD%A6%E8%BE%86%E7%94%9F%E4%BA%A7%E4%BC%81%E4%B8%9A%E5%8F%8A%E4%BA%A7%E5%93%81"
+    block_css: "div.jcse-result-box.search-list"
+    title_css: "div.search-list-t > a"
+    title_contains: "道路机动车辆生产企业及产品"
+    description_css: "div.search-list-mt"
+    link_css: "div.search-list-t > a"
     use_headless_browser: true
 
   - name: trellixBlogs

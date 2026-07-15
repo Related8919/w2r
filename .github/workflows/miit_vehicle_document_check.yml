@@ -21,7 +21,7 @@ env:
   PREVIOUS_REF: "HEAD^"
   ARTICLE_TITLE_KEYWORD: "道路机动车辆生产企业及产品"
   ATTACHMENT_NAME_KEYWORD: "道路机动车辆生产企业及产品"
-  DOCUMENT_SEARCH_TEXT: "xxx"
+  DOCUMENT_SEARCH_TEXT: "特斯拉"
   ALLOWED_HOST: "www.miit.gov.cn"
   REQUEST_TIMEOUT_SECONDS: "30"
   BARK_BASE_URL: "https://api.day.app"

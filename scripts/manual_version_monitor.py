@@ -12,7 +12,6 @@ import time
 import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from datetime import datetime, timezone
-from email.utils import format_datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Sequence, Tuple
 from urllib.parse import quote, urlencode, urljoin
@@ -256,6 +255,7 @@ def make_text_diff(old_text: str, new_text: str) -> Tuple[str, int, int]:
 
 def fallback_summary(old_version: str, new_version: str, additions: int, deletions: int) -> str:
     return (
+        "Gemini 总结失败，以下为基础差异统计。"
         f"软件版本由 {old_version} 更新为 {new_version}。"
         f"PDF 文本差异统计：新增 {additions} 行，删除 {deletions} 行。"
     )
@@ -399,69 +399,43 @@ def rss_description(
     )
 
 
-def ensure_rss(path: Path, target: Target) -> None:
-    if path.exists():
-        root = ET.parse(path).getroot()
-        if root.find("channel") is None:
-            raise RuntimeError(f"Invalid RSS file: {path}")
-        return
-    root = ET.Element("rss", {"version": "2.0"})
-    channel = ET.SubElement(root, "channel")
-    ET.SubElement(channel, "title").text = f"{target.name} 中文车主手册更新"
-    ET.SubElement(channel, "link").text = target.page_url
-    ET.SubElement(channel, "description").text = (
-        f"{target.name} 中文车主手册软件版本和 PDF 内容变化"
-    )
-    ET.SubElement(channel, "language").text = "zh-cn"
-    path.parent.mkdir(parents=True, exist_ok=True)
-    ET.indent(root, space="  ")
-    ET.ElementTree(root).write(path, encoding="utf-8", xml_declaration=True)
-
-
-def update_rss(
-    path: Path,
-    target: Target,
-    old_version: str,
-    new_version: str,
-    pdf_url: str,
-    pdf_hash: str,
-    summary: str,
-    additions: int,
-    deletions: int,
-    detected_at: datetime,
-    max_items: int,
-) -> None:
-    ensure_rss(path, target)
+def pending_rss_entry(path: Path) -> Optional[Tuple[str, str, str]]:
+    if not path.exists():
+        return None
     root = ET.parse(path).getroot()
     channel = root.find("channel")
-
-    guid_value = f"manual-{target.key}-{new_version}-{pdf_hash}"
+    if channel is None:
+        raise RuntimeError(f"Invalid RSS file: {path}")
     for item in channel.findall("item"):
-        if item.findtext("guid") == guid_value:
-            return
+        description = item.find("description")
+        if description is not None and (description.text or "").strip():
+            continue
+        version = (item.findtext("title") or "").strip()
+        pdf_url = (item.findtext("link") or "").strip()
+        guid = (item.findtext("guid") or "").strip()
+        if not version or not pdf_url or not guid:
+            raise RuntimeError(f"Incomplete pending RSS item: {path}")
+        return version, pdf_url, guid
+    return None
 
-    item = ET.Element("item")
-    ET.SubElement(item, "title").text = f"{target.name} 车主手册更新（{new_version}）"
-    ET.SubElement(item, "link").text = pdf_url
-    guid = ET.SubElement(item, "guid", {"isPermaLink": "false"})
-    guid.text = guid_value
-    ET.SubElement(item, "pubDate").text = format_datetime(detected_at)
-    ET.SubElement(item, "description").text = rss_description(
-        old_version, new_version, summary, additions, deletions
-    )
 
-    first_item_index = next(
-        (index for index, child in enumerate(channel) if child.tag == "item"),
-        len(channel),
-    )
-    channel.insert(first_item_index, item)
-    items = channel.findall("item")
-    for old_item in items[max_items:]:
-        channel.remove(old_item)
-
-    path.parent.mkdir(parents=True, exist_ok=True)
-    ET.indent(root, space="  ")
-    ET.ElementTree(root).write(path, encoding="utf-8", xml_declaration=True)
+def complete_rss_entry(path: Path, guid_value: str, description_text: str) -> None:
+    tree = ET.parse(path)
+    root = tree.getroot()
+    channel = root.find("channel")
+    if channel is None:
+        raise RuntimeError(f"Invalid RSS file: {path}")
+    for item in channel.findall("item"):
+        if (item.findtext("guid") or "").strip() != guid_value:
+            continue
+        description = item.find("description")
+        if description is None:
+            description = ET.SubElement(item, "description")
+        description.text = description_text
+        ET.indent(root, space="  ")
+        tree.write(path, encoding="utf-8", xml_declaration=True)
+        return
+    raise RuntimeError(f"Pending RSS item disappeared: {guid_value}")
 
 
 def fetch_manual_content(
@@ -479,39 +453,33 @@ def process_target(
     target: Target,
     state: Dict[str, object],
     state_dir: Path,
-    version_container_css: str,
     version_text_prefix: str,
-    pdf_link_css: str,
     gemini_api_key: str,
     gemini_model: str,
     timeout: int,
-    max_items: int,
     browser_fetcher: BrowserFetcher,
     bark_base_url: str,
     bark_token: str,
     bark_title: str,
     bark_group: str,
 ) -> str:
-    page_html = fetch_manual_content(
-        target.page_url,
-        browser_fetcher,
-        version_text_prefix,
-    )
-    version, pdf_url = parse_manual_page(
-        page_html,
-        target.page_url,
-        version_container_css,
-        version_text_prefix,
-        pdf_link_css,
-    )
     targets_state = state["targets"]
     previous = targets_state.get(target.key)
-    if previous and previous.get("version") == version:
-        if not (state_dir / target.pdf_asset).exists():
-            raise RuntimeError(f"Previous PDF asset is missing: {target.pdf_asset}")
-        print(f"{target.name}: software version unchanged ({version})")
+    pending = pending_rss_entry(target.rss_path)
+    if pending is None:
+        print(f"{target.name}: no pending RSS entry")
         return "unchanged"
+    version, pdf_url, guid_value = pending
+    if previous and previous.get("version") == version:
+        description = previous.get("rss_description") or (
+            f"{version} 已建立 PDF 基线，本次未重复比较。"
+        )
+        complete_rss_entry(target.rss_path, guid_value, description)
+        previous["rss_description"] = description
+        print(f"{target.name}: restored RSS description for {version}")
+        return "recovered"
 
+    browser_fetcher.page_html(target.page_url, version_text_prefix)
     pdf_content = fetch_manual_content(pdf_url, browser_fetcher)
     if not pdf_content.startswith(b"%PDF-"):
         raise RuntimeError("Downloaded owner manual is not a valid PDF")
@@ -520,6 +488,8 @@ def process_target(
     asset_path = state_dir / target.pdf_asset
 
     if previous is None:
+        description = f"首次记录 {version}，已建立 PDF 基线，暂无上一版本可供比较。"
+        complete_rss_entry(target.rss_path, guid_value, description)
         asset_path.parent.mkdir(parents=True, exist_ok=True)
         asset_path.write_bytes(pdf_content)
         targets_state[target.key] = {
@@ -528,9 +498,22 @@ def process_target(
             "pdf_sha256": pdf_hash,
             "pdf_asset": target.pdf_asset,
             "updated_at": detected_at.isoformat(),
+            "rss_description": description,
         }
-        ensure_rss(target.rss_path, target)
-        print(f"{target.name}: baseline created ({version})")
+        try:
+            send_bark(
+                session,
+                bark_base_url,
+                bark_token,
+                f"{bark_title} - {target.name}",
+                description,
+                pdf_url,
+                bark_group,
+                timeout,
+            )
+        except RuntimeError as error:
+            print(f"::warning::{target.name}: {error}")
+        print(f"{target.name}: baseline created and RSS completed ({version})")
         return "baseline"
 
     if not asset_path.exists():
@@ -561,30 +544,10 @@ def process_target(
         print(f"::warning::{target.name}: {error}")
         summary = fallback_summary(old_version, version, additions, deletions)
 
-    update_rss(
-        target.rss_path,
-        target,
-        old_version,
-        version,
-        pdf_url,
-        pdf_hash,
-        summary,
-        additions,
-        deletions,
-        detected_at,
-        max_items,
+    description = rss_description(
+        old_version, version, summary, additions, deletions
     )
-    send_bark(
-        session,
-        bark_base_url,
-        bark_token,
-        f"{bark_title} - {target.name}",
-        bark_body(old_version, version, additions, deletions, summary),
-        pdf_url,
-        bark_group,
-        timeout,
-    )
-    print(f"{target.name}: Bark notification sent")
+    complete_rss_entry(target.rss_path, guid_value, description)
     asset_path.write_bytes(pdf_content)
     targets_state[target.key] = {
         "version": version,
@@ -592,7 +555,22 @@ def process_target(
         "pdf_sha256": pdf_hash,
         "pdf_asset": target.pdf_asset,
         "updated_at": detected_at.isoformat(),
+        "rss_description": description,
     }
+    try:
+        send_bark(
+            session,
+            bark_base_url,
+            bark_token,
+            f"{bark_title} - {target.name}",
+            bark_body(old_version, version, additions, deletions, summary),
+            pdf_url,
+            bark_group,
+            timeout,
+        )
+        print(f"{target.name}: Bark notification sent")
+    except RuntimeError as error:
+        print(f"::warning::{target.name}: {error}")
     print(f"{target.name}: updated {old_version} -> {version}")
     return "updated"
 
@@ -645,13 +623,10 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                 target,
                 state,
                 args.state_dir,
-                required_env("MANUAL_VERSION_CONTAINER_CSS"),
                 required_env("MANUAL_VERSION_TEXT_PREFIX"),
-                required_env("MANUAL_PDF_LINK_CSS"),
                 os.environ.get("GEMINI_API_KEY", "").strip(),
                 required_env("GEMINI_MODEL"),
                 int(os.environ.get("MANUAL_REQUEST_TIMEOUT_SECONDS", "30")),
-                int(os.environ.get("MANUAL_RSS_MAX_ITEMS", "50")),
                 browser_fetcher,
                 required_env("BARK_BASE_URL"),
                 os.environ.get("BARK_TOKEN", "").strip(),

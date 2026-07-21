@@ -6,7 +6,7 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 21 Jul 2026 03:32:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 07:20:03 +0000</lastBuildDate>
     <item>
       <title>moonshine-ai /moonshine</title>
       <link>https://github.com/moonshine-ai/moonshine</link>
@@ -106,6 +106,11 @@
       <title>tirth8205 /code-review-graph</title>
       <link>https://github.com/tirth8205/code-review-graph</link>
       <description>Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.</description>
+    </item>
+    <item>
+      <title>bojieli /ai-agent-book</title>
+      <link>https://github.com/bojieli/ai-agent-book</link>
+      <description>《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码</description>
     </item>
   </channel>
 </rss>

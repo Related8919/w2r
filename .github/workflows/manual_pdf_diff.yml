@@ -1,0 +1,127 @@
+name: Check Manual PDF Changes
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: manual-pdf-diff-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  TARGET_BRANCH: ${{ github.ref_name }}
+  MODEL3_MANUAL_URL: ${{ secrets.MODEL3_MANUAL_URL }}
+  MODELY_MANUAL_URL: ${{ secrets.MODELY_MANUAL_URL }}
+  MANUAL_VERSION_TEXT_PREFIX: ${{ secrets.MANUAL_VERSION_TEXT_PREFIX }}
+  MODEL3_MANUAL_RSS_PATH: "rss/model3_manual.xml"
+  MODELY_MANUAL_RSS_PATH: "rss/modely_manual.xml"
+  MANUAL_STATE_RELEASE_TAG: "manual-version-state"
+  MANUAL_STATE_DIR: ".manual-state"
+  MANUAL_RESULT_FILE: ".manual-state/result.json"
+  GEMINI_MODEL: "gemini-2.5-flash"
+  MANUAL_REQUEST_TIMEOUT_SECONDS: "120"
+  BARK_BASE_URL: "https://api.day.app"
+  MANUAL_BARK_TITLE: "车主手册更新"
+  MANUAL_BARK_GROUP: "车主手册"
+
+jobs:
+  diff-manuals:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout generated RSS
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TARGET_BRANCH }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Restore PDF baselines
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p "${MANUAL_STATE_DIR}"
+          if gh release view "${MANUAL_STATE_RELEASE_TAG}" >/dev/null 2>&1; then
+            asset_count="$(gh release view "${MANUAL_STATE_RELEASE_TAG}" \
+              --json assets --jq '.assets | length')"
+            if [[ "${asset_count}" -gt 0 ]]; then
+              gh release download "${MANUAL_STATE_RELEASE_TAG}" \
+                --dir "${MANUAL_STATE_DIR}" \
+                --pattern "*manual*" \
+                --clobber
+            fi
+          else
+            gh release create "${MANUAL_STATE_RELEASE_TAG}" \
+              --title "Manual version monitoring state" \
+              --notes "Current PDF baselines used by the owner manual monitor."
+          fi
+
+      - name: Diff PDFs and complete RSS
+        id: pdf-diff
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          BARK_TOKEN: ${{ secrets.BARK_TOKEN }}
+        run: |
+          python scripts/manual_version_monitor.py \
+            --state-dir "${MANUAL_STATE_DIR}" \
+            --result-file "${MANUAL_RESULT_FILE}"
+
+      - name: Commit completed RSS
+        id: commit-rss
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add "${MODEL3_MANUAL_RSS_PATH}" "${MODELY_MANUAL_RSS_PATH}"
+          if git diff --cached --quiet; then
+            echo "No manual RSS descriptions to commit."
+            exit 0
+          fi
+          git commit -m "Complete manual PDF summaries"
+          for attempt in 1 2 3; do
+            git fetch origin "${TARGET_BRANCH}"
+            git rebase "origin/${TARGET_BRANCH}"
+            if git push origin "HEAD:${TARGET_BRANCH}"; then
+              exit 0
+            fi
+            echo "Push attempt ${attempt} failed; retrying after rebase."
+            sleep $((attempt * 2))
+          done
+          echo "Failed to push completed manual RSS after 3 attempts."
+          exit 1
+
+      - name: Save PDF baselines
+        if: always() && steps.commit-rss.outcome == 'success'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          assets=()
+          for asset in \
+            manual-version-state.json \
+            model3-manual-current.pdf \
+            modely-manual-current.pdf; do
+            if [[ -f "${MANUAL_STATE_DIR}/${asset}" ]]; then
+              assets+=("${MANUAL_STATE_DIR}/${asset}")
+            fi
+          done
+          if (( ${#assets[@]} )); then
+            gh release upload "${MANUAL_STATE_RELEASE_TAG}" "${assets[@]}" --clobber
+          fi
+
+      - name: Report PDF diff failure
+        if: steps.pdf-diff.outcome == 'failure'
+        run: |
+          if [[ -f "${MANUAL_RESULT_FILE}" ]]; then
+            cat "${MANUAL_RESULT_FILE}"
+          fi
+          exit 1

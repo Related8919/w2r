@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Model Y 中文车主手册更新</title>
+    <link>https://www.tesla.cn/ownersmanual/modely/zh_cn/index.html</link>
+    <description>Model Y 中文车主手册软件版本和 PDF 内容变化</description>
+    <language>zh-cn</language>
+    <item>
+      <title>软件版本：2026.8</title>
+      <link>https://www.tesla.cn/ownersmanual/modely/zh_cn/Owners_Manual.pdf</link>
+      <guid isPermaLink="false">manual-modely-软件版本：2026.8</guid>
+      <pubDate>Tue, 21 Jul 2026 08:49:00 +0000</pubDate>
+      <description />
+    </item>
+  </channel>
+</rss>

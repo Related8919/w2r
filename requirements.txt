@@ -4,3 +4,4 @@ feedgen
 pyyaml
 selenium
 webdriver-manager
+pypdf

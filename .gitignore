@@ -3,3 +3,5 @@ README.md
 .github/.DS_Store
 __pycache__/
 *.py[cod]
+.venv/
+.manual-state/

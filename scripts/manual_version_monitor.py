@@ -5,6 +5,7 @@ import difflib
 import hashlib
 import json
 import os
+import platform
 import re
 import tempfile
 import time
@@ -52,21 +53,98 @@ class BrowserFetcher:
             options.add_argument("--no-sandbox")
             options.add_argument("--disable-dev-shm-usage")
             options.add_argument("--disable-gpu")
+            options.add_argument("--disable-blink-features=AutomationControlled")
+            options.add_argument("--lang=zh-CN")
             options.add_argument("--window-size=1920x1080")
+            options.add_experimental_option("excludeSwitches", ["enable-automation"])
+            options.add_experimental_option("useAutomationExtension", False)
+            options.page_load_strategy = "eager"
             self.driver = webdriver.Chrome(options=options)
             self.driver.set_page_load_timeout(self.timeout)
+            user_agent = self.driver.execute_script("return navigator.userAgent")
+            browser_version = self.driver.capabilities["browserVersion"]
+            major_version = browser_version.split(".", 1)[0]
+            system = platform.system()
+            if system == "Darwin":
+                client_platform = "macOS"
+                platform_version = "10.15.7"
+            elif system == "Windows":
+                client_platform = "Windows"
+                platform_version = "10.0.0"
+            else:
+                client_platform = "Linux"
+                platform_version = ""
+            architecture = "arm" if "arm" in platform.machine().lower() else "x86"
+            brands = [
+                {"brand": "Not_A Brand", "version": "99"},
+                {"brand": "Chromium", "version": major_version},
+                {"brand": "Google Chrome", "version": major_version},
+            ]
+            self.driver.execute_cdp_cmd(
+                "Network.setUserAgentOverride",
+                {
+                    "userAgent": user_agent.replace("HeadlessChrome", "Chrome"),
+                    "acceptLanguage": "zh-CN,zh;q=0.9,en;q=0.8",
+                    "platform": client_platform,
+                    "userAgentMetadata": {
+                        "brands": brands,
+                        "fullVersionList": [
+                            {"brand": "Not_A Brand", "version": "99.0.0.0"},
+                            {"brand": "Chromium", "version": browser_version},
+                            {"brand": "Google Chrome", "version": browser_version},
+                        ],
+                        "fullVersion": browser_version,
+                        "platform": client_platform,
+                        "platformVersion": platform_version,
+                        "architecture": architecture,
+                        "model": "",
+                        "mobile": False,
+                        "bitness": "64",
+                        "wow64": False,
+                    },
+                },
+            )
+            self.driver.execute_cdp_cmd(
+                "Page.addScriptToEvaluateOnNewDocument",
+                {
+                    "source": (
+                        "Object.defineProperty(navigator, 'webdriver', "
+                        "{get: () => undefined});"
+                    )
+                },
+            )
         return self.driver
 
-    def page_html(self, url: str, ready_css: str) -> bytes:
+    def page_html(self, url: str, version_text_prefix: str) -> bytes:
         from selenium.webdriver.common.by import By
+        from selenium.common.exceptions import TimeoutException
         from selenium.webdriver.support.ui import WebDriverWait
-        from selenium.webdriver.support import expected_conditions as conditions
 
         driver = self._driver()
-        driver.get(url)
-        WebDriverWait(driver, self.timeout).until(
-            conditions.presence_of_element_located((By.CSS_SELECTOR, ready_css))
-        )
+        prefix = normalize_text(version_text_prefix)
+        try:
+            navigation = driver.execute_cdp_cmd("Page.navigate", {"url": url})
+            if navigation.get("errorText"):
+                raise RuntimeError(
+                    f"Headless Chrome navigation failed: {navigation['errorText']}"
+                )
+            WebDriverWait(driver, self.timeout).until(
+                lambda current: prefix
+                in normalize_text(current.find_element(By.TAG_NAME, "body").text)
+            )
+        except TimeoutException:
+            body_text = ""
+            try:
+                body_text = normalize_text(
+                    driver.find_element(By.TAG_NAME, "body").text
+                )[:300]
+            except Exception:
+                pass
+            raise RuntimeError(
+                "Manual page did not expose the configured version text before "
+                f"timeout; title={driver.title!r}, url={driver.current_url!r}, "
+                f"body={body_text!r}"
+            ) from None
         return driver.page_source.encode("utf-8")
 
     def download(self, url: str) -> bytes:
@@ -85,15 +163,20 @@ class BrowserFetcher:
             deadline = time.monotonic() + self.timeout
             directory_path = Path(directory)
             while time.monotonic() < deadline:
-                files = [
+                pdf_files = [
                     path
                     for path in directory_path.iterdir()
-                    if path.is_file() and not path.name.endswith(".crdownload")
+                    if path.is_file() and path.suffix.lower() == ".pdf"
                 ]
-                if len(files) == 1:
-                    return files[0].read_bytes()
+                for path in pdf_files:
+                    content = path.read_bytes()
+                    if content.startswith(b"%PDF-"):
+                        return content
                 time.sleep(0.25)
-        raise RuntimeError("Browser PDF download timed out")
+            observed = sorted(path.name for path in directory_path.iterdir())
+        raise RuntimeError(
+            f"Browser PDF download timed out; observed files: {observed}"
+        )
 
     def close(self) -> None:
         if self.driver is not None:
@@ -384,10 +467,10 @@ def update_rss(
 def fetch_manual_content(
     url: str,
     browser_fetcher: BrowserFetcher,
-    ready_css: Optional[str] = None,
+    version_text_prefix: Optional[str] = None,
 ) -> bytes:
-    if ready_css:
-        return browser_fetcher.page_html(url, ready_css)
+    if version_text_prefix:
+        return browser_fetcher.page_html(url, version_text_prefix)
     return browser_fetcher.download(url)
 
 
@@ -412,7 +495,7 @@ def process_target(
     page_html = fetch_manual_content(
         target.page_url,
         browser_fetcher,
-        version_container_css,
+        version_text_prefix,
     )
     version, pdf_url = parse_manual_page(
         page_html,

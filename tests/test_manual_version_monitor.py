@@ -104,9 +104,9 @@ class ManualVersionMonitorTests(unittest.TestCase):
         browser = Mock()
         browser.page_html.return_value = b"browser html"
         self.assertEqual(
-            fetch_manual_content(PAGE_URL, browser, VERSION_CSS), b"browser html"
+            fetch_manual_content(PAGE_URL, browser, "软件版本："), b"browser html"
         )
-        browser.page_html.assert_called_once_with(PAGE_URL, VERSION_CSS)
+        browser.page_html.assert_called_once_with(PAGE_URL, "软件版本：")
 
     def test_first_run_creates_baseline_and_empty_rss(self):
         session = Mock()

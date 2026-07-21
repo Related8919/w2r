@@ -9,15 +9,22 @@ on:
       - 'rss_generator.py'
       - 'config.yaml'
       - 'scripts/manual_version_monitor.py'
+      - 'scripts/manual_rss_generator.py'
       - 'requirements.txt'
   schedule:
     - cron: '0 0 * * *'  # 每天运行一次
   workflow_dispatch:  # 允许手动触发
 
+concurrency:
+  group: rss-generator-${{ github.ref }}
+  cancel-in-progress: false
+
 permissions:
   contents: write
+  actions: write
 
 env:
+  TARGET_BRANCH: ${{ github.ref_name }}
   MODEL3_MANUAL_URL: ${{ secrets.MODEL3_MANUAL_URL }}
   MODELY_MANUAL_URL: ${{ secrets.MODELY_MANUAL_URL }}
   MANUAL_VERSION_CONTAINER_CSS: ${{ secrets.MANUAL_VERSION_CONTAINER_CSS }}
@@ -25,15 +32,8 @@ env:
   MANUAL_PDF_LINK_CSS: ${{ secrets.MANUAL_PDF_LINK_CSS }}
   MODEL3_MANUAL_RSS_PATH: "rss/model3_manual.xml"
   MODELY_MANUAL_RSS_PATH: "rss/modely_manual.xml"
-  MANUAL_STATE_RELEASE_TAG: "manual-version-state"
-  MANUAL_STATE_DIR: ".manual-state"
-  MANUAL_RESULT_FILE: ".manual-state/result.json"
-  GEMINI_MODEL: "gemini-2.5-flash"
   MANUAL_REQUEST_TIMEOUT_SECONDS: "120"
   MANUAL_RSS_MAX_ITEMS: "50"
-  BARK_BASE_URL: "https://api.day.app"
-  MANUAL_BARK_TITLE: "车主手册更新"
-  MANUAL_BARK_GROUP: "车主手册"
 
 jobs:
   build:
@@ -61,56 +61,19 @@ jobs:
       run: |
         curl -o rss/MicrosoftResearch.xml https://www.microsoft.com/en-us/research/feed/
 
-    - name: Restore manual baselines
-      env:
-        GH_TOKEN: ${{ github.token }}
+    - name: Generate owner manual RSS placeholders
+      id: manual-rss
       run: |
-        mkdir -p "${MANUAL_STATE_DIR}"
-        if gh release view "${MANUAL_STATE_RELEASE_TAG}" >/dev/null 2>&1; then
-          asset_count="$(gh release view "${MANUAL_STATE_RELEASE_TAG}" \
-            --json assets --jq '.assets | length')"
-          if [[ "${asset_count}" -gt 0 ]]; then
-            gh release download "${MANUAL_STATE_RELEASE_TAG}" \
-              --dir "${MANUAL_STATE_DIR}" \
-              --pattern "*manual*" \
-              --clobber
-          fi
+        python scripts/manual_rss_generator.py
+        if [[ -n "$(git status --porcelain -- \
+          "${MODEL3_MANUAL_RSS_PATH}" "${MODELY_MANUAL_RSS_PATH}")" ]]; then
+          echo "changed=true" >> "${GITHUB_OUTPUT}"
         else
-          gh release create "${MANUAL_STATE_RELEASE_TAG}" \
-            --title "Manual version monitoring state" \
-            --notes "Current PDF baselines used by the owner manual monitor."
-        fi
-
-    - name: Monitor owner manuals
-      id: manual-monitor
-      continue-on-error: true
-      env:
-        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        BARK_TOKEN: ${{ secrets.BARK_TOKEN }}
-      run: |
-        python scripts/manual_version_monitor.py \
-          --state-dir "${MANUAL_STATE_DIR}" \
-          --result-file "${MANUAL_RESULT_FILE}"
-
-    - name: Save manual baselines
-      if: always()
-      env:
-        GH_TOKEN: ${{ github.token }}
-      run: |
-        assets=()
-        for asset in \
-          manual-version-state.json \
-          model3-manual-current.pdf \
-          modely-manual-current.pdf; do
-          if [[ -f "${MANUAL_STATE_DIR}/${asset}" ]]; then
-            assets+=("${MANUAL_STATE_DIR}/${asset}")
-          fi
-        done
-        if (( ${#assets[@]} )); then
-          gh release upload "${MANUAL_STATE_RELEASE_TAG}" "${assets[@]}" --clobber
+          echo "changed=false" >> "${GITHUB_OUTPUT}"
         fi
 
     - name: Commit and push changes
+      id: commit-rss
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用GITHUB_TOKEN
       run: |
@@ -122,12 +85,21 @@ jobs:
           exit 0
         fi
         git commit -m "Update RSS feeds"
-        git push origin HEAD:${{ github.event.repository.default_branch }}
-
-    - name: Report manual monitor failure
-      if: steps.manual-monitor.outcome == 'failure'
-      run: |
-        if [[ -f "${MANUAL_RESULT_FILE}" ]]; then
-          cat "${MANUAL_RESULT_FILE}"
-        fi
+        for attempt in 1 2 3; do
+          git fetch origin "${TARGET_BRANCH}"
+          git rebase "origin/${TARGET_BRANCH}"
+          if git push origin "HEAD:${TARGET_BRANCH}"; then
+            exit 0
+          fi
+          echo "Push attempt ${attempt} failed; retrying after rebase."
+          sleep $((attempt * 2))
+        done
+        echo "Failed to push RSS changes after 3 attempts."
         exit 1
+
+    - name: Trigger manual PDF diff
+      if: steps.manual-rss.outputs.changed == 'true'
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        gh workflow run manual_pdf_diff.yml --ref "${TARGET_BRANCH}"

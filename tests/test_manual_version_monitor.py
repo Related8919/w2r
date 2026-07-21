@@ -1,21 +1,22 @@
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import Mock, patch
 
 from scripts.manual_version_monitor import (
     Target,
     build_bark_url,
+    complete_rss_entry,
     extract_pdf_text,
+    fallback_summary,
     fetch_manual_content,
     make_text_diff,
     normalize_text,
     parse_manual_page,
+    pending_rss_entry,
     process_target,
     send_bark,
-    update_rss,
 )
 
 
@@ -30,6 +31,17 @@ def page(version="2026.8", extra=""):
       <p class="p"> 软件版本: <span><span>{version}</span></span> </p>
     </div></article>
     <footer id="footer"><a href="./Owners_Manual.pdf">Download PDF</a></footer>'''.encode()
+
+
+def pending_feed(path, version="软件版本：2026.8", guid="manual-modely-current"):
+    root = ET.Element("rss", {"version": "2.0"})
+    channel = ET.SubElement(root, "channel")
+    item = ET.SubElement(channel, "item")
+    ET.SubElement(item, "title").text = version
+    ET.SubElement(item, "link").text = f"{PAGE_URL}Owners_Manual.pdf"
+    ET.SubElement(item, "guid").text = guid
+    ET.SubElement(item, "description").text = ""
+    ET.ElementTree(root).write(path, encoding="utf-8", xml_declaration=True)
 
 
 class ManualVersionMonitorTests(unittest.TestCase):
@@ -104,12 +116,34 @@ class ManualVersionMonitorTests(unittest.TestCase):
         browser = Mock()
         browser.page_html.return_value = b"browser html"
         self.assertEqual(
-            fetch_manual_content(PAGE_URL, browser, VERSION_CSS), b"browser html"
+            fetch_manual_content(PAGE_URL, browser, "软件版本："), b"browser html"
         )
-        browser.page_html.assert_called_once_with(PAGE_URL, VERSION_CSS)
+        browser.page_html.assert_called_once_with(PAGE_URL, "软件版本：")
 
-    def test_first_run_creates_baseline_and_empty_rss(self):
+    def test_pending_entry_and_completion_update_same_rss_item(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "feed.xml"
+            pending_feed(path)
+            self.assertEqual(
+                pending_rss_entry(path),
+                (
+                    "软件版本：2026.8",
+                    f"{PAGE_URL}Owners_Manual.pdf",
+                    "manual-modely-current",
+                ),
+            )
+            complete_rss_entry(path, "manual-modely-current", "summary")
+            self.assertIsNone(pending_rss_entry(path))
+            self.assertEqual(
+                ET.parse(path).getroot().findtext("./channel/item/description"),
+                "summary",
+            )
+
+    def test_first_run_completes_rss_and_creates_pdf_baseline(self):
         session = Mock()
+        bark_response = Mock(status_code=200)
+        bark_response.json.return_value = {"code": 200}
+        session.get.return_value = bark_response
         browser = Mock()
         browser.page_html.return_value = page()
         browser.download.return_value = b"%PDF-fake bytes"
@@ -120,32 +154,35 @@ class ManualVersionMonitorTests(unittest.TestCase):
                 "modely", "Model Y", PAGE_URL,
                 directory_path / "feed.xml", "current.pdf",
             )
+            pending_feed(target.rss_path)
             result = process_target(
-                session, target, state, directory_path, VERSION_CSS, "软件版本：",
-                PDF_CSS, "", "gemini-2.5-flash", 30, 50, browser,
+                session, target, state, directory_path, "软件版本：",
+                "", "gemini-2.5-flash", 30, browser,
                 "https://api.day.app", "token", "title", "group",
             )
             self.assertEqual(result, "baseline")
             self.assertTrue((directory_path / "current.pdf").exists())
-            self.assertTrue(target.rss_path.exists())
-            self.assertEqual(
-                ET.parse(target.rss_path).getroot().findall("./channel/item"), []
+            self.assertIn(
+                "首次记录",
+                ET.parse(target.rss_path).getroot().findtext(
+                    "./channel/item/description"
+                ),
             )
+            self.assertNotIn("bark_pending", state["targets"]["modely"])
 
-    def test_unchanged_version_does_not_download_pdf(self):
+    def test_no_pending_rss_does_not_download_pdf(self):
         session = Mock()
         browser = Mock()
-        browser.page_html.return_value = page()
-        state = {"schema_version": 1, "targets": {"modely": {"version": "软件版本：2026.8"}}}
+        state = {"schema_version": 1, "targets": {}}
         with tempfile.TemporaryDirectory() as directory:
             directory_path = Path(directory)
-            (directory_path / "current.pdf").write_bytes(b"%PDF-current")
             target = Target(
-                "modely", "Model Y", PAGE_URL, Path("unused.xml"), "current.pdf"
+                "modely", "Model Y", PAGE_URL,
+                directory_path / "missing.xml", "current.pdf",
             )
             result = process_target(
-                session, target, state, directory_path, VERSION_CSS, "软件版本：",
-                PDF_CSS, "", "gemini-2.5-flash", 30, 50, browser,
+                session, target, state, directory_path, "软件版本：",
+                "", "gemini-2.5-flash", 30, browser,
                 "https://api.day.app", "token", "title", "group",
             )
             self.assertEqual(result, "unchanged")
@@ -179,6 +216,11 @@ class ManualVersionMonitorTests(unittest.TestCase):
                 "modely", "Model Y", PAGE_URL,
                 directory_path / "feed.xml", "current.pdf",
             )
+            pending_feed(
+                target.rss_path,
+                version="软件版本：2026.12",
+                guid="manual-modely-new",
+            )
             with patch(
                 "scripts.manual_version_monitor.extract_pdf_text",
                 side_effect=["old line", "new line"],
@@ -187,9 +229,9 @@ class ManualVersionMonitorTests(unittest.TestCase):
                 return_value="Gemini summary",
             ):
                 result = process_target(
-                    session, target, state, directory_path, VERSION_CSS,
-                    "软件版本：", PDF_CSS, "key", "gemini-2.5-flash",
-                    30, 50, browser, "https://api.day.app", "token", "title", "group",
+                    session, target, state, directory_path, "软件版本：",
+                    "key", "gemini-2.5-flash", 30, browser,
+                    "https://api.day.app", "token", "title", "group",
                 )
 
             self.assertEqual(result, "updated")
@@ -198,29 +240,37 @@ class ManualVersionMonitorTests(unittest.TestCase):
                 state["targets"]["modely"]["version"], "软件版本：2026.12"
             )
             item = ET.parse(target.rss_path).getroot().find("./channel/item")
-            self.assertEqual(
-                item.findtext("title"), "Model Y 车主手册更新（软件版本：2026.12）"
-            )
+            self.assertEqual(item.findtext("title"), "软件版本：2026.12")
             self.assertIn("Gemini summary", item.findtext("description"))
             session.get.assert_called_once()
 
-    def test_rss_deduplicates_and_limits_items(self):
-        target = Target("modely", "Model Y", PAGE_URL, Path("unused.xml"), "current.pdf")
+    def test_bark_failure_does_not_block_rss_or_baseline(self):
+        session = Mock()
+        session.get.side_effect = __import__("requests").RequestException("failed")
+        browser = Mock()
+        browser.download.return_value = b"%PDF-fake bytes"
+        state = {"schema_version": 1, "targets": {}}
         with tempfile.TemporaryDirectory() as directory:
-            path = Path(directory) / "feed.xml"
-            for index in range(4):
-                update_rss(
-                    path, target, f"old-{index}", f"new-{index}", "https://example/pdf",
-                    f"hash-{index}", "summary", 1, 1,
-                    datetime(2026, 1, index + 1, tzinfo=timezone.utc), 3,
-                )
-            update_rss(
-                path, target, "old-3", "new-3", "https://example/pdf", "hash-3",
-                "summary", 1, 1, datetime.now(timezone.utc), 3,
+            directory_path = Path(directory)
+            target = Target(
+                "modely", "Model Y", PAGE_URL,
+                directory_path / "feed.xml", "current.pdf",
             )
-            items = ET.parse(path).getroot().findall("./channel/item")
-            self.assertEqual(len(items), 3)
-            self.assertEqual(items[0].findtext("guid"), "manual-modely-new-3-hash-3")
+            pending_feed(target.rss_path)
+            result = process_target(
+                session, target, state, directory_path, "软件版本：", "",
+                "gemini-2.5-flash", 30, browser, "https://api.day.app",
+                "token", "title", "group",
+            )
+            self.assertEqual(result, "baseline")
+            self.assertIsNone(pending_rss_entry(target.rss_path))
+            self.assertNotIn("bark_pending", state["targets"]["modely"])
+            self.assertTrue((directory_path / "current.pdf").exists())
+
+    def test_gemini_failure_summary_is_explicit(self):
+        summary = fallback_summary("软件版本：1", "软件版本：2", 3, 4)
+        self.assertIn("Gemini 总结失败", summary)
+        self.assertIn("新增 3 行，删除 4 行", summary)
 
 
 if __name__ == "__main__":

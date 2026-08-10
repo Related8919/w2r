@@ -6,7 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 09 Aug 2026 02:19:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 02:24:27 +0000</lastBuildDate>
     <item>
       <title>Real-world mainframe modernization with AI: A safe, scalable path from mainframe to cloud</title>
       <link>https://cloud.google.com/blog/products/infrastructure-modernization/mainframe-migration-and-modernization-with-ai</link>

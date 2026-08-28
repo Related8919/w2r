@@ -6,7 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 27 Aug 2026 08:56:33 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 11:08:47 +0000</lastBuildDate>
     <item>
       <title>使用 NVIDIA FLARE 构建联邦多模态 AI 工作流</title>
       <link>https://developer.nvidia.cn/blog/building-federated-multimodal-ai-workflows-with-nvidia-flare/</link>
@@ -43,9 +43,9 @@
       <description>2026年 8月 24日利用 NVIDIA DSX MaxLPS 最大化 AI 工厂的单位功耗性能AI 工厂是功率受限的工业系统。问题不再是一个数据中心可以容纳多少个 GPU，而是每个可用兆瓦级的 GPU 可以输出多少 AI 输出。3 MIN READ</description>
     </item>
     <item>
-      <title>借助 NVIDIA Vera CPU 解决代理式 AI 车队挑战</title>
+      <title>利用 NVIDIA Vera CPU 应对智能体 AI 集群面临的挑战</title>
       <link>https://developer.nvidia.cn/blog/solving-agentic-ai-fleet-challenges-with-nvidia-vera-cpu/</link>
-      <description>2026年 8月 24日借助 NVIDIA Vera CPU 解决代理式 AI 车队挑战AI 工厂是互联系统，其中车队经济性取决于整个堆栈将电力和资本转化为已完成智能体任务的效率。GPU 运行模型时，CPU 会处理编排、2 MIN READ</description>
+      <description>2026年 8月 24日利用 NVIDIA Vera CPU 应对智能体 AI 集群面临的挑战AI 工厂是互联系统，其中集群经济性取决于整个堆栈将电力和资本转化为已完成智能体任务的效率。GPU 运行模型时，CPU 会处理编排、2 MIN READ</description>
     </item>
     <item>
       <title>NVIDIA Groq 3 LPX 如何在 NVIDIA Vera Rubin 上实现长上下文的超快交互性</title>

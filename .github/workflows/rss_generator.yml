@@ -63,13 +63,27 @@ jobs:
 
     - name: Generate owner manual RSS placeholders
       id: manual-rss
+      continue-on-error: true
       run: |
-        python scripts/manual_rss_generator.py
+        python scripts/manual_rss_generator.py \
+          --result-file "${RUNNER_TEMP}/manual-rss-result.json"
+
+    - name: Inspect owner manual RSS state
+      id: manual-status
+      if: always()
+      run: |
         if [[ -n "$(git status --porcelain -- \
           "${MODEL3_MANUAL_RSS_PATH}" "${MODELY_MANUAL_RSS_PATH}")" ]]; then
           echo "changed=true" >> "${GITHUB_OUTPUT}"
         else
           echo "changed=false" >> "${GITHUB_OUTPUT}"
+        fi
+        if [[ -f "${RUNNER_TEMP}/manual-rss-result.json" ]] && \
+          jq -e '.pending_targets | length > 0' \
+            "${RUNNER_TEMP}/manual-rss-result.json" >/dev/null; then
+          echo "pending=true" >> "${GITHUB_OUTPUT}"
+        else
+          echo "pending=false" >> "${GITHUB_OUTPUT}"
         fi
 
     - name: Commit and push changes
@@ -98,8 +112,18 @@ jobs:
         exit 1
 
     - name: Trigger manual PDF diff
-      if: steps.manual-rss.outputs.changed == 'true'
+      if: >-
+        steps.commit-rss.outcome == 'success' &&
+        steps.manual-status.outputs.pending == 'true'
       env:
         GH_TOKEN: ${{ github.token }}
       run: |
         gh workflow run manual_pdf_diff.yml --ref "${TARGET_BRANCH}"
+
+    - name: Report owner manual page failure
+      if: always() && steps.manual-rss.outcome == 'failure'
+      run: |
+        if [[ -f "${RUNNER_TEMP}/manual-rss-result.json" ]]; then
+          cat "${RUNNER_TEMP}/manual-rss-result.json"
+        fi
+        exit 1

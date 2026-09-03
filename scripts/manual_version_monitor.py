@@ -14,7 +14,7 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional, Sequence, Tuple
-from urllib.parse import quote, urlencode, urljoin
+from urllib.parse import quote, urlencode, urljoin, urlsplit, urlunsplit
 
 import requests
 from bs4 import BeautifulSoup
@@ -24,7 +24,7 @@ DEFAULT_USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
     "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 )
-STATE_SCHEMA_VERSION = 1
+STATE_SCHEMA_VERSION = 2
 MAX_GEMINI_DIFF_CHARS = 120000
 
 
@@ -35,6 +35,112 @@ class Target:
     page_url: str
     rss_path: Path
     pdf_asset: str
+    region_code: str = "cn"
+    region_name: str = "大陆版"
+    legacy_key: Optional[str] = None
+    feed_url: Optional[str] = None
+
+    @property
+    def display_name(self) -> str:
+        return f"{self.name} {self.region_name}"
+
+    @property
+    def guid_prefix(self) -> str:
+        model_key = self.legacy_key
+        if model_key is None and self.key.endswith(("_cn", "_com")):
+            model_key = self.key.rsplit("_", 1)[0]
+        return f"manual-{model_key or self.key}-{self.region_code}-"
+
+    @property
+    def legacy_guid_prefix(self) -> Optional[str]:
+        if self.legacy_key is None:
+            return None
+        return f"manual-{self.legacy_key}-"
+
+    def guid_for(self, version: str) -> str:
+        return f"{self.guid_prefix}{version}"
+
+    def item_title(self, version: str) -> str:
+        return f"{self.region_name}｜{version}"
+
+
+def derive_international_url(mainland_url: str) -> str:
+    parsed = urlsplit(mainland_url)
+    if parsed.scheme.lower() not in {"http", "https"}:
+        raise ValueError("Mainland manual URL must use http or https")
+    if not parsed.hostname:
+        raise ValueError("Mainland manual URL must include a hostname")
+    if not parsed.hostname.lower().endswith(".cn"):
+        raise ValueError("Mainland manual URL hostname must end with .cn")
+
+    host_end = len(parsed.netloc)
+    if parsed.port is not None:
+        host_end -= len(f":{parsed.port}")
+    if parsed.netloc[host_end - 3 : host_end].lower() != ".cn":
+        raise ValueError("Mainland manual URL hostname must end with .cn")
+    international_netloc = (
+        parsed.netloc[: host_end - 3] + ".com" + parsed.netloc[host_end:]
+    )
+    return urlunsplit(parsed._replace(netloc=international_netloc))
+
+
+def build_region_targets(
+    model_key: str,
+    model_name: str,
+    mainland_url: str,
+    rss_path: Path,
+    mainland_pdf_asset: str,
+    international_pdf_asset: str,
+) -> List[Target]:
+    international_url = derive_international_url(mainland_url)
+    return [
+        Target(
+            f"{model_key}_cn",
+            model_name,
+            mainland_url,
+            rss_path,
+            mainland_pdf_asset,
+            region_code="cn",
+            region_name="大陆版",
+            legacy_key=model_key,
+            feed_url=mainland_url,
+        ),
+        Target(
+            f"{model_key}_com",
+            model_name,
+            international_url,
+            rss_path,
+            international_pdf_asset,
+            region_code="com",
+            region_name="国际版",
+            feed_url=mainland_url,
+        ),
+    ]
+
+
+def configured_targets() -> List[Target]:
+    targets: List[Target] = []
+    targets.extend(
+        build_region_targets(
+            "model3",
+            "Model 3",
+            required_env("MODEL3_MANUAL_URL"),
+            Path(required_env("MODEL3_MANUAL_RSS_PATH")),
+            "model3-manual-current.pdf",
+            "model3-international-manual-current.pdf",
+        )
+    )
+    targets.extend(
+        build_region_targets(
+            "modely",
+            "Model Y",
+            required_env("MODELY_MANUAL_URL"),
+            Path(required_env("MODELY_MANUAL_RSS_PATH")),
+            "modely-manual-current.pdf",
+            "modely-international-manual-current.pdf",
+        )
+    )
+    return targets
 
 
 class BrowserFetcher:
@@ -370,6 +476,22 @@ def load_state(path: Path) -> Dict[str, object]:
     if not path.exists():
         return {"schema_version": STATE_SCHEMA_VERSION, "targets": {}}
     state = json.loads(path.read_text(encoding="utf-8"))
+    if state.get("schema_version") == 1:
+        legacy_targets = state.get("targets")
+        if not isinstance(legacy_targets, dict):
+            raise RuntimeError("Invalid manual state file")
+        migrated_targets = dict(legacy_targets)
+        for legacy_key, mainland_key in (
+            ("model3", "model3_cn"),
+            ("modely", "modely_cn"),
+        ):
+            if legacy_key in migrated_targets and mainland_key not in migrated_targets:
+                migrated_targets[mainland_key] = migrated_targets[legacy_key]
+            migrated_targets.pop(legacy_key, None)
+        return {
+            "schema_version": STATE_SCHEMA_VERSION,
+            "targets": migrated_targets,
+        }
     if state.get("schema_version") != STATE_SCHEMA_VERSION:
         raise RuntimeError("Unsupported manual state schema version")
     if not isinstance(state.get("targets"), dict):
@@ -387,6 +509,7 @@ def save_state(path: Path, state: Dict[str, object]) -> None:
 
 
 def rss_description(
+    target_name: str,
     old_version: str,
     new_version: str,
     summary: str,
@@ -394,12 +517,14 @@ def rss_description(
     deletions: int,
 ) -> str:
     return (
-        f"旧版本：{old_version}\n新版本：{new_version}\n"
+        f"检查目标：{target_name}\n旧版本：{old_version}\n新版本：{new_version}\n"
         f"PDF 文本变化：新增 {additions} 行，删除 {deletions} 行\n\n{summary}"
     )
 
 
-def pending_rss_entry(path: Path) -> Optional[Tuple[str, str, str]]:
+def pending_rss_entry(
+    path: Path, target: Optional[Target] = None
+) -> Optional[Tuple[str, str, str]]:
     if not path.exists():
         return None
     root = ET.parse(path).getroot()
@@ -410,10 +535,23 @@ def pending_rss_entry(path: Path) -> Optional[Tuple[str, str, str]]:
         description = item.find("description")
         if description is not None and (description.text or "").strip():
             continue
-        version = (item.findtext("title") or "").strip()
+        title = (item.findtext("title") or "").strip()
         pdf_url = (item.findtext("link") or "").strip()
         guid = (item.findtext("guid") or "").strip()
-        if not version or not pdf_url or not guid:
+        version = title
+        if target is not None:
+            if guid.startswith(target.guid_prefix):
+                version = guid[len(target.guid_prefix) :].strip()
+            elif target.legacy_guid_prefix and guid.startswith(
+                target.legacy_guid_prefix
+            ):
+                legacy_version = guid[len(target.legacy_guid_prefix) :].strip()
+                if legacy_version != title:
+                    continue
+                version = legacy_version
+            else:
+                continue
+        if not version or not title or not pdf_url or not guid:
             raise RuntimeError(f"Incomplete pending RSS item: {path}")
         return version, pdf_url, guid
     return None
@@ -465,9 +603,9 @@ def process_target(
 ) -> str:
     targets_state = state["targets"]
     previous = targets_state.get(target.key)
-    pending = pending_rss_entry(target.rss_path)
+    pending = pending_rss_entry(target.rss_path, target)
     if pending is None:
-        print(f"{target.name}: no pending RSS entry")
+        print(f"{target.display_name}: no pending RSS entry")
         return "unchanged"
     version, pdf_url, guid_value = pending
     if previous and previous.get("version") == version:
@@ -476,7 +614,7 @@ def process_target(
         )
         complete_rss_entry(target.rss_path, guid_value, description)
         previous["rss_description"] = description
-        print(f"{target.name}: restored RSS description for {version}")
+        print(f"{target.display_name}: restored RSS description for {version}")
         return "recovered"
 
     browser_fetcher.page_html(target.page_url, version_text_prefix)
@@ -488,7 +626,10 @@ def process_target(
     asset_path = state_dir / target.pdf_asset
 
     if previous is None:
-        description = f"首次记录 {version}，已建立 PDF 基线，暂无上一版本可供比较。"
+        description = (
+            f"首次记录 {target.display_name} {version}，已建立 PDF 基线，"
+            "暂无上一版本可供比较。"
+        )
         complete_rss_entry(target.rss_path, guid_value, description)
         asset_path.parent.mkdir(parents=True, exist_ok=True)
         asset_path.write_bytes(pdf_content)
@@ -505,15 +646,17 @@ def process_target(
                 session,
                 bark_base_url,
                 bark_token,
-                f"{bark_title} - {target.name}",
+                f"{bark_title} - {target.display_name}",
                 description,
                 pdf_url,
                 bark_group,
                 timeout,
             )
         except RuntimeError as error:
-            print(f"::warning::{target.name}: {error}")
-        print(f"{target.name}: baseline created and RSS completed ({version})")
+            print(f"::warning::{target.display_name}: {error}")
+        print(
+            f"{target.display_name}: baseline created and RSS completed ({version})"
+        )
         return "baseline"
 
     if not asset_path.exists():
@@ -532,7 +675,7 @@ def process_target(
             session,
             gemini_api_key,
             gemini_model,
-            target.name,
+            target.display_name,
             old_version,
             version,
             diff_text,
@@ -541,11 +684,11 @@ def process_target(
             timeout,
         )
     except RuntimeError as error:
-        print(f"::warning::{target.name}: {error}")
+        print(f"::warning::{target.display_name}: {error}")
         summary = fallback_summary(old_version, version, additions, deletions)
 
     description = rss_description(
-        old_version, version, summary, additions, deletions
+        target.display_name, old_version, version, summary, additions, deletions
     )
     complete_rss_entry(target.rss_path, guid_value, description)
     asset_path.write_bytes(pdf_content)
@@ -562,16 +705,16 @@ def process_target(
             session,
             bark_base_url,
             bark_token,
-            f"{bark_title} - {target.name}",
+            f"{bark_title} - {target.display_name}",
             bark_body(old_version, version, additions, deletions, summary),
             pdf_url,
             bark_group,
             timeout,
         )
-        print(f"{target.name}: Bark notification sent")
+        print(f"{target.display_name}: Bark notification sent")
     except RuntimeError as error:
-        print(f"::warning::{target.name}: {error}")
-    print(f"{target.name}: updated {old_version} -> {version}")
+        print(f"::warning::{target.display_name}: {error}")
+    print(f"{target.display_name}: updated {old_version} -> {version}")
     return "updated"
 
 
@@ -593,22 +736,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     args = parse_args(argv)
     state_path = args.state_dir / "manual-version-state.json"
     state = load_state(state_path)
-    targets = [
-        Target(
-            "model3",
-            "Model 3",
-            required_env("MODEL3_MANUAL_URL"),
-            Path(required_env("MODEL3_MANUAL_RSS_PATH")),
-            "model3-manual-current.pdf",
-        ),
-        Target(
-            "modely",
-            "Model Y",
-            required_env("MODELY_MANUAL_URL"),
-            Path(required_env("MODELY_MANUAL_RSS_PATH")),
-            "modely-manual-current.pdf",
-        ),
-    ]
+    targets = configured_targets()
     session = requests.Session()
     session.headers.update({"User-Agent": DEFAULT_USER_AGENT})
     browser_fetcher = BrowserFetcher(
@@ -634,7 +762,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                 required_env("MANUAL_BARK_GROUP"),
             )
         except Exception as error:
-            message = f"{target.name}: {type(error).__name__}: {error}"
+            message = f"{target.display_name}: {type(error).__name__}: {error}"
             print(f"::error::{message}")
             errors.append(message)
             results[target.key] = "failed"

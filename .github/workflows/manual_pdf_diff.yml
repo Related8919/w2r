@@ -109,7 +109,9 @@ jobs:
           for asset in \
             manual-version-state.json \
             model3-manual-current.pdf \
-            modely-manual-current.pdf; do
+            model3-international-manual-current.pdf \
+            modely-manual-current.pdf \
+            modely-international-manual-current.pdf; do
             if [[ -f "${MANUAL_STATE_DIR}/${asset}" ]]; then
               assets+=("${MANUAL_STATE_DIR}/${asset}")
             fi

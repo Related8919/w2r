@@ -7,18 +7,19 @@ from pathlib import Path
 from unittest.mock import Mock, patch
 
 from scripts.manual_version_monitor import (
+    TavilyPageFetcher,
     build_region_targets,
     build_bark_url,
     complete_rss_entry,
     configured_targets,
     derive_international_url,
+    extracted_version_matches,
     extract_pdf_text,
     fallback_summary,
-    fetch_manual_content,
     load_state,
     make_text_diff,
     normalize_text,
-    parse_manual_page,
+    parse_extracted_manual_page,
     pending_rss_entry,
     process_target,
     send_bark,
@@ -26,16 +27,13 @@ from scripts.manual_version_monitor import (
 
 
 PAGE_URL = "https://manual.example.cn/manual/modely/"
-VERSION_CSS = 'article[role="article"] .body > p.p'
-PDF_CSS = 'footer#footer a[href$="Owners_Manual.pdf"]'
 
 
 def page(version="2026.8", extra=""):
-    return f'''<article role="article"><div class="body">
-      {extra}
-      <p class="p"> 软件版本: <span><span>{version}</span></span> </p>
-    </div></article>
-    <footer id="footer"><a href="./Owners_Manual.pdf">Download PDF</a></footer>'''.encode()
+    return (
+        f"{extra}\n软件版本: {version}\n\n"
+        "[Download PDF](./Owners_Manual.pdf)"
+    )
 
 
 def modely_targets(path):
@@ -136,28 +134,33 @@ class ManualVersionMonitorTests(unittest.TestCase):
     def test_normalize_text_collapses_space_and_colon(self):
         self.assertEqual(normalize_text(" 软件版本:  2026.8\n"), "软件版本：2026.8")
 
-    def test_parse_manual_page_finds_text_regardless_of_paragraph_order(self):
-        html = page(extra='<p class="p">其他文字</p>')
-        version, pdf_url = parse_manual_page(
-            html, PAGE_URL, VERSION_CSS, "软件版本：", PDF_CSS
+    def test_parse_extracted_page_finds_text_regardless_of_line_order(self):
+        content = page(extra="其他文字")
+        version, pdf_url = parse_extracted_manual_page(
+            content, PAGE_URL, "软件版本："
         )
         self.assertEqual(version, "软件版本：2026.8")
         self.assertEqual(pdf_url, f"{PAGE_URL}Owners_Manual.pdf")
 
-    def test_parse_manual_page_rejects_zero_or_multiple_versions(self):
-        missing = b'''<article role="article"><div class="body"><p class="p">none</p>
-        </div></article><footer id="footer"><a href="Owners_Manual.pdf">PDF</a></footer>'''
+    def test_parse_extracted_page_rejects_zero_or_multiple_versions(self):
+        missing = "none\n\n[PDF](Owners_Manual.pdf)"
         with self.assertRaisesRegex(ValueError, "found 0"):
-            parse_manual_page(missing, PAGE_URL, VERSION_CSS, "软件版本：", PDF_CSS)
+            parse_extracted_manual_page(missing, PAGE_URL, "软件版本：")
 
-        duplicate = page(extra='<p class="p">软件版本：2025.44</p>')
+        duplicate = page(extra="软件版本：2025.44")
         with self.assertRaisesRegex(ValueError, "found 2"):
-            parse_manual_page(duplicate, PAGE_URL, VERSION_CSS, "软件版本：", PDF_CSS)
+            parse_extracted_manual_page(duplicate, PAGE_URL, "软件版本：")
 
-    def test_parse_manual_page_requires_one_pdf_link(self):
-        html = page() + b'<footer id="footer"><a href="second/Owners_Manual.pdf">PDF</a></footer>'
+    def test_parse_extracted_page_requires_one_pdf_link(self):
+        content = page() + "\n[Second PDF](second/Owners_Manual.pdf)"
         with self.assertRaisesRegex(ValueError, "found 2"):
-            parse_manual_page(html, PAGE_URL, VERSION_CSS, "软件版本：", PDF_CSS)
+            parse_extracted_manual_page(content, PAGE_URL, "软件版本：")
+
+    def test_extracted_version_normalizes_markdown_and_colon(self):
+        self.assertEqual(
+            extracted_version_matches("**软件版本:  2026.8**", "软件版本："),
+            ["软件版本：2026.8"],
+        )
 
     def test_make_text_diff_counts_changes(self):
         diff, additions, deletions = make_text_diff("one\ntwo", "one\nthree")
@@ -180,13 +183,94 @@ class ManualVersionMonitorTests(unittest.TestCase):
                 writer.write(output)
             self.assertEqual(extract_pdf_text(path), "===== Page 1 =====")
 
-    def test_browser_fetcher_is_used_without_http_request(self):
-        browser = Mock()
-        browser.page_html.return_value = b"browser html"
-        self.assertEqual(
-            fetch_manual_content(PAGE_URL, browser, "软件版本："), b"browser html"
+    def test_tavily_fetcher_extracts_one_matching_url(self):
+        client = Mock()
+        client.extract.return_value = {
+            "results": [{"url": PAGE_URL, "raw_content": page()}],
+            "failed_results": [],
+        }
+        fetcher = TavilyPageFetcher(120, "secret-key", client=client)
+
+        self.assertEqual(fetcher.page_content(PAGE_URL), page())
+        client.extract.assert_called_once_with(
+            urls=[PAGE_URL],
+            extract_depth="advanced",
+            format="markdown",
+            timeout=60.0,
         )
-        browser.page_html.assert_called_once_with(PAGE_URL, "软件版本：")
+
+    def test_tavily_fetcher_reports_failed_result(self):
+        client = Mock()
+        client.extract.return_value = {
+            "results": [],
+            "failed_results": [{"url": PAGE_URL, "error": "blocked"}],
+        }
+        fetcher = TavilyPageFetcher(30, "secret-key", client=client)
+
+        with self.assertRaisesRegex(RuntimeError, "failure=blocked"):
+            fetcher.page_content(PAGE_URL)
+
+    def test_tavily_fetcher_rejects_missing_duplicate_or_mismatched_results(self):
+        responses = (
+            {"results": [], "failed_results": []},
+            {
+                "results": [
+                    {"url": PAGE_URL, "raw_content": page()},
+                    {"url": PAGE_URL, "raw_content": page()},
+                ],
+                "failed_results": [],
+            },
+            {
+                "results": [
+                    {
+                        "url": "https://other.example.cn/manual/",
+                        "raw_content": page(),
+                    }
+                ],
+                "failed_results": [],
+            },
+        )
+        for response in responses:
+            with self.subTest(response=response):
+                client = Mock()
+                client.extract.return_value = response
+                fetcher = TavilyPageFetcher(30, "secret-key", client=client)
+                with self.assertRaisesRegex(RuntimeError, "found"):
+                    fetcher.page_content(PAGE_URL)
+
+    def test_tavily_fetcher_rejects_empty_content_and_non_markdown_format(self):
+        client = Mock()
+        client.extract.return_value = {
+            "results": [{"url": PAGE_URL, "raw_content": ""}],
+            "failed_results": [],
+        }
+        fetcher = TavilyPageFetcher(30, "secret-key", client=client)
+        with self.assertRaisesRegex(RuntimeError, "empty content"):
+            fetcher.page_content(PAGE_URL)
+        with self.assertRaisesRegex(ValueError, "format"):
+            TavilyPageFetcher(
+                30, "secret-key", output_format="text", client=client
+            )
+
+    def test_tavily_fetcher_redacts_api_key_from_errors(self):
+        client = Mock()
+        client.extract.side_effect = RuntimeError("request used secret-key")
+        fetcher = TavilyPageFetcher(30, "secret-key", client=client)
+
+        with self.assertRaisesRegex(RuntimeError, "<redacted>") as context:
+            fetcher.page_content(PAGE_URL)
+        self.assertNotIn("secret-key", str(context.exception))
+
+        client.extract.side_effect = None
+        client.extract.return_value = {
+            "results": [],
+            "failed_results": [
+                {"url": PAGE_URL, "error": "failed with secret-key"}
+            ],
+        }
+        with self.assertRaisesRegex(RuntimeError, "<redacted>") as context:
+            fetcher.page_content(PAGE_URL)
+        self.assertNotIn("secret-key", str(context.exception))
 
     def test_pending_entry_and_completion_update_same_rss_item(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -282,9 +366,10 @@ class ManualVersionMonitorTests(unittest.TestCase):
         bark_response = Mock(status_code=200)
         bark_response.json.return_value = {"code": 200}
         session.get.return_value = bark_response
-        browser = Mock()
-        browser.page_html.return_value = page()
-        browser.download.return_value = b"%PDF-fake bytes"
+        page_fetcher = Mock()
+        page_fetcher.page_content.return_value = page()
+        pdf_fetcher = Mock()
+        pdf_fetcher.download.return_value = b"%PDF-fake bytes"
         state = {"schema_version": 2, "targets": {}}
         with tempfile.TemporaryDirectory() as directory:
             directory_path = Path(directory)
@@ -292,7 +377,7 @@ class ManualVersionMonitorTests(unittest.TestCase):
             pending_feed(target.rss_path, target)
             result = process_target(
                 session, target, state, directory_path, "软件版本：",
-                "", "gemini-2.5-flash", 30, browser,
+                "", "gemini-2.5-flash", 30, page_fetcher, pdf_fetcher,
                 "https://api.day.app", "token", "title", "group",
             )
             self.assertEqual(result, "baseline")
@@ -314,9 +399,10 @@ class ManualVersionMonitorTests(unittest.TestCase):
         bark_response = Mock(status_code=200)
         bark_response.json.return_value = {"code": 200}
         session.get.return_value = bark_response
-        browser = Mock()
-        browser.page_html.return_value = page()
-        browser.download.side_effect = [b"%PDF-mainland", b"%PDF-international"]
+        page_fetcher = Mock()
+        page_fetcher.page_content.return_value = page()
+        pdf_fetcher = Mock()
+        pdf_fetcher.download.side_effect = [b"%PDF-mainland", b"%PDF-international"]
         state = {"schema_version": 2, "targets": {}}
 
         with tempfile.TemporaryDirectory() as directory:
@@ -348,7 +434,8 @@ class ManualVersionMonitorTests(unittest.TestCase):
                     "",
                     "gemini-2.5-flash",
                     30,
-                    browser,
+                    page_fetcher,
+                    pdf_fetcher,
                     "https://api.day.app",
                     "token",
                     "title",
@@ -380,28 +467,64 @@ class ManualVersionMonitorTests(unittest.TestCase):
 
     def test_no_pending_rss_does_not_download_pdf(self):
         session = Mock()
-        browser = Mock()
+        page_fetcher = Mock()
+        pdf_fetcher = Mock()
         state = {"schema_version": 2, "targets": {}}
         with tempfile.TemporaryDirectory() as directory:
             directory_path = Path(directory)
             target, _ = modely_targets(directory_path / "missing.xml")
             result = process_target(
                 session, target, state, directory_path, "软件版本：",
-                "", "gemini-2.5-flash", 30, browser,
+                "", "gemini-2.5-flash", 30, page_fetcher, pdf_fetcher,
                 "https://api.day.app", "token", "title", "group",
             )
             self.assertEqual(result, "unchanged")
             session.get.assert_not_called()
-            browser.download.assert_not_called()
+            page_fetcher.page_content.assert_not_called()
+            pdf_fetcher.download.assert_not_called()
+
+    def test_tavily_page_failure_preserves_pending_entry_and_baseline(self):
+        session = Mock()
+        page_fetcher = Mock()
+        page_fetcher.page_content.side_effect = RuntimeError("extract failed")
+        pdf_fetcher = Mock()
+        state = {"schema_version": 2, "targets": {}}
+        with tempfile.TemporaryDirectory() as directory:
+            directory_path = Path(directory)
+            target, _ = modely_targets(directory_path / "feed.xml")
+            pending_feed(target.rss_path, target)
+
+            with self.assertRaisesRegex(RuntimeError, "extract failed"):
+                process_target(
+                    session,
+                    target,
+                    state,
+                    directory_path,
+                    "软件版本：",
+                    "",
+                    "gemini-2.5-flash",
+                    30,
+                    page_fetcher,
+                    pdf_fetcher,
+                    "https://api.day.app",
+                    "token",
+                    "title",
+                    "group",
+                )
+
+            self.assertIsNotNone(pending_rss_entry(target.rss_path, target))
+            self.assertEqual(state["targets"], {})
+            pdf_fetcher.download.assert_not_called()
 
     def test_changed_version_updates_pdf_state_and_rss(self):
         session = Mock()
         bark_response = Mock(status_code=200)
         bark_response.json.return_value = {"code": 200}
         session.get.return_value = bark_response
-        browser = Mock()
-        browser.page_html.return_value = page("2026.12")
-        browser.download.return_value = b"%PDF-new pdf"
+        page_fetcher = Mock()
+        page_fetcher.page_content.return_value = page("2026.12")
+        pdf_fetcher = Mock()
+        pdf_fetcher.download.return_value = b"%PDF-new pdf"
         state = {
             "schema_version": 2,
             "targets": {
@@ -432,7 +555,7 @@ class ManualVersionMonitorTests(unittest.TestCase):
             ):
                 result = process_target(
                     session, target, state, directory_path, "软件版本：",
-                    "key", "gemini-2.5-flash", 30, browser,
+                    "key", "gemini-2.5-flash", 30, page_fetcher, pdf_fetcher,
                     "https://api.day.app", "token", "title", "group",
                 )
 
@@ -450,8 +573,10 @@ class ManualVersionMonitorTests(unittest.TestCase):
     def test_bark_failure_does_not_block_rss_or_baseline(self):
         session = Mock()
         session.get.side_effect = __import__("requests").RequestException("failed")
-        browser = Mock()
-        browser.download.return_value = b"%PDF-fake bytes"
+        page_fetcher = Mock()
+        page_fetcher.page_content.return_value = page()
+        pdf_fetcher = Mock()
+        pdf_fetcher.download.return_value = b"%PDF-fake bytes"
         state = {"schema_version": 2, "targets": {}}
         with tempfile.TemporaryDirectory() as directory:
             directory_path = Path(directory)
@@ -459,7 +584,8 @@ class ManualVersionMonitorTests(unittest.TestCase):
             pending_feed(target.rss_path, target)
             result = process_target(
                 session, target, state, directory_path, "软件版本：", "",
-                "gemini-2.5-flash", 30, browser, "https://api.day.app",
+                "gemini-2.5-flash", 30, page_fetcher, pdf_fetcher,
+                "https://api.day.app",
                 "token", "title", "group",
             )
             self.assertEqual(result, "baseline")

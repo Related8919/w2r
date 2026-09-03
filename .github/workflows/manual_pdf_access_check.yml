@@ -1,0 +1,42 @@
+name: Check Manual PDF Direct Access
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  MODELY_MANUAL_URL: ${{ secrets.MODELY_MANUAL_URL }}
+  MANUAL_REQUEST_TIMEOUT_SECONDS: "30"
+
+jobs:
+  check-direct-access:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Probe international PDF directly
+        run: |
+          python scripts/manual_pdf_access_check.py \
+            --result-file "${RUNNER_TEMP}/manual-pdf-access-result.json"
+
+      - name: Upload diagnostic result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: manual-pdf-direct-access-result
+          path: ${{ runner.temp }}/manual-pdf-access-result.json
+          if-no-files-found: error
+          retention-days: 7

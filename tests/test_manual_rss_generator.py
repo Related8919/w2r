@@ -26,15 +26,12 @@ def model3_targets(path: Path):
 
 
 class ManualRssGeneratorTests(unittest.TestCase):
-    @patch("scripts.manual_rss_generator.BrowserFetcher")
+    @patch("scripts.manual_rss_generator.TavilyPageFetcher")
     def test_main_generates_four_pending_targets_from_two_mainland_urls(
-        self, browser_fetcher
+        self, page_fetcher
     ):
-        html = b'''<article role="article"><div class="body">
-          <p class="p">software version: 2026.8</p>
-        </div></article>
-        <footer id="footer"><a href="Owners_Manual.pdf">PDF</a></footer>'''
-        browser_fetcher.return_value.page_html.return_value = html
+        content = "software version: 2026.8\n\n[Download PDF](Owners_Manual.pdf)"
+        page_fetcher.return_value.page_content.return_value = content
 
         with tempfile.TemporaryDirectory() as directory:
             directory_path = Path(directory)
@@ -46,14 +43,9 @@ class ManualRssGeneratorTests(unittest.TestCase):
                 "MODELY_MANUAL_URL": "https://manual.example.cn/modely/zh_cn/",
                 "MODEL3_MANUAL_RSS_PATH": str(model3_feed),
                 "MODELY_MANUAL_RSS_PATH": str(modely_feed),
-                "MANUAL_VERSION_CONTAINER_CSS": (
-                    'article[role="article"] .body > p.p'
-                ),
                 "MANUAL_VERSION_TEXT_PREFIX": "software version:",
-                "MANUAL_PDF_LINK_CSS": (
-                    'footer#footer a[href$="Owners_Manual.pdf"]'
-                ),
                 "MANUAL_RSS_MAX_ITEMS": "50",
+                "TAVILY_API_KEY": "test-key",
             }
             with patch.dict(os.environ, environment, clear=False):
                 exit_code = main(["--result-file", str(result_file)])
@@ -72,7 +64,7 @@ class ManualRssGeneratorTests(unittest.TestCase):
             )
             called_urls = [
                 call.args[0]
-                for call in browser_fetcher.return_value.page_html.call_args_list
+                for call in page_fetcher.return_value.page_content.call_args_list
             ]
             self.assertEqual(
                 called_urls,
@@ -84,21 +76,18 @@ class ManualRssGeneratorTests(unittest.TestCase):
                 ],
             )
 
-    @patch("scripts.manual_rss_generator.BrowserFetcher")
+    @patch("scripts.manual_rss_generator.TavilyPageFetcher")
     def test_main_keeps_successful_regions_when_one_region_fails(
-        self, browser_fetcher
+        self, page_fetcher
     ):
-        html = b'''<article role="article"><div class="body">
-          <p class="p">software version: 2026.8</p>
-        </div></article>
-        <footer id="footer"><a href="Owners_Manual.pdf">PDF</a></footer>'''
+        content = "software version: 2026.8\n\n[Download PDF](Owners_Manual.pdf)"
 
-        def page_html(url, _prefix):
+        def page_content(url):
             if "manual.example.com/model3" in url:
                 raise RuntimeError("Access Denied")
-            return html
+            return content
 
-        browser_fetcher.return_value.page_html.side_effect = page_html
+        page_fetcher.return_value.page_content.side_effect = page_content
         with tempfile.TemporaryDirectory() as directory:
             directory_path = Path(directory)
             model3_feed = directory_path / "model3.xml"
@@ -109,13 +98,8 @@ class ManualRssGeneratorTests(unittest.TestCase):
                 "MODELY_MANUAL_URL": "https://manual.example.cn/modely/zh_cn/",
                 "MODEL3_MANUAL_RSS_PATH": str(model3_feed),
                 "MODELY_MANUAL_RSS_PATH": str(modely_feed),
-                "MANUAL_VERSION_CONTAINER_CSS": (
-                    'article[role="article"] .body > p.p'
-                ),
                 "MANUAL_VERSION_TEXT_PREFIX": "software version:",
-                "MANUAL_PDF_LINK_CSS": (
-                    'footer#footer a[href$="Owners_Manual.pdf"]'
-                ),
+                "TAVILY_API_KEY": "test-key",
             }
             with patch.dict(os.environ, environment, clear=False):
                 exit_code = main(["--result-file", str(result_file)])
@@ -133,6 +117,28 @@ class ManualRssGeneratorTests(unittest.TestCase):
             self.assertEqual(
                 len(ET.parse(modely_feed).getroot().findall("./channel/item")), 2
             )
+
+    @patch("scripts.manual_rss_generator.TavilyPageFetcher")
+    def test_main_requires_tavily_api_key(self, page_fetcher):
+        with tempfile.TemporaryDirectory() as directory:
+            directory_path = Path(directory)
+            result_file = directory_path / "result.json"
+            environment = {
+                "MODEL3_MANUAL_URL": "https://manual.example.cn/model3/zh_cn/",
+                "MODELY_MANUAL_URL": "https://manual.example.cn/modely/zh_cn/",
+                "MODEL3_MANUAL_RSS_PATH": str(directory_path / "model3.xml"),
+                "MODELY_MANUAL_RSS_PATH": str(directory_path / "modely.xml"),
+                "MANUAL_VERSION_TEXT_PREFIX": "software version:",
+            }
+            with patch.dict(os.environ, environment, clear=True):
+                exit_code = main(["--result-file", str(result_file)])
+
+            self.assertEqual(exit_code, 1)
+            self.assertIn(
+                "TAVILY_API_KEY",
+                json.loads(result_file.read_text(encoding="utf-8"))["errors"][0],
+            )
+            page_fetcher.assert_not_called()
 
     def test_first_run_creates_blank_version_item(self):
         with tempfile.TemporaryDirectory() as directory:

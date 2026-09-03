@@ -5,3 +5,4 @@ pyyaml
 selenium
 webdriver-manager
 pypdf
+tavily-python==0.8.0

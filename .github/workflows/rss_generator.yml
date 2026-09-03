@@ -27,13 +27,13 @@ env:
   TARGET_BRANCH: ${{ github.ref_name }}
   MODEL3_MANUAL_URL: ${{ secrets.MODEL3_MANUAL_URL }}
   MODELY_MANUAL_URL: ${{ secrets.MODELY_MANUAL_URL }}
-  MANUAL_VERSION_CONTAINER_CSS: ${{ secrets.MANUAL_VERSION_CONTAINER_CSS }}
   MANUAL_VERSION_TEXT_PREFIX: ${{ secrets.MANUAL_VERSION_TEXT_PREFIX }}
-  MANUAL_PDF_LINK_CSS: ${{ secrets.MANUAL_PDF_LINK_CSS }}
   MODEL3_MANUAL_RSS_PATH: "rss/model3_manual.xml"
   MODELY_MANUAL_RSS_PATH: "rss/modely_manual.xml"
   MANUAL_REQUEST_TIMEOUT_SECONDS: "120"
   MANUAL_RSS_MAX_ITEMS: "50"
+  TAVILY_EXTRACT_DEPTH: "advanced"
+  TAVILY_EXTRACT_FORMAT: "markdown"
 
 jobs:
   build:
@@ -64,6 +64,8 @@ jobs:
     - name: Generate owner manual RSS placeholders
       id: manual-rss
       continue-on-error: true
+      env:
+        TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
       run: |
         python scripts/manual_rss_generator.py \
           --result-file "${RUNNER_TEMP}/manual-rss-result.json"

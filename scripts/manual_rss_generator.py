@@ -11,21 +11,21 @@ from typing import Dict, List, Optional, Sequence
 
 try:
     from scripts.manual_version_monitor import (
-        BrowserFetcher,
+        TavilyPageFetcher,
         Target,
         configured_targets,
         normalize_text,
-        parse_manual_page,
+        parse_extracted_manual_page,
         pending_rss_entry,
         required_env,
     )
 except ModuleNotFoundError:
     from manual_version_monitor import (
-        BrowserFetcher,
+        TavilyPageFetcher,
         Target,
         configured_targets,
         normalize_text,
-        parse_manual_page,
+        parse_extracted_manual_page,
         pending_rss_entry,
         required_env,
     )
@@ -130,27 +130,31 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     errors: List[str] = []
     results: Dict[str, str] = {}
     try:
-        version_css = required_env("MANUAL_VERSION_CONTAINER_CSS")
         version_prefix = required_env("MANUAL_VERSION_TEXT_PREFIX")
-        pdf_css = required_env("MANUAL_PDF_LINK_CSS")
+        tavily_api_key = required_env("TAVILY_API_KEY")
+        extract_depth = os.environ.get("TAVILY_EXTRACT_DEPTH", "advanced").strip()
+        extract_format = os.environ.get("TAVILY_EXTRACT_FORMAT", "markdown").strip()
         targets = configured_targets()
+        page_fetcher = TavilyPageFetcher(
+            timeout,
+            tavily_api_key,
+            extract_depth,
+            extract_format,
+        )
     except Exception as error:
         message = f"Configuration: {type(error).__name__}: {error}"
         print(f"::error::{message}")
         write_result(args.result_file, results, [], [message])
         return 1
 
-    browser = BrowserFetcher(timeout)
     try:
         for target in targets:
             try:
-                html = browser.page_html(target.page_url, version_prefix)
-                version, pdf_url = parse_manual_page(
-                    html,
+                content = page_fetcher.page_content(target.page_url)
+                version, pdf_url = parse_extracted_manual_page(
+                    content,
                     target.page_url,
-                    version_css,
                     version_prefix,
-                    pdf_css,
                 )
                 version = normalize_text(version)
                 if add_version_entry(
@@ -176,9 +180,9 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                 results[target.key] = "failed"
     finally:
         try:
-            browser.close()
+            page_fetcher.close()
         except Exception as error:
-            print(f"::warning::Headless Chrome cleanup failed: {type(error).__name__}")
+            print(f"::warning::Tavily cleanup failed: {type(error).__name__}")
 
     pending_targets: List[str] = []
     for target in targets:

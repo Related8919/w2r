@@ -3,6 +3,7 @@
 import argparse
 import difflib
 import hashlib
+import html
 import json
 import os
 import platform
@@ -17,7 +18,6 @@ from typing import Dict, List, Optional, Sequence, Tuple
 from urllib.parse import quote, urlencode, urljoin, urlsplit, urlunsplit
 
 import requests
-from bs4 import BeautifulSoup
 
 
 DEFAULT_USER_AGENT = (
@@ -26,6 +26,8 @@ DEFAULT_USER_AGENT = (
 )
 STATE_SCHEMA_VERSION = 2
 MAX_GEMINI_DIFF_CHARS = 120000
+TAVILY_EXTRACT_DEPTHS = {"basic", "advanced"}
+TAVILY_EXTRACT_FORMATS = {"markdown"}
 
 
 @dataclass(frozen=True)
@@ -220,38 +222,6 @@ class BrowserFetcher:
             )
         return self.driver
 
-    def page_html(self, url: str, version_text_prefix: str) -> bytes:
-        from selenium.webdriver.common.by import By
-        from selenium.common.exceptions import TimeoutException
-        from selenium.webdriver.support.ui import WebDriverWait
-
-        driver = self._driver()
-        prefix = normalize_text(version_text_prefix)
-        try:
-            navigation = driver.execute_cdp_cmd("Page.navigate", {"url": url})
-            if navigation.get("errorText"):
-                raise RuntimeError(
-                    f"Headless Chrome navigation failed: {navigation['errorText']}"
-                )
-            WebDriverWait(driver, self.timeout).until(
-                lambda current: prefix
-                in normalize_text(current.find_element(By.TAG_NAME, "body").text)
-            )
-        except TimeoutException:
-            body_text = ""
-            try:
-                body_text = normalize_text(
-                    driver.find_element(By.TAG_NAME, "body").text
-                )[:300]
-            except Exception:
-                pass
-            raise RuntimeError(
-                "Manual page did not expose the configured version text before "
-                f"timeout; title={driver.title!r}, url={driver.current_url!r}, "
-                f"body={body_text!r}"
-            ) from None
-        return driver.page_source.encode("utf-8")
-
     def download(self, url: str) -> bytes:
         driver = self._driver()
         with tempfile.TemporaryDirectory(prefix="manual-browser-download-") as directory:
@@ -289,38 +259,175 @@ class BrowserFetcher:
             self.driver = None
 
 
+class TavilyPageFetcher:
+    def __init__(
+        self,
+        timeout: int,
+        api_key: str,
+        extract_depth: str = "advanced",
+        output_format: str = "markdown",
+        client=None,
+    ):
+        if timeout <= 0:
+            raise ValueError("Tavily timeout must be greater than zero")
+        if not api_key.strip():
+            raise RuntimeError("Required environment variable is empty: TAVILY_API_KEY")
+        if extract_depth not in TAVILY_EXTRACT_DEPTHS:
+            raise ValueError(
+                "Tavily extract depth must be one of: "
+                + ", ".join(sorted(TAVILY_EXTRACT_DEPTHS))
+            )
+        if output_format not in TAVILY_EXTRACT_FORMATS:
+            raise ValueError(
+                "Tavily extract format must be one of: "
+                + ", ".join(sorted(TAVILY_EXTRACT_FORMATS))
+            )
+
+        if client is None:
+            from tavily import TavilyClient
+
+            client = TavilyClient(api_key=api_key)
+        self.timeout = min(float(timeout), 60.0)
+        self.api_key = api_key
+        self.extract_depth = extract_depth
+        self.output_format = output_format
+        self.client = client
+
+    def page_content(self, url: str) -> str:
+        try:
+            response = self.client.extract(
+                urls=[url],
+                extract_depth=self.extract_depth,
+                format=self.output_format,
+                timeout=self.timeout,
+            )
+        except Exception as error:
+            message = str(error).replace(self.api_key, "<redacted>")
+            raise RuntimeError(
+                f"Tavily Extract request failed for {url}: "
+                f"{type(error).__name__}: {message}"
+            ) from None
+
+        if not isinstance(response, dict):
+            raise RuntimeError("Tavily Extract returned a non-object response")
+
+        results = response.get("results", [])
+        failed_results = response.get("failed_results", [])
+        if not isinstance(results, list) or not isinstance(failed_results, list):
+            raise RuntimeError("Tavily Extract returned invalid result collections")
+
+        matching_results = [
+            result
+            for result in results
+            if isinstance(result, dict)
+            and urls_equivalent(str(result.get("url", "")), url)
+        ]
+        if len(matching_results) != 1:
+            failure_messages = [
+                str(result.get("error", "unknown error")).replace(
+                    self.api_key, "<redacted>"
+                )
+                for result in failed_results
+                if isinstance(result, dict)
+                and urls_equivalent(str(result.get("url", "")), url)
+            ]
+            detail = f"; failure={failure_messages[0]}" if failure_messages else ""
+            raise RuntimeError(
+                "Tavily Extract expected exactly one matching result for "
+                f"{url}; found {len(matching_results)}{detail}"
+            )
+
+        content = matching_results[0].get("raw_content")
+        if not isinstance(content, str) or not content.strip():
+            raise RuntimeError(f"Tavily Extract returned empty content for {url}")
+        return content
+
+    def close(self) -> None:
+        close = getattr(self.client, "close", None)
+        if callable(close):
+            close()
+
+
 def normalize_text(value: str) -> str:
     normalized = re.sub(r"\s+", " ", value.replace(":", "：")).strip()
     return re.sub(r"：\s*", "：", normalized)
 
 
-def parse_manual_page(
-    html: bytes,
-    page_url: str,
-    version_container_css: str,
-    version_text_prefix: str,
-    pdf_link_css: str,
-) -> Tuple[str, str]:
-    soup = BeautifulSoup(html, "html.parser")
+def urls_equivalent(left: str, right: str) -> bool:
+    try:
+        left_url = urlsplit(left)
+        right_url = urlsplit(right)
+        left_port = left_url.port or (443 if left_url.scheme.lower() == "https" else 80)
+        right_port = right_url.port or (
+            443 if right_url.scheme.lower() == "https" else 80
+        )
+        return (
+            left_url.scheme.lower(),
+            left_url.hostname.lower() if left_url.hostname else None,
+            left_port,
+            left_url.path or "/",
+            left_url.query,
+        ) == (
+            right_url.scheme.lower(),
+            right_url.hostname.lower() if right_url.hostname else None,
+            right_port,
+            right_url.path or "/",
+            right_url.query,
+        )
+    except ValueError:
+        return False
+
+
+def extracted_version_matches(content: str, version_text_prefix: str) -> List[str]:
     prefix = normalize_text(version_text_prefix)
-    versions = [
-        normalize_text(element.get_text(" ", strip=True))
-        for element in soup.select(version_container_css)
-    ]
-    matches = [value for value in versions if value.startswith(prefix)]
+    matches = []
+    for line in content.splitlines():
+        visible = re.sub(r"!\[[^]]*\]\([^)]*\)", "", line)
+        visible = re.sub(r"\[([^]]+)\]\([^)]*\)", r"\1", visible)
+        visible = re.sub(r"^\s*(?:#{1,6}\s+|>\s+|[-+*]\s+)", "", visible)
+        visible = html.unescape(visible).strip(" \t*_`~|")
+        normalized = normalize_text(visible)
+        if normalized.startswith(prefix):
+            matches.append(normalized)
+    return matches
+
+
+def parse_extracted_manual_page(
+    content: str,
+    page_url: str,
+    version_text_prefix: str,
+) -> Tuple[str, str]:
+    prefix = normalize_text(version_text_prefix)
+    matches = extracted_version_matches(content, version_text_prefix)
     if len(matches) != 1:
         raise ValueError(
-            f"Expected exactly one version paragraph starting with {prefix!r}; "
+            f"Expected exactly one extracted line starting with {prefix!r}; "
             f"found {len(matches)}"
         )
 
-    pdf_links = soup.select(pdf_link_css)
-    if len(pdf_links) != 1 or not pdf_links[0].get("href"):
+    markdown_targets = re.findall(
+        r"\[[^]]*\]\(\s*(?:<([^>]+)>|([^\s)]+))",
+        content,
+    )
+    link_values = [left or right for left, right in markdown_targets]
+    link_values.extend(
+        value.rstrip(".,;:'\"")
+        for value in re.findall(r"https?://[^\s<>()\]]+", content)
+    )
+    pdf_urls = sorted(
+        {
+            urljoin(page_url, html.unescape(value))
+            for value in link_values
+            if urlsplit(urljoin(page_url, html.unescape(value))).path.lower().endswith(
+                ".pdf"
+            )
+        }
+    )
+    if len(pdf_urls) != 1:
         raise ValueError(
-            f"Expected exactly one PDF link for selector {pdf_link_css!r}; "
-            f"found {len(pdf_links)}"
+            f"Expected exactly one PDF link in extracted content; found {len(pdf_urls)}"
         )
-    return matches[0], urljoin(page_url, pdf_links[0]["href"])
+    return matches[0], pdf_urls[0]
 
 
 def sha256_bytes(content: bytes) -> str:
@@ -576,16 +683,6 @@ def complete_rss_entry(path: Path, guid_value: str, description_text: str) -> No
     raise RuntimeError(f"Pending RSS item disappeared: {guid_value}")
 
 
-def fetch_manual_content(
-    url: str,
-    browser_fetcher: BrowserFetcher,
-    version_text_prefix: Optional[str] = None,
-) -> bytes:
-    if version_text_prefix:
-        return browser_fetcher.page_html(url, version_text_prefix)
-    return browser_fetcher.download(url)
-
-
 def process_target(
     session: requests.Session,
     target: Target,
@@ -595,7 +692,8 @@ def process_target(
     gemini_api_key: str,
     gemini_model: str,
     timeout: int,
-    browser_fetcher: BrowserFetcher,
+    page_fetcher: TavilyPageFetcher,
+    pdf_fetcher: BrowserFetcher,
     bark_base_url: str,
     bark_token: str,
     bark_title: str,
@@ -617,8 +715,15 @@ def process_target(
         print(f"{target.display_name}: restored RSS description for {version}")
         return "recovered"
 
-    browser_fetcher.page_html(target.page_url, version_text_prefix)
-    pdf_content = fetch_manual_content(pdf_url, browser_fetcher)
+    page_content = page_fetcher.page_content(target.page_url)
+    version_matches = extracted_version_matches(page_content, version_text_prefix)
+    if len(version_matches) != 1:
+        prefix = normalize_text(version_text_prefix)
+        raise RuntimeError(
+            f"Tavily content expected exactly one line starting with {prefix!r}; "
+            f"found {len(version_matches)}"
+        )
+    pdf_content = pdf_fetcher.download(pdf_url)
     if not pdf_content.startswith(b"%PDF-"):
         raise RuntimeError("Downloaded owner manual is not a valid PDF")
     pdf_hash = sha256_bytes(pdf_content)
@@ -739,9 +844,14 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     targets = configured_targets()
     session = requests.Session()
     session.headers.update({"User-Agent": DEFAULT_USER_AGENT})
-    browser_fetcher = BrowserFetcher(
-        int(os.environ.get("MANUAL_REQUEST_TIMEOUT_SECONDS", "30"))
+    timeout = int(os.environ.get("MANUAL_REQUEST_TIMEOUT_SECONDS", "30"))
+    page_fetcher = TavilyPageFetcher(
+        timeout,
+        required_env("TAVILY_API_KEY"),
+        os.environ.get("TAVILY_EXTRACT_DEPTH", "advanced").strip(),
+        os.environ.get("TAVILY_EXTRACT_FORMAT", "markdown").strip(),
     )
+    pdf_fetcher = BrowserFetcher(timeout)
     errors: List[str] = []
     results = {}
     for target in targets:
@@ -754,8 +864,9 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                 required_env("MANUAL_VERSION_TEXT_PREFIX"),
                 os.environ.get("GEMINI_API_KEY", "").strip(),
                 required_env("GEMINI_MODEL"),
-                int(os.environ.get("MANUAL_REQUEST_TIMEOUT_SECONDS", "30")),
-                browser_fetcher,
+                timeout,
+                page_fetcher,
+                pdf_fetcher,
                 required_env("BARK_BASE_URL"),
                 os.environ.get("BARK_TOKEN", "").strip(),
                 required_env("MANUAL_BARK_TITLE"),
@@ -768,7 +879,11 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             results[target.key] = "failed"
 
     try:
-        browser_fetcher.close()
+        page_fetcher.close()
+    except Exception as error:
+        print(f"::warning::Tavily cleanup failed: {type(error).__name__}")
+    try:
+        pdf_fetcher.close()
     except Exception as error:
         print(f"::warning::Headless Chrome cleanup failed: {type(error).__name__}")
     save_state(state_path, state)

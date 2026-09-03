@@ -191,7 +191,9 @@ class ManualVersionMonitorTests(unittest.TestCase):
         }
         fetcher = TavilyPageFetcher(120, "secret-key", client=client)
 
-        self.assertEqual(fetcher.page_content(PAGE_URL), page())
+        self.assertEqual(
+            fetcher.page_content(PAGE_URL, "Model Y", "软件版本："), page()
+        )
         client.extract.assert_called_once_with(
             urls=[PAGE_URL],
             extract_depth="advanced",
@@ -208,7 +210,42 @@ class ManualVersionMonitorTests(unittest.TestCase):
         fetcher = TavilyPageFetcher(30, "secret-key", client=client)
 
         with self.assertRaisesRegex(RuntimeError, "failure=blocked"):
-            fetcher.page_content(PAGE_URL)
+            fetcher.page_content(PAGE_URL, "Model Y", "软件版本：")
+
+    def test_tavily_fetcher_falls_back_to_exact_search_result(self):
+        page_url = f"{PAGE_URL}index.html"
+        client = Mock()
+        client.extract.return_value = {
+            "results": [],
+            "failed_results": [{"url": page_url, "error": "blocked"}],
+        }
+        client.search.return_value = {
+            "results": [
+                {
+                    "url": PAGE_URL.rstrip("/"),
+                    "content": (
+                        "Model Y 车主手册. 软件版本：2026.26. China."
+                    ),
+                }
+            ]
+        }
+        fetcher = TavilyPageFetcher(30, "secret-key", client=client)
+
+        content = fetcher.page_content(page_url, "Model Y", "软件版本：")
+        self.assertEqual(
+            parse_extracted_manual_page(content, page_url, "软件版本："),
+            ("软件版本：2026.26", f"{PAGE_URL}Owners_Manual.pdf"),
+        )
+        client.search.assert_called_once_with(
+            query=(
+                '"Model Y 车主手册" "软件版本：" "China" '
+                f"{page_url}"
+            ),
+            search_depth="advanced",
+            max_results=10,
+            include_domains=["manual.example.cn"],
+            timeout=30.0,
+        )
 
     def test_tavily_fetcher_rejects_missing_duplicate_or_mismatched_results(self):
         responses = (
@@ -236,7 +273,7 @@ class ManualVersionMonitorTests(unittest.TestCase):
                 client.extract.return_value = response
                 fetcher = TavilyPageFetcher(30, "secret-key", client=client)
                 with self.assertRaisesRegex(RuntimeError, "found"):
-                    fetcher.page_content(PAGE_URL)
+                    fetcher.page_content(PAGE_URL, "Model Y", "软件版本：")
 
     def test_tavily_fetcher_rejects_empty_content_and_non_markdown_format(self):
         client = Mock()
@@ -246,7 +283,7 @@ class ManualVersionMonitorTests(unittest.TestCase):
         }
         fetcher = TavilyPageFetcher(30, "secret-key", client=client)
         with self.assertRaisesRegex(RuntimeError, "empty content"):
-            fetcher.page_content(PAGE_URL)
+            fetcher.page_content(PAGE_URL, "Model Y", "软件版本：")
         with self.assertRaisesRegex(ValueError, "format"):
             TavilyPageFetcher(
                 30, "secret-key", output_format="text", client=client
@@ -258,7 +295,7 @@ class ManualVersionMonitorTests(unittest.TestCase):
         fetcher = TavilyPageFetcher(30, "secret-key", client=client)
 
         with self.assertRaisesRegex(RuntimeError, "<redacted>") as context:
-            fetcher.page_content(PAGE_URL)
+            fetcher.page_content(PAGE_URL, "Model Y", "软件版本：")
         self.assertNotIn("secret-key", str(context.exception))
 
         client.extract.side_effect = None
@@ -269,7 +306,7 @@ class ManualVersionMonitorTests(unittest.TestCase):
             ],
         }
         with self.assertRaisesRegex(RuntimeError, "<redacted>") as context:
-            fetcher.page_content(PAGE_URL)
+            fetcher.page_content(PAGE_URL, "Model Y", "软件版本：")
         self.assertNotIn("secret-key", str(context.exception))
 
     def test_pending_entry_and_completion_update_same_rss_item(self):

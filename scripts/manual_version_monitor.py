@@ -28,6 +28,7 @@ STATE_SCHEMA_VERSION = 2
 MAX_GEMINI_DIFF_CHARS = 120000
 TAVILY_EXTRACT_DEPTHS = {"basic", "advanced"}
 TAVILY_EXTRACT_FORMATS = {"markdown"}
+MANUAL_PDF_FILENAME = "Owners_Manual.pdf"
 
 
 @dataclass(frozen=True)
@@ -293,7 +294,63 @@ class TavilyPageFetcher:
         self.output_format = output_format
         self.client = client
 
-    def page_content(self, url: str) -> str:
+    def _search_content(
+        self, url: str, target_name: str, version_text_prefix: str
+    ) -> str:
+        parsed_url = urlsplit(url)
+        if not parsed_url.hostname:
+            raise RuntimeError(f"Manual page URL has no hostname: {url}")
+        query = (
+            f'"{target_name} 车主手册" '
+            f'"{normalize_text(version_text_prefix)}" "China" {url}'
+        )
+        try:
+            response = self.client.search(
+                query=query,
+                search_depth="advanced",
+                max_results=10,
+                include_domains=[parsed_url.hostname],
+                timeout=self.timeout,
+            )
+        except Exception as error:
+            message = str(error).replace(self.api_key, "<redacted>")
+            raise RuntimeError(
+                f"Tavily Search request failed for {url}: "
+                f"{type(error).__name__}: {message}"
+            ) from None
+
+        if not isinstance(response, dict):
+            raise RuntimeError("Tavily Search returned a non-object response")
+        results = response.get("results", [])
+        if not isinstance(results, list):
+            raise RuntimeError("Tavily Search returned an invalid results collection")
+        matching_results = [
+            result
+            for result in results
+            if isinstance(result, dict)
+            and urls_equivalent(str(result.get("url", "")), url)
+        ]
+        if len(matching_results) != 1:
+            raise RuntimeError(
+                "Tavily Search expected exactly one matching result for "
+                f"{url}; found {len(matching_results)}"
+            )
+        content = matching_results[0].get("content")
+        if not isinstance(content, str) or not content.strip():
+            raise RuntimeError(f"Tavily Search returned empty content for {url}")
+        if len(extracted_version_matches(content, version_text_prefix)) != 1:
+            raise RuntimeError(
+                "Tavily Search result did not contain exactly one normalized "
+                f"version for {url}"
+            )
+        pdf_url = manual_pdf_url(url)
+        print(f"::warning::Tavily Extract failed for {url}; using exact Search result")
+        return f"{content}\n\n[Download PDF]({pdf_url})"
+
+    def page_content(
+        self, url: str, target_name: str, version_text_prefix: str
+    ) -> str:
+        extract_error = None
         try:
             response = self.client.extract(
                 urls=[url],
@@ -303,18 +360,30 @@ class TavilyPageFetcher:
             )
         except Exception as error:
             message = str(error).replace(self.api_key, "<redacted>")
-            raise RuntimeError(
+            extract_error = (
                 f"Tavily Extract request failed for {url}: "
                 f"{type(error).__name__}: {message}"
-            ) from None
+            )
+            response = None
 
-        if not isinstance(response, dict):
-            raise RuntimeError("Tavily Extract returned a non-object response")
+        if response is not None and not isinstance(response, dict):
+            extract_error = "Tavily Extract returned a non-object response"
+            response = None
+
+        if response is None:
+            try:
+                return self._search_content(url, target_name, version_text_prefix)
+            except RuntimeError as search_error:
+                raise RuntimeError(f"{extract_error}; {search_error}") from None
 
         results = response.get("results", [])
         failed_results = response.get("failed_results", [])
         if not isinstance(results, list) or not isinstance(failed_results, list):
-            raise RuntimeError("Tavily Extract returned invalid result collections")
+            extract_error = "Tavily Extract returned invalid result collections"
+            try:
+                return self._search_content(url, target_name, version_text_prefix)
+            except RuntimeError as search_error:
+                raise RuntimeError(f"{extract_error}; {search_error}") from None
 
         matching_results = [
             result
@@ -332,14 +401,30 @@ class TavilyPageFetcher:
                 and urls_equivalent(str(result.get("url", "")), url)
             ]
             detail = f"; failure={failure_messages[0]}" if failure_messages else ""
-            raise RuntimeError(
+            extract_error = (
                 "Tavily Extract expected exactly one matching result for "
                 f"{url}; found {len(matching_results)}{detail}"
             )
+            try:
+                return self._search_content(url, target_name, version_text_prefix)
+            except RuntimeError as search_error:
+                raise RuntimeError(f"{extract_error}; {search_error}") from None
 
         content = matching_results[0].get("raw_content")
         if not isinstance(content, str) or not content.strip():
-            raise RuntimeError(f"Tavily Extract returned empty content for {url}")
+            extract_error = f"Tavily Extract returned empty content for {url}"
+            try:
+                return self._search_content(url, target_name, version_text_prefix)
+            except RuntimeError as search_error:
+                raise RuntimeError(f"{extract_error}; {search_error}") from None
+        try:
+            parse_extracted_manual_page(content, url, version_text_prefix)
+        except ValueError as error:
+            extract_error = f"Tavily Extract content validation failed: {error}"
+            try:
+                return self._search_content(url, target_name, version_text_prefix)
+            except RuntimeError as search_error:
+                raise RuntimeError(f"{extract_error}; {search_error}") from None
         return content
 
     def close(self) -> None:
@@ -357,39 +442,59 @@ def urls_equivalent(left: str, right: str) -> bool:
     try:
         left_url = urlsplit(left)
         right_url = urlsplit(right)
-        left_port = left_url.port or (443 if left_url.scheme.lower() == "https" else 80)
+        left_port = left_url.port or (
+            443 if left_url.scheme.lower() == "https" else 80
+        )
         right_port = right_url.port or (
             443 if right_url.scheme.lower() == "https" else 80
         )
+
+        def normalized_path(value: str) -> str:
+            normalized = value.rstrip("/") or "/"
+            if normalized.lower().endswith("/index.html"):
+                normalized = normalized[: -len("/index.html")] or "/"
+            return normalized
+
         return (
             left_url.scheme.lower(),
             left_url.hostname.lower() if left_url.hostname else None,
             left_port,
-            left_url.path or "/",
+            normalized_path(left_url.path),
             left_url.query,
         ) == (
             right_url.scheme.lower(),
             right_url.hostname.lower() if right_url.hostname else None,
             right_port,
-            right_url.path or "/",
+            normalized_path(right_url.path),
             right_url.query,
         )
     except ValueError:
         return False
 
 
+def manual_pdf_url(page_url: str) -> str:
+    parsed = urlsplit(page_url)
+    path = parsed.path
+    if path.lower().endswith("/index.html"):
+        path = path[: -len("index.html")] + MANUAL_PDF_FILENAME
+    else:
+        path = f"{path.rstrip('/')}/{MANUAL_PDF_FILENAME}"
+    return urlunsplit(parsed._replace(path=path, query="", fragment=""))
+
+
 def extracted_version_matches(content: str, version_text_prefix: str) -> List[str]:
     prefix = normalize_text(version_text_prefix)
-    matches = []
+    matches = set()
+    pattern = re.compile(re.escape(prefix) + r"\s*([0-9]+(?:\.[0-9]+)+)")
     for line in content.splitlines():
         visible = re.sub(r"!\[[^]]*\]\([^)]*\)", "", line)
         visible = re.sub(r"\[([^]]+)\]\([^)]*\)", r"\1", visible)
         visible = re.sub(r"^\s*(?:#{1,6}\s+|>\s+|[-+*]\s+)", "", visible)
         visible = html.unescape(visible).strip(" \t*_`~|")
         normalized = normalize_text(visible)
-        if normalized.startswith(prefix):
-            matches.append(normalized)
-    return matches
+        for match in pattern.finditer(normalized):
+            matches.add(f"{prefix}{match.group(1)}")
+    return sorted(matches)
 
 
 def parse_extracted_manual_page(
@@ -715,13 +820,20 @@ def process_target(
         print(f"{target.display_name}: restored RSS description for {version}")
         return "recovered"
 
-    page_content = page_fetcher.page_content(target.page_url)
+    page_content = page_fetcher.page_content(
+        target.page_url, target.name, version_text_prefix
+    )
     version_matches = extracted_version_matches(page_content, version_text_prefix)
     if len(version_matches) != 1:
         prefix = normalize_text(version_text_prefix)
         raise RuntimeError(
             f"Tavily content expected exactly one line starting with {prefix!r}; "
             f"found {len(version_matches)}"
+        )
+    if version_matches[0] != version:
+        raise RuntimeError(
+            f"Pending RSS version {version!r} does not match current Tavily "
+            f"version {version_matches[0]!r}"
         )
     pdf_content = pdf_fetcher.download(pdf_url)
     if not pdf_content.startswith(b"%PDF-"):

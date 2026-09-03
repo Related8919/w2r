@@ -82,7 +82,7 @@ class ManualRssGeneratorTests(unittest.TestCase):
     ):
         content = "software version: 2026.8\n\n[Download PDF](Owners_Manual.pdf)"
 
-        def page_content(url):
+        def page_content(url, _target_name, _prefix):
             if "manual.example.com/model3" in url:
                 raise RuntimeError("Access Denied")
             return content

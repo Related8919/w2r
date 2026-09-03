@@ -150,7 +150,9 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     try:
         for target in targets:
             try:
-                content = page_fetcher.page_content(target.page_url)
+                content = page_fetcher.page_content(
+                    target.page_url, target.name, version_prefix
+                )
                 version, pdf_url = parse_extracted_manual_page(
                     content,
                     target.page_url,

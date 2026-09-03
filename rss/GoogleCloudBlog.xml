@@ -6,7 +6,12 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 02 Sep 2026 04:11:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 05:51:28 +0000</lastBuildDate>
+    <item>
+      <title>Simplify your resilience testing strategy with Fault Injection Testing</title>
+      <link>https://cloud.google.com/blog/products/networking/introducing-google-cloud-fault-injection-testing-in-preview</link>
+      <description>NetworkingSimplify your resilience testing strategy with Fault Injection TestingBy Toby Owen • 4-minute read</description>
+    </item>
     <item>
       <title>Reimagining work: How Pythian’s internal AI playbook delivers customer ROI</title>
       <link>https://cloud.google.com/blog/topics/startups/how-pythians-internal-ai-playbook-delivers-customer-roi</link>
@@ -28,11 +33,6 @@
       <description>Security &amp; IdentityCloud CISO Perspectives: Tips on securing the water sector in the AI eraBy Chris Sistrunk • 9-minute read</description>
     </item>
     <item>
-      <title>What’s new in AI infrastructure and orchestration in August</title>
-      <link>https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month</link>
-      <description>AI infrastructureWhat’s new in AI infrastructure and orchestration in AugustBy Alex Barrett • 13-minute read</description>
-    </item>
-    <item>
       <title>BigQuery Graph is now GA: the knowledge foundation for the agentic era</title>
       <link>https://cloud.google.com/blog/products/data-analytics/bigquery-graph-connecting-data-and-ai-at-scale</link>
       <description>Data AnalyticsBigQuery Graph is now GA: the knowledge foundation for the agentic eraBy Bei Li • 8-minute read</description>
@@ -43,9 +43,9 @@
       <description>Threat IntelligenceFinancially Motivated Threat Actor BREEZE COMET Targets BrazilBy Google Threat Intelligence Group  • 16-minute read</description>
     </item>
     <item>
-      <title>How Blackline simplifies perimeter policy intelligence with VPC Service Controls</title>
+      <title>How BlackLine simplifies perimeter policy intelligence with VPC Service Controls</title>
       <link>https://cloud.google.com/blog/topics/customers/how-blackline-prevents-data-exfiltration-with-vpc-service-controls</link>
-      <description>CustomersHow Blackline simplifies perimeter policy intelligence with VPC Service ControlsBy Pratik Bhangale • 4-minute read</description>
+      <description>CustomersHow BlackLine simplifies perimeter policy intelligence with VPC Service ControlsBy Pratik Bhangale • 4-minute read</description>
     </item>
     <item>
       <title>Introducing TabFM in BigQuery: Predictive analytics reimagined</title>

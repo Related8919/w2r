@@ -2,13 +2,31 @@ name: Check Manual PDF Changes
 
 on:
   workflow_dispatch:
+    inputs:
+      source_run_id:
+        description: Source Generate RSS Feed run ID
+        required: true
+        type: string
+      source_run_number:
+        description: Source Generate RSS Feed run number
+        required: true
+        type: string
+      source_run_attempt:
+        description: Source Generate RSS Feed run attempt
+        required: true
+        type: string
+      source_commit:
+        description: Source Generate RSS Feed head commit
+        required: true
+        type: string
 
 concurrency:
-  group: manual-pdf-diff-${{ github.ref }}
+  group: manual-pdf-diff-release-state
   cancel-in-progress: false
 
 permissions:
   contents: write
+  actions: read
 
 env:
   TARGET_BRANCH: ${{ github.ref_name }}
@@ -22,8 +40,6 @@ env:
   MANUAL_RESULT_FILE: ".manual-state/result.json"
   GEMINI_MODEL: "gemini-2.5-flash"
   MANUAL_REQUEST_TIMEOUT_SECONDS: "120"
-  TAVILY_EXTRACT_DEPTH: "advanced"
-  TAVILY_EXTRACT_FORMAT: "markdown"
   BARK_BASE_URL: "https://api.day.app"
   MANUAL_BARK_TITLE: "车主手册更新"
   MANUAL_BARK_GROUP: "车主手册"
@@ -48,6 +64,143 @@ jobs:
         run: |
           python -m pip install --disable-pip-version-check -r requirements.txt
 
+      - name: Validate source RSS run
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOURCE_RUN_ID: ${{ inputs.source_run_id }}
+          SOURCE_RUN_NUMBER: ${{ inputs.source_run_number }}
+          SOURCE_RUN_ATTEMPT: ${{ inputs.source_run_attempt }}
+          SOURCE_COMMIT: ${{ inputs.source_commit }}
+        run: |
+          [[ "${SOURCE_RUN_ID}" =~ ^[0-9]+$ ]] || {
+            echo "source_run_id must be numeric."
+            exit 1
+          }
+          [[ "${SOURCE_RUN_NUMBER}" =~ ^[0-9]+$ ]] || {
+            echo "source_run_number must be numeric."
+            exit 1
+          }
+          [[ "${SOURCE_RUN_ATTEMPT}" =~ ^[0-9]+$ ]] || {
+            echo "source_run_attempt must be numeric."
+            exit 1
+          }
+          [[ "${SOURCE_COMMIT}" =~ ^[0-9a-fA-F]{40}$ ]] || {
+            echo "source_commit must be a full Git commit SHA."
+            exit 1
+          }
+
+          gh api \
+            "repos/${GITHUB_REPOSITORY}/actions/runs/${SOURCE_RUN_ID}/attempts/${SOURCE_RUN_ATTEMPT}" \
+            > "${RUNNER_TEMP}/source-run.json"
+          jq -e \
+            --arg repository "${GITHUB_REPOSITORY}" \
+            --arg branch "${TARGET_BRANCH}" \
+            --arg number "${SOURCE_RUN_NUMBER}" \
+            --arg attempt "${SOURCE_RUN_ATTEMPT}" \
+            --arg commit "${SOURCE_COMMIT}" \
+            '
+              .path == ".github/workflows/rss_generator.yml" and
+              .head_repository.full_name == $repository and
+              .head_branch == $branch and
+              (.run_number | tostring) == $number and
+              (.run_attempt | tostring) == $attempt and
+              (.head_sha | ascii_downcase) == ($commit | ascii_downcase)
+            ' "${RUNNER_TEMP}/source-run.json" >/dev/null || {
+              echo "Source run metadata does not match this dispatch."
+              jq '{path, head_repository: .head_repository.full_name,
+                head_branch, head_sha, run_number, run_attempt, status,
+                conclusion}' "${RUNNER_TEMP}/source-run.json"
+              exit 1
+            }
+
+          default_branch="$(gh api \
+            "repos/${GITHUB_REPOSITORY}" --jq '.default_branch')"
+          if [[ -z "${default_branch}" || "${TARGET_BRANCH}" != "${default_branch}" ]]; then
+            echo "The fixed manual Release may only be updated from the default branch."
+            echo "target=${TARGET_BRANCH}; default=${default_branch:-unknown}"
+            exit 1
+          fi
+
+      - name: Download manual PDF candidates
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SOURCE_RUN_ID: ${{ inputs.source_run_id }}
+          SOURCE_RUN_NUMBER: ${{ inputs.source_run_number }}
+          SOURCE_RUN_ATTEMPT: ${{ inputs.source_run_attempt }}
+          SOURCE_COMMIT: ${{ inputs.source_commit }}
+        run: |
+          artifact_name="manual-pdf-input-${SOURCE_RUN_ID}-${SOURCE_RUN_ATTEMPT}"
+          artifact_count=0
+          for lookup_attempt in 1 2 3; do
+            if gh api \
+              "repos/${GITHUB_REPOSITORY}/actions/runs/${SOURCE_RUN_ID}/artifacts?per_page=100" \
+              > "${RUNNER_TEMP}/source-artifacts.json"; then
+              artifact_count="$(jq \
+                --arg name "${artifact_name}" \
+                '[.artifacts[] | select(.name == $name and .expired == false)] | length' \
+                "${RUNNER_TEMP}/source-artifacts.json")"
+              if [[ "${artifact_count}" -eq 1 ]]; then
+                break
+              fi
+              if [[ "${artifact_count}" -gt 1 ]]; then
+                break
+              fi
+            fi
+            if [[ "${lookup_attempt}" -lt 3 ]]; then
+              echo "Candidate artifact is not visible yet; retry ${lookup_attempt}/3."
+              sleep $((lookup_attempt * 2))
+            fi
+          done
+          if [[ "${artifact_count}" -ne 1 ]]; then
+            echo "Expected exactly one unexpired ${artifact_name} artifact; found ${artifact_count}."
+            exit 1
+          fi
+
+          candidate_downloaded=false
+          for download_attempt in 1 2 3; do
+            download_dir="${RUNNER_TEMP}/manual-pdf-download-${download_attempt}"
+            mkdir -p "${download_dir}"
+            if gh run download "${SOURCE_RUN_ID}" \
+              --repo "${GITHUB_REPOSITORY}" \
+              --name "${artifact_name}" \
+              --dir "${download_dir}"; then
+              mkdir -p "${RUNNER_TEMP}/manual-pdf-input"
+              cp -R "${download_dir}/." "${RUNNER_TEMP}/manual-pdf-input/"
+              candidate_downloaded=true
+              break
+            fi
+            if [[ "${download_attempt}" -lt 3 ]]; then
+              echo "Candidate artifact download failed; retry ${download_attempt}/3."
+              sleep $((download_attempt * 2))
+            fi
+          done
+          if [[ "${candidate_downloaded}" != true ]]; then
+            echo "Could not download ${artifact_name}; online PDF fallback is disabled."
+            exit 1
+          fi
+
+          manifest="${RUNNER_TEMP}/manual-pdf-input/manual-pdf-candidates.json"
+          [[ -f "${manifest}" ]] || {
+            echo "Candidate artifact does not contain ${manifest}."
+            exit 1
+          }
+          jq -e \
+            --arg id "${SOURCE_RUN_ID}" \
+            --arg number "${SOURCE_RUN_NUMBER}" \
+            --arg attempt "${SOURCE_RUN_ATTEMPT}" \
+            --arg commit "${SOURCE_COMMIT}" \
+            '
+              .schema_version == 1 and
+              (.source_run.id | tostring) == $id and
+              (.source_run.number | tostring) == $number and
+              (.source_run.attempt | tostring) == $attempt and
+              (.source_run.commit | ascii_downcase) == ($commit | ascii_downcase) and
+              (.candidates | type == "array" and length > 0)
+            ' "${manifest}" >/dev/null || {
+              echo "Candidate manifest metadata is invalid or mismatched."
+              exit 1
+            }
+
       - name: Restore PDF baselines
         env:
           GH_TOKEN: ${{ github.token }}
@@ -68,20 +221,118 @@ jobs:
               --notes "Current PDF baselines used by the owner manual monitor."
           fi
 
+          backup_dir="${RUNNER_TEMP}/manual-release-backup"
+          mkdir -p "${backup_dir}"
+          for asset in \
+            manual-version-state.json \
+            model3-manual-current.pdf \
+            model3-international-manual-current.pdf \
+            modely-manual-current.pdf \
+            modely-international-manual-current.pdf; do
+            if [[ -f "${MANUAL_STATE_DIR}/${asset}" ]]; then
+              cp -p "${MANUAL_STATE_DIR}/${asset}" "${backup_dir}/${asset}"
+            fi
+          done
+
       - name: Diff PDFs and complete RSS
         id: pdf-diff
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BARK_TOKEN: ${{ secrets.BARK_TOKEN }}
-          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          MANUAL_SOURCE_RUN_ID: ${{ inputs.source_run_id }}
+          MANUAL_SOURCE_RUN_NUMBER: ${{ inputs.source_run_number }}
+          MANUAL_SOURCE_RUN_ATTEMPT: ${{ inputs.source_run_attempt }}
+          MANUAL_SOURCE_COMMIT: ${{ inputs.source_commit }}
         run: |
           python scripts/manual_version_monitor.py \
             --state-dir "${MANUAL_STATE_DIR}" \
+            --candidate-dir "${RUNNER_TEMP}/manual-pdf-input" \
             --result-file "${MANUAL_RESULT_FILE}"
+
+      - name: Save PDF baselines
+        id: save-baselines
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [[ -f "${MANUAL_RESULT_FILE}" ]] || {
+            echo "PDF monitor result is missing; refusing to upload baselines."
+            exit 1
+          }
+          if ! jq -e '.state_saved == true' \
+            "${MANUAL_RESULT_FILE}" >/dev/null; then
+            echo "State was not saved successfully; refusing to upload PDF baselines."
+            exit 1
+          fi
+
+          state_asset="${MANUAL_STATE_DIR}/manual-version-state.json"
+          [[ -f "${state_asset}" ]] || {
+            echo "Saved state file is missing; refusing to upload PDF baselines."
+            exit 1
+          }
+          pdf_assets=()
+          for asset in \
+            model3-manual-current.pdf \
+            model3-international-manual-current.pdf \
+            modely-manual-current.pdf \
+            modely-international-manual-current.pdf; do
+            if [[ -f "${MANUAL_STATE_DIR}/${asset}" ]]; then
+              pdf_assets+=("${MANUAL_STATE_DIR}/${asset}")
+            fi
+          done
+
+          upload_release_state() {
+            local path
+            for path in "${pdf_assets[@]}"; do
+              gh release upload "${MANUAL_STATE_RELEASE_TAG}" "${path}" --clobber || return 1
+            done
+            # Upload state last: it is the commit marker for the PDF set.
+            gh release upload \
+              "${MANUAL_STATE_RELEASE_TAG}" "${state_asset}" --clobber
+          }
+
+          upload_succeeded=false
+          for attempt in 1 2 3; do
+            if upload_release_state; then
+              upload_succeeded=true
+              break
+            fi
+            if [[ "${attempt}" -lt 3 ]]; then
+              echo "Release upload failed; retry ${attempt}/3."
+              sleep $((attempt * 2))
+            fi
+          done
+          if [[ "${upload_succeeded}" == true ]]; then
+            exit 0
+          fi
+
+          echo "Release update failed; attempting to restore the previous assets."
+          backup_dir="${RUNNER_TEMP}/manual-release-backup"
+          rollback_succeeded=true
+          for asset in \
+            model3-manual-current.pdf \
+            model3-international-manual-current.pdf \
+            modely-manual-current.pdf \
+            modely-international-manual-current.pdf; do
+            if [[ -f "${backup_dir}/${asset}" ]]; then
+              gh release upload "${MANUAL_STATE_RELEASE_TAG}" \
+                "${backup_dir}/${asset}" --clobber || rollback_succeeded=false
+            fi
+          done
+          if [[ -f "${backup_dir}/manual-version-state.json" ]]; then
+            gh release upload "${MANUAL_STATE_RELEASE_TAG}" \
+              "${backup_dir}/manual-version-state.json" --clobber || \
+              rollback_succeeded=false
+          fi
+          if [[ "${rollback_succeeded}" != true ]]; then
+            echo "Rollback of the previous Release assets also failed."
+          fi
+          exit 1
 
       - name: Commit completed RSS
         id: commit-rss
+        if: steps.save-baselines.outcome == 'success'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -102,26 +353,6 @@ jobs:
           done
           echo "Failed to push completed manual RSS after 3 attempts."
           exit 1
-
-      - name: Save PDF baselines
-        if: always() && steps.commit-rss.outcome == 'success'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          assets=()
-          for asset in \
-            manual-version-state.json \
-            model3-manual-current.pdf \
-            model3-international-manual-current.pdf \
-            modely-manual-current.pdf \
-            modely-international-manual-current.pdf; do
-            if [[ -f "${MANUAL_STATE_DIR}/${asset}" ]]; then
-              assets+=("${MANUAL_STATE_DIR}/${asset}")
-            fi
-          done
-          if (( ${#assets[@]} )); then
-            gh release upload "${MANUAL_STATE_RELEASE_TAG}" "${assets[@]}" --clobber
-          fi
 
       - name: Report PDF diff failure
         if: steps.pdf-diff.outcome == 'failure'

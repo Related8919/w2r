@@ -27,13 +27,14 @@ env:
   TARGET_BRANCH: ${{ github.ref_name }}
   MODEL3_MANUAL_URL: ${{ secrets.MODEL3_MANUAL_URL }}
   MODELY_MANUAL_URL: ${{ secrets.MODELY_MANUAL_URL }}
+  MANUAL_VERSION_CONTAINER_CSS: ${{ secrets.MANUAL_VERSION_CONTAINER_CSS }}
   MANUAL_VERSION_TEXT_PREFIX: ${{ secrets.MANUAL_VERSION_TEXT_PREFIX }}
+  MANUAL_PDF_LINK_CSS: ${{ secrets.MANUAL_PDF_LINK_CSS }}
   MODEL3_MANUAL_RSS_PATH: "rss/model3_manual.xml"
   MODELY_MANUAL_RSS_PATH: "rss/modely_manual.xml"
+  MANUAL_STATE_RELEASE_TAG: "manual-version-state"
   MANUAL_REQUEST_TIMEOUT_SECONDS: "120"
   MANUAL_RSS_MAX_ITEMS: "50"
-  TAVILY_EXTRACT_DEPTH: "advanced"
-  TAVILY_EXTRACT_FORMAT: "markdown"
 
 jobs:
   build:
@@ -61,14 +62,35 @@ jobs:
       run: |
         curl -o rss/MicrosoftResearch.xml https://www.microsoft.com/en-us/research/feed/
 
+    - name: Restore manual version state
+      env:
+        GH_TOKEN: ${{ github.token }}
+      run: |
+        mkdir -p "${RUNNER_TEMP}/manual-generator-state"
+        if gh release view "${MANUAL_STATE_RELEASE_TAG}" >/dev/null 2>&1; then
+          state_asset_count="$(gh release view "${MANUAL_STATE_RELEASE_TAG}" \
+            --json assets \
+            --jq '[.assets[] | select(.name == "manual-version-state.json")] | length')"
+          if [[ "${state_asset_count}" -eq 1 ]]; then
+            gh release download "${MANUAL_STATE_RELEASE_TAG}" \
+              --dir "${RUNNER_TEMP}/manual-generator-state" \
+              --pattern "manual-version-state.json" \
+              --clobber
+          elif [[ "${state_asset_count}" -gt 1 ]]; then
+            echo "Expected at most one manual-version-state.json Release asset."
+            exit 1
+          fi
+        fi
+
     - name: Generate owner manual RSS placeholders
       id: manual-rss
       continue-on-error: true
-      env:
-        TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
       run: |
         python scripts/manual_rss_generator.py \
-          --result-file "${RUNNER_TEMP}/manual-rss-result.json"
+          --result-file "${RUNNER_TEMP}/manual-rss-result.json" \
+          --candidate-dir "${RUNNER_TEMP}/manual-pdf-input" \
+          --state-file \
+            "${RUNNER_TEMP}/manual-generator-state/manual-version-state.json"
 
     - name: Inspect owner manual RSS state
       id: manual-status
@@ -81,12 +103,26 @@ jobs:
           echo "changed=false" >> "${GITHUB_OUTPUT}"
         fi
         if [[ -f "${RUNNER_TEMP}/manual-rss-result.json" ]] && \
-          jq -e '.pending_targets | length > 0' \
+          jq -e \
+            '.dispatch_required == true and .candidate_count > 0' \
             "${RUNNER_TEMP}/manual-rss-result.json" >/dev/null; then
-          echo "pending=true" >> "${GITHUB_OUTPUT}"
+          echo "dispatch=true" >> "${GITHUB_OUTPUT}"
         else
-          echo "pending=false" >> "${GITHUB_OUTPUT}"
+          echo "dispatch=false" >> "${GITHUB_OUTPUT}"
         fi
+
+    - name: Upload manual PDF candidates
+      id: upload-manual-candidates
+      if: >-
+        always() &&
+        steps.manual-status.outputs.dispatch == 'true'
+      uses: actions/upload-artifact@v4
+      with:
+        name: manual-pdf-input-${{ github.run_id }}-${{ github.run_attempt }}
+        path: ${{ runner.temp }}/manual-pdf-input/
+        if-no-files-found: error
+        retention-days: 3
+        compression-level: 0
 
     - name: Commit and push changes
       id: commit-rss
@@ -116,11 +152,17 @@ jobs:
     - name: Trigger manual PDF diff
       if: >-
         steps.commit-rss.outcome == 'success' &&
-        steps.manual-status.outputs.pending == 'true'
+        steps.manual-status.outputs.dispatch == 'true' &&
+        steps.upload-manual-candidates.outcome == 'success'
       env:
         GH_TOKEN: ${{ github.token }}
       run: |
-        gh workflow run manual_pdf_diff.yml --ref "${TARGET_BRANCH}"
+        gh workflow run manual_pdf_diff.yml \
+          --ref "${TARGET_BRANCH}" \
+          -f "source_run_id=${GITHUB_RUN_ID}" \
+          -f "source_run_number=${GITHUB_RUN_NUMBER}" \
+          -f "source_run_attempt=${GITHUB_RUN_ATTEMPT}" \
+          -f "source_commit=${GITHUB_SHA}"
 
     - name: Report owner manual page failure
       if: always() && steps.manual-rss.outcome == 'failure'

@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional, Sequence, Tuple
+from typing import Dict, List, Mapping, Optional, Sequence, Tuple
 from urllib.parse import quote, urlencode, urljoin, urlsplit, urlunsplit
 
 import requests
@@ -25,9 +25,9 @@ DEFAULT_USER_AGENT = (
     "(KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 )
 STATE_SCHEMA_VERSION = 2
+CANDIDATE_SCHEMA_VERSION = 1
+CANDIDATE_MANIFEST_NAME = "manual-pdf-candidates.json"
 MAX_GEMINI_DIFF_CHARS = 120000
-TAVILY_EXTRACT_DEPTHS = {"basic", "advanced"}
-TAVILY_EXTRACT_FORMATS = {"markdown"}
 MANUAL_PDF_FILENAME = "Owners_Manual.pdf"
 
 
@@ -65,6 +65,51 @@ class Target:
 
     def item_title(self, version: str) -> str:
         return f"{self.region_name}｜{version}"
+
+
+@dataclass(frozen=True)
+class PdfCandidate:
+    target_key: str
+    version: str
+    pdf_url: str
+    pdf_sha256: str
+    pdf_size: int
+    pdf_asset: str
+    candidate_file: str
+    version_source: str
+    rss_guid: str
+    mode: str
+    path: Path
+
+
+@dataclass(frozen=True)
+class RssEntry:
+    title: str
+    pdf_url: str
+    guid: str
+    description: str
+
+
+@dataclass(frozen=True)
+class SourceRun:
+    run_id: int
+    number: int
+    attempt: int
+    commit: Optional[str] = None
+
+    @property
+    def order(self) -> Tuple[int, int]:
+        return self.number, self.attempt
+
+    def as_state(self) -> Dict[str, object]:
+        value: Dict[str, object] = {
+            "id": self.run_id,
+            "number": self.number,
+            "attempt": self.attempt,
+        }
+        if self.commit:
+            value["commit"] = self.commit
+        return value
 
 
 def derive_international_url(mainland_url: str) -> str:
@@ -147,6 +192,13 @@ def configured_targets() -> List[Target]:
 
 
 class BrowserFetcher:
+    """Download a PDF through Chrome for source-collection callers.
+
+    The monitor entry point never constructs this class: it consumes PDFs already
+    transported in a workflow artifact.  It remains here as a shared downloader
+    for the producer and the local diff demo.
+    """
+
     def __init__(self, timeout: int):
         self.timeout = timeout
         self.driver = None
@@ -310,7 +362,6 @@ def browser_download_details(
 ) -> str:
     responses = list(responses or [])
     responses.extend(browser_download_responses(driver, requested_url))
-
     response = responses[-1] if responses else {}
     status = response.get("status", "unknown")
     mime_type = response.get("mimeType", "unknown")
@@ -335,179 +386,6 @@ def browser_download_details(
         f"final_url={final_url!r}, title={title!r}, body={body!r}, "
         f"navigation_error={navigation_error!r}"
     )
-
-
-class TavilyPageFetcher:
-    def __init__(
-        self,
-        timeout: int,
-        api_key: str,
-        extract_depth: str = "advanced",
-        output_format: str = "markdown",
-        client=None,
-    ):
-        if timeout <= 0:
-            raise ValueError("Tavily timeout must be greater than zero")
-        if not api_key.strip():
-            raise RuntimeError("Required environment variable is empty: TAVILY_API_KEY")
-        if extract_depth not in TAVILY_EXTRACT_DEPTHS:
-            raise ValueError(
-                "Tavily extract depth must be one of: "
-                + ", ".join(sorted(TAVILY_EXTRACT_DEPTHS))
-            )
-        if output_format not in TAVILY_EXTRACT_FORMATS:
-            raise ValueError(
-                "Tavily extract format must be one of: "
-                + ", ".join(sorted(TAVILY_EXTRACT_FORMATS))
-            )
-
-        if client is None:
-            from tavily import TavilyClient
-
-            client = TavilyClient(api_key=api_key)
-        self.timeout = min(float(timeout), 60.0)
-        self.api_key = api_key
-        self.extract_depth = extract_depth
-        self.output_format = output_format
-        self.client = client
-
-    def _search_content(
-        self, url: str, target_name: str, version_text_prefix: str
-    ) -> str:
-        parsed_url = urlsplit(url)
-        if not parsed_url.hostname:
-            raise RuntimeError(f"Manual page URL has no hostname: {url}")
-        query = (
-            f'"{target_name} 车主手册" '
-            f'"{normalize_text(version_text_prefix)}" "China" {url}'
-        )
-        try:
-            response = self.client.search(
-                query=query,
-                search_depth="advanced",
-                max_results=10,
-                include_domains=[parsed_url.hostname],
-                timeout=self.timeout,
-            )
-        except Exception as error:
-            message = str(error).replace(self.api_key, "<redacted>")
-            raise RuntimeError(
-                f"Tavily Search request failed for {url}: "
-                f"{type(error).__name__}: {message}"
-            ) from None
-
-        if not isinstance(response, dict):
-            raise RuntimeError("Tavily Search returned a non-object response")
-        results = response.get("results", [])
-        if not isinstance(results, list):
-            raise RuntimeError("Tavily Search returned an invalid results collection")
-        matching_results = [
-            result
-            for result in results
-            if isinstance(result, dict)
-            and urls_equivalent(str(result.get("url", "")), url)
-        ]
-        if len(matching_results) != 1:
-            raise RuntimeError(
-                "Tavily Search expected exactly one matching result for "
-                f"{url}; found {len(matching_results)}"
-            )
-        content = matching_results[0].get("content")
-        if not isinstance(content, str) or not content.strip():
-            raise RuntimeError(f"Tavily Search returned empty content for {url}")
-        if len(extracted_version_matches(content, version_text_prefix)) != 1:
-            raise RuntimeError(
-                "Tavily Search result did not contain exactly one normalized "
-                f"version for {url}"
-            )
-        pdf_url = manual_pdf_url(url)
-        print(f"::warning::Tavily Extract failed for {url}; using exact Search result")
-        return f"{content}\n\n[Download PDF]({pdf_url})"
-
-    def page_content(
-        self, url: str, target_name: str, version_text_prefix: str
-    ) -> str:
-        extract_error = None
-        try:
-            response = self.client.extract(
-                urls=[url],
-                extract_depth=self.extract_depth,
-                format=self.output_format,
-                timeout=self.timeout,
-            )
-        except Exception as error:
-            message = str(error).replace(self.api_key, "<redacted>")
-            extract_error = (
-                f"Tavily Extract request failed for {url}: "
-                f"{type(error).__name__}: {message}"
-            )
-            response = None
-
-        if response is not None and not isinstance(response, dict):
-            extract_error = "Tavily Extract returned a non-object response"
-            response = None
-
-        if response is None:
-            try:
-                return self._search_content(url, target_name, version_text_prefix)
-            except RuntimeError as search_error:
-                raise RuntimeError(f"{extract_error}; {search_error}") from None
-
-        results = response.get("results", [])
-        failed_results = response.get("failed_results", [])
-        if not isinstance(results, list) or not isinstance(failed_results, list):
-            extract_error = "Tavily Extract returned invalid result collections"
-            try:
-                return self._search_content(url, target_name, version_text_prefix)
-            except RuntimeError as search_error:
-                raise RuntimeError(f"{extract_error}; {search_error}") from None
-
-        matching_results = [
-            result
-            for result in results
-            if isinstance(result, dict)
-            and urls_equivalent(str(result.get("url", "")), url)
-        ]
-        if len(matching_results) != 1:
-            failure_messages = [
-                str(result.get("error", "unknown error")).replace(
-                    self.api_key, "<redacted>"
-                )
-                for result in failed_results
-                if isinstance(result, dict)
-                and urls_equivalent(str(result.get("url", "")), url)
-            ]
-            detail = f"; failure={failure_messages[0]}" if failure_messages else ""
-            extract_error = (
-                "Tavily Extract expected exactly one matching result for "
-                f"{url}; found {len(matching_results)}{detail}"
-            )
-            try:
-                return self._search_content(url, target_name, version_text_prefix)
-            except RuntimeError as search_error:
-                raise RuntimeError(f"{extract_error}; {search_error}") from None
-
-        content = matching_results[0].get("raw_content")
-        if not isinstance(content, str) or not content.strip():
-            extract_error = f"Tavily Extract returned empty content for {url}"
-            try:
-                return self._search_content(url, target_name, version_text_prefix)
-            except RuntimeError as search_error:
-                raise RuntimeError(f"{extract_error}; {search_error}") from None
-        try:
-            parse_extracted_manual_page(content, url, version_text_prefix)
-        except ValueError as error:
-            extract_error = f"Tavily Extract content validation failed: {error}"
-            try:
-                return self._search_content(url, target_name, version_text_prefix)
-            except RuntimeError as search_error:
-                raise RuntimeError(f"{extract_error}; {search_error}") from None
-        return content
-
-    def close(self) -> None:
-        close = getattr(self.client, "close", None)
-        if callable(close):
-            close()
 
 
 def normalize_text(value: str) -> str:
@@ -616,20 +494,64 @@ def sha256_bytes(content: bytes) -> str:
     return hashlib.sha256(content).hexdigest()
 
 
+def sha256_file(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as source:
+        for chunk in iter(lambda: source.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
+
+
 def extract_pdf_text(path: Path) -> str:
     from pypdf import PdfReader
 
     reader = PdfReader(str(path))
     pages = []
+    has_text = False
     for number, page in enumerate(reader.pages, start=1):
         text = page.extract_text() or ""
+        has_text = has_text or bool(text.strip())
         pages.append(f"\n===== Page {number} =====\n{text.strip()}")
-    return "\n".join(pages).strip()
+    return "\n".join(pages).strip() if has_text else ""
+
+
+def extract_pdf_cover_text(path: Path) -> str:
+    from pypdf import PdfReader
+
+    try:
+        reader = PdfReader(str(path))
+        if not reader.pages:
+            raise RuntimeError("PDF has no pages")
+        return reader.pages[0].extract_text() or ""
+    except RuntimeError:
+        raise
+    except Exception as error:
+        raise RuntimeError(
+            f"Could not read candidate PDF cover: {type(error).__name__}: {error}"
+        ) from None
+
+
+def extract_pdf_cover_version(path: Path, version_text_prefix: str) -> str:
+    prefix = normalize_text(version_text_prefix)
+    cover_text = normalize_text(html.unescape(extract_pdf_cover_text(path)))
+    pattern = re.compile(re.escape(prefix) + r"([0-9]+(?:\.[0-9]+)+)")
+    matches = [f"{prefix}{match.group(1)}" for match in pattern.finditer(cover_text)]
+    if len(matches) != 1:
+        raise RuntimeError(
+            f"PDF cover expected exactly one version starting with {prefix!r}; "
+            f"found {len(matches)}"
+        )
+    return matches[0]
 
 
 def make_text_diff(old_text: str, new_text: str) -> Tuple[str, int, int]:
     if not old_text.strip() and not new_text.strip():
         return "PDF 无可提取的文本层，未执行 OCR。", 0, 0
+    text_layer_note = ""
+    if not old_text.strip():
+        text_layer_note = "上一版本 PDF 无可提取的文本层，未执行 OCR。\n"
+    elif not new_text.strip():
+        text_layer_note = "当前版本 PDF 无可提取的文本层，未执行 OCR。\n"
     lines = list(
         difflib.unified_diff(
             old_text.splitlines(),
@@ -645,7 +567,8 @@ def make_text_diff(old_text: str, new_text: str) -> Tuple[str, int, int]:
     deletions = sum(
         1 for line in lines if line.startswith("-") and not line.startswith("---")
     )
-    return "\n".join(lines) or "PDF 可提取文字没有差异。", additions, deletions
+    diff_text = "\n".join(lines) or "PDF 可提取文字没有差异。"
+    return text_layer_note + diff_text, additions, deletions
 
 
 def fallback_summary(old_version: str, new_version: str, additions: int, deletions: int) -> str:
@@ -698,6 +621,8 @@ def send_bark(
         payload = response.json()
     except ValueError:
         return
+    if not isinstance(payload, Mapping):
+        raise RuntimeError("Bark returned an invalid JSON response")
     if payload.get("code") not in (None, 200):
         raise RuntimeError("Bark rejected the notification")
 
@@ -754,7 +679,14 @@ def summarize_with_gemini(
         payload = response.json()
         parts = payload["candidates"][0]["content"]["parts"]
         summary = "\n".join(part.get("text", "") for part in parts).strip()
-    except (requests.RequestException, ValueError, KeyError, IndexError) as error:
+    except (
+        requests.RequestException,
+        ValueError,
+        KeyError,
+        IndexError,
+        TypeError,
+        AttributeError,
+    ) as error:
         raise RuntimeError(f"Gemini summary failed: {type(error).__name__}") from None
     if not summary:
         raise RuntimeError("Gemini summary failed: empty response")
@@ -797,6 +729,250 @@ def save_state(path: Path, state: Dict[str, object]) -> None:
     temporary.replace(path)
 
 
+def _positive_int(value: object, field: str, context: str = "Candidate manifest") -> int:
+    if isinstance(value, bool):
+        raise RuntimeError(f"{context} {field} must be a positive integer")
+    try:
+        number = int(value)
+    except (TypeError, ValueError):
+        raise RuntimeError(
+            f"{context} {field} must be a positive integer"
+        ) from None
+    if number <= 0 or str(value).strip() != str(number):
+        raise RuntimeError(f"{context} {field} must be a positive integer")
+    return number
+
+
+def _source_run_from_mapping(value: object, context: str) -> SourceRun:
+    if not isinstance(value, Mapping):
+        raise RuntimeError(f"{context} source_run must be an object")
+    commit_value = value.get("commit")
+    if commit_value is not None and (
+        not isinstance(commit_value, str) or not commit_value.strip()
+    ):
+        raise RuntimeError(f"{context} source_run.commit must be a non-empty string")
+    return SourceRun(
+        run_id=_positive_int(value.get("id"), "source_run.id", context),
+        number=_positive_int(value.get("number"), "source_run.number", context),
+        attempt=_positive_int(value.get("attempt"), "source_run.attempt", context),
+        commit=commit_value.strip() if isinstance(commit_value, str) else None,
+    )
+
+
+def _validate_source_run_environment(source_run: SourceRun) -> None:
+    expected_values = {
+        "MANUAL_SOURCE_RUN_ID": str(source_run.run_id),
+        "MANUAL_SOURCE_RUN_NUMBER": str(source_run.number),
+        "MANUAL_SOURCE_RUN_ATTEMPT": str(source_run.attempt),
+        "MANUAL_SOURCE_COMMIT": source_run.commit or "",
+    }
+    for name, actual in expected_values.items():
+        expected = os.environ.get(name, "").strip()
+        if expected and expected != actual:
+            raise RuntimeError(
+                f"Candidate manifest source run does not match {name}"
+            )
+
+
+def load_candidate_manifest(
+    candidate_dir: Path,
+) -> Tuple[SourceRun, Dict[str, Mapping[str, object]]]:
+    manifest_path = candidate_dir / CANDIDATE_MANIFEST_NAME
+    if not manifest_path.is_file():
+        raise RuntimeError(f"Candidate manifest is missing: {manifest_path}")
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeError, json.JSONDecodeError) as error:
+        raise RuntimeError(
+            f"Invalid candidate manifest: {type(error).__name__}: {error}"
+        ) from None
+    if not isinstance(manifest, Mapping):
+        raise RuntimeError("Candidate manifest must be an object")
+    if manifest.get("schema_version") != CANDIDATE_SCHEMA_VERSION:
+        raise RuntimeError("Unsupported candidate manifest schema version")
+    source_run = _source_run_from_mapping(
+        manifest.get("source_run"), "Candidate manifest"
+    )
+    _validate_source_run_environment(source_run)
+    entries = manifest.get("candidates")
+    if not isinstance(entries, list):
+        raise RuntimeError("Candidate manifest candidates must be an array")
+    by_target: Dict[str, Mapping[str, object]] = {}
+    for index, entry in enumerate(entries):
+        if not isinstance(entry, Mapping):
+            raise RuntimeError(f"Candidate entry {index} must be an object")
+        target_key = entry.get("target_key")
+        if not isinstance(target_key, str) or not target_key.strip():
+            raise RuntimeError(
+                f"Candidate entry {index} target_key must be a non-empty string"
+            )
+        target_key = target_key.strip()
+        if target_key in by_target:
+            raise RuntimeError(f"Duplicate candidate target: {target_key}")
+        by_target[target_key] = entry
+    return source_run, by_target
+
+
+def _required_candidate_string(
+    entry: Mapping[str, object], field: str, target: Target
+) -> str:
+    value = entry.get(field)
+    if not isinstance(value, str) or not value.strip():
+        raise RuntimeError(
+            f"{target.display_name}: candidate {field} must be a non-empty string"
+        )
+    if value != value.strip():
+        raise RuntimeError(
+            f"{target.display_name}: candidate {field} must not have outer whitespace"
+        )
+    return value
+
+
+def _validate_candidate_pdf_url(target: Target, pdf_url: str) -> None:
+    expected = manual_pdf_url(target.page_url)
+    parsed = urlsplit(pdf_url)
+    expected_parsed = urlsplit(expected)
+    if parsed.scheme.lower() not in {"http", "https"} or not parsed.hostname:
+        raise RuntimeError(f"{target.display_name}: candidate PDF URL is invalid")
+    try:
+        parsed_port = parsed.port or (
+            443 if parsed.scheme.lower() == "https" else 80
+        )
+        expected_port = expected_parsed.port or (
+            443 if expected_parsed.scheme.lower() == "https" else 80
+        )
+    except ValueError as error:
+        raise RuntimeError(
+            f"{target.display_name}: candidate PDF URL has an invalid port"
+        ) from error
+    if parsed.fragment:
+        raise RuntimeError(
+            f"{target.display_name}: candidate PDF URL does not match its region"
+        )
+    if (
+        parsed.scheme.lower(),
+        parsed.hostname.lower(),
+        parsed_port,
+    ) != (
+        expected_parsed.scheme.lower(),
+        expected_parsed.hostname.lower(),
+        expected_port,
+    ):
+        raise RuntimeError(
+            f"{target.display_name}: candidate PDF URL origin does not match its region"
+        )
+    if not parsed.path.endswith(f"/{MANUAL_PDF_FILENAME}"):
+        raise RuntimeError(
+            f"{target.display_name}: candidate PDF URL does not name the manual PDF"
+        )
+    suffix = f".{target.region_code}"
+    if not parsed.hostname.lower().endswith(suffix):
+        raise RuntimeError(
+            f"{target.display_name}: candidate PDF URL has the wrong region"
+        )
+    if target.region_code == "com" and not urls_equivalent(pdf_url, expected):
+        raise RuntimeError(
+            f"{target.display_name}: candidate PDF URL does not match its region"
+        )
+    if target.region_code not in {"cn", "com"}:
+        raise RuntimeError(
+            f"{target.display_name}: candidate PDF URL has an unsupported region"
+        )
+
+
+def validate_candidate(
+    candidate_dir: Path,
+    entry: Mapping[str, object],
+    target: Target,
+    version_text_prefix: str,
+) -> PdfCandidate:
+    target_key = _required_candidate_string(entry, "target_key", target)
+    version = _required_candidate_string(entry, "version", target)
+    pdf_url = _required_candidate_string(entry, "pdf_url", target)
+    pdf_sha256 = _required_candidate_string(entry, "pdf_sha256", target)
+    pdf_asset = _required_candidate_string(entry, "pdf_asset", target)
+    candidate_file = _required_candidate_string(entry, "candidate_file", target)
+    version_source = _required_candidate_string(entry, "version_source", target)
+    rss_guid = _required_candidate_string(entry, "rss_guid", target)
+    mode = _required_candidate_string(entry, "mode", target)
+
+    if target_key != target.key:
+        raise RuntimeError(f"{target.display_name}: candidate target_key mismatch")
+    normalized_version = normalize_text(version)
+    if normalized_version != version or extracted_version_matches(
+        version, version_text_prefix
+    ) != [version]:
+        raise RuntimeError(f"{target.display_name}: candidate version is invalid")
+    if pdf_asset != target.pdf_asset or candidate_file != target.pdf_asset:
+        raise RuntimeError(
+            f"{target.display_name}: candidate PDF asset name is not the fixed asset"
+        )
+    if Path(candidate_file).name != candidate_file:
+        raise RuntimeError(f"{target.display_name}: unsafe candidate file name")
+    expected_source = "html+pdf" if target.region_code == "cn" else "pdf"
+    if version_source != expected_source:
+        raise RuntimeError(
+            f"{target.display_name}: candidate version_source must be "
+            f"{expected_source!r}"
+        )
+    if mode not in {"pending", "reconcile"}:
+        raise RuntimeError(f"{target.display_name}: candidate mode is invalid")
+    expected_guid = target.guid_for(version)
+    legacy_guid = (
+        f"{target.legacy_guid_prefix}{version}"
+        if target.legacy_guid_prefix
+        else None
+    )
+    allowed_guids = {expected_guid}
+    if mode == "reconcile" and legacy_guid:
+        allowed_guids.add(legacy_guid)
+    if rss_guid not in allowed_guids:
+        raise RuntimeError(
+            f"{target.display_name}: candidate RSS GUID does not match its region/version"
+        )
+    _validate_candidate_pdf_url(target, pdf_url)
+    if not re.fullmatch(r"[0-9a-f]{64}", pdf_sha256):
+        raise RuntimeError(f"{target.display_name}: candidate SHA-256 is invalid")
+    pdf_size = entry.get("pdf_size")
+    if isinstance(pdf_size, bool) or not isinstance(pdf_size, int) or pdf_size <= 0:
+        raise RuntimeError(f"{target.display_name}: candidate PDF size is invalid")
+
+    path = candidate_dir / candidate_file
+    if not path.is_file() or path.is_symlink():
+        raise RuntimeError(f"{target.display_name}: candidate PDF file is missing")
+    actual_size = path.stat().st_size
+    if actual_size != pdf_size:
+        raise RuntimeError(
+            f"{target.display_name}: candidate PDF size mismatch "
+            f"({actual_size} != {pdf_size})"
+        )
+    with path.open("rb") as source:
+        if source.read(5) != b"%PDF-":
+            raise RuntimeError(f"{target.display_name}: candidate is not a PDF")
+    actual_hash = sha256_file(path)
+    if actual_hash != pdf_sha256:
+        raise RuntimeError(f"{target.display_name}: candidate SHA-256 mismatch")
+    cover_version = extract_pdf_cover_version(path, version_text_prefix)
+    if cover_version != version:
+        raise RuntimeError(
+            f"{target.display_name}: candidate PDF version {cover_version!r} "
+            f"does not match manifest version {version!r}"
+        )
+    return PdfCandidate(
+        target_key=target_key,
+        version=version,
+        pdf_url=pdf_url,
+        pdf_sha256=pdf_sha256,
+        pdf_size=pdf_size,
+        pdf_asset=pdf_asset,
+        candidate_file=candidate_file,
+        version_source=version_source,
+        rss_guid=rss_guid,
+        mode=mode,
+        path=path,
+    )
+
+
 def rss_description(
     target_name: str,
     old_version: str,
@@ -809,6 +985,64 @@ def rss_description(
         f"检查目标：{target_name}\n旧版本：{old_version}\n新版本：{new_version}\n"
         f"PDF 文本变化：新增 {additions} 行，删除 {deletions} 行\n\n{summary}"
     )
+
+
+def rss_entry_by_guid(path: Path, guid_value: str) -> Optional[RssEntry]:
+    if not path.exists():
+        return None
+    root = ET.parse(path).getroot()
+    channel = root.find("channel")
+    if channel is None:
+        raise RuntimeError(f"Invalid RSS file: {path}")
+    matching = [
+        item
+        for item in channel.findall("item")
+        if (item.findtext("guid") or "").strip() == guid_value
+    ]
+    if len(matching) > 1:
+        raise RuntimeError(f"Duplicate RSS GUID {guid_value!r}: {path}")
+    if not matching:
+        return None
+    item = matching[0]
+    return RssEntry(
+        title=(item.findtext("title") or "").strip(),
+        pdf_url=(item.findtext("link") or "").strip(),
+        guid=guid_value,
+        description=(item.findtext("description") or "").strip(),
+    )
+
+
+def version_from_target_guid(target: Target, guid_value: str) -> Optional[str]:
+    if guid_value.startswith(target.guid_prefix):
+        return guid_value[len(target.guid_prefix) :].strip()
+    if target.legacy_guid_prefix and guid_value.startswith(
+        target.legacy_guid_prefix
+    ):
+        suffix = guid_value[len(target.legacy_guid_prefix) :].strip()
+        # The legacy prefix is also a lexical prefix of all region-aware GUIDs.
+        # Only the historical, region-less form belongs to the mainland target.
+        if suffix.startswith(("cn-", "com-")):
+            return None
+        return suffix
+    return None
+
+
+def pending_rss_guids(path: Path, target: Target) -> List[str]:
+    if not path.exists():
+        return []
+    root = ET.parse(path).getroot()
+    channel = root.find("channel")
+    if channel is None:
+        raise RuntimeError(f"Invalid RSS file: {path}")
+    values = []
+    for item in channel.findall("item"):
+        guid = (item.findtext("guid") or "").strip()
+        if version_from_target_guid(target, guid) is None:
+            continue
+        description = (item.findtext("description") or "").strip()
+        if not description:
+            values.append(guid)
+    return values
 
 
 def pending_rss_entry(
@@ -829,17 +1063,21 @@ def pending_rss_entry(
         guid = (item.findtext("guid") or "").strip()
         version = title
         if target is not None:
-            if guid.startswith(target.guid_prefix):
-                version = guid[len(target.guid_prefix) :].strip()
-            elif target.legacy_guid_prefix and guid.startswith(
+            guid_version = version_from_target_guid(target, guid)
+            if guid_version is None:
+                continue
+            is_legacy = (
                 target.legacy_guid_prefix
-            ):
-                legacy_version = guid[len(target.legacy_guid_prefix) :].strip()
+                and guid.startswith(target.legacy_guid_prefix)
+                and not guid.startswith(target.guid_prefix)
+            )
+            if is_legacy:
+                legacy_version = guid_version
                 if legacy_version != title:
                     continue
                 version = legacy_version
             else:
-                continue
+                version = guid_version
         if not version or not title or not pdf_url or not guid:
             raise RuntimeError(f"Incomplete pending RSS item: {path}")
         return version, pdf_url, guid
@@ -865,17 +1103,210 @@ def complete_rss_entry(path: Path, guid_value: str, description_text: str) -> No
     raise RuntimeError(f"Pending RSS item disappeared: {guid_value}")
 
 
+def _validate_rss_for_candidate(target: Target, candidate: PdfCandidate) -> RssEntry:
+    entry = rss_entry_by_guid(target.rss_path, candidate.rss_guid)
+    if entry is None:
+        raise RuntimeError(
+            f"{target.display_name}: candidate RSS GUID does not exist"
+        )
+    guid_version = version_from_target_guid(target, entry.guid)
+    if guid_version != candidate.version:
+        raise RuntimeError(
+            f"{target.display_name}: RSS GUID version does not match candidate"
+        )
+    expected_title = target.item_title(candidate.version)
+    legacy_title = candidate.version if entry.guid != target.guid_for(candidate.version) else None
+    if entry.title not in {expected_title, legacy_title}:
+        raise RuntimeError(
+            f"{target.display_name}: RSS title does not match candidate version/region"
+        )
+    if not urls_equivalent(entry.pdf_url, candidate.pdf_url):
+        raise RuntimeError(
+            f"{target.display_name}: RSS PDF URL does not match candidate"
+        )
+    pending_guids = pending_rss_guids(target.rss_path, target)
+    if candidate.mode == "pending":
+        if not entry.description and pending_guids != [candidate.rss_guid]:
+            raise RuntimeError(
+                f"{target.display_name}: RSS does not have exactly the candidate "
+                "as its pending entry"
+            )
+    else:
+        if not entry.description:
+            raise RuntimeError(
+                f"{target.display_name}: reconcile RSS entry must already be complete"
+            )
+        if pending_guids:
+            raise RuntimeError(
+                f"{target.display_name}: reconcile refused while RSS has a pending entry"
+            )
+    return entry
+
+
+def _state_matches_candidate(
+    previous: object, target: Target, candidate: PdfCandidate
+) -> bool:
+    return bool(
+        isinstance(previous, Mapping)
+        and previous.get("version") == candidate.version
+        and previous.get("pdf_sha256") == candidate.pdf_sha256
+        and previous.get("pdf_asset") == target.pdf_asset
+        and isinstance(previous.get("pdf_url"), str)
+        and urls_equivalent(str(previous.get("pdf_url")), candidate.pdf_url)
+    )
+
+
+def _previous_source_run(previous: object) -> Optional[SourceRun]:
+    if not isinstance(previous, Mapping) or previous.get("source_run") is None:
+        return None
+    return _source_run_from_mapping(previous.get("source_run"), "Manual state")
+
+
+def _reject_stale_source(previous: object, source_run: SourceRun) -> None:
+    old_source = _previous_source_run(previous)
+    if old_source is None:
+        return
+    if source_run.order < old_source.order:
+        raise RuntimeError(
+            "Candidate source run is older than the installed target baseline"
+        )
+    if source_run.order == old_source.order and (
+        source_run.run_id != old_source.run_id
+        or source_run.commit != old_source.commit
+    ):
+        raise RuntimeError(
+            "Candidate source run conflicts with the installed target baseline"
+        )
+
+
+def _validate_installed_baseline(
+    previous: object,
+    target: Target,
+    state_dir: Path,
+    version_text_prefix: str,
+) -> Path:
+    if not isinstance(previous, Mapping):
+        raise RuntimeError(f"{target.display_name}: invalid previous target state")
+    version = previous.get("version")
+    pdf_url = previous.get("pdf_url")
+    pdf_hash = previous.get("pdf_sha256")
+    pdf_asset = previous.get("pdf_asset")
+    if not isinstance(version, str) or not version:
+        raise RuntimeError(f"{target.display_name}: previous version is missing")
+    if not isinstance(pdf_url, str) or not pdf_url:
+        raise RuntimeError(f"{target.display_name}: previous PDF URL is missing")
+    _validate_candidate_pdf_url(target, pdf_url)
+    if pdf_asset != target.pdf_asset:
+        raise RuntimeError(
+            f"{target.display_name}: previous PDF asset does not match its region"
+        )
+    if not isinstance(pdf_hash, str) or not re.fullmatch(r"[0-9a-f]{64}", pdf_hash):
+        raise RuntimeError(f"{target.display_name}: previous PDF SHA-256 is invalid")
+    asset_path = state_dir / target.pdf_asset
+    if not asset_path.is_file() or asset_path.is_symlink():
+        raise RuntimeError(f"Previous PDF asset is missing: {target.pdf_asset}")
+    with asset_path.open("rb") as source:
+        if source.read(5) != b"%PDF-":
+            raise RuntimeError(
+                f"{target.display_name}: previous PDF asset is not a PDF"
+            )
+    if sha256_file(asset_path) != pdf_hash:
+        raise RuntimeError(
+            f"{target.display_name}: previous PDF asset SHA-256 mismatch"
+        )
+    actual_version = extract_pdf_cover_version(asset_path, version_text_prefix)
+    if actual_version != version:
+        raise RuntimeError(
+            f"{target.display_name}: previous PDF version {actual_version!r} "
+            f"does not match state version {version!r}"
+        )
+    return asset_path
+
+
+def _state_record(
+    target: Target,
+    candidate: PdfCandidate,
+    source_run: SourceRun,
+    description: str,
+) -> Dict[str, object]:
+    return {
+        "version": candidate.version,
+        "pdf_url": candidate.pdf_url,
+        "pdf_sha256": candidate.pdf_sha256,
+        "pdf_size": candidate.pdf_size,
+        "pdf_asset": target.pdf_asset,
+        "version_source": candidate.version_source,
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "rss_description": description,
+        "source_run": source_run.as_state(),
+    }
+
+
+def _install_candidate_and_update_rss(
+    target: Target,
+    candidate: PdfCandidate,
+    asset_path: Path,
+    description: Optional[str],
+) -> None:
+    import shutil
+
+    asset_path.parent.mkdir(parents=True, exist_ok=True)
+    rss_original = target.rss_path.read_bytes()
+    staged_file = tempfile.NamedTemporaryFile(
+        prefix=f".{target.pdf_asset}.", suffix=".new", dir=asset_path.parent,
+        delete=False,
+    )
+    staged_path = Path(staged_file.name)
+    staged_file.close()
+    backup_path: Optional[Path] = None
+    try:
+        shutil.copyfile(candidate.path, staged_path)
+        if sha256_file(staged_path) != candidate.pdf_sha256:
+            raise RuntimeError(
+                f"{target.display_name}: staged candidate SHA-256 mismatch"
+            )
+        if asset_path.exists():
+            backup_file = tempfile.NamedTemporaryFile(
+                prefix=f".{target.pdf_asset}.", suffix=".old",
+                dir=asset_path.parent, delete=False,
+            )
+            backup_path = Path(backup_file.name)
+            backup_file.close()
+            backup_path.unlink()
+            asset_path.replace(backup_path)
+        staged_path.replace(asset_path)
+        if description is not None:
+            complete_rss_entry(target.rss_path, candidate.rss_guid, description)
+    except Exception:
+        try:
+            target.rss_path.write_bytes(rss_original)
+        except OSError:
+            pass
+        try:
+            if asset_path.exists():
+                asset_path.unlink()
+            if backup_path is not None and backup_path.exists():
+                backup_path.replace(asset_path)
+        finally:
+            if staged_path.exists():
+                staged_path.unlink()
+        raise
+    else:
+        if backup_path is not None and backup_path.exists():
+            backup_path.unlink()
+
+
 def process_target(
     session: requests.Session,
     target: Target,
     state: Dict[str, object],
     state_dir: Path,
+    candidate: PdfCandidate,
+    source_run: SourceRun,
     version_text_prefix: str,
     gemini_api_key: str,
     gemini_model: str,
     timeout: int,
-    page_fetcher: TavilyPageFetcher,
-    pdf_fetcher: BrowserFetcher,
     bark_base_url: str,
     bark_token: str,
     bark_title: str,
@@ -883,58 +1314,89 @@ def process_target(
 ) -> str:
     targets_state = state["targets"]
     previous = targets_state.get(target.key)
-    pending = pending_rss_entry(target.rss_path, target)
-    if pending is None:
-        print(f"{target.display_name}: no pending RSS entry")
-        return "unchanged"
-    version, pdf_url, guid_value = pending
-    if previous and previous.get("version") == version:
-        description = previous.get("rss_description") or (
-            f"{version} 已建立 PDF 基线，本次未重复比较。"
-        )
-        complete_rss_entry(target.rss_path, guid_value, description)
-        previous["rss_description"] = description
-        print(f"{target.display_name}: restored RSS description for {version}")
-        return "recovered"
-
-    page_content = page_fetcher.page_content(
-        target.page_url, target.name, version_text_prefix
-    )
-    version_matches = extracted_version_matches(page_content, version_text_prefix)
-    if len(version_matches) != 1:
-        prefix = normalize_text(version_text_prefix)
-        raise RuntimeError(
-            f"Tavily content expected exactly one line starting with {prefix!r}; "
-            f"found {len(version_matches)}"
-        )
-    if version_matches[0] != version:
-        raise RuntimeError(
-            f"Pending RSS version {version!r} does not match current Tavily "
-            f"version {version_matches[0]!r}"
-        )
-    pdf_content = pdf_fetcher.download(pdf_url)
-    if not pdf_content.startswith(b"%PDF-"):
-        raise RuntimeError("Downloaded owner manual is not a valid PDF")
-    pdf_hash = sha256_bytes(pdf_content)
-    detected_at = datetime.now(timezone.utc)
+    rss_entry = _validate_rss_for_candidate(target, candidate)
+    _reject_stale_source(previous, source_run)
     asset_path = state_dir / target.pdf_asset
+
+    if rss_entry.description:
+        if candidate.mode == "reconcile":
+            if _state_matches_candidate(previous, target, candidate):
+                _validate_installed_baseline(
+                    previous, target, state_dir, version_text_prefix
+                )
+                print(
+                    f"{target.display_name}: candidate already reconciled "
+                    f"({candidate.version})"
+                )
+                return "already_processed"
+            description = rss_entry.description
+            _install_candidate_and_update_rss(
+                target, candidate, asset_path, description=None
+            )
+            targets_state[target.key] = _state_record(
+                target, candidate, source_run, description
+            )
+            old_version = (
+                previous.get("version") if isinstance(previous, Mapping) else "none"
+            )
+            print(
+                f"{target.display_name}: reconciled baseline "
+                f"{old_version} -> {candidate.version} without notification"
+            )
+            return "reconciled"
+
+        if not _state_matches_candidate(previous, target, candidate):
+            raise RuntimeError(
+                f"{target.display_name}: completed pending RSS entry does not "
+                "match installed state; use reconcile mode"
+            )
+        _validate_installed_baseline(
+            previous, target, state_dir, version_text_prefix
+        )
+        print(
+            f"{target.display_name}: candidate was already processed "
+            f"({candidate.version})"
+        )
+        return "already_processed"
+
+    if candidate.mode != "pending":
+        raise RuntimeError(
+            f"{target.display_name}: reconcile candidate unexpectedly has a "
+            "pending RSS entry"
+        )
+
+    if previous is not None and previous.get("version") == candidate.version:
+        if not _state_matches_candidate(previous, target, candidate):
+            raise RuntimeError(
+                f"{target.display_name}: same-version candidate does not match "
+                "installed state; use reconcile mode"
+            )
+        _validate_installed_baseline(
+            previous, target, state_dir, version_text_prefix
+        )
+        description = previous.get("rss_description") or (
+            f"{candidate.version} 已建立 PDF 基线，本次未重复比较。"
+        )
+        complete_rss_entry(target.rss_path, candidate.rss_guid, description)
+        previous["rss_description"] = description
+        previous["source_run"] = source_run.as_state()
+        print(
+            f"{target.display_name}: restored RSS description for "
+            f"{candidate.version} after validating the artifact"
+        )
+        return "recovered"
 
     if previous is None:
         description = (
-            f"首次记录 {target.display_name} {version}，已建立 PDF 基线，"
+            f"首次记录 {target.display_name} {candidate.version}，已建立 PDF 基线，"
             "暂无上一版本可供比较。"
         )
-        complete_rss_entry(target.rss_path, guid_value, description)
-        asset_path.parent.mkdir(parents=True, exist_ok=True)
-        asset_path.write_bytes(pdf_content)
-        targets_state[target.key] = {
-            "version": version,
-            "pdf_url": pdf_url,
-            "pdf_sha256": pdf_hash,
-            "pdf_asset": target.pdf_asset,
-            "updated_at": detected_at.isoformat(),
-            "rss_description": description,
-        }
+        _install_candidate_and_update_rss(
+            target, candidate, asset_path, description
+        )
+        targets_state[target.key] = _state_record(
+            target, candidate, source_run, description
+        )
         try:
             send_bark(
                 session,
@@ -942,26 +1404,24 @@ def process_target(
                 bark_token,
                 f"{bark_title} - {target.display_name}",
                 description,
-                pdf_url,
+                candidate.pdf_url,
                 bark_group,
                 timeout,
             )
         except RuntimeError as error:
             print(f"::warning::{target.display_name}: {error}")
         print(
-            f"{target.display_name}: baseline created and RSS completed ({version})"
+            f"{target.display_name}: baseline created and RSS completed "
+            f"({candidate.version})"
         )
         return "baseline"
 
-    if not asset_path.exists():
-        raise RuntimeError(f"Previous PDF asset is missing: {target.pdf_asset}")
-
-    with tempfile.TemporaryDirectory(prefix=f"manual-{target.key}-") as temp_dir:
-        new_path = Path(temp_dir) / "current.pdf"
-        new_path.write_bytes(pdf_content)
-        old_text = extract_pdf_text(asset_path)
-        new_text = extract_pdf_text(new_path)
-        diff_text, additions, deletions = make_text_diff(old_text, new_text)
+    asset_path = _validate_installed_baseline(
+        previous, target, state_dir, version_text_prefix
+    )
+    old_text = extract_pdf_text(asset_path)
+    new_text = extract_pdf_text(candidate.path)
+    diff_text, additions, deletions = make_text_diff(old_text, new_text)
 
     old_version = previous["version"]
     try:
@@ -971,7 +1431,7 @@ def process_target(
             gemini_model,
             target.display_name,
             old_version,
-            version,
+            candidate.version,
             diff_text,
             additions,
             deletions,
@@ -979,36 +1439,43 @@ def process_target(
         )
     except RuntimeError as error:
         print(f"::warning::{target.display_name}: {error}")
-        summary = fallback_summary(old_version, version, additions, deletions)
+        summary = fallback_summary(
+            old_version, candidate.version, additions, deletions
+        )
 
     description = rss_description(
-        target.display_name, old_version, version, summary, additions, deletions
+        target.display_name,
+        old_version,
+        candidate.version,
+        summary,
+        additions,
+        deletions,
     )
-    complete_rss_entry(target.rss_path, guid_value, description)
-    asset_path.write_bytes(pdf_content)
-    targets_state[target.key] = {
-        "version": version,
-        "pdf_url": pdf_url,
-        "pdf_sha256": pdf_hash,
-        "pdf_asset": target.pdf_asset,
-        "updated_at": detected_at.isoformat(),
-        "rss_description": description,
-    }
+    _install_candidate_and_update_rss(
+        target, candidate, asset_path, description
+    )
+    targets_state[target.key] = _state_record(
+        target, candidate, source_run, description
+    )
     try:
         send_bark(
             session,
             bark_base_url,
             bark_token,
             f"{bark_title} - {target.display_name}",
-            bark_body(old_version, version, additions, deletions, summary),
-            pdf_url,
+            bark_body(
+                old_version, candidate.version, additions, deletions, summary
+            ),
+            candidate.pdf_url,
             bark_group,
             timeout,
         )
         print(f"{target.display_name}: Bark notification sent")
     except RuntimeError as error:
         print(f"::warning::{target.display_name}: {error}")
-    print(f"{target.display_name}: updated {old_version} -> {version}")
+    print(
+        f"{target.display_name}: updated {old_version} -> {candidate.version}"
+    )
     return "updated"
 
 
@@ -1020,46 +1487,97 @@ def required_env(name: str) -> str:
 
 
 def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Monitor Chinese owner manual versions.")
+    parser = argparse.ArgumentParser(
+        description="Process pre-fetched owner-manual PDF candidates."
+    )
     parser.add_argument("--state-dir", type=Path, required=True)
+    parser.add_argument("--candidate-dir", type=Path, required=True)
     parser.add_argument("--result-file", type=Path, required=True)
     return parser.parse_args(argv)
+
+
+def write_monitor_result(
+    path: Path,
+    results: Mapping[str, str],
+    errors: Sequence[str],
+    state_saved: bool,
+) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(
+            {
+                "results": dict(results),
+                "errors": list(errors),
+                "state_saved": state_saved,
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
 
 
 def main(argv: Optional[Sequence[str]] = None) -> int:
     args = parse_args(argv)
     state_path = args.state_dir / "manual-version-state.json"
-    state = load_state(state_path)
-    targets = configured_targets()
+    errors: List[str] = []
+    results: Dict[str, str] = {}
+    try:
+        state = load_state(state_path)
+        targets = configured_targets()
+        source_run, candidates = load_candidate_manifest(args.candidate_dir)
+        version_text_prefix = required_env("MANUAL_VERSION_TEXT_PREFIX")
+        gemini_model = required_env("GEMINI_MODEL")
+        bark_base_url = required_env("BARK_BASE_URL")
+        bark_title = required_env("MANUAL_BARK_TITLE")
+        bark_group = required_env("MANUAL_BARK_GROUP")
+        timeout = int(os.environ.get("MANUAL_REQUEST_TIMEOUT_SECONDS", "30"))
+        if timeout <= 0:
+            raise RuntimeError("MANUAL_REQUEST_TIMEOUT_SECONDS must be positive")
+    except Exception as error:
+        message = f"Configuration: {type(error).__name__}: {error}"
+        print(f"::error::{message}")
+        write_monitor_result(args.result_file, results, [message], False)
+        return 1
+
+    target_keys = {target.key for target in targets}
+    unknown_keys = sorted(set(candidates) - target_keys)
+    if unknown_keys:
+        message = "Candidate manifest has unknown targets: " + ", ".join(unknown_keys)
+        print(f"::error::{message}")
+        errors.append(message)
+
     session = requests.Session()
     session.headers.update({"User-Agent": DEFAULT_USER_AGENT})
-    timeout = int(os.environ.get("MANUAL_REQUEST_TIMEOUT_SECONDS", "30"))
-    page_fetcher = TavilyPageFetcher(
-        timeout,
-        required_env("TAVILY_API_KEY"),
-        os.environ.get("TAVILY_EXTRACT_DEPTH", "advanced").strip(),
-        os.environ.get("TAVILY_EXTRACT_FORMAT", "markdown").strip(),
-    )
-    pdf_fetcher = BrowserFetcher(timeout)
-    errors: List[str] = []
-    results = {}
     for target in targets:
+        raw_candidate = candidates.get(target.key)
+        if raw_candidate is None:
+            results[target.key] = "unchanged"
+            print(f"{target.display_name}: no PDF candidate in artifact")
+            continue
         try:
+            candidate = validate_candidate(
+                args.candidate_dir,
+                raw_candidate,
+                target,
+                version_text_prefix,
+            )
             results[target.key] = process_target(
                 session,
                 target,
                 state,
                 args.state_dir,
-                required_env("MANUAL_VERSION_TEXT_PREFIX"),
+                candidate,
+                source_run,
+                version_text_prefix,
                 os.environ.get("GEMINI_API_KEY", "").strip(),
-                required_env("GEMINI_MODEL"),
+                gemini_model,
                 timeout,
-                page_fetcher,
-                pdf_fetcher,
-                required_env("BARK_BASE_URL"),
+                bark_base_url,
                 os.environ.get("BARK_TOKEN", "").strip(),
-                required_env("MANUAL_BARK_TITLE"),
-                required_env("MANUAL_BARK_GROUP"),
+                bark_title,
+                bark_group,
             )
         except Exception as error:
             message = f"{target.display_name}: {type(error).__name__}: {error}"
@@ -1067,21 +1585,15 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             errors.append(message)
             results[target.key] = "failed"
 
+    state_saved = False
     try:
-        page_fetcher.close()
+        save_state(state_path, state)
+        state_saved = True
     except Exception as error:
-        print(f"::warning::Tavily cleanup failed: {type(error).__name__}")
-    try:
-        pdf_fetcher.close()
-    except Exception as error:
-        print(f"::warning::Headless Chrome cleanup failed: {type(error).__name__}")
-    save_state(state_path, state)
-    args.result_file.parent.mkdir(parents=True, exist_ok=True)
-    args.result_file.write_text(
-        json.dumps({"results": results, "errors": errors}, ensure_ascii=False, indent=2)
-        + "\n",
-        encoding="utf-8",
-    )
+        message = f"State: {type(error).__name__}: {error}"
+        print(f"::error::{message}")
+        errors.append(message)
+    write_monitor_result(args.result_file, results, errors, state_saved)
     return 1 if errors else 0
 
 

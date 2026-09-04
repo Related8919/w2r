@@ -7,6 +7,7 @@ from pathlib import Path
 from unittest.mock import Mock, patch
 
 from scripts.manual_version_monitor import (
+    BrowserFetcher,
     TavilyPageFetcher,
     build_region_targets,
     build_bark_url,
@@ -182,6 +183,71 @@ class ManualVersionMonitorTests(unittest.TestCase):
             with path.open("wb") as output:
                 writer.write(output)
             self.assertEqual(extract_pdf_text(path), "===== Page 1 =====")
+
+    def test_browser_fetcher_navigates_to_pdf_and_reads_download(self):
+        driver = Mock()
+        download_directory = None
+
+        def execute_cdp(command, params):
+            nonlocal download_directory
+            if command == "Browser.setDownloadBehavior":
+                download_directory = Path(params["downloadPath"])
+                self.assertTrue(params["eventsEnabled"])
+                return {}
+            if command == "Page.navigate":
+                self.assertEqual(params["url"], f"{PAGE_URL}Owners_Manual.pdf")
+                (download_directory / "Owners_Manual.pdf").write_bytes(
+                    b"%PDF-test"
+                )
+                return {"frameId": "frame"}
+            raise AssertionError(command)
+
+        driver.execute_cdp_cmd.side_effect = execute_cdp
+        driver.get_log.return_value = []
+        fetcher = BrowserFetcher(1)
+        fetcher.driver = driver
+
+        self.assertEqual(
+            fetcher.download(f"{PAGE_URL}Owners_Manual.pdf"), b"%PDF-test"
+        )
+        driver.execute_script.assert_not_called()
+
+    def test_browser_fetcher_timeout_reports_http_response(self):
+        pdf_url = f"{PAGE_URL}Owners_Manual.pdf"
+        driver = Mock()
+        driver.execute_cdp_cmd.side_effect = [{}, {"errorText": "net::ERR_FAILED"}]
+        driver.get_log.side_effect = [
+            [],
+            [
+                {
+                    "message": json.dumps(
+                        {
+                            "message": {
+                                "method": "Network.responseReceived",
+                                "params": {
+                                    "response": {
+                                        "url": pdf_url,
+                                        "status": 403,
+                                        "mimeType": "text/html",
+                                    }
+                                },
+                            }
+                        }
+                    )
+                }
+            ],
+            [],
+        ]
+        driver.current_url = pdf_url
+        driver.title = "Access Denied"
+        driver.find_element.return_value.text = "Access Denied"
+        fetcher = BrowserFetcher(10)
+        fetcher.driver = driver
+
+        with self.assertRaisesRegex(RuntimeError, "status=403") as context:
+            fetcher.download(pdf_url)
+        self.assertIn("Access Denied", str(context.exception))
+        self.assertIn("net::ERR_FAILED", str(context.exception))
 
     def test_tavily_fetcher_extracts_one_matching_url(self):
         client = Mock()

@@ -166,6 +166,15 @@ class BrowserFetcher:
             options.add_argument("--window-size=1920x1080")
             options.add_experimental_option("excludeSwitches", ["enable-automation"])
             options.add_experimental_option("useAutomationExtension", False)
+            options.add_experimental_option(
+                "prefs",
+                {
+                    "download.prompt_for_download": False,
+                    "download.directory_upgrade": True,
+                    "plugins.always_open_pdf_externally": True,
+                },
+            )
+            options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
             options.page_load_strategy = "eager"
             self.driver = webdriver.Chrome(options=options)
             self.driver.set_page_load_timeout(self.timeout)
@@ -228,36 +237,104 @@ class BrowserFetcher:
         with tempfile.TemporaryDirectory(prefix="manual-browser-download-") as directory:
             driver.execute_cdp_cmd(
                 "Browser.setDownloadBehavior",
-                {"behavior": "allow", "downloadPath": directory},
+                {
+                    "behavior": "allow",
+                    "downloadPath": directory,
+                    "eventsEnabled": True,
+                },
             )
-            driver.execute_script(
-                "const link = document.createElement('a');"
-                "link.href = arguments[0]; link.download = 'manual.pdf';"
-                "document.body.appendChild(link); link.click(); link.remove();",
-                url,
-            )
+            driver.get_log("performance")
+            navigation = driver.execute_cdp_cmd("Page.navigate", {"url": url})
             deadline = time.monotonic() + self.timeout
             directory_path = Path(directory)
+            responses = []
             while time.monotonic() < deadline:
-                pdf_files = [
+                completed_files = [
                     path
                     for path in directory_path.iterdir()
-                    if path.is_file() and path.suffix.lower() == ".pdf"
+                    if path.is_file()
+                    and not path.name.endswith((".crdownload", ".tmp"))
                 ]
-                for path in pdf_files:
+                for path in completed_files:
                     content = path.read_bytes()
                     if content.startswith(b"%PDF-"):
                         return content
+                responses.extend(browser_download_responses(driver, url))
+                if any(browser_response_is_failure(response) for response in responses):
+                    break
                 time.sleep(0.25)
             observed = sorted(path.name for path in directory_path.iterdir())
+            details = browser_download_details(driver, url, navigation, responses)
         raise RuntimeError(
-            f"Browser PDF download timed out; observed files: {observed}"
+            "Browser PDF download failed; "
+            f"observed files: {observed}; {details}"
         )
 
     def close(self) -> None:
         if self.driver is not None:
             self.driver.quit()
             self.driver = None
+
+
+def browser_download_responses(driver, requested_url: str) -> List[Dict[str, object]]:
+    responses = []
+    try:
+        for entry in driver.get_log("performance"):
+            message = json.loads(entry.get("message", "{}"))
+            event = message.get("message", {})
+            if event.get("method") != "Network.responseReceived":
+                continue
+            response = event.get("params", {}).get("response", {})
+            response_url = str(response.get("url", ""))
+            if urls_equivalent(response_url, requested_url):
+                responses.append(response)
+    except Exception:
+        pass
+    return responses
+
+
+def browser_response_is_failure(response: Dict[str, object]) -> bool:
+    try:
+        status = int(float(response.get("status", 0)))
+    except (TypeError, ValueError):
+        status = 0
+    mime_type = str(response.get("mimeType", "")).lower()
+    return status >= 400 or (status in {200, 206} and mime_type == "text/html")
+
+
+def browser_download_details(
+    driver,
+    requested_url: str,
+    navigation: object,
+    responses: Optional[List[Dict[str, object]]] = None,
+) -> str:
+    responses = list(responses or [])
+    responses.extend(browser_download_responses(driver, requested_url))
+
+    response = responses[-1] if responses else {}
+    status = response.get("status", "unknown")
+    mime_type = response.get("mimeType", "unknown")
+    final_url = str(response.get("url") or getattr(driver, "current_url", ""))
+    title = ""
+    body = ""
+    try:
+        title = str(driver.title)
+    except Exception:
+        pass
+    try:
+        from selenium.webdriver.common.by import By
+
+        body = normalize_text(driver.find_element(By.TAG_NAME, "body").text)[:300]
+    except Exception:
+        pass
+    navigation_error = ""
+    if isinstance(navigation, dict) and navigation.get("errorText"):
+        navigation_error = str(navigation["errorText"])
+    return (
+        f"status={status!r}, mime_type={mime_type!r}, "
+        f"final_url={final_url!r}, title={title!r}, body={body!r}, "
+        f"navigation_error={navigation_error!r}"
+    )
 
 
 class TavilyPageFetcher:

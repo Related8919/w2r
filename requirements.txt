@@ -6,3 +6,4 @@ selenium
 webdriver-manager
 pypdf
 tavily-python==0.8.0
+cryptography>=3.1

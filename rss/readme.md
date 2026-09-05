@@ -15,11 +15,6 @@
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/GoogleCloudBlog.xml
 - Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/GoogleCloudBlog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/GoogleCloudBlog.xml)
 
-## DeveloperNvidiaBlog
-- 原网址：https://developer.nvidia.com/zh-cn/blog/recent-posts/
-- 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/DeveloperNvidiaBlog.xml
-- Follow订阅跳转：[follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/DeveloperNvidiaBlog.xml](follow://add?url=https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/DeveloperNvidiaBlog.xml)
-
 ## VulnersBlog
 - 原网址：https://vulners.com/blog/
 - 订阅源：https://raw.githubusercontent.com/Related8919/w2r/refs/heads/main/rss/VulnersBlog.xml

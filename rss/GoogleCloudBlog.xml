@@ -6,7 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sat, 05 Sep 2026 04:10:29 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 04:18:27 +0000</lastBuildDate>
     <item>
       <title>How BlackLine simplifies perimeter policy intelligence with VPC Service Controls</title>
       <link>https://cloud.google.com/blog/topics/customers/how-blackline-prevents-data-exfiltration-with-vpc-service-controls</link>

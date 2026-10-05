@@ -6,7 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Sun, 04 Oct 2026 05:36:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 05:19:32 +0000</lastBuildDate>
     <item>
       <title>Graph Workflows in ADK: Everything You Need to Know</title>
       <link>https://cloud.google.com/blog/topics/developers-practitioners/graph-workflows-in-adk-everything-you-need-to-know</link>

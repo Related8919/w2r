@@ -30,12 +30,12 @@ except ModuleNotFoundError:
 TARGETS = {
     "model3_cn": ("Model 3 大陆版", "model3-manual-current.pdf"),
     "model3_com": (
-        "Model 3 国际版",
+        "Model 3 香港版",
         "model3-international-manual-current.pdf",
     ),
     "modely_cn": ("Model Y 大陆版", "modely-manual-current.pdf"),
     "modely_com": (
-        "Model Y 国际版",
+        "Model Y 香港版",
         "modely-international-manual-current.pdf",
     ),
 }

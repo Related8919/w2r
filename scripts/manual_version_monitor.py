@@ -42,6 +42,7 @@ class Target:
     region_name: str = "大陆版"
     legacy_key: Optional[str] = None
     feed_url: Optional[str] = None
+    source_locale: Optional[str] = None
 
     @property
     def display_name(self) -> str:
@@ -52,7 +53,8 @@ class Target:
         model_key = self.legacy_key
         if model_key is None and self.key.endswith(("_cn", "_com")):
             model_key = self.key.rsplit("_", 1)[0]
-        return f"manual-{model_key or self.key}-{self.region_code}-"
+        region = "hk" if self.source_locale == "zh_hk" else self.region_code
+        return f"manual-{model_key or self.key}-{region}-"
 
     @property
     def legacy_guid_prefix(self) -> Optional[str]:
@@ -113,6 +115,7 @@ class SourceRun:
 
 
 def derive_international_url(mainland_url: str) -> str:
+    """Derive the Hong Kong source from the configured mainland page."""
     parsed = urlsplit(mainland_url)
     if parsed.scheme.lower() not in {"http", "https"}:
         raise ValueError("Mainland manual URL must use http or https")
@@ -129,7 +132,15 @@ def derive_international_url(mainland_url: str) -> str:
     international_netloc = (
         parsed.netloc[: host_end - 3] + ".com" + parsed.netloc[host_end:]
     )
-    return urlunsplit(parsed._replace(netloc=international_netloc))
+    path_parts = parsed.path.split("/")
+    if path_parts.count("zh_cn") != 1:
+        raise ValueError(
+            "Mainland manual URL path must contain exactly one zh_cn segment"
+        )
+    path_parts[path_parts.index("zh_cn")] = "zh_hk"
+    return urlunsplit(
+        parsed._replace(netloc=international_netloc, path="/".join(path_parts))
+    )
 
 
 def build_region_targets(
@@ -153,6 +164,8 @@ def build_region_targets(
             legacy_key=model_key,
             feed_url=mainland_url,
         ),
+        # Keep the existing state key and Release asset; source_locale makes the
+        # first Hong Kong run rebuild that slot and use new hk-prefixed RSS GUIDs.
         Target(
             f"{model_key}_com",
             model_name,
@@ -160,8 +173,9 @@ def build_region_targets(
             rss_path,
             international_pdf_asset,
             region_code="com",
-            region_name="国际版",
+            region_name="香港版",
             feed_url=mainland_url,
+            source_locale="zh_hk",
         ),
     ]
 
@@ -435,6 +449,26 @@ def manual_pdf_url(page_url: str) -> str:
     else:
         path = f"{path.rstrip('/')}/{MANUAL_PDF_FILENAME}"
     return urlunsplit(parsed._replace(path=path, query="", fragment=""))
+
+
+def version_prefix_for_target(target: Target, configured_prefix: str) -> str:
+    prefix = normalize_text(configured_prefix)
+    if target.source_locale == "zh_hk":
+        return prefix.replace("软件", "軟件")
+    return prefix
+
+
+def baseline_source_matches(previous: object, target: Target) -> bool:
+    """A changed manual locale must establish a baseline before any diff."""
+    if not isinstance(previous, Mapping):
+        return False
+    if target.source_locale is None:
+        return True
+    return bool(
+        previous.get("source_locale") == target.source_locale
+        and isinstance(previous.get("pdf_url"), str)
+        and urls_equivalent(previous["pdf_url"], manual_pdf_url(target.page_url))
+    )
 
 
 def extracted_version_matches(content: str, version_text_prefix: str) -> List[str]:
@@ -886,6 +920,7 @@ def validate_candidate(
     target: Target,
     version_text_prefix: str,
 ) -> PdfCandidate:
+    version_text_prefix = version_prefix_for_target(target, version_text_prefix)
     target_key = _required_candidate_string(entry, "target_key", target)
     version = _required_candidate_string(entry, "version", target)
     pdf_url = _required_candidate_string(entry, "pdf_url", target)
@@ -1021,7 +1056,7 @@ def version_from_target_guid(target: Target, guid_value: str) -> Optional[str]:
         suffix = guid_value[len(target.legacy_guid_prefix) :].strip()
         # The legacy prefix is also a lexical prefix of all region-aware GUIDs.
         # Only the historical, region-less form belongs to the mainland target.
-        if suffix.startswith(("cn-", "com-")):
+        if suffix.startswith(("cn-", "com-", "hk-")):
             return None
         return suffix
     return None
@@ -1236,6 +1271,7 @@ def _state_record(
         "pdf_size": candidate.pdf_size,
         "pdf_asset": target.pdf_asset,
         "version_source": candidate.version_source,
+        "source_locale": target.source_locale,
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "rss_description": description,
         "source_run": source_run.as_state(),
@@ -1312,11 +1348,18 @@ def process_target(
     bark_title: str,
     bark_group: str,
 ) -> str:
+    version_text_prefix = version_prefix_for_target(target, version_text_prefix)
     targets_state = state["targets"]
     previous = targets_state.get(target.key)
     rss_entry = _validate_rss_for_candidate(target, candidate)
     _reject_stale_source(previous, source_run)
     asset_path = state_dir / target.pdf_asset
+    if previous is not None and not baseline_source_matches(previous, target):
+        print(
+            f"{target.display_name}: manual source changed; establishing a fresh "
+            "PDF baseline without comparing the previous source"
+        )
+        previous = None
 
     if rss_entry.description:
         if candidate.mode == "reconcile":

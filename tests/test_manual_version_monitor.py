@@ -26,11 +26,12 @@ from scripts.manual_version_monitor import (
     send_bark,
     summarize_with_gemini,
     validate_candidate,
+    version_prefix_for_target,
     write_monitor_result,
 )
 
 
-PAGE_URL = "https://manual.example.cn/manual/modely/index.html"
+PAGE_URL = "https://manual.example.cn/manual/modely/zh_cn/index.html"
 VERSION_PREFIX = "Version："
 VERSION_OLD = "Version：2026.8"
 VERSION_NEW = "Version：2026.12"
@@ -159,6 +160,7 @@ def installed_state(target, pdf_bytes, version=VERSION_OLD, source_run=None):
         "pdf_size": len(pdf_bytes),
         "pdf_asset": target.pdf_asset,
         "rss_description": "existing summary",
+        "source_locale": target.source_locale,
     }
     if source_run:
         value["source_run"] = source_run.as_state()
@@ -193,19 +195,44 @@ def run_target(session, target, state, state_dir, candidate):
 
 
 class ManualVersionMonitorTests(unittest.TestCase):
-    def test_url_derivation_changes_only_hostname_suffix(self):
+    def test_hong_kong_url_derivation_changes_host_and_locale_only(self):
         mainland = "https://www.example.cn:8443/owners/zh_cn/?region=cn#cn"
         self.assertEqual(
             derive_international_url(mainland),
-            "https://www.example.com:8443/owners/zh_cn/?region=cn#cn",
+            "https://www.example.com:8443/owners/zh_hk/?region=cn#cn",
         )
         for invalid in (
             "ftp://www.example.cn/manual",
             "https:///manual",
             "https://www.example.com/manual",
+            "https://www.example.cn/manual",
+            "https://www.example.cn/zh_cn/zh_cn/",
         ):
             with self.subTest(invalid=invalid), self.assertRaises(ValueError):
                 derive_international_url(invalid)
+
+    def test_hong_kong_prefix_and_guid_are_independent_of_old_international(self):
+        mainland, hong_kong = modely_targets(Path("feed.xml"))
+        self.assertEqual(hong_kong.region_name, "香港版")
+        self.assertEqual(hong_kong.source_locale, "zh_hk")
+        self.assertEqual(
+            version_prefix_for_target(hong_kong, "软件版本:"), "軟件版本："
+        )
+        self.assertEqual(
+            version_prefix_for_target(mainland, "软件版本:"), "软件版本："
+        )
+        self.assertEqual(
+            hong_kong.guid_for("軟件版本：2026.32"),
+            "manual-modely-hk-軟件版本：2026.32",
+        )
+        with patch(
+            "scripts.manual_version_monitor.extract_pdf_cover_text",
+            return_value="MODEL Y\n軟件版本： 2026.32\nHong Kong",
+        ):
+            self.assertEqual(
+                extract_pdf_cover_version(Path("unused.pdf"), "軟件版本："),
+                "軟件版本：2026.32",
+            )
 
     def test_pdf_cover_version_is_read_from_real_pdf_text_layer(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -448,6 +475,110 @@ class ManualVersionMonitorTests(unittest.TestCase):
             self.assertIn(b"mainland", (state_dir / mainland.pdf_asset).read_bytes())
             self.assertIn(
                 b"international", (state_dir / international.pdf_asset).read_bytes()
+            )
+
+    def test_source_switch_establishes_hong_kong_baseline_without_diff(self):
+        for version in (VERSION_OLD, VERSION_NEW):
+            with self.subTest(version=version), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                state_dir, candidate_dir = root / "state", root / "candidate"
+                state_dir.mkdir()
+                candidate_dir.mkdir()
+                mainland, hong_kong = modely_targets(root / "feed.xml")
+                old_cn = simple_pdf("2026.8", "keep-mainland")
+                old_international = simple_pdf("2026.8", "old-source")
+                (state_dir / mainland.pdf_asset).write_bytes(old_cn)
+                (state_dir / hong_kong.pdf_asset).write_bytes(old_international)
+                previous = installed_state(hong_kong, old_international)
+                previous.pop("source_locale")
+                previous["pdf_url"] = previous["pdf_url"].replace("/zh_hk/", "/zh_cn/")
+                state = {
+                    "schema_version": 2,
+                    "targets": {
+                        mainland.key: installed_state(mainland, old_cn),
+                        hong_kong.key: previous,
+                    },
+                }
+                write_feed(hong_kong.rss_path, [feed_entry(hong_kong, version)])
+                raw = candidate_entry(candidate_dir, hong_kong, version)
+                candidate = validate_candidate(
+                    candidate_dir, raw, hong_kong, VERSION_PREFIX
+                )
+                with patch(
+                    "scripts.manual_version_monitor.extract_pdf_text"
+                ) as extract, patch(
+                    "scripts.manual_version_monitor.summarize_with_gemini"
+                ) as gemini, patch(
+                    "scripts.manual_version_monitor.send_bark"
+                ) as bark:
+                    result = run_target(Mock(), hong_kong, state, state_dir, candidate)
+                self.assertEqual(result, "baseline")
+                extract.assert_not_called()
+                gemini.assert_not_called()
+                bark.assert_called_once()
+                self.assertEqual(state["targets"][hong_kong.key]["source_locale"], "zh_hk")
+                self.assertEqual(state["targets"][hong_kong.key]["version"], version)
+                self.assertEqual((state_dir / mainland.pdf_asset).read_bytes(), old_cn)
+                self.assertEqual(
+                    (state_dir / hong_kong.pdf_asset).read_bytes(), candidate.path.read_bytes()
+                )
+                self.assertIn(
+                    "首次记录 Model Y 香港版",
+                    rss_entry_by_guid(hong_kong.rss_path, candidate.rss_guid).description,
+                )
+
+    def test_hong_kong_update_compares_only_previous_hong_kong_pdf(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            state_dir, candidate_dir = root / "state", root / "candidate"
+            state_dir.mkdir()
+            candidate_dir.mkdir()
+            mainland, hong_kong = modely_targets(root / "feed.xml")
+            old_cn = simple_pdf("2026.8", "mainland")
+            old_hk = simple_pdf("2026.8", "hong-kong")
+            (state_dir / mainland.pdf_asset).write_bytes(old_cn)
+            (state_dir / hong_kong.pdf_asset).write_bytes(old_hk)
+            state = {
+                "schema_version": 2,
+                "targets": {
+                    mainland.key: installed_state(mainland, old_cn),
+                    hong_kong.key: installed_state(hong_kong, old_hk),
+                },
+            }
+            write_feed(hong_kong.rss_path, [feed_entry(hong_kong, VERSION_NEW)])
+            raw = candidate_entry(candidate_dir, hong_kong, VERSION_NEW)
+            candidate = validate_candidate(candidate_dir, raw, hong_kong, VERSION_PREFIX)
+            with patch(
+                "scripts.manual_version_monitor.extract_pdf_text", return_value="text"
+            ) as extract, patch(
+                "scripts.manual_version_monitor.summarize_with_gemini",
+                return_value="summary",
+            ):
+                result = run_target(successful_session(), hong_kong, state, state_dir, candidate)
+            self.assertEqual(result, "updated")
+            self.assertEqual(
+                [entry.args[0] for entry in extract.call_args_list],
+                [state_dir / hong_kong.pdf_asset, candidate.path],
+            )
+            self.assertEqual((state_dir / mainland.pdf_asset).read_bytes(), old_cn)
+
+    def test_old_locale_candidate_is_rejected_before_replacing_baseline(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            state_dir, candidate_dir = root / "state", root / "candidate"
+            state_dir.mkdir()
+            candidate_dir.mkdir()
+            _, hong_kong = modely_targets(root / "feed.xml")
+            old = simple_pdf("2026.8", "preserve-old-source")
+            (state_dir / hong_kong.pdf_asset).write_bytes(old)
+            write_feed(hong_kong.rss_path, [feed_entry(hong_kong)])
+            raw = candidate_entry(candidate_dir, hong_kong)
+            raw["pdf_url"] = raw["pdf_url"].replace("/zh_hk/", "/zh_cn/")
+            with self.assertRaisesRegex(RuntimeError, "does not match its region"):
+                validate_candidate(candidate_dir, raw, hong_kong, VERSION_PREFIX)
+            self.assertEqual((state_dir / hong_kong.pdf_asset).read_bytes(), old)
+            self.assertEqual(
+                rss_entry_by_guid(hong_kong.rss_path, raw["rss_guid"]).description, ""
             )
 
     def test_update_diffs_only_same_region_release_baseline(self):

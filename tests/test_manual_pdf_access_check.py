@@ -12,12 +12,12 @@ from scripts.manual_pdf_access_check import (
 
 
 class ManualPdfAccessCheckTests(unittest.TestCase):
-    def test_pdf_url_changes_only_hostname_suffix(self):
+    def test_pdf_url_derives_hong_kong_host_and_locale(self):
         self.assertEqual(
             international_pdf_url(
                 "https://manual.example.cn/owners/modely/zh_cn/index.html"
             ),
-            "https://manual.example.com/owners/modely/zh_cn/Owners_Manual.pdf",
+            "https://manual.example.com/owners/modely/zh_hk/Owners_Manual.pdf",
         )
 
     def test_probe_accepts_partial_pdf_response(self):

@@ -19,6 +19,7 @@ try:
     from scripts.manual_version_monitor import (
         BrowserFetcher,
         Target,
+        baseline_source_matches,
         configured_targets,
         extracted_version_matches,
         extract_pdf_cover_version,
@@ -28,11 +29,13 @@ try:
         required_env,
         sha256_bytes,
         urls_equivalent,
+        version_prefix_for_target,
     )
 except ModuleNotFoundError:
     from manual_version_monitor import (
         BrowserFetcher,
         Target,
+        baseline_source_matches,
         configured_targets,
         extracted_version_matches,
         extract_pdf_cover_version,
@@ -42,6 +45,7 @@ except ModuleNotFoundError:
         required_env,
         sha256_bytes,
         urls_equivalent,
+        version_prefix_for_target,
     )
 
 
@@ -357,6 +361,8 @@ def state_matches_version(
     previous = targets_state.get(target.key)
     if not isinstance(previous, Mapping):
         return False
+    if not baseline_source_matches(previous, target):
+        return False
     pdf_url = previous.get("pdf_url")
     pdf_hash = previous.get("pdf_sha256")
     if not (
@@ -406,7 +412,9 @@ def extract_downloaded_pdf_version(
     temporary = candidate_dir / f".{target.pdf_asset}.verify.tmp"
     try:
         temporary.write_bytes(content)
-        return extract_pdf_cover_version(temporary, version_text_prefix)
+        return extract_pdf_cover_version(
+            temporary, version_prefix_for_target(target, version_text_prefix)
+        )
     finally:
         temporary.unlink(missing_ok=True)
 

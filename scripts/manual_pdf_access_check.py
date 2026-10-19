@@ -85,12 +85,12 @@ def write_result(path: Path, result: Dict[str, object]) -> None:
 
 def parse_args(argv: Optional[Sequence[str]] = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Check whether an international owner-manual PDF is directly accessible."
+        description="Check whether a Hong Kong owner-manual PDF is directly accessible."
     )
     parser.add_argument(
         "--mainland-page-url",
         default=os.environ.get("MODELY_MANUAL_URL", "").strip(),
-        help="Mainland manual page URL whose .com counterpart will be tested.",
+        help="Mainland page URL used to derive the .com/zh_hk PDF to test.",
     )
     parser.add_argument(
         "--timeout",

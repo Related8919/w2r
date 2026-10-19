@@ -3,6 +3,7 @@ import os
 import tempfile
 import unittest
 import xml.etree.ElementTree as ET
+from dataclasses import replace
 from datetime import datetime, timezone
 from pathlib import Path
 from unittest.mock import MagicMock, call, patch
@@ -76,6 +77,7 @@ def state_for(targets, versions):
                 "pdf_url": manual_pdf_url(target.page_url),
                 "pdf_sha256": "a" * 64,
                 "pdf_asset": target.pdf_asset,
+                "source_locale": target.source_locale,
                 "updated_at": "2026-01-01T00:00:00+00:00",
                 "rss_description": "existing summary",
             }
@@ -284,7 +286,7 @@ class FeedTests(unittest.TestCase):
                 guids,
                 {
                     "manual-model3-cn-software version：2026.8",
-                    "manual-model3-com-software version：2026.8",
+                    "manual-model3-hk-software version：2026.8",
                 },
             )
 
@@ -344,7 +346,7 @@ class FeedTests(unittest.TestCase):
                 "./channel/item"
             )
             self.assertEqual(len(remaining), 1)
-            self.assertIn("-com-", remaining[0].findtext("guid"))
+            self.assertIn("-hk-", remaining[0].findtext("guid"))
 
 
 class GeneratorMainTests(unittest.TestCase):
@@ -415,6 +417,35 @@ class GeneratorMainTests(unittest.TestCase):
             pdf_fetcher,
         )
 
+    def test_hong_kong_gets_new_item_even_when_old_source_has_same_version(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            _, hong_kong = model3_targets(root / "model3.xml")
+            old_target = replace(
+                hong_kong,
+                page_url=hong_kong.page_url.replace("/zh_hk/", "/zh_cn/"),
+                source_locale=None,
+                region_name="国际版",
+            )
+            version = "software version：2026.32"
+            completed_entry(old_target, version, manual_pdf_url(old_target.page_url))
+            state = state_for([old_target], {old_target.key: version})
+            exit_code, result, manifest, _html, browser = self.run_main(
+                root, [hong_kong], {}, {hong_kong.key: version}, state
+            )
+            self.assertEqual(exit_code, 0)
+            self.assertEqual(result["results"][hong_kong.key], "added")
+            self.assertEqual(result["candidate_count"], 1)
+            candidate = manifest["candidates"][0]
+            self.assertEqual(candidate["mode"], "pending")
+            self.assertEqual(candidate["rss_guid"], f"manual-model3-hk-{version}")
+            self.assertIn("/zh_hk/", candidate["pdf_url"])
+            browser.download.assert_called_once_with(manual_pdf_url(hong_kong.page_url))
+            items = ET.parse(hong_kong.rss_path).getroot().findall("./channel/item")
+            self.assertEqual(len(items), 2)
+            self.assertEqual(items[0].findtext("title"), f"香港版｜{version}")
+            self.assertEqual(items[1].findtext("title"), f"国际版｜{version}")
+
     def test_first_run_generates_four_entries_and_artifact_candidates(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -482,7 +513,7 @@ class GeneratorMainTests(unittest.TestCase):
             targets = model3_targets(root / "model3.xml")
             cn, com = targets
             cn_pdf = "https://manual.example.cn/owners/model3/zh_cn/Owners_Manual.pdf"
-            com_pdf = "https://manual.example.com/owners/model3/zh_cn/Owners_Manual.pdf"
+            com_pdf = "https://manual.example.com/owners/model3/zh_hk/Owners_Manual.pdf"
             completed_entry(cn, "software version：2026.8", cn_pdf)
             completed_entry(com, "software version：2026.26", com_pdf)
             state = state_for(

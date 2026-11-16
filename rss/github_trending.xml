@@ -6,51 +6,66 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 23 Oct 2026 04:29:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 07:50:59 +0000</lastBuildDate>
     <item>
-      <title>Meloong-Git /PCL</title>
-      <link>https://github.com/Meloong-Git/PCL</link>
-      <description>Minecraft 启动器 Plain Craft Launcher（PCL）。</description>
+      <title>NVIDIA /SkillEvaluator</title>
+      <link>https://github.com/NVIDIA/SkillEvaluator</link>
+      <description>Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.</description>
     </item>
     <item>
-      <title>luongnv89 /claude-howto</title>
-      <link>https://github.com/luongnv89/claude-howto</link>
-      <description>A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.</description>
+      <title>tradermonty /claude-trading-skills</title>
+      <link>https://github.com/tradermonty/claude-trading-skills</link>
+      <description>Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.</description>
     </item>
     <item>
-      <title>fastapi /fastapi</title>
-      <link>https://github.com/fastapi/fastapi</link>
-      <description>FastAPI framework, high performance, easy to learn, fast to code, ready for production</description>
+      <title>GoogleChrome /modern-web-guidance-src</title>
+      <link>https://github.com/GoogleChrome/modern-web-guidance-src</link>
+      <description>Keep your coding agent up to date with the latest web best practices</description>
     </item>
     <item>
-      <title>supabase /supabase</title>
-      <link>https://github.com/supabase/supabase</link>
-      <description>The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.</description>
+      <title>elementalsouls /Claude-BugHunter</title>
+      <link>https://github.com/elementalsouls/Claude-BugHunter</link>
+      <description>A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.</description>
     </item>
     <item>
-      <title>Graphify-Labs /graphify</title>
-      <link>https://github.com/Graphify-Labs/graphify</link>
-      <description>Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.</description>
+      <title>ggml-org /ggml</title>
+      <link>https://github.com/ggml-org/ggml</link>
+      <description>Tensor library for machine learning</description>
     </item>
     <item>
-      <title>cloudflare /security-audit-skill</title>
-      <link>https://github.com/cloudflare/security-audit-skill</link>
-      <description>A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings</description>
+      <title>Tencent /LoopForge</title>
+      <link>https://github.com/Tencent/LoopForge</link>
+      <description>Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.</description>
     </item>
     <item>
-      <title>DietrichGebert /ponytail</title>
-      <link>https://github.com/DietrichGebert/ponytail</link>
-      <description>Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.</description>
+      <title>alibaba /open-code-review</title>
+      <link>https://github.com/alibaba/open-code-review</link>
+      <description>Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.</description>
     </item>
     <item>
-      <title>anthropics /knowledge-work-plugins</title>
-      <link>https://github.com/anthropics/knowledge-work-plugins</link>
-      <description>Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork</description>
+      <title>ChromeDevTools /chrome-devtools-mcp</title>
+      <link>https://github.com/ChromeDevTools/chrome-devtools-mcp</link>
+      <description>Chrome DevTools for coding agents</description>
     </item>
     <item>
-      <title>php /php-src</title>
-      <link>https://github.com/php/php-src</link>
-      <description>The PHP Interpreter</description>
+      <title>backnotprop /plannotator</title>
+      <link>https://github.com/backnotprop/plannotator</link>
+      <description>The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.</description>
+    </item>
+    <item>
+      <title>google-labs-code /stitch-skills</title>
+      <link>https://github.com/google-labs-code/stitch-skills</link>
+      <description>A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.</description>
+    </item>
+    <item>
+      <title>ag-ui-protocol /ag-ui</title>
+      <link>https://github.com/ag-ui-protocol/ag-ui</link>
+      <description>AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.</description>
+    </item>
+    <item>
+      <title>dream-num /univer</title>
+      <link>https://github.com/dream-num/univer</link>
+      <description>Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.</description>
     </item>
   </channel>
 </rss>

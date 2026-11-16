@@ -49,7 +49,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        python-version: '3.9'  # 或其他你需要的版本
+        python-version: '3.10'  # 或其他你需要的版本
 
     - name: Install dependencies
       run: |

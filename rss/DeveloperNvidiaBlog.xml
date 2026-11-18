@@ -6,66 +6,16 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 17 Nov 2026 07:40:52 +0000</lastBuildDate>
-    <item>
-      <title>为 NVIDIA Dynamo 构建经过验证的 Kubernetes 运行时</title>
-      <link>https://developer.nvidia.cn/blog/build-a-validated-kubernetes-runtime-for-nvidia-dynamo/</link>
-      <description>2026年 10月 30日为 NVIDIA Dynamo 构建经过验证的 Kubernetes 运行时构建 AI 应用的团队需要从模型配置到工作推理端点的可重复路径。NVIDIA Dynamo 是一个分布式推理框架，4 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA 工作负载地图更快地支持新的 AI 框架</title>
-      <link>https://developer.nvidia.cn/blog/support-new-ai-frameworks-faster-using-nvidia-workload-map/</link>
-      <description>2026年 11月 2日使用 NVIDIA 工作负载地图更快地支持新的 AI 框架NVIDIA DSX AI Factory Platform 整合了多种技术，可帮助生态系统设计、构建和运营更高效的 AI 工厂，3 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA Cosmos 构建用于交互式仿真的世界模型</title>
-      <link>https://developer.nvidia.cn/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos/</link>
-      <description>2026年 11月 2日使用 NVIDIA Cosmos 构建用于交互式仿真的世界模型处理世界模型的物理 AI 开发者面临着两个不同的挑战：根据传感器、任务和数据调整模型，以及将这些模型可靠地应用于世界模型应用程序。3 MIN READ</description>
-    </item>
-    <item>
-      <title>让 Kubernetes 在首发日即支持 NVIDIA Vera Rubin 的 AI</title>
-      <link>https://developer.nvidia.cn/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one/</link>
-      <description>2026年 11月 2日让 Kubernetes 在首发日即支持 NVIDIA Vera Rubin 的 AI为 NVIDIA Vera Rubin 等新 GPU 硬件配置和优化 Kubernetes 非常复杂且容易出错。驱动程序、内核、运行时、网络、4 MIN READ</description>
-    </item>
-    <item>
-      <title>借助自动工作负载恢复保持分布式训练的运行</title>
-      <link>https://developer.nvidia.cn/blog/keep-distributed-training-running-with-automated-workload-recovery/</link>
-      <description>2026年 11月 2日借助自动工作负载恢复保持分布式训练的运行随着分布式 AI 训练的扩展，硬件和软件依赖项之间的故障会越来越多地干扰训练进程，因此快速、可靠的恢复至关重要。2 MIN READ</description>
-    </item>
-    <item>
-      <title>借助 NVIDIA 身份识别诊断分布式 AI 工作负载故障</title>
-      <link>https://developer.nvidia.cn/blog/diagnose-distributed-ai-workload-failures-with-nvidia-attribution/</link>
-      <description>2026年 11月 2日借助 NVIDIA 身份识别诊断分布式 AI 工作负载故障在分布式 AI 工作负载中，一个错误就会产生一系列症状。GPU 或网络事件可能会随着其他 rank 上的 NCCL 错误、3 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA NeMo 将智能体故障转化为测试和线束修复</title>
-      <link>https://developer.nvidia.cn/blog/use-nvidia-nemo-to-turn-agent-failures-into-tests-and-harness-fixes/</link>
-      <description>2026年 11月 4日使用 NVIDIA NeMo 将智能体故障转化为测试和线束修复将生产证据转化为优先考虑的问题和自定义评估，帮助您改进提示词、工具、模型、内存、技能和利用代码。 为您的领域构建智能体时，2 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA 工厂运营 Blueprint 如何协调 AI 智能体调查生产问题</title>
-      <link>https://developer.nvidia.cn/blog/how-nvidia-factory-operations-blueprint-coordinates-ai-agents-to-investigate-production-issues/</link>
-      <description>2026年 11月 4日NVIDIA 工厂运营 Blueprint 如何协调 AI 智能体调查生产问题西门子的一份报告估计，在受调查的行业中，计划外停机平均每年给大型工厂造成 2.53 亿美元的损失。无论是调查电路板故障还是响应紧急订单，2 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA CUDA 13.5 支持 NVIDIA Vera Rubin</title>
-      <link>https://developer.nvidia.cn/blog/nvidia-cuda-13-5-brings-nvidia-vera-rubin-ga-support/</link>
-      <description>2026年 11月 4日NVIDIA CUDA 13.5 支持 NVIDIA Vera Rubin随着人工智能和加速计算不断突破极限，最新的 NVIDIA CUDA 版本将解锁前所未有的性能和规模。 NVIDIA CUDA 13.5…5 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA 如何使用 AI 智能体简化 AI 工厂运营</title>
-      <link>https://developer.nvidia.cn/blog/how-nvidia-uses-ai-agents-to-streamline-ai-factory-operations/</link>
-      <description>2026年 11月 4日NVIDIA 如何使用 AI 智能体简化 AI 工厂运营随着 GPU 集群的扩展，各种操作涵盖计算、网络、硬件和调度。站点可靠性工程师 (SRE) 通常必须检查多个控制面板，2 MIN READ</description>
-    </item>
-    <item>
-      <title>NVIDIA 协同设计的五种方式可更大限度地提高 AI 工厂中每个字节的价值</title>
-      <link>https://developer.nvidia.cn/blog/five-ways-nvidia-co-design-maximizes-the-value-of-every-byte-in-the-ai-factory/</link>
-      <description>2026年 11月 5日NVIDIA 协同设计的五种方式可更大限度地提高 AI 工厂中每个字节的价值在 AI 工厂中，高带宽内存 (HBM) 是速度最快、成本最高且最具争议的内存层。在冗余权重副本、4 MIN READ</description>
-    </item>
+    <lastBuildDate>Wed, 18 Nov 2026 07:03:25 +0000</lastBuildDate>
     <item>
       <title>使用 NVIDIA DSX OS 配置、认证和运行 Kubernetes GPU 集群</title>
       <link>https://developer.nvidia.cn/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os/</link>
       <description>2026年 11月 5日使用 NVIDIA DSX OS 配置、认证和运行 Kubernetes GPU 集群一个性能不佳的 GPU 可能会降低整个分布式训练作业的速度。节点可以通过基本的运行状况检查并显示正常利用率，3 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 Reshard 集合加速强化学习权重调整</title>
+      <link>https://developer.nvidia.cn/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/</link>
+      <description>2026年 11月 6日使用 Reshard 集合加速强化学习权重调整在强化学习 (RL)后训练期间，通过对当前策略模型运行推理，动态生成训练轨迹。为提高训练效率，3 MIN READ</description>
     </item>
     <item>
       <title>在 NVIDIA Blackwell GPU 上使用 FLUX 3 Image Klein 加速图像生成</title>
@@ -83,9 +33,59 @@
       <description>2026年 11月 10日在车端算力与延时限制下运行辅助驾驶推理模型辅助驾驶汽车（AV）开发者需要能在车端算力与延时限制下运行的推理模型。规模更大的模型能奠定推理能力的基础，但部署到车端还需要额外工作，4 MIN READ</description>
     </item>
     <item>
+      <title>当一个 GPU 无法满足需求时：借助 vLLM 在两个 NVIDIA DGX 工作站上服务 GLM-5.3</title>
+      <link>https://developer.nvidia.cn/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/</link>
+      <description>2026年 11月 13日当一个 GPU 无法满足需求时：借助 vLLM 在两个 NVIDIA DGX 工作站上服务 GLM-5.3在本地运行前沿模型意味着将其所有权重保留在 GPU 显存中；最大的模型不再适合一台机器。通过 ConnectX-8 RDMA 连接的两个…7 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 NVIDIA SOMA Retargeter 调整机器人的人体运动</title>
+      <link>https://developer.nvidia.cn/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/</link>
+      <description>2026年 11月 13日使用 NVIDIA SOMA Retargeter 调整机器人的人体运动人类运动为机器人专家提供了一个很好的起点，可用于指导人形机器人如何移动。人类演示捕捉了从日常动作到复杂任务的自然运动背后的协调性和时间安排。2 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 cuDLA 在 NVIDIA Jetson AGX Orin 上运行 Python 中的原生 DLA 推理</title>
+      <link>https://developer.nvidia.cn/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/</link>
+      <description>2026年 11月 13日使用 cuDLA 在 NVIDIA Jetson AGX Orin 上运行 Python 中的原生 DLA 推理边缘 AI 应用通常需要在有限的计算和功耗预算内运行多个神经网络。NVIDIA 深度学习加速器 (DLA)…4 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 NVIDIA cuPhoton 运行 GPU 驱动的黑洞干涉测量</title>
+      <link>https://developer.nvidia.cn/blog/run-gpu-powered-black-hole-interferometry-with-nvidia-cuphoton/</link>
+      <description>2026年 11月 13日使用 NVIDIA cuPhoton 运行 GPU 驱动的黑洞干涉测量黑洞的成像极具挑战性，因为它们很遥远，在天空中看起来很小，例如，M87+ 的观测环只跨越 42 微角秒。黑洞本身不会发出任何光线，3 MIN READ</description>
+    </item>
+    <item>
+      <title>在 NVIDIA cuBLAS 中使用新的 FP64 算法加快科学模拟速度</title>
+      <link>https://developer.nvidia.cn/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas/</link>
+      <description>2026年 11月 13日在 NVIDIA cuBLAS 中使用新的 FP64 算法加快科学模拟速度从分子化学到材料科学，许多科学模拟的大部分执行时间都在计算高精度密集通用矩阵乘法 (GEMM) 。这些运算称为 DGEMM (用于真实的…4 MIN READ</description>
+    </item>
+    <item>
+      <title>对 NVIDIA Nemotron 进行后训练，提高科学领域的准确性</title>
+      <link>https://developer.nvidia.cn/blog/post-training-nvidia-nemotron-to-increase-accuracy-in-your-scientific-domain/</link>
+      <description>2026年 11月 16日对 NVIDIA Nemotron 进行后训练，提高科学领域的准确性代理式 AI 正在重塑科学研究和创新。研究人员使用自然语言传达复杂的科学假设，让自主智能体能够独立规划任务、执行模拟、评估结果，5 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA Vera Rubin NVL72 在 MLPerf Endpoints v1.0 上实现领先的代理式推理性能</title>
+      <link>https://developer.nvidia.cn/blog/nvidia-vera-rubin-nvl72-leads-agentic-inference-performance-on-mlperf-endpoints-v1-0/</link>
+      <description>2026年 11月 16日NVIDIA Vera Rubin NVL72 在 MLPerf Endpoints v1.0 上实现领先的代理式推理性能代理式工作负载对推理系统的要求越来越高。AI 智能体轮流传输不断增长的对话记录，并生成推理、工具调用和响应的组合。3 MIN READ</description>
+    </item>
+    <item>
+      <title>NVIDIA Vera Rubin NVL72 在 MLPerf Training v6.1 中实现高达 2 倍的 Blackwell Ultra 性能</title>
+      <link>https://developer.nvidia.cn/blog/nvidia-vera-rubin-nvl72-achieves-up-to-2x-blackwell-ultra-performance-in-mlperf-training-v6-1/</link>
+      <description>2026年 11月 16日NVIDIA Vera Rubin NVL72 在 MLPerf Training v6.1 中实现高达 2 倍的 Blackwell Ultra 性能随着 AI 智能体处理日益复杂的工作流程，缩短训练时间对于快速迭代模型及其驱动的智能体至关重要。MLPerf Training v6.1…4 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 NVIDIA cuPotential 通过准确、灵活的基元加速分子动力学模拟</title>
+      <link>https://developer.nvidia.cn/blog/accelerate-molecular-dynamics-simulations-with-accurate-flexible-primitives-using-nvidia-cupotential/</link>
+      <description>2026年 11月 16日使用 NVIDIA cuPotential 通过准确、灵活的基元加速分子动力学模拟分子动力学 (MD) 是物理学、化学、生物学和材料科学领域不可或缺的工具。由于 MD 代码的算术结构，尤其是对许多原子对相互作用的并行评估，4 MIN READ</description>
+    </item>
+    <item>
       <title>把“人造太阳”搬上 GPU：用 CUDA C++ 加速聚变等离子体的回旋动理学模拟</title>
       <link>https://developer.nvidia.cn/blog/accelerating-fusion-plasma-gyrokinetic-simulations/</link>
-      <description>2026年 11月 17日把“人造太阳”搬上 GPU：用 CUDA C++ 加速聚变等离子体的回旋动理学模拟聚变堆里的 α 粒子既负责加热等离子体，又可能激发不稳定性，把自己“踢”出去。为了预测这一过程，我们开发了 cuGMEC：4 MIN READ</description>
+      <description>2026年 11月 17日把“人造太阳”搬上 GPU：用 CUDA C++ 加速聚变等离子体的回旋动理学模拟聚变堆里的 α 粒子既负责加热等离子体，又可能激发不稳定性，把自己“踢”出去。为了预测这一过程，4 MIN READ</description>
+    </item>
+    <item>
+      <title>在 DGX Spark 上使用 NVIDIA cuVS 扩展 OpenViking 的智能体记忆检索能力</title>
+      <link>https://developer.nvidia.cn/blog/scale-openviking-agent-memory-search-with-nvidia-cuvs-on-dgx-spark/</link>
+      <description>2026年 11月 18日在 DGX Spark 上使用 NVIDIA cuVS 扩展 OpenViking 的智能体记忆检索能力假设你让一个项目助手找出上个月做过的一项部署决策。答案可能藏在历史对话、发布说明或项目文档中。助手不仅要找到相关上下文，3 MIN READ</description>
     </item>
   </channel>
 </rss>

@@ -12,7 +12,7 @@
 	<atom:link href="https://www.microsoft.com/en-us/research/feed/" rel="self" type="application/rss+xml" />
 	<link>https://www.microsoft.com/en-us/research/</link>
 	<description></description>
-	<lastBuildDate>Mon, 16 Nov 2026 20:43:40 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 17 Nov 2026 23:29:22 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -20,6 +20,870 @@
 	1	</sy:updateFrequency>
 	<generator>https://wordpress.org/?v=7.1.3</generator>
 	<item>
+		<title>Can AI help build a healthier future?</title>
+		<link>https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/</link>
+		
+		<dc:creator><![CDATA[Doug Burger, Ava Amini, Eric Horvitz, Dr. Eric Topol]]></dc:creator>
+		<pubDate>Tue, 17 Nov 2026 16:52:17 +0000</pubDate>
+				<category><![CDATA[Microsoft Research Podcast]]></category>
+		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1194663</guid>
+
+					<description><![CDATA[<p>What can AI enable in medicine, and how do we get there? Microsoft Research lead Doug Burger, Microsoft Principal Research Manager Ava Amini, Microsoft Chief Scientific Officer Eric Horvitz, and physician-scientist Eric Topol of Scripps Research explore these questions and more.</p>
+<p>The post <a href="https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/">Can AI help build a healthier future?</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe title="Can AI help build a healthier future?" width="500" height="281" src="https://www.youtube-nocookie.com/embed/K1iNbVIFcJE?feature=oembed&#038;rel=0&#038;enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<iframe src="https://player.blubrry.com/id/156043435?cache=1794933122#mode-Light&border-000000&progress-000000" title="Blubrry Podcast Player" scrolling="no" width="100%" height="165px" frameborder="0"></iframe>
+
+
+
+<div style="height:25px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p class="wp-block-paragraph">Technical&nbsp;advancement&nbsp;is moving at such a rapid pace that it can be challenging to define the tomorrow we’re working toward.&nbsp;In&nbsp;<a href="https://www.microsoft.com/en-us/research/story/the-shape-of-things-to-come/"><em>The&nbsp;Shape of Things to Come</em></a><em>,</em>&nbsp;Microsoft Research&nbsp;leader&nbsp;<a href="https://www.microsoft.com/en-us/research/people/dburger/">Doug Burger</a>&nbsp;and experts from across disciplines tease out the thorniest AI&nbsp;issues facing technologists, policymakers, business decisionmakers, and other stakeholders today. The goal: to amplify the shared understanding needed to build a future in which the AI transition is a net positive.</p>
+
+
+
+<p class="wp-block-paragraph">Microsoft Principal Research Manager <a href="https://www.microsoft.com/en-us/research/people/avasoleimany/?msockid=254de47df4f967cf07e7f346f58f6643">Ava Amini</a>, Microsoft Chief Scientific Officer <a href="https://www.microsoft.com/en-us/research/people/horvitz/">Eric Horvitz</a>, and physician-scientist and Microsoft AI health advisor <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" rel="noopener noreferrer" target="_blank" href="https://www.scripps.edu/faculty/topol/">Eric Topol<span class="sr-only"> (opens in new tab)</span></a> of Scripps Research join Burger to tackle a question with ramifications for every individual on the planet: What might the future of medicine look like with AI, and what needs to happen first?</p>
+
+
+
+<p class="wp-block-paragraph">Drawing from experiences in machine learning, bioscience, and clinical care, the group explores AI-assisted medical diagnosis, the untapped potential of leveraging AI in medical imaging, whole-patient models, virtual cells, and the role of biological foundation models in scientific discovery. The group also examines why promising research can be slow to reach patients, how AI could guide experiments and drug discovery, and why better biological data and real-world validation remain essential.</p>
+
+
+
+<p class="wp-block-paragraph">This episode delivers a research-grounded conversation of what AI can do today in the health space, the challenges and opportunities still ahead, and the shape of things to come.</p>
+
+
+
+<div class="wp-block-buttons is-layout-flex wp-block-buttons-is-layout-flex">
+<div class="wp-block-button is-style-outline is-style-outline--1"><a data-bi-type="button" class="wp-block-button__link wp-element-button" href="https://www.microsoft.com/en-us/research/story/the-shape-of-things-to-come/">The Shape of Things to Come podcast series</a></div>
+</div>
+
+
+
+<section class="wp-block-msr-subscribe-to-podcast subscribe-to-podcast">
+	<div class="subscribe-to-podcast__inner border-top border-bottom border-width-2">
+		<h2 class="h5 subscribe-to-podcast__heading">
+			Subscribe to the <a href="https://www.microsoft.com/en-us/research/podcast">Microsoft Research Podcast</a>:		</h2>
+		<ul class="subscribe-to-podcast__list list-unstyled">
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://itunes.apple.com/us/podcast/microsoft-research-a-podcast/id1318021537?mt=2" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 32 32">  <path d="M7.12 0c-3.937-0.011-7.131 3.183-7.12 7.12v17.76c-0.011 3.937 3.183 7.131 7.12 7.12h17.76c3.937 0.011 7.131-3.183 7.12-7.12v-17.76c0.011-3.937-3.183-7.131-7.12-7.12zM15.817 3.421c3.115 0 5.932 1.204 8.079 3.453 1.631 1.693 2.547 3.489 3.016 5.855 0.161 0.787 0.161 2.932 0.009 3.817-0.5 2.817-2.041 5.339-4.317 7.063-0.812 0.615-2.797 1.683-3.115 1.683-0.12 0-0.129-0.12-0.077-0.615 0.099-0.792 0.192-0.953 0.64-1.141 0.713-0.296 1.932-1.167 2.677-1.911 1.301-1.303 2.229-2.932 2.677-4.719 0.281-1.1 0.244-3.543-0.063-4.672-0.969-3.595-3.907-6.385-7.5-7.136-1.041-0.213-2.943-0.213-4 0-3.636 0.751-6.647 3.683-7.563 7.371-0.245 1.004-0.245 3.448 0 4.448 0.609 2.443 2.188 4.681 4.255 6.015 0.407 0.271 0.896 0.547 1.1 0.631 0.447 0.192 0.547 0.355 0.629 1.14 0.052 0.485 0.041 0.62-0.072 0.62-0.073 0-0.62-0.235-1.199-0.511l-0.052-0.041c-3.297-1.62-5.407-4.364-6.177-8.016-0.187-0.943-0.224-3.187-0.036-4.052 0.479-2.323 1.396-4.135 2.921-5.739 2.199-2.319 5.027-3.543 8.172-3.543zM16 7.172c0.541 0.005 1.068 0.052 1.473 0.14 3.715 0.828 6.344 4.543 5.833 8.229-0.203 1.489-0.713 2.709-1.619 3.844-0.448 0.573-1.537 1.532-1.729 1.532-0.032 0-0.063-0.365-0.063-0.803v-0.808l0.552-0.661c2.093-2.505 1.943-6.005-0.339-8.296-0.885-0.896-1.912-1.423-3.235-1.661-0.853-0.161-1.031-0.161-1.927-0.011-1.364 0.219-2.417 0.744-3.355 1.672-2.291 2.271-2.443 5.791-0.348 8.296l0.552 0.661v0.813c0 0.448-0.037 0.807-0.084 0.807-0.036 0-0.349-0.213-0.683-0.479l-0.047-0.016c-1.109-0.885-2.088-2.453-2.495-3.995-0.244-0.932-0.244-2.697 0.011-3.625 0.672-2.505 2.521-4.448 5.079-5.359 0.547-0.193 1.509-0.297 2.416-0.281zM15.823 11.156c0.417 0 0.828 0.084 1.131 0.24 0.645 0.339 1.183 0.989 1.385 1.677 0.62 2.104-1.609 3.948-3.631 3.005h-0.015c-0.953-0.443-1.464-1.276-1.475-2.36 0-0.979 0.541-1.828 1.484-2.328 0.297-0.156 0.709-0.235 1.125-0.235zM15.812 17.464c1.319-0.005 2.271 0.463 2.625 1.291 0.265 0.62 0.167 2.573-0.292 5.735-0.307 2.208-0.479 2.765-0.905 3.141-0.589 0.52-1.417 0.667-2.209 0.385h-0.004c-0.953-0.344-1.157-0.808-1.553-3.527-0.452-3.161-0.552-5.115-0.285-5.735 0.348-0.823 1.296-1.285 2.624-1.291z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Apple Podcasts</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://subscribebyemail.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.4 6a2.392 2.392 0 00-2.372 2.119L16 15.6l11.972-7.481A2.392 2.392 0 0025.6 6H6.4zM4 10.502V22.8a2.4 2.4 0 002.4 2.4h19.2a2.4 2.4 0 002.4-2.4V10.502l-11.365 7.102a1.2 1.2 0 01-1.27 0L4 10.502z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Email</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://subscribeonandroid.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M12.414 4.02c-.062.012-.126.023-.18.06a.489.489 0 00-.12.675L13.149 6.3c-1.6.847-2.792 2.255-3.18 3.944h13.257c-.388-1.69-1.58-3.097-3.179-3.944l1.035-1.545a.489.489 0 00-.12-.675.492.492 0 00-.675.135l-1.14 1.68a7.423 7.423 0 00-2.55-.45c-.899 0-1.758.161-2.549.45l-1.14-1.68a.482.482 0 00-.494-.195zm1.545 3.824a.72.72 0 110 1.44.72.72 0 010-1.44zm5.278 0a.719.719 0 110 1.44.719.719 0 110-1.44zM8.44 11.204A1.44 1.44 0 007 12.644v6.718c0 .795.645 1.44 1.44 1.44.168 0 .33-.036.48-.09v-9.418a1.406 1.406 0 00-.48-.09zm1.44 0V21.76c0 .793.646 1.44 1.44 1.44h10.557c.793 0 1.44-.647 1.44-1.44V11.204H9.878zm14.876 0c-.169 0-.33.035-.48.09v9.418c.15.052.311.09.48.09a1.44 1.44 0 001.44-1.44v-6.719a1.44 1.44 0 00-1.44-1.44zM11.8 24.16v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84zm5.759 0v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Android</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://open.spotify.com/show/4ndjUXyL0hH1FXHgwIiTWU" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M16 4C9.383 4 4 9.383 4 16s5.383 12 12 12 12-5.383 12-12S22.617 4 16 4zm5.08 17.394a.781.781 0 01-1.086.217c-1.29-.86-3.477-1.434-5.303-1.434-1.937.002-3.389.477-3.403.482a.782.782 0 11-.494-1.484c.068-.023 1.71-.56 3.897-.562 1.826 0 4.365.492 6.171 1.696.36.24.457.725.217 1.085zm1.56-3.202a.895.895 0 01-1.234.286c-2.338-1.457-4.742-1.766-6.812-1.747-2.338.02-4.207.466-4.239.476a.895.895 0 11-.488-1.723c.145-.041 2.01-.5 4.564-.521 2.329-.02 5.23.318 7.923 1.995.419.26.547.814.286 1.234zm1.556-3.745a1.043 1.043 0 01-1.428.371c-2.725-1.6-6.039-1.94-8.339-1.942h-.033c-2.781 0-4.923.489-4.944.494a1.044 1.044 0 01-.474-2.031c.096-.023 2.385-.55 5.418-.55h.036c2.558.004 6.264.393 9.393 2.23.497.292.663.931.371 1.428z"/></svg>
+						<span class="subscribe-to-podcast__link-text">Spotify</span>
+					</a>
+				</li>
+			
+							<li class="subscribe-to-podcast__list-item">
+					<a class="subscribe-to-podcast__link" href="https://www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
+						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.667 4a2.676 2.676 0 00-2.612 2.13v.003c-.036.172-.055.35-.055.534v18.666c0 .183.019.362.055.534v.003a2.676 2.676 0 002.076 2.075h.002c.172.036.35.055.534.055h18.666A2.676 2.676 0 0028 25.333V6.667a2.676 2.676 0 00-2.13-2.612h-.003A2.623 2.623 0 0025.333 4H6.667zM8 8h1.333C17.42 8 24 14.58 24 22.667V24h-2.667v-1.333c0-6.618-5.382-12-12-12H8V8zm0 5.333h1.333c5.146 0 9.334 4.188 9.334 9.334V24H16v-1.333A6.674 6.674 0 009.333 16H8v-2.667zM10 20a2 2 0 11-.001 4.001A2 2 0 0110 20z"/></svg>
+						<span class="subscribe-to-podcast__link-text">RSS Feed</span>
+					</a>
+				</li>
+					</ul>
+	</div>
+</section>
+
+
+<div class="wp-block-msr-show-more">
+	<div class="bg-neutral-100 p-5">
+		<div class="show-more-show-less">
+			<div>
+				<span>
+					
+
+<h2 id="transcript" class="wp-block-heading">Transcript</h2>
+
+
+
+<p class="wp-block-paragraph">[MUSIC]</p>
+
+
+
+<p class="wp-block-paragraph"><strong>DOUG BURGER:</strong> This is <em>The Shape of Things to Come,</em> a Microsoft Research Podcast. I’m your host, Doug Burger. In this series, we’re going to venture to the bleeding edge of AI capabilities, dig down into the fundamentals, really try to understand them, and think about how these capabilities are going to change the world—for better and worse.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">Today, I&#8217;m bringing three experts in the fields of biomedicine working on the frontlines of AI, biology, and medicine to see where healthcare is going, where the deep understanding of biology is going, what medical advances are coming, and how will AI change the future of health. These questions are really important because they will determine the shape of things to come.</p>
+
+
+
+<p class="wp-block-paragraph">[MUSIC FADES]</p>
+
+
+
+<p class="wp-block-paragraph">In today&#8217;s podcast, I&#8217;ve invited three leading researchers in medicine, biology, and machine learning/AI.</p>
+
+
+
+<p class="wp-block-paragraph">Eric Horvitz is Microsoft&#8217;s chief scientist [chief scientific officer] and is both a PhD <em>and</em> an MD. How you spent all those years in school, I have no idea. I&#8217;ve known Eric for decades and his work has shaped the entire field of machine learning. He&#8217;s a legend in the machine learning community and is a good friend.</p>
+
+
+
+<p class="wp-block-paragraph">Eric Topol is our second guest. He&#8217;s the executive vice president of <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.scripps.edu/" target="_blank" rel="noopener noreferrer">Scripps Research<span class="sr-only"> (opens in new tab)</span></a>, the largest nonprofit biomedical research institute in the United States. He&#8217;s published over 1,300 peer-reviewed papers. Shocking, [LAUGHTER] shockingly productive. Authored <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://drerictopol.com/books/" target="_blank" rel="noopener noreferrer">four books<span class="sr-only"> (opens in new tab)</span></a>. So just an amazingly impressive, prolific scientist and physician.</p>
+
+
+
+<p class="wp-block-paragraph">Finally, Ava Amini is a principal research manager in Microsoft Research. She&#8217;s a rising star in our organization, an expert in the intersection of AI and precision medicine, and she&#8217;s a co-lead of <a href="https://www.microsoft.com/en-us/research/project/project-ex-vivo/">Project <em>Ex Vivo</em></a>, a collaborative effort between Microsoft and the Broad Institute that is focusing on defining, engineering, and targeting cell states in cancer.</p>
+
+
+
+<p class="wp-block-paragraph">So thank you all for joining today. I think we&#8217;ve got a really, really amazing set of people, myself excluded. And I&#8217;d like to start to my guests here.</p>
+
+
+
+				</span>
+				<span id="show-more-show-less-toggle-2" class="show-more-show-less-toggleable-content">
+					
+
+
+
+<p class="wp-block-paragraph">It&#8217;s clear there&#8217;s a huge disruption happening at the intersection of biology and medicine and AI right now. Just, you know, we&#8217;re seeing things, breakthroughs, happening at an accelerating pace. Models are helping us to discover structures and create abstractions that are really useful for moving forward the field of medicine. I&#8217;ve seen some recent talks where scientists with cancer used AI to design drugs for themselves. I mean, just unbelievable.</p>
+
+
+
+<p class="wp-block-paragraph">And today, I&#8217;ve got some long-term questions for us to discuss, maybe a little bit provocative. But I&#8217;d like to start with what each of you see as what&#8217;s happening right now, like, on the, on the intersection of medicine and biology and AI.</p>
+
+
+
+<p class="wp-block-paragraph">I think each of you has a unique vantage point. I&#8217;ll go around the horn, and I know, Eric, there&#8217;s a, you know, you have a <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.science.org/toc/science/394/6822" target="_blank" rel="noopener noreferrer">cover article on <em>Science</em> magazine<span class="sr-only"> (opens in new tab)</span></a> that&#8217;s really exciting, and so maybe you could talk a little bit about that, as well. So I&#8217;ll start with you, and then I&#8217;ll go to Eric Topol and then Ava.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>ERIC HORVITZ:</strong> Thanks, Doug.</p>
+
+
+
+<p class="wp-block-paragraph">I think healthcare and the biosciences are fortunate disciplines as in that there&#8217;s been a digitalization of content—whether it be protein structure over, over decades, electronic health records, and so on—that makes these fields amenable to being at the ready for AI inferences and innovation. And therefore, I&#8217;ve been extremely optimistic about the long-term futures as well as what we&#8217;ll see early on at the frontiers of AI when it comes to the biosciences and healthcare.</p>
+
+
+
+<p class="wp-block-paragraph">Just extraordinary to see what&#8217;s happened over just the last five to eight years in the biosciences with both discriminative and generative AI models. You know, the <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://deepmind.google/science/alphafold/" target="_blank" rel="noopener noreferrer">AlphaFold<span class="sr-only"> (opens in new tab)</span></a> breakthrough was tip of the iceberg, and we see just a whole, in some ways, a crest and a crashing of the wave of possibilities now when it comes to experimental platforms, experimental design, data interpretation in the biosciences, hypothesis generation, I should say, as a, as an assistant and a companion to scientific reasoners and human scientists.</p>
+
+
+
+<p class="wp-block-paragraph">In healthcare, we have an extraordinary opportunity to address long-term challenges in patient safety, in getting to timely diagnoses, in accessibility of healthcare. And after a couple of years of intensive work, I and just fabulous colleagues at Microsoft worked intensively on taking healthcare challenges when it comes to applications of AI and benchmarking—medical diagnostic challenges, for example—and moved it into what I would call the realm of medical cognition, where instead of looking at a whole case that&#8217;s given to an AI system and looking at the accuracies that are reported on its ability to diagnose, for example, a form of differential diagnosis, we instead put the AI system in the, in the shoes of a clinician.</p>
+
+
+
+<p class="wp-block-paragraph">You get an initial set of symptoms, you get chief complaint, some history, a little window on what&#8217;s going on when a patient comes in in an ambulatory setting, and then it&#8217;s up to the clinician to ask the right questions and to then think about tests, balancing the information value with the cost of the tests. This is the sequential diagnosis challenge. And we <a href="https://www.microsoft.com/en-us/research/publication/sequential-diagnosis-with-language-models/" target="_blank" rel="noreferrer noopener">applied AI to both the … formulating the hypothesis component of that as well as decision-making</a> about the next best tests to order, questions to ask, and also when to call a diagnosis, even under uncertainty, as a concluding convergent diagnosis and getting on with things with therapy, for example. And showed just, I think, remarkable abilities of a number of frontier language models to do a fabulous job.</p>
+
+
+
+<p class="wp-block-paragraph">And, you know, and again, did some comparisons with human generalist physicians, which have to be taken at face value and with limitations in what we did with … on the comparison, but still show the promise of the methods for assisting clinicians of the future.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Well, congratulations on the paper. It&#8217;s a really big deal.</p>
+
+
+
+<p class="wp-block-paragraph">Eric [Topol], moving on to you. You know, you&#8217;re the one person on the podcast who&#8217;s not a Microsoft employee [LAUGHTER], and so you see a very different, I think, set of things than we might see from our vantage point, although I think each of the three of us sees different things in general.</p>
+
+
+
+<p class="wp-block-paragraph">Could you just tell us what you&#8217;re seeing? Like, to somebody listening, you know, we have a broad listenership from all different segments, not just experts in AI or medicine. Like, what are you seeing that your, sort of, technical, smart, average listener would be able to take away?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>ERIC TOPOL:</strong> Yeah, sure, Doug. I mean, I think first I do also want to congratulate Eric and the team at Microsoft because this was a seminal paper in <em>Science</em>. It was the first ever to take an agentic system and make more accurate diagnoses not just compared with physicians but a lot of the other frontier models. Markedly improved accuracy over physicians, almost doubling, but at lower cost. I mean, that&#8217;s stuff we haven&#8217;t seen. What we&#8217;ve seen is, you know, using AI to upcode and using AI to potentially raise costs. This really was the first demonstration you could have higher accuracy at lower cost. It&#8217;s kind of like eat more, weigh less, [LAUGHTER] or taste better, you know. Anyway, it&#8217;s pretty impressive work.</p>
+
+
+
+<p class="wp-block-paragraph">Now,what I&#8217;ve seen, which is striking, is that we have all attuned to the shiny object of generative AI, which is great. It&#8217;s, you know, four years in. But we&#8217;ve somehow missed using where it&#8217;s even more proven, which is in the image phase, a deep learning of medical images. Whether it be the retina, chest x-ray, electrocardiogram, all these things.</p>
+
+
+
+<p class="wp-block-paragraph">And so there&#8217;s this real paradox where, for example, we aren&#8217;t implementing all that we&#8217;ve learned from <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.usnews.com/news/health-news/articles/2026-01-30/ai-assisted-mammograms-catch-more-hard-to-detect-breast-cancers-clinical-trial-shows" target="_blank" rel="noopener noreferrer">mammography—over a hundred thousand women in a randomized trial<span class="sr-only"> (opens in new tab)</span></a>—or <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.ovid.com/journals/aime/abstract/10.7326/annals-24-00981~artificial-intelligence-assisted-colonoscopy-for-polyp?redirectionsource=fulltextview" target="_blank" rel="noopener noreferrer">colonoscopy—44 randomized trials<span class="sr-only"> (opens in new tab)</span></a>—and eking out all the embedded information that humans can&#8217;t see, but AI <em>can</em> interpret from every type of medical image that we know of. So we&#8217;re not harvesting that opportunity.</p>
+
+
+
+<p class="wp-block-paragraph">Now, why is that important? Well, the next phase of AI is, you know, I guess, what I&#8217;d call whole-patient models, whereby we would have, as Eric mentioned, electronic health records; we&#8217;d have all the images, raw images, and other layers of data. It could be genomics, could be proteomics; it could be, you know, the exposome—all these layers of data.</p>
+
+
+
+<p class="wp-block-paragraph">But we can only get the most out of that at the individual level for being able to predict diseases and when they might occur and what-if scenarios if we change something to defer or prevent the disease and using these sorts of, you know, remarkable datasets to really change medical care in a way we&#8217;ve never done before. So I&#8217;m excited about that. But we are still idling. We haven&#8217;t used the work that&#8217;s been done to affect patient care. I&#8217;m still waiting for that to happen. It&#8217;s vexing to say the least.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Just before I go on to Ava, you know, since you raised that, and what do you think the community should do differently so that we&#8217;re not missing that opportunity? I mean, there&#8217;s a ton of research going on; there&#8217;s a lot of work; there&#8217;s businesses adopting AI. What is the community missing?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> Well, it&#8217;s missing implementation. So it all sits in these great journals and, you know, gone through a peer review and just impressive data, particularly these randomized trials that were done in the real world, and not used in caring for patients or helping patients.</p>
+
+
+
+<p class="wp-block-paragraph">So there&#8217;s no real good reasons why this hasn&#8217;t moved forward. There&#8217;s lots of excuses, [LAUGHTER] but, you know, the medical profession is slow to adopt change. Oftentimes, there&#8217;s financial constraints; there&#8217;s unwillingness to invest at health systems level because, you know, they&#8217;re working at very low margins …</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER</strong>: Right.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> … and, you know, they don&#8217;t, they don&#8217;t want to get into something that they&#8217;re not fully confident with.</p>
+
+
+
+<p class="wp-block-paragraph">You know, the one thing that&#8217;s noteworthy is the physicians are not clamoring for these advances. I mean, if I—or the <em>patients</em>. If you&#8217;re a woman undergoing mammography and you don&#8217;t get state-of-the-art AI, which almost, you know, no women in the United States do, you think you might run a revolt. Or you have to pay for it to get that interpretation in a very limited network. There&#8217;s so many of these things that people are not getting … that either the physicians who advocate for patients or the patients themselves, maybe that&#8217;s what we need to drive this forward.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER</strong>: I’m going to come back to that. That&#8217;s a really, I think, important point because it touches on just the economics of the system.</p>
+
+
+
+<p class="wp-block-paragraph">But, Ava, let me, let me turn to you. You&#8217;re deep in it, right? You&#8217;re playing with the models and working with, you know, outside organizations and actually pushing on, you know, disease states. So what are you seeing right now?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AVA AMINI:</strong> Yeah, from where I sit specifically, it&#8217;s at the intersection of AI and biology. So more focused on the biosciences versus medical and healthcare, but the perspective is very complementary to what Eric and Eric were both mentioning because right now we&#8217;re at this phase of extreme excitement, a lot of optimism, a lot of energy, a lot of investment. But when it comes down to it, the reality is implementation again, where we have enthusiasm about building predictive and generative models, AI models for biology. But really, the question in my mind is: what are these actually going to solve? What questions can we deploy them towards? How are we going to implement them? How will they be adopted by experimental scientists and integrated into our workflows?</p>
+
+
+
+<p class="wp-block-paragraph">And that is a gap that I think still the community needs to bridge. We&#8217;re making steps towards bridging that. For example, through our collaboration with the Broad Institute, where we&#8217;re really trying to build bottom-up a joint research endeavor that marries both the AI side and the biological side. And so in the next phase, I think really the challenge and the test will be: how can we implement these models and systems in a meaningful way towards meaningful problems?</p>
+
+
+
+<p class="wp-block-paragraph">And then the second big piece that I&#8217;m seeing and I&#8217;m really strong on is very aligned with this vision of the whole-patient model. And it comes down to the fact that biology is incredibly complex because it&#8217;s inherently multi-scale, right. We have operation at the level of molecules that then go on to the level of individual cells that organize into tissues and organ systems, and those organ systems all function within an organism in a remarkably coherent way. And that&#8217;s a machine learning and computational challenge that is very hard to find in any other field—how you actually integrate across these scales of the hierarchy in a coherent way such that context and information from all the way down at the molecular level can be brought up meaningfully to insights at the patient level or the human level. </p>
+
+
+
+<p class="wp-block-paragraph">And so because of these complexities, there&#8217;s so much opportunity, as well, for real AI innovation in terms of how we bring data to these models, how we represent the data, what type of data we need, how much of it, how diverse should it be. All these very fundamental technical questions. And then juxtapose with the real biological questions of, let&#8217;s say, we did have a whole-patient model. What is the No. 1 or No. 2 or No. 3 highest set of priorities that we would deploy such a system for? Or do we democratize and, you know, go after a breadth rather than a depth of applications? So, really, it&#8217;s a tremendously exciting time for research on both the computational side and biology side for these reasons.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> We keep coming back to the whole-patient model. So I want to toss out maybe a provocative question, and I&#8217;ll use my platform to draw back to my old historical area.</p>
+
+
+
+<p class="wp-block-paragraph">You know, so I&#8217;m … I think as you all know, I&#8217;m a computer architect by training so build systems out of chips and software and wires, and, you know, one of the things in that part of the field, in computing, is that we, humans, have built these incredibly complex systems, like literally billions of circuits on a postage-sized stamp chip. But we understand pretty much everything about them because we&#8217;ve built them from the ground up. We&#8217;ve created the abstractions; we&#8217;ve created the, you know, the rules of going from one layer to the other. But of course, deep inside, you know, the transistor junctions, it&#8217;s a messy stochastic dance, quantum dance of, you know, electrostatic forces and, you know, the p-n junctions are really stochastic devices, but we just build these abstractions that are clean.</p>
+
+
+
+<p class="wp-block-paragraph">Do you all ever think we&#8217;ll get to a point where biology is the same way? Like we understand it well enough, we have a hierarchy of abstractions, and we know what everything does, and we can point to any part of the system and say, “That&#8217;s it”? Or is it always going to be this messy thing that&#8217;s just so complex we can&#8217;t possibly understand it?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> Can I, can I say, Doug, that once we run a deep generative model on that very clear, precise set of abstractions that you&#8217;ve provided in your career, we we&#8217;re back into a messiness again in really trying to understand the algorithmic behavior, especially when it&#8217;s stochastic. My sense is—carrying the analogy forward to a multi-scale dynamical system, <em>the human body</em>—is that there&#8217;s going to be very high degrees of complexity when it comes to the dynamics and interactions of parts at different levels of abstraction. And thus we&#8217;ll have to think through what are ways to manage that complexity in our inferences and in our tests and in our studies and in our data collection such that we could, we could—again keeping … moving the analogy forward—to come up with techniques for interpretability of what we see and what we can intervene as well as causal models and abstractions that help us understand both intra-level and cross-level interactions.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> I think that was a no. [LAUGHTER]</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> Well, you know, it was a no that we want … that we will never understand the, you know, the details—the critically important details—down to the precise atomic level of the kind that you had and have had in architectures and in systems design. So, yes, I should have … I could have been very much … I could have just said no.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> No, no, no. [LAUGHTER] I&#8217;m just, I&#8217;m trying to simplify it for the audience, right? Because …</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> Sorry, sorry, audience. I went on a long discourse.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> I did, I did a low-rank approximation [LAUGHTER] on Eric Horvitz and got one bit. Sorry to boil you down.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> It&#8217;s, it’s helpful.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Any other comments here?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> Yeah, I just throw a …</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Does anyone disagree?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> … a couple here. Firstly, as you know, there&#8217;s a lot of interest in creating the virtual cell, …</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Yeah.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> … where you would be able to do any number of perturbations and predict its response and that would help to whether it&#8217;s discover drugs or unravel a lot of biology.</p>
+
+
+
+<p class="wp-block-paragraph">Now, at the patient … human … the virtual human level, we are so weak right now. We&#8217;re not even—the virtual cell’s a ways off, but the virtual patient kind of analogy, like, for example, if you had a polygenic risk score or even a genome sequence, you might say, oh, this person has risk for, say, heart disease. But we don&#8217;t know whether it&#8217;s age 50 or 90. You know, that&#8217;s not really that helpful.</p>
+
+
+
+<p class="wp-block-paragraph">So what it turns out is when you … even the models that have been done so far and published, they already can give us some timing. They can already color this. And we are still looking for deep … that&#8217;s just with electronic health record and lifestyle or electronic health record and polygenic risk score. We don&#8217;t have deep and long data yet at scale. Wait till we get that. So I do think we&#8217;re actually going to get to some more mature whole-patient models before we get to the virtual cell. We&#8217;re never going to get to be able to do all the perturbations you could do at a cell level, but there&#8217;s a lot of different cells in the body.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Yeah.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> But one other point about this is that we really need to be beyond “you&#8217;re at risk for.” We have a real, a chance to enable prevention, which we&#8217;ve never really done in any meaningful way in healthcare. So I think it&#8217;s an exciting step forward, but it is going to take a lot of effort to make it real.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> I was at a conference this past weekend on the intersection of AI and medicine, and that topic, Eric, came up: prevention. And I think the argument that some very thoughtful speakers made is that our economic model of healthcare is just fundamentally at odds with preventative medicine. Like, the system isn&#8217;t incentivized to do it. People can choose to do it, but, you know, you go into the doctor when you get sick and the hospital treats you and then you—and they might give you some advice. But there&#8217;s no fundamental incentive for the system to invest to prevent future problems out, outside of maybe your general practitioner. Do you agree with that?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> Well, I would just say welcome to the United States. [LAUGHTER] That&#8217;s the model. But if you go elsewhere, you&#8217;d find there are incentives to keep the population healthy. Huge economic, no less health burden incentives. So we are in this peculiar, unique situation where we have disincentives because of all the structures that are, you know, one year of insurance coverage. Why would they care to prevent diseases …</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Yeah.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> … when they have such short-term interests? And, you know, just very poor structurally to make this shift. But it doesn&#8217;t mean it won&#8217;t happen. It may not happen here or only here in select entities like a Kaiser program or certain ones that are more geared for this, sort of, shift.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Ava, I want to turn to you, back to the original question. Like, so digital systems are, you know, precise abstractions built on a stochastic mess. Do you think we&#8217;ll be able to get precise rules about biology on top of all the stochastic messiness, even though it&#8217;s more complex?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> I would like to almost turn the question on its head. Instead of saying, <em>“Will we get there,”</em> do we need to get there? And I would argue that it&#8217;s perhaps not necessary to have that complete, you know, atom-wise or interpretability of where every, you know, molecule in a cell is moving at any given time and how it reacts to this perturbation and so on and so forth. I think it&#8217;s far more important to think about, what are the necessary outputs from a model or a system that&#8217;s an orchestration of many models perhaps to actually enable the discoveries that a scientist is going to, you know, want to undertake?</p>
+
+
+
+<p class="wp-block-paragraph">And for a lot of things that, you know, are immediate in terms of being able to look ahead one year, two years down the line to experimentally validate, I don&#8217;t think we need that level of interpretability. Whether or not we get there is, you know, I think we can debate about that. I would lean on to the side of Eric H. in saying maybe … I don&#8217;t think we will ever precisely get there because of just the inherent entropy and dynamics of biology. But I would take a strong stance of saying, do I think it&#8217;s necessary? No.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> Yeah, there&#8217;s huge headroom, Doug, between what you asked for when it came to the precision of a systems architect and a hardware architect and what we can do to deliver incredible benefits to patients under some uncertainty, under stochasticity, with much deeper knowledge about causation in … across the levels of understanding in, in human physiology.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> Exactly. You know, what level of that do we need to enable discovery or enable better interventions or treatments or preventative measures, right? You know, I don&#8217;t think that fine-grained precision is strictly necessary for that.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Yeah, I certainly don&#8217;t think you need to have that level of understanding to do very, very useful and important things. But I think what the two of you were just doing is very nicely saying, “Doug, you&#8217;re overly biased by your 30 years in your field, [LAUGHTER] butt out and stop trying to apply your lessons to biology,” which I take as a fair point. It doesn&#8217;t mean I will, but I hear the feedback.</p>
+
+
+
+<p class="wp-block-paragraph">So, Eric Topol, over to you for a sec. People talk a lot about AI and the role of humans and the role of AI and, you know, doctors. And one, just maybe as an initial framing, what I&#8217;m also seeing now is an explosion in entrepreneurial activity. You know, people starting companies, people generating new ideas. Then you have this very slow-moving healthcare system and slow moving just because of the scale at which it operates, right. It&#8217;s, you know, a big fraction of the US economy in, in the United States. So how are you thinking about the role of people and AI together? I know it&#8217;s a loaded question, but you&#8217;re really more than any of us are on the frontlines.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> It is a tough one to unpack, Doug, because there&#8217;s so many different dimensions of this. Like for example, the use of ambient scribes to shorten the amount of data clerk time that doctors and clinicians have, which is starting to really take off throughout the US, and those who are frequent users are really, you know, being rewarded for saving a lot of that keyboard time&#8230;</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Right.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> … so that&#8217;s one element, which is kind of operational. But it turns out once you have a digitized note that’s more accurate than the notes that have been in our charts for decades, [LAUGHTER] …</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Yeah. That&#8217;s right.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> … then it does all kinds of things. You know, it does ordering and scans and lab tests and future appointments and pre-authorizations and whatnot. So it even nudges patients about things that were discussed at a visit or whatever. So that&#8217;s one phase.</p>
+
+
+
+<p class="wp-block-paragraph">The one that Eric mentioned is starting to be realized, and that is accuracy, promoting accuracy. That is our diagnostic accuracy—he referred to treatment accuracy—but our diagnostic accuracy is horrible. And they wind up with all sorts of <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://qualitysafety.bmj.com/content/33/2/109" target="_blank" rel="noopener noreferrer">disability and deaths, estimated by Johns Hopkins at 800,000 a year<span class="sr-only"> (opens in new tab)</span></a>. That&#8217;s a big toll of diagnostic errors. So I think we&#8217;re going to start seeing AI help people.</p>
+
+
+
+<p class="wp-block-paragraph">Um, and then, then we also have this one very peculiar thing that I never would have predicted. And that is because physicians, clinicians are squeezed, they are not having much time with patients. And so <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://academic.oup.com/bmb/article/156/1/ldaf017/8293249" target="_blank" rel="noopener noreferrer">patients turn to chatbots and AI to find out that they are more empathetic than humans<span class="sr-only"> (opens in new tab)</span></a>. Now I would never have predicted that, because a machine wouldn&#8217;t know empathy if it fell on it. But turns out it can channel it. And patients like the idea of being able to review lab tests and answer all these questions, have unlimited time, instant access, and everything else.</p>
+
+
+
+<p class="wp-block-paragraph">So these are some of the movements that are occurring right now on the consumer side, which is big; the alleviation of some of that data clerk function on the part of physicians that are more progressive, that are trying to make the move. And I hope that we&#8217;ll see a return to the … with the <em>gift</em> of time, with patients being somewhat more autonomous, physicians having more time with patients, that we get back this patient-doctor relationship. That&#8217;s something that&#8217;s eroded terribly over multiple decades.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Right.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> But we have the signs that we could actually get that back. And I, I hope that we will.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> I could still tell you the name of my family doctor when I was, you know, between 5 and 10, [LAUGHTER] but I couldn&#8217;t tell you the names of my last five.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> Yes.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> So it&#8217;s a great example.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> There you go.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> You know, we talked about the whole-patient model, and please, you all bear with me for a sec. You know, in digital computing, we had Moore&#8217;s law, which ran somewhere between 50 and 60 years, and I won&#8217;t bother being all, like, persnickety about what it actually was, because there&#8217;s a popular culture version that&#8217;s not right. But what it did drive is an annual exponential drop in the price of computing. And what we&#8217;re seeing now is an even faster rate of drop in the cost of tokens, you know, four to 10x per year. We don&#8217;t know how long it will go, but it&#8217;s <em>unbelievable</em>. Now, of course, the models have been growing so rapidly that we don&#8217;t see those costs. [LAUGHTER] But the cost to serve a token on a fixed-size model has been plummeting.</p>
+
+
+
+<p class="wp-block-paragraph">And so I wonder when we talk about, you know, the whole-patient model or virtual cells and all of this data and the cost of the healthcare system, do you see those trends driving down the cost of medical care and the ability to do these sorts of things? Are there other cost drivers down, or do you think we&#8217;re heading for a world where it&#8217;s just going to get more and more and more and more expensive to do all of this advanced stuff for people and it will be unaffordable except for a few?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> Yeah, I can, I can start with this one because there is an angle here for both the medical side as well as the biosciences side and earlier discovery and experimentation and drug discovery workflows. And there I would say the promise is this idea of trading off computation for experimentation and having an interplay between the two where some of the, the experimental cycles that you do spend in the lab are those that are high-confidence, you know, areas of that experimental search space that are prioritized by a model, let&#8217;s say, such that you can use experimental resources much more efficiently—whether that&#8217;s money, reagents, <em>physical</em> reagents, personnel—and therefore drive the cost and the lead time to discoveries down by doing some experiments virtually, if you will.</p>
+
+
+
+<p class="wp-block-paragraph">So running queries in silico that can then project the outcome of an experiment in a causal way. Given an input state, what is the output state of following this intervention, right? Therefore, you can basically balance the cost expenditure in this way such that you can really, really drill down in the real world on those things that are most promising, hopefully with faster timelines and lower overall, you know, experimental spend in the, in the wet lab. So that is … could be one way that it manifests. And as the cost of tokens goes down, the hope is that that acceleration will amplify because now the computational side is, is, you know, the faster iteration side of this whole discovery loop versus the experimental one.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> But before we go to the, to Eric—to the Erics—on that question, you know, over the next five years, I would guess the cost of tokens for running these experiments will drop somewhere between a thousand and 10,000x. So what … doesn&#8217;t that make the analog … the real world—which I&#8217;ll call the analog world—the bottleneck? Like … or does it just shift how you spend your time? </p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> Yeah. I think the fact is the real world will always be the bottleneck, right? You cannot replace the real world entirely by, you know, virtual experimentation. We&#8217;ll always need the real world. The vision is that it will, you know, focus where and how you spend your time in the real world such that those experiments that you do <em>do</em> are high confidence and ones that, you know, would be backed by something that is computable, if you will.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Mm-hmm. I think it&#8217;s a very strange world we live in where “the real world will always be the bottleneck” is a quote that we all just heard and probably agree with. [LAUGHS]</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> But, Doug, just to build on &#8230;</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> It&#8217;s a … go ahead, Eric.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> … to build [on] Ava just now, I mean, the area of the biosciences that I am most excited about is exactly at the frontier of where Ava&#8217;s last sentence ended. And it&#8217;s turning the AI around to compute where the most value is given probability distributions of what you would see if you would look. Guiding experimentation, in other words. And it … you know, faster computing and cheaper tokens will help us do that better, which basically addresses directly the bottleneck. It&#8217;s saying, “Look, give me, give me, give me your resource constraints; I&#8217;m going to figure out how to tell you or collaborate with you on where the most exciting, interesting, surprising results might be.”</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> It&#8217;s beamforming to save lives.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> Exactly.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> Right.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> But, I mean, I think the bottleneck, as you&#8217;re pointing out, Doug, with the exponential reduction for tokenization, is the datasets. That is, you know, we just saw <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://biohub.org/news/virtual-biology-initiative-expansion/" target="_blank" rel="noopener noreferrer">billions being allocated for life science datasets<span class="sr-only"> (opens in new tab)</span></a>, the amount of cost to bring in long, deep data of patients, which hardly exist today. You can get electronic health records, but that&#8217;s not what you want. [LAUGHTER] Raw images … you want all these other layers of data. I mean, so you know, remember, Eric pointed out early on that AlphaFold has been the signature contribution. And that was because we had the <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.rcsb.org/" target="_blank" rel="noopener noreferrer">Protein Data Bank<span class="sr-only"> (opens in new tab)</span></a>. The dataset was all there.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Mm-hmm.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> All it took was, you know, milking it for what it could do with AI. Now, we don&#8217;t have any dataset like that in life science or in medicine. And so I think that&#8217;s what&#8217;s going to turn out to be holding us back from where we could, you know, really zoom forward.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> There&#8217;s a––that&#8217;s a really, really interesting point. You know, there&#8217;s a historical analogy here because my team was building, you know, infrastructure, inference-serving platforms, in the 2010s for RNNs, you know, where you needed labeled data to train the models. So data was the bottleneck. And so we were building good models, but then when the transformer put those pieces together and you could just train on an unlimited amount of text without labeling, it just turned the problem from a data problem into a supercomputing problem. And just said, OK, how big a computer can we build? And, of course, caused major platform changes.</p>
+
+
+
+<p class="wp-block-paragraph">Do you think a breakthrough like that might be possible in the bio space, as well? Like, because right now we&#8217;re data limited to your point, but we were in the same situation in 2016, and then boom, this crazy thing happened.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> Ava would know.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> Well, certainly there were, I mean, there are––there have been opportunistic leveraging of datasets, like the genomic datasets, like, the, like, the nucleic acid datasets, which are providing new kinds of predictive models not based necessarily, for example, in protein sequences but also in looking at the nucleic acids and nucleic acid libraries. So there are other datasets that are around that haven&#8217;t been harvested yet in biosciences that are &#8230;</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> Yeah.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> &#8230; showing some surprising utility.</p>
+
+
+
+<p class="wp-block-paragraph">In medicine, it&#8217;s interesting to think about like, you know, if, if we had, you know, even … if we had an Aladdin&#8217;s lamp and we could ask for certain forms of data of the clinical type or that go from … that link phenotypic clinical data down to, you know, sort of sequence-level information about a patient, of the, of their, you know, their DNA and their expression and so on of proteins, what is the nature of that data we would ask for and how would we harness it to just think out of the box?</p>
+
+
+
+<p class="wp-block-paragraph">You know, and you&#8217;re the interviewer. I don&#8217;t want to ask Ava that question, Doug, but I&#8217;d love to hear … [LAUGHS]</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> No, you should totally ask Ava that question, right? [LAUGHS]</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> OK, I&#8217;d love to hear if you had, if you had your magic wand, [and] you can say, “I want data of this type that I don&#8217;t have for either self-supervised training or supervised training, what would I ask for?” You get only three gigantic databases to choose from, to ask about. [LAUGHS]</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> Yeah, so I&#8217;ll draw a comparison to the AlphaFold and the PDB [Protein Data Bank] example, right. There the answer was spot on, right. We saw that breakthrough because the PDB exists, and yet it is limited because these are static structures of proteins and we know that proteins are dynamic and they&#8217;re active, right. They execute function through activity. And so I think the real missing thing is these, kind of, activity-first datasets for different layers of the biological stack.</p>
+
+
+
+<p class="wp-block-paragraph">One, you know, proteins are an easy example. Can we create, you know, this same scale and diversity of data mapping protein sequence to function across a range of functions? Historically, in the field, there are isolated datasets here and there; they&#8217;re not really scaled. How can we creatively leverage what&#8217;s out there, but are there new spaces—and we do know there are new spaces—in just protein biology as a whole where we can actually go out and create first-in-class activity-based datasets? And I think that&#8217;s also even more true perhaps on the cellular level, as well.</p>
+
+
+
+<p class="wp-block-paragraph">You know, there was a comment about there are so many different cell types in the human body, we cannot comprehensively map, you know, what every single cell type will respond to every possible, you know, chemical perturbation that exists because the spaces are just too, too vast, especially in, in chemical space. <em>But</em> if we&#8217;re intelligent and principled about how … what spots of that space we choose to construct a diverse dataset, that&#8217;s also missing. And so I would say this kind of functional readouts of biology—whether that&#8217;s on the molecular level or the cellular level or the tissue level—are really what&#8217;s missing.</p>
+
+
+
+<p class="wp-block-paragraph">And in our <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" rel="noopener noreferrer" target="_blank" href="https://aka.ms/exvivo" data-type="link" data-id="https://aka.ms/exvivo"><em>Ex Vivo</em><span class="sr-only"> (opens in new tab)</span></a> collaboration, we&#8217;re tackling part of this in the context of cancer cell, cancer cell measurements, looking at trying to build what we call state-to-function maps that look at a spectrum of cancer cell states and measure functional outcomes—for example, resistance to immunotherapy or resistance to a targeted therapy—and try to build these bridges. But that&#8217;s just one slice of it. And I think more of that same ethos of functional readouts of biology is one hundred percent what I would go to first.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Mm-hmm. Eric Topol, over to you for a sec. We, we’ve had a pretty broad-range discussion. What are a few of the things right now that are just … where you think people, our listeners, need to pay attention? What are some things you&#8217;ve seen recently that are super exciting? I want to do this around the horn and then I want to bring us around with a, you know, go a little crazy at the end. So I&#8217;m going to ground us, and then I&#8217;m going to go wild.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> Well, you know, I think the missing layer in humans is the immune system, the immunome. And everything we&#8217;ve learned to date points to that as a critical underpinning of the health span. We need to get to that. We actually <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.nature.com/articles/d41586-026-03396-2" target="_blank" rel="noopener noreferrer">published a piece in <em>Nature</em> today<a href="#_ftn1" id="_ftnref1">[1]<span class="sr-only"> (opens in new tab)</span></a> about the immunome</a> …</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Congratulations.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> … and how we&#8217;re starting to, starting to see some breakthroughs of how we can, you know, quickly, meaningfully get an assessment, whether that&#8217;s AI of the thymus gland—which had been previously thought goes into involution, inert mode by age 20, and now we know at age 80, some people have a perfectly intact thymus gland—and as … back to Ava&#8217;s point about it can predict cancer immunotherapy response and liability to develop cancer.</p>
+
+
+
+<p class="wp-block-paragraph">We also have proteomics, where we can look at both the immune system, the age of a person&#8217;s immune system relative to their chronological age, and immune <em>cells</em>, cell proteomic clock. And we&#8217;re going to get into a much more granular assessment of function. I agree with Ava that what we need are these functional correlates, which we&#8217;re short on.</p>
+
+
+
+<p class="wp-block-paragraph">So I think once we get that, that&#8217;s a layer that’s really going to help us because that immune system, whether it&#8217;s the vulnerability to cancer or whether it&#8217;s what&#8217;s going on in the brain to promote neurodegenerative disease or in the arteries for atherosclerosis, it&#8217;s central. And we haven&#8217;t had a way to measure it in people, which is amazing. <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://pubmed.ncbi.nlm.nih.gov/42946772/" target="_blank" rel="noopener noreferrer">Only in an academic lab in a living, you know, in 20 people<span class="sr-only"> (opens in new tab)</span></a>, and that&#8217;s, you know, that&#8217;s not what we need.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Yeah.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> So to take that forward and add that into the models, I think that&#8217;s going to be a really vital step.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> Yeah, I&#8217;ll pop up a level, and I&#8217;ll say that I think that we will get more than we expect by pursuing the foundations of aging. And this is, you know, the immune system fits in there, but I think in general, we don&#8217;t understand why it is that many diseases show up with age. They penetrate … even, even genetic lesions like LRRK—something called LRRK2 transposition for Parkinson&#8217;s disease. It shows up in 60s and 70s. But why? Why did the body hold off until then and then it comes through? For Alzheimer&#8217;s disease and others, as Eric mentioned, the neurodegenerative diseases typically are <em>age</em> related. What happens with the methylation, for example, of our DNA that defines our cells into specialization?</p>
+
+
+
+<p class="wp-block-paragraph">I&#8217;ll use your language, Doug, a little bit. Maybe DIP switches, turning on and off expression that define cell types. [LAUGHTER] Literally, they&#8217;re just like “ons” and “offs.” What happens with the maintenance of those ons and offs and the coherence with age? It&#8217;s a big mystery. If we could crack some of the foundations of what happens with age and not just make statements—“oh, more entropy, more chaos”—but understand interventions and some causation there, I think we will unlock a number of diseases all at once and how to, how to prevent them.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> I promise you, we will have more entropy.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> Oh, yeah, I&#8217;m sure that&#8217;s true.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Sorry for the physics joke, yeah. And Eric Topol wrote a book called <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://drerictopol.com/portfolio/super-agers/" target="_blank" rel="noopener noreferrer"><em>Super Agers</em><span class="sr-only"> (opens in new tab)</span></a>, and so I think …</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> I was watching Eric nod just now, and sorry, Eric, I was running into your territory.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> No, no, not at all.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> It&#8217;s … yeah, it&#8217;s great, great points. OK, Ava, what are you excited about?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> So I was thinking as both of them were speaking, I was trying to think of what is the single most thing to be excited about. It&#8217;s hard to pinpoint one. I would say on the … there&#8217;s a technical one and a biological one.</p>
+
+
+
+<p class="wp-block-paragraph">On the technical side, coming back to our data discussion, I think innovations that allow for creative utilization of existing data such that it … we can turn it into a supercomputing problem, as you, as you pointed out, Doug, is something of great interest and excitement for us here and in general in the field. Because data exists, right? There are certain classes of data that don&#8217;t exist as we talked about, but there is a lot of biological data out there and biological tools out there that we can utilize creatively to compute on.</p>
+
+
+
+<p class="wp-block-paragraph">On the biological front, one thing that we haven&#8217;t really discussed is new measurement techniques that will be able to link biological modalities in new ways. So making new types of measurements in biological systems that we haven&#8217;t, you know, previously done before and coming back to this multi-scale theme, right, that will hopefully allow us to link those layers of the biological hierarchy in new ways and draw meaningful connections between those layers so that we can get to more of these, like, meta-level outputs and outcomes.</p>
+
+
+
+<p class="wp-block-paragraph">And on the, kind of, higher level, I love both the points about the immunome and aging as kind of systems-level, you know, phenotypes and readouts to go after, and so that is something that I&#8217;m really, really excited about. Moving away from this perhaps overhype on virtual cells and really thinking about systems-level phenotypes and phenomena is, I think, tremendously promising.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> So I&#8217;ve always been fascinated by, you know, you have your set of DNA, and that DNA encodes a program, you know, to build an organism. But the execution of that program—like building the cells, and the cells reproduce, and then they specialize, and then they form systems, and then they form functions—I mean, that whole, you know, epigenetic and system, like, just the fact that a human brain is encoded in the DNA and not directly obviously but indirectly with those rules.</p>
+
+
+
+<p class="wp-block-paragraph">Do you ever think with all of the advances in understanding—and this is maybe my “looking way out” question—we&#8217;ll understand those rules and be able to write genetic programs to form full-functioning systems or organisms that don&#8217;t exist? Like that, that just will say, “Hey, I want, you know, I want a glob of cells that can suck CO<sub>2</sub> from the air and then spit out algae into the ocean. And this is an organism that will do it. And here&#8217;s the DNA sequence that will build that organism through all the specialization of cells and replication.” Because that area seems to me to be a whole next level of complexity over, like, just understanding the pathways in a biological system. But this is all your area, so I&#8217;m spitballing here. Do you, do you think we&#8217;ll get there, or is that just so crazy that we, we should not even think about it?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> Yeah, I think that programmability is, kind of, the promise, right. Can we do functional design and engineering of biology through interfaces that make sense to us as humans, whether that&#8217;s natural language, whether that&#8217;s other modalities, even perhaps images if, you know, we can specify a function visually? Could that be executed by a protein, right? Or through chemistry depictions? All these kinds of notions of programmability.</p>
+
+
+
+<p class="wp-block-paragraph">But really what you&#8217;re talking about, Doug, is the heart of, you know, synthetic biology was driven by this ethos of trying to make life programmable and operate and design genetic circuits that could execute functions in living matter just like we engineer electrical circuits as the basis of computing. And it&#8217;s very nostalgic for me in a way because in undergrad, this was my research, …</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Oh, I didn&#8217;t know that. [LAUGHS]</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> … in synthetic biology, yeah.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> I have a ringer here. Awesome.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> So, so, actually, I think you would appreciate this. We were trying to implement state machines in E. coli bacteria by creating these genetic circuits that would respond to different orders and combinations of chemical inputs. And these were just, kind of, a toy example. But the principle is bringing a computational paradigm into a living system and doing—designing an actual circuit in DNA that could enable the cell to execute that function.</p>
+
+
+
+<p class="wp-block-paragraph">And it&#8217;s astounding to see how far we&#8217;ve come to now being able to think of, you know, specifying a protein&#8217;s function in natural language and, you know, having an AI model that could design a hundred candidates that would meet that function. And so I think that&#8217;s, like, a longstanding [LAUGHTER] vision of biology and it&#8217;s, kind of, gone through these different, I guess, what&#8217;s the word? Evolutions …</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ</strong>: Paradigms.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> … if you will …</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ</strong>: Yeah …</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> … of how we actually get there. So it&#8217;s a great perspective on the field over the past couple of decades.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> Even small circuits like adding to …</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> Yeah.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> … human cellsjust a system that would count their generation number …</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> Exactly. Yes.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> … so, you know, you can read off, “Is this a, like a thousand … &#8220;</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> Yeah.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> &#8221; … or just four? Is it a cancer?” A number, digital.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER</strong>: Eric Topol, I think they&#8217;re … that Eric Horvitz and Ava are arguing for determinism in biology like we were [LAUGHTER] talking about earlier. I think they just, they&#8217;re arguing against themselves, which is kind of fun. What are your thoughts?</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> In ways. [LAUGHS]</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> I, you know, the things, the things that we&#8217;re seeing recently, you know, like <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.gs.washington.edu/about/directory/faculty/jay-shendure/" target="_blank" rel="noopener noreferrer">Jay Shendure<span class="sr-only"> (opens in new tab)</span></a> up at UW with being able to do <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.science.org/doi/10.1126/science.ael0508?referrer=https%3A%2F%2Fwww.google.com%2F" target="_blank" rel="noopener noreferrer">genome editing during embryogenesis and in <em>real time</em><span class="sr-only"> (opens in new tab)</span></a> to get at your point, Doug, about these are things that were inconceivable a year or two ago, maybe even a month ago. [LAUGHS]</p>
+
+
+
+<p class="wp-block-paragraph">So, no, I do think we&#8217;re going to unravel that, that aspect of programming that we have so many, you know, advanced methods and, you know, with the analytics capability that&#8217;s unsurpassed and will keep getting better. So, yeah, I … that … your idea, the idea of having organisms that would fix all our environmental problems has been around for a while …</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Of course, it has.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> … without any success, but they were primitive. You know, they were not the kinds of things that we might be seeing in the years ahead. So I … we need those things desperately, you know, to deal with all the problems we have. So I hope, in fact, that we&#8217;ll see them. And I think we will; it&#8217;s just a matter of when.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Yeah. OK, I think that was, kind of, my list of questions, but maybe I&#8217;ll go around the horn starting with Ava and then Eric Horvitz and Eric Topol for closing thoughts. Like, we&#8217;ve had a great discussion on this crazy area that&#8217;s moving fast and accelerating, you know, and orders of magnitude more power in the models coming that will accelerate it further. So what would you like to leave our listeners with? Ava, I&#8217;ll start with you.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> Yeah, a couple things. One is that the models are fundamentally tools for acceleration and, you know, improved intervention. And the reason I personally got into this space at this intersection of computer science and biology was because I saw computer science as a powerful abstraction system and tool set by which we can understand and design biology. So I think above all, you know, both in the biosciences and in the healthcare space for the viewership to remember that we&#8217;re trying to advance that tool set for the benefit of researchers and ultimately patients and the rest of life on our planet in, kind of, the grandest sense.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> That&#8217;s awesome. Eric Horvitz.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> Ten years from now, the average person, the <em>public</em>, will recognize AI as having led to impressive breakthroughs in healthcare, and this will include—and explicitly named as AI breakthroughs—it&#8217;ll include transforming a number of fatal cancers into chronic diseases by then. And making a headway into delaying onset and progression of Alzheimer&#8217;s disease, among other breakthroughs. So I think there&#8217;ll be several, and those two would be huge accomplishments, and they&#8217;ll be known as AI breakthroughs.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> That&#8217;s great. Eric Topol.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> Yeah, I mean, my optimism extends even beyond that. That we&#8217;ll be able … we will have the ability to prevent Alzheimer&#8217;s disease and prevent cancers that we aren&#8217;t today. And so I&#8217;m left with just remarkable optimism about where medicine can go now. And we&#8217;ve identified—we&#8217;ve discussed—some of the things that are holding it back, but you can just project that it won&#8217;t look the same in the years ahead. I hope sooner rather than later. [LAUGHS]</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> Yeah. [LAUGHS]</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> But we eventually will have a medicine of practice that is unrecognizable from today.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>BURGER:</strong> I&#8217;d like to thank all three of you for taking the time out of your busy schedules to join us. I think for our listenership, you know, these are a set of people who are doing incredible work on the frontlines and time spent away from their research is time spent away from inventing the future. So thank you all for joining and taking the time. I really enjoyed the discussion and just being able to sit here with the three of you was a real privilege.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>HORVITZ:</strong> Thank you, Doug.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>TOPOL:</strong> Thank you. Enjoyed it.</p>
+
+
+
+<p class="wp-block-paragraph"><strong>AMINI:</strong> Thank you so much. Thank you all.</p>
+
+
+
+<p class="wp-block-paragraph">[MUSIC]</p>
+
+
+
+<p class="wp-block-paragraph"><strong>STANDARD OUTRO:</strong> You’ve been listening to <em>The Shape of Things to Come</em>, a Microsoft Research Podcast. Check out more episodes of the podcast at <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" rel="noopener noreferrer" target="_blank" href="https://aka.ms/researchpodcast" data-type="link" data-id="https://aka.ms/researchpodcast">aka.ms/researchpodcast<span class="sr-only"> (opens in new tab)</span></a> or on YouTube and major podcast platforms.&nbsp;</p>
+
+
+
+<p class="wp-block-paragraph">[MUSIC FADES]</p>
+
+				</span>
+			</div>
+			<button
+				class="action-trigger glyph-prepend mt-2 mb-0 show-more-show-less-toggle"
+				aria-expanded="false"
+				data-show-less-text="Show less"
+				type="button"
+				aria-controls="show-more-show-less-toggle-2"
+				aria-label="Show more content"
+				data-alternate-aria-label="Show less content">
+				Show more			</button>
+		</div>
+	</div>
+</div>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<p class="wp-block-paragraph"><a href="#_ftnref1" id="_ftn1">[1]</a> The paper <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.nature.com/articles/d41586-026-03396-2" target="_blank" rel="noopener noreferrer">Could measuring immune health reshape medical care?<span class="sr-only"> (opens in new tab)</span></a> was published in <em>Nature</em> on Oct. 27, 2026.</p>
+
+
+
+<div class="wp-block-group msr-pattern-link-list is-layout-flow wp-block-group-is-layout-flow">
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h2 id="learn-more-1" class="wp-block-heading h5">Learn more:</h2>
+
+
+
+<ul class="wp-block-list list-unstyled">
+<li><a href="https://www.microsoft.com/en-us/research/publication/sequential-diagnosis-with-language-models/">Sequential diagnosis with language models</a><br>Publication | <em>Science</em> | October 2026</li>
+
+
+
+<li><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" rel="noopener noreferrer" target="_blank" href="https://bmjdigitalhealth.bmj.com/content/2/1/e000395">Medical superintelligence: foundations and aspirations<span class="sr-only"> (opens in new tab)</span></a><br>Publication | BMJ Digital Health & AI | October 2026</li>
+
+
+
+<li><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/pulse/new-paradigm-testing-ai-medicine-eric-horvitz-oquxc/">A Paradigm Shift for Building and Testing AI in Medicine<span class="sr-only"> (opens in new tab)</span></a><br>LinkedIn post | June 2025</li>
+
+
+
+<li><a href="https://www.microsoft.com/en-us/research/project/project-ex-vivo/">Project <em>Ex Vivo</em></a><br>Homepage | Microsoft Research</li>
+
+
+
+<li><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" rel="noopener noreferrer" target="_blank" href="https://www.nature.com/articles/d41586-026-03396-2">Could measuring immune health reshape medical care?<span class="sr-only"> (opens in new tab)</span></a><br>Publication | <em>Nature</em> | October 2026</li>
+</ul>
+</div>
+<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/">Can AI help build a healthier future?</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
 		<title>TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient</title>
 		<link>https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/</link>
 		
@@ -32,10 +896,6 @@
 <p>The post <a href="https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/">TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></description>
 										<content:encoded><![CDATA[
-<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="1400" height="788" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/TokenEconomizer-BlogHeroFeature-1400x788-1.jpg" alt="Six coding sessions with shrinking cost bars send their logs to TokenEconomizer, which uses micro-skills, tool pruning and failure-loop intervention to guide an unchanged coding agent through the next session." class="wp-image-1194432" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/TokenEconomizer-BlogHeroFeature-1400x788-1.jpg 1400w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/TokenEconomizer-BlogHeroFeature-1400x788-1-300x169.jpg 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/TokenEconomizer-BlogHeroFeature-1400x788-1-1024x576.jpg 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/TokenEconomizer-BlogHeroFeature-1400x788-1-768x432.jpg 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/TokenEconomizer-BlogHeroFeature-1400x788-1-1066x600.jpg 1066w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/TokenEconomizer-BlogHeroFeature-1400x788-1-655x368.jpg 655w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/TokenEconomizer-BlogHeroFeature-1400x788-1-240x135.jpg 240w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/TokenEconomizer-BlogHeroFeature-1400x788-1-640x360.jpg 640w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/TokenEconomizer-BlogHeroFeature-1400x788-1-960x540.jpg 960w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/TokenEconomizer-BlogHeroFeature-1400x788-1-1280x720.jpg 1280w" sizes="(max-width: 1400px) 100vw, 1400px" /></figure>
-
-
-
 <div style="padding-bottom:0;padding-top:0" class="wp-block-msr-immersive-section alignfull row">
 	
 	<div class="container">
@@ -65,7 +925,7 @@
 
 
 
-<p class="wp-block-paragraph">AI coding agents are increasingly helping developers fix bugs and build features largely on their own, but every interaction with their models consumes <em>tokens. In each session</em>, an agent sends instructions, tool descriptions, and session history to its model. Most efforts to reduce this cost focus on individual tasks. Yet developers return to the same repositories, giving agents an opportunity to learn from previous work. Without that learning, an agent may repeatedly rediscover how to run tests, load tools it never uses, or spend dozens of turns revisiting the same error. </p>
+<p class="wp-block-paragraph">AI coding agents are increasingly helping developers fix bugs and build features largely on their own, but every interaction with their models consumes <em>tokens. In each session</em>, an agent sends instructions, tool descriptions, and session history to its model. Most efforts to reduce this cost focus on individual tasks. Yet developers return to the same repositories, giving agents an opportunity to learn from previous work. Without that learning, an agent may repeatedly rediscover how to run tests, load tools it never uses, or spend dozens of turns revisiting the same error.&nbsp;</p>
 
 
 
@@ -73,7 +933,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="2560" height="1371" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig1_teaser-scaled.png" alt="Each finished session teaches TokenEconomizer something about the repository, so later sessions cost less tokens. 
+<figure class="wp-block-image aligncenter size-full"><img fetchpriority="high" decoding="async" width="2560" height="1371" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig1_teaser-scaled.png" alt="Each finished session teaches TokenEconomizer something about the repository, so later sessions cost less tokens. 
 " class="wp-image-1194436" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig1_teaser-scaled.png 2560w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig1_teaser-300x161.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig1_teaser-1024x549.png 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig1_teaser-768x411.png 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig1_teaser-1536x823.png 1536w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig1_teaser-2048x1097.png 2048w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig1_teaser-710x380.png 710w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig1_teaser-240x129.png 240w" sizes="(max-width: 2560px) 100vw, 2560px" /><figcaption class="wp-element-caption"><em>Figure 1. Each finished session teaches TokenEconomizer something about the repository, so later sessions cost less tokens.</em>&nbsp;</figcaption></figure>
 
 
@@ -104,35 +964,6 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1186970">
-		
-
-	
-	<div class="row pt-3 pb-4 align-items-center">
-						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300 display-block" href="https://www.microsoft.com/en-us/research/story/msr-at-build-2026/" aria-label="Microsoft Research at BUILD 2026" data-bi-cn="Microsoft Research at BUILD 2026" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/06/MSRatBuild2026-TWLIFB-1200x627-1.jpg" alt="Microsoft Research at BUILD 2026 | abstract pattern on a purple background" />
-				</a>
-			</div>
-			
-			<div class="msr-promo__content p-3 px-5 col-12 col-md">
-
-									<h2 class="h4">Microsoft Research at BUILD 2026</h2>
-				
-								<p id="microsoft-research-at-build-2026" class="large">Giving developers a hands-on look at some of the many AI-based models and tools they can use to accelerate innovation, enhance their capabilities, and quickly transform ideas into prototypes.</p>
-				
-								<div class="wp-block-buttons justify-content-center justify-content-md-start">
-					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/story/msr-at-build-2026/" aria-describedby="microsoft-research-at-build-2026" class="btn btn-brand glyph-append glyph-append-chevron-right" data-bi-cn="Microsoft Research at BUILD 2026" target="_blank">
-							Learn more						</a>
-					</div>
-				</div>
-							</div><!--/.msr-promo__content-->
-	</div><!--/.msr-promo__inner-wrap-->
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
-	
-
-
 <h2 id="how-tokeneconomizer-works" class="wp-block-heading">How TokenEconomizer works</h2>
 
 
@@ -153,7 +984,7 @@
 
 
 
-<figure class="wp-block-image aligncenter size-full"><img decoding="async" width="2560" height="1292" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-scaled.png" alt="TokenEconomizer works alongside an unchanged coding agent. Micro-skills add learned facts, tool pruning trims the loaded tools, and failure-loop intervention redirects stuck work. Each finished session updates all three." class="wp-image-1194438" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-scaled.png 2560w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-300x151.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-1024x517.png 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-768x387.png 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-1536x775.png 1536w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-2048x1033.png 2048w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-240x121.png 240w" sizes="(max-width: 2560px) 100vw, 2560px" /><figcaption class="wp-element-caption"><em>Figure 2. TokenEconomizer works alongside an unchanged coding agent. Micro-skills add learned facts, tool pruning trims the loaded tools, and failure-loop intervention redirects stuck work. Each finished session updates all three.</em>&nbsp;</figcaption></figure>
+<figure class="wp-block-image aligncenter size-full"><img loading="lazy" decoding="async" width="2560" height="1292" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-scaled.png" alt="TokenEconomizer works alongside an unchanged coding agent. Micro-skills add learned facts, tool pruning trims the loaded tools, and failure-loop intervention redirects stuck work. Each finished session updates all three." class="wp-image-1194438" srcset="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-scaled.png 2560w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-300x151.png 300w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-1024x517.png 1024w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-768x387.png 768w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-1536x775.png 1536w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-2048x1033.png 2048w, https://www.microsoft.com/en-us/research/wp-content/uploads/2026/11/fig2_framework_overview-240x121.png 240w" sizes="auto, (max-width: 2560px) 100vw, 2560px" /><figcaption class="wp-element-caption"><em>Figure 2. TokenEconomizer works alongside an unchanged coding agent. Micro-skills add learned facts, tool pruning trims the loaded tools, and failure-loop intervention redirects stuck work. Each finished session updates all three.</em>&nbsp;</figcaption></figure>
 
 
 
@@ -404,7 +1235,7 @@
 
 
 				</span>
-				<span id="show-more-show-less-toggle-1" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-3" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -570,7 +1401,7 @@
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-1"
+				aria-controls="show-more-show-less-toggle-3"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -1445,7 +2276,7 @@
 
 
 				</span>
-				<span id="show-more-show-less-toggle-2" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-4" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -2271,7 +3102,7 @@
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-2"
+				aria-controls="show-more-show-less-toggle-4"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -2568,38 +3399,6 @@
 
 
 
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1144028">
-		
-
-		<p class="msr-promo__label text-gray-800 text-center text-uppercase">
-		<span class="px-4 bg-white display-inline-block font-weight-semibold small">PODCAST SERIES</span>
-	</p>
-	
-	<div class="row pt-3 pb-4 align-items-center">
-						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300 display-block" href="https://www.microsoft.com/en-us/research/story/the-ai-revolution-in-medicine-revisited/" aria-label="The AI Revolution in Medicine, Revisited" data-bi-cn="The AI Revolution in Medicine, Revisited" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2025/06/Episode7-PeterBillSebastien-AIRevolution_Hero_Feature_River_No_Text_1400x788.jpg" alt="Illustrated headshot of Bill Gates, Peter Lee, and Sébastien Bubeck" />
-				</a>
-			</div>
-			
-			<div class="msr-promo__content p-3 px-5 col-12 col-md">
-
-									<h2 class="h4">The AI Revolution in Medicine, Revisited</h2>
-				
-								<p id="the-ai-revolution-in-medicine-revisited" class="large">Join Microsoft’s Peter Lee on a journey to discover how AI is impacting healthcare and what it means for the future of medicine.</p>
-				
-								<div class="wp-block-buttons justify-content-center justify-content-md-start">
-					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/story/the-ai-revolution-in-medicine-revisited/" aria-describedby="the-ai-revolution-in-medicine-revisited" class="btn btn-brand glyph-append glyph-append-chevron-right" data-bi-cn="The AI Revolution in Medicine, Revisited" target="_blank">
-							Listen now						</a>
-					</div>
-				</div>
-							</div><!--/.msr-promo__content-->
-	</div><!--/.msr-promo__inner-wrap-->
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
-	
-
-
 <h2 id="privacy-and-safety-by-design" class="wp-block-heading">Privacy and safety by design</h2>
 
 
@@ -2869,7 +3668,7 @@
 
 
 				</span>
-				<span id="show-more-show-less-toggle-3" class="show-more-show-less-toggleable-content">
+				<span id="show-more-show-less-toggle-5" class="show-more-show-less-toggleable-content">
 					
 
 
@@ -3067,7 +3866,7 @@
 				aria-expanded="false"
 				data-show-less-text="Show less"
 				type="button"
-				aria-controls="show-more-show-less-toggle-3"
+				aria-controls="show-more-show-less-toggle-5"
 				aria-label="Show more content"
 				data-alternate-aria-label="Show less content">
 				Show more			</button>
@@ -3160,35 +3959,6 @@
 
 <p class="wp-block-paragraph">These challenges help explain why consistently generating high-quality interactive visualizations remain difficult in real-world use. Meanwhile, built-in interactions in some visualization libraries are not expressive enough on their own to create bespoke interactive charts. And these challenges are results of the lack of an expressive yet high-level language to specify visual interactions.</p>
 
-
-
-	<div class="border-bottom border-top border-gray-300 mt-5 mb-5 msr-promo text-center text-md-left alignwide" data-bi-aN="promo" data-bi-id="1186970">
-		
-
-	
-	<div class="row pt-3 pb-4 align-items-center">
-						<div class="msr-promo__media col-12 col-md-5">
-				<a class="bg-gray-300 display-block" href="https://www.microsoft.com/en-us/research/story/msr-at-build-2026/" aria-label="Microsoft Research at BUILD 2026" data-bi-cn="Microsoft Research at BUILD 2026" target="_blank">
-					<img decoding="async" class="w-100 display-block" src="https://www.microsoft.com/en-us/research/wp-content/uploads/2026/06/MSRatBuild2026-TWLIFB-1200x627-1.jpg" alt="Microsoft Research at BUILD 2026 | abstract pattern on a purple background" />
-				</a>
-			</div>
-			
-			<div class="msr-promo__content p-3 px-5 col-12 col-md">
-
-									<h2 class="h4">Microsoft Research at BUILD 2026</h2>
-				
-								<p id="microsoft-research-at-build-2026" class="large">Giving developers a hands-on look at some of the many AI-based models and tools they can use to accelerate innovation, enhance their capabilities, and quickly transform ideas into prototypes.</p>
-				
-								<div class="wp-block-buttons justify-content-center justify-content-md-start">
-					<div class="wp-block-button">
-						<a href="https://www.microsoft.com/en-us/research/story/msr-at-build-2026/" aria-describedby="microsoft-research-at-build-2026" class="btn btn-brand glyph-append glyph-append-chevron-right" data-bi-cn="Microsoft Research at BUILD 2026" target="_blank">
-							Learn more						</a>
-					</div>
-				</div>
-							</div><!--/.msr-promo__content-->
-	</div><!--/.msr-promo__inner-wrap-->
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span>	</div><!--/.msr-promo-->
-	
 
 
 <h2 id="flint-interactive" class="wp-block-heading">Flint-interactive</h2>
@@ -3430,765 +4200,6 @@
 
 <p class="wp-block-paragraph">Thank you to our co-author Zhao Song for his contributions to this work, and <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://loop.usercontent.microsoft/?disableExtension=true&preview=true#" target="_blank" rel="noopener noreferrer">Victor Reis<span class="sr-only"> (opens in new tab)</span></a> and <a href="https://www.microsoft.com/en-us/research/people/ishai/">Ishai Menache</a> for helpful discussions throughout the project.&nbsp;</p>
 <span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/">Solving a 31-year-old grand challenge in mathematics – the KLS conjecture</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></content:encoded>
-					
-		
-		
-			</item>
-		<item>
-		<title>Called to serve: Tech, research, and positive impact</title>
-		<link>https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/</link>
-		
-		<dc:creator><![CDATA[Weishung Liu, Chris White]]></dc:creator>
-		<pubDate>Tue, 20 Oct 2026 16:00:00 +0000</pubDate>
-				<category><![CDATA[Microsoft Research Podcast]]></category>
-		<guid isPermaLink="false">https://www.microsoft.com/en-us/research/?p=1185073</guid>
-
-					<description><![CDATA[<p>Lab Director Chris White has worked on research challenges with real-world implications—from new approaches to wartime data analysis to tools for combating human trafficking. He talks to program manager Weishung Liu about the influences that led to the work and more.</p>
-<p>The post <a href="https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/">Called to serve: Tech, research, and positive impact</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
-]]></description>
-										<content:encoded><![CDATA[
-<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
-<iframe loading="lazy" title="Called to serve: Tech, research, and positive impact with Chris White" width="500" height="281" src="https://www.youtube-nocookie.com/embed/Ap71pyHK8c8?feature=oembed&#038;rel=0&#038;enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div></figure>
-
-
-<div class="wp-block-msr-podcast-container my-4">
-	<iframe loading="lazy" src="https://player.blubrry.com/?podcast_id=155325357&modern=1" class="podcast-player" frameborder="0" height="164px" width="100%" scrolling="no" title="Podcast Player"></iframe>
-</div>
-
-
-
-<p class="wp-block-paragraph">In the summer of 2010, postdoc <a href="https://www.microsoft.com/en-us/research/people/chwh/?msockid=254de47df4f967cf07e7f346f58f6643" target="_blank" rel="noreferrer noopener">Chris White</a> worked with a multidisciplinary team at the Defense Advanced Research Projects Agency, or DARPA, to determine if a new approach to data analysis could prevent violence and protect troops during the war in Afghanistan. At the conclusion of the program, the agency asked White to prove the value of his work—on the ground.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">In this episode, Principal Technical Program Manager <a href="https://www.microsoft.com/en-us/research/people/weisliu/?msockid=254de47df4f967cf07e7f346f58f6643" target="_blank" rel="noreferrer noopener">Weishung Liu</a> talks with White, director of Catalyst Lab at Microsoft Research, about his unexpected break from academic research to help lead advanced tech operations in Afghanistan and his later decision to again work on tech with immediate, real-world implications: dark-web search tools used to help combat human trafficking. Liu and White explore the influences that led to these experiences plus the important role of problem selection in innovation and remaining hopeful after seeing the darkest parts of humanity.&nbsp;</p>
-
-
-
-<div style="height:20px" aria-hidden="true" class="wp-block-spacer"></div>
-
-
-
-<section class="wp-block-msr-subscribe-to-podcast subscribe-to-podcast">
-	<div class="subscribe-to-podcast__inner border-top border-bottom border-width-2">
-		<h2 class="h5 subscribe-to-podcast__heading">
-			Subscribe to the <a href="https://www.microsoft.com/en-us/research/podcast">Microsoft Research Podcast</a>:		</h2>
-		<ul class="subscribe-to-podcast__list list-unstyled">
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://itunes.apple.com/us/podcast/microsoft-research-a-podcast/id1318021537?mt=2" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="black" viewBox="0 0 32 32">  <path d="M7.12 0c-3.937-0.011-7.131 3.183-7.12 7.12v17.76c-0.011 3.937 3.183 7.131 7.12 7.12h17.76c3.937 0.011 7.131-3.183 7.12-7.12v-17.76c0.011-3.937-3.183-7.131-7.12-7.12zM15.817 3.421c3.115 0 5.932 1.204 8.079 3.453 1.631 1.693 2.547 3.489 3.016 5.855 0.161 0.787 0.161 2.932 0.009 3.817-0.5 2.817-2.041 5.339-4.317 7.063-0.812 0.615-2.797 1.683-3.115 1.683-0.12 0-0.129-0.12-0.077-0.615 0.099-0.792 0.192-0.953 0.64-1.141 0.713-0.296 1.932-1.167 2.677-1.911 1.301-1.303 2.229-2.932 2.677-4.719 0.281-1.1 0.244-3.543-0.063-4.672-0.969-3.595-3.907-6.385-7.5-7.136-1.041-0.213-2.943-0.213-4 0-3.636 0.751-6.647 3.683-7.563 7.371-0.245 1.004-0.245 3.448 0 4.448 0.609 2.443 2.188 4.681 4.255 6.015 0.407 0.271 0.896 0.547 1.1 0.631 0.447 0.192 0.547 0.355 0.629 1.14 0.052 0.485 0.041 0.62-0.072 0.62-0.073 0-0.62-0.235-1.199-0.511l-0.052-0.041c-3.297-1.62-5.407-4.364-6.177-8.016-0.187-0.943-0.224-3.187-0.036-4.052 0.479-2.323 1.396-4.135 2.921-5.739 2.199-2.319 5.027-3.543 8.172-3.543zM16 7.172c0.541 0.005 1.068 0.052 1.473 0.14 3.715 0.828 6.344 4.543 5.833 8.229-0.203 1.489-0.713 2.709-1.619 3.844-0.448 0.573-1.537 1.532-1.729 1.532-0.032 0-0.063-0.365-0.063-0.803v-0.808l0.552-0.661c2.093-2.505 1.943-6.005-0.339-8.296-0.885-0.896-1.912-1.423-3.235-1.661-0.853-0.161-1.031-0.161-1.927-0.011-1.364 0.219-2.417 0.744-3.355 1.672-2.291 2.271-2.443 5.791-0.348 8.296l0.552 0.661v0.813c0 0.448-0.037 0.807-0.084 0.807-0.036 0-0.349-0.213-0.683-0.479l-0.047-0.016c-1.109-0.885-2.088-2.453-2.495-3.995-0.244-0.932-0.244-2.697 0.011-3.625 0.672-2.505 2.521-4.448 5.079-5.359 0.547-0.193 1.509-0.297 2.416-0.281zM15.823 11.156c0.417 0 0.828 0.084 1.131 0.24 0.645 0.339 1.183 0.989 1.385 1.677 0.62 2.104-1.609 3.948-3.631 3.005h-0.015c-0.953-0.443-1.464-1.276-1.475-2.36 0-0.979 0.541-1.828 1.484-2.328 0.297-0.156 0.709-0.235 1.125-0.235zM15.812 17.464c1.319-0.005 2.271 0.463 2.625 1.291 0.265 0.62 0.167 2.573-0.292 5.735-0.307 2.208-0.479 2.765-0.905 3.141-0.589 0.52-1.417 0.667-2.209 0.385h-0.004c-0.953-0.344-1.157-0.808-1.553-3.527-0.452-3.161-0.552-5.115-0.285-5.735 0.348-0.823 1.296-1.285 2.624-1.291z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Apple Podcasts</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://subscribebyemail.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.4 6a2.392 2.392 0 00-2.372 2.119L16 15.6l11.972-7.481A2.392 2.392 0 0025.6 6H6.4zM4 10.502V22.8a2.4 2.4 0 002.4 2.4h19.2a2.4 2.4 0 002.4-2.4V10.502l-11.365 7.102a1.2 1.2 0 01-1.27 0L4 10.502z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Email</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://subscribeonandroid.com/www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M12.414 4.02c-.062.012-.126.023-.18.06a.489.489 0 00-.12.675L13.149 6.3c-1.6.847-2.792 2.255-3.18 3.944h13.257c-.388-1.69-1.58-3.097-3.179-3.944l1.035-1.545a.489.489 0 00-.12-.675.492.492 0 00-.675.135l-1.14 1.68a7.423 7.423 0 00-2.55-.45c-.899 0-1.758.161-2.549.45l-1.14-1.68a.482.482 0 00-.494-.195zm1.545 3.824a.72.72 0 110 1.44.72.72 0 010-1.44zm5.278 0a.719.719 0 110 1.44.719.719 0 110-1.44zM8.44 11.204A1.44 1.44 0 007 12.644v6.718c0 .795.645 1.44 1.44 1.44.168 0 .33-.036.48-.09v-9.418a1.406 1.406 0 00-.48-.09zm1.44 0V21.76c0 .793.646 1.44 1.44 1.44h10.557c.793 0 1.44-.647 1.44-1.44V11.204H9.878zm14.876 0c-.169 0-.33.035-.48.09v9.418c.15.052.311.09.48.09a1.44 1.44 0 001.44-1.44v-6.719a1.44 1.44 0 00-1.44-1.44zM11.8 24.16v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84zm5.759 0v1.92a1.92 1.92 0 003.84 0v-1.92h-3.84z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Android</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://open.spotify.com/show/4ndjUXyL0hH1FXHgwIiTWU" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M16 4C9.383 4 4 9.383 4 16s5.383 12 12 12 12-5.383 12-12S22.617 4 16 4zm5.08 17.394a.781.781 0 01-1.086.217c-1.29-.86-3.477-1.434-5.303-1.434-1.937.002-3.389.477-3.403.482a.782.782 0 11-.494-1.484c.068-.023 1.71-.56 3.897-.562 1.826 0 4.365.492 6.171 1.696.36.24.457.725.217 1.085zm1.56-3.202a.895.895 0 01-1.234.286c-2.338-1.457-4.742-1.766-6.812-1.747-2.338.02-4.207.466-4.239.476a.895.895 0 11-.488-1.723c.145-.041 2.01-.5 4.564-.521 2.329-.02 5.23.318 7.923 1.995.419.26.547.814.286 1.234zm1.556-3.745a1.043 1.043 0 01-1.428.371c-2.725-1.6-6.039-1.94-8.339-1.942h-.033c-2.781 0-4.923.489-4.944.494a1.044 1.044 0 01-.474-2.031c.096-.023 2.385-.55 5.418-.55h.036c2.558.004 6.264.393 9.393 2.23.497.292.663.931.371 1.428z"/></svg>
-						<span class="subscribe-to-podcast__link-text">Spotify</span>
-					</a>
-				</li>
-			
-							<li class="subscribe-to-podcast__list-item">
-					<a class="subscribe-to-podcast__link" href="https://www.blubrry.com/feeds/microsoftresearch.xml" target="_blank" rel="noreferrer noopener">
-						<svg class="subscribe-to-podcast__svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32"><path fill="currentColor" d="M6.667 4a2.676 2.676 0 00-2.612 2.13v.003c-.036.172-.055.35-.055.534v18.666c0 .183.019.362.055.534v.003a2.676 2.676 0 002.076 2.075h.002c.172.036.35.055.534.055h18.666A2.676 2.676 0 0028 25.333V6.667a2.676 2.676 0 00-2.13-2.612h-.003A2.623 2.623 0 0025.333 4H6.667zM8 8h1.333C17.42 8 24 14.58 24 22.667V24h-2.667v-1.333c0-6.618-5.382-12-12-12H8V8zm0 5.333h1.333c5.146 0 9.334 4.188 9.334 9.334V24H16v-1.333A6.674 6.674 0 009.333 16H8v-2.667zM10 20a2 2 0 11-.001 4.001A2 2 0 0110 20z"/></svg>
-						<span class="subscribe-to-podcast__link-text">RSS Feed</span>
-					</a>
-				</li>
-					</ul>
-	</div>
-</section>
-
-
-<div class="wp-block-msr-show-more">
-	<div class="bg-neutral-100 p-5">
-		<div class="show-more-show-less">
-			<div>
-				<span>
-					
-
-<h2 id="transcript" class="wp-block-heading">Transcript&nbsp;</h2>
-
-
-
-<p class="wp-block-paragraph">[MUSIC]&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>CHRIS WHITE:</strong> I have seen a lot of really bad humanity. You know, I&#8217;ve seen terrorism and trafficking and sophisticated organized crime, you know, designed to take things from people. Designed to hurt people. And I just know that I can do something about it, you know, and that I have and that we can. And so I think that that light, you know, the light of making a difference, you know, allows me to hold and handle, you know, the dark parts.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">[THEME MUSIC]&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>STANDARD INTRODUCTION:</strong> This is the <em>Microsoft Research Podcast</em>, where Microsoft researchers—driving advancement through fundamental science and technology research—explore the who, how, and what’s next in computing and AI.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">[MUSIC ENDS]&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WEISHUNG LIU: </strong>Hi, and welcome. I&#8217;m Weishung Liu, a principal technical program manager here at Microsoft Research, and today I&#8217;m talking to Dr. Christopher White, who leads Microsoft Research&#8217;s <a href="https://www.microsoft.com/en-us/research/lab/catalyst-lab/?msockid=07e8b49d34ec68da07d8a3e635de6942" target="_blank" rel="noreferrer noopener">Catalyst Lab</a>.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">Chris has one of those careers that sounds almost made up: a Harvard postdoc, on-the-ground advanced tech lead during the war in Afghanistan, a DARPA program manager, a dark web search pioneer, and a public-good technologist. And his <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.popsci.com/man-who-lit-dark-web/" target="_blank" rel="noopener noreferrer">work has been featured in <em>Popular Science</em><span class="sr-only"> (opens in new tab)</span></a> as well as recognized with honors, including the <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.state.gov/presidential-award-for-extraordinary-efforts-to-combat-trafficking-in-persons/" target="_blank" rel="noopener noreferrer">2016 Presidential Award for Extraordinary Efforts to Combat Trafficking in Persons<span class="sr-only"> (opens in new tab)</span></a>.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">But what I&#8217;m most interested in today is the person behind that résumé. How someone who has seen some of the worst as part of his work still comes to the office with a smile and a commitment to building tools that make the world better.&nbsp;</p>
-
-
-
-				</span>
-				<span id="show-more-show-less-toggle-4" class="show-more-show-less-toggleable-content">
-					
-
-
-
-<p class="wp-block-paragraph">Chris, thanks for joining me.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Thanks for having me, Wei. Nice to see you.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> Yeah, good to see you, too. And so let&#8217;s get started. So I&#8217;ve known you for, I think, maybe around five or maybe six years, and now I work with you in Catalyst Lab. I love your story, and when I tell people about you, I say that you lead the newly formed Cat Lab, or Catalyst Lab, in Microsoft Research, you were a senior executive at DARPA, and you are married to an incredibly accomplished woman and scholar. And I personally think that your life story would make a very watchable Hollywood film. So when you tell your own story, though, where do <em>you</em> start?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Well, you start from where you are. And where I am today is leading research at Microsoft during a period of great fear and hope about changing technology and society.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> But, like, that&#8217;s now. There&#8217;s clearly lots of time from now into before, you know, the before times. So, like, tell me a little bit about the before times. Like, where were you at—I think you grew up in Oklahoma maybe. Tell me about that. Tell me about Chris White, the child.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Well, I was nerdy. I was a nerdy Eagle Scout. [LAUGHTER] I liked to build my own computers and have local area network [LAN] parties with my friends. But I also really liked being outside. I liked being in nature and camping and rock climbing. Those were all important to me.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> OK, you mentioned LAN parties. Tell me about … what did we play with our friends?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Well, you know, we played everything. I preferred playing sports games, but I lost a lot of the other ones.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> [LAUGHS] Wait, so you played like LAN party sports games, like, in basements? Like, with your … were we all in the same … ?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Yeah. Attics. It was attics. Yeah, not basements. [LAUGHTER] Mm-hmm. Yeah. Everybody had to bring their own computer or bring their own Ethernet cable. And the more that you had your own machine that was higher powered, the better you were going to play.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> So did you have the best machine?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> I had the best machine. I <em>built</em> the best machine. Until someone built a better machine. But it was the best for a while.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">And I had a budget for it. And my family didn&#8217;t understand that the budget also included two giant speakers, like the size of a computer tower, like subwoofer speakers. They didn&#8217;t know that was part of the computer building process. But it turns out that excellent audio-visual is a critical part of a well-functioning machine.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> I love it. But, OK, we&#8217;re going to focus a little bit … <em>continue</em> focusing on childhood. So you mentioned nerdy kid, which means—I&#8217;m going to generalize here—debate team or math competition team or chess team?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Oh, it was the debate team. Yeah. Debate was a really wonderful activity. It taught me how to understand many sides of an issue and taught me how to think about evidence and research in that way.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> So, Chris, take me back again. Like, we&#8217;re talking a little bit about Oklahoma, and, you know, at some point, you chose researcher. Like, I—for example—when I was a kid, I was convinced I would be an architect. I am not an architect as you can see. But did you always think you were going to be a researcher? Was there an epiphany there? Like … or was it always kind of like a slow hunch that you were going to pursue research as a career?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Yeah, I kind of always felt like it. You know, as I was applying for school, those were the kinds of jobs I was interested in. You know, the kinds of things that you do, you know, once you finish degrees that have research in them. Those were the people, when I visited their work, I was inspired by. The people that were discovering, you know, that were inventing, that were innovating, that were … they&#8217;re pushing the boundaries that were kind of in that unknown, you know, space and making sense of it.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">And so I&#8217;ve always had that curiosity, you know, and that approach to discovery. And so as I increased my education, it just changed the nature of what research meant and the ways in which I imagined that process evolving.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> Was a doctorate always on the cards then? Or did that come, like, as you were in college and then gradually learned and thought, you know, I could keep going?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Yeah, you know, I didn&#8217;t know about doctorates really when I went to college. I wasn&#8217;t as familiar with higher education. And so I knew that I wanted, you know, advanced degrees. And I knew that I wanted more than was being taught in the undergraduate level. But I didn&#8217;t know, you know, for example, that when you apply to PhD programs, that often you get paid to go. You know, you get admitted and you get<strong> </strong>a stipend.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">You know, I was familiar with law and medicine and that you take out loans and you have to do it this way. And so for me, it was a surprise to know that I could apply to PhD programs directly from college. And from then, I just really was excited, you know, that I could explore different universities and different areas of focus and build on, you know, strong technical foundations of math and science and physics.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">And it was really amazing mentors that helped me and opened doors and inspired me. You know, mentors at Oklahoma State University, Johns Hopkins, and Harvard, really people that took their time and helped me. I&#8217;m really grateful for my teachers.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> So let&#8217;s talk about your first mentor of your life, and I&#8217;m going to assume … <em>Dad</em>?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Yeah, Dad’s a big influence.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> OK, Dad&#8217;s a big influence. And so we&#8217;re going to, I&#8217;m going to go down this path. So&nbsp;Catalyst Lab landed a huge commitment from our executive, kind of, leadership team on a project that has been, I think, like a decade in the making. And then … so we all, I know we all came together on a call. We&#8217;re like, “Wow, let&#8217;s debrief. Let&#8217;s talk about it.” Like, oh, energy&#8217;s up. And then at the very end of the meeting, you said, “OK, now I&#8217;m going to go clean some toilets.”&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> [LAUGHS] Mm-hmm. Mm-hmm.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> And I think all of us kind of thought, like, wha-what does that mean? So before we get kind of more into the specifics of mentorship and the, like, follow-on in your career, what— <em>please tell me</em>—does cleaning toilets have to do with success?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Well, you know, like I said, Dad&#8217;s a big influence, and he taught me so many things, and he taught me about respecting people. And most importantly, he taught me about humility and service. And so his way of making sure I understood that was every time something really good happened to me, he&#8217;d remind me to go clean some toilets and, sort of, embody that. And so I did. I did it last weekend actually. I went to a community event and volunteered to do bathroom clean.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> Is this like … are you … so in, like, the household chores, are you, like, the bathroom cleaner? Like, is this just always your job when we&#8217;re dividing up chores in the house?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> No, no, no. We trade off, and also we have a complicated household, and so we have a lot of help that also helps with cleaning. And so this is something that I choose to do, especially if I can do it in a community context, because it again reminds me, you know, about humility and about service and of respect for other people and other jobs.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> So I think this … there&#8217;s some Eagle Scout vibes that I&#8217;m getting from here, as well, based on sort of humility and service. What is the Boy Scout badge you are most proud of?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Oh, that&#8217;s really hard. Each badge is something that you earn, including the Eagle Scout badge. And the Eagle Scout badge for me was maybe the most difficult to earn because it requires an Eagle project. And I was really close to my Eagle project. I was, I was … had it set up and it was ready to go. And it was in this church in downtown Oklahoma City in 1995. And right as I was about to do this project, <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.britannica.com/event/Oklahoma-City-bombing" target="_blank" rel="noopener noreferrer">the Murrah Building blew up in a terrorist incident<span class="sr-only"> (opens in new tab)</span></a>, …&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> Whoa.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> … and it blew up part of the church. And, therefore, my Eagle project was not realistic, and it was not a priority, and it got shelved. And it took me several years after that to then come back to plan and execute an ambitious Eagle project right before I turned 18. And so that badge, …&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> Wow.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> … you know, completing the project, overcoming significant setbacks, including being a teenager and having other interests, to come through and finish it, I&#8217;m really proud of finishing it.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> That&#8217;s awesome. So you … so that was, so there were a few years then in between when you ideated, had the idea for the project, and then … I appreciate the story around resilience because of when you completed the project. Like, what is the biggest takeaway that you took from there? Like what is that big lesson? You turned 18, you finished it, you celebrate. Actually, you know, maybe I&#8217;ll ask you, how did you celebrate?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Oh, with my family. You know, the Boy Scouts is a long process. It&#8217;s many years, many kinds of roles, many kinds of learning, and to finish it—I finished it with another of my fellow scouts that had been together for a long time. And so our families, we had a ceremony, and it was something we could celebrate. And every time I think about it, I think about the things that you keep repeating when you attend the scout things, like the motto, “being prepared,” and the, kind of, laws about being respectful and courteous. And those are things that continue to be, you know, principles that influence my priorities and also inspire me and help me in my job.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> Before we get to your job then, we&#8217;re going to talk about this interim period where I&#8217;ll just say you chose to go to war and a few other things in between. Let&#8217;s jump to 2010, when you joined DARPA, which is the Defense Advanced Research Projects Agency, within the Department of War. And then, I think, very quickly afterwards you were sent to Afghanistan to help implement a new approach to wartime analysis. And then … but <em>before</em> that, I think you were a Harvard postdoc, and you had actually mentioned it was a mentor who encouraged you to attend a meeting with DARPA that resulted in this course change.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">And so now I&#8217;m super curious, how did this conversation happen where you were, you know, promising Harvard postdoc, which became a mentor going, “Hey, there&#8217;s something happening. You should go attend.” Like, what happened there?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Yeah. DARPA invests taxpayer money, and they have <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://hbr.org/2013/10/special-forces-innovation-how-darpa-attacks-problems" target="_blank" rel="noopener noreferrer">a record of really creating innovations, massive innovations<span class="sr-only"> (opens in new tab)</span></a>. You know, the internet, GPS, stealth, UAVs. And at the time, there was different ways of building programs, and one of the kind of tested ways was to bring together different fields of expertise.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">And so we were in wartime in Afghanistan. DARPA was not involved very much. And there was a question: you know, could we bring together social scientists with math people, computer science and defense experts, and together could they help us make sense of what&#8217;s happening in the data? Could that be useful to prevent violence and to protect our soldiers? And it was an experiment because it required all these different areas of expertise coming together—from sensors through analysis through social behavior—and a culture change. And so the summer was a Skunk Works to understand, was there something to contribute?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">And at the end of it, they asked me, they said, “Well, you know, do you believe in your work?” And I was like, “Yeah.” You know, like, “Well, do you … can you prove it? You know, can you go see if it can help protect our soldiers and help prevent violence?” And so they asked me to be of service, and I said yeah.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">And it was something that I was really unprepared for. I was supposed to go for nine days the first time, and on the third day, I got a battlefield promotion and was put in charge and then ended up staying for 90 days and then went back a few times after that even. And so, you know, our work was towards … oriented towards protecting, you know, soldiers and toward preventing violence and using AI and advanced technology to do that. And it was a, really, a big opportunity.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> So you attended a meeting, you contributed some work, and then, you know, “Do you believe in your work? Prove it.” What was the time frame between, you know, like, showing up at meeting, participating in some of the research before, like, “prove it”? Was it years, or was it months?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> The … no, no, the … so the Skunk Works was a summer. It was like, you know, 40 days of, kind of, like focused effort. But at the end of it, I was expecting to go back to Harvard and continue my postdoc. But instead, you know, they sat us down; they said, “Look, you know, we think this can make a difference. You know, do you think so?” And when I said yeah, from then to getting over there was like a week. It was an extremely fast &#8230;&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> What?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> … turnaround. It was extremely urgent and, you know, unexpected.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> OK, so, like, how … so you said, yes, like I believe in my work. They gave you … they essentially said, OK, then go next week. And how, how does somebody prepare for an experience like that? If you can even prepare.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Yeah, I don&#8217;t know. You know, this was an experiment. You know, <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://ogc.osd.mil/Portals/99/testDugan03012011.pdf" target="_blank" rel="noopener noreferrer">sending researchers—even having a presence from DARPA—in the war zone,<span class="sr-only"> (opens in new tab)</span></a> it was new. And the idea was there could be a difference made because technology was advancing quickly. And that meant that many of the mechanisms in place for other ways of getting prepared were not available. And there was a bunch of training, like crash courses in training on what to do in certain situations, how things work, you know, how to handle yourself in different ways. But it was … it was very brief.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">And so there wasn&#8217;t a lot of preparation because also we were planning to be there for nine days. But because there was an opportunity to do something good, that extended, and there was a lot of learning on the job and a lot of support in theater, a lot of people really willing to help us because we were helping them.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> So, OK, so you talked about lots of people there, lots of people supporting. I&#8217;m not going to focus too much on your time in Afghanistan because that was covered really well in a<em> Popular Science</em> article. But I do have to ask, can you tell me the origin story of the nickname Dr. Spaghetti Man?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> [LAUGHS] Sure. Sure. You know, I&#8217;m a long-time yoga practitioner. You know, 20-plus years. It&#8217;s how I keep myself calibrated. And in Kabul, I was practicing yoga in the gym, and all these people were staring at me. You know, they were staring at me before their … they had a class; they had, like, a combatives class, a kind of different judo-mixed-martial-arts class.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">And, you know, I had a little bit of training, and so after a couple of times, I decided I&#8217;d just join in. And I joined in, and I won a lot. I won a lot of the matches. And one of the matches I won, turns out, it was against the Marine who was guarding the entrance to the building I was working in across the headquarters. And he told everyone. He told everyone, you know, that this, like, lanky spaghetti guy, you know, like, got out of things and beat him, and he did it in such a way that everyone in the building knew. And so I got all this respect, and I got that cool nickname.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> Did other folks challenge you as a result of this Marine telling your story?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> I mean, everyone that came to that class was game, you know. And I didn&#8217;t, you know,<strong> </strong>I couldn&#8217;t beat everybody, but I held my own, and that was really surprising to a lot of people. And again, once you establish yourself in different ways, you know, there is a lot of respect and, um, camaraderie.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> So, you know, tell me, what did that whole experience teach you about, like, a life lived, and how do those lessons show up in your work today, including the, you know, <em>Spaghetti Man</em> experience?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> You know, the whole thing, it taught me about, you know, service and what it means to serve, and it taught me about the reality of both peace and violence in the world. And that continued to motivate me to make a difference.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> After your time in Afghanistan, you continued on with DARPA as a program manager, and in that role, you developed <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.darpa.mil/research/programs/memex" target="_blank" rel="noopener noreferrer">Memex<span class="sr-only"> (opens in new tab)</span></a>, which I believe is a set of tools that could be mixed and matched to help uncover some really shady and dark parts of the web, which from what I understand was really hard to do up until that point.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">I think this work also is what helped you … what you received your 2016 presidential award on. And, you know, like, can you … how do you explain the Memex project and this dark web work to someone outside tech? And what about this project inspired or appealed to you to even pursue it?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Yeah, well, the inspiration started when I was overseas because I saw the benefit of evidence when it came to stopping bad things from happening and prosecuting them. And coming back to the US, I saw more and more opportunities where collecting evidence at large scale was a really useful mechanism. And so, you know, people think of search engines a lot, and search engines are a great tool for finding something, but when you need to connect the dots, there wasn&#8217;t a great tool that could work at the scale of the web and connect the dots, especially some of the dots being in difficult places that were not very visible.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">And so by <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.youtube.com/watch?v=9QsjkJcUznA&t=1s" target="_blank" rel="noopener noreferrer">creating a technology that would connect the dots across parts of the internet<span class="sr-only"> (opens in new tab)</span></a>, it allowed the prosecution of these kinds of really awful [trafficking] crimes, and so for example, in New York City, it allowed them to increase their prosecutions by 10 times because it gave them new evidence and different kinds of evidence than they had before, and they could use that in a way to really deal with the issue differently.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> OK, from what I understand, the dark web is a pretty—<em>ha-ha—</em>dark place, [LAUGHS] and so, like, you&#8217;ve worked in some very dark spaces and close to some very dark uses of the technology. So, like, how again, like, you and I interact a lot, and so it&#8217;s always curious to me, how has that not made you cynical and how do you stay hopeful?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> You know, I think what it&#8217;s done is it&#8217;s really increased my motivation. You know, my motivation to make a contribution. You know, my motivation to stay aware and be realistic. And by being realistic and motivated to address some of these very challenging issues, you know, around violence, around harm, and instead to focus on empowerment and to focus on justice, it gave me something to do.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">And so I have seen a lot of really bad humanity, you know. I&#8217;ve seen terrorism and trafficking and sophisticated organized crime, you know, designed to take things from people. Designed to hurt people. And I just know that I can do something about it, you know, and that I have and that we can. And so it&#8217;s really been inspiring to, you know, for example, come to Microsoft, where there is a mission of empowerment and there is that perspective that technology can make a difference. And so I think that light, you know, the light of making a difference, you know, allows me to hold and handle, you know, the dark parts.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> I mean, that&#8217;s a very powerful message, right? Because even with the darkest parts of humanity, there is light, or, you know, you cannot have darkness without light, as well.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">I think there may have been a <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.cbsnews.com/news/darpa-dan-kaufman-internet-security-60-minutes/" target="_blank" rel="noopener noreferrer"><em>60 Minutes </em>interview<span class="sr-only"> (opens in new tab)</span></a> that included a short snippet of you talking about your work, and you had shared with me that—which, by the way, I cannot find the <em>60 Minutes</em> episode, and I desperately want to. But, you know, I heard perhaps through you, Chris, that that <em>60 Minutes</em> episode actually contributed to you coming to Microsoft maybe or, you know, getting a job at Microsoft, and that made me curious. Like, after some really incredible experiences, after all of that, why did you choose Microsoft?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Oh, it was a … it was a really good choice. And at the time, I had a lot of options, and I was looking around, and this mix of the mission of the company—this mission of empowering everyone—and the scope of the company, you know, being, you know, IT for the world, you know, platforms and infrastructure for the world, and my confidence in its leader. You know, the CEO was part of my interview process. And, you know, that together gave me, you know, this perspective that I could do something here. You know, that there … I could start to envision moving from, you know, for example, very high-powered, expensive lasers to table knives. They both cut, and the world needs both of them.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> One of the things that you talk a lot about is problem selection. And I think sometimes that also gets referred to as taste these days. So how do you think about problem selection in Microsoft Research, in Catalyst Lab, given the breadth of what Microsoft does?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Oh, I think it&#8217;s just the most important part of research. You know, it&#8217;s the place where the angle of the whole thing changes, and it allows you to start to imagine a different future, you know, or to work backward from that future that you want to see and see what you can do to contribute to it now. And the amazing thing about Microsoft Research is there&#8217;s tremendous freedom, and so there&#8217;s tremendous creativity in problem selection.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">And it&#8217;s the kind of thing where you have that latitude to go from idea to evidence to this potential for growth and thriving and along the way get feedback about value and usability and benefit or policy or adaptability, integration. And so its scope provides so many vehicles for growth and utility of advanced research ideas.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">And its mission, you know, allows the focus of those to address absolutely critical problems. You know, problems of, you know, impending security challenges due to AI, problems of advanced, you know, memory and storage; it allows for, you know, personalization automation, just, you know, for example. And I think that this mix of freedom combined with responsibility and mechanisms, you know, to prove out and demonstrate value, that that combination is just really remarkable and it really motivates me to take the opportunity seriously.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> So it&#8217;s almost going to be like asking you about your favorite kids now. What are some, what are some accomplishments in Microsoft Research or Catalyst Lab that you are particularly proud of?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Oh, you know, I think that, you know, right now, for example—again, focusing on kind of where we are—I think that we have a real opportunity to contribute something in the cyber defense space. I think our <a href="https://www.microsoft.com/en-us/research/blog/project-ire-autonomously-identifies-malware-at-scale/" target="_blank" rel="noreferrer noopener">work on security and AI and hacking</a>, it&#8217;s really in, you know, based on such a deep expertise and also based on, you know, people with a lot of experience, and I think it&#8217;s growing in need, you know, the <a href="https://www.microsoft.com/en-us/research/blog/toward-trusted-sensing-for-the-cloud-introducing-project-freta/" target="_blank" rel="noreferrer noopener">need to protect our digital infrastructure</a>, the need to deter and interdict people that would like to break systems or cause harm, that&#8217;s really growing right now. And so being able to show up in a way that creates breakthrough that can scale with relevance to address that growing need, it&#8217;s really something that&#8217;s, you know, awesome to me.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">And also I think that again kind of extending from the, sort of, Memex conversation, where we&#8217;re trying to connect the dots, you know, these days, <a href="https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/" target="_blank" rel="noreferrer noopener">trying to analyze lots of content as part of being more efficient</a>, as part of being more creative, as part of being more capable, you know, using tools to augment that human taste and creativity and ingenuity, that&#8217;s really never been as powerful as it is before and continues to grow. And so I think making contributions in these areas, you know, where we have state-of-the-art technology and we&#8217;re creating changes in the way systems are getting built and used, to me, it shows that, you know, despite the fast pace of change and despite the extreme competitiveness in the technology sector, that specialized expertise with good problem selection and an environment to grow and get feedback can create the kind of breakthroughs that matter. And so I really like that.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">Maybe to give one more example from the past––just maybe something emblematic of the group and some of my predecessors––was this underwater datacenter called <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://natick.research.microsoft.com/" target="_blank" rel="noopener noreferrer">Project Natick<span class="sr-only"> (opens in new tab)</span></a>, [LAUGHTER] where this experiment, you know, put a datacenter in a submersible on the bottom of the ocean connected to a wind farm, and it tested this design about, could you build something that didn&#8217;t require human intervention? Could it be more efficient with power? Could it be more efficient with heat?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">And the program manager that created that is one of the best I&#8217;ve ever worked with. And it just performed incredibly well as this huge surprise, and it led to us being, you know, named <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.fastcompany.com/90627919/from-ai-powered-mosquito-traps-to-underwater-data-centers-how-microsoft-is-innovating-for-good" target="_blank" rel="noopener noreferrer">the most innovative company [World Changing Company of the Year] in 2021<span class="sr-only"> (opens in new tab)</span></a> <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://en.wikipedia.org/wiki/Project_Natick" target="_blank" rel="noopener noreferrer">and other awards<span class="sr-only"> (opens in new tab)</span></a>. And it&#8217;s just an example of really out-there thinking, imagining a world that had challenges with water access and power access and land but where we need, you know, computation and data storage and technical capability available.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">So a little bit out there, but I really … I feel like we have to be imagining these different futures. We have to be radical in that way so that we can start to work back and make contributions now.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> I love the Natick example because I feel like Natick is the gift that keeps on giving. And, you know, if I can digress for a minute, I remember that I think <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.tiktok.com/@microsoft/video/7096922345968897322" target="_blank" rel="noopener noreferrer">one of the first TikTok videos that the Microsoft account posted was of Natick<span class="sr-only"> (opens in new tab)</span></a><a href="#_ftn1" id="_ftnref1">[1]</a>, but it was using, like, a meme at the time which had, like, human eyes and a mouth being lowered into, uh, and it was of Natick being lowered into the ocean, including like a Clippy, like a real-life Clippy swimming across the … it was … I still love that video for reasons why I don&#8217;t understand. [LAUGHTER] But if you haven&#8217;t seen it, highly recommend. Maybe we can link it [LAUGHS] if the video still exists.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Definitely. Look, look, one of the highlights was the fish cam.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> Yes!&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE: </strong>You know, people were concerned that it might disrupt the marine ecosystem. And we did a lot of preparation and study for that. And just to be sure, we put cameras and watched it happen.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> Yep.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE: </strong>And all these fish kept coming around and making it home. And there was, like, computer vision that was analyzing which fishes and their movement, and it became like an always-on thing that people would just tune in to online to watch the fish.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> There was a seal. There was a seal. There were a couple seals that came by, …&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE: </strong>Yeah.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> … too, which, yeah, I remember that. That&#8217;s really cool. Thanks for sharing.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Yeah, so you have to go not just out of the box but out of the datacenter.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> [LAUGHS] Oh no. All right. All right.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">So, Chris, before letting you go, it would be a missed opportunity if I did not ask you to share some practical advice and reflections given the breadth of your experience and lessons that you learned. So I&#8217;m going to do … maybe it doesn&#8217;t have to be a super-fast lightning round, but it&#8217;s going to be a lightning round of a couple of questions.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Sure.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> All right. One, what is the advice that you have received in your life that blew your mind or changed your perspective?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> You’ve got to look out for the right place and the right time with the right people because it takes all those things to come together for magic to happen and to make a difference.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> OK, I&#8217;m going to have to ask. This is not … I&#8217;m breaking my own lightning round. How do you know? Like, how do you know if it&#8217;s the right place or the right time or the right people?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> The universe gives a lot of feedback. You know, it&#8217;s something that with good listening, you can hear.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> What did … what did the universe tell you?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Told me to marry my wife.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> [LAUGHS] Ohhhh. Good choice. Good universe. Good universe. OK, next.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Yeah. Told me to have my kids. Absolutely.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> All right, next. Lesson you learned the hard way or the misstep that humbled you?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> I’ve got to slow down. My tendency is to push too fast and too hard, and that can really lead to problems. And slowing down, it doesn&#8217;t in the end slow everything down. It just actually makes it just right and just enough.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> What&#8217;s an example of slow down?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Well, you know, I think there’s slowing down in making decisions, especially about people, compared to other kinds of decisions. Or even in my yoga practice. Slowing down the way that I use my body so that it can be healthy and strong for a long time.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> I do believe that one of your … the advice that you often give us in Cat Lab is take a vacation.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Absolutely.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU: </strong>So slow down definitely fits that.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Get some perspective.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> So next question: talent or accomplishment you&#8217;re most proud of if given the chance to brag. And you have stated humility many times, and I&#8217;m going to ask you to just turn that bit off for a little bit and brag a little bit instead.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Mm-hmm. Well, I think it would be putting my leg behind my head and saying [LAUGHTER] the alphabet backwards while playing a percussion instrument.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> Hold on. Like, this is for realsies, and this is, like, this is not an AI-generated statement …&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> No.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> … or prompt? This is … And you&#8217;ve done this before?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> I have. I&#8217;ve done it in a leadership offsite.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> [LAUGHS] You did not.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> I did.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> I am going to need to ask some of our colleagues about that particular experience, but there was a percussion instrument?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Yeah. There was. But, you know, all kidding aside, you know, the 2016 presidential medal, you know, being able to make such a difference in a way for so many people that were affected and to also change the way technology was used from the data collection evidence, you know, through judicial proceedings, that process and arc, you know, is definitely something I&#8217;m extremely proud of, was extremely difficult, and I would definitely go for it again.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> I love it. OK, I love asking this one. You know I&#8217;ve asked people this a lot. Career path you would have chosen if you did not become a researcher—and you&#8217;re not allowed to say yoga teacher.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> [LAUGHS] No, I would just be a different kind of researcher.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> No!&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Yeah, definitely. Yeah.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> Really? OK, so if not an AI or computer science researcher, what else would we be researching?&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Oh, the brain. You know, the …&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> OK, how about a non-STEM research topic? [LAUGHS]&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Anthropology.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> OK, OK, fine. So, like, no, there&#8217;s no scenario where research is not in the picture.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> No, it just seems to be part of me, you know, part of my drive, you know, part of what gives me energy, keeps me motivated and curious. And this, you know, frontier, it allows that evolution to keep unfolding.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> OK. All right. Good to know. So not yoga teacher. Always some form of research.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Well, I mean, yoga teacher is a kind of researcher into the universe.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> What?! [LAUGHS]</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> You know, it&#8217;s a researcher into the states of consciousness and being. Into the alignment between the mind and the body. It&#8217;s full of research. Full of personal research.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> This is why I believe when once upon a time at a leadership offsite you were asked to prompt AI to demonstrate, to build, like, a mascot for you, and I think that mascot was also doing yoga.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> It was. I asked my … I asked one of my copilots to generate a picture of me based on everything it knows, and it created a cat doing yoga.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> [LAUGHS] I love it. OK, so lastly, and this is less “lightning round” and more like “take your time.” What would you like listeners of this podcast to take away from this conversation? You know, about you, about professional life, about research, about making … or maybe even just making choices.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> You know, I think it&#8217;s about the power of adaptability and the diversity of experience. You know, it&#8217;s about being open to what wants to happen, what needs to happen. You know, being open, called to serve, willingness to change.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>LIU:</strong> I like that.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">So thank you, Chris—<em>Dr.</em> White—for joining me, and to our audience, thank you for listening.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>WHITE:</strong> Thanks, Wei.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">[MUSIC]&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph"><strong>STANDARD OUTRO:</strong> You’ve been listening to the Microsoft Research Podcast. Check out more episodes of the podcast at <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="http://aka.ms/researchpodcast" target="_blank" rel="noopener noreferrer">aka.ms/researchpodcast<span class="sr-only"> (opens in new tab)</span></a> or on YouTube and major podcast platforms.&nbsp;</p>
-
-
-
-<p class="wp-block-paragraph">[MUSIC ENDS]&nbsp;</p>
-
-				</span>
-			</div>
-			<button
-				class="action-trigger glyph-prepend mt-2 mb-0 show-more-show-less-toggle"
-				aria-expanded="false"
-				data-show-less-text="Show less"
-				type="button"
-				aria-controls="show-more-show-less-toggle-4"
-				aria-label="Show more content"
-				data-alternate-aria-label="Show less content">
-				Show more			</button>
-		</div>
-	</div>
-</div>
-
-
-
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<p class="wp-block-paragraph"><a href="#_ftnref1" id="_ftn1">[1]</a> The <a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.tiktok.com/@microsoft/video/7096922345968897322" target="_blank" rel="noopener noreferrer">Project Natick video<span class="sr-only"> (opens in new tab)</span></a> was one of the Microsoft account’s early TikTok videos, posted on May 12, 2022, about four months after the account&#8217;s launch.</p>
-
-
-
-<div class="wp-block-group msr-pattern-link-list is-layout-flow wp-block-group-is-layout-flow">
-<hr class="wp-block-separator has-alpha-channel-opacity"/>
-
-
-
-<h2 id="learn-more-1" class="wp-block-heading h5">Learn more:</h2>
-
-
-
-<ul class="wp-block-list list-unstyled">
-<li><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.geekwire.com/2021/microsoft-researcher-chris-white-digs-dark-web-aims-build-societal-resilience-tech/" target="_blank" rel="noopener noreferrer">An engineer&#8217;s journey from fighting crime on the dark web to leading &#8216;societal resilience&#8217; at Microsoft<span class="sr-only"> (opens in new tab)</span></a><br>GeekWire | September 2021</li>
-
-
-
-<li><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.popsci.com/man-who-lit-dark-web/" target="_blank" rel="noopener noreferrer">The Man Who Lit the Dark Web<span class="sr-only"> (opens in new tab)</span></a><br><em>Popular Science</em> | August 2016</li>
-
-
-
-<li><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.youtube.com/watch?v=9QsjkJcUznA&t=1s" target="_blank" rel="noopener noreferrer">Fighting the &#8220;Dark Web&#8221;<span class="sr-only"> (opens in new tab)</span></a><br>TEDx Talks | April 2015</li>
-
-
-
-<li><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://hbr.org/2013/10/special-forces-innovation-how-darpa-attacks-problems" target="_blank" rel="noopener noreferrer">“Special Forces” Innovation: How DARPA Attacks Problems<span class="sr-only"> (opens in new tab)</span></a><br>Harvard Business Review | October 2013</li>
-
-
-
-<li><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://ogc.osd.mil/Portals/99/testDugan03012011.pdf" target="_blank" rel="noopener noreferrer">DARPA Congressional Testimony<span class="sr-only"> (opens in new tab)</span></a><br>Dr. Regina E. Dugan | March 2011</li>
-
-
-
-<li><a href="https://www.microsoft.com/en-us/research/lab/catalyst-lab/?msockid=07e8b49d34ec68da07d8a3e635de6942" target="_blank" rel="noreferrer noopener">Catalyst Lab</a><br>Homepage</li>
-
-
-
-<li><a class="msr-external-link glyph-append glyph-append-open-in-new-tab glyph-append-xsmall" href="https://www.darpa.mil/research/programs/memex" target="_blank" rel="noopener noreferrer">Memex<span class="sr-only"> (opens in new tab)</span></a><br>Homepage | DARPA</li>
-</ul>
-</div>
-<span id="label-external-link" class="sr-only" aria-hidden="true">Opens in a new tab</span><p>The post <a href="https://www.microsoft.com/en-us/research/podcast/called-to-serve-tech-research-and-positive-impact-with-chris-white/">Called to serve: Tech, research, and positive impact</a> appeared first on <a href="https://www.microsoft.com/en-us/research">Microsoft Research</a>.</p>
 ]]></content:encoded>
 					
 		

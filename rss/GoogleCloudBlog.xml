@@ -6,12 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 18 Nov 2026 07:03:13 +0000</lastBuildDate>
-    <item>
-      <title>New AI agent observability and governance across BigQuery and Looker</title>
-      <link>https://cloud.google.com/blog/products/data-analytics/enterprise-ai-agent-observability-with-bigquery-and-looker</link>
-      <description>Data AnalyticsNew AI agent observability and governance across BigQuery and LookerBy Kate Grinevskaja • 7-minute read</description>
-    </item>
+    <lastBuildDate>Thu, 19 Nov 2026 07:03:34 +0000</lastBuildDate>
     <item>
       <title>From OLAP to OLTP: How Copel Simplified Reverse ETL Using BigQuery's Native Export to AlloyDB</title>
       <link>https://cloud.google.com/blog/products/data-analytics/reverse-etl-bigquery-exports-to-alloydb</link>
@@ -28,11 +23,6 @@
       <description>Security &amp; IdentityHow ISVs are unlocking European workloads using Google Cloud Dedicated technologyBy Mattia Tocco • 9-minute read</description>
     </item>
     <item>
-      <title>GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold</title>
-      <link>https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold</link>
-      <description>Threat IntelligenceGTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant ThresholdBy Google Threat Intelligence Group  • 32-minute read</description>
-    </item>
-    <item>
       <title>Building Sovereign AI in Europe, With Europe: Our New Startup Accelerator</title>
       <link>https://cloud.google.com/blog/topics/startups/sovereign-ai-on-your-terms-our-new-startup-accelerator-is-open</link>
       <description>StartupsBuilding Sovereign AI in Europe, With Europe: Our New Startup AcceleratorBy Giorgia Abeltino • 4-minute read</description>
@@ -40,7 +30,7 @@
     <item>
       <title>COLD RELIC: A Case Study in Impersonation and Compromise</title>
       <link>https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise</link>
-      <description>Threat IntelligenceCOLD RELIC: A Case Study in Impersonation and CompromiseBy Google Threat Intelligence Group  • 14-minute read</description>
+      <description>Threat IntelligenceCOLD RELIC: A Case Study in Impersonation and CompromiseBy Google Threat Intelligence Group  • 15-minute read</description>
     </item>
     <item>
       <title>The visual evolution of Looker: Modern design for enterprise data storytelling</title>
@@ -53,9 +43,19 @@
       <description>PartnersCongratulations to our 2026 Google Cloud Partner All-starsBy Kevin Ichhpurani • 2-minute read</description>
     </item>
     <item>
-      <title>How to Build Durable Agentic Systems with Google Antigravity: From Instructions to Loops</title>
-      <link>https://cloud.google.com/blog/topics/developers-practitioners/how-to-build-durable-agentic-systems-with-google-antigravity-from-instructions-to-loops</link>
-      <description>Developers &amp; PractitionersHow to Build Durable Agentic Systems with Google Antigravity: From Instructions to LoopsBy Alex Astrum • 14-minute read</description>
+      <title>Building an agentic stack in Envoy: routing models, tokens, and MCP</title>
+      <link>https://cloud.google.com/blog/products/networking/the-envoy-agentic-stack-routing-models-tokens-and-mcp</link>
+      <description>NetworkingBuilding an agentic stack in Envoy: routing models, tokens, and MCPBy Abhi Maras • 8-minute read</description>
+    </item>
+    <item>
+      <title>EMEA startups building the next-generation of agents on Google Cloud</title>
+      <link>https://cloud.google.com/blog/topics/startups/google-cloud-highlights-emea-startup-momentum-at-slush-2026</link>
+      <description>StartupsEMEA startups building the next-generation of agents on Google CloudBy Darren Mowry • 4-minute read</description>
+    </item>
+    <item>
+      <title>A bridge to modernization: What IDC’s Market Note says about Cameyo by Google</title>
+      <link>https://cloud.google.com/blog/products/chrome-enterprise/a-bridge-to-modernization-what-idcs-market-note-says-about-cameyo-by-google</link>
+      <description>Chrome EnterpriseA bridge to modernization: What IDC’s Market Note says about Cameyo by GoogleBy Rob Beard • 3-minute read</description>
     </item>
   </channel>
 </rss>

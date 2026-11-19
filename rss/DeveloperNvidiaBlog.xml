@@ -6,12 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 18 Nov 2026 07:03:25 +0000</lastBuildDate>
-    <item>
-      <title>使用 NVIDIA DSX OS 配置、认证和运行 Kubernetes GPU 集群</title>
-      <link>https://developer.nvidia.cn/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os/</link>
-      <description>2026年 11月 5日使用 NVIDIA DSX OS 配置、认证和运行 Kubernetes GPU 集群一个性能不佳的 GPU 可能会降低整个分布式训练作业的速度。节点可以通过基本的运行状况检查并显示正常利用率，3 MIN READ</description>
-    </item>
+    <lastBuildDate>Thu, 19 Nov 2026 07:03:45 +0000</lastBuildDate>
     <item>
       <title>使用 Reshard 集合加速强化学习权重调整</title>
       <link>https://developer.nvidia.cn/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/</link>
@@ -31,6 +26,11 @@
       <title>在车端算力与延时限制下运行辅助驾驶推理模型</title>
       <link>https://developer.nvidia.cn/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/</link>
       <description>2026年 11月 10日在车端算力与延时限制下运行辅助驾驶推理模型辅助驾驶汽车（AV）开发者需要能在车端算力与延时限制下运行的推理模型。规模更大的模型能奠定推理能力的基础，但部署到车端还需要额外工作，4 MIN READ</description>
+    </item>
+    <item>
+      <title>通过 NVIDIA DSX AI Factory 使用运行时 AI 清单验证 GPU 平台</title>
+      <link>https://developer.nvidia.cn/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory/</link>
+      <description>2026年 11月 11日通过 NVIDIA DSX AI Factory 使用运行时 AI 清单验证 GPU 平台当团队使用 NVIDIA Dynamo、Slurm 部署和扩展 AI 工作负载时，要跟踪实际运行的内容，需要在谱中捕获的平台配置之外进行查看。3 MIN READ</description>
     </item>
     <item>
       <title>当一个 GPU 无法满足需求时：借助 vLLM 在两个 NVIDIA DGX 工作站上服务 GLM-5.3</title>

@@ -6,42 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 19 Nov 2026 07:03:45 +0000</lastBuildDate>
-    <item>
-      <title>使用 Reshard 集合加速强化学习权重调整</title>
-      <link>https://developer.nvidia.cn/blog/accelerating-reinforcement-learning-weight-refit-with-the-reshard-collective/</link>
-      <description>2026年 11月 6日使用 Reshard 集合加速强化学习权重调整在强化学习 (RL)后训练期间，通过对当前策略模型运行推理，动态生成训练轨迹。为提高训练效率，3 MIN READ</description>
-    </item>
-    <item>
-      <title>在 NVIDIA Blackwell GPU 上使用 FLUX 3 Image Klein 加速图像生成</title>
-      <link>https://developer.nvidia.cn/blog/speed-up-image-generation-with-flux-3-image-klein-on-nvidia-blackwell-gpus/</link>
-      <description>2026年 11月 6日在 NVIDIA Blackwell GPU 上使用 FLUX 3 Image Klein 加速图像生成在设计工具、图像编辑器和视觉制作工作流中部署扩散模型时，开发者必须考虑推理延迟。生成图像需要对具有数十亿参数的模型进行多次连续遍历，8 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA Holoscan 5 让机械臂感觉失重</title>
-      <link>https://developer.nvidia.cn/blog/make-a-robot-arm-feel-weightless-with-nvidia-holoscan-5/</link>
-      <description>2026年 11月 9日使用 NVIDIA Holoscan 5 让机械臂感觉失重想象一下手动引导机械臂的过程，同时其电机提供的扭矩足以支撑其重量并保持机器人垂直行走。这种简单的交互是通过演示进行学习、3 MIN READ</description>
-    </item>
-    <item>
-      <title>在车端算力与延时限制下运行辅助驾驶推理模型</title>
-      <link>https://developer.nvidia.cn/blog/running-av-reasoning-models-within-onboard-compute-and-latency-limits/</link>
-      <description>2026年 11月 10日在车端算力与延时限制下运行辅助驾驶推理模型辅助驾驶汽车（AV）开发者需要能在车端算力与延时限制下运行的推理模型。规模更大的模型能奠定推理能力的基础，但部署到车端还需要额外工作，4 MIN READ</description>
-    </item>
-    <item>
-      <title>通过 NVIDIA DSX AI Factory 使用运行时 AI 清单验证 GPU 平台</title>
-      <link>https://developer.nvidia.cn/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory/</link>
-      <description>2026年 11月 11日通过 NVIDIA DSX AI Factory 使用运行时 AI 清单验证 GPU 平台当团队使用 NVIDIA Dynamo、Slurm 部署和扩展 AI 工作负载时，要跟踪实际运行的内容，需要在谱中捕获的平台配置之外进行查看。3 MIN READ</description>
-    </item>
-    <item>
-      <title>当一个 GPU 无法满足需求时：借助 vLLM 在两个 NVIDIA DGX 工作站上服务 GLM-5.3</title>
-      <link>https://developer.nvidia.cn/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/</link>
-      <description>2026年 11月 13日当一个 GPU 无法满足需求时：借助 vLLM 在两个 NVIDIA DGX 工作站上服务 GLM-5.3在本地运行前沿模型意味着将其所有权重保留在 GPU 显存中；最大的模型不再适合一台机器。通过 ConnectX-8 RDMA 连接的两个…7 MIN READ</description>
-    </item>
-    <item>
-      <title>使用 NVIDIA SOMA Retargeter 调整机器人的人体运动</title>
-      <link>https://developer.nvidia.cn/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/</link>
-      <description>2026年 11月 13日使用 NVIDIA SOMA Retargeter 调整机器人的人体运动人类运动为机器人专家提供了一个很好的起点，可用于指导人形机器人如何移动。人类演示捕捉了从日常动作到复杂任务的自然运动背后的协调性和时间安排。2 MIN READ</description>
-    </item>
+    <lastBuildDate>Fri, 20 Nov 2026 06:56:13 +0000</lastBuildDate>
     <item>
       <title>使用 cuDLA 在 NVIDIA Jetson AGX Orin 上运行 Python 中的原生 DLA 推理</title>
       <link>https://developer.nvidia.cn/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/</link>
@@ -83,9 +48,44 @@
       <description>2026年 11月 17日把“人造太阳”搬上 GPU：用 CUDA C++ 加速聚变等离子体的回旋动理学模拟聚变堆里的 α 粒子既负责加热等离子体，又可能激发不稳定性，把自己“踢”出去。为了预测这一过程，4 MIN READ</description>
     </item>
     <item>
+      <title>使用 Slurm HRES 插件将 QPU 集成到超级计算中心</title>
+      <link>https://developer.nvidia.cn/blog/integrating-qpus-into-supercomputing-centers-using-slurm-hres-plugins/</link>
+      <description>2026年 11月 17日使用 Slurm HRES 插件将 QPU 集成到超级计算中心世界各地的超级计算中心都在集成量子处理器。北美、欧洲和亚洲的国家项目正在推动量子处理器 (QPU) 与高性能计算 (HPC) 系统的安装。3 MIN READ</description>
+    </item>
+    <item>
+      <title>共同设计稀疏注意力以实现高效的长上下文推理</title>
+      <link>https://developer.nvidia.cn/blog/co-designing-sparse-attention-for-efficient-long-context-inference/</link>
+      <description>2026年 11月 17日共同设计稀疏注意力以实现高效的长上下文推理代理式工作负载、长文档和大型代码库正在将上下文长度从数万个 token 推向数十万个 token。在这些长度下，6 MIN READ</description>
+    </item>
+    <item>
       <title>在 DGX Spark 上使用 NVIDIA cuVS 扩展 OpenViking 的智能体记忆检索能力</title>
       <link>https://developer.nvidia.cn/blog/scale-openviking-agent-memory-search-with-nvidia-cuvs-on-dgx-spark/</link>
       <description>2026年 11月 18日在 DGX Spark 上使用 NVIDIA cuVS 扩展 OpenViking 的智能体记忆检索能力假设你让一个项目助手找出上个月做过的一项部署决策。答案可能藏在历史对话、发布说明或项目文档中。助手不仅要找到相关上下文，3 MIN READ</description>
+    </item>
+    <item>
+      <title>利用 K-Point 批处理和混合精度解决平面波 DFT 中的 GPU 瓶颈</title>
+      <link>https://developer.nvidia.cn/blog/tackling-gpu-bottlenecks-in-plane-wave-dft-with-k-point-batching-and-mixed-precision/</link>
+      <description>2026年 11月 18日利用 K-Point 批处理和混合精度解决平面波 DFT 中的 GPU 瓶颈训练新一代机器学习原子间相互作用势 (MLIP) 需要真值：对不同结构和化学中的能量、力和应力进行数千万到数亿的密度泛函理论 (DFT)…5 MIN READ</description>
+    </item>
+    <item>
+      <title>在 NVIDIA Cosmos 中使用两个提示词构建可供训练的物理 AI 数据集</title>
+      <link>https://developer.nvidia.cn/blog/build-training-ready-physical-ai-datasets-with-two-prompts-in-nvidia-cosmos/</link>
+      <description>2026年 11月 18日在 NVIDIA Cosmos 中使用两个提示词构建可供训练的物理 AI 数据集世界模型的准确性始于高质量、多样化的训练数据集。然而，捕获罕见缺陷、夜间事故和其他具有挑战性的场景不仅成本高昂，而且十分耗时。3 MIN READ</description>
+    </item>
+    <item>
+      <title>使用 AI 智能体在 Rust 中构建工具调用解析器</title>
+      <link>https://developer.nvidia.cn/blog/build-tool-calling-parsers-in-rust-with-ai-agents/</link>
+      <description>2026年 11月 19日使用 AI 智能体在 Rust 中构建工具调用解析器工具调用可以分块生成，参数可以被缩短，或者模型特定的标记可能会泄露到答案中。2 MIN READ</description>
+    </item>
+    <item>
+      <title>通过 GPU 原生数据采集为科学仪器实现实时 AI</title>
+      <link>https://developer.nvidia.cn/blog/enabling-real-time-ai-for-scientific-instruments-with-gpu-native-data-acquisition/</link>
+      <description>2026年 11月 19日通过 GPU 原生数据采集为科学仪器实现实时 AI在科学和工业领域，实时分析传感器测量结果有助于 AI 调整流程、指导实验并寻找更好的操作条件。然而，2 MIN READ</description>
+    </item>
+    <item>
+      <title>借助 NVIDIA Dynamo 减少强化学习中的部署瓶颈</title>
+      <link>https://developer.nvidia.cn/blog/reducing-rollout-bottlenecks-in-reinforcement-learning-with-nvidia-dynamo/</link>
+      <description>2026年 11月 19日借助 NVIDIA Dynamo 减少强化学习中的部署瓶颈强化学习 (RL) 使用奖励来训练模型来解决问题并更成功地完成任务。 推理推动了这一过程。工作者生成的数据发布：模型输出、2 MIN READ</description>
     </item>
   </channel>
 </rss>

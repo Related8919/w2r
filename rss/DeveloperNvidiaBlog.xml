@@ -6,7 +6,7 @@
     <description>Latest posts from https://developer.nvidia.com/zh-cn/blog/recent-posts/. follow.is: feedId:91497053095844864+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 20 Nov 2026 06:56:13 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 06:51:25 +0000</lastBuildDate>
     <item>
       <title>使用 cuDLA 在 NVIDIA Jetson AGX Orin 上运行 Python 中的原生 DLA 推理</title>
       <link>https://developer.nvidia.cn/blog/run-native-dla-inference-in-python-on-nvidia-jetson-agx-orin-using-cudla/</link>

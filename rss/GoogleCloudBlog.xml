@@ -6,32 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 20 Nov 2026 06:56:00 +0000</lastBuildDate>
-    <item>
-      <title>COLD RELIC: A Case Study in Impersonation and Compromise</title>
-      <link>https://cloud.google.com/blog/topics/threat-intelligence/cold-relic-a-case-study-in-impersonation-and-compromise</link>
-      <description>Threat IntelligenceCOLD RELIC: A Case Study in Impersonation and CompromiseBy Google Threat Intelligence Group  • 15-minute read</description>
-    </item>
-    <item>
-      <title>The visual evolution of Looker: Modern design for enterprise data storytelling</title>
-      <link>https://cloud.google.com/blog/products/business-intelligence/modern-data-visualizations-and-custom-charts-in-looker</link>
-      <description>Business IntelligenceThe visual evolution of Looker: Modern design for enterprise data storytellingBy Ani Jain • 4-minute read</description>
-    </item>
-    <item>
-      <title>Building an agentic stack in Envoy: routing models, tokens, and MCP</title>
-      <link>https://cloud.google.com/blog/products/networking/the-envoy-agentic-stack-routing-models-tokens-and-mcp</link>
-      <description>NetworkingBuilding an agentic stack in Envoy: routing models, tokens, and MCPBy Abhi Maras • 8-minute read</description>
-    </item>
-    <item>
-      <title>Scaling massive AI/ML workloads with IPv6 on Google Kubernetes Engine clusters</title>
-      <link>https://cloud.google.com/blog/products/networking/run-aiml-workloads-on-ipv6-only-gke-clusters</link>
-      <description>NetworkingScaling massive AI/ML workloads with IPv6 on Google Kubernetes Engine clustersBy Whitney Jenkins • 3-minute read</description>
-    </item>
-    <item>
-      <title>EMEA startups building the next-generation of agents on Google Cloud</title>
-      <link>https://cloud.google.com/blog/topics/startups/google-cloud-highlights-emea-startup-momentum-at-slush-2026</link>
-      <description>StartupsEMEA startups building the next-generation of agents on Google CloudBy Darren Mowry • 4-minute read</description>
-    </item>
+    <lastBuildDate>Sat, 21 Nov 2026 06:51:11 +0000</lastBuildDate>
     <item>
       <title>A bridge to modernization: What IDC’s Market Note says about Cameyo by Google</title>
       <link>https://cloud.google.com/blog/products/chrome-enterprise/a-bridge-to-modernization-what-idcs-market-note-says-about-cameyo-by-google</link>
@@ -43,9 +18,14 @@
       <description>Public SectorScaling workforce productivity and upskilling in the agentic eraBy Brad Hoffman • 2-minute read</description>
     </item>
     <item>
-      <title>ARMORY CASTLE Exploits vSphere</title>
-      <link>https://cloud.google.com/blog/topics/threat-intelligence/armory-castle-exploits-vsphere</link>
-      <description>Threat IntelligenceARMORY CASTLE Exploits vSphereBy Google Threat Intelligence Group  • 26-minute read</description>
+      <title>Introducing in-place migration to GKE Dataplane V2</title>
+      <link>https://cloud.google.com/blog/products/networking/gke-dataplane-v2-in-place-migration</link>
+      <description>NetworkingIntroducing in-place migration to GKE Dataplane V2By Shrikant Kelkar • 4-minute read</description>
+    </item>
+    <item>
+      <title>Helping our partners market smarter, together, with Gemini</title>
+      <link>https://cloud.google.com/blog/topics/partners/helping-our-partners-market-smarter-together-with-gemini</link>
+      <description>PartnersHelping our partners market smarter, together, with GeminiBy Aimee Catalano • 4-minute read</description>
     </item>
     <item>
       <title>What’s new with Google Cloud</title>
@@ -56,6 +36,26 @@
       <title>The Blueprint: How Kult built a gaming companion that actually knows your game</title>
       <link>https://cloud.google.com/blog/products/gaming/kult-built-a-gaming-companion-with-gemini-that-actually-knows-your-game</link>
       <description>GamingThe Blueprint: How Kult built a gaming companion that actually knows your gameBy Omid Ashtari • 6-minute read</description>
+    </item>
+    <item>
+      <title>How Spanner Graph detects ads fraud and abuse at Google at multi-billion node scale</title>
+      <link>https://cloud.google.com/blog/products/databases/how-spanner-graph-detects-google-ads-fraud-and-abuse</link>
+      <description>DatabasesHow Spanner Graph detects ads fraud and abuse at Google at multi-billion node scaleBy Pramod Doguparty • 7-minute read</description>
+    </item>
+    <item>
+      <title>What’s new in Managed Service for Apache Spark 4.0</title>
+      <link>https://cloud.google.com/blog/products/data-analytics/whats-new-in-managed-service-for-apache-spark-4-0</link>
+      <description>Data AnalyticsWhat’s new in Managed Service for Apache Spark 4.0By Meera Srinivasan • 8-minute read</description>
+    </item>
+    <item>
+      <title>DynaPORT modernization on Google Cloud with AlloyDB for PostgreSQL and GKE</title>
+      <link>https://cloud.google.com/blog/products/databases/dynaport-modernizes-with-alloydb</link>
+      <description>DatabasesDynaPORT modernization on Google Cloud with AlloyDB for PostgreSQL and GKEBy Trushar Borse • 10-minute read</description>
+    </item>
+    <item>
+      <title>How Vodafone is using the Data Engineering Agent to improve their data pipelines</title>
+      <link>https://cloud.google.com/blog/products/data-analytics/vodafone-cuts-data-pipeline-costs-30-via-data-engineeringagent</link>
+      <description>Data AnalyticsHow Vodafone is using the Data Engineering Agent to improve their data pipelinesBy Helena Guerra • 7-minute read</description>
     </item>
   </channel>
 </rss>

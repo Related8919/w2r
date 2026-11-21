@@ -6,7 +6,7 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Fri, 20 Nov 2026 06:55:48 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 06:50:59 +0000</lastBuildDate>
     <item>
       <title>zhouxiaoka /autoclip</title>
       <link>https://github.com/zhouxiaoka/autoclip</link>
@@ -60,7 +60,7 @@
     <item>
       <title>firecrawl /firecrawl</title>
       <link>https://github.com/firecrawl/firecrawl</link>
-      <description>Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.</description>
+      <description>Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.</description>
     </item>
     <item>
       <title>cursor /plugins</title>

@@ -6,22 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Mon, 23 Nov 2026 07:14:34 +0000</lastBuildDate>
-    <item>
-      <title>A bridge to modernization: What IDC’s Market Note says about Cameyo by Google</title>
-      <link>https://cloud.google.com/blog/products/chrome-enterprise/a-bridge-to-modernization-what-idcs-market-note-says-about-cameyo-by-google</link>
-      <description>Chrome EnterpriseA bridge to modernization: What IDC’s Market Note says about Cameyo by GoogleBy Rob Beard • 3-minute read</description>
-    </item>
-    <item>
-      <title>Scaling workforce productivity and upskilling in the agentic era</title>
-      <link>https://cloud.google.com/blog/topics/public-sector/scaling-workforce-productivity-and-upskilling-in-the-agentic-era</link>
-      <description>Public SectorScaling workforce productivity and upskilling in the agentic eraBy Brad Hoffman • 2-minute read</description>
-    </item>
-    <item>
-      <title>Introducing in-place migration to GKE Dataplane V2</title>
-      <link>https://cloud.google.com/blog/products/networking/gke-dataplane-v2-in-place-migration</link>
-      <description>NetworkingIntroducing in-place migration to GKE Dataplane V2By Shrikant Kelkar • 4-minute read</description>
-    </item>
+    <lastBuildDate>Tue, 24 Nov 2026 09:38:11 +0000</lastBuildDate>
     <item>
       <title>Helping our partners market smarter, together, with Gemini</title>
       <link>https://cloud.google.com/blog/topics/partners/helping-our-partners-market-smarter-together-with-gemini</link>
@@ -56,6 +41,21 @@
       <title>How Vodafone is using the Data Engineering Agent to improve their data pipelines</title>
       <link>https://cloud.google.com/blog/products/data-analytics/vodafone-cuts-data-pipeline-costs-30-via-data-engineeringagent</link>
       <description>Data AnalyticsHow Vodafone is using the Data Engineering Agent to improve their data pipelinesBy Helena Guerra • 7-minute read</description>
+    </item>
+    <item>
+      <title>Google is named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM</title>
+      <link>https://cloud.google.com/blog/products/identity-security/google-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem</link>
+      <description>Security &amp; IdentityGoogle is named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEMBy Arie Zilberstein • 4-minute read</description>
+    </item>
+    <item>
+      <title>How Sinch modernized its enterprise data warehouse from Snowflake to BigQuery to power AI</title>
+      <link>https://cloud.google.com/blog/products/data-analytics/how-sinch-migrated-from-snowflake-to-bigquery-to-power-ai</link>
+      <description>Data AnalyticsHow Sinch modernized its enterprise data warehouse from Snowflake to BigQuery to power AIBy Prabha Arya • 6-minute read</description>
+    </item>
+    <item>
+      <title>Data + AI Anywhere: AlloyDB Omni integration with local models</title>
+      <link>https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models</link>
+      <description>DatabasesData + AI Anywhere: AlloyDB Omni integration with local modelsBy Rob Yavitch • 4-minute read</description>
     </item>
   </channel>
 </rss>

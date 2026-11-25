@@ -6,12 +6,7 @@
     <description>Latest posts from https://www.cve.org/Media/News/AllNews. follow.is: feedId:91496105774919680+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 24 Nov 2026 09:38:08 +0000</lastBuildDate>
-    <item>
-      <title>Marcelo Trylesinski Added as CVE Numbering Authority (CNA)</title>
-      <link>https://www.cve.org/Media/News/item/news/2026/11/10/Marcelo-Trylesinski-Added-as-CNA</link>
-      <description>Marcelo Trylesinski Added as CVE Numbering Authority (CNA)newsNovember 10, 2026Marcelo Trylesinskiis now aCVE Numbering Authority (CNA)for vulnerabilities in Starlette, python-multipart, Uvicorn, and Mangum.</description>
-    </item>
+    <lastBuildDate>Wed, 25 Nov 2026 08:08:55 +0000</lastBuildDate>
     <item>
       <title>CYVIATION Added as CVE Numbering Authority (CNA)</title>
       <link>https://www.cve.org/Media/News/item/news/2026/11/10/CYVIATION-Added-as-CNA</link>
@@ -56,6 +51,11 @@
       <title>National Cyber Security Centre - United Kingdom Added as CVE Numbering Authority (CNA)</title>
       <link>https://www.cve.org/Media/News/item/news/2026/11/17/NCSC-UK-Added-as-CNA</link>
       <description>National Cyber Security Centre - United Kingdom Added as CVE Numbering Authority (CNA)newsNovember 17, 2026National Cyber Security Centre - United Kingdom(NCSC-UK) is now aCVE Numbering Authority (CNA)and may assign a CVE ID and publish a CVE Record where all of the following apply: the vulnerability affects an industrial control system (ICS) or operational technology (OT) product; the affected product is developed or maintained by a UK-based company; the vulnerability is reported to, identified by, researched by or coordinated by the NCSC-UK; the NCSC-UK has reasonable evidence that a CVE-eligible vulnerability exists; the vulnerability has been, or is expected to be, publicly disclosed; and, no CNA with more appropriate scope is handling the assignment, or the case has been referred or escalated to the NCSC-UK in accordance with CVE Program processes. The NCSC-UK will not assign a CVE ID outside of the above scope. Where another CNA has more appropriate scope, the NCSC-UK will refer the request or coordinate with that CNA.</description>
+    </item>
+    <item>
+      <title>Call for Speakers Now Open forCVE/FIRST VulnCon 2027on March 30 - April 2, 2027!</title>
+      <link>https://www.cve.org/Media/News/item/blog/2026/11/24/Call-Speakers-Open-VulnCon-2027</link>
+      <description>Call for Speakers Now Open forCVE/FIRST VulnCon 2027on March 30 - April 2, 2027!blogBy CVE Program|November 24, 2026CVE/FIRST VulnCon 2027</description>
     </item>
   </channel>
 </rss>

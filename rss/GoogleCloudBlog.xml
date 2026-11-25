@@ -6,17 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Tue, 24 Nov 2026 09:38:11 +0000</lastBuildDate>
-    <item>
-      <title>Helping our partners market smarter, together, with Gemini</title>
-      <link>https://cloud.google.com/blog/topics/partners/helping-our-partners-market-smarter-together-with-gemini</link>
-      <description>PartnersHelping our partners market smarter, together, with GeminiBy Aimee Catalano • 4-minute read</description>
-    </item>
-    <item>
-      <title>What’s new with Google Cloud</title>
-      <link>https://cloud.google.com/blog/topics/inside-google-cloud/whats-new-google-cloud</link>
-      <description>Inside Google CloudWhat’s new with Google CloudBy Google Cloud Content &amp; Editorial  • 51-minute read</description>
-    </item>
+    <lastBuildDate>Wed, 25 Nov 2026 08:09:00 +0000</lastBuildDate>
     <item>
       <title>The Blueprint: How Kult built a gaming companion that actually knows your game</title>
       <link>https://cloud.google.com/blog/products/gaming/kult-built-a-gaming-companion-with-gemini-that-actually-knows-your-game</link>
@@ -56,6 +46,16 @@
       <title>Data + AI Anywhere: AlloyDB Omni integration with local models</title>
       <link>https://cloud.google.com/blog/products/databases/alloydb-omni-integration-with-local-models</link>
       <description>DatabasesData + AI Anywhere: AlloyDB Omni integration with local modelsBy Rob Yavitch • 4-minute read</description>
+    </item>
+    <item>
+      <title>Enabling zero trust: ALLEN’s move to Chrome Enterprise Premium</title>
+      <link>https://cloud.google.com/blog/products/chrome-enterprise/enabling-zero-trust-allens-move-to-chrome-enterprise-premium</link>
+      <description>Chrome EnterpriseEnabling zero trust: ALLEN’s move to Chrome Enterprise PremiumBy Rishabh Chhajer • 3-minute read</description>
+    </item>
+    <item>
+      <title>Built for trust and control: Powering the next wave of AI agents across Google Workspace and Google Cloud</title>
+      <link>https://cloud.google.com/blog/products/identity-security/deploying-agents-safely-in-your-enterprise</link>
+      <description>Security &amp; IdentityBuilt for trust and control: Powering the next wave of AI agents across Google Workspace and Google CloudBy Chandu Thota • 5-minute read</description>
     </item>
   </channel>
 </rss>

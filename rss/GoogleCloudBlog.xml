@@ -6,7 +6,7 @@
     <description>Latest posts from https://cloud.google.com/blog. follow.is: feedId:91496300592943104+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Wed, 25 Nov 2026 08:09:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 07:58:20 +0000</lastBuildDate>
     <item>
       <title>The Blueprint: How Kult built a gaming companion that actually knows your game</title>
       <link>https://cloud.google.com/blog/products/gaming/kult-built-a-gaming-companion-with-gemini-that-actually-knows-your-game</link>

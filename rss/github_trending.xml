@@ -6,11 +6,11 @@
     <description>Latest posts from https://github.com/trending. follow.is: feedId:91495667982848000+userId:43946731810334720</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <lastBuildDate>Thu, 26 Nov 2026 07:58:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 07:59:32 +0000</lastBuildDate>
     <item>
       <title>zhouxiaoka /autoclip</title>
       <link>https://github.com/zhouxiaoka/autoclip</link>
-      <description>AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping &amp; content repurposing.</description>
+      <description>AutoClip｜The open-source OpusClip alternative — local-first AI clipping &amp; MCP server, zero subscriptions. 一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。</description>
     </item>
     <item>
       <title>XiaoYouChR /Ghost-Downloader-3</title>
@@ -30,7 +30,7 @@
     <item>
       <title>mjmirza /app-store-compliance</title>
       <link>https://github.com/mjmirza/app-store-compliance</link>
-      <description>Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.</description>
+      <description>Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.</description>
     </item>
     <item>
       <title>google-labs-code /stitch-skills</title>
